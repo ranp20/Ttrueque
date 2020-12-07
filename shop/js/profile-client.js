@@ -1,8 +1,6 @@
 $(document).on("click","#btn-update-perfilcliente",function(e){
 e.preventDefault();
 let form=$("#form-perfilcliente").serialize();
-console.log(form);
-
 $.ajax({
     url : '../shop/ajax/update-profile.php',
     method : 'POST',
