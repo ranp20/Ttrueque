@@ -1,0 +1,72 @@
+.content-total-page-ttrk{	min-height: 100vh;	display: flex;	flex-direction: column;}
+.content-ttrk-official-markets-c{	max-width: 1200px;	width: 100%;	margin: auto;}
+.contenido-categorias_ttrk-off-header > .content-title-categorias_ttrk {    margin: 25px auto 25px auto;    height: 60px;    display: flex;    align-items: center;}
+.contenido-categorias_ttrk-off-header > .content-title-categorias_ttrk > h3{	font-family: var(--fuente-subtitles);
+}
+/* CONTENIDO PRICIPAL DEL LANDING PAGE*/
+.container-content-off-mrkts{    min-height: 100vh;    display: block;    margin: auto auto 4.2rem auto;    width: 100%;}
+/*BOTÓN PARA VER TODAS LOS PRODUCTOS*/
+.content-btn-more-brands-ttrk{	margin: 0 auto 60px auto;	width: 100%;	text-align: center;}
+.content-btn-more-brands-ttrk > .btn-brands-alls-ttrk{	min-width: 235px;}
+.content-btn-more-brands-ttrk > .btn-brands-alls-ttrk > .btn-into-alls-ttrk{	font-size: 20px;    border: none;    background: #3483fa;    color: #fff;    border-radius: 4px;    line-height: 1;    padding: 14px 32px;    text-align: center;    transition: ease .3s;}
+.content-btn-more-brands-ttrk > .btn-brands-alls-ttrk > .btn-into-alls-ttrk:hover{	background: #047BFA;}
+/* CONTENDOR DE LAS CATEGORÍAS */
+.list-categories-stores-ttrk-c{    width: 100%;}
+.list-categories-stores-ttrk-c > .items-categ-stores-ttrk{    display: flex;    list-style: none;    padding: 0 0 0 0 !important;    margin: 0 !important;    flex-direction: row;    flex-wrap: wrap;}
+.list-categories-stores-ttrk-c > .items-categ-stores-ttrk > .item-categ-stores-into{    display: flex;    flex-direction: column;    margin: 0 .5rem 2rem .5rem;    border: 1px solid #ddd;    border-radius: 10px;    overflow: hidden;    text-align: left;    position: relative;    width: calc(100% * 1/4 - 16px);}
+.list-categories-stores-ttrk-c > .items-categ-stores-ttrk > .item-categ-stores-into > .item-cont-categ-stores{    width: 100%;    height: 100%;    position: relative;}
+.list-categories-stores-ttrk-c > .items-categ-stores-ttrk > .item-categ-stores-into > .item-cont-categ-stores > .cont-logo-categories-str-b-ttrk{    height: 150px;}
+.list-categories-stores-ttrk-c > .items-categ-stores-ttrk > .item-categ-stores-into > .item-cont-categ-stores > .cont-logo-categories-str-b-ttrk> .logo-categ-str-c-ttrk{    width: 100%;    height: 100%;    background-position: center;    background-repeat: no-repeat;    background-size: cover;}
+.list-categories-stores-ttrk-c > .items-categ-stores-ttrk > .item-categ-stores-into > .item-cont-categ-stores > .cont-info-categ-stores-b-ttrk{    position: absolute;    top: 0;    left: 0;    background: rgba(0,0,0,.45);    width: 100%;    height: 100%;    align-items: center;    justify-content: center;    transform: translateY(200px);    transition: all ease .3s;    text-align: center;}
+.list-categories-stores-ttrk-c > .items-categ-stores-ttrk > .item-categ-stores-into > .item-cont-categ-stores > .cont-info-categ-stores-b-ttrk > div{    width: 100%;    height: 100%;    display: flex;    flex-direction: column;    align-items: center;    justify-content: center;    flex-wrap: wrap;}
+.list-categories-stores-ttrk-c > .items-categ-stores-ttrk > .item-categ-stores-into > .item-cont-categ-stores > .cont-info-categ-stores-b-ttrk > div > p{    margin-bottom: 0 !important;    color: #fff;    font-weight: bold !important; 
+}
+.list-categories-stores-ttrk-c > .items-categ-stores-ttrk > .item-categ-stores-into > .item-cont-categ-stores > .cont-info-categ-stores-b-ttrk > div > p:first-child{    font-size: 1.2rem !important;}
+.list-categories-stores-ttrk-c > .items-categ-stores-ttrk > .item-categ-stores-into > .item-cont-categ-stores > .cont-info-categ-stores-b-ttrk > div > p:nth-child(3) > svg{    font-size: 1rem !important;    margin-right: .5rem;}
+/* MOSTRAR LA INFORMACIÓN DE LA TIENDA */
+.list-categories-stores-ttrk-c > .items-categ-stores-ttrk > .item-categ-stores-into > .item-cont-categ-stores:hover > .cont-logo-categories-str-b-ttrk> .logo-categ-str-c-ttrk{    filter: blur(4px);}
+.list-categories-stores-ttrk-c > .items-categ-stores-ttrk > .item-categ-stores-into > .item-cont-categ-stores:hover
+> .cont-info-categ-stores-b-ttrk{    display: block;    transform: translateY(0);}
+.list-categories-stores-ttrk-c > .items-categ-stores-ttrk > .item-categ-stores-into:hover{    border: 1px solid #000;}
+
+/* MEDIA QUERIES */
+@media (max-width: 1250px){
+    .content-ttrk-official-markets-c{width: 90%;}
+}
+@media (max-width: 1024px){
+    .content-ttrk-official-markets-c{width: 90%;}
+    .list-categories-stores-ttrk-c > .items-categ-stores-ttrk{justify-content: center;}
+    .list-categories-stores-ttrk-c > .items-categ-stores-ttrk > .item-categ-stores-into{width: calc(100% * 1/3 - 16px);}
+}
+@media (max-width: 768px){
+    .content-ttrk-official-markets-c{width: 90%;}
+    .list-categories-stores-ttrk-c > .items-categ-stores-ttrk > .item-categ-stores-into{width: calc(100% * 1/3 - 16px);}
+}
+@media (max-width: 767px){
+    .content-ttrk-official-markets-c{width: 95%;}
+    .list-categories-stores-ttrk-c > .items-categ-stores-ttrk > .item-categ-stores-into{width: calc(100% * 1/3 - 16px);}
+}
+@media (max-width: 700px){
+    .content-ttrk-official-markets-c{width: 95%;}
+    .list-categories-stores-ttrk-c > .items-categ-stores-ttrk > .item-categ-stores-into{width: calc(100% * 1/2 - 16px);}
+}
+@media (max-width: 500px){
+    .content-ttrk-official-markets-c{width: 95%;}
+    .list-categories-stores-ttrk-c > .items-categ-stores-ttrk > .item-categ-stores-into{width: calc(100% * 1/2 - 16px);}
+    .list-categories-stores-ttrk-c > .items-categ-stores-ttrk > .item-categ-stores-into > .item-cont-categ-stores > .cont-logo-categories-str-b-ttrk{height: 125px;}
+}
+@media (max-width: 425px){
+    .content-ttrk-official-markets-c{width: 95%;}
+    .list-categories-stores-ttrk-c > .items-categ-stores-ttrk > .item-categ-stores-into{width: calc(100% * 1/2 - 16px);}
+}
+
+@media (max-width: 375px){
+    .content-ttrk-official-markets-c{width: 98%;}
+    .list-categories-stores-ttrk-c > .items-categ-stores-ttrk > .item-categ-stores-into{width: calc(100% * 1/2 - 16px);}
+    .list-categories-stores-ttrk-c > .items-categ-stores-ttrk > .item-categ-stores-into > .item-cont-categ-stores > .cont-logo-categories-str-b-ttrk{height: 100px;}
+}
+@media (max-width: 320px){
+    .content-ttrk-official-markets-c{width: 98%;}
+    .list-categories-stores-ttrk-c > .items-categ-stores-ttrk > .item-categ-stores-into{width: calc(100% * 1/2 - 16px);}
+    .list-categories-stores-ttrk-c > .items-categ-stores-ttrk > .item-categ-stores-into > .item-cont-categ-stores > .cont-logo-categories-str-b-ttrk{height: 80px;}
+}

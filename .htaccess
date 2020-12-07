@@ -1,0 +1,58 @@
+RewriteEngine on
+
+########Rename to the add-store
+RewriteRule ^add-store?$ add-store.php
+#RewriteRule ^complete/([0-9a-zA-Z]+)/([0-9a-zA-Z]+)/([0-9a-zA-Z]+)  shop/verified_m.php?paymentToken=$1&paymentID=$2&form=$3
+RewriteBase /trueque/
+
+########Rename to the add-store
+RewriteRule ^add-store?$ add-store.php
+RewriteRule ^cliente/store/([0-9]+)/([0-9]+)  shop/add-store.php?prod=$1&memb=$2 
+########Rename to the payment-wallet
+#RewriteRule ^check-payment-wkallet?$ check-payment-wallet.php
+#RewriteRule ^cliente/buy-points/([0-9]+)  shop/check-payment-wallet.php?quantity=$1
+#RewriteRule ^informe-ventas  shop/sales-report.php
+
+########Rename files into index
+RewriteRule ^cliente/menbresia?$  shop/menbresia-products.php
+
+RewriteRule ^/?$  views/index.php
+
+RewriteRule ^login?$  views/log-in.php
+RewriteRule ^account?$  views/account.php
+RewriteRule ^product-detail?$  views/product-detail.php
+RewriteRule ^history?$  views/history-shoping.php
+RewriteRule ^weekly?$  views/weekly-deals.php
+RewriteRule ^help-you?$  views/help-you.php
+RewriteRule ^cart?$  views/cart.php
+RewriteRule ^checkout?$  views/checkout.php
+RewriteRule ^favorites?$  views/favorites.php
+RewriteRule ^track-order?$  views/track-order.php
+RewriteRule ^help?$  views/help.php
+RewriteRule ^categorias?$  views/categorias.php
+RewriteRule ^tienda?$ views/tiendas.php
+RewriteRule ^productos?$ views/productos.php
+RewriteRule ^confirm?$ views/confirm.php
+
+##########################################
+RewriteRule ^presentacion_texto_one_b?$  ./view_home/presentacion_texto_one_b.php
+RewriteRule ^presentacion_texto_two_b?$  ./view_home/presentacion_texto_two_b.php
+RewriteRule ^presentacion_texto_three_b?$  ./view_home/presentacion_texto_three_b.php
+
+
+########Rewrite files into home
+RewriteRule ^home?$  home.php
+#RewriteRule ^home_header?$  ./views_home/presentacion_header_texto_b.php
+RewriteRule ^home_texto?$  ./views_home/presentacion_texto_b.php
+#RewriteRule ^footer_home?$  ./views_home/footer-policy.php
+#RewriteRule ^mayores_detalles_one?$  ./views_home/presentacion_texto_one_b.php
+#RewriteRule ^mayores_detalles_two?$  ./views_home/presentacion_texto_two_b.php
+#RewriteRule ^mayores_detalles_three?$  ./views_home/presentacion_texto_three_b.php
+
+
+
+
+
+
+
+ErrorDocument 404 /views/404.php

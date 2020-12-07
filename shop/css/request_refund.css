@@ -1,0 +1,45 @@
+.request_refund-table{
+    background: #fff;
+    width: 100%;
+    text-align: left;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    border-radius: 20px;
+    font-size: .9em;
+    box-shadow: 5px 15px 20px 0 rgba(0,0,0,.2);
+}
+.request_refund-table > thead > tr > th{
+    padding: .9em 1em;
+}
+.request_refund-table > thead > tr > th:first-child{
+    width: 20px;
+}
+.request_refund-table > tbody{
+    border-radius: 0 0 20px 20px;
+}
+.request_refund-table > tbody > tr > td{
+    padding:1.2em 1em;
+    border-top: 1px solid var(--divisor);
+}
+.request_refund-table > tbody > tr > td:first-child{
+    text-align: center;
+}
+.request_refund-table > tbody > tr:hover > td{
+    background: var(--fondo);
+}
+.request_refund-table > tbody > tr > td:nth-child(1){
+    color: red;
+}
+.request_refund-table > tbody > tr > td:nth-child(7){
+    text-align: center;
+}
+.request_refund-table > tbody > tr:first-child > td:nth-child(7){
+    color: green;
+    font-weight: bold;  
+}
+.request_refund-table > tbody > tr:first-child > td:nth-child(8) > i{
+    background: var(--estado_nopagado);
+}
+.request_refund-table > tbody > tr:nth-child(2) > td:nth-child(8) > i{
+    background: var(--estado_pagado);
+}

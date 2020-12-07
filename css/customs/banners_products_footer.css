@@ -1,0 +1,15 @@
+.content-descubre{background:#ebebeb;	padding-top: 30px 0;}
+.content-descubre > #title-content-descubre{margin-bottom: 1.2em;display: flex;align-items: center;justify-content: flex-start;}
+.content-descubre > #title-content-descubre > h3{font-family: var(--fuente-subtitles);}
+/*  BANNER DEL FOOTER */
+#content-grid-banners-footer{display: flex;justify-content: space-between;flex-wrap: wrap;}
+/* CARDS DEL BANNER FOOTER */
+#content-grid-banners-footer > .card-d-banner-footer{width: 49%;border-radius: 5px;background: #fff;box-shadow: 0 1px 1px 0 rgba(0,0,0,0.1);height: 250px;overflow: hidden;text-decoration: none;max-width: 100%;display: grid;grid-template-columns: 1fr 1fr;transition: ease .5s;}
+#content-grid-banners-footer > .card-d-banner-footer:hover{box-shadow: 0 10px 25px rgba(0,0,0,0.2);}
+#content-grid-banners-footer > .card-d-banner-footer > .content-description-banners-footer{display: flex;flex-direction: column;justify-content: center;margin-right: 32px;padding: 32px 0 32px 32px;}
+#content-grid-banners-footer > .card-d-banner-footer > .content-description-banners-footer > p{font-size: 12px;margin:0 0 10px 0;letter-spacing: 5px;color: #000;}
+#content-grid-banners-footer > .card-d-banner-footer > .content-description-banners-footer > h3{text-transform: uppercase;margin-bottom: 15px;}
+#content-grid-banners-footer > .card-d-banner-footer > .content-description-banners-footer > button{background: #007bff;border: none;outline: none;border-radius: 3px;color: #fff;height: 36px;width: 96px;line-height: 1px;transition: ease .3s;}
+#content-grid-banners-footer > .card-d-banner-footer > .content-description-banners-footer > button:hover{background: #FFC107;color: #000;}
+#content-grid-banners-footer > .card-d-banner-footer > .content-img-banners-footer{width: 100%;height: 100%;}
+#content-grid-banners-footer > .card-d-banner-footer > .content-img-banners-footer > .image-banner-f-brand{width: 100%;height: 100%;}

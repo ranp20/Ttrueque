@@ -1,0 +1,7 @@
+#fila-contenedor-principal-dashboard {
+  display: flex;
+  justify-content: center;
+}
+#contenedor-principal-dashboard {
+  width: 90%;
+}

@@ -1,0 +1,167 @@
+.container-sidebar-left-products{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    border-bottom: 1px solid #f0f0f0;
+    max-width: 1200px;
+    margin: auto;
+}
+.contenido-sidebar-producto{
+    width: 100%;
+    padding:2em 0 3em 0;
+}
+.contenido-body-sidebar-producto{
+    display: grid;
+    grid-template-columns: 24% auto;
+    grid-template-areas: "izquierda derecha";
+    grid-template-rows: 1;
+}
+/* **************************************** */
+/********* SIDEBARLEFT - LADO IZQUIERDO *****/
+/* **************************************** */
+.contenido-left-sidebar-product{
+    padding:0 1em;
+}
+.contenido-left-sidebar-product > .nombre-categoria-sidebar-left{
+    font-size: 1.4em;
+    
+}
+#content-cant-resultado > #title-resultado > p{
+    font-weight: bold;
+    font-size:2em;
+    margin-bottom: 0;
+}
+/* ORDENAR PUBLICAIONES */
+#content-ordenar-sidebar-left{
+    display: flex;
+    margin-bottom: 1em;
+}
+#content-ordenar-sidebar-left > #select-ordenar > select{
+    border: none;
+    outline: none;
+    background: transparent;
+}
+/* TIENDAS DEL PRODUCTO */
+#oficial-tiendas > #list-tiendas-sidebar-left > ul{
+    list-style: none;
+    padding-left:0;
+}
+#oficial-tiendas > #list-tiendas-sidebar-left > ul > p{
+    font-size:1.2em;
+}
+/* CATEGORÁIS DEL PRODUCTO */
+#categories-sidebar-left > #body-sidebar-left > ul{
+    list-style: none;
+    padding-left:0;
+}
+#categories-sidebar-left > #body-sidebar-left > ul > a{
+    font-size: 1.2em;
+}
+/* CONDICION DEL PRODUCTO */
+#condicion-sidebar-left > #list-condicion > ul{
+    list-style: none;
+    padding-left:0;
+}
+#condicion-sidebar-left > #list-condicion > ul > a{
+    font-size: 1.2em;
+}
+/* UBICACION DEL PRODUCTO */
+#ubicacion-sidebar-left > #list-ubicaciones > ul{
+    list-style: none;
+    padding-left:0;
+}
+#ubicacion-sidebar-left > #list-ubicaciones > ul > a{
+    font-size: 1.2em;
+}
+/* PRECIO DEL PRODUCTO */
+#precio-sidebar-left > #list-precio > ul{
+    list-style: none;
+    padding-left:0;
+}
+#precio-sidebar-left > #list-precio > ul > p{
+    font-size: 1.2em;
+}
+#precio-sidebar-left > #buscar-precio-sidebar-left{
+    display: flex;
+}
+#precio-sidebar-left > #buscar-precio-sidebar-left > input{
+    width: 25%;
+    margin-bottom: 1em;
+}
+/* DESCUENTOS DEL PRODUCTO */
+#descuentos-sidebar-left > #list-descuentos > ul{
+    list-style: none;
+    padding-left:0;
+}
+#descuentos-sidebar-left > #list-descuentos > ul > p{
+    font-size: 1.2em;
+}
+/* DETALLES DEL PRODUCTO */
+#detalles-sidebar-left > #list-detalles > ul{
+    list-style: none;
+    padding-left:0;
+}
+#detalles-sidebar-left > #list-detalles > ul > p{
+    font-size: 1.2em;
+}
+/* ***************************************** */
+/********* SIDEBARLEFT - LADO DERECHO ********/
+/* ***************************************** */
+.contenido-right-sidebar-product > ul{
+    list-style: none;
+    padding-left: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+}
+.contenido-right-sidebar-product > ul > a{
+    border:1px solid #ddd;
+    height: 100%;
+}
+.contenido-right-sidebar-product > ul > a:hover{
+    box-shadow: 1px 1px 5px -1px #000;
+    transform: scale(1.05);
+}
+.contenido-right-sidebar-product > ul > a > li{
+    height: 100%;
+}
+/* CONTENEDDOR DE IMAGEN DEL PRODUCTO */
+.contenido-right-sidebar-product > ul > a > li > .content-imagen-sidebar-left{
+    border-bottom: 1px solid #ddd;
+    height: 250px;
+    padding: 1em;
+}
+.contenido-right-sidebar-product > ul > a > li > .content-imagen-sidebar-left > img{
+    width: 100%;
+    height: 100%;
+}
+.contenido-right-sidebar-product > ul > a > li > .content-descripcion-sidebar-left,
+.contenido-right-sidebar-product > ul > a > li > .content-imagen-sidebar-left{
+    background:#fff;
+}
+.contenido-right-sidebar-product > ul > a > li > .content-descripcion-sidebar-left{
+    padding: 1em;
+}
+.contenido-right-sidebar-product > ul > a > li > .content-descripcion-sidebar-left > p{
+    margin-bottom: 0;
+}
+/* PÁRRAFOS CON LA DESCRIPCIÓN DEL PRODUCTO */
+.contenido-right-sidebar-product > ul > a > li > .content-descripcion-sidebar-left > p:first-child{
+    font-size: 1.9em;
+}
+.contenido-right-sidebar-product > ul > a > li > .content-descripcion-sidebar-left > p:first-child > svg{
+    color:#FFD700;
+}
+.contenido-right-sidebar-product > ul > a > li > .content-descripcion-sidebar-left > p:nth-child(2){
+    color:#17AC5B;
+    font-size: 1em;
+}
+.contenido-right-sidebar-product > ul > a > li > .content-descripcion-sidebar-left > p:nth-child(3){
+    font-size: 1.15em;
+    color: #000;
+    font-family: var(--fuente-categories);
+}
+.contenido-right-sidebar-product > ul > a > li > .content-descripcion-sidebar-left > p:last-child{
+    font-size: .9em;
+    color: rgba(0,0,0,0.4);
+}

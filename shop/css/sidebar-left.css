@@ -1,0 +1,110 @@
+.sidebar-nav{
+  grid-area: sidebar;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  height: 100%;
+}
+/* FLOTANTE DE LA MEMBRESÍA*/
+.container-memb-rest_cli{
+  background: #fff;
+  border-radius: 50%;
+  top: 3.8rem;
+  right: 1rem;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0 3px 10px 1px rgba(0,0,0,.2), 0 0 0 2px #fff inset;
+  transition: all ease .3s;
+}
+.container-memb-rest_cli:hover{
+  transform: scale(1.1);
+}
+.container-memb-rest_cli:active{
+  transform: scale(.95);
+}
+.container-memb-rest_cli > form{
+  width: 100%;
+  height: 100%;
+}
+.container-memb-rest_cli > form > button{
+  text-decoration: none;
+  border: none;
+  color: #000;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.container-memb-rest_cli > form > button > .content-memb-rest_cli{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.container-memb-rest_cli > form > button > .content-memb-rest_cli > div{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  overflow: hidden;
+}
+
+/*FOTO DEL CLIENTE Y NOMBRE DE LA TIENDA O EMPRESA*/
+.user-image{
+  padding: 0 1em 0 .5em;
+  box-sizing: border-box;
+  width: max-content;
+}
+.user-image > .user-img-content{
+  margin: 12px 0 0 0;
+  display: grid;
+  grid-template-columns: 80px auto;
+  grid-gap: 1.2rem;
+}
+/* FOTO DE LA TIENDA O EL CLIENTE*/
+.user-image > .user-img-content > .img-photo-content-user-v{
+  border-radius: 10px;
+  box-sizing: border-box;
+  width: 80px;
+  margin-right: 18px;
+  height: 80px;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.05), 0 5px 10px 3px rgba(0,0,0,.15);
+  overflow: hidden;
+  background: rgba(0,0,0,.02);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user-image > .user-img-content > .img-photo-content-user-v > div{
+  width: 100%;
+  height: 100%;
+}
+/* NOMBRE DE LA TIENDA O DEL CLIENTE*/
+.user-image > .user-img-content > .name-content-user-v{
+  margin-bottom: 0;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-width: 200px;
+  max-width: 200px;
+}
+.user-image > .user-img-content > .name-content-user-v > p:first-child{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0 !important;
+}
+.user-image > .user-img-content > .name-content-user-v > p:nth-child(2){
+  font-size: 17px;   
+}
+.user-image > .user-img-content > .name-content-user-v > p:nth-child(2) > span{
+  color: red;
+  font-weight: bold;
+}

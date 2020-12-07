@@ -1,0 +1,111 @@
+.top-wallet{
+  display: flex;
+  justify-content: flex-end;
+  font-size: .6em;
+  align-items: center;
+  padding: .5em 0 0 0;
+  margin-bottom: 1em;
+}
+.windows-wallet{
+  color: var(--enlaces);
+}
+.windows-wallet > a{
+  color: #000;
+  text-decoration: none;
+}
+.windows-wallet > a:hover{
+  text-decoration: underline;
+}
+/*//////////// CONTENIDO PRINCIPAL ///////////  */
+.title-add{
+  font-size: 1.2em;
+  text-align: center;
+  margin-bottom: 1em;
+  color: var(--title-wallet);
+  margin-top: 20px;
+}
+/*//////////// BOTONES CONTENIDO ///////////  */
+.content-list-add-wallet{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: auto;
+}
+.content-list-add-wallet > .options-wallet{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.content-list-add-wallet > .options-wallet > li{
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  border: 1px solid rgba(0,0,0,.07);
+  transition: ease .2s;
+  text-align: center;
+  background: #fff;
+  padding: 20px 18px 20px 18px;
+  width: calc(100% * 1/4 - 16px);
+  margin: 0 .5rem 1.5rem .5rem;
+  overflow: hidden;
+}
+.content-list-add-wallet > .options-wallet > li:hover{
+  transform: scale(1.1);
+  box-shadow: 1px 1px 13px 3px rgba(0,0,0,0.09);
+}
+.content-list-add-wallet > .options-wallet > li > .img-cont-list-add-wallet{
+  margin: 5px 0;
+  width: 100%;
+  height: 100px;
+}
+.content-list-add-wallet > .options-wallet > li > .img-cont-list-add-wallet > div{
+  width: 100%;
+  height: 100%;
+}
+.content-list-add-wallet > .options-wallet > li > h3{
+  font-size: .95rem;
+  background: rgba(0,0,0,.4);
+  color: #fff;
+  border-radius: 10px;
+  padding: .3rem 0;
+  margin-bottom: .5rem;
+}
+.content-list-add-wallet > .options-wallet > li > h1.tipe-wallet_recharge{
+  color: green;
+  margin: 0 0 10px 0;
+  font-size: 1.7rem !important;
+}
+.content-list-add-wallet > .options-wallet > li > h1.price-wallet_country{
+  margin: .4rem 0;
+  font-size: 1.8rem;
+}
+.content-list-add-wallet > .options-wallet > li > p{
+  margin-bottom: 30px;
+}
+/* BOTÓN DEL AGREGAR PLAN DE RECARGA */
+.btn-chck-payment-paypal{
+  border:none;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 4px;
+  align-self: flex-end;
+  margin-top: auto;
+  transition: 0s;
+  outline: none;
+  font-size: 16px;
+  text-decoration: none;
+  border:1px solid var(--boton-saldo);
+  color: #000;
+  background: #fff;
+  cursor: pointer;
+}
+.btn-chck-payment-paypal:hover{
+  background: var(--boton-saldo);
+  color: #fff;
+}
+.btn-chck-payment-paypal:active{
+  transform: scale(.95);
+}

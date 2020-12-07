@@ -1,0 +1,113 @@
+/* HEADER DE LOS ENLACES DE LOS TEXTOS DE PRESENTACIÓN */
+.b-two-t-m-xd{	overflow: auto;}
+.page_texto_b1:before{	content: '';	display: block;	top: 0;	z-index: -1;	width: 100%;	position: absolute;	height: 90px;	background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,0) 100%);}
+.page_texto_b1{	position: relative;	height: 70px;	box-sizing: border-box;}
+.container-texto-alls-b{	margin: 0 70px;	padding: 20px 0px;	height: 100%;}
+.container-texto-alls-b > header{	width: 100%;	height: 100%;}
+.content-h-txt-b{    height: 100%;    display: flex;    align-items: center;    justify-content: center;    width: 100%;    margin: auto;}
+.content-h-txt-b > section{	display: flex;    align-items: center;    justify-content: space-between;    max-width: 1152px;    width: 100%;    padding: 0 30px 0 30px;}
+/* SECCIÓN DE LOGO DEL SITIO */
+.content-h-txt-b > section > .content-h-logo-txt-b{
+	text-align: right;	line-height: 2.1em;	width: 160px;  	height: 60px;}
+.content-h-txt-b > section > .content-h-logo-txt-b > .h-logo-txt-b-link-trk{	text-decoration: none;	width: 100%;  	height: 100%;}
+.content-h-txt-b > section > .content-h-logo-txt-b > .h-logo-txt-b-link-trk > img{	width: 100%;	height: 100%;}
+/* SECCIÓN DE BOTONES DE REGISTRO  */
+.content-h-txt-b > section > .content-h-buttons-txt-b > .btn-reg-text-b{	position: relative;	padding: .95em 1.35em;	border-radius: 1.7em;	text-decoration: none;	font-weight: 400;	font-size: 12px;	margin-left: 5px;	transition: 0s;	font-family: var(--fuente-categorias_2);}
+.content-h-txt-b > section > .content-h-buttons-txt-b > a:first-child{	border:1px solid #fff;	color: #fff;}
+.content-h-txt-b > section > .content-h-buttons-txt-b > a:nth-child(2){	color: #000;	border:1px solid transparent;	background: #fff;}
+.content-h-txt-b > section > .content-h-buttons-txt-b > a:first-child:hover{	color: #000;	background: rgba(0,0,0,0.03);}
+.content-h-txt-b > section > .content-h-buttons-txt-b > a:nth-child(2):hover{	background: rgba(0,0,0,0.03);	color: #fff;}
+/*******************************************************************/
+/********* CONTENIDO "MAYORES DETALLES"  - PRIMER ENLACE  **********/
+/*******************************************************************/
+.container-body-txt-b-one{	margin: auto;	min-height: 100vh;	max-width: 1152px;}
+.content-info-txt-b-one{	width: 88%;	margin: auto;}
+.content-info-txt-b-one > section:first-child{	text-align: center;}
+.content-info-txt-b-one > section:first-child > h2{	margin-top: 45px;    font-family: var(--fuente-categorias_2);    font-size: 2.46rem;    font-weight: 400;    color: #2c2e2f;    padding-bottom: 18px;}
+.content-info-txt-b-one > section:first-child > .content-txt-b-cards{	display: flex;	flex-wrap: wrap;	justify-content: space-between;}
+.content-info-txt-b-one > section:first-child > .content-txt-b-cards > .card-txt-b-trk{	width: 47.5%;	border:1px solid #e6e6e6;	margin: 20px 0 25px 0;	height: 420px;}
+.content-info-txt-b-one > section:first-child > .content-txt-b-cards > .card-txt-b-trk:hover{	background: #dddd;	box-shadow: 0 3px #056EB6; }
+/* IMAGEN DE LAS TARGETAS DE INFORMACIÓN REFERENCIAL */
+.content-info-txt-b-one > section:first-child > .content-txt-b-cards > .card-txt-b-trk > .c-img-b-trk{	width: 100%;	height: 200px;}
+.content-info-txt-b-one > section:first-child > .content-txt-b-cards > .card-txt-b-trk > .c-img-b-trk > .img-trgt-b-trk{	width: 100%;	height: 100%;}
+/* CONTENIDO DE LAS TARGETAS DE INFORMACIÓN REFERENCIAL */
+.content-info-txt-b-one > section:first-child > .content-txt-b-cards > .card-txt-b-trk > .c-info-b-trk{	padding-top: 1.8em;    border-top: 1px solid #e6e6e6;}
+.content-info-txt-b-one > section:first-child > .content-txt-b-cards > .card-txt-b-trk > .c-info-b-trk > h3{	font-size: 28px;	font-weight: 400;	font-family: var(--fuente-categorias_2);	color: #2c2e2f;}
+.content-info-txt-b-one > section:first-child > .content-txt-b-cards > .card-txt-b-trk > .c-info-b-trk > h4{	font-size: 20px;	font-weight: 200;	padding-bottom: 30px;	font-family: var(--fuente-categorias_2);	color: #2c2e2f;}
+.content-info-txt-b-one > section:first-child > .content-txt-b-cards > .card-txt-b-trk > .c-info-b-trk > a{	background: #056EB6;	color: #fff;	font-weight: 700;	padding: 15px 45px;	width: 60%;	border-radius: 25px;	font-size: 15px;	transition: 0s;	font-family: var(--fuente-categorias_2);}
+.content-info-txt-b-one > section:first-child > .content-txt-b-cards > .card-txt-b-trk > .c-info-b-trk > a:hover{	background: #034979;}
+/* CONTENIDO DEL PRIMER ENLACE*/
+.content-info-txt-b-one > section:nth-child(2){	box-sizing: border-box;}
+.content-info-txt-b-one > section:nth-child(2) > h2{	text-align: center;	margin: 20px 0;	color: #2c2e2f;}
+/* PRIMER CONTENT */
+.content-info-txt-b-one > section:nth-child(2) > .content-cv-txt-b-one,.content-info-txt-b-one > section:nth-child(2) > .content-c-txt-b-one{	display: grid;	grid-template-columns: 30% 30% auto;	margin: 30px 0px;	height: 200px;	gap:.5em;}
+.content-info-txt-b-one > section:nth-child(2) > .content-cv-txt-b-one > h3,.content-info-txt-b-one > section:nth-child(2) > .content-c-txt-b-one > h3{	text-align: right;	margin-right: 50px;	display: flex;	align-items: center;	justify-content: flex-end;	color: #2c2e2f;	margin-bottom: 0;}
+.content-info-txt-b-one > section:nth-child(2) > .content-cv-txt-b-one > p,.content-info-txt-b-one > section:nth-child(2) > .content-c-txt-b-one > p{	font-size: 18px;	display: flex;	align-items: center;	margin-right: 25px;	text-align: justify;	font-weight: 200;	color: #2c2e2f;	margin-bottom:0;}
+.content-info-txt-b-one > section:nth-child(2) > .content-cv-txt-b-one > .img-trgt-b-trk,.content-info-txt-b-one > section:nth-child(2) > .content-c-txt-b-one > .img-trgt-b-trk{	display: flex;	align-items: center;}
+/********************************************************************/
+/********* CONTENIDO "MAYORES DETALLES"  - TWO ENLACE  **************/
+/********************************************************************/
+.container-body-txt-b-two{	margin: auto;	max-width: 1152px;}
+.content-info-txt-b-two{	width: 90%;	margin: 30px auto 0 auto;}
+.content-info-txt-b-two > section:first-child{	box-sizing: border-box;}
+.content-info-txt-b-two > section:first-child > .content-cb-txt-b-two{	display: grid;	grid-template-columns: 30% 40% auto;	height: 500px;	gap:.5em;}
+.content-info-txt-b-two > section:first-child > .content-cb-txt-b-two > h3{	display: flex;	align-items: center;	justify-content: center;	text-align: center;	padding: .6em;}
+.content-info-txt-b-two > section:first-child > .content-cb-txt-b-two > .content-list-steps-txt-b-two{	display: grid;	gap:1em;}
+.content-info-txt-b-two > section:first-child > .content-cb-txt-b-two > .content-list-steps-txt-b-two > p{	font-size: 1.4em;	display: flex;	align-items: center;	justify-content: center;	margin-right: 1.5em;	font-weight: 300;	text-align: justify;	margin-bottom: 0;}
+.content-info-txt-b-two > section:first-child > .content-cb-txt-b-two > .content-list-steps-txt-b-two > p > span{	display: contents;	font-weight: 700;}
+.content-info-txt-b-two > section:first-child > .content-cb-txt-b-two > .content-list-img-steps-txt-b-two{	display: grid;	gap:1em;}
+.content-info-txt-b-two > section:first-child > .content-cb-txt-b-two > .content-list-img-steps-txt-b-two > .img-list-steps-txt-b-two{	display: flex;	align-items: center;	justify-content: center;	border:1px solid #ddd;	background-repeat: no-repeat;    background-size: cover;    background-position: center;}
+/********************************************************************/
+/********* CONTENIDO "MAYORES DETALLES"  - THREE ENLACE  ************/
+/********************************************************************/
+.container-body-txt-b-three{	margin: auto;	max-width: 1152px;}
+.content-info-txt-b-three{	width: 90%;	margin: 30px auto 0 auto;}
+.content-info-txt-b-three > section:first-child{	box-sizing: border-box;}
+.content-info-txt-b-three > section:first-child > .content-cb-txt-b-three{	display: grid;	grid-template-columns: 30% 40% auto;	height: 500px;}
+.content-info-txt-b-three > section:first-child > .content-cb-txt-b-three > h3{	display: flex;	align-items: center;	justify-content: center;	padding: 3em;	text-align: right;}
+.content-info-txt-b-three > section:first-child > .content-cb-txt-b-three > .content-list-steps-txt-b-three{	display: grid;	gap:1em;}
+.content-info-txt-b-three > section:first-child > .content-cb-txt-b-three > .content-list-steps-txt-b-three > p{	font-size: 1.4em;	display: flex;	align-items: center;	justify-content: center;	margin-right: 1.5em;	font-weight: 300;	text-align: justify;	margin-bottom: 0;}
+.content-info-txt-b-three > section:first-child > .content-cb-txt-b-three > .content-list-steps-txt-b-three > p > span{	display: contents;	font-weight: 700;}
+.content-info-txt-b-three > section:first-child > .content-cb-txt-b-three > .content-list-img-steps-txt-b-three{	display: grid;	gap:1em;}
+.content-info-txt-b-three > section:first-child > .content-cb-txt-b-three > .content-list-img-steps-txt-b-three > .img-list-steps-txt-b-three{	display: flex;	align-items: center;	justify-content: center;		border:1px solid #ddd;}
+/* BOTÓN DEL DESLIZABLE - SEGUNDO ENLACE*/
+.page-two_b > .btn-slide-info{	display: block;    height: 50px;    color: #07437c;    text-align: center;    line-height: 50px;    font-size: 23px;    font-weight: 800;    margin-bottom: 0;}
+/* CONTENIDO DEL DESLIZABLE - TABLA DE PRECIOS */
+.page-two_b > .container-table-membership-txt-b-two{	margin: 0 70px;    padding: 0;    height: 100%;    display: none;}
+.page-two_b > .container-table-membership-txt-b-two > .content-info-table-membership-b-two{	max-width: 1152px;	margin: auto;    width: 85%;}
+/* PRIMER SECTION */
+.page-two_b > .container-table-membership-txt-b-two > .content-info-table-membership-b-two > section:first-child{	margin: 0 0 10px 0;}
+.page-two_b > .container-table-membership-txt-b-two > .content-info-table-membership-b-two > section:first-child > h3{	color: #2c2e2f;	text-align: center;	margin-bottom: 0;	display: block;}
+/* SEGUNDO SECION */
+.page-two_b > .container-table-membership-txt-b-two > .content-info-table-membership-b-two > section:nth-child(2) > ul{	list-style: none;    display: flex;    justify-content: center;    padding: 0;    flex-wrap: wrap;}
+.page-two_b > .container-table-membership-txt-b-two > .content-info-table-membership-b-two > section:nth-child(2) > ul > li{	border: 1px solid #ddd;    width: 30%;    margin: 1em;    display: flex;    flex-direction: column;    box-shadow: 0 4px 5px #ddd;    border-radius: 5px;}
+.page-two_b > .container-table-membership-txt-b-two > .content-info-table-membership-b-two > section:nth-child(2) > ul > li:hover{	background: rgba(0,0,0,.05);}
+.content-info-table-membership-b-two > section:nth-child(2) > ul > li > .t-m-img-b-trk{	width: 100%;    height: 160px;    border-bottom: 1px solid #eee;}
+.content-info-table-membership-b-two > section:nth-child(2) > ul > li > .t-m-img-b-trk > .tm-image-b-trk{	width: 100%;	height: 100%;	background-repeat: no-repeat;	background-size: cover;	background-position: center;}
+/* LISTA DE BENEFICIOS DE MEMBRESÍAS */
+.content-info-table-membership-b-two > section:nth-child(2) > ul > li > .t-m-list-info-params{	padding: 0 2em 2.2em 2em;	height: 100%;}
+.content-info-table-membership-b-two > section:nth-child(2) > ul > li > .t-m-list-info-params > h4{	padding: 20px 0 10px 0;	margin-bottom: 0;	color: #356772;}
+/* LISTA DE BENEFICIOS DE LAS MEMBRESÍAS */
+.content-info-table-membership-b-two > section:nth-child(2) > ul > li > .t-m-list-info-params > .list-membership-t-p{	list-style: "\2013";	padding-left: .8em;	margin-bottom: 0;	font-size: 15px;	line-height: 1.8em;}
+.content-info-table-membership-b-two > section:nth-child(2) > ul > li > .t-m-list-info-params > .list-membership-t-p > li{	padding-left: .6em;}
+.content-info-table-membership-b-two > section:nth-child(2) > ul > li > .btn-info-m-t{	display: flex;	justify-content: flex-end;	padding: 0 2em 1em 0;	color: #B5A687;	font-size: 15px;	font-weight: 600;}
+.content-info-table-membership-b-two > section:nth-child(2) > ul > li > .btn-info-m-t:hover{	color: #716855;}
+
+/* MEDIA QUERIES */
+@media (max-width: 1024px){
+	.container-texto-alls-b{width: 90%;margin: auto;}
+}
+@media (max-width: 480px){
+	.container-texto-alls-b{width: 90%;margin: auto;}
+}
+@media (max-width: 425px){
+	.container-texto-alls-b{width: 100%;margin: auto;}
+	#form-register-info-personal{padding: 0 !important;}
+}
+@media (max-width: 375px){
+	.container-texto-alls-b{width: 100%;margin: auto;}
+	.cont-session-exist-login p{font-size: 0.8rem;}
+}
+@media (max-width: 320px){
+	.container-texto-alls-b{width: 100%;margin: auto;}
+}

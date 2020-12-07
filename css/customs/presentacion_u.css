@@ -1,0 +1,10 @@
+/* CONTENEDOR DE OPCIONES DE REGISTRO EN EL SISTEMA */
+.header-trk > section > .content-options-valid-trk > a{
+	margin-left: 17px;
+	text-decoration: none;
+	color: #fff;
+}
+.header-trk > section > .content-options-valid-trk > .ico-user-valida:hover{
+	background: pink;
+}
+/* ABRIR EL MENÚ DE USUARIO */

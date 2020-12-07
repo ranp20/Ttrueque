@@ -1,0 +1,125 @@
+.content-lista{
+    display: flex;
+    gap: 1em;
+    max-width: 990px;
+    width: 100%;
+}
+.list-whislist{
+    padding: 0 .8em 0 .8em;
+    width: 100%;
+    border-radius: 20px;
+}
+.lista-whislist{
+    border: 1px solid var(--divisor);
+    padding: 1em 1em 1em 0;
+    display: grid;
+    grid-template-columns: 15% auto;
+    grid-template-rows: 2;
+    grid-template-areas:
+        "img-whislist info-whislist"
+        "value-whislist value-whislist";
+    margin-bottom: 1em;
+    box-shadow: -1px 8px 10px -1px rgba(0,0,0,.12);
+    border-radius: 20px;
+    background: #fff;    
+}
+.img-whislist-product{
+    grid-area: img-whislist;
+    text-align: center;
+}
+.info-whislist-product{
+    grid-area: info-whislist;
+}
+.whislist-name-product{
+    font-size: 1.2em;
+}
+.whislist-talla-product{
+    font-size: .7em;
+    margin-bottom: .5em;
+}
+.whislist-price-product{
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+.whislist-contac-vendor{
+    text-decoration: none;
+    font-size: .9em;
+    background: var(--boton-mercado);
+    color: #fff;
+    padding: .5em 1em;
+    border-radius: 3px;
+    box-shadow: -2px 3px 5px -2px #000;
+    transition: ease all .4s;
+}
+.whislist-contac-vendor:hover{
+    background: var(--boton3);
+    color: #000;
+}
+.whislist-contac-vendor i{
+    font-size: 1em;
+}
+.whislist-add-cart{
+    text-decoration: none;
+    font-size: .9em;
+    background: var(--boton1);
+    color: #fff;
+    padding: .5em 1em;
+    border-radius: 3px;
+    box-shadow: -2px 3px 5px -2px #000;
+    transition: ease all .4s;
+}
+.whislist-add-cart:hover{
+    opacity: .7;
+}
+.whislist-contac-vendor:active,
+.whislist-add-cart:active{
+    transform: scale(.95);
+}
+.whislist-add-cart i{
+    font-size: 1em;
+}
+.whislist-name-product{
+    text-decoration: none;
+    font-size: 1em;
+}
+.right-whislist-value{
+    grid-area: value-whislist;
+    text-align: right;
+}
+.whislist-date-add{
+    font-size: .8em;
+    color: var(--enlaces);
+}
+.whislist-delete-product{
+    text-decoration: none;
+    font-size: .9em;
+}
+/* CONTENT LIST FAVORITES */
+.content-whislists > .list-favorites-name-right{
+    background: #fff;
+    min-height: 120px;
+    padding: 1em;
+    width: max-content;
+    box-shadow: -1px 8px 10px -1px rgba(0,0,0,.12);
+    border-radius: 20px;
+}
+.content-whislists > .list-favorites-name-right > .title-whislists{
+    font-size: 1em;
+    margin-bottom: 0;
+}
+.content-whislists > .list-favorites-name-right > .title-whislists > h4{
+    margin-bottom: 15px;
+    color: rgba(0,0,0,.3);
+}
+.content-whislists > .list-favorites-name-right > .add-whislist-products{
+    text-decoration: none;
+    color: var(--enlaces);
+    font-size: .9em;
+    background: var(--divisor);
+    padding: .4em 1em;
+    border-radius: 20px;
+    transition: ease all .3s;
+}
+.content-whislists > .list-favorites-name-right > .add-whislist-products:hover{
+    background: #ccc;
+}

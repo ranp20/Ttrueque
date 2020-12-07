@@ -1,0 +1,181 @@
+/* VISIBILIDAD DEL BOTÓN DE PAGO DE ACUEDO A LA MEMBRESÍA */
+.cnt-paypal-payment.esconder{
+  display: none;
+}
+/* BOTÓN DE MEMBRESÍA BÁSICA */
+.cnt-payments-method{
+  display: block;
+  max-width: 250px;
+  min-width: 250px;
+}
+.cnt-payments-method .btn-memb-store-register{
+  width: 100%;
+  padding: .5rem 0;
+  border: none;
+  border-radius: 1.5rem;
+  color: #fff;
+  background: lightgreen;
+  box-shadow: 0 0 10px 2px rgba(0,0,0,.3);
+  text-shadow: 1px 1px grey;
+  outline: none;
+}
+.cnt-payments-method .btn-memb-store-register:hover{
+  background: green;
+}
+.cnt-payments-method .btn-memb-store-register:active{
+  transform: scale(.95);
+}
+/* ESTILOS PARA LA PÁGINA DE AGREGAR TIENDA */
+.container-t-add-store_ttrq{
+  margin: 0 !important;
+  padding: 0 !important;
+  background: #CE7281;
+  min-height: 100vh !important;
+  width: 100%;
+  top: 0 !important;
+  display: flex;
+}
+.container-t-add-store_ttrq .content-principal-add-store_ttrq{
+  max-width: 1058px;
+  width: 100%;
+  margin: 2rem auto 2rem auto;
+  display: flex;
+  align-items: center;
+  background: violet;
+  box-shadow: 0 3px 10px 4px rgba(0,0,0,0.4);
+  min-height: 100%;
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+.container-t-add-store_ttrq .content-principal-add-store_ttrq .content-left-options-buttons{
+  width: 50%;
+  background: #fff;
+  align-self: flex-start;
+  justify-content: flex-start;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 1.8rem;
+  border-radius: 10px 0 0 10px;
+}
+.container-t-add-store_ttrq .content-principal-add-store_ttrq .content-left-options-buttons div{
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.container-t-add-store_ttrq .content-principal-add-store_ttrq .content-right-inputs{
+  width: 50%;
+  background: #34445B;
+  align-self: flex-end;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 1rem 2rem 2rem 2rem;
+  border-radius: 0 10px 10px 0;
+}
+/* FORMULARIO DE REGISTRO DE DATOS*/
+.form-store .content-controls-radio_add-store{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  border-radius: 20px;
+}
+.form-store .content-controls-radio_add-store div{
+  background: transparent;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+}
+.form-store .content-controls-radio_add-store div:first-child,
+.form-store .content-controls-radio_add-store div:first-child label{
+  border-radius: 20px 0 0 20px;
+}
+.form-store .content-controls-radio_add-store div:nth-child(3),
+.form-store .content-controls-radio_add-store div:nth-child(3) label{
+  border-radius: 0 20px 20px 0;
+}
+.form-store .content-controls-radio_add-store div input{
+  display: none;
+}
+.form-store .content-controls-radio_add-store div input:checked + label{
+  background: #55C8BB;
+  color: #fff;
+  box-shadow: 0 3px 10px 2px rgba(0,0,0,.3);
+}
+.form-store .content-controls-radio_add-store div label{
+  margin: 0 !important;
+  padding: .35rem 0;
+  background: #46576B;
+  color: #fff;
+  width: 100%;
+  cursor: pointer;
+  color: #798798;
+  font-weight: 400;
+  font-size: 0.92rem;
+  transition: all ease .3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-store .content-controls-radio_add-store div label:hover{
+  background: #55C8BB;
+  color: #fff;
+}
+.content-right-inputs .form-store h3{
+  color: #fff;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1.1rem;
+}
+.content-right-inputs #tipos{
+  margin: auto;
+  width: 100%;
+}
+.content-right-inputs #tipos div{
+  width: 82%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto .85rem auto;
+}
+.content-right-inputs #tipos div label{
+  color: #fff;
+  margin-bottom: 0 !important;
+  font-weight: 500;
+}
+.content-right-inputs #tipos div select{
+  border: none !important;
+  border-bottom: 1px solid rgba(255,255,255,.2) !important;
+  background: transparent;
+  line-height: 40px !important;
+  height: 40px;
+  color: grey;
+  outline: none;
+}
+.content-right-inputs #tipos div select option:first-child{
+  display: none;
+}
+.content-right-inputs #tipos div input{
+  width: 100%;
+  background: transparent;
+  border-bottom: 1px solid rgba(255,255,255,.3) !important;
+  border: none;
+  outline: none;
+  line-height: 40px;
+  color: #fff;
+}
+/* CONTENIDO BOTÓN DE PAYPAL*/ 
+.content-buton-paypal-payment{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.content-buton-paypal-payment h3{
+  color: #fff;
+  margin: 0 0 1rem 0 !important;
+}

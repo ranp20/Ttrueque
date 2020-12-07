@@ -1,0 +1,89 @@
+/* CONTAINER DE LA PÁGINA DE LOGIN - INICIAR SESIÓN */
+.body-log-in-ttrueque{	display: flex;	flex-wrap: wrap;	min-height: 100vh;}
+.container-log-in-u{	display: flex;    width: 100%;    background: #fff;    height: 100%;    margin: 30px auto 50px auto;}
+.content-log-in-u{	margin: 0 auto;}
+.content-log-in-u > .sec-log-in-u{  width: 458px;  border: 1px solid #eaeced;  padding: 2.62rem;  border-radius: .31rem;}
+/* CONTENEDOR DEL LOGO - LOG-IN */
+.content-log-in-u > section > .head-log-in-u{	display: flex;	align-items: center;	justify-content: center;	flex-direction: column;	height: 70px;	margin-bottom: 1.5em;}
+.content-log-in-u > section > .head-log-in-u > .logo-head-log-in-u{    height: 70px;    width: 190px;}
+.content-log-in-u > section > .head-log-in-u > .logo-head-log-in-u > img{	width: 100%;	height: 100%;}
+/* FORMULARIO - LOG-IN */
+.content-log-in-u > section > form{	display: flex;	flex-direction: column;}
+.content-log-in-u > section > form > input{	margin-bottom: 1.25rem;  line-height: 3.45em;  border-radius: 0.25rem;  border: 1px solid #9da3a6;  padding: 0 0.65rem;  outline: none;  font-size: 0.8rem;}
+.content-log-in-u > section > form > input:focus{	border:1px solid rgba(0,0,0,0.5);}
+.content-log-in-u > section > form > button{	display: flex;  align-items: center;  justify-content: center;  background: #0070ba;  color: #fff;  min-height: 44px;  border-radius: .25rem;  font-weight: 800;  border: none;  outline: none;  box-sizing: border-box;  text-decoration: none;  transition: .1s;  font-size: .87rem;}
+.content-log-in-u > section > form > button:active{    text-decoration: underline;}
+.content-log-in-u > section > form > button:hover{	background: #004A7C;}
+/* BOTÓN "REGISTRARSE" - LOG-IN */
+.content-register-log-in-u{	text-align: center;}
+.content-divisor-log-in-u{	border-top: 1px solid #ddd;	position: relative;	margin: 25px 0 10px;}
+.content-divisor-log-in-u > span{	background: #fff;	position: relative;	padding: 0 .5em;	top: -.7em;}
+.btn-reg-log-in-u{	background: #E1E7EB;  color: #2C2E2F;  padding: .68rem;  min-height: 2.75rem;  width: 100%;  display: block;  box-sizing: border-box;  font-weight: 700;  font-size: .93rem;  transition: 0;  border-radius: .25rem;}
+.btn-reg-log-in-u:hover{	background: #D7D3EB;}
+/* FOOTER - LOG-IN */
+.footer-log-in-u{	  align-self: flex-end;  text-align: center;  padding: 0.87rem;  padding-top: 0.87rem;  width: 100%;  background: #172134;}
+.footer-log-in-u > .content-f-log-in-u{	text-align: center;}
+.footer-log-in-u > .content-f-log-in-u > .group-f-log-in-u{	list-style: none;	margin-bottom: 0;}
+.footer-log-in-u > .content-f-log-in-u > .group-f-log-in-u > li{  display: inline-block;  margin: 0 .62rem 0 0;}
+.footer-log-in-u > .content-f-log-in-u > .group-f-log-in-u > li > a{	color: #fff;	white-space: nowrap;	font-size: .95em;}
+.footer-log-in-u > .content-f-log-in-u > .group-f-log-in-u > li > a:hover{	text-decoration: underline;}
+.cont-headertop-login{  width: 100% !important;position: relative;}
+.cont-headertop-login:before{  content: '';  display: block;  top: 0;  z-index: -1;  width: 100%;  position: absolute;  height: 90px;  background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,0) 100%);}
+.cont-headertop-login > div{padding: 0.2rem 0;}
+.cont-headertop-login > div > header > div > section{}
+
+/* MEDIA QUERIES - LOGIN.PHP */
+@media (max-width: 1024px) {
+  .container-log-in-u{margin: 80px auto 50px auto;}  
+  .content-log-in-u > .sec-log-in-u{    width: 440px;  }
+  .content-log-in-u > section > form > input{    line-height: 2.75rem;  }    
+  .cont-headertop-login > div{width: 90%;margin: auto;}
+}
+@media (max-width: 768px) {
+	.content-h-txt-b > section > .content-h-logo-txt-b{width: 115px !important;height: 50px !important;}
+  .content-log-in-u > section > .head-log-in-u > .logo-head-log-in-u{    height: 65px;    width: 175px;  }
+  .container-log-in-u{margin: 40px auto 50px auto;}
+  .content-log-in-u > .sec-log-in-u{    width: 390px;  }
+  .content-log-in-u > section > form > input{    line-height: 2.5rem;    font-size: 0.6rem;  }   
+  .content-log-in-u > section > form > button{    font-size: 0.75rem;  }
+  .footer-log-in-u > .content-f-log-in-u > .group-f-log-in-u > li > a{    font-size: .75rem;  }
+  .btn-reg-log-in-u{    font-size: .75rem;  }
+}
+@media (max-width: 480px) {
+  .content-log-in-u{    margin: inherit;  }
+  .content-log-in-u > section > .head-log-in-u > .logo-head-log-in-u{    height: 65px;    width: 175px;  }
+  .container-log-in-u{margin: 40px auto 50px auto;}
+  .content-log-in-u > .sec-log-in-u{    width: 390px;    border: none;    padding: 0 2.62rem 2.62rem 2.62rem;  }
+  .content-log-in-u > section > form > input{    line-height: 2.5rem;    font-size: 0.6rem;  }   
+  .content-log-in-u > section > form > button{    font-size: 0.75rem;  }
+  .footer-log-in-u > .content-f-log-in-u > .group-f-log-in-u{    display: flex;    align-items: center;    justify-content: center;    padding-left: 1rem;  }
+  .footer-log-in-u > .content-f-log-in-u > .group-f-log-in-u > li > a{    font-size: .7rem;  }   
+}
+@media (max-width: 425px) {
+	.cont-headertop-login > div{padding: 0.7rem 0 0 0;}
+	.cont-headertop-login > div > header > div > section{padding: 0;}
+	.content-h-txt-b > section > .content-h-logo-txt-b{width: 89px !important;height: 40px !important;}
+}
+@media (max-width: 375px){
+	.cont-headertop-login > div{padding: 0;height: 60px;}
+	.cont-headertop-login:before{	height: 75px;}
+  .content-log-in-u > section > .head-log-in-u > .logo-head-log-in-u{    height: 65px;    width: 175px;  }
+  .container-log-in-u{margin: .25rem auto auto auto;}
+  .content-log-in-u > .sec-log-in-u{    width: 320px;    padding: 0 .8rem .8rem .8rem;  }
+  .content-log-in-u > section > form > input{    line-height: 2.5rem;    font-size: 0.6rem;  }   
+  .content-log-in-u > section > form > button{    font-size: 0.75rem;  }
+  .footer-log-in-u > .content-f-log-in-u > .group-f-log-in-u > li > a{    font-size: .7rem;  }
+}
+@media (max-width: 320px) {
+  .content-log-in-u > section > .head-log-in-u{    height: 55px;  }
+  .content-log-in-u > section > .head-log-in-u > .logo-head-log-in-u{    height: 60px;    width: 155px;  }
+  .container-log-in-u{    margin: .25rem auto auto auto;  }
+  .content-log-in-u > .sec-log-in-u{    width: 270px;    padding: 0 !important;  }
+  .content-log-in-u > section > form > input{    line-height: 2.5rem;    font-size: 0.6rem;  }   
+  .content-log-in-u > section > form > button{    font-size: 0.85rem;    font-weight: bold;  }
+  .footer-log-in-u > .content-f-log-in-u > .group-f-log-in-u{    display: block;  }
+  .footer-log-in-u > .content-f-log-in-u > .group-f-log-in-u > li:last-child{    margin: 0 1.32rem 0 0;  }
+  .footer-log-in-u > .content-f-log-in-u > .group-f-log-in-u > li > a{    font-size: .7rem;  }
+  .content-log-in-u{    margin: auto;  }
+  .btn-reg-log-in-u{    font-size: 0.85rem;    font-weight: bold;  }
+}

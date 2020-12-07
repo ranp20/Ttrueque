@@ -1,0 +1,217 @@
+/* PLANTILLA DE INTERNET */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.clearfix-store{
+  content: "";
+  display: table;
+  clear: both;
+  width: 200px; 
+}
+a {
+  color: #5D6975;
+  text-decoration: underline;
+}
+
+body {
+  position: relative;
+  width: 21cm;  
+  height: 29.7cm; 
+  margin: 0 auto; 
+  color: #001028;
+  background: #FFFFFF; 
+  font-family: Arial, sans-serif; 
+  font-size: 12px; 
+  font-family: Arial;
+}
+
+header {
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+
+ul{
+  list-style: none !important;
+  padding-left: 0;  
+  margin: .15em 0 !important;
+}
+li div{
+  display: inline-flex;
+}
+li div span{
+  color: #000 !important;
+}
+p{
+  margin-bottom: 0;
+}
+span.store,
+span.client,
+span.address,
+span.email,
+span.femision{
+  color: #7B150E !important;
+  font-weight: bold;
+  margin-bottom: 20px !important;
+}
+#logo {
+  text-align: left;
+  margin-bottom: 8px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid  #5D6975;
+}
+
+i{
+  margin-right: 10px;
+}
+
+#logo_store{
+  width: 100%;
+  height: 100px;
+  float: right;
+  text-align: right;
+}
+#logo_store img{
+  width: 100px;
+  height: 100px;
+}
+
+#project {
+  float: left;
+  border-left: 4px solid #0087C3;
+  padding-left: 1em;
+}
+
+#project span {
+  color: #444;
+  text-align: left;
+  width: 85px;
+  margin-right: 80px;
+  display: inline-block;
+  font-size: 1.2em;
+}
+
+#project ul li{
+  margin-bottom: 8px;
+}
+#company {
+  float: right;
+  text-align: right;
+}
+
+#project div,
+#company div {
+  white-space: nowrap;        
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 20px;
+}
+
+table tr:nth-child(2n-1) td {
+  background: #F5F5F5;
+}
+
+table th,
+table td {
+  text-align: center;
+}
+
+table th:first-child{
+  padding: 5px 0px;
+}
+table th {
+  padding: 5px 20px;
+  color: #5D6975;
+  border-bottom: 1px solid #C1CED9;
+  white-space: nowrap;        
+  font-weight: normal;
+}
+
+table .service,
+table .desc {
+  text-align: left;
+  font-size: 1rem;
+}
+
+
+table td {
+  padding: 15px 5px;
+  text-align: right;
+}
+
+table td.service,
+table td.desc {
+  vertical-align: middle;
+}
+
+table td.unit,
+table td.qty,
+table td.total {
+  font-size: 1em;
+}
+
+
+table td.grand {
+  border-top: 1px solid #5D6975;;
+}
+
+#notices .notice {
+  color: #5D6975;
+  font-size: 1.2em;
+}
+
+footer {
+  color: #5D6975;
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+  border-top: 1px solid #C1CED9;
+  padding: 8px 0;
+  text-align: center;
+}
+
+#info-primary-report tr td{
+  margin: 0;
+  padding: 0;
+}
+#info-primary-report tr td:first-child{
+  border-left: 4px solid #0087C3;
+  padding-left: 1em;
+  text-align: left;
+  float: left;
+}
+
+#info-general-store{
+  float: left;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+}
+#info-general-store ul{
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+#info-general-store ul li{
+  text-align: left;
+}
+#info-general-store ul li div{
+  text-align: left;
+}
+#info-general-store ul li div span{
+  text-align: left;
+}
+#name-str{
+  text-align: left;
+}
+h1{
+  text-align: center;
+  color: grey;
+  font-size: 30px;
+}

@@ -1,0 +1,113 @@
+/*//////////// BOTONES DE ACCIONES - WALLET ///////////  */
+.btns-options-wallet{
+    display: grid;
+    grid-template-columns: 25% 25%;
+    grid-template-areas: "detail add-wallet";
+    gap: 1em;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+.btns-options-wallet a{
+    color: #fff;
+    text-decoration: none;
+    padding: 1em;
+    border-radius: 5px;
+}
+.btns-options-wallet a:active{
+    transform: scale(.95);
+}
+.btns-options-wallet a:hover{
+    color: #fff;
+}
+.btns-options-wallet a i{
+    margin-bottom: 1em;
+}
+.btns-options-wallet a.wallet-detail li div:nth-child(2) h4{
+    margin-bottom: 0 !important;
+}
+/*//////////// BOTONES DE DETALLE DE BILLETERA ///////////  */
+.wallet-detail {
+    background: var(--boton1);
+    transition: ease all .3s;
+}
+.wallet-detail:hover{
+    transform: scale(1.1);
+}
+.wallet-detail li {
+    font-weight: bold;
+}
+.wallet-detail li p{
+    font-weight: lighter;
+    font-size: .7em;
+    margin-bottom: 0 !important;
+}
+.wallet-detail i{
+    background: var(--boton1_icono);
+    padding: .8em;
+    border-radius: 50%;
+    transition:ease all .4s;
+}
+.content-icons .icon-hov:hover{
+    transform: scale(1.3);
+}
+/*//////////// BOTONES DE AGREGAR A BILLETERA ///////////  */
+.add-to-wallet{
+    background: #fff;
+    height: 100%;
+    transition: ease all .3s;
+}
+.add-to-wallet:hover{
+    transform: scale(1.1);
+}
+.add-to-wallet i{
+    color: #fff;
+    background: var(--divisor);
+    border-radius: 50%;
+    padding: 1.2em;
+    transition:ease all .4s;
+}
+.add-to-wallet li{
+    color: red;
+}
+/*//////////// TABLA DE HISTORIAL DE RECARGAR D BILLETERA ///////////  */
+.content-list-history-wallet-ad_cli-ttrk{
+    box-shadow: 5px 15px 20px 0 rgba(0,0,0,.2);
+    border-radius: 20px;
+}
+.content-list-history-wallet-ad_cli-ttrk > .content-wallet{
+    border-radius: 20px 20px 0 0;
+    background: var(--head_contenedor);
+}
+.content-list-history-wallet-ad_cli-ttrk > .content-wallet > .content-history-wallet > .cabecera-wallet{
+    padding: 1em 1.5em;     
+    border-bottom: 1px solid #ddd;
+}
+.content-list-history-wallet-ad_cli-ttrk > .wallet-table{
+    background: #fff;
+    width: 100%;
+    text-align: left;
+    font-size: .9em;
+    border-collapse: collapse;
+    border-radius: 0 0 20px 20px;
+}
+.content-list-history-wallet-ad_cli-ttrk > .wallet-table > thead > tr > th{
+    padding:1em 1em;
+}
+.content-list-history-wallet-ad_cli-ttrk > .wallet-table > tbody{
+    border-radius: 0 0 20px 20px;
+}
+.content-list-history-wallet-ad_cli-ttrk > .wallet-table > tbody > tr > td{
+    padding:1em 1em;
+    border-top: 1px solid var(--fondo);
+}
+.content-list-history-wallet-ad_cli-ttrk > .wallet-table > tbody > tr:hover{
+    background: var(--fondo);
+}
+.content-list-history-wallet-ad_cli-ttrk > .wallet-table > tbody > tr > td:first-child{
+    color: red;
+}
+.content-list-history-wallet-ad_cli-ttrk > .wallet-table > thead > tr > th:first-child{
+    width: 20px;
+}

@@ -1,0 +1,169 @@
+/*===================== PRODUCTO =================*/
+/* CONTENEDOR */
+.fila-contenedor-add-items_all{
+  display: flex;
+  justify-content: center;
+}
+.content-add-items_all{
+  display: flex;
+  flex-direction: column;
+  width: 60% !important;
+}
+/* TITULO DE FORMULARIOS + BOTON DE AGREGADO*/
+#button-add-left-header{
+	background: #93c54b;
+  color: #fff;
+  font-size: 1.1em;
+  padding: .65em;
+  border-radius: 3px;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* MEDIA QUERIES PARA EL BOTÓN DE AGREGADO DE DATOS */
+@media (max-width: 720px){
+  #content-btn-add{
+    direction: rtl;
+    width: 10%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    height: 70px;
+  }
+  #button-add-left-header{
+    background: #93c54b;
+    color: #fff;
+    font-size:1.1em;
+    padding: .65em;
+    border-radius: 3px;
+    font-weight: bold;
+    text-decoration: none;
+    visibility: hidden;
+  }
+  #button-add-left-header > #icon-btn-add{
+    background: #93c54b;
+    color: #fff;
+    font-size:1.1em;
+    padding: .65em;
+    border-radius: 3px;
+    font-weight: bold;
+    text-decoration: none;
+    visibility: visible;
+    margin-right: 0;
+  }
+}
+@media (max-width: 627px){
+  #content-title-manage > h2{
+    margin-top: 1em;
+  }
+}
+@media (max-width: 528px){
+  #content-title-manage > h2{
+    margin-top: 1em;
+  }
+}
+@media (max-width: 403px){
+  #content-title-manage > h2{
+    margin-top: .9em;
+    font-size: 1.8em;
+  }
+}
+/* BOTÓN LISTAS ANGOSTAS */
+@media (max-width: 720px){
+  #content-btn-add_strech{
+    direction: rtl;
+    width: 15%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    height: 70px;
+  }
+  #button-add-left-header{
+    background: #93c54b;
+    color: #fff;
+    font-size:1.1em;
+    padding: .65em;
+    border-radius: 3px;
+    font-weight: bold;
+    text-decoration: none;
+    visibility: hidden;
+  }
+  #button-add-left-header > #icon-btn-add{
+    background: #93c54b;
+    color: #fff;
+    font-size:1.1em;
+    padding: .65em;
+    border-radius: 3px;
+    font-weight: bold;
+    text-decoration: none;
+    visibility: visible;
+    margin-right: 0;
+  }
+}
+@media (max-width: 627px){
+  #content-title-manage > h2{
+    margin-top: 1em;
+  }
+}
+@media (max-width: 528px){
+  #content-title-manage > h2{
+    margin-top: 1em;
+  }
+}
+@media (max-width: 403px){
+  #content-title-manage > h2{
+    margin-top: .9em;
+    font-size: 1.8em;
+  }
+}
+#button-add-left-header:hover{
+	background: #7BA43E;
+}
+#button-add-left-header:active{
+	transform: scale(.95);
+}
+#button-add-left-header > #icon-btn-add{
+	margin-right: .5em;
+}
+#content-title-add{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+#button-list-left-header{
+  background: #428BCA;
+  color: #fff;
+  font-size: 1.1em;
+  padding: .65em;
+  border-radius: 3px;
+  font-weight: bold;
+  text-decoration: none;
+}
+#button-list-left-header:hover{
+  background: #3672A6;
+}
+#button-list-left-header:active{
+  transform: scale(.95);
+}
+#button-list-left-header #icon-btn-list{
+  margin-right: .5em;
+}
+/* OCULTAR LA PRIMERA OPCIÓN DENTRO DEL SELECT */
+.select-onehidden option:first-child{
+  display: none;
+}
+/* MEDIA QUERIES */
+@media screen and(max-width: 814px){
+  #fila-contenedor-add-product{
+    display: block;
+  }
+  #content-add-items_all{
+    display: block;
+  }
+  .primer-content-form{
+    display: block;
+  }    
+}

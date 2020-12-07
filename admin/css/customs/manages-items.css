@@ -1,0 +1,370 @@
+/* ESCONDER TEXTO POR DEFECTO DATATABLES - */
+#list_user_change > tr.odd,
+#list_reports_monthly > tr.odd{
+  display: none;
+}
+table.table-bordered.dataTable #list_user_change td:nth-of-type(even),
+table.table-bordered.dataTable #list_reports_monthly td:nth-of-type(even){
+  display: none !important;
+}
+table.table-bordered.dataTable .list_user_change_th tr th:last-child{
+  display: none;
+}
+#list_user_change > tr td > a,
+#list_reports_monthly > tr td > a{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#list_user_change > tr td > a i,
+#list_reports_monthly > tr td a i{
+  margin-left: 0.5rem;  
+  font-size: 1.2rem;  
+}
+
+/* MENSAJE CUANDO NO HAY REGISTROS */
+.sms-any-data-registers{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+}
+.sms-any-data-registers > h1{
+  color: rgba(0,0,0,.3) !important;
+  font-size: 1.5rem !important;  
+}
+.sms-any-data-registers > i{
+  font-size: 3.5rem;
+  color: rgba(0,0,0,.3) !important;
+}
+/* SELECTS DE FILTRO POR AÑOS */
+.selad-opts-user-store{
+  display: flex;
+  padding: 0.5rem 0;
+  align-items: center;
+  justify-content: center;
+}
+.selad-opts-user-store select{
+  width: 20%; 
+}
+.selad-opts-user-store select option{
+  font-size: 1.24rem;
+}
+.tadm-table-list-years{
+  position: relative;
+}
+.seladm-opts-user-client{
+  display: flex;
+  padding: 0 0 0.5rem 0;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 35%;
+  width: 25%; 
+}
+.seladm-opts-user-client select{
+  width: 50%;  
+}
+.seladm-opts-user-client select option{
+  font-size: 1.24rem;
+}
+/************************************/
+/* TÍTULO DE MANAGER-USER */
+#content-title-manage{
+	display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+#content-title-list-user{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+}
+#button-back-dash-left-header{
+  background: #428BCA;
+  color: #fff;
+  font-size: 1.1em;
+  padding: .65em;
+  border-radius: 3px;
+  font-weight: bold;
+  text-decoration: none;
+}
+#button-back-dash-left-header > #icon-btn-back-dash{
+  margin-left: .5em;   
+}
+#button-back-dash-left-header:hover{
+  background: #3672A6;
+}
+#content-title-manage-admin{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+/*-------- TITULO DE FORMULARIOS(CONFIGURACIÓN DEL PERFIL) - ADMIN -----*/
+#titulo-page-content{
+  color:#6B6B6B;
+}
+#titulo-form-config{
+  font-size: 1.25em;color: #000;
+  color: rgba(0,0,0,0.3);
+}
+#boton-guardado-perfil-1{
+  display: flex;
+  justify-content: flex-end;
+}
+#boton-guardado-perfil-2{
+  display: flex;
+  justify-content: flex-end;
+}
+/* FORM FOR ADD & UPDATE PRODUCTS */
+.cero-content-form,
+.primer-content-form,
+.segundo-content-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/*** CERO FORM-CONTROL  --- OCULTO O INVISIBLE***/
+.cero-content-form{
+  display: none;
+}
+.primer-content-form .form-group:nth-child(1) {
+  width: 45%;
+}
+.primer-content-form .form-group:nth-child(2) {
+  width: 45%;
+}
+.segundo-content-form .form-group:nth-child(1) {
+  width: 45%;
+}
+.segundo-content-form .form-group:nth-child(2) {
+  width: 45%;
+}
+.tercer-content-form .form-group:nth-child(1) {
+  width: 100%;
+}
+
+/* TABLA USUARIOS */
+#zctb_wrapper{
+  position: relative;
+}
+#zctb_wrapper > .dataTables_length{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+}
+#zctb_wrapper > .dataTables_filter{
+  
+}
+
+/* TABLA BANNER PRINCIPAL */
+.tbody-pri-banner-table tr td:first-child{
+  width: 500px;
+  padding: 0;
+  text-align: center;
+  height: auto; 
+}
+.tbody-pri-banner-table tr td:last-child{
+  width: 70px;
+  text-align: center;
+  height: auto;
+  vertical-align: middle;
+}
+.tbody-pri-banner-table tr td:last-child > a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1.3rem .5rem;
+}
+.tbody-pri-banner-table tr td:last-child > a > i{
+  font-size: 1.9rem;
+}
+/* TABLA BANNERs CAROUSEL */
+.tbody-second-banners-table tr td:nth-child(2){
+  padding: 0;
+  text-align: center;
+}
+.tbody-second-banners-table tr td:nth-child(2) > a > img{
+  width: 100px;
+  height: 60px;
+}
+.tbody-second-banners-table tr td:last-child > a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: .9rem .5rem .8rem .5rem;
+}
+.tbody-second-banners-table tr td:last-child > a > i{
+  font-size: 1.6rem;
+}
+/* TABLA BANNERs PUBLICIDAD */
+.tbody-banner-publicity-table tr td:nth-child(3){
+  text-align: center;
+  width: 155px;
+  height: 80px;
+  margin: 0 !important;
+  padding: 0 0 0 0 !important;
+  vertical-align: middle;
+}
+.tbody-banner-publicity-table tr td:last-child{
+  vertical-align: middle;
+  text-align: center;
+}
+.tbody-banner-publicity-table tr td:last-child > a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: .9rem .5rem .8rem .5rem;
+}
+.tbody-banner-publicity-table tr td:last-child > a > i{
+  font-size: 1.6rem;
+}
+/* TABLA PRODUCTOS DEL ADMINISTRADOR */
+.tbody-products-admin-table tr td{
+  vertical-align: middle !important;
+}
+.tbody-products-admin-table tr td:nth-child(9){
+  padding: 0;
+  text-align: center;
+  width: 10%;
+}
+.tbody-products-admin-table tr td:nth-child(9) > a{
+  width: 50px;
+  height: 50px;
+}
+.tbody-products-admin-table tr td:nth-child(9) > a > img{
+  padding: 0;
+  width: 100%;
+}
+.tbody-products-admin-table tr td:nth-child(10) > a{
+  font-size: 1.3rem;
+  padding: .7rem .6rem .4rem .7rem;
+}
+.tbody-products-admin-table tr td:last-child > a{
+  font-size: 1.3rem;
+  padding: .6rem .7rem .4em .7rem;
+}
+/* TABLA RECARGAS DEL ADMINISTRADOR */
+.tbody-recharges-admin-table tr td{
+  text-align: center;
+  vertical-align: middle !important;
+}
+.tbody-recharges-admin-table tr td:first-child{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  width: 10%;
+  background: #fff;
+}
+.tbody-recharges-admin-table tr td:first-child > a > img{
+  width: 100%;
+}
+.tbody-recharges-admin-table tr td:nth-child(5) > a > i{
+  font-size: 1.3rem;
+  padding: .7rem .4rem .4rem .5rem;
+}
+.tbody-recharges-admin-table tr td:last-child > a > i{
+  font-size: 1.3rem;
+  padding: .6rem .5rem .4em .5rem;
+}
+/* TABLA CATEGORÍAS DEL ADMINISTRADOR */
+.tbody-categories-admin-table tr td{
+  text-align: center;
+  vertical-align: middle !important;
+}
+.tbody-categories-admin-table tr td:nth-child(3){
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 20%;
+}
+.tbody-categories-admin-table tr td:nth-child(3) > a > img{
+  width: 100%;
+}
+.tbody-categories-admin-table tr td:nth-child(4) > a > i{
+  font-size: 1.3rem;
+  padding: .7rem .4rem .4rem .5rem; 
+}
+.tbody-categories-admin-table tr td:nth-child(5) > a > i{
+  font-size: 1.3rem;
+  padding: .6rem .5rem .4em .5rem; 
+}
+/* USUARIO SIN TIENDA */
+.tb-list-user-anystore tr td:last-child > a i{
+  margin-left: .5rem;
+  vertical-align: inherit;
+}
+.tb-list-user-anystore tr td:last-child > button i{
+  margin-left: .5rem;
+  vertical-align: inherit;
+}
+.tbl-mng-all-pages div#zctb_paginate > a.paginate_button.previous,
+.tbl-mng-all-pages div#zctb_paginate > a.paginate_button.next{
+  border: 1px solid #ddd;
+  background: #dddd;
+  color: #000;
+  padding: .5rem 1rem;
+  border-radius: .3rem;
+  box-shadow: 0 0px 1px 1px rgba(255,255,255,.9) inset, 0 8px 30px 1px rgba(255,255,255,.4) inset, 0 -11px 15px 1px rgba(0,0,0,.09) inset;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 0 .2rem;
+}
+.tbl-mng-all-pages div#zctb_paginate > span > .paginate_button{
+  border: 1px solid #ddd;
+  background: #dddd;
+  color: #000;
+  padding: .5rem 1rem;
+  border-radius: .3rem;
+  box-shadow: 0 0px 1px 1px rgba(255,255,255,.9) inset, 0 8px 30px 1px rgba(255,255,255,.4) inset, 0 -11px 15px 1px rgba(0,0,0,.09) inset;
+  text-decoration: none;
+  margin: 0 .2rem; 
+  cursor: pointer;
+}
+.tbl-mng-all-pages div#zctb_paginate > span > .paginate_button.current{
+  box-shadow: 0 0 100px 1px rgba(0,0,0,.15) inset !important; 
+}
+/* GENREADOR DE CÓDIGOS QR */
+.cont-title-genqrcode{
+
+}
+.cont-title-genqrcode h5{
+  text-align: center !important;
+  width: 100% !important;
+}
+.cont-qrgeneratecli{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem 1rem 2rem 1rem;
+}
+.cont-qrgeneratecli .cont-qrcode-client{
+  margin-bottom: 1rem; 
+}
+.cont-qrgeneratecli .cont-download-qrcodecli{
+  
+}
+.cont-qrgeneratecli .cont-download-qrcodecli > a{
+  font-size: 1.35rem !important;
+  width: 80% !important;
+  font-weight: lighter !important;
+  padding: .7rem 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin: auto !important;
+}
+.cont-qrgeneratecli .cont-download-qrcodecli > a i{
+  font-size: 1.7rem;
+  margin-left: .7rem;
+}
