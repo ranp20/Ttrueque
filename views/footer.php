@@ -109,7 +109,7 @@
           </div>
         </div>
         <div class="content-right-footer">
-          <i class="fal fa-mobile-android"></i><a href="#" class="lang_ttrq" key="btn-app_f-policy-1">¡Descarga Gratis la App de Trueque!</a>
+          <i class="fal fa-mobile-android"></i><a href="https://play.google.com/store/apps/details?id=ttrueque.css.com" class="lang_ttrq" key="btn-app_f-policy-1">¡Descarga Gratis la App de Trueque!</a>
         </div>
       </div>
     </div>

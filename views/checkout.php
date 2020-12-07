@@ -55,7 +55,7 @@ $country_byid = $c->get_countries_by_idcountry($cli_id[0]['pais']);
 										<option value="<?php echo $cli_id[0]['pais']; ?>" selected><?php echo $cli_id[0]['nombre_pais']; ?></option>
 										<?php 										
 											foreach ($country_byid as $value) {
-													echo "<option value='{$value["id_pais"]}'>{$value["nombre_pais"]}</option>";
+												echo "<option value='{$value["id_pais"]}'>{$value["nombre_pais"]}</option>";
 											}
 
 										 ?>
