@@ -38,11 +38,10 @@ if (isset($_POST['tipo']) && isset($_POST['cantidad']) && isset($_POST['precio-e
     }
 
     $response = $c->add_menbresia($imagen['name'], $tipo, $cantidad, $precio_eeuu, $descrip);
+    header("Location: ../admin/manage-menbresia.php");
     // print_r($response);
     // exit();
 } else {
     $_SESSION['msg'] = 'Error al agregar uno a más registros';
     header("Location: ../admin/add-menbresia.php");
 }
-
-header("../admin/manage-menbresia.php");
