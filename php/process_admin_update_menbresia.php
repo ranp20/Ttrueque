@@ -1,6 +1,6 @@
 <?php
 
-session_start();
+// session_start();
 
 require_once('class/menbresia.php');
 $c = new Menbresia();
@@ -38,11 +38,11 @@ if (isset($_POST['submit'])) {
                 // }
             }
         } else {
-            echo "Arhivo no permitido o excede el tamaño";
+            echo "Arhivo no permitido o excede el tama単o";
         }
     }
 
     $res = $c->update_menbresia($image, $tipo, $cantidad, $precio_eeuu, $descrip, $id);
-    echo $res;
+    //echo $res;
     header('location: ../admin/manage-menbresia.php');
 }
