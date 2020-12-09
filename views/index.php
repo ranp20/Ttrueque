@@ -185,12 +185,14 @@ if (!isset($_SESSION['user'])) {
 	<!--------- SWEEET ALERT 2  ---------->
 	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 	<!---------CUSTOMS JAVASCRIPT--------->
-	<script src="js/customs/custom.js"></script>
 	<script src="js/actions_pages/buy_cart.js"></script>
 	<script src="js/actions_pages/remove.js"></script>
 	<script src="js/actions_pages/customs.js"></script>
 	<script src="js/actions_pages/search_products.js"></script>
 	<script src="js/actions_pages/language_currency.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <!--<script src="js/customs/custom.js"></script>-->
+	<script src="js/customs/custom.js"></script>
 </body>
 
 </html>

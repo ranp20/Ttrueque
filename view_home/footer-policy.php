@@ -13,7 +13,7 @@
         </div>
       </div>
       <div class="content-right-footer">
-        <a href="#"><i class="fal fa-mobile-android"></i>¡Descarga Gratis la App de Trueque!</a>
+        <a href="https://play.google.com/store/apps/details?id=ttrueque.css.com"><i class="fal fa-mobile-android"></i>¡Descarga Gratis la App de Trueque!</a>
       </div>
     </div>
   </div>

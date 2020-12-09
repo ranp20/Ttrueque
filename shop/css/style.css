@@ -57,6 +57,8 @@
   --state-color: #86ba85;
   --btn-update: #027cfd;
   --btn-delete: #d93747;
+  --background-color:rgba(0,0,0,.01);
+  --principal-color: #172134;
 }
 * {
   padding: 0;

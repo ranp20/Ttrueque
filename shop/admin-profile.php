@@ -9,6 +9,8 @@ if (!isset($_SESSION['user'])) {
 require_once '../php/class/client.php';
 $c = new Client();
 $d = $c->get_data_by_id($_SESSION['user']);
+$country_byid = $c->get_countries_by_idcountry($d[0]['pais']);
+
 
 ?>
 <!DOCTYPE html>
@@ -76,11 +78,14 @@ $d = $c->get_data_by_id($_SESSION['user']);
                                     <label for="" class="label-profile lang_ttrq"
                                         key="txt-form-2-cli-de-ad_cli-1">País</label>
                                     <select name="country_cli" class="input-profile">
-                                        <option value="1">Perú</option>
-                                        <option value="2">PerúArgentina</option>
+                                        <option value="<?php echo $d[0]['pais']; ?>" selected>
+                                            <?php echo $d[0]['nombre_pais']; ?></option>
+                                        <?php 
+                                            foreach ($country_byid as $value) {
+                                                echo "<option value='{$value["id_pais"]}'>{$value["nombre_pais"]}</option>";
+                                            }
+                                         ?>
                                     </select>
-
-
                                 </div>
                                 <div class="profile-controls">
                                     <label for="" class="label-profile lang_ttrq"

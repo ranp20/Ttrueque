@@ -1,7 +1,4 @@
 <?php
-if (!isset($_SESSION['user'])) {
-    header('Location: ../account');
-}
 
 require_once '../php/class/client.php';
 $c = new Client();

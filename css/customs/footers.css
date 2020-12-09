@@ -1,5 +1,5 @@
 /* FOOTER PRIMARY */
-.footer_primary_page-ttrk{padding: 60px 0 0 0 !important;    background: currentColor !important;}
+.footer_primary_page-ttrk{padding: 60px 0 0 0 !important;    background: var(--principal-color) !important;}
 .container-list-opts-footer_ttrq > div > h3:first-child{font-weight: bold;}
 .container-list-opts-footer_ttrq > div:last-child h5{color: #fff;}
 /* FOOTER POLICY */

@@ -12,8 +12,8 @@ $(document).ready(function () {
     console.log(res);
     
     $.each(res, function (i, v) {
-      var path = "../../Trueque/shop/folder/" + v.imagen;
-      var path_store = "../../Trueque/shop/images/store/" + v.logo;
+      var path = "../../Ttrueque/shop/folder/" + v.imagen;
+      var path_store = "../../Ttrueque/shop/images/store/" + v.logo;
       var idtienda_cli = v.id_tienda;
       console.log(idtienda_cli);
       console.log(idstore);

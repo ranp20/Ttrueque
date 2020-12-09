@@ -1,6 +1,114 @@
-<header class="version_1">
+  <!----------------------------->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-sm-start fixed-top">
+      <div class="container">
+        <a class="navbar-brand order-1 order-lg-0 ml-lg-0 ml-2 mr-auto cont-logo-ttrq-nav" href="./">
+          <img src="././img/logo/Logo_TTRQ_dark.png" alt="Logo_Ttrueque" class="img-fluid">
+        </a>
+        <button class="navbar-toggler align-self-start" type="button">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse bg-dark p-3 p-lg-0 mt-5 mt-lg-0 d-flex flex-column flex-lg-row flex-xl-row justify-content-lg-between mobileMenu"
+          id="navbarSupportedContent">
+          <form class="form-inline my-2 my-lg-0 align-self-stretch search-input-customs-header">
+            <input type="text" class="search-input_home form-control mr-sm-2" placeholder="Buscar en Ttrueque" id="caja_busqueda_primary" name="product" autocomplete="off">
+            <div class="container-search"></div>
+          </form>
+          <ul class="navbar-nav align-self-stretch">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle con-t-profile-opts-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="lang_ttrq" key="name_user">¡Hola,</span><span>&nbsp;<?php echo ucfirst($d[0][3]); ?>!</span>
+                <input type="hidden" name="paisclient" id="paisclient" value="<?php echo $_SESSION['idcountries'] = $d[0]['pais']; ?>">
+                <input type="hidden" id="userid_cli" value="<?php echo $_SESSION['user']; ?>">
+              </a>
+              <?php
+                $links = [];
+                if (isset($_SESSION["user"])) {
+                  $links[0] = "./cart";
+                  $links[1] = "./cart";
+                } else {
+                  $links[0] = "./account";
+                  $links[1] = "./account";
+                }
+              ?>
+              <div class="dropdown-menu cont-list-opts-profile" aria-labelledby="navbarDropdown">
+                <?php
+                  if (!isset($_SESSION["user"])) {
+                    echo "<a href='./account' class='btn_1' title=''>Inicia sesi&oacute;n o reg&iacute;strate</a>";
+                  } else {
+                    if (!isset($tienda[1][0]["id_menbresia"])) {
+                      echo "<a class='dropdown-item' href='home' title='Home'><i class='ti-home'></i><span>Ir a inicio</span></a>
+                            <a class='dropdown-item' href='cliente/menbresia' title='Mi perfil'><i class='ti-user'></i><span class='lang_ttrq' key='list_user-opt-h-1'>Administrar mi cuenta</span></a>
+                            <a class='dropdown-item' href='./track-order' title='Ratrea tu pedido'><i class='ti-truck'></i><span class='lang_ttrq' key='list_user-opt-h-2'>Rastrea tu pedido</span></a>
+                            <a class='dropdown-item' href='./help' title='Ayuda'><i class='ti-help-alt'></i><span class='lang_ttrq' key='list_user-opt-h-3'>Ayuda y preguntas frecuentes</span></a>
+                            <a class='dropdown-item' href='././php/process_account_logout.php' title='Salir'><i class='ti-power-off'></i><span  class='lang_ttrq' key='list_user-opt-h-4'>Cerrar sesi&oacute;n</span></a>
+                          ";
+                    } else {
+                      echo "<a class='dropdown-item' href='home' title='Home'><i class='ti-home'></i><span>Ir a inicio</span></a>
+                            <a class='dropdown-item' href='shop' title='Mi perfil'><i class='ti-user'></i><span class='lang_ttrq' key='list_user-opt-h-1'>Administrar mi cuenta</span></a>
+                            <a class='dropdown-item' href='./track-order
+                            ' title='Ratrea tu pedido'><i class='ti-truck'></i><span class='lang_ttrq' key='list_user-opt-h-2'>Rastrea tu pedido</span></a>
+                            <a class='dropdown-item' href='./help' title='Ayuda'><i class='ti-help-alt'></i><span class='lang_ttrq' key='list_user-opt-h-3'>Ayuda y preguntas frecuentes</span></a>
+                            <a class='dropdown-item' href='././php/process_account_logout.php' title='Salir'><i class='ti-power-off'></i><span  class='lang_ttrq' key='list_user-opt-h-4'>Cerrar sesi&oacute;n</span></a>
+                          ";
+                    }
+                  }
+                  ?>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle con-t-categories-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span>Categorías</span>
+              </a>
+              <div class="dropdown-menu content-list-categories-naside" aria-labelledby="navbarDropdown">
+                <?php
+                  foreach ($cat_limit as $key => $val) {
+                    $e =    $val["nombre_categoria"];
+                    $url =    str_replace(" ", "-", $e);
+
+                    echo "
+                      <a class='dropdown-item' href='tienda?tipos={$url}'>
+                          <span>{$val["nombre_categoria"]}</span>
+                          
+                      </a>";
+                  }
+                  ?>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle con-t-countries-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span>Idiomas</span>
+              </a>
+              <div class="dropdown-menu content-all-countries-naside" aria-labelledby="navbarDropdown">
+                <?php
+                  foreach ($flags as $key => $value) {
+                    echo "<button 
+                              
+                              data-pref='{$value['prefijo_moneda']}' 
+                              data-simbol='{$value['simbolo_moneda']}' 
+                              data-moneda='{$value['moneda']}' 
+
+                              class='dropdown-item translate_lang' id='{$value['prefijo']}'>
+                              <img src='./admin/images/banderas/{$value['bandera']}'>
+                            </button>
+                        ";
+                    }
+                  ?>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <a href="#" class="cart_icon_header_b-ttrq order-1" id="view_cart_ttrq">
+          <span id="count-product-cart"></span>
+        </a>
+      </div>
+    </nav>
+    <div class="overlay"></div>
+  <!------------------------------------------>
+<!--<header class="version_1">
+
   <div class="layer"></div>
-  <!-- /main_header -->
+
   <div class="main_nav inner Sticky header_b_second-div">
     <div class="container header-cont-opts-primary">
       <div class="row" id="principal-home1">
@@ -18,7 +126,7 @@
               </span>
               <div id="menu">
                 <ul class="content-lista-categorias">
-                  <?php
+                  <?php/*
                   foreach ($cat_limit as $key => $val) {
                     $e =    $val["nombre_categoria"];
                     $url =    str_replace(" ", "-", $e);
@@ -40,11 +148,10 @@
             </li>
           </ul>
         </div>
-        <!-- //LOGO TTRUEQUE -->
         <div class="d-lg-flex align-items-center">
           <a class="link-logo_official_ttrueque" href="./">
             <span class="ttrq_provider_logo"> T </span>
-            <img src="././img/logo/Logo_TTRK.png" alt="Logo_Ttrueque">
+            <img src="././img/logo/Logo_TTRQ_dark.png" alt="Logo_Ttrueque">
           </a>
         </div>
         <div class="custom-search-input_buscador">
@@ -61,7 +168,7 @@
           </div>
         </div>
         <div class="cont-options-header-index">
-          <?php
+          <?php/*
           $links = [];
           if (isset($_SESSION["user"])) {
             $links[0] = "./cart";
@@ -69,14 +176,14 @@
           } else {
             $links[0] = "./account";
             $links[1] = "./account";
-          }
+          }*/
           ?>
           <ul class="top_tools icons_header_b_right">
-            <!-- //ICONO DE USUARIO-->
+
             <li>
               <div class="dropdown dropdown-access">
                 <a href="javascript:void(0)" class="access_link my-account-user-index" title="Mi cuenta">
-                  <p class="lang_ttrq" key="name_user">¡Hola,</p><span> <?php echo ucfirst($d[0][3]); ?>!</span>
+                  <p class="lang_ttrq" key="name_user">¡Hola,</p><span> <?php /*echo ucfirst($d[0][3]); ?>!</span>
                   <input type="hidden" name="paisclient" id="paisclient" value="<?php echo $_SESSION['idcountries'] = $d[0]['pais']; ?>">
                   <input type="hidden" id="userid_cli" value="<?php echo $_SESSION['user']; ?>">
                 </a>
@@ -125,18 +232,19 @@
                         </li>
                       </ul>";
                     }
-                  }
+                  }*/
                   ?>
                 </div>
               </div>
             </li>
-            <!-- //ICONO DE LENGUAJES EN EL SITIO-->
+
             <li>
               <a href="#" class="language_icon_header_b-ttrq">
                 <div class="icon-language_ttrq">
                   <ul>
 
                     <?php
+                    /*
                     foreach ($flags as $key => $value) {
                       echo "
                             <li>
@@ -151,18 +259,18 @@
                               </button>
                             </li>
                           ";
-                    }
+                    }*/
 
                     ?>
                   </ul>
                 </div>
               </a>
             </li>
-            <!-- //ICONO LISTA DE DESEOS-->
+
             <li>
               <a href="favorites" class="wishlist menu_whishlist_header_b" title="Ver lista de Deseos"><span>Lista de Deseos</span></a>
             </li>
-            <!-- //ICONO DE CARRITO DE COMPRAS-->
+
             <li>
               <a href="#" class="cart_icon_header_b-ttrq" id="view_cart_ttrq">
                 <span id="count-product-cart"></span>
@@ -171,17 +279,18 @@
           </ul>
         </div>
       </div>
-      <!-- /row -->
+
     </div>
-    <!-- /search_mobile -->
+
   </div>
-  <!-- /main_nav -->
+
   <div class="content-cart-slide-ttrq_header_b">
     <div class="content-into-cart-slide-ttrq_header_b">
 
     </div>
   </div>
-</header>
+</header>-->
+
 <div class="containt_total_ttrq-cart">
   <div class="container_cart_lis-ttrq">
     <div class="content-list_cart_hb_ttrq">

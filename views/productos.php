@@ -53,5 +53,6 @@ require_once 'header_index.php';
 	<script src="./js/actions_pages/listProds_Search_Category.js"></script>
 	<script src="./js/actions_pages/listProds_Store_Category.js"></script>
 	<script src="./js/actions_pages/language_currency.js"></script>
+	<script src="js/customs/custom.js"></script>
 </body>
 </html>

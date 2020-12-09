@@ -52,7 +52,7 @@ $(document).ready(function () {
                   </div>
                   <div class="cont-info-product-search-categ">
                     <p>${name_prod}</p>
-                    <p>${v.precio_producto} Puntos</p>
+                    <p>${v.precio_producto} Bikers</p>
                   </div>
                 </div>
               </div>
@@ -74,7 +74,7 @@ $(document).ready(function () {
                 <div>
                   <div class="cont-info-product-search-categ">
                     <p>${name_prod}</p>
-                    <p>${v.precio_producto} Puntos</p>
+                    <p>${v.precio_producto} Bikers</p>
                     <ul>
                       <li>
                         <a href="#0" class="button_add_cart_search_cat"
@@ -204,7 +204,7 @@ function listProductsIntoCart() {
             </a>
           </div>
           <div class="content-price-s-prods">
-            <span>${v.sub_total}</span><span>Puntos</span>
+            <span>${v.sub_total}</span><span> Bikers</span>
           </div>
         </li>
       `);
