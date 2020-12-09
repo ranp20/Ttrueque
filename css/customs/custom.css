@@ -49,6 +49,9 @@
   --fuente-categorias_3: "Sen", sans-serif;
   --fuente-categorias_4: "Oxygen", sans-serif;
   --fuente-logo: "Spartan", sans-serif;
+  --principal-color: #172134;
+  --principal-color-h: #FFC107;
+  --color-black-h: #000;
 }
 
 /**
@@ -216,14 +219,7 @@ body::-webkit-scrollbar-track:hover {
   > a:hover {
   background: #df4251 !important;
 }
-/*ICONO DEL CARRITO*/
-.cart_icon_header_b-ttrq:before {
-  font-family: "header_icons";
-  font-size: 26px;
-  font-size: 1.625rem;
-  font-weight: 500 !important;
-  content: "\0042";
-}
+
 /* VER Y OCULTAR EL CARRITO DE COMPRAS*/
 .containt_total_ttrq-cart {
   display: none !important;
@@ -545,7 +541,7 @@ body::-webkit-scrollbar-track:hover {
 }
 .contain-btn-go-to-cart_ttrq > a{
   border: none;
-  background: #25d366;
+  background: var(--principal-color);
   padding: 0.4rem 0;
   color: #fff;
   font-size: 1.4rem;
@@ -556,8 +552,11 @@ body::-webkit-scrollbar-track:hover {
   outline: none;
   text-decoration: none;
   text-align: center;
+  transition: ease 0.3s !important;
 }
 .contain-btn-go-to-cart_ttrq > a:hover{
+  background: var(--principal-color-h);
+  color: var(--color-black-h);
   box-shadow: 0 0 16px 4px rgba(0,0,0,.2);
 }
 .contain-btn-go-to-cart_ttrq > a:active{
@@ -717,7 +716,7 @@ body::-webkit-scrollbar-track:hover {
 .content-msg-any-prods_by_store div a{
   font-size: 20px;
   border: none;
-  background: #3483fa;
+  background: var(--principal-color);
   color: #fff;
   border-radius: 4px;
   line-height: 1;
@@ -727,7 +726,8 @@ body::-webkit-scrollbar-track:hover {
   text-decoration: none;    
 }
 .content-msg-any-prods_by_store div a:hover{
-    background: #047BFA;
+    background: var(--principal-color-h);
+    color: var(--color-black-h);
 }
 /* CATEGORÍAS VACÍAS EN TIENDA*/
 .content-msg-any-categs-into-store{
@@ -799,4 +799,8 @@ body::-webkit-scrollbar-track:hover {
 @media (max-width: 320px){
   .cont-sms-confirm{width: 90%;}
   #confirm{padding: 7rem .9rem;}
+}
+/* MARGIN TOP CONTENIDO */
+.bg_gray{
+  margin-top: 4rem !important;
 }

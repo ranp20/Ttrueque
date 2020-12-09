@@ -1,5 +1,6 @@
 <?php require_once "./php/process_header_home.php"; ?>
 
+
 <div class="content-total-banner">
     <div class="content-header-trk">
         <header class="header-trk">
@@ -32,8 +33,48 @@
             </section>
         </header>
     </div>
+    <!-------------------------->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-sm-start fixed-top" id="cont-total-tabs">
+  <div class="container">
+    <button class="navbar-toggler align-self-start" type="button">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse bg-dark p-3 p-lg-0 mt-5 mt-lg-0 d-flex flex-column flex-lg-row flex-xl-row justify-content-lg-between mobileMenu tabs-header"
+      id="navbarSupportedContent">
+      <ul class="navbar-nav align-self-stretch d-flex justify-content-between cont-tabs-principal-home cont-links-pgs-info">
+        <a href="#textoinicioshome">
+            <li class="nav-item dropdown">
+                <span>INICIO</span>
+            </li>
+        </a>
+        <a href="#que-es-ttrueque">
+            <li class="nav-item dropdown">
+                <span>¿QUÉ ES?</span>
+            </li>
+        </a>
+        <a href="#guia-al-comprador-ttrueque">
+            <li class="nav-item dropdown">
+                <span>GUÍA AL COMPRADOR</span>
+            </li>
+        </a>
+        <a href="#guia-al-vendedor-ttrueque">
+            <li class="nav-item dropdown">
+                <span>GUÍA AL VENDEDOR</span>
+            </li>
+        </a>
+        <a href="#preguntas-frecuentes-ttrueque">
+            <li class="nav-item dropdown">
+                <span>PREGUNTAS FRECUENTES</span>
+            </li>
+        </a>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="overlay"></div>
+    <!-------------------------->
     <!-- ///BARRA DE NAVEGACIÓN EN EL HEADER-->
-    <div class="content-b-bar-options-h">
+    <!--<div class="content-b-bar-options-h">
         <div class="cont-opts-h">
             <ul class="cont-links-pgs-info">
                 <a href="#textoinicioshome">
@@ -53,7 +94,7 @@
                 </a>
             </ul>
         </div>
-    </div>
+    </div>-->
     <div class="content-banner-p-trk">
         <div class="content-b-banner-trk">
             <section>
