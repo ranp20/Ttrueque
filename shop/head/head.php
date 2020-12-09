@@ -1,6 +1,6 @@
 <?php 
 $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";
-$url =  $actual_link . "/" ."Trueque/";
+$url =  $actual_link . "/" ."Ttrueque/";
 ?>
 
 <!DOCTYPE html>
@@ -18,7 +18,7 @@ $url =  $actual_link . "/" ."Trueque/";
     <!--//LINEICONS CDN-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.css">
     <script src="../js/actions_pages/language_currency.js"></script>
-    <link rel="stylesheet" href="../../../shop/css/add-store.css">
+    <link rel="stylesheet" href="<?php echo $url ?>shop/css/style.css">
     <!-----//ICON-PAGES------>
     <link rel="icon" href="<?php echo $url ?>img/icon-pages/drawable-xxxhdpi-icon.png" type="image/ico">
 </head>

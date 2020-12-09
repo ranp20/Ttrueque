@@ -11,7 +11,7 @@
 .content-btn-more-brands-ttrk > .btn-brands-alls-ttrk > .btn-into-alls-ttrk{	font-size: 20px;    border: none;    background: var(--principal-color);    color: #fff;    border-radius: 4px;    line-height: 1;    padding: 14px 32px;    text-align: center;    transition: ease .3s;}
 .content-btn-more-brands-ttrk > .btn-brands-alls-ttrk > .btn-into-alls-ttrk:hover{	background: var(--principal-color-h);color: var(--color-black-h);}
 /* RESULTADOS DE PRODUCTOS POR CATEGORIÍA -> TIENDA*/
-.item-product-stores-into{    width: 222px;    border: 1px solid #dddd;    border-radius: 12px;    background: #fff;    position: relative;    overflow: hidden;    margin: 1rem .6rem;    text-decoration: none;    transition: all ease .4s;}
+.item-product-stores-into{    width: 222px;    border: 1px solid #dddd;    border-radius: 12px;    background: #fff;    position: relative;    overflow: hidden;    margin: 1rem .4rem;    text-decoration: none;    transition: all ease .4s;}
 .item-product-stores-into:hover{	transform: translateY(-10px);    background: #fff;    box-shadow: 0 10px 16px 0 rgba(0,0,0,.2);    border-radius: 12px;}
 .item-cont-products-store{	display: block;	position: relative;	text-decoration: none;}
 .item-cont-products-store{	display: flex;    align-items: center;    justify-content: space-between;    flex-direction: column;    border-radius: 15px;}
@@ -21,7 +21,7 @@
 .cont-info-product-stores-b-ttrk{	display: flex;    flex-direction: column;    align-items: flex-start;    justify-content: flex-start;    box-sizing: border-box;    width: 100%;    padding: .5rem 1rem .5rem 1rem;    height: 115px;    min-height: 115px;    max-height: 115px;}
 .cont-info-product-stores-b-ttrk p{    margin: 0 !important;    color: #444;}
 .cont-info-product-stores-b-ttrk p:first-child{    font-size: .92rem;    height: 100%;}
-.cont-info-product-stores-b-ttrk p:nth-child(2){    font-size: 1.25rem;    align-self: flex-end;    justify-self: flex-end;}
+.cont-info-product-stores-b-ttrk p:nth-child(2){    font-size: 1.25rem;    align-self: flex-end;    justify-self: flex-end;text-align: left;width: inherit;color: var(--color-letters-price);}
 /* CONTENIDO DE LOS TOOLTIPS */
 .cont-info-product-stores-b-ttrk ul{    list-style: none;    padding: 0 !important;    margin: 0 !important;}
 .cont-info-product-stores-b-ttrk ul li .heart-icon-p-by-str{	position: absolute;    top: 3.2rem;    right: .5rem;}

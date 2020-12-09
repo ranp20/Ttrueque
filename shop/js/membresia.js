@@ -9,7 +9,7 @@ var cant_memb = $(".cant_memb");
 
 function list_info_by_memb() {
   $.ajax({
-    url: "../../../../Trueque/shop/ajax/list_info_by_memb.php",
+    url: "../../../../Ttrueque/shop/ajax/list_info_by_memb.php",
     dataType: "JSON",
     method: "POST",
     contentType: 'application/x-www-form-urlencoded;charset=UTF-8',
@@ -40,7 +40,7 @@ function list_cant_m_idtienda() {
   var tienda = $(".get_selidtienda").val();
   //console.log(tienda);
   $.ajax({
-    url: "../../Trueque/shop/ajax/list_memb_by_idtienda.php",
+    url: "../../Ttrueque/shop/ajax/list_memb_by_idtienda.php",
     dataType: "JSON",
     method: "POST",
     contentType: 'application/x-www-form-urlencoded;charset=UTF-8',

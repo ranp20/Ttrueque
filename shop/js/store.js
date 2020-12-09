@@ -234,7 +234,7 @@ function insertMenb() {
   var formData = $("#form-store").serialize();
   console.log(formData);
   $.ajax({
-    url: "../../../../Trueque/shop/ajax/register-store-basic.php",
+    url: "../../../../Ttrueque/shop/ajax/register-store-basic.php",
     method: "POST",
     data: formData,
   }).done((e) => {

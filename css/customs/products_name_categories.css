@@ -24,7 +24,7 @@
 .cont-info-product-name_categ-ttrk{    display: flex;    flex-direction: column;    align-items: flex-start;    justify-content: flex-start;    box-sizing: border-box;    width: 100%;    padding: .5rem 1rem .5rem 1rem;    height: 115px;    min-height: 115px;    max-height: 115px;}
 .cont-info-product-name_categ-ttrk p{	margin: 0 !important;	color: #444;}
 .cont-info-product-name_categ-ttrk p:first-child{	font-size: .92rem;    height: 100%;}
-.cont-info-product-name_categ-ttrk p:nth-child(2){	font-size: 1.25rem;    align-self: flex-end;    justify-self: flex-end;}
+.cont-info-product-name_categ-ttrk p:nth-child(2){	font-size: 1.25rem;    align-self: flex-end;    justify-self: flex-end;text-align: left;width: inherit;color: var(--color-letters-price);}
 .cont-info-product-name_categ-ttrk ul{    list-style: none;    padding: 0 !important;    margin: 0 !important;}
 .cont-info-product-name_categ-ttrk ul li:nth-child(2) .heart-icon-p-by-str{	position: absolute;    top: 3.2rem;    right: .5rem;}
 .cont-info-product-name_categ-ttrk ul li:nth-child(2) .heart-icon-p-by-str{    width: 30px;    height: 20px;    display: flex;    align-items: center;    justify-content: center;    text-align: center;    padding: 1.1rem;    background: #fff;}

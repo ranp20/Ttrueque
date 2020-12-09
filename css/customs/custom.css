@@ -52,6 +52,8 @@
   --principal-color: #172134;
   --principal-color-h: #FFC107;
   --color-black-h: #000;
+  --background-color: rgba(0,0,0,.01);
+  --color-letters-price: #004dda;
 }
 
 /**

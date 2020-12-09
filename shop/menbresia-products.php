@@ -18,7 +18,7 @@ include "./head/head.php";
         <div class="content-top-memb">
           <div class="cont-memb-logo-ttrk">
             <a href="../">
-              <img src="../img/logo/Logo_TTRK.png" alt="logo-ttrueque">
+              <img src="../img/logo/Logo_TTRQ_dark.png" alt="logo-ttrueque">
             </a>
           </div>
         </div>
@@ -34,6 +34,6 @@ include "./head/head.php";
     </div>
   </div>
 </div>
-<script src="../../Trueque/shop/js/membresia.js"></script>
+<script src="../../Ttrueque/shop/js/membresia.js"></script>
 </body>
 </html>
