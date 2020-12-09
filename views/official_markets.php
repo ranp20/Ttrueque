@@ -20,9 +20,9 @@
 								<div class='cont-info-offi-mrkt-b-ttrk'>
 									<p>" . ucwords($val['nombre_tienda']) . "</p>
 									<!--<p>Supermercados</p>-->
-									<p class='tooltip-off-mrkt'>
+									<!--<p class='tooltip-off-mrkt'>
 										<i class='fal fa-calendar-alt'></i>Hoy, 9pm
-									</p>
+									</p>-->
 								</div>
 							</a>
 						</li>
@@ -37,9 +37,9 @@
 								<div class='cont-info-offi-mrkt-b-ttrk'>
 									<p>" . ucwords($val['nombre_tienda']) . "</p>
 									<!--<p>Supermercados</p>-->
-									<p class='tooltip-off-mrkt'>
+									<!--<p class='tooltip-off-mrkt'>
 										<i class='fal fa-calendar-alt'></i>Hoy, 9pm
-									</p>
+									</p>-->
 								</div>
 							</a>
 						</li>

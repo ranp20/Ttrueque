@@ -35,7 +35,7 @@ require_once 'header_index.php'; ?>
 			</div>
 		</div>
 		<!-- /header -->
-		<main class="bg_gray">
+		<main class="bg_gray" id="total-content-account">
 			<div class="container margin_30" style="display: flex;justify-content: center;flex-direction: column;align-items:center;">
 				<?php
 				if (isset($_SESSION["error"])) {
