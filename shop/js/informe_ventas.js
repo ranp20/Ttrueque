@@ -266,7 +266,7 @@ $(document).on('click', '.btn-paypal-sales-report', function(e){
     // Create a PayPal app: https://developer.paypal.com/developer/applications/create
     client: {
       sandbox:
-        "AQVFe-A48rplP6e_4o3mWdRYthEQK18ZepJD7qWaXZSOGvd85a6_fcYcDjtIkS-YpgL1CFEW4F8yVGfO",
+        "AWjONb1OLJvDpvTuAq04TJLz1a1Z3T9jo8QQQQaeJ6bzz_b37Uw0kbjHRSNiCnEWJXpMYVL4U-4rYJWj",
       production:
         "ASwgeBVhPxsHWjswNXVXzj-yRoJe8X9eyDExf1UC8rCYMk-MzIwKpoTHgT3_JNLzD0N-cP9ffcHdT4QJ",
     },
