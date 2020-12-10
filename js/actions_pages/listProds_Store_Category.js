@@ -45,7 +45,7 @@ $(document).ready(function () {
             </a>
             <div class="cont-info-product-stores-b-ttrk">
               <p>${name_prod}</p>
-              <p>${v.precio_producto} Puntos</p>
+              <p>${v.precio_producto} Bikers</p>
               <ul>
                 <li>
                   <a href="javascript://;" class="button_add_cart_store_cat"
@@ -170,7 +170,7 @@ function listProductsIntoCart() {
             </a>
           </div>
           <div class="content-price-s-prods">
-            <span>${v.sub_total}</span><span>Puntos</span>
+            <span>${v.sub_total}</span><span>Bikers</span>
           </div>
         </li>
       `);
