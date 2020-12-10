@@ -1,8 +1,8 @@
 <?php require_once "./php/process_header_home.php"; ?>
 
 
-<div class="content-total-banner">
-    <div class="content-header-trk">
+<div class="content-total-banner" id="cont-b-init-home-ttrq">
+    <!--<div class="content-header-trk">
         <header class="header-trk">
             <section>
                 <div class="content-logo-trueque">
@@ -15,7 +15,7 @@
 
                 <?php 
               
-                if (isset($_SESSION["user"])) {
+                /*if (isset($_SESSION["user"])) {
                   echo '  <div class="content-options-trk valid-user">
                               <a href="./" class="ico-user-valid">Volver al CLUB &nbsp;&nbsp;<i class="fal fa-user fa-2x"></i></a>
                           </div>';
@@ -24,7 +24,7 @@
                               <a href="login">Iniciar Sesión</a>
                               <a href="account">Abrir Cuenta</a>
                           </div>';
-                }
+                }*/
                   ?>
 
 
@@ -32,45 +32,63 @@
 
             </section>
         </header>
-    </div>
+    </div>-->
     <!-------------------------->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-sm-start fixed-top" id="cont-total-tabs">
-  <div class="container">
-    <button class="navbar-toggler align-self-start" type="button">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse bg-dark p-3 p-lg-0 mt-5 mt-lg-0 d-flex flex-column flex-lg-row flex-xl-row justify-content-lg-between mobileMenu tabs-header"
-      id="navbarSupportedContent">
-      <ul class="navbar-nav align-self-stretch d-flex justify-content-between cont-tabs-principal-home cont-links-pgs-info">
-        <a href="#textoinicioshome">
-            <li class="nav-item dropdown">
-                <span>INICIO</span>
-            </li>
+      <div class="container">
+        <a class="navbar-brand order-1 order-lg-0 ml-lg-0 ml-2 mr-auto cont-logo-ttrq-nav-tabs" href="./">
+          <img src="././img/logo/Logo_TTRQ_dark.png" alt="Logo_Ttrueque" class="img-fluid">
         </a>
-        <a href="#que-es-ttrueque">
-            <li class="nav-item dropdown">
-                <span>¿QUÉ ES?</span>
-            </li>
-        </a>
-        <a href="#guia-al-comprador-ttrueque">
-            <li class="nav-item dropdown">
-                <span>GUÍA AL COMPRADOR</span>
-            </li>
-        </a>
-        <a href="#guia-al-vendedor-ttrueque">
-            <li class="nav-item dropdown">
-                <span>GUÍA AL VENDEDOR</span>
-            </li>
-        </a>
-        <a href="#preguntas-frecuentes-ttrueque">
-            <li class="nav-item dropdown">
-                <span>PREGUNTAS FRECUENTES</span>
-            </li>
-        </a>
-      </ul>
-    </div>
-  </div>
-</nav>
+        <button class="navbar-toggler align-self-start" type="button">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse bg-dark p-3 p-lg-0 mt-5 mt-lg-0 d-flex flex-column flex-lg-row flex-xl-row justify-content-lg-between mobileMenu tabs-header"
+          id="navbarSupportedContent">
+          <ul class="navbar-nav align-self-stretch d-flex justify-content-between cont-tabs-principal-home cont-links-pgs-info">
+            <a href="#textoinicioshome">
+                <li class="nav-item dropdown">
+                    <span>INICIO</span>
+                </li>
+            </a>
+            <a href="#que-es-ttrueque">
+                <li class="nav-item dropdown">
+                    <span>¿QUÉ ES?</span>
+                </li>
+            </a>
+            <a href="#guia-al-comprador-ttrueque">
+                <li class="nav-item dropdown">
+                    <span>GUÍA AL COMPRADOR</span>
+                </li>
+            </a>
+            <a href="#guia-al-vendedor-ttrueque">
+                <li class="nav-item dropdown">
+                    <span>GUÍA AL VENDEDOR</span>
+                </li>
+            </a>
+            <a href="#preguntas-frecuentes-ttrueque">
+                <li class="nav-item dropdown">
+                    <span>PREGUNTAS FRECUENTES</span>
+                </li>
+            </a>
+          </ul>
+        </div>
+        
+            <?php 
+              
+                if (isset($_SESSION["user"])) {
+                  echo '  <div class="content-options-trk-tabs valid-user order-1">
+                              <a href="./" class="ico-user-valid">Volver al CLUB &nbsp;&nbsp;<i class="fal fa-user fa-2x"></i></a>
+                          </div>';
+                }else{
+                  echo '  <div class="content-options-trk-tabs order-1">
+                              <a href="login">Iniciar Sesión</a>
+                              <!--<a href="account">Abrir Cuenta</a>-->
+                          </div>';
+                }
+                  ?>
+        
+      </div>
+    </nav>
 <div class="overlay"></div>
     <!-------------------------->
     <!-- ///BARRA DE NAVEGACIÓN EN EL HEADER-->

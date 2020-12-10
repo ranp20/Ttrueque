@@ -11,16 +11,17 @@
 					<div class="content-cb-txt-b-two">
 						<h3>VENDE Y COMPRA SIN USAR DINERO</h3>
 						<div class="content-list-steps-txt-b-two">
-							<p>Una vez que abres tu cuenta Ttrueque, accedes a una forma FÁCIL Y SEGURA de vender y comprar, sn utilizar dinero convencional</p>
-							<p>En tu cuenta o targeta Ttrueque, tu saldo se considera en Bikkers. Por cada dólar que vendes, en tu cuenta se registran 2 Bikkers</p>
-							<p>Al abrir tu cuenta Ttrueque <span>Básica</span> (gratuita) te regalamos 50 Bikkers para que empieces a conocery disfrutar de las bondades de Trueque</p>
-						</div>
-						<div class="content-list-img-steps-txt-b-two">
-							<div loading="lazy" class="img-list-steps-txt-b-two img-fluid" style="background-image: url(img/logo/Logo_TTRK.png);">
+							<div class="content-img-info-page">
+								<p>Una vez que abres tu cuenta Ttrueque, accedes a una forma FÁCIL Y SEGURA de vender y comprar, sn utilizar dinero convencional</p>
+								<img loading="lazy" class="img-fluid" src="img/logo/Logo_TTRK.png">
 							</div>
-							<div loading="lazy" class="img-list-steps-txt-b-two img-fluid" style="background-image: url(img/logo/Logo_TTRK.png);">
+							<div class="content-img-info-page">
+								<p>En tu cuenta o targeta Ttrueque, tu saldo se considera en Bikkers. Por cada dólar que vendes, en tu cuenta se registran 2 Bikkers</p>
+								<img loading="lazy" class="img-fluid" src="img/logo/Logo_TTRK.png">
 							</div>
-							<div loading="lazy" class="img-list-steps-txt-b-two img-fluid" style="background-image: url(img/logo/Logo_TTRK.png);">
+							<div class="content-img-info-page">
+								<p>Al abrir tu cuenta Ttrueque <span>Básica</span> (gratuita) te regalamos 50 Bikkers para que empieces a conocery disfrutar de las bondades de Trueque</p>
+								<img loading="lazy" class="img-fluid" src="img/logo/Logo_TTRK.png">
 							</div>
 						</div>
 					</div>
