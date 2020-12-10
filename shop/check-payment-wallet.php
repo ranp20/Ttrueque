@@ -22,7 +22,7 @@ if(!isset($_GET['idwallet']) || !is_numeric($_GET['idwallet']) || $_GET['idwalle
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Comprar más puntos</title>
+  <title>Comprar más Bikers</title>
   <?php require_once 'includes/head.php'; ?>
 </head>
 <style>
@@ -60,7 +60,7 @@ if(!isset($_GET['idwallet']) || !is_numeric($_GET['idwallet']) || $_GET['idwalle
         <div class="cont-btn-paypal-upd-wallet">
           <!-- /BUTTON FOR PAYPAL-->
         </div>
-        <p class="about-text-parr-two"><span class="lang_ttrq" key="title-checkwallet-cli-ad_cli-3">Para la recarga de </span><strong class='cap_carga_wallet'></strong><span class="lang_ttrq" key="title-checkwallet-cli-ad_cli-4"> puntos.</span></p>
+        <p class="about-text-parr-two"><span class="lang_ttrq" key="title-checkwallet-cli-ad_cli-3">Para la recarga de </span><strong class='cap_carga_wallet'></strong><span class="lang_ttrq" key="title-checkwallet-cli-ad_cli-4"> Bikers.</span></p>
         <p class="about-text-parr-three lang_ttrq" key="title-checkwallet-cli-ad_cli-5">Tu billetera se recargará automáticamente una vez se procese el pago.</p>
         <p class="about-text-parr-four lang_ttrq" key="title-checkwallet-cli-ad_cli-6">(Para más información: megarejo777666@gmail.com)</p>
       </div>

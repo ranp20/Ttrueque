@@ -73,7 +73,7 @@ $pais = $cat->get_name_country();
                             <!--  PRECIO DEL PRODUCTO -->
                             <div class="form-controls">
                                 <div class="product-controls-precio">
-                                    <label for="" class="label-product-precio lang_ttrq" key="txt-form-add_product-6">Puntos</label>
+                                    <label for="" class="label-product-precio lang_ttrq" key="txt-form-add_product-6">Bikers</label>
                                     <input type="text" name="precio" class="input-product-precio" id="precio">
                                 </div>
                             </div>

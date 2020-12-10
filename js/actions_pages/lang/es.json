@@ -68,7 +68,7 @@
 
 
 		"txt-saldo-top-ad_cli": "Saldo",
-		"txt-points-top-ad_cli": "Puntos",
+		"txt-points-top-ad_cli": "Bikers",
 		"txt-go-to-home-top-ad_cli": "Ir al sitio",
 
 		"txt-products-btn-top-ad_cli-1": "Productos",
@@ -107,7 +107,7 @@
 		"txt-th-page-hs-ad_cli-1": "Código",
 		"txt-th-page-hs-ad_cli-2": "Producto",
 		"txt-th-page-hs-ad_cli-3": "Tienda",
-		"txt-th-page-hs-ad_cli-4": "Puntos real",
+		"txt-th-page-hs-ad_cli-4": "Bikers real",
 		"txt-th-page-hs-ad_cli-5": "Cantidad",
 		"txt-th-page-hs-ad_cli-6": "Cant.Total",
 		"txt-th-page-hs-ad_cli-7": "Fecha",
@@ -126,7 +126,7 @@
 		"txt-form-3-cli-ad_cli-1": "Logo",
 		"btn-updt-cli-form-2-ad_cli": "Actualizar",
 
-		"txt-wallet-btn-top-ad_cli-1": "Puntos",
+		"txt-wallet-btn-top-ad_cli-1": "Bikers",
 		"txt-down-btn-wallet-top-ad_cli-1": "Monto de saldo",
 		"txt-down-btn-wallet-top-ad_cli-2": "Recargue su saldo",
 		"subtitle-table-wallet-ad_cli": "Historial de recarga de Saldo",
@@ -190,7 +190,7 @@
 		"title-checkwallet-cli-ad_cli-1": "¡ Paso Final !",
 		"title-checkwallet-cli-ad_cli-2": "Estás a punto de pagar con Paypal la cantidad de:",
 		"title-checkwallet-cli-ad_cli-3": "Para la recarga de ",
-		"title-checkwallet-cli-ad_cli-4": " puntos.",
+		"title-checkwallet-cli-ad_cli-4": " Bikers.",
 		"title-checkwallet-cli-ad_cli-5": "Tu billetera se recargará automáticamente una vez se procese el pago.",
 		"title-checkwallet-cli-ad_cli-6": "(Para más información: megarejo777666@gmail.com)",
 

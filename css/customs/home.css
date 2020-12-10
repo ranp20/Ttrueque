@@ -19,7 +19,7 @@
 #content-marcas-p > #title-content-marcas-p > #content-text-marcas-p > h3{    font-family:var(--fuente-subtitles);}
 /* BANNER PRINCIPAL ESTÁTICO - HOME 1*/
 #contenedor-principal-home{	background-color: #fff;  width: 100%;  height: 690px;}
-#contenedor-principal-home:before{	content: "";	background: linear-gradient(		        -85deg,		         #003087 50%,		         #009cde 50%		         );	opacity: .6;	position: absolute;	width: 100%;	height: 100%;	z-index: 2;}
+#contenedor-principal-home:before{	content: "";	background: rgb(52, 58, 64,.8);	opacity: .6;	position: absolute;	width: 100%;	height: 100%;	z-index: 2;}
 #contenedor-principal-home:after{  content: "";  background: rgba(0,0,0,.3);  width: 100%;  height: 100%;  position: absolute;  top: 0;}
 #img-b-p{	width: 100%;	height: 100%;	background-size: cover;    background-repeat: no-repeat;    background-position: center;}
 /* BANNERS DEL CAROUSEL - HOME 2 */

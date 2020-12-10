@@ -36,6 +36,6 @@ function list_orders_cart_idtienda() {
           </tr>
         `);
     });
-    total.html(suma + ` ` + `Puntos`);
+    total.html(suma + ` ` + `Bikers`);
   });
 }

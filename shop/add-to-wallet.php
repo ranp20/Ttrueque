@@ -12,7 +12,7 @@ $wall = $c->get_wallet();
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Comprar más puntos</title>
+  <title>Comprar más Bikers</title>
   <?php require_once 'includes/head.php'; ?>
 </head>
 
@@ -46,7 +46,7 @@ $wall = $c->get_wallet();
                 </div>
                 Monto aproximado en:
                 <h1 class='price-wallet_country'>$ {$value['precio']}</h1>
-                <p>Carga de puntos: {$value['cap_carga']}</p>
+                <p>Carga de Bikers: {$value['cap_carga']}</p>
                 <a href='check-payment-wallet.php?idwallet={$value['id']}'
                     class='btn-chck-payment-paypal'>Tomar esto
                 </a>

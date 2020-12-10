@@ -56,7 +56,7 @@ if(!isset($_GET['ord']) || !is_numeric($_GET['ord']) || $_GET['ord'] == ""){
               <th>#</th>
               <th>Producto</th>
               <th>Cliente</th>
-              <th>Puntos</th>
+              <th>Bikers</th>
               <th>Cantidad</th>
               <th>Subtotal</th>
               <th>F. Creación</th>

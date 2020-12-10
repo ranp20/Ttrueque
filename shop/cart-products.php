@@ -45,7 +45,7 @@ error_reporting(0);
                             </div>
                         </div>
                         <div class="content-price-cart">
-                            <p>200 Puntos</p>
+                            <p>200 Bikers</p>
                         </div>
                     </div>
                     <div class="content-delete-cart">
@@ -75,7 +75,7 @@ error_reporting(0);
                             </div>
                         </div>
                         <div class="content-price-cart">
-                            <p>200 Puntos</p>
+                            <p>200 Bikers</p>
                         </div>
                     </div>
                     <div class="content-delete-cart">
@@ -105,7 +105,7 @@ error_reporting(0);
                             </div>
                         </div>
                         <div class="content-price-cart">
-                            <p>200 Puntos</p>
+                            <p>200 Bikers</p>
                         </div>
                     </div>
                     <div class="content-delete-cart">

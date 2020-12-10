@@ -62,7 +62,7 @@ function renderbtnPaypal(){
                             total: $('.price_wallet').text(), 
                             currency: "USD",
                           }, 
-                          description:"Compra de puntos a Ttrueque: $"+$('.price_wallet').text(),
+                          description:"Compra de Bikers a Ttrueque: $"+$('.price_wallet').text(),
                           custom: sess_wallet+"#"+id_wallet,
                       }
                   ]

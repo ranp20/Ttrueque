@@ -83,7 +83,7 @@ $country_byid = $c->get_countries_by_idcountry($cli_id[0]['pais']);
 										<span>TOTAL</span>
 										<div class="cont-total">
 											<span id="total">1200</span>
-											<span>Puntos</span>
+											<span>Bikers</span>
 										</div>
 									</h1>
 								</div>

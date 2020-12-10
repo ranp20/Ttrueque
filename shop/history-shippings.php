@@ -32,7 +32,7 @@ session_start();
             <th class="lang_ttrq" key="txt-th-page-hs-ad_cli-1">Código</th>
             <th class="lang_ttrq" key="txt-th-page-hs-ad_cli-2">Producto</th>
             <th class="lang_ttrq" key="txt-th-page-hs-ad_cli-3">Tienda</th>
-            <th class="lang_ttrq" key="txt-th-page-hs-ad_cli-4">Puntos real</th>
+            <th class="lang_ttrq" key="txt-th-page-hs-ad_cli-4">Bikers real</th>
             <th class="lang_ttrq" key="txt-th-page-hs-ad_cli-5">Cantidad</th>
             <th class="lang_ttrq" key="txt-th-page-hs-ad_cli-6">Subtotal</th>
             <th class="lang_ttrq" key="txt-th-page-hs-ad_cli-7">Fecha de compra</th>
