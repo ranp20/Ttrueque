@@ -55,27 +55,38 @@ function listProductsIntoCart() {
   }).done(function (res) {
     $("#count-product-cart").html(res.length);
     $("#cart-buy-list").html("");
-    $.each(res, function (i, v) {
-      console.log(res);
-      var path = "./shop/folder/" + v.image;
+    
+    if(res == ""){
       $("#cart-buy-list").append(`
-        <li>
-          <div class="content-info-p-prods">
-            <div>
-              <div class="cont-img-p-prod">
-                <div style="background-image: url(${path});"></div>
-              </div>
-            </div>
-            <a href="#">
-              <span>${v.cantidad} x </span><span>${v.producto}</span>
-            </a>
-          </div>
-          <div class="content-price-s-prods">
-            <span>${v.sub_total}</span><span>Bikers</span>
-          </div>
-        </li>
+        <div class='cont-msg-any-products-cart'>
+          <i class="fal fa-frown-open"></i>
+          <h5>No hay productos en el carrito</h5>  
+        </div>
       `);
-    });
+    }else{
+      $.each(res, function (i, v) {
+        console.log(res);
+        var path = "./shop/folder/" + v.image;
+        $("#cart-buy-list").append(`
+          <li>
+            <div class="content-info-p-prods">
+              <div>
+                <div class="cont-img-p-prod">
+                  <div style="background-image: url(${path});"></div>
+                </div>
+              </div>
+              <a href="#">
+                <span>${v.cantidad} x </span><span>${v.producto}</span>
+              </a>
+            </div>
+            <div class="content-price-s-prods">
+              <span>${v.sub_total}</span><span>Bikers</span>
+            </div>
+          </li>
+        `);
+      });
+    }
+
   });
 }
 $(document).ready(function () {

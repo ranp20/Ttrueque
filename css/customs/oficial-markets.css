@@ -34,3 +34,14 @@
 .content-msg-any-stores div h1{  color: rgba(0,0,0,.4) !important;  font-size: 34px;}
 .content-msg-any-stores div a{	font-size: 20px;  border: none;  background: #3483fa;  color: #fff;  border-radius: 4px;  line-height: 1;  padding: 14px 32px;  text-align: center;  transition: 0 !important;  text-decoration: none;}
 .content-msg-any-stores div a:hover{background: #047BFA;}
+
+/* FILTRO DE TIENDAS EN EL HOME */
+#cont-filter-off-markets{
+	min-height: unset !important; 
+}
+#cont-list-filter-off-markets{
+	min-height: unset !important;
+}
+#btn-filter-stores-index{
+	margin: 25px auto 60px auto !important;
+}

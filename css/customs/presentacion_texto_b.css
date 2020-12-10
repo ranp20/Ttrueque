@@ -21,7 +21,7 @@
 .cnt-total-info-side-lr .content-total-text_b > section{
   padding: 70px 0;
   border-bottom: 1px solid rgba(0,0,0,0.1);
-  margin: 0 70px;
+  margin: auto;
 }
 .cnt-total-info-side-lr .content-total-text_b > section:last-child{
 	border:none;
@@ -29,7 +29,6 @@
 .cnt-total-info-side-lr .content-total-text_b > section > .container-desc-txt-r,
 .cnt-total-info-side-lr .content-total-text_b > section > .container-desc-txt-l{
 	width: 100%;
-  max-width: 1152px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -56,6 +55,7 @@ section > .container-desc-txt-l > .content-img-desc-trk > img{
 section > .container-desc-txt-r > .content-text-desc-trk,
 section > .container-desc-txt-l > .content-text-desc-trk{
 	width: 50%;
+  text-align: center;
 }
 section > .container-desc-txt-r > .content-text-desc-trk > h2,
 section > .container-desc-txt-r > .content-text-desc-trk > p,

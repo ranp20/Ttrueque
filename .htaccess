@@ -33,6 +33,7 @@ RewriteRule ^categorias?$  views/categorias.php
 RewriteRule ^tienda?$ views/tiendas.php
 RewriteRule ^productos?$ views/productos.php
 RewriteRule ^confirm?$ views/confirm.php
+RewriteRule ^allstores?$ views/all_stores.php
 
 ##########################################
 RewriteRule ^presentacion_texto_one_b?$  ./view_home/presentacion_texto_one_b.php

@@ -4,12 +4,15 @@
 			<h3 class="lang_ttrq" key="title_official_markets">Tiendas Oficiales</h3>
 		</div>
 	</div>
-	<div class="container-content-off-mrkts">
-		<section class="list-stores-officials-ttrk-c">
+	<div class="container-content-off-mrkts" id="cont-filter-off-markets">
+		<section class="list-stores-officials-ttrk-c" id="cont-list-filter-off-markets">
 			<ul class="items-str-off-ttrk">
 				<!-- //ITEMS - TIENDAS OFICIALES EN TTRUEQUE-->
 				<?php
-				foreach ($dat as $val) {
+
+				$slice_tiendas = array_slice($dat, 0, 10);
+
+				foreach ($slice_tiendas as $val) {
 					if($val['logo'] == "default-store.png"){
 						echo "
 						<li class='item-str-off-into'>
@@ -50,8 +53,8 @@
 				<!-- //END TO ITEMS-->
 			</ul>
 		</section>
-		<div class="content-btn-more-brands-ttrk">
-			<a href="#" class="btn-brands-alls-ttrk">
+		<div class="content-btn-more-brands-ttrk" id="btn-filter-stores-index">
+			<a href="allstores" class="btn-brands-alls-ttrk">
 				<button type="button" class="btn-into-alls-ttrk lang_ttrq" key="btn-all-stores_ttrq">Ver todas las tiendas</button>
 			</a>
 		</div>
