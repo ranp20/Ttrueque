@@ -71,7 +71,7 @@ function listProductsIntoCart() {
             </a>
           </div>
           <div class="content-price-s-prods">
-            <span>${v.sub_total}</span><span>Puntos</span>
+            <span>${v.sub_total}</span><span>Bikers</span>
           </div>
         </li>
       `);

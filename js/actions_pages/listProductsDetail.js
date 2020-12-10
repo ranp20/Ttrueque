@@ -30,7 +30,7 @@ $(document).ready(function () {
               <h1>${v.nombre_producto}</h1>
               <div class="contain-lr-in-detail-prod">
                 <div class="content-l-info-product-det">
-                  <p><span>${v.precio_producto}</span><span> Puntos </span></p> 
+                  <p><span>${v.precio_producto}</span><span> Bikers </span></p> 
                   <h2><span>Color: </span><span> Negro </span></h2>
                   <!--<div class="content-r-quant-prod-detail">
                     <h2>Cantidad: </h2>
@@ -75,7 +75,7 @@ $(document).ready(function () {
   						<h1>${v.nombre_producto}</h1>
   						<div class="contain-lr-in-detail-prod">
   							<div class="content-l-info-product-det">
-  								<p><span>${v.precio_producto}</span><span> Puntos </span></p>	
+  								<p><span>${v.precio_producto}</span><span> Bikers </span></p>	
   								<h2><span>Color: </span><span> Negro </span></h2>
   								<!--<div class="content-r-quant-prod-detail">
   									<h2>Cantidad: </h2>
@@ -226,7 +226,7 @@ function listProductsIntoCart() {
             </a>
           </div>
           <div class="content-price-s-prods">
-            <span>${v.sub_total}</span><span>Puntos</span>
+            <span>${v.sub_total}</span><span>Bikers</span>
           </div>
         </li>
       `);

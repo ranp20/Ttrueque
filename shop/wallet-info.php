@@ -31,7 +31,7 @@ session_start();
                   <i class="lni lni-coin icon-hov"></i>
               </div>
               <?php foreach ($d as $val){echo $val['puntos'];}?> 
-              <span class="lang_ttrq" key="txt-wallet-btn-top-ad_cli-1">Puntos</span>
+              <span class="lang_ttrq" key="txt-wallet-btn-top-ad_cli-1">Bikers</span>
               <p class="lang_ttrq" key="txt-down-btn-wallet-top-ad_cli-1">Monto de saldo</p>
             </li>
           </a>

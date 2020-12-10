@@ -54,7 +54,7 @@ if (!isset($_SESSION['user'])) {
                           <h5>Polo Avenger</h5>
                       </a>
                       <p><s>$199.99</s></p>
-                      <p>1200 puntos</p>
+                      <p>1200 Bikers</p>
                       <p><i class="fal fa-credit-card fa-1x"></i>12 x 1kg</p>
                     </div>
                   </div>
@@ -84,7 +84,7 @@ if (!isset($_SESSION['user'])) {
                           <h5>Polo Avenger</h5>
                       </a>
                       <p><s>$199.99</s></p>
-                      <p>1200 puntos</p>
+                      <p>1200 Bikers</p>
                       <p><i class="fal fa-credit-card fa-1x"></i>12 x 1kg</p>
                     </div>
                   </div>
@@ -114,7 +114,7 @@ if (!isset($_SESSION['user'])) {
                           <h5>Polo Avenger</h5>
                       </a>
                       <p><s>$199.99</s></p>
-                      <p>1200 puntos</p>
+                      <p>1200 Bikers</p>
                       <p><i class="fal fa-credit-card fa-1x"></i>12 x 1kg</p>
                     </div>
                   </div>
@@ -144,7 +144,7 @@ if (!isset($_SESSION['user'])) {
                           <h5>Polo Avenger</h5>
                       </a>
                       <p><s>$199.99</s></p>
-                      <p>1200 puntos</p>
+                      <p>1200 Bikers</p>
                       <p><i class="fal fa-credit-card fa-1x"></i>12 x 1kg</p>
                     </div>
                   </div>

@@ -27,7 +27,7 @@ $d_by_id =  $c->select_points_default($_SESSION['user']);
           <p>Saldo Total:&nbsp; </p>
           <span><?php echo $d_by_id[0]['puntos']; ?>
           </span>
-          <p>&nbsp;Puntos</p>
+          <p>&nbsp;Bikers</p>
         </h4>
       </div>
       <div class="container" id="cart-content-list">
@@ -43,7 +43,7 @@ $d_by_id =  $c->select_points_default($_SESSION['user']);
           <thead>
             <tr>
               <th class="lang_ttrq" key="title-row-sc_ttrq_1">Productos</th>
-              <th class="lang_ttrq" key="title-row-sc_ttrq_2">Puntos</th>
+              <th class="lang_ttrq" key="title-row-sc_ttrq_2">Bikers</th>
               <th class="lang_ttrq" key="title-row-sc_ttrq_3">Cantidad</th>
               <th class="lang_ttrq" key="title-row-sc_ttrq_4">Subtotal</th>
               <th></th>

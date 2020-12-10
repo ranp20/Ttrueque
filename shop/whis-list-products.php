@@ -19,7 +19,7 @@ error_reporting(0);
                 <div class="c-left-btn-tdc">
                     <i class="lni lni-menu" id="btn-tdc-toggle"></i>
                 </div>
-                <div class="c-center-btn-tdc"><a href="wallet-info.php">Saldo: <?php foreach($d as $val){echo $val['puntos'];} ?> Puntos</a></div>
+                <div class="c-center-btn-tdc"><a href="wallet-info.php">Saldo: <?php foreach($d as $val){echo $val['puntos'];} ?> Bikers</a></div>
                 <div class="c-right-btn-tdc">
                     <a href="../" target="_blank"><i class='lni lni-display'></i>Ir al sitio</a>
                 </div>

@@ -39,7 +39,7 @@ $(document).ready(function () {
             <span>${v.name}</span>
           </div>
           <div class="cont-subtotal-product">
-            <span>${v.puntos}</span><span> Puntos</span>
+            <span>${v.puntos}</span><span> Bikers</span>
           </div>
         </li>
         `);
@@ -143,7 +143,7 @@ $(document).on("click", ".btn-checkout", function (e) {
       }
     });
   } else {
-    alert("No tienes suficientes puntos");
+    alert("No tienes suficientes Bikers");
   }
 });
 

@@ -23,7 +23,7 @@ function get_checkout(){
             total_price += parseInt(c.price);
         }
         list.html(template);
-        subtotal.html(`<li><em><strong>Subtotal</strong></em><span>${subtotal} Puntos</span></li>`);
-        total.html(`<div class="total clearfix">TOTAL <span>${total_price} Puntos</span></div>`);
+        subtotal.html(`<li><em><strong>Subtotal</strong></em><span>${subtotal} Bikers</span></li>`);
+        total.html(`<div class="total clearfix">TOTAL <span>${total_price} Bikers</span></div>`);
     })
 }

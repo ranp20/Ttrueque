@@ -46,7 +46,7 @@
 									<h3>{$key["nombre_producto"]}</h3>
 								</a>
 								<div class='price_box'>
-									<span class='new_price' style='font-size:1.6em;'>{$key["precio_producto"]} puntos</span>
+									<span class='new_price' style='font-size:1.6em;'>{$key["precio_producto"]} Bikers</span>
 								</div>
 							</div>
 							<ul>

@@ -67,8 +67,8 @@
 		<section>
 			<div class="contn-info-que-es">
 				<h1>¿Qué es Trueque.ga?</h1>
-				<p>Trueque.ga es un club en línea creado para intercambiar productos por puntos, esto con la finalidad de no tener que usar tu dinero real.</p>
-				<p>Es muy sencillo, tan solo ingresa y/o registrate en la página web <a href="login">www.trueque.ga</a> y de inmediato puedes comenzar a comprar con el bono de bienvenida, el cuál te brinda 100 puntos para comprar lo que quieras dentro del sitio.</p>
+				<p>Trueque.ga es un club en línea creado para intercambiar productos por Bikers, esto con la finalidad de no tener que usar tu dinero real.</p>
+				<p>Es muy sencillo, tan solo ingresa y/o registrate en la página web <a href="login">www.trueque.ga</a> y de inmediato puedes comenzar a comprar con el bono de bienvenida, el cuál te brinda 100 Bikers para comprar lo que quieras dentro del sitio.</p>
 				<p>Posterior a la compra el vendedor de dicha tienda te informará si tu pedido o compra ha sido recogido y dará pie al siguiente paso, que consiste en la entrega como tál de 
 dicho artículo a la dirección que especificaste con anterioridad al crear tu cuenta.</p>
 				<div class="cont-img-referencial">
@@ -128,7 +128,7 @@ dicho artículo a la dirección que especificaste con anterioridad al crear tu c
 										<img src="img/iconos_home/web-003.svg" alt="Paso_3_client_web">
 									</div>
 									<div class="cont-step">
-										<p><span>Paso 3:</span> Paga con tus puntos los productos que seleccionaste.</p>
+										<p><span>Paso 3:</span> Paga con tus Bikers los productos que seleccionaste.</p>
 									</div>
 								</li>
 								<li>
@@ -264,7 +264,7 @@ dicho artículo a la dirección que especificaste con anterioridad al crear tu c
 									<div class="cont-img-ref">
 										<img src="img/iconos_home/014-check-list.svg" alt="Paso_3_client_web"></div>
 									<div class="cont-step">
-										<p><span>Paso 3:</span> Verificar el nombre del cliente a cobrar los puntos.</p>
+										<p><span>Paso 3:</span> Verificar el nombre del cliente a cobrar los Bikers.</p>
 									</div>
 								</li>
 							</ul>

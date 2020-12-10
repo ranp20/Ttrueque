@@ -87,7 +87,7 @@ $(document).ready(function () {
                 </div>
             </td>
             <td>
-                <strong class="price-${i}">${total_price} Puntos </strong>
+                <strong class="price-${i}">${total_price} Bikers </strong>
                 </td>
                 <td class="options">
                 <button class="btn btn-danger icon-trash-product" data-tienda="${v.store_id}" data-producto="${v.id_p}"><i class="fas fa-trash-alt"></i></button>
@@ -108,7 +108,7 @@ $(document).ready(function () {
         result = 0;
         var priceClass = $(`.price-${i}`);
         $.each(priceClass, function () {
-          result += parseInt($(this).text().replace("Puntos", ""));
+          result += parseInt($(this).text().replace("Bikers", ""));
         });
         $(`.points-${i}`).html(`${result}`);
         /////////////////////////////////////////////////
@@ -158,15 +158,15 @@ $(document).ready(function () {
                   .find("td")
                   .eq(1)
                   .text()
-                  .replace("Puntos", "");
+                  .replace("Bikers", "");
                 var sub_total = parseFloat(precio_unitario) * cantidad;
                 tr.find("td")
                   .eq(3)
-                  .html("<strong>" + sub_total + " Puntos</strong");
+                  .html("<strong>" + sub_total + " Bikers</strong");
                 var Puntostotal1 = 0;
                 $(`#tbl_id tbody .products-${i}`).each(function () {
                   var precio_unitario1 = parseFloat(
-                    $(this).find("td").eq(3).text().replace("Puntos", "")
+                    $(this).find("td").eq(3).text().replace("Bikers", "")
                   );
                   Puntostotal1 =
                     parseFloat(Puntostotal1) + parseFloat(precio_unitario1);
@@ -204,19 +204,19 @@ $(document).ready(function () {
             .find("td")
             .eq(1)
             .text()
-            .replace("Puntos", "");
+            .replace("Bikers", "");
           ///multiplicar el precio unitario * cantidad
           var sub_total = parseFloat(precio_unitario) * cantidad;
           //obtener el resultado y pintarlo
           tr.find("td")
             .eq(3)
-            .html("<strong>" + sub_total + " Puntos</strong");
+            .html("<strong>" + sub_total + " Bikers</strong");
           $button.parent().find("input").val(newVal);
           ///////////////////////////////////////////////////////
           var Puntostotal = 0;
           $(`#tbl_id tbody .products-${i}`).each(function () {
             var precio_unitario = parseFloat(
-              $(this).find("td").eq(3).text().replace("Puntos", "")
+              $(this).find("td").eq(3).text().replace("Bikers", "")
             );
             // console.log(precio_unitario);
             // si precio_unitario comple con alguna de estas condiciones su valor es 0
@@ -246,7 +246,7 @@ $(document).on("click", ".checkout", function (e) {
     Swal.fire({
       icon: "warning",
       title: "Oops...",
-      text: "Usted no cuenta con puntos suficientes.",
+      text: "Usted no cuenta con Bikers suficientes.",
     });
   } else {
     var idStore = $(this).find("span").attr("class").replace("points-", "");
@@ -265,7 +265,7 @@ $(document).on("click", ".checkout", function (e) {
         var name = $(this).find("td").eq(0).find("span").text();
         var cantidad = $(this).find("td").eq(2).find("div").find("input").val();
         var puntos = parseInt(
-          $(this).find("td").eq(3).text().replace("Puntos", "")
+          $(this).find("td").eq(3).text().replace("Bikers", "")
         );
         // console.log(precio_real);
         store.push({

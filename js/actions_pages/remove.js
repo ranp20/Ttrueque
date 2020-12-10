@@ -33,7 +33,7 @@ $(document).on("click", ".icon-trash-product", function (e) {
       $(this).parent().parent().remove();
     }
     var quitar = parseInt(
-      $(this).parent().parent().find("td").eq(3).text().replace("Puntos", "")
+      $(this).parent().parent().find("td").eq(3).text().replace("Bikers", "")
     );
     var res = parseInt($(`.points-${tienda}`).text());
     var total = res - quitar;

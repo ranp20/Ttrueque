@@ -21,7 +21,7 @@ function list_history_idcliente() {
             <td>${v.fecha}</td>
             <td>${v.tipo}</td>
             <td>$ ${v.total}</td>
-            <td>${v.recarga} puntos</td>
+            <td>${v.recarga} Bikers</td>
             <td>${v.metodo}</td>
           </tr>
         `);

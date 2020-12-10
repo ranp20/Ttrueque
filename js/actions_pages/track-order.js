@@ -156,8 +156,8 @@ $(document).ready(function () {
                   </div>
                   <div class="cont-inf-prod-trackord">
                     <span>${v.producto}</span>
-                    <span>${v.cantidad} x ${v.puntos_real}  Puntos</span>
-                    <span>Total ${totaltrack} puntos</span>
+                    <span>${v.cantidad} x ${v.puntos_real}  Bikers</span>
+                    <span>Total ${totaltrack} Bikers</span>
                     <span>F.C: ${v.creacion}</span>
                   </div>
                 </div>
