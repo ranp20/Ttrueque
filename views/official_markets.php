@@ -9,7 +9,10 @@
 			<ul class="items-str-off-ttrk">
 				<!-- //ITEMS - TIENDAS OFICIALES EN TTRUEQUE-->
 				<?php
-				foreach ($dat as $val) {
+
+				$slice_tiendas = array_slice($dat, 0, 10);
+
+				foreach ($slice_tiendas as $val) {
 					if($val['logo'] == "default-store.png"){
 						echo "
 						<li class='item-str-off-into'>
