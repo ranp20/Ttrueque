@@ -3,7 +3,7 @@ RewriteEngine on
 ########Rename to the add-store
 RewriteRule ^add-store?$ add-store.php
 #RewriteRule ^complete/([0-9a-zA-Z]+)/([0-9a-zA-Z]+)/([0-9a-zA-Z]+)  shop/verified_m.php?paymentToken=$1&paymentID=$2&form=$3
-RewriteBase /Ttrueque/
+RewriteBase /trueque/
 
 ########Rename to the add-store
 RewriteRule ^add-store?$ add-store.php
