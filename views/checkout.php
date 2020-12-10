@@ -1,10 +1,6 @@
 <?php
 session_start();
 
-
-
-
-
 if (!isset($_SESSION['user'])) {
 	header('location: home');
 }
@@ -27,8 +23,8 @@ $country_byid = $c->get_countries_by_idcountry($cli_id[0]['pais']);
 <?php require_once 'header_index.php'; ?>
 
 <body>
+	<div id="successpayment"></div>
 	<div id="page">
-		<div id="successpayment"></div>
 		<?php
 		require_once '../php/process_header.php';
 		require_once 'header_b.php';
@@ -103,12 +99,19 @@ $country_byid = $c->get_countries_by_idcountry($cli_id[0]['pais']);
 	<div id="toTop"></div>
 	<!-- Back to top button -->
 	<!-- COMMON SCRIPTS -->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 	<script src="./js/common_scripts.min.js"></script>
 	<script src="./js/main.js"></script>
 	<script src="./js/actions_pages/checkout-product.js"></script>
-	<script src="./js/actions_pages/language_currency.js"></script>
 	<!--------- SWEEET ALERT 2  ---------->
 	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+	<script src="./js/actions_pages/language_currency.js"></script>
+  <script src="js/actions_pages/buy_cart.js"></script>
+  <script src="./js/actions_pages/view_cart.js"></script>
+  <script src="./js/actions_pages/remove.js"></script>
+  <script src="js/actions_pages/customs.js"></script>
+  <script src="js/actions_pages/search_products.js"></script>
+  <script src="js/actions_pages/listCategories_ByStore.js"></script>
+  <script src="js/customs/custom.js"></script>
 </body>
-
 </html>

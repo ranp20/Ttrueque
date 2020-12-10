@@ -129,12 +129,14 @@ $(document).on("click", ".btn-checkout", function (e) {
               setTimeout(function () {
                 $("#successpayment").html(`     
                 <div class="content-msg-success-pay">
-                  <h1>Se realizó con éxito el pago</h1>
-                  <div class="cont-img-msg-success-p">
-                    <div style="background-image: url(./shop/images/icon_check_write.png);"></div>
+                  <div class="cont-confirm-img-check">
+                    <div class="cont-img-msg-success-p">
+                      <img src="./img/gifs/animate_gif_ttrueque_confirm.gif" alt="confirm-checkout-check" width="100px">
+                    </div>
+                    <p>Se realizó con éxito el pago</p>
                   </div>
                 </div>`);
-                $("#successpayment").fadeOut(2500);
+                $("#successpayment").fadeOut(2800);
                 location.replace("./confirm");
               }, 2000);
             });
