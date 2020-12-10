@@ -21,7 +21,7 @@
 .btn-reg-log-in-u{	background: #E1E7EB;  color: #2C2E2F;  padding: .68rem;  min-height: 2.75rem;  width: 100%;  display: block;  box-sizing: border-box;  font-weight: 700;  font-size: .93rem;  transition: 0;  border-radius: .25rem;}
 .btn-reg-log-in-u:hover{	background: #D7D3EB;}
 /* FOOTER - LOG-IN */
-.footer-log-in-u{	  align-self: flex-end;  text-align: center;  padding: 0.87rem;  padding-top: 0.87rem;  width: 100%;  background: #172134;}
+.footer-log-in-u{	  align-self: flex-end;  text-align: center;  padding: 0.87rem;  padding-top: 0.87rem;  width: 100%;  background: var(--principal-color) !important;}
 .footer-log-in-u > .content-f-log-in-u{	text-align: center;}
 .footer-log-in-u > .content-f-log-in-u > .group-f-log-in-u{	list-style: none;	margin-bottom: 0;}
 .footer-log-in-u > .content-f-log-in-u > .group-f-log-in-u > li{  display: inline-block;  margin: 0 .62rem 0 0;}

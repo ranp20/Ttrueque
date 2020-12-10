@@ -34,7 +34,7 @@
         </header>
     </div>-->
     <!-------------------------->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-sm-start fixed-top" id="cont-total-tabs">
+    <nav class="navbar navbar-expand-lg navbar-dark justify-content-sm-start fixed-top" id="cont-total-tabs">
       <div class="container">
         <a class="navbar-brand order-1 order-lg-0 ml-lg-0 ml-2 mr-auto cont-logo-ttrq-nav-tabs" href="./">
           <img src="././img/logo/Logo_TTRQ_dark.png" alt="Logo_Ttrueque" class="img-fluid">
@@ -42,8 +42,7 @@
         <button class="navbar-toggler align-self-start" type="button">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse bg-dark p-3 p-lg-0 mt-5 mt-lg-0 d-flex flex-column flex-lg-row flex-xl-row justify-content-lg-between mobileMenu tabs-header"
-          id="navbarSupportedContent">
+        <div class="collapse navbar-collapse p-3 p-lg-0 mt-5 mt-lg-0 d-flex flex-column flex-lg-row flex-xl-row justify-content-lg-between mobileMenu tabs-header nav-home-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav align-self-stretch d-flex justify-content-between cont-tabs-principal-home cont-links-pgs-info">
             <a href="#textoinicioshome">
                 <li class="nav-item dropdown">

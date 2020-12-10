@@ -1,3 +1,8 @@
+/* BACKGROUNDS NAV-BAR AND SIDEBARLEFT */
+.nav-index-ttrq{background: var(--principal-color) !important;}
+.nav-index-ttrq-collapse{background: var(--principal-color) !important;}
+#cont-total-tabs{background: var(--principal-color) !important;}
+.nav-home-collapse{background: var(--principal-color) !important;}
 /* MENÚ DE CATEGORÍAS */
 .list-all-categories-into-ttrq{  position: relative;  display: flex;  align-items: center;  justify-content: flex-start;  width: 100%;  height: 100%;}
 .header_b_second-div > .container > #principal-home1 > div:nth-child(2){  position: relative;}
