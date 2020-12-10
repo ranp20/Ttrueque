@@ -1,4 +1,4 @@
-<div class="container margin_60_35" id="content-more-sells" style="padding-top: 0;margin-top: 1em;">
+<div class="container margin_60_35 content-more-sells" id="content-index-ttrq">
 	<div class="main_title" id="title-content-more-sells">
 		<div id="content-text-more-sells">
 			<h3 class="lang_ttrq" key="title_best-seller">Lo más Vendido</h3>
