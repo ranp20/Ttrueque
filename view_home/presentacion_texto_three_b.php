@@ -11,16 +11,17 @@
 					<div class="content-cb-txt-b-three">
 						<h3>COMPRAR BIKERS</h3>
 						<div class="content-list-steps-txt-b-three">
-							<p>En caso de no tener SALDO, en tu cuenta <span>Ttrueque</span>, puedes comprar Bikkers. Por cada dólar que compres, recibirás 2 Bikkers.</p>
-							<p>En todos los negocios asociodos a <span>Ttrueque</span>, podrás comprar con Bikkers, como se hace con cualquira targeta bancaria.</p>
-							<p>Y, cuando más vendrás tus productos o servicios, más Bikkers adquiridas en tu cuenta <span>Ttrueque</span>.</p>
-						</div>
-						<div class="content-list-img-steps-txt-b-three">
-							<div loading="lazy" class="img-list-steps-txt-b-three img-fluid" style="background-image: url(img/staff/lingote_oro.png);background-repeat:no-repeat;background-size: cover;background-position: center;">
+							<div class="content-img-info-page">
+								<p>En caso de no tener SALDO, en tu cuenta <strong>Ttrueque</strong>, puedes comprar Bikkers. Por cada dólar que compres, recibirás 2 Bikkers.</p>
+								<img loading="lazy" class="img-fluid" src="img/logo/Logo_TTRK.png">
 							</div>
-							<div loading="lazy" class="img-list-steps-txt-b-three img-fluid" style="background-image: url(img/staff/lingote_oro.png);background-repeat:no-repeat;background-size: cover;background-position: center;">
+							<div class="content-img-info-page">
+								<p>En todos los negocios asociodos a <strong>Ttrueque</strong>, podrás comprar con Bikkers, como se hace con cualquira targeta bancaria.</p>
+								<img loading="lazy" class="img-fluid" src="img/logo/Logo_TTRK.png">
 							</div>
-							<div loading="lazy" class="img-list-steps-txt-b-three img-fluid" style="background-image: url(img/staff/lingote_oro.png);background-repeat:no-repeat;background-size: cover;background-position: center;">
+							<div class="content-img-info-page">
+								<p>Y, cuando más vendrás tus productos o servicios, más Bikkers adquiridas en tu cuenta <strong>Ttrueque</strong>.</p>
+								<img loading="lazy" class="img-fluid" src="img/logo/Logo_TTRK.png">
 							</div>
 						</div>
 					</div>
