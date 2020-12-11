@@ -101,7 +101,7 @@ $pais = $cat->get_name_country();
                                             accept="img/*">
                                     </div>
                                 </div>
-                                <div class="content-secondary-imgs_product">
+                                <!--<div class="content-secondary-imgs_product">
                                     <label for="" class="label-product-imgs lang_ttrq"
                                         key="txt-form-add_product-7-1">Imágenes secundarias</label>
                                     <div class="add-imgs-secondary">
@@ -110,7 +110,7 @@ $pais = $cat->get_name_country();
                                             <option value="1">Imágenes Secundarias</option>
                                         </select>
                                     </div>
-                                </div>
+                                </div>-->
                             </div>
                             <div id="moreimgs"></div>
                         </div>

@@ -4,6 +4,9 @@ require_once '../php/class/all.php';
 $cat = new All();
 $pais = $cat->get_name_country();
 
+
+
+
 if(!isset($_GET['id']) || !is_numeric($_GET['id']) || $_GET['id'] == ""){
     header('Location: ./');
 }
@@ -50,7 +53,7 @@ if(!isset($_GET['id']) || !is_numeric($_GET['id']) || $_GET['id'] == ""){
                             <div class="product-controls">
 
                                 <label for="" class="label-product lang_ttrq" key="txt-form-update_product-2">Categoría del producto</label>
-                                <select class="input-product" id="list_categories" name="categoria">
+                                <select class="input-product" id="" name="categoria">
                                     <?php
 
                                     $cate = $cat->get_categorias_tienda($tienda);
@@ -63,7 +66,7 @@ if(!isset($_GET['id']) || !is_numeric($_GET['id']) || $_GET['id'] == ""){
                             <!--  MARCA DEL PRODUCTO -->
                             <div class="product-controls">
                                 <label for="" class="label-product lang_ttrq" key="txt-form-update_product-3">Marcas</label>
-                                <select name="marca" class="input-product select-onehidden" id="marca" value="Selecciona una marca">
+                                <select name="marca" class="input-product" id="">
                                     <?php
 
                                     $cate = $cat->get_marcas_tienda($tienda);
@@ -77,8 +80,8 @@ if(!isset($_GET['id']) || !is_numeric($_GET['id']) || $_GET['id'] == ""){
                             <!--  PAÍS DEL PRODUCTO -->
                             <div class="product-controls">
                                 <label for="" class="label-product lang_ttrq" key="txt-form-update_product-4">Pais</label>
-                                <select name="pais" class="input-product" id="pais" value="Selecciona el País">
-                                    <option value="<?php echo $data[0]['id_pais']; ?>"><?php echo $data[0]['nombre_pais']; ?></option>
+                                <select name="pais" class="input-product select-onehidden" id="pais" value="Selecciona el País">
+                                    <option value="<?php echo $d[0]['id_pais']; ?>"><?php echo $d[0]['nombre_pais']; ?></option>
                                     <?php
 
                                     foreach ($pais as $value) {
@@ -112,7 +115,7 @@ if(!isset($_GET['id']) || !is_numeric($_GET['id']) || $_GET['id'] == ""){
                                         <input type="hidden" name="imagen" class="input-product-imgs" id="imgitp">
                                     </div>
                                 </div>
-                                <div class="content-secondary-imgs_product"> 
+                                <!--<div class="content-secondary-imgs_product"> 
                                     <label for="" class="label-product-imgs lang_ttrq" key="txt-form-add_product-7-1">Imágenes secundarias</label>
                                     <div class="add-imgs-secondary">
                                         <select name="" id="imgs-select" class="select-onehidden">
@@ -120,7 +123,7 @@ if(!isset($_GET['id']) || !is_numeric($_GET['id']) || $_GET['id'] == ""){
                                           <option value="1">Imágenes Secundarias</option>
                                         </select>
                                     </div>
-                                </div>
+                                </div>-->
                             </div>
                             <div id="imgSrc"> </div>
                             <div id="moreimgs"></div>

@@ -27,6 +27,11 @@
 #products-more-sells .owl-stage-outer .owl-stage .owl-item .item .targets_products > .photo_products .flag-by-country{	position: absolute !important;  top: 5px;  left: 9px;}
 #products-more-sells .owl-stage-outer .owl-stage .owl-item .item .targets_products > .photo_products .flag-by-country > .cont-flag-into-image-prod{	height: 23px;  width: 36px;  background: #fff;}
 #products-more-sells .owl-stage-outer .owl-stage .owl-item .item .targets_products > .photo_products .flag-by-country > .cont-flag-into-image-prod > div{	width: 100%;  height: 100%;  background-position: center;  background-repeat: no-repeat;  background-size: contain;}
+/* MENSAJE CUANDO NO HAY PRODUCTOS */
+.cont-msg-any-products_sells{display: flex;flex-direction: column;align-items: center;justify-content: center;text-align: center;min-height: 220px;background: #cccc;}
+.cont-msg-any-products_sells svg{font-size: 2rem;margin-bottom: .4rem;color: rgba(0,0,0,.3);}
+.cont-msg-any-products_sells p{margin: 0;font-size: 1.3rem;color: rgba(0,0,0,.3);}
+
 
 /* MEDIA QUERIES */
 @media (max-width: 1220px){

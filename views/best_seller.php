@@ -4,11 +4,23 @@
 			<h3 class="lang_ttrq" key="title_best-seller">Lo más Vendido</h3>
 		</div>
 	</div>
+	<?php 
+
+		//print_r($top_sells);
+		if($top_sells == []){
+			echo "<div class='cont-msg-any-products_sells'>
+				<i class='fal fa-frown-open'></i>
+				<p>Ups! No hay productos disponibles.</p>
+			</div>";
+		}else{
+
+	 ?>	
 	<div class="owl-carousel owl-theme" id="products-more-sells">
 		<!--CONTENT PHP-->
 		<?php
 
 		$temp_carousel = "";
+
 
 		foreach ($top_sells as $key) {
 			$descuento = "";
@@ -154,4 +166,5 @@
 		echo $temp_carousel;
 		?>
 	</div>
+	<?php 		} ?>
 </div>

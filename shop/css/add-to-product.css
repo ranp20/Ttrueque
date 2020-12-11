@@ -65,7 +65,7 @@
 }
 /*  IMÁGEN PRINCIPAL */
 .product-controls-imgs .content-principal-img_product{
-    width: 60%; 
+    width: 100%;
 }
 .product-controls-imgs .content-principal-img_product .add-img-primary {
   margin-top: 0.5rem;
