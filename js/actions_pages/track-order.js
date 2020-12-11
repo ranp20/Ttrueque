@@ -11,7 +11,8 @@ $(document).ready(function () {
     dataType: "JSON",
     data: { idcliente : idclient},
   }).done(function (res) {
-    console.log(res);
+    $("#count-trackorder").text(res.length)
+
     if (res == 0) {
       $(".cont-products-order-info-cli_ttrq").append(`
         <div class="content-msg-any-track-orders">

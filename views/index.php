@@ -23,10 +23,11 @@ if (!isset($_SESSION['user'])) {
 
 ?>
 <?php require_once './header_index.php'; ?>
+
 <body>
-	<?php require_once './api_whatsapp.php'; ?>
-	<div id="page">
-		<?php
+    <?php require_once './api_whatsapp.php'; ?>
+    <div id="page">
+        <?php
 		require_once '../php/process_header.php';
 		require_once "./header_b.php";
 
@@ -184,40 +185,41 @@ if (!isset($_SESSION['user'])) {
 		var linksParent = $(".cont-links-products-banners");
     var links = linksParent.find("a");
     var items = $(".content-more-sells");
-    
+
     linksParent.on("click", "a", function(event) {
         var target = $(this.getAttribute("href"));
 
         var t = $(this);
         var ind = t.index();
         if (target.length) {
-          event.preventDefault();
-          $("html, body").stop().animate({
-                  scrollTop: target.offset().top,
-              },
-              1000
-          );
+            event.preventDefault();
+            $("html, body").stop().animate({
+                    scrollTop: target.offset().top,
+                },
+                1000
+            );
         }
     });
 
-		$(document).ready(function() {
-			'use strict';
-			$.cookieBar({
-				fixed: true
-			});
-		});
-	</script>
-	<!--------- SWEEET ALERT 2  ---------->
-	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-	<!---------CUSTOMS JAVASCRIPT--------->
-	<script src="js/actions_pages/buy_cart.js"></script>
-	<script src="js/actions_pages/remove.js"></script>
-	<script src="js/actions_pages/customs.js"></script>
-	<script src="js/actions_pages/search_products.js"></script>
-	<script src="js/actions_pages/language_currency.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <!--<script src="js/customs/custom.js"></script>-->
-	<script src="js/customs/custom.js"></script>
+    $(document).ready(function() {
+        'use strict';
+        $.cookieBar({
+            fixed: true
+        });
+    });
+    </script>
+    <!--------- SWEEET ALERT 2  ---------->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <!---------CUSTOMS JAVASCRIPT--------->
+    <script src="js/actions_pages/buy_cart.js"></script>
+    <script src="js/actions_pages/remove.js"></script>
+    <script src="js/actions_pages/customs.js"></script>
+    <script src="js/actions_pages/search_products.js"></script>
+    <script src="js/actions_pages/language_currency.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!--<script src="js/customs/custom.js"></script>-->
+    <script src="js/customs/custom.js"></script>
 </body>
 
 </html>
