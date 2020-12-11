@@ -284,6 +284,10 @@ section > .container-desc-txt-l > .content-text-desc-trk > a:hover{
   background: #fff;
   color: #000;
 }
+.content-options-trk-tabs a:first-child:hover{
+  background: #fff;
+  color:#000;
+}
 /* RETORNAR AL HOME */
 .content-options-trk-tabs a.ico-user-valid{
   padding: .4rem 1rem;

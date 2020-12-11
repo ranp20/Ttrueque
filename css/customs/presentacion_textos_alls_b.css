@@ -1,7 +1,7 @@
 /* HEADER DE LOS ENLACES DE LOS TEXTOS DE PRESENTACIÓN */
 .b-two-t-m-xd{	overflow: auto;}
-.page_texto_b1:before{	content: '';	display: block;	top: 0;	z-index: -1;	width: 100%;	position: absolute;	height: 90px;	background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,0) 100%);}
-.page_texto_b1{	position: relative;	height: 70px;	box-sizing: border-box;}
+.page_texto_b1{	position: relative;	height: 70px;	box-sizing: border-box;background: var(--principal-color);box-shadow: 0 0 20px 1px rgba(0,0,0,.4);}
+/*.page_texto_b1:before{	content: '';	display: block;	top: 0;	z-index: -1;	width: 100%;	position: absolute;	height: 90px;	background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,0) 100%);}*/
 .container-texto-alls-b{	margin: 0 70px;	padding: 20px 0px;	height: 100%;}
 .container-texto-alls-b > header{	width: 100%;	height: 100%;}
 .content-h-txt-b{    height: 100%;    display: flex;    align-items: center;    justify-content: center;    width: 100%;    margin: auto;}
@@ -15,8 +15,8 @@
 .content-h-txt-b > section > .content-h-buttons-txt-b > .btn-reg-text-b{	position: relative;	padding: .95em 1.35em;	border-radius: 1.7em;	text-decoration: none;	font-weight: 400;	font-size: 12px;	margin-left: 5px;	transition: 0s;	font-family: var(--fuente-categorias_2);}
 .content-h-txt-b > section > .content-h-buttons-txt-b > a:first-child{	border:1px solid #fff;	color: #fff;}
 .content-h-txt-b > section > .content-h-buttons-txt-b > a:nth-child(2){	color: #000;	border:1px solid transparent;	background: #fff;}
-.content-h-txt-b > section > .content-h-buttons-txt-b > a:first-child:hover{	color: #000;	background: rgba(0,0,0,0.03);}
-.content-h-txt-b > section > .content-h-buttons-txt-b > a:nth-child(2):hover{	background: rgba(0,0,0,0.03);	color: #fff;}
+.content-h-txt-b > section > .content-h-buttons-txt-b > a:first-child:hover{	color: #ddd;border:1px solid #ddd;}
+.content-h-txt-b > section > .content-h-buttons-txt-b > a:nth-child(2):hover{	background: rgba(255,255,255,.9);}
 /*******************************************************************/
 /********* CONTENIDO "MAYORES DETALLES"  - PRIMER ENLACE  **********/
 /*******************************************************************/

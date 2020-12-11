@@ -19,6 +19,7 @@ if (isset($_GET["login"])) {
     if (password_verify($_POST['pass'], $data[0]["password_cliente"]) && password_verify('enabled', $data[0]["estado"])) {
         $_SESSION["user"] = $data[0]["id_cliente"];
         header("Location: .././");
+        //echo '<script> location.replace("./"); </script>';
     } else {
         set_message("Usuario o contraseña fallida", "../login");
     }
