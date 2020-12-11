@@ -5,6 +5,8 @@
       require_once("class/categoria.php");
       $c = new Categoria();
       
+      $_FILES['image'] = str_replace(" ", "-", $_FILES['image']);
+
       $nombre = $_POST['name'];
       $imagen = $_FILES['image'];
       
