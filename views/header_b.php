@@ -1,5 +1,11 @@
   <!----------------------------->
+  <?php 
 
+if (!isset($_SESSION["user"])) {
+	header("Location: account");
+}
+
+?>
   <nav class="navbar navbar-expand-lg navbar-dark justify-content-sm-start fixed-top nav-index-ttrq">
       <div class="container">
           <a class="navbar-brand order-1 order-lg-0 ml-lg-0 ml-2 mr-auto cont-logo-ttrq-nav" href="./">
@@ -39,6 +45,7 @@
                           <?php
                   if (!isset($_SESSION["user"])) {
                     echo "<a href='./account' class='btn_1' title=''>Inicia sesi&oacute;n o reg&iacute;strate</a>";
+                   
                   } else {
                     if (!isset($tienda[1][0]["id_menbresia"])) {
                       echo "<a class='dropdown-item' href='home' title='Home'><i class='ti-home'></i><span>Ir a inicio</span></a>
