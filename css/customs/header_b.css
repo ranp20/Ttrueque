@@ -109,7 +109,8 @@ li .language_icon_header_b-ttrq .icon-language_ttrq ul li button div {  backgrou
 .custom-search-input_buscador div label span {  position: absolute;  z-index: 9;  top: 0.67rem;  left: 1rem;  color: grey;}
 /* ESTADO FOCUS*/
 .custom-search-input_buscador div label span.foco {  position: absolute;  z-index: 9;  top: 0.67rem;  left: 1.2rem;  color: grey;  display: none;}
-
+/* CONTADOR DE ORDENES Y PEDIDOS */
+.cont-list-opts-profile > a.dropdown-item > #count-trackorder{padding: .3rem .6rem;border-radius: 50%;display: inline;align-items: center;justify-content: center;text-align: center;color: #fff;background: var(--principal-color);}
 
 /* MEDIA QUERIES - INDEX.PHP */
 @media (max-width: 1220px){ 

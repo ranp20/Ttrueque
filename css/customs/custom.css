@@ -757,7 +757,7 @@ body::-webkit-scrollbar-track:hover {
 .content-msg-any-categs-into-store div a{
   font-size: 20px;
   border: none;
-  background: #3483fa;
+  background: var(--principal-color);
   color: #fff;
   border-radius: 4px;
   line-height: 1;
@@ -767,7 +767,8 @@ body::-webkit-scrollbar-track:hover {
   text-decoration: none;    
 }
 .content-msg-any-categs-into-store div a:hover{
-    background: #047BFA;
+    background: var(--principal-color-h);
+    color: var(--color-black-h);
 }
 
 /* ESTILOS DE LA PÁGINA DE CONFIRMACIÓN */

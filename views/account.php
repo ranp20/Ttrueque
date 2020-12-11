@@ -130,7 +130,7 @@ require_once 'header_index.php'; ?>
 								</div>
 							</div>
 							<div class="text-center">
-								<input type="submit" value="Registrarme" class="btn_1 full-width banner_btn">
+								<input type="submit" value="Registrarme" class="btn_1 full-width banner_btn btn-register-user-new">
 								<div class="cont-session-exist-login">
 									<p>¿Ya tienes una cuenta?&nbsp;&nbsp;<a href="login">Iniciar sesión</a></p>
 								</div>
