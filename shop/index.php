@@ -13,9 +13,9 @@ if ($d[0]['estado'] == "INACTIVO") {
     header('location: sales-report.php');
 }
 
-if(!isset($d[0]['tienda']) || $d[0]['tienda'] == "" || !is_numeric($d[0]['tienda'])){
-    header('location: ../');
-}
+// if(!isset($d[0]['tienda']) || $d[0]['tienda'] == "" || !is_numeric($d[0]['tienda'])){
+//     header('location: ../');
+// }
 
 ?>
 

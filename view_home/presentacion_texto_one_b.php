@@ -42,14 +42,14 @@
 						<p>Tu ganancia se DUPLICA Ejemplo: Vendes 30 dólares (o su equivalente en moneda nacional) automáticamente tu cuenta Ttrueque lo DUPLICA; obtienes 60 bikkers</p>
 						<!--<div loading="lazy" class="img-trgt-b-trk img-fluid" style="background-image: url(img/banners/women-bussiness-happy.png);background-repeat:no-repeat;background-size: cover;background-position: center;">
 						</div>-->
-						<img src="img/banners/women-bussiness-happy.png" class="img-trgt-b-trk img-fluid" alt="backgr_img_ttrq_01">
+						<img src="img/Utilities/double_ganance.png" class="img-trgt-b-trk img-fluid" alt="backgr_img_ttrq_01">
 					</div>
 					<div class="content-c-txt-b-one">
 						<h3>COMPRAR</h3>
 						<p>Cuando deseas comprar lo harás usando bikkers que tienes en tu cuenta o targeta Ttrueque. Cada bikker equivale a un (1) dólar. Podras comprar en línea o en el propio establecimiento.</p>
 						<!--<div loading="lazy" class="img-trgt-b-trk img-fluid" style="background-image: url(img/banners/women-bussiness-happy.png);background-repeat:no-repeat;background-size: cover;background-position: center;">
 						</div>-->
-						<img src="img/banners/women-bussiness-happy.png" class="img-trgt-b-trk img-fluid" alt="backgr_img_ttrq_02">
+						<img src="img/Utilities/double_ganance_2.png" class="img-trgt-b-trk img-fluid" alt="backgr_img_ttrq_02">
 					</div>
 				</section>
 			</div>

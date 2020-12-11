@@ -11,9 +11,9 @@
 .content-log-in-u > section > form{	display: flex;	flex-direction: column;}
 .content-log-in-u > section > form > input{	margin-bottom: 1.25rem;  line-height: 3.45em;  border-radius: 0.25rem;  border: 1px solid #9da3a6;  padding: 0 0.65rem;  outline: none;  font-size: 0.8rem;}
 .content-log-in-u > section > form > input:focus{	border:1px solid rgba(0,0,0,0.5);}
-.content-log-in-u > section > form > button{	display: flex;  align-items: center;  justify-content: center;  background: #0070ba;  color: #fff;  min-height: 44px;  border-radius: .25rem;  font-weight: 800;  border: none;  outline: none;  box-sizing: border-box;  text-decoration: none;  transition: .1s;  font-size: .87rem;}
+.content-log-in-u > section > form > button{	display: flex;  align-items: center;  justify-content: center;  background: var(--principal-color);  color: #fff;  min-height: 44px;  border-radius: .25rem;  font-weight: 800;  border: none;  outline: none;  box-sizing: border-box;  text-decoration: none;  transition: .1s;  font-size: .87rem;}
 .content-log-in-u > section > form > button:active{    text-decoration: underline;}
-.content-log-in-u > section > form > button:hover{	background: #004A7C;}
+.content-log-in-u > section > form > button:hover{	background: var(--principal-color-h);color: var(--color-black-h);}
 /* BOTÓN "REGISTRARSE" - LOG-IN */
 .content-register-log-in-u{	text-align: center;}
 .content-divisor-log-in-u{	border-top: 1px solid #ddd;	position: relative;	margin: 25px 0 10px;}
