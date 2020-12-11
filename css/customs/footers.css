@@ -1,7 +1,7 @@
 /* FOOTER PRIMARY */
 .footer_primary_page-ttrk{padding: 60px 0 0 0 !important;    background: var(--principal-color) !important;}
 .container-list-opts-footer_ttrq > div > h3:first-child{font-weight: bold;}
-.container-list-opts-footer_ttrq > div:last-child h5{color: #fff;}
+.container-list-opts-footer_ttrq > div:last-child h5{color: #fff;margin-top: 0 !important;opacity: .8 !important}
 /* FOOTER POLICY */
 .cont-foot-two-p-ttrq{background:#CFCFCF;    padding-top: 2em;}
 .footer-policy-ttrk{padding: 30px 0;    background: #e6e6e6;    align-self: flex-end;    justify-self: flex-end;    width: 100%;}

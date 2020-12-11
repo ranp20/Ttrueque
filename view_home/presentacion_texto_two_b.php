@@ -13,15 +13,15 @@
 						<div class="content-list-steps-txt-b-two">
 							<div class="content-img-info-page">
 								<p>Una vez que abres tu cuenta Ttrueque, accedes a una forma FÁCIL Y SEGURA de vender y comprar, sn utilizar dinero convencional</p>
-								<img loading="lazy" class="img-fluid" src="img/logo/Logo_TTRK.png">
+								<img loading="lazy" class="img-fluid" src="img/Utilities/double_ganance_2.png">
 							</div>
 							<div class="content-img-info-page">
 								<p>En tu cuenta o targeta Ttrueque, tu saldo se considera en Bikkers. Por cada dólar que vendes, en tu cuenta se registran 2 Bikkers</p>
-								<img loading="lazy" class="img-fluid" src="img/logo/Logo_TTRK.png">
+								<img loading="lazy" class="img-fluid" src="img/Utilities/card_ttrueque.png">
 							</div>
 							<div class="content-img-info-page">
 								<p>Al abrir tu cuenta Ttrueque <span>Básica</span> (gratuita) te regalamos 50 Bikkers para que empieces a conocery disfrutar de las bondades de Trueque</p>
-								<img loading="lazy" class="img-fluid" src="img/logo/Logo_TTRK.png">
+								<img loading="lazy" class="img-fluid" src="img/Utilities/double_welcome.png">
 							</div>
 						</div>
 					</div>
@@ -38,7 +38,7 @@
 					<ul>
 						<li>
 							<div class="t-m-img-b-trk">
-								<div loading="lazy" class="tm-image-b-trk img-fluid" style="background-image: url(img/logo/Logo_TTRK.png);">
+								<div loading="lazy" class="tm-image-b-trk img-fluid" style="background-image: url(shop/images/wallet/medalla_bronce.png);">
 								</div>
 							</div>
 							<div class="t-m-list-info-params">
@@ -53,7 +53,7 @@
 						</li>
 						<li>
 							<div class="t-m-img-b-trk">
-								<div loading="lazy" class="tm-image-b-trk img-fluid" style="background-image: url(img/logo/Logo_TTRK.png);">
+								<div loading="lazy" class="tm-image-b-trk img-fluid" style="background-image: url(shop/images/wallet/medalla_bronce.png);">
 								</div>
 							</div>
 							<div class="t-m-list-info-params">
@@ -68,7 +68,7 @@
 						</li>
 						<li>
 							<div class="t-m-img-b-trk">
-								<div loading="lazy" class="tm-image-b-trk img-fluid" style="background-image: url(img/logo/Logo_TTRK.png);">
+								<div loading="lazy" class="tm-image-b-trk img-fluid" style="background-image: url(shop/images/wallet/medalla_bronce.png);">
 								</div>
 							</div>
 							<div class="t-m-list-info-params">

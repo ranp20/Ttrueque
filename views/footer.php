@@ -6,12 +6,12 @@
         <h3 data-target="#collapse_1"  class="lang_ttrq" key="t_list-footer-one">Enlaces rápidos</h3>
         <div class="collapse dont-collapse-sm links" id="collapse_1">
           <ul>
-            <li><a href="about.php" class="lang_ttrq" key="opt-l-f_one-1">Acerca de</a></li>
-            <li><a href="help.php" class="lang_ttrq" key="opt-l-f_one-2">Preguntas más frecuentes</a></li>
-            <li><a href="help-2.php" class="lang_ttrq" key="opt-l-f_one-3">Ayuda</a></li>
-            <li><a href="my_profile.php" class="lang_ttrq" key="opt-l-f_one-4">Mi cuenta</a></li>
-            <li><a href="blog.php" class="lang_ttrq" key="opt-l-f_one-5">Blog</a></li>
-            <li><a href="contacts.php" class="lang_ttrq" key="opt-l-f_one-6">Contactos</a></li>
+            <!--<li><a href="about.php" class="lang_ttrq" key="opt-l-f_one-1">Acerca de</a></li>-->
+            <li><a href="shop" class="lang_ttrq" key="opt-l-f_one-4">Mi cuenta</a></li>
+            <li><a href="home" class="lang_ttrq" key="opt-l-f_one-2">Preguntas más frecuentes</a></li>
+            <!--<li><a href="help-2.php" class="lang_ttrq" key="opt-l-f_one-3">Ayuda</a></li>-->
+            <!--<li><a href="blog.php" class="lang_ttrq" key="opt-l-f_one-5">Blog</a></li>-->
+            <!--<li><a href="contacts.php" class="lang_ttrq" key="opt-l-f_one-6">Contactos</a></li>-->
           </ul>
         </div>
       </div>
@@ -20,12 +20,20 @@
         <h3 data-target="#collapse_2" class="lang_ttrq" key="t_list-footer-two">Categorías</h3>
         <div class="collapse dont-collapse-sm links" id="collapse_2">
           <ul>
-            <li><a href="listing-grid-1-full.html" class="lang_ttrq" key="opt-l-f_two-1">Ropa</a></li>
-            <li><a href="listing-grid-2-full.html" class="lang_ttrq" key="opt-l-f_two-2">Electrónicos</a></li>
-            <li><a href="listing-grid-1-full.html" class="lang_ttrq" key="opt-l-f_two-3">Muebles</a></li>
-            <li><a href="listing-grid-3.html" class="lang_ttrq" key="opt-l-f_two-4">Lentes</a></li>
-            <li><a href="listing-grid-1-full.html" class="lang_ttrq" key="opt-l-f_two-5">Zapatos</a></li>
-            <li><a href="listing-grid-1-full.html" class="lang_ttrq" key="opt-l-f_two-6">Relojes</a></li>
+            <?php
+              $only_six = array_slice($cat_limit, 0, 6);
+
+              foreach ($only_six as $key => $val) {
+                $e =    $val["nombre_categoria"];
+                $url =    str_replace(" ", "-", $e);
+
+                echo "<li>
+                  <a class='' href='tienda?tipos={$url}'>
+                    <span>{$val["nombre_categoria"]}</span>          
+                  </a>
+                </li>";
+              }
+              ?>            
           </ul>
         </div>
       </div>
@@ -34,9 +42,9 @@
         <h3 data-target="#collapse_3" class="lang_ttrq" key="t_list-footer-three">Contactos</h3>
         <div class="collapse dont-collapse-sm contacts" id="collapse_3">
           <ul>
-            <li><i class="ti-home"></i>97845 Baker st. 567<br>Los Angeles - US</li>
+            <li><i class="ti-home"></i>Av. Arenales Nro. 1031 Int. B - <br>Santa Beatriz, Lima.</li>
             <li><i class="ti-headphone-alt"></i><a href="tel://51 951 488 317" title="Necesitas Ayuda?">+51 951 488 317</a></li>
-            <li><i class="ti-email"></i><a href="#0">info@trueque.com</a></li>
+            <li><i class="ti-email"></i>melgarejo777666@gmail.com</li>
           </ul>
         </div>
       </div>
@@ -44,12 +52,12 @@
       <div class="col-lg-3 col-md-6">
         <h3 data-target="#collapse_4" class="lang_ttrq" key="t_list-footer-four">Mantenerse en Contacto</h3>
         <div class="collapse dont-collapse-sm" id="collapse_4">
-          <div id="newsletter">
+          <!--<div id="newsletter">
             <div class="form-group">
               <input type="email" name="email_newsletter" id="email_newsletter" class="form-control" placeholder="Tu correo electrónico">
               <button type="submit" id="submit-newsletter"><i class="ti-angle-double-right"></i></button>
             </div>
-          </div>
+          </div>-->
           <div class="follow_us">
             <h5 class="lang_ttrq" key="opt-l-f_four-1">Siguenos en:</h5>
             <ul>
@@ -65,9 +73,9 @@
     <!-- /row-->
     <hr>
     <div class="row add_bottom_25">
-      <div class="col-lg-6">
+      <div class="col-lg-12 d-flex justify-content-center">
         <ul class="footer-selector clearfix">
-          <div>
+          <!--<div>
             <li>
               <div class="styled-select lang-selector">
                 <select>
@@ -86,9 +94,9 @@
                 </select>
               </div>
             </li>
-          </div>
-          <li>
-            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="img/cards_all.svg" alt="" width="198" height="30" class="lazy">
+          </div>-->
+          <li style="margin: 0;padding: 0;">
+            <img src="img/svg/credit-cards_paypal.svg" data-src="img/svg/credit-cards_paypal.svg" alt="credit_card_paypal" width="250" height="70" class="lazy">
           </li>
         </ul>
       </div>
