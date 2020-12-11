@@ -12,25 +12,25 @@ $dat = $c->select_tienda();
 <?php require_once 'header_index.php'; ?>
 
 <body>
-	<?php require_once 'api_whatsapp.php' ?>
-	<!--- API WHATSAPP---->
-	<div id="page">
-		<?php
+    <?php require_once 'api_whatsapp.php' ?>
+    <!--- API WHATSAPP---->
+    <div id="page">
+        <?php
 		require_once '../php/process_header.php';
 		require_once 'header_b.php';
 		?>
-		<!-- /header -->
-		<div class="content-ttrk-official-markets-c">
-	<div class="contenido-tiendas-off-header">
-		<div class="content-title-tiendas">
-			<h3 class="lang_ttrq" key="title_all_official_markets">Todas las tiendas</h3>
-		</div>
-	</div>
-	<div class="container-content-off-mrkts">
-		<section class="list-stores-officials-ttrk-c">
-			<ul class="items-str-off-ttrk">
-				<!-- //ITEMS - TIENDAS OFICIALES EN TTRUEQUE-->
-				<?php
+        <!-- /header -->
+        <div class="content-ttrk-official-markets-c">
+            <div class="contenido-tiendas-off-header">
+                <div class="content-title-tiendas">
+                    <h3 class="lang_ttrq" key="title_all_official_markets">Todas las tiendas</h3>
+                </div>
+            </div>
+            <div class="container-content-off-mrkts">
+                <section class="list-stores-officials-ttrk-c">
+                    <ul class="items-str-off-ttrk">
+                        <!-- //ITEMS - TIENDAS OFICIALES EN TTRUEQUE-->
+                        <?php
 
 				//$slice_tiendas = array_slice($dat, 0, 10);
 
@@ -72,33 +72,35 @@ $dat = $c->select_tienda();
 					}
 				}
 				?>
-				<!-- //END TO ITEMS-->
-			</ul>
-		</section>
-	</div>
-	</div>
-	<!--/footer-->
-	<?php require_once 'footer.php' ?>
-	</div>
-	<!-- page -->
-	<div id="toTop"></div>
-	<!-- Back to top button -->
-	<!-- COMMON SCRIPTS -->
-	<script src="./js/common_scripts.min.js"></script>
-	<script src="./js/main.js"></script>
-	<script src="./js/carousel-home.min.js"></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-	<script src="./js/actions_pages/buy_cart.js"></script>
-	<script src="./js/actions_pages/view_cart.js"></script>
-	<script src="./js/actions_pages/modal_dialog.js"></script>
-	<script src="./js/actions_pages/customs.js"></script>
-	<script src="./js/jquery.cookiebar.js"></script>
-	<script src="./js/actions_pages/search_products.js"></script>
-	<script src="./js/actions_pages/history-shoping.js"></script>
-	<script src="./js/actions_pages/language_currency.js"></script>
-	<script src="./js/actions_pages/listAllCategories.js"></script>
-	<script src="./js/actions_pages/listCategories_ByStore.js"></script>
-	<script src="./js/actions_pages/listProds_Store_Category.js"></script>
-	<script src="js/customs/custom.js"></script>
+                        <!-- //END TO ITEMS-->
+                    </ul>
+                </section>
+            </div>
+        </div>
+        <!--/footer-->
+        <?php require_once 'footer.php' ?>
+    </div>
+    <!-- page -->
+    <div id="toTop"></div>
+    <!-- Back to top button -->
+    <!-- COMMON SCRIPTS -->
+    <script src="./js/common_scripts.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/carousel-home.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="./js/actions_pages/buy_cart.js"></script>
+    <script src="./js/actions_pages/view_cart.js"></script>
+    <script src="./js/actions_pages/modal_dialog.js"></script>
+    <script src="./js/actions_pages/customs.js"></script>
+    <script src="./js/jquery.cookiebar.js"></script>
+    <script src="./js/actions_pages/search_products.js"></script>
+    <script src="./js/actions_pages/history-shoping.js"></script>
+    <script src="./js/actions_pages/language_currency.js"></script>
+    <script src="./js/actions_pages/listAllCategories.js"></script>
+    <script src="./js/actions_pages/listCategories_ByStore.js"></script>
+    <script src="./js/actions_pages/listProds_Store_Category.js"></script>
+    <script src="js/customs/custom.js"></script>
+    <script src="./js/actions_pages/track-order.js"></script>
 </body>
+
 </html>
