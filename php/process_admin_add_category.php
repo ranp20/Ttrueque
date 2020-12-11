@@ -1,13 +1,6 @@
 <?php 
   session_start();
 
-// function set_message($msg, $location)
-// {
-//     $_SESSION["error"] = $msg;
-//     header("Location: $location");
-// }
-
-
   if(isset($_POST['name']) && isset($_POST['submit'])){
       require_once("class/categoria.php");
       $c = new Categoria();
@@ -58,5 +51,5 @@
       $_SESSION['msg'] = 'Error al agregar uno a más registros';
       header("Location: ../admin/add-category.php");
   }
+    header("Location: ../admin/manage-category.php");
   
-  header("../admin/manage-category.php");
