@@ -53,21 +53,20 @@
 
 
 /* MEDIA QUERIES */
-@media (max-width: 1250px){
-	.content-ttrk-official-markets-c{width: 90%;}
-}
+
 @media (max-width: 1200px){
-	.content-ttrk-official-markets-c{width: 90%;}
+	
 }
 @media (max-width: 1024px){
-	.content-ttrk-official-markets-c{width: 90%;}
+	
 }
 @media (max-width: 991px){
-	.content-ttrk-official-markets-c{width: 90%;}
+	
 	.list-products-stores-ttrk-c > .btn-l-cart-product-str_ttrq, .list-products-stores-ttrk-c > .btn-r-cart-product-str_ttrq{display: block;border: 1px solid #ccc;}
 }
 @media (max-width: 768px){
-	.content-ttrk-official-markets-c{width: 90%;}
+	.content-ttrk-official-markets-c{width: 95%;padding: 0;}
+	.list-stores-officials-ttrk-c > .items-str-off-ttrk{justify-content: center;}
 }
 @media (max-width: 767px){
 	.contenido-categorias_ttrk-off-header > .content-title-categorias_ttrk{justify-content: center;text-align: center;}

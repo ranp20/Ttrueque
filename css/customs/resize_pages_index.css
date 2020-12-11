@@ -83,7 +83,6 @@
   .container-banner-pub_ttrq .content-b-pub_ttrq .content-left-info-banner-publicity_ttrq h1{font-size: 1.8rem;line-height: 2rem;}
   .container-banner-pub_ttrq .content-b-pub_ttrq .content-left-info-banner-publicity_ttrq h4{font-size: 1.25rem;}
   .container-banner-pub_ttrq .content-b-pub_ttrq .content-left-info-banner-publicity_ttrq a{font-size: .75rem;}
-  .contenido-tiendas-off-header > .content-title-tiendas{justify-content: center;}
   .list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into{width: calc(100% * 1/3 - 20px);}
   .list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into > .item-cont-str-off > .cont-logo-offi-mrkt-b-ttrk{width: 130px;height: 130px;}
   .list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into > .item-cont-str-off > .cont-info-offi-mrkt-b-ttrk > p:first-child{font-size: 1.15rem;font-weight: 700;}
@@ -110,6 +109,8 @@
   #products-more-sells .owl-stage-outer .owl-stage .owl-item .item{margin-right: 6px;max-height: 345px !important;}
   #products-more-sells .owl-stage-outer .owl-stage .owl-item .item .targets_products > .photo_products > a > .content-img-best-sells-h > img{height: 200px !important;}
   .container-banner-pub_ttrq{max-width: 1000px;}
+  .contenido-tiendas-off-header > .content-title-tiendas{justify-content: center;}
+  .content-more-sells > #title-content-more-sells{justify-content: center;}
   .container-banner-pub_ttrq > .content-b-pub_ttrq{margin: 0;}
   .container-banner-pub_ttrq .content-b-pub_ttrq .content-left-info-banner-publicity_ttrq h1{font-size: 1.5rem;line-height: 1.75rem;}
   .container-banner-pub_ttrq .content-b-pub_ttrq .content-left-info-banner-publicity_ttrq h4{font-size: 1.15rem;}
