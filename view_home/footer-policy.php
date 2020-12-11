@@ -9,7 +9,7 @@
           <a href="#" class="ayuda">Ayuda</a>
         </div>
         <div class="content-bottom-footer-right">
-          <p>Copyright &copy; 1980 - 2020 Trueque Perú S.R.L.</p>
+          <p>Copyright &copy; 2020 Trueque Perú S.R.L.</p>
         </div>
       </div>
       <div class="content-right-footer">

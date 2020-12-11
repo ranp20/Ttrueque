@@ -23,7 +23,7 @@ require_once 'header_index.php'; ?>
 						<section>
 							<div class="content-h-logo-txt-b">
 								<a href="home" class="h-logo-txt-b-link-trk">
-									<img src="./img/logo/Logo_TTRK.png" alt="logo_Ttrueque">
+									<img src="./img/logo/Logo_TTRQ_dark.png" alt="logo_Ttrueque">
 								</a>
 							</div>
 							<div class="content-h-buttons-txt-b">

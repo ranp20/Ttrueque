@@ -50,6 +50,7 @@
 }
 
 @media (max-width: 960px){
+  .content-more-sells > #title-content-more-sells > #content-text-more-sells > h3{font-size: 1.6rem;}
   #products-more-sells .owl-stage-outer .owl-stage .owl-item .item{margin-right: 6px;max-height: 345px !important;}
   #products-more-sells .owl-stage-outer .owl-stage .owl-item .item .descriptions_products_admin > .desc-product-text_admin, #products-more-sells .owl-stage-outer .owl-stage .owl-item .item .descriptions_products > .desc-product-text{overflow: hidden;width: 100%;}
   #products-more-sells .owl-stage-outer .owl-stage .owl-item .item .descriptions_products > .stars_by_products, #products-more-sells .owl-stage-outer .owl-stage .owl-item .item .descriptions_products_admin > .stars_by_products{display: none;}
@@ -381,7 +382,7 @@
 @media (max-width: 320px){
   .container_cart_lis-ttrq{max-width: 270px !important;min-width: 220px !important;}
   .cont-msg-any-products-cart > h5{font-size: 1rem;font-weight: 600;}
-  .container-banner-pub_ttrq .content-b-pub_ttrq .content-left-info-banner-publicity_ttrq{  background: rgba(0,0,0,.4);}
+  .container-banner-pub_ttrq .content-b-pub_ttrq .content-left-info-banner-publicity_ttrq{  background: rgba(0,0,0,.4);text-align: center;}
   header ul.top_tools{  height: 100%;}
   .custom-search-input_buscador div label{  width: 98%;}
   #caja_busqueda_primary{  height: 35px;  width: 100%;}
@@ -389,16 +390,12 @@
   .custom-search-input_buscador div label span{  top: 0.45rem;}
   .link-logo_official_ttrueque{  width: 90px;  height: 55px; }
   .container-banner-pub_ttrq .content-b-pub_ttrq .content-right-img-banner-publicity_ttrq{  width: 100%;  height: 100%;}
-  .container-banner-pub_ttrq .content-b-pub_ttrq .content-left-info-banner-publicity_ttrq{  width: 100%;  height: 50%;   display: flex;flex-direction: column;  min-height: 235px;}
-  #products-more-sells .owl-stage-outer .owl-stage .owl-item{width: 270.667px !important;}
   #content-more-sells > #title-content-more-sells > #content-text-more-sells > h3, .contenido-tiendas-off-header > .content-title-tiendas > h3{font-size: 1.3rem;}
   #products-more-sells .owl-stage-outer .owl-stage .owl-item .item{margin-right: 6px;max-height: 345px !important;}
-  #products-more-sells .owl-stage-outer .owl-stage .owl-item .item .targets_products{width: 100% !important;max-height: 345px !important;min-height: 345px !important;}
   #products-more-sells .owl-stage-outer .owl-stage .owl-item .item .targets_products > .photo_products > a > .content-img-best-sells-h > img{height: 200px !important;}
   .container-banner-pub_ttrq{max-width: 320px;flex-direction: column;height: 380px;}
   .container-banner-pub_ttrq > .content-b-pub_ttrq{display: flex;margin: 0;flex-direction: column;flex-flow: column-reverse;}
   .container-banner-pub_ttrq .content-b-pub_ttrq .content-left-info-banner-publicity_ttrq h1{font-size: 1.5rem;line-height: 1.6rem;}
-  .container-banner-pub_ttrq .content-b-pub_ttrq .content-left-info-banner-publicity_ttrq h4{font-size: 1.09rem;height: 100%;}
   .container-banner-pub_ttrq .content-b-pub_ttrq .content-left-info-banner-publicity_ttrq a{text-align: center;font-size: .8rem;padding: 1rem 1rem;display: block;width: 100%;}
   .list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into{width: calc(100% * 1/2 - 10px);margin: 0 0 .5rem 0;}
   .list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into > .item-cont-str-off > .cont-info-offi-mrkt-b-ttrk > p:first-child{font-size: .9rem;font-weight: 700;}
@@ -428,11 +425,9 @@
   .link-logo_official_ttrueque{  width: 90px;  height: 55px; }
   .container-banner-pub_ttrq .content-b-pub_ttrq .content-right-img-banner-publicity_ttrq{  width: 100%;  height: 50%;}
   .container-banner-pub_ttrq .content-b-pub_ttrq .content-left-info-banner-publicity_ttrq{  width: 100%;  display: flex;  flex-direction: column;  min-height: 235px;}
-  #products-more-sells .owl-stage-outer .owl-stage .owl-item{  width: 240.667px !important;}
   #content-more-sells > #title-content-more-sells > #content-text-more-sells > h3,
   .contenido-tiendas-off-header > .content-title-tiendas > h3{   font-size: 1.6rem;}
   #products-more-sells .owl-stage-outer .owl-stage .owl-item .item{   margin-right: 6px  ; max-height: 345px !important;}
-  #products-more-sells .owl-stage-outer .owl-stage .owl-item .item .targets_products{   width: 100% !important;   max-height: 345px !important;   min-height: 345px !important;}
   #products-more-sells .owl-stage-outer .owl-stage .owl-item .item .targets_products > .photo_products > a > .content-img-best-sells-h > img{height: 200px !important;}
   .container-banner-pub_ttrq{max-width: 320px;flex-direction: column;height: 380px;}
   .container-banner-pub_ttrq > .content-b-pub_ttrq{display: flex;margin: 0;flex-direction: column;flex-flow: column-reverse;}
@@ -452,10 +447,8 @@
   .link-logo_official_ttrueque{  width: 90px;  height: 55px; }
   .container-banner-pub_ttrq .content-b-pub_ttrq .content-right-img-banner-publicity_ttrq{  width: 100%;  height: 50%;}
   .container-banner-pub_ttrq .content-b-pub_ttrq .content-left-info-banner-publicity_ttrq{width: 100%;display: flex;flex-direction: column;min-height: 235px;}
-  #products-more-sells .owl-stage-outer .owl-stage .owl-item{width: 285.667px !important;}
   #content-more-sells > #title-content-more-sells > #content-text-more-sells > h3, .contenido-tiendas-off-header > .content-title-tiendas > h3{font-size: 1.3rem;}
   #products-more-sells .owl-stage-outer .owl-stage .owl-item .item{margin-right: 6px;max-height: 345px !important;}
-  #products-more-sells .owl-stage-outer .owl-stage .owl-item .item .targets_products{width: 100% !important;max-height: 345px !important;min-height: 345px !important;}
   #products-more-sells .owl-stage-outer .owl-stage .owl-item .item .targets_products > .photo_products > a > .content-img-best-sells-h > img{height: 200px !important;}
   .container-banner-pub_ttrq{max-width: 320px;flex-direction: column;height: 380px;}
   .container-banner-pub_ttrq > .content-b-pub_ttrq{display: flex;margin: 0;flex-direction: column;flex-flow: column-reverse;}

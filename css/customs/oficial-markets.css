@@ -1,12 +1,12 @@
 .content-total-page-ttrk{	min-height: 100vh;	display: flex;	flex-direction: column;}
 .content-ttrk-official-markets-c{	max-width: 1200px;	width: 100%;	margin: auto;}
-.contenido-tiendas-off-header > .content-title-tiendas {  margin: 25px auto 25px auto;  height: 60px;  display: flex;  align-items: center;}
+.contenido-tiendas-off-header > .content-title-tiendas {  margin: auto auto 25px auto;  height: 60px;  display: flex;  align-items: center;}
 .contenido-tiendas-off-header > .content-title-tiendas > h3{	font-family: var(--fuente-subtitles);	}
 /* CONTENIDO PRICIPAL DEL LANDING PAGE*/
 .container-content-off-mrkts{  min-height: 100vh;  display: block;  margin: auto;  width: 100%;}
 /* RESULTADOS DE LAS MARCAS DE LOS VENDEDORES Y DEMÁS DENTRO DE TTRUEQUE*/
 .list-stores-officials-ttrk-c{	min-height: 100vh;}
-.list-stores-officials-ttrk-c > .items-str-off-ttrk{  display: flex;  justify-content: center;  list-style: none;  position: relative;  flex-wrap: wrap;  padding: 0 !important;}
+.list-stores-officials-ttrk-c > .items-str-off-ttrk{  display: flex;  justify-content: flex-start;  list-style: none;  position: relative;  flex-wrap: wrap;  padding: 0 !important;}
 .list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into{  width: calc(100% * 1/5);  margin: 0 0 1.15rem 0;}
 .list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into:hover{	background: #fff;  box-shadow: 0 10px 16px 0 rgba(0,0,0,.1);  border-radius: 12px;}
 .list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into > a{	display: block;	position: relative;	text-decoration: none;}
