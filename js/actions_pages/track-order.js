@@ -1,8 +1,4 @@
 $(document).ready(function () {
-  
-  
-  
-
   var idclient = $("#userid_cli").val();
   //console.log(client);
   $.ajax({
