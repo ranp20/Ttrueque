@@ -72,6 +72,7 @@ $(document).ready(function () {
 });
 $(document).on("click", ".btn-checkout", function (e) {
   e.preventDefault();
+
   var form = $("#form-client").serialize();
   
   var btncheckout = $(this);
@@ -79,72 +80,98 @@ $(document).on("click", ".btn-checkout", function (e) {
   // console.log(form);
   var tot = parseInt($(".total").val());
   var points = parseInt($(".puntos").val());
-  if (points >= tot) {
-    $.ajax({
-      url: "./php/class/process_add-client-checkout.php",
-      method: "POST",
-      data: form,
-    }).done((res) => {
 
-      console.log(res);
-      btncheckout.css({
-        "background" : "#ccc"
-      });
-      btncheckout.attr("disabled", true);
-
-      if (res == "mal") {
-        alert("error amigo");
-      } else {
-        
-        var totalall = $('.total').val();
-        var storeall = $('.store').val();
-
-        sumyres(cli, storeall, totalall);
-
-
-        $(".todo").each(function (i, v) {
-          var pro = $(this).find("input.idprods").val();
-          var cli = $(".cliente").val();
-          var pre_re = $(this).find("input.clsprecio_real").val();
-          var cant = $(this).find("input.cantprods").val();
-          var sub = $(this).find("input.pointscli").val();
-          var idcart = res;
-          var sto = $(".store").val();
-          datos = {
-            prod: pro,
-            cliente: cli,
-            precio_real: pre_re,
-            cantidad: cant,
-            subtotal: sub,
-            id: idcart,
-            store: sto,
-          };
-
-          $.post("./php/class/process_checkout_add.php", datos, function (res) {
-            console.log(res);
-          }).done(function () {
-            // alert("second success");
-            $.post("./php/process_delete_store.php", function (resul) {
-              // console.log(resul);
-              setTimeout(function () {
-                $("#successpayment").html(`     
-                <div class="content-msg-success-pay">
-                  <h1>Se realizó con éxito el pago</h1>
-                  <div class="cont-img-msg-success-p">
-                    <div style="background-image: url(./shop/images/icon_check_write.png);"></div>
-                  </div>
-                </div>`);
-                $("#successpayment").fadeOut(2500);
-                location.replace("./confirm");
-              }, 2000);
-            });
-          });
+  $("#form-client").each(function(){
+    $(this).find("input").each(function(){
+      var inputs = $(this);
+      console.log(this);
+      if(inputs.val().length <= 0){
+        Swal.fire({
+          icon: "error",
+          title: "Atención",
+          text: "Uno o varios campos vacíos",
+          showConfirmButton: false,
+          timer: 2400,
         });
+        return false;
+      }else{
+        console.log('Campos Llenados:'+' '+inputs.val().length);
+        //return true;
+        if (points >= tot) {
+          $.ajax({
+            url: "./php/class/process_add-client-checkout.php",
+            method: "POST",
+            data: form,
+          }).done((res) => {
+
+            console.log(res);
+            btncheckout.css({
+              "background" : "#ccc"
+            });
+            btncheckout.attr("disabled", true);
+
+            if (res == "mal") {
+              alert("error amigo");
+            } else {
+              
+              var totalall = $('.total').val();
+              var storeall = $('.store').val();
+
+              sumyres(cli, storeall, totalall);
+
+
+              $(".todo").each(function (i, v) {
+                var pro = $(this).find("input.idprods").val();
+                var cli = $(".cliente").val();
+                var pre_re = $(this).find("input.clsprecio_real").val();
+                var cant = $(this).find("input.cantprods").val();
+                var sub = $(this).find("input.pointscli").val();
+                var idcart = res;
+                var sto = $(".store").val();
+                datos = {
+                  prod: pro,
+                  cliente: cli,
+                  precio_real: pre_re,
+                  cantidad: cant,
+                  subtotal: sub,
+                  id: idcart,
+                  store: sto,
+                };
+
+                $.post("./php/class/process_checkout_add.php", datos, function (res) {
+                  console.log(res);
+                }).done(function () {
+                  // alert("second success");
+                  $.post("./php/process_delete_store.php", function (resul) {
+                    // console.log(resul);
+                    setTimeout(function () {
+                      $("#successpayment").html(`     
+                      <div class="content-msg-success-pay">
+                        <div class="cont-confirm-img-check">
+                          <div class="cont-img-msg-success-p">
+                            <img src="./img/gifs/animate_gif_ttrueque_confirm.gif" alt="confirm-checkout-check" width="100px">
+                          </div>
+                          <p>Se realizó con éxito el pago</p>
+                        </div>
+                      </div>`);
+                      $("#successpayment").fadeOut(2800);
+                      location.replace("./confirm");
+                    }, 2000);
+                  });
+                });
+              });
+            }
+          });
+        } else {
+          alert("No tienes suficientes Bikers");
+        }
       }
     });
-  } else {
-    alert("No tienes suficientes Bikers");
-  }
+  });
+
+
+
+
 });
 
 function sumyres(cliente, tienda, subtotal){

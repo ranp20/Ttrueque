@@ -38,7 +38,8 @@ if (!isset($_SESSION['user'])) {
 		<div id="datos_search"></div>
 		<main id="contenedor-principal-home_2">
 			<div id="carousel-home" style="height: 338px">
-				<div class="owl-carousel owl-theme">
+				<div class="owl-carousel owl-theme cont-links-products-banners">
+					<!--/owl-slide-->
 					<div class="owl-slide cover" style="height: 338px;background-image: url(<?php echo $path . $banners[0]["link_banner"]; ?>);">
 						<div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.4)">
 							<div class="container">
@@ -48,7 +49,7 @@ if (!isset($_SESSION['user'])) {
 											<h2 class="owl-slide-animated owl-slide-title"><?php echo $banners[0]["titulo_banner"]; ?></h2>
 											<p class="owl-slide-animated owl-slide-subtitle"><?php echo $banners[0]["descripcion_banner"]; ?></p>
 											<div class="owl-slide-animated owl-slide-cta">
-												<a class="butt_home lang_ttrq" key="btn-banners-h_ttrq" href="#" role="button">Comprar ahora</a>
+												<a class="butt_home lang_ttrq" key="btn-banners-h_ttrq" href="#content-index-ttrq" role="button">Comprar ahora</a>
 											</div>
 										</div>
 									</div>
@@ -66,7 +67,7 @@ if (!isset($_SESSION['user'])) {
 											<h2 class="owl-slide-animated owl-slide-title"><?php echo $banners[1]["titulo_banner"]; ?></h2>
 											<p class="owl-slide-animated owl-slide-subtitle"><?php echo $banners[1]["descripcion_banner"]; ?></p>
 											<div class="owl-slide-animated owl-slide-cta">
-												<a class="butt_home lang_ttrq" key="btn-banners-h_ttrq" href="#" role="button">Comprar ahora</a>
+												<a class="butt_home lang_ttrq" key="btn-banners-h_ttrq" href="#content-index-ttrq" role="button">Comprar ahora</a>
 											</div>
 										</div>
 									</div>
@@ -84,7 +85,7 @@ if (!isset($_SESSION['user'])) {
 											<h2 class="owl-slide-animated owl-slide-title"><?php echo $banners[2]["titulo_banner"]; ?></h2>
 											<p class="owl-slide-animated owl-slide-subtitle"><?php echo $banners[2]["descripcion_banner"]; ?></p>
 											<div class="owl-slide-animated owl-slide-cta">
-												<a class="butt_home lang_ttrq" key="btn-banners-h_ttrq" href="#" role="button">Comprar ahora</a>
+												<a class="butt_home lang_ttrq" key="btn-banners-h_ttrq" href="#content-index-ttrq" role="button">Comprar ahora</a>
 											</div>
 										</div>
 									</div>
@@ -102,7 +103,7 @@ if (!isset($_SESSION['user'])) {
 											<h2 class="owl-slide-animated owl-slide-title"><?php echo $banners[3]["titulo_banner"]; ?></h2>
 											<p class="owl-slide-animated owl-slide-subtitle"><?php echo $banners[3]["descripcion_banner"]; ?></p>
 											<div class="owl-slide-animated owl-slide-cta">
-												<a class="butt_home lang_ttrq" key="btn-banners-h_ttrq" href="#" role="button">Comprar ahora</a>
+												<a class="butt_home lang_ttrq" key="btn-banners-h_ttrq" href="#content-index-ttrq" role="button">Comprar ahora</a>
 											</div>
 										</div>
 									</div>
@@ -120,7 +121,7 @@ if (!isset($_SESSION['user'])) {
 											<h2 class="owl-slide-animated owl-slide-title"><?php echo $banners[4]["titulo_banner"]; ?></h2>
 											<p class="owl-slide-animated owl-slide-subtitle"><?php echo $banners[4]["descripcion_banner"]; ?></p>
 											<div class="owl-slide-animated owl-slide-cta">
-												<a class="butt_home lang_ttrq" key="btn-banners-h_ttrq" href="#" role="button">Comprar ahora</a>
+												<a class="butt_home lang_ttrq" key="btn-banners-h_ttrq" href="#content-index-ttrq" role="button">Comprar ahora</a>
 											</div>
 										</div>
 									</div>
@@ -138,7 +139,7 @@ if (!isset($_SESSION['user'])) {
 											<h2 class="owl-slide-animated owl-slide-title"><?php echo $banners[5]["titulo_banner"]; ?></h2>
 											<p class="owl-slide-animated owl-slide-subtitle"><?php echo $banners[5]["descripcion_banner"]; ?></p>
 											<div class="owl-slide-animated owl-slide-cta">
-												<a class="butt_home lang_ttrq" key="btn-banners-h_ttrq" href="#" role="button">Comprar ahora</a>
+												<a class="butt_home lang_ttrq" key="btn-banners-h_ttrq" href="#content-index-ttrq" role="button">Comprar ahora</a>
 											</div>
 										</div>
 									</div>
@@ -174,7 +175,27 @@ if (!isset($_SESSION['user'])) {
 	<script src="js/carousel-home.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 	<script src="js/jquery.cookiebar.js"></script>
-	<script>
+	<script type="text/javascript">
+
+		var linksParent = $(".cont-links-products-banners");
+    var links = linksParent.find("a");
+    var items = $(".content-more-sells");
+    
+    linksParent.on("click", "a", function(event) {
+        var target = $(this.getAttribute("href"));
+
+        var t = $(this);
+        var ind = t.index();
+        if (target.length) {
+          event.preventDefault();
+          $("html, body").stop().animate({
+                  scrollTop: target.offset().top,
+              },
+              1000
+          );
+        }
+    });
+
 		$(document).ready(function() {
 			'use strict';
 			$.cookieBar({

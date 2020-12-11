@@ -284,6 +284,13 @@ section > .container-desc-txt-l > .content-text-desc-trk > a:hover{
   background: #fff;
   color: #000;
 }
+/* RETORNAR AL HOME */
+.content-options-trk-tabs a.ico-user-valid{
+  padding: .4rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 #cont-total-tabs{
   background: var(--principal-color);

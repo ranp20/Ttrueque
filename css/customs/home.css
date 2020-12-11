@@ -1,9 +1,6 @@
 .content-icon-plus-payment > a{font-size:1.5em;}
 .content-icon-plus-payment > a > i{background:#3483FA;color:#fff;padding:.5em;border-radius:50%;}
 /* CONTENIDO PRODUCTOS MÁS VENDIDOS */
-#content-more-sells{padding: 0; margin-top: 10px;}
-#content-more-sells > #title-content-more-sells{margin-bottom: 25px;position: unset;display: flex;align-items: center;justify-content: flex-start;}
-#content-more-sells > #title-content-more-sells > #content-text-more-sells > h3{font-family: var(--fuente-subtitles);margin: 1rem 0 0 0 !important;}
 /* CONTENIDO PRODUCTOS MÁS DESTACADOS */
 #content-destacados{background:#ebebeb;	padding-top: 0;}
 #content-destacados > #title-content-destacados{	margin-bottom: 1.2em;	position: unset;	display: flex;	align-items: center;	justify-content: flex-start;}

@@ -15,11 +15,12 @@
 .content-listado-checkout-cart-ttrq > button.btn-checkout{  display: block;  width: 100%;  background: #004dda;  color: #fff;  border: none;  border-radius: 5px;  padding: .5rem 0;  transition: ease all .3s;}
 .content-listado-checkout-cart-ttrq > button.btn-checkout:hover{  background: #FFD700;  color: #000;}
 /* MENSAJE DE EXITO AL COMPLETAR EL PAGO */
-#successpayment{  display: flex;  flex-direction: row;  align-items: center;  justify-content: center;  text-align: center;  background: lightgreen;}
-#successpayment .content-msg-success-pay{  margin: 6px auto 6px auto;  display: flex;  flex-direction: row;  align-items: center;  justify-content: space-between;}
-#successpayment .content-msg-success-pay h1{  color: #fff !important;  margin: 0 !important;  font-size: 2.3rem;}
-#successpayment .content-msg-success-pay .cont-img-msg-success-p{  margin-left: 0.5rem;  width: 50px;  height: 50px;}
-#successpayment .content-msg-success-pay .cont-img-msg-success-p div{   width: 100%;   height: 100%;   background-repeat: no-repeat;   background-position: center;   background-size: contain;}
+#successpayment{display: flex;flex-direction: row;align-items: center;justify-content: center;text-align: center;background: rgba(0,0,0,.4);z-index: 9999 !important;top: 0 !important;height: auto;position: fixed;width: 100%;box-shadow: 0 0 10px 1px #ccc;}
+#successpayment .content-msg-success-pay{  min-height: 100vh; margin: auto;  display: flex;  flex-direction: row;  align-items: center;  justify-content: space-between;}
+#successpayment .content-msg-success-pay .cont-confirm-img-check{display: flex;align-items: center;justify-content: center;flex-direction: column;background: #fff;min-height: 245px;border-radius: 1rem;padding: 1rem 2rem;}
+#successpayment .content-msg-success-pay .cont-confirm-img-check p{color: lightgreen;margin: 0 !important;font-size: 2rem;}
+#successpayment .content-msg-success-pay .cont-confirm-img-check .cont-img-msg-success-p{width: 100%;margin: 0 0 .5rem 0;}
+#successpayment .content-msg-success-pay .cont-confirm-img-check .cont-img-msg-success-p img{min-width: 32%;}
 /* NUEVOS ESTILOS - CHECKOUT */
 .main_checkout-container .content-total_checkout_ttrk{  padding-top: 0 !important;  width: 100% !important;  display: flex;  justify-content: space-between;  flex-wrap: wrap;}
 /* LADO IZQUIERDO */

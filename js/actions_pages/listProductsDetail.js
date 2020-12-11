@@ -19,6 +19,8 @@ $(document).ready(function () {
       console.log(idstore);
 
       if(idtienda_cli == idstore){
+        console.log('la tienda es la misma');
+
         $("#detailprod_ttrq").html(`
           <div class="content-c-primary_d-p_ttrq">
             <div class="contain-l-to-prod-detail">
@@ -109,7 +111,9 @@ $(document).ready(function () {
                     attr_id='${v.id_producto}'
                     attr_idclient='${idcliente}'		
   								
-  								>AÑADIR AL CARRITO</a>
+  								>AÑADIR AL CARRITO
+                  <i class="far fa-shopping-cart"></i>
+                  </a>
   							</div>
   						</div>
   					</div>
