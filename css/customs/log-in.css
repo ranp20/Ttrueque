@@ -27,8 +27,8 @@
 .footer-log-in-u > .content-f-log-in-u > .group-f-log-in-u > li{  display: inline-block;  margin: 0 .62rem 0 0;}
 .footer-log-in-u > .content-f-log-in-u > .group-f-log-in-u > li > a{	color: #fff;	white-space: nowrap;	font-size: .95em;}
 .footer-log-in-u > .content-f-log-in-u > .group-f-log-in-u > li > a:hover{	text-decoration: underline;}
-.cont-headertop-login{  width: 100% !important;position: relative;}
-.cont-headertop-login:before{  content: '';  display: block;  top: 0;  z-index: -1;  width: 100%;  position: absolute;  height: 90px;  background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,0) 100%);}
+.cont-headertop-login{  width: 100% !important;position: relative;background: var(--principal-color);box-shadow: 0 0 20px 1px rgba(0,0,0,.4);height: 69px;}
+/*.cont-headertop-login:before{  content: '';  display: block;  top: 0;  z-index: -1;  width: 100%;  position: absolute;  height: 90px;  background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,0) 100%);}*/
 .cont-headertop-login > div{padding: 0.2rem 0;}
 .cont-headertop-login > div > header > div > section{}
 

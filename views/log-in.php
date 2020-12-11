@@ -12,7 +12,7 @@ $paises = $all->get_name_country();
 					<section>
 						<div class="content-h-logo-txt-b">
 							<a href="home" class="h-logo-txt-b-link-trk">
-								<img src="./img/logo/Logo_TTRK.png" alt="logo_Ttrueque">
+								<img src="./img/logo/Logo_TTRQ_dark.png" alt="logo_Ttrueque">
 							</a>
 						</div>
 						<div class="content-h-buttons-txt-b">
@@ -65,7 +65,7 @@ $paises = $all->get_name_country();
 		</div>
 	</div>
 	<!-----/FOOTER---->
-	<footer class="footer-log-in-u">
+	<!--<footer class="footer-log-in-u">
 		<div class="content-f-log-in-u">
 			<ul class="group-f-log-in-u">
 				<li><a href="#">Contáctenos</a></li>
@@ -74,7 +74,7 @@ $paises = $all->get_name_country();
 				<li><a href="#">En todo el mundo</a></li>
 			</ul>
 		</div>
-	</footer>
+	</footer>-->
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 	<script src="./js/actions_pages/account.js"></script>
 	<!-- //BOOTSTRAP-->

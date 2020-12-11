@@ -155,6 +155,10 @@ if (!isset($_SESSION['user'])) {
 	</div>
 	<!-- Banners_grid -->
 	<div class="p-3">
+
+		
+
+
 		<?php require_once './best_seller.php'; ?>
 		<!-- //LO MÁS VENDIDO-->
 		<?php require_once './banner_publicity.php' ?>
