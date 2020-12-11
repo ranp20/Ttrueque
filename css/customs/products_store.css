@@ -1,5 +1,5 @@
 .content-total-page-ttrk{	min-height: 100vh;	display: flex;	flex-direction: column;}
-.content-ttrk-official-markets-c{	max-width: 1200px;    width: 100%;    margin: 4rem auto auto auto;    position: relative;}
+.content-ttrk-official-markets-c{	max-width: 1220px;width: 100%;margin: 4rem auto auto auto;position: relative;padding-left: 15px;padding-right: 15px;}
 .contenido-categorias_ttrk-off-header > .content-title-categorias_ttrk {    margin: 25px auto 25px auto;    height: 60px;    display: flex;    align-items: center;}
 .contenido-categorias_ttrk-off-header > .content-title-categorias_ttrk > h3{	font-family: var(--fuente-subtitles);
 }
