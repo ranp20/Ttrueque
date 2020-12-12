@@ -2,37 +2,6 @@
 
 
 <div class="content-total-banner" id="cont-b-init-home-ttrq">
-    <!--<div class="content-header-trk">
-        <header class="header-trk">
-            <section>
-                <div class="content-logo-trueque">
-                    <div id="cont-logo--trk">
-                        <a href="home.php">
-                            <img src="./img/logo/Logo_TTRK.png" alt="logo_Ttrueque">
-                        </a>
-                    </div>
-                </div>
-
-                <?php 
-              
-                /*if (isset($_SESSION["user"])) {
-                  echo '  <div class="content-options-trk valid-user">
-                              <a href="./" class="ico-user-valid">Volver al CLUB &nbsp;&nbsp;<i class="fal fa-user fa-2x"></i></a>
-                          </div>';
-                }else{
-                  echo '  <div class="content-options-trk">
-                              <a href="login">Iniciar Sesión</a>
-                              <a href="account">Abrir Cuenta</a>
-                          </div>';
-                }*/
-                  ?>
-
-
-
-
-            </section>
-        </header>
-    </div>-->
     <!-------------------------->
     <nav class="navbar navbar-expand-lg navbar-dark justify-content-sm-start fixed-top" id="cont-total-tabs">
       <div class="container">
@@ -89,29 +58,6 @@
       </div>
     </nav>
 <div class="overlay"></div>
-    <!-------------------------->
-    <!-- ///BARRA DE NAVEGACIÓN EN EL HEADER-->
-    <!--<div class="content-b-bar-options-h">
-        <div class="cont-opts-h">
-            <ul class="cont-links-pgs-info">
-                <a href="#textoinicioshome">
-                    <li> INICIO </li>
-                </a>
-                <a href="#que-es-ttrueque">
-                    <li>¿ QUÉ ES ?</li>
-                </a>
-                <a href="#guia-al-comprador-ttrueque">
-                    <li>GUÍA AL COMPRADOR</li>
-                </a>
-                <a href="#guia-al-vendedor-ttrueque">
-                    <li>GUÍA AL VENDEDOR</li>
-                </a>
-                <a href="#preguntas-frecuentes-ttrueque">
-                    <li> PREGUNTAS FRECUENTES </li>
-                </a>
-            </ul>
-        </div>
-    </div>-->
     <div class="content-banner-p-trk">
         <div class="content-b-banner-trk">
             <section>

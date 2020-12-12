@@ -1,9 +1,6 @@
 <?php
 session_start();
 
-
-
-
 if(count($_GET) == 2){
 	if(!isset($_GET['store']) || !isset($_GET['cat'])){
 		header("Location: ./");

@@ -1,8 +1,5 @@
 <input type="hidden" id="store_cli" value="<?php echo $_GET['store']; ?>">
 
-
-
-
 <?php 
 if(isset($_GET['store'])){
 echo '
