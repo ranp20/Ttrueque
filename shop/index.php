@@ -1,8 +1,10 @@
 <?php
 session_start();
-
-if (!isset($_SESSION['user'])) {
-    header('location: ../account');
+require_once "../php/class/categoria.php";
+$c = new Categoria();
+$tienda = $c->get_data_tienda($_SESSION['user']);
+if (!isset($tienda[1][0]["id_menbresia"])) {
+    header('location: ../cliente/menbresia');
 }
 
 require_once '../php/class/client.php';

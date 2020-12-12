@@ -1,6 +1,13 @@
 <?php 
 session_start(); 
 error_reporting(0);
+require_once "../php/class/categoria.php";
+$c = new Categoria();
+$tienda = $c->get_data_tienda($_SESSION['user']);
+if (!isset($tienda[1][0]["id_menbresia"])) {
+   header('location: ../cliente/menbresia');
+}
+
 ?>
 <!DOCTYPE html>
 <html lang="en">

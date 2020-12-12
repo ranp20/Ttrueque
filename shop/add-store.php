@@ -1,9 +1,11 @@
 <?php
 session_start();
 error_reporting(0);
+
 if (!isset($_SESSION['user'])) {
-  header('location: ../../account');
+    header('location: ../../../account');
 }
+
 require_once '../php/class/client.php';
 $c = new Client();
 $d = $c->get_data_by_id($_SESSION['user']);
