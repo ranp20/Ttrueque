@@ -55,6 +55,8 @@
   --background-color: rgba(0,0,0,.01);
   --color-letters-price: #004dda;
   --color-letters-resalt: red;
+  --color-tooltip-cart: #004dda;
+  --color-tooltip-favorites: #df4251;
 }
 
 /**
@@ -217,13 +219,6 @@ body::-webkit-scrollbar-track:hover {
 }
 
 /* ESTLOS TOOLTIPS IN PTODUCTS*/
-.targets_products
-  > .tooltips_products-for-select-ttrq
-  > li:first-child
-  > a:hover {
-  background: #df4251 !important;
-}
-
 /* VER Y OCULTAR EL CARRITO DE COMPRAS*/
 .containt_total_ttrq-cart {
   display: none !important;
@@ -634,7 +629,7 @@ body::-webkit-scrollbar-track:hover {
   background: #fff;
 }
 .cont-info-product-stores-b-ttrk ul li:first-child .button_add_cart_store_cat:hover{
-  background: steelblue;
+  background: var(--color-tooltip-cart);
 }
 .cont-info-product-stores-b-ttrk ul li:first-child .button_add_cart_store_cat:hover svg{
   color: #fff;
@@ -660,7 +655,7 @@ body::-webkit-scrollbar-track:hover {
   background: #fff;
 }
 .cont-info-product-search-categ ul li:first-child .button_add_cart_search_cat:hover{
-  background: steelblue;
+  background: var(--color-tooltip-cart);
 }
 .cont-info-product-search-categ ul li:first-child .button_add_cart_search_cat:hover svg{
     color: #fff;
@@ -686,7 +681,7 @@ body::-webkit-scrollbar-track:hover {
     background: #fff;
 }
 .cont-info-product-name_categ-ttrk ul li:first-child .button_add_cart_name_cat:hover{
-  background: steelblue;
+  background: var(--color-tooltip-cart);
 }
 .cont-info-product-name_categ-ttrk ul li:first-child .button_add_cart_name_cat:hover svg{
     color: #fff;

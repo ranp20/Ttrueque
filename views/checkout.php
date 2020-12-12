@@ -60,8 +60,7 @@ $country_byid = $c->get_countries_by_idcountry($cli_id[0]['pais']);
                                     <input type="text" placeholder="Dirección de Envío" id="direccion" name="direccion">
                                     <input type="text" placeholder="Celular/Teléfono" id="celular" name="celular">
                                 </div>
-                                <input type="hidden" class="cliente" name="cliente"
-                                    value="<?php echo  $_SESSION['user'] ?>" />
+                                <input type="hidden" class="cliente" name="cliente" value="<?php echo  $_SESSION['user'] ?>" />
                             </form>
                         </div>
                     </div>

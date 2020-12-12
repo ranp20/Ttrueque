@@ -60,11 +60,11 @@ $(document).ready(function () {
                   </a>
                   <i class="fal fa-shopping-cart"></i>
                 </li>
-                <li>
+                <!--<li>
                   <a href="#0" class="heart-icon-p-by-str">
                     <i class="fal fa-heart"></i>
                   </a>
-                </li>
+                </li>-->
                 <li>
                   <div class="flag-icon-p-by-str">
                     <div style="background-image: url(${path_flag});"></div>

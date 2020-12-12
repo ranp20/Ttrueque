@@ -91,11 +91,11 @@ $(document).ready(function () {
                           <i class="fal fa-shopping-cart"></i>
                         </a>
                       </li>
-                      <li>
+                      <!--<li>
                         <a href="#0" class="heart-icon-p-by-str">
                           <i class="fal fa-heart"></i>
                         </a>
-                      </li>
+                      </li>-->
                     </ul>
                   </div>
                 </div>

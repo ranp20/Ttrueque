@@ -8,6 +8,8 @@ if(!isset($d[0]['tienda']) || $d[0]['tienda'] == "" || !is_numeric($d[0]['tienda
     header('Location: ../');
 }
 
+//print_r($_SESSION['user']);
+
 ?>
 <section class="sidebar-nav">
     <div class="user-image">
