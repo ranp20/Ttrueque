@@ -45,8 +45,9 @@ date_default_timezone_set('America/Bogota');
             <th class="lang_ttrq" key="title-th-orders-ad_cli-3">Dirección de Entrega</th>
             <th class="lang_ttrq" key="title-th-orders-ad_cli-4">País</th>
             <th class="lang_ttrq" key="title-th-orders-ad_cli-5">Teléfono</th>
+            <th class="" key="">Desde</th>
             <th class="lang_ttrq" key="title-th-orders-ad_cli-6">Estado de Entrega</th>
-            <th class="lang_ttrq" key="title-th-orders-ad_cli-7">Confirmación del pedido</th>
+            <th class="" key="">Confirmación</th>
             <th class="lang_ttrq" key="title-th-orders-ad_cli-8">Pedido</th>
           </tr>
         </thead>

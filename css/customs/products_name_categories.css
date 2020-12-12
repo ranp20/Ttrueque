@@ -28,7 +28,7 @@
 .cont-info-product-name_categ-ttrk ul{    list-style: none;    padding: 0 !important;    margin: 0 !important;}
 .cont-info-product-name_categ-ttrk ul li:nth-child(2) .heart-icon-p-by-str{	position: absolute;    top: 3.2rem;    right: .5rem;}
 .cont-info-product-name_categ-ttrk ul li:nth-child(2) .heart-icon-p-by-str{    width: 30px;    height: 20px;    display: flex;    align-items: center;    justify-content: center;    text-align: center;    padding: 1.1rem;    background: #fff;}
-.cont-info-product-name_categ-ttrk ul li:nth-child(2) .heart-icon-p-by-str:hover{  background: red;}
+.cont-info-product-name_categ-ttrk ul li:nth-child(2) .heart-icon-p-by-str:hover{  background: var(--color-tooltip-favorites);}
 .cont-info-product-name_categ-ttrk ul li:nth-child(2) .heart-icon-p-by-str:hover svg{    color: #fff;}
 .cont-info-product-name_categ-ttrk ul li:nth-child(2) .heart-icon-p-by-str svg{	font-size: 1.3rem;    color: #000;}
 

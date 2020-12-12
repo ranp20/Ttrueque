@@ -89,9 +89,9 @@
 											<div class='watermark'>
 												<h1>Tu producto</h1>
 											</div>
-											<div class='rating mb-1 stars_by_products'>
+											<!--<div class='rating mb-1 stars_by_products'>
 												$estrellas
-											</div>
+											</div>-->
 											<a class='desc-product-text' href='product-detail.php?id={$key["id_producto"]}'>
 												<h1>$name_products</h1>
 											</a>
@@ -121,9 +121,9 @@
 									</figure>
 									<div class='descriptions_products'>
 										<div>
-											<div class='rating mb-1 stars_by_products'>
+											<!--<div class='rating mb-1 stars_by_products'>
 												$estrellas
-											</div>
+											</div>-->
 											<a class='desc-product-text' href='product-detail.php?id={$key["id_producto"]}'>
 												<h1>$name_products</h1>
 											</a>
@@ -133,12 +133,12 @@
 										</div>
 									</div>
 									<ul class='tooltips_products-for-select-ttrq'>
-										<li>
-											<a href='#sign-in-dialog' id='sign-in' class='tooltip-1 access_link' data-toggle='tooltip' data-placement='left' title='Añadir a Lista de Deseos'>
+										<!--<li>
+											<a href='#sign-in-dialog' id='sign-in' class='tooltip-1 access_link button-favorites' data-toggle='tooltip' data-placement='left' title='Añadir a Lista de Deseos'>
 												<i class='ti-heart'></i>
 												<span>Añadir a Lista de Deseos</span>
 											</a>
-										</li>
+										</li>-->
 										<li>
 										
 											<a href='javascript:void(0);' class='tooltip-1 button_add_cart_shop' data-toggle='tooltip' data-placement='left' title='Añadir al Carrito'

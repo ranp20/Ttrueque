@@ -15,12 +15,13 @@ class AgregarCheckout extends Connection
             "country" => $_POST["country"],
             "celular" => $_POST["celular"],
             "total" => $_POST["total"],
-            "idstore" => $_POST["store"]
+            "idstore" => $_POST["store"],
+            "desde" => 'WEB'
         ];
 
         // print_r($arr_data);
         try {
-            $sql = "CALL sp_cart_store_add(:id_cliente,:nombre,:apellido,:direccion,:country,:celular,:total,:idstore)";
+            $sql = "CALL sp_cart_store_add(:id_cliente,:nombre,:apellido,:direccion,:country,:celular,:total,:idstore,:desde)";
             $stm = $this->con->prepare($sql);
 
             foreach ($arr_data as $key => $value) {

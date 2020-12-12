@@ -61,6 +61,25 @@ $path_b_p = "admin/images/banner_principal/";
             );
         }
 
+
+        //NUEVAS VARIABLES BREAKPOINTS...
+        var smallBp = matchMedia("(max-width: 992px)");
+        var changesmall = mql => {
+         //mql.matches ? $(this).parent().parent().css({'transform' : 'translateX(-100%)'}) : $(this).parent().parent().css({'transform' : 'translateX(0%)'})
+         
+         if(mql.matches){
+            $(this).parent().parent().toggleClass('open');
+            $(this).parent().parent().parent().parent().parent().find('.overlay').toggleClass('open');
+         }else{
+            $(this).parent().parent().toggleClass('open'); 
+            $(this).parent().parent().parent().parent().parent().find('.overlay').toggleClass('open');
+         }
+
+        }
+
+        smallBp.addListener(changesmall);
+        changesmall(smallBp);
+
     });
     </script>
 </body>

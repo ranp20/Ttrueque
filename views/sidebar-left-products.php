@@ -1,9 +1,6 @@
 <?php
 session_start();
 
-
-
-
 require_once("php/process_detail_producto.php");
 require_once("php/class/product.php");
 require_once("php/process_list_grid.php");

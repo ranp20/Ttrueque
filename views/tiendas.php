@@ -1,8 +1,6 @@
 <?php
 session_start();
 
-
-
 require_once '../php/class/store.php';
 $c = new Store();
 $dat = $c->select_tienda();

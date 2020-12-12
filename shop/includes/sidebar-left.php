@@ -8,6 +8,8 @@ $d = $c->get_data_by_id($_SESSION['user']);
 //     header('Location: ../');
 // }
 
+//print_r($_SESSION['user']);
+
 ?>
 <section class="sidebar-nav">
     <div class="user-image">

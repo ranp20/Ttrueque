@@ -84,6 +84,8 @@
 .row-delete-store_ttrq td div button {border: none;  background: red;  color: #fff;  padding: 0.5rem 1.5rem;  border-radius: 4px;  font-weight: bold;  font-size: 1.09rem;}
 .row-delete-store_ttrq td div button:hover {opacity: 0.7;}
 .row-delete-store_ttrq td div button:active {transform: scale(0.95);}
+
+
 /* MEDIA QUERIES - CART.PHP */
 @media (max-width: 1200px) {
   .main-cart-container{width: 90%;}

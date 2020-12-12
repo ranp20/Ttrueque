@@ -58,10 +58,13 @@
     padding: 0.5em 0.6em;
     width: auto !important;
 }
-.orders-table > tbody > tr > td:nth-child(6) h1{
+.orders-table > tbody > tr > td:nth-child(7) h1{
     color: green;
     font-weight: bold;
     font-size: 1.4rem !important;
+}
+.orders-table > tbody > tr > td:nth-child(8){
+    text-align: center !important;
 }
 .orders-table > tbody > tr > td:last-child{
     padding: .8rem .5rem .8rem 0;
