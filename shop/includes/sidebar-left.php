@@ -4,9 +4,9 @@ require_once '../php/class/client.php';
 $c = new Client();
 $d = $c->get_data_by_id($_SESSION['user']);
 
-if(!isset($d[0]['tienda']) || $d[0]['tienda'] == "" || !is_numeric($d[0]['tienda'])){
-    header('Location: ../');
-}
+// if(!isset($d[0]['tienda']) || $d[0]['tienda'] == "" || !is_numeric($d[0]['tienda'])){
+//     header('Location: ../');
+// }
 
 //print_r($_SESSION['user']);
 
