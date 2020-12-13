@@ -244,24 +244,8 @@ $(document).on('click', '.btn-paypal-sales-report', function(e){
   var tienda_store = parseInt( tienda_sr,0);
   var session_store = $('.sess_id_sr_client').val();
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 
   var clientIDsales_paypal = $('#clientIDsales_paypal').val();  
-=======
-  console.log(parseInt(año_sr,0));
-  console.log(mes_sr);
-  console.log(parseInt( tienda_sr,0));
-  console.log(total_init);
-  console.log(session_store);
-  console.log(indice);
-  //console.log(info_state);
-  
->>>>>>> f9d4945... changes fail
-=======
-
-  var clientIDsales_paypal = $('#clientIDsales_paypal').val();  
->>>>>>> 1407c2e... new changes into pages
 
   $('.modal-body').html(`<div id="paypal-button-container"></div>`);
 

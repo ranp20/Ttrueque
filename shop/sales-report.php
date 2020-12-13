@@ -7,22 +7,6 @@ if (!isset($tienda[1][0]["id_menbresia"])) {
   header('location: ../cliente/menbresia');
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-require_once '../php/class/credentials.php';
-$cred_adm = new Credentials();
-$data_cred = $cred_adm->get_credentials();
-
-//Datos para solicitar las credenciales de accesso..
-$_ClientID = $data_cred[0]['key_public'];
-$_Secret = $data_cred[0]['key_secret'];
-
-echo "<input id='clientIDsales_paypal' type='hidden' value='$_ClientID'>";
-
->>>>>>> f9d4945... changes fail
-=======
->>>>>>> 1407c2e... new changes into pages
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -35,10 +19,6 @@ echo "<input id='clientIDsales_paypal' type='hidden' value='$_ClientID'>";
 
 </head>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 1407c2e... new changes into pages
 <?php 
 
 require_once '../php/class/credentials.php';
@@ -62,16 +42,6 @@ $_Secret = $data_cred[0]['key_secret'];
         <section class="content-dash">
             <?php require_once 'includes/header-top.php'; ?>
             <div class="content-top-sales-report">
-=======
-<body>
-  <div class="container-total active">
-    <!-- NAVBAR LEFT -->
-    <?php require_once 'includes/sidebar-left.php'; ?>
-    <!-- CONTENT FULL HISTORY SHIPPINGS  -->
-    <section class="content-dash">
-      <?php require_once 'includes/header-top.php'; ?>
-      <div class="content-top-sales-report">
->>>>>>> f9d4945... changes fail
 
                 <div class="content-title-sales-report">
                     <h1 class="title-dashboard lang_ttrq" key="title-top-salesreport-cli-ad_cli">Informe de Ventas</h1>
