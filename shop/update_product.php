@@ -79,15 +79,7 @@ if(!isset($_GET['id']) || !is_numeric($_GET['id']) || $_GET['id'] == ""){
                             <div class="product-controls">
                                 <label for="" class="label-product lang_ttrq"
                                     key="txt-form-update_product-3">Marcas</label>
-<<<<<<< HEAD
-<<<<<<< HEAD
                                 <select name="marca" class="input-product" id="marca">
-=======
-                                <select name="marca" class="input-product" id="">
->>>>>>> 1e9004a... changes
-=======
-                                <select name="marca" class="input-product" id="marca">
->>>>>>> c3d2a47... changes
                                     <?php
 
                                     $cate = $cat->get_marcas_tienda($tienda);
