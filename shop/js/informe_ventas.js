@@ -1,5 +1,5 @@
 var store = $("#tienda").val();
-var clientIDsales_paypal = $('#clientIDsales_paypal').val();
+//var clientIDsales_paypal = $('#clientIDsales_paypal').val();
 
 
 
@@ -245,6 +245,7 @@ $(document).on('click', '.btn-paypal-sales-report', function(e){
   var session_store = $('.sess_id_sr_client').val();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
   var clientIDsales_paypal = $('#clientIDsales_paypal').val();  
 =======
@@ -257,6 +258,10 @@ $(document).on('click', '.btn-paypal-sales-report', function(e){
   //console.log(info_state);
   
 >>>>>>> f9d4945... changes fail
+=======
+
+  var clientIDsales_paypal = $('#clientIDsales_paypal').val();  
+>>>>>>> 1407c2e... new changes into pages
 
   $('.modal-body').html(`<div id="paypal-button-container"></div>`);
 
@@ -277,6 +282,7 @@ $(document).on('click', '.btn-paypal-sales-report', function(e){
       production: clientIDsales_paypal,
     },
 
+    
     // Wait for the PayPal button to be clicked
 
     payment: function (data, actions) {

@@ -8,6 +8,7 @@ if (!isset($tienda[1][0]["id_menbresia"])) {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 require_once '../php/class/credentials.php';
 $cred_adm = new Credentials();
@@ -20,6 +21,8 @@ $_Secret = $data_cred[0]['key_secret'];
 echo "<input id='clientIDsales_paypal' type='hidden' value='$_ClientID'>";
 
 >>>>>>> f9d4945... changes fail
+=======
+>>>>>>> 1407c2e... new changes into pages
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -33,6 +36,9 @@ echo "<input id='clientIDsales_paypal' type='hidden' value='$_ClientID'>";
 </head>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1407c2e... new changes into pages
 <?php 
 
 require_once '../php/class/credentials.php';
