@@ -1,5 +1,5 @@
 var store = $("#tienda").val();
-//var clientIDsales_paypal = $('#clientIDsales_paypal').val();
+var clientIDsales_paypal = $('#clientIDsales_paypal').val();
 
 
 
@@ -266,7 +266,6 @@ $(document).on('click', '.btn-paypal-sales-report', function(e){
       production: clientIDsales_paypal,
     },
 
-    
     // Wait for the PayPal button to be clicked
 
     payment: function (data, actions) {
