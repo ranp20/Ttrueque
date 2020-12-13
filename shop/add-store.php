@@ -42,6 +42,7 @@ echo "<input id='clientID_paypal' type='hidden' value='$_ClientID'>";
     }
   }
 </style>
+<!--<input id='clientID_paypal' type='hidden' value='<?php //echo $_ClientID;?>'>-->
 <div class="container-t-add-store_ttrq">
   <div class="content-principal-add-store_ttrq">
     <div class="content-left-options-buttons">

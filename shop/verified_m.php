@@ -12,9 +12,16 @@ $d = $c->get_data_by_id($_SESSION['user']);
 $title = "Agregar tienda";
 include "./head/head.php";
 
+require_once '../php/class/credentials.php';
+$cred_adm = new Credentials();
+$data_cred = $cred_adm->get_credentials();
+
+$title = "Agregar tienda";
+include "../head/head.php";
+
 //Datos para solicitar las credenciales de accesso..
-$_ClientID = "AQVFe-A48rplP6e_4o3mWdRYthEQK18ZepJD7qWaXZSOGvd85a6_fcYcDjtIkS-YpgL1CFEW4F8yVGfO";
-$_Secret = "EM-xMqAxdZGXJoKnv_7cNP__RcQiPIKUN6ISN3sUap2NFmLD-x72ThXJVVhJ0YNVDAh_QxsAKYwLyLri";
+$_ClientID = $data_cred[0]['key_public'];
+$_Secret = $data_cred[0]['key_secret'];
 
 //LOGUEARSE PARA LA SOLICITUD DE DATOS - CURL...
 $login = curl_init("https://api.sandbox.paypal.com/v1/oauth2/token");

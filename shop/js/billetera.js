@@ -4,7 +4,6 @@ $(function () {
 });	
 
 var id_wallet = $('#select_wallet').val();
-var clientIDwallet_paypal = $('#clientIDwallet_paypal').val();
 
 
 //LISTAR LA INFORMACIÓN DE LA RECARGA SEGÚN LO ELGIDO...
@@ -34,6 +33,7 @@ function renderbtnPaypal(){
     <div id="paypal-button-container"></div>
   `);
 
+  var clientIDwallet_paypal = $('#clientIDwallet_paypal').val();
   var sess_wallet = $('#ssid_cli').val();
   var idclient = $('#id_cliente').val();
   var clientpar = parseInt(idclient);
