@@ -29,11 +29,13 @@ function list_info_by_wallet() {
 }
 
 function renderbtnPaypal(){
+  var clientIDwallet_paypal = $('#clientIDwallet_paypal').val();
+
+
   $('.cont-btn-paypal-upd-wallet').html(`
     <div id="paypal-button-container"></div>
   `);
 
-  var clientIDwallet_paypal = $('#clientIDwallet_paypal').val();
   var sess_wallet = $('#ssid_cli').val();
   var idclient = $('#id_cliente').val();
   var clientpar = parseInt(idclient);

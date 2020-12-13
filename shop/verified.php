@@ -7,12 +7,10 @@ if (!isset($_SESSION['user'])) {
     header('location: ../../account');
 }
 
-require_once '../../php/class/credentials.php';
+require_once '../php/class/credentials.php';
 $cred_adm = new Credentials();
 $data_cred = $cred_adm->get_credentials();
 
-$title = "Agregar tienda";
-include "../head/head.php";
 
 //Datos para solicitar las credenciales de accesso..
 $_ClientID = $data_cred[0]['key_public'];

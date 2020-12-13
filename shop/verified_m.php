@@ -9,15 +9,13 @@ require_once '../php/class/client.php';
 $c = new Client();
 $d = $c->get_data_by_id($_SESSION['user']);
 
-$title = "Agregar tienda";
-include "./head/head.php";
-
 require_once '../php/class/credentials.php';
 $cred_adm = new Credentials();
 $data_cred = $cred_adm->get_credentials();
 
+
 $title = "Agregar tienda";
-include "../head/head.php";
+include "./head/head.php";
 
 //Datos para solicitar las credenciales de accesso..
 $_ClientID = $data_cred[0]['key_public'];
