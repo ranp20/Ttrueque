@@ -7,16 +7,15 @@ if (!isset($tienda[1][0]["id_menbresia"])) {
   header('location: ../cliente/menbresia');
 }
 
-
-/*require_once '../php/class/credentials.php';
+require_once '../php/class/credentials.php';
 $cred_adm = new Credentials();
 $data_cred = $cred_adm->get_credentials();
 
 //Datos para solicitar las credenciales de accesso..
 $_ClientID = $data_cred[0]['key_public'];
-//$_Secret = $data_cred[0]['key_secret'];
+$_Secret = $data_cred[0]['key_secret'];
 
-echo "<input id='clientIDsales_paypal' type='hidden' value='".$_ClientID."'>";*/
+echo "<input id='clientIDsales_paypal' type='hidden' value='$_ClientID'>";
 
 ?>
 <!DOCTYPE html>
@@ -30,23 +29,8 @@ echo "<input id='clientIDsales_paypal' type='hidden' value='".$_ClientID."'>";*/
   
 </head>
 
-<?php 
-
-require_once '../php/class/credentials.php';
-$cred_adm = new Credentials();
-$data_cred = $cred_adm->get_credentials();
-
-//Datos para solicitar las credenciales de accesso..
-$_ClientID = $data_cred[0]['key_public'];
-$_Secret = $data_cred[0]['key_secret'];
-
-echo $_ClientID;
-
- ?>
-
 <body>
   <div class="container-total active">
-    <input id='clientIDsales_paypal' type='hidden' value='<?php echo $_ClientID;?>'>
     <!-- NAVBAR LEFT -->
     <?php require_once 'includes/sidebar-left.php'; ?>
     <!-- CONTENT FULL HISTORY SHIPPINGS  -->

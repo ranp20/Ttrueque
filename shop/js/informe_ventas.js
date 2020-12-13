@@ -1,5 +1,5 @@
 var store = $("#tienda").val();
-//var clientIDsales_paypal = $('#clientIDsales_paypal').val();
+var clientIDsales_paypal = $('#clientIDsales_paypal').val();
 
 
 
@@ -244,11 +244,6 @@ $(document).on('click', '.btn-paypal-sales-report', function(e){
   var tienda_store = parseInt( tienda_sr,0);
   var session_store = $('.sess_id_sr_client').val();
 
-
-  var clientIDsales_paypal = $('#clientIDsales_paypal').val();
-  console.log(clientIDsales_paypal);
-
-
   console.log(parseInt(año_sr,0));
   console.log(mes_sr);
   console.log(parseInt( tienda_sr,0));
@@ -277,7 +272,6 @@ $(document).on('click', '.btn-paypal-sales-report', function(e){
       production: clientIDsales_paypal,
     },
 
-    
     // Wait for the PayPal button to be clicked
 
     payment: function (data, actions) {
