@@ -69,8 +69,7 @@ $pais = $cat->get_name_country();
                             <!--  PAÍS DEL PRODUCTO -->
                             <div class="product-controls">
                                 <label for="" class="label-product lang_ttrq" key="txt-form-add_product-4">Pais</label>
-                                <select name="pais" class="input-product select-onehidden" id="pais"
-                                    value="Selecciona una marca">
+                                <select name="pais" class="input-product select-onehidden" id="pais">
                                     <option value="0" selected>Selecciona el País</option>
                                     <?php
                                     foreach ($pais as $value) {
