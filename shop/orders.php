@@ -41,18 +41,18 @@ if(!isset($_GET['ord']) || !is_numeric($_GET['ord']) || $_GET['ord'] == ""){
         <div class="content-list-info-v-cart_ttrq">
           <div class="content-1-item-into-l-if">
             <p><span>Nombre:</span><span id="name_cliorder"></span></p>
-            <p><span>Dirección:</span><span id="lastname_cliorder"></span></p>
+            <p><span>Apellido:</span><span id="lastname_cliorder"></span></p>
           </div>
           <div class="content-2-item-into-l-if">
+            <p><span>Dirección:</span><span id="direccion_cliorder"></span></p>
             <p><span>Teléfono:</span><span id="telephone_cliorder"></span></p>
-            <!--<p><span>Tipo de Pago:</span><span>Pago de Link</span></p>-->
           </div>
           <!--<div class="content-3-item-into-l-if">
             <p><span>Ciudad:</span><span>Lima</span></p>
             <p>...</p>
           </div>-->
           <div class="content-4-item-into-l-if">
-            <h2><span>Envío:</span><span>S/.24</span></h2>
+            <!--<h2><span>Envío:</span><span >S/.24</span></h2>-->
             <h2><span>Total:</span><span id="total_points-ord"></span></h2>
           </div>
         </div>

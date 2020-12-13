@@ -49,5 +49,5 @@ $d = $c->get_data_by_id($_SESSION['user']);
     </div>
 </section>
 <script src="js/store.js"></script>
-<!--<script src="js/informe_ventas.js"></script>-->
+<script src="js/customs.js"></script>
 <script src="js/language_currency.js"></script>
