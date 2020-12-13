@@ -32,7 +32,7 @@ if (!isset($_SESSION['user'])) {
                                 </svg>
                             </div>
                             <h2>Pedido Completado!</h2>
-                            <p>¡Recibirá un email de confirmación pronto!</p>
+                            <!--<p>¡Recibirá un email de confirmación pronto!</p>-->
                             <a href="track-order" class="btn-redirect-orders-track_ttrq">Ver mis ordenes</a>
                         </div>
                     </div>

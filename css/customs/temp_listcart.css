@@ -79,6 +79,7 @@
 }
 #cart-buy-list li .content-info-p-prods a {
   margin-left: 0.6rem;
+  line-break: anywhere;
 }
 #cart-buy-list li .content-info-p-prods a span:first-child {
   color: #444 !important;

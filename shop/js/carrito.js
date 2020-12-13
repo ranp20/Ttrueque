@@ -13,15 +13,20 @@ function list_orders_cart_idtienda() {
     method: "POST",
     data: { cartstore: cartstore, store: storeid },
   }).done(function (res) {
-    //console.log(res);
+    console.log(res);
+    
     var suma = 0;
     var total = $("#total_points-ord");
     var name_client = $('#name_cliorder').text(res[0]['nombre']);
     var lastname_client = $('#lastname_cliorder').text(res[0]['apellido']);
-    var telephone_client = $('#telephone_cliorder').text(res[0]['direccion']);
+    var telephone_client = $('#direccion_cliorder').text(res[0]['direccion']);
+    var telephone_client = $('#telephone_cliorder').text(res[0]['telefono']);
 
     contadorord = 0;
     $.each(res, function (i, v) {
+
+      console.log(v);
+
       suma += parseInt(v.subtotal);
       contadorord++;
       $("#list_view_order_idord").append(`
