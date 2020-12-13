@@ -79,7 +79,7 @@ if(!isset($_GET['id']) || !is_numeric($_GET['id']) || $_GET['id'] == ""){
                             <div class="product-controls">
                                 <label for="" class="label-product lang_ttrq"
                                     key="txt-form-update_product-3">Marcas</label>
-                                <select name="marca" class="input-product" id="">
+                                <select name="marca" class="input-product" id="marca">
                                     <?php
 
                                     $cate = $cat->get_marcas_tienda($tienda);
@@ -163,8 +163,9 @@ if(!isset($_GET['id']) || !is_numeric($_GET['id']) || $_GET['id'] == ""){
                 </form>
             </div>
         </div>
+        <!--<script src="./js/marca.js"></script>-->
         <script src="./js/update_product.js"></script>
-        <script src="./js/marca.js"></script>
+
         <script src="js/dashboard.js"></script>
 </body>
 
