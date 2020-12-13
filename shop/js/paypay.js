@@ -1,5 +1,7 @@
 var tiendactual = $('#strvalidate_memb').val();
 
+var clientID_paypal = $('#clientID_paypal').val();
+
 paypal.Button.render(
   {
     env: "sandbox", // sandbox | production
@@ -13,10 +15,8 @@ paypal.Button.render(
     // PayPal Client IDs - replace with your own
     // Create a PayPal app: https://developer.paypal.com/developer/applications/create
     client: {
-      sandbox:
-        "AWjONb1OLJvDpvTuAq04TJLz1a1Z3T9jo8QQQQaeJ6bzz_b37Uw0kbjHRSNiCnEWJXpMYVL4U-4rYJWj",
-      production:
-        "ASwgeBVhPxsHWjswNXVXzj-yRoJe8X9eyDExf1UC8rCYMk-MzIwKpoTHgT3_JNLzD0N-cP9ffcHdT4QJ",
+      sandbox: clientID_paypal,
+      production: clientID_paypal,
     },
 
     // Wait for the PayPal button to be clicked

@@ -1,4 +1,7 @@
 var store = $("#tienda").val();
+var clientIDsales_paypal = $('#clientIDsales_paypal').val();
+
+
 
 $("#select-mes").on("change", function () {
   var nombyear = $(this).val();
@@ -265,10 +268,8 @@ $(document).on('click', '.btn-paypal-sales-report', function(e){
     // PayPal Client IDs - replace with your own
     // Create a PayPal app: https://developer.paypal.com/developer/applications/create
     client: {
-      sandbox:
-        "AWjONb1OLJvDpvTuAq04TJLz1a1Z3T9jo8QQQQaeJ6bzz_b37Uw0kbjHRSNiCnEWJXpMYVL4U-4rYJWj",
-      production:
-        "ASwgeBVhPxsHWjswNXVXzj-yRoJe8X9eyDExf1UC8rCYMk-MzIwKpoTHgT3_JNLzD0N-cP9ffcHdT4QJ",
+      sandbox: clientIDsales_paypal,
+      production: clientIDsales_paypal,
     },
 
     // Wait for the PayPal button to be clicked

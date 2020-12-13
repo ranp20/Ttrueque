@@ -4,6 +4,8 @@ $(function () {
 });	
 
 var id_wallet = $('#select_wallet').val();
+var clientIDwallet_paypal = $('#clientIDwallet_paypal').val();
+
 
 //LISTAR LA INFORMACIÓN DE LA RECARGA SEGÚN LO ELGIDO...
 function list_info_by_wallet() {
@@ -48,8 +50,8 @@ function renderbtnPaypal(){
       // PayPal Client IDs - replace with your own
       // Create a PayPal app: https://developer.paypal.com/developer/applications/create
       client: {
-          sandbox:    'AWjONb1OLJvDpvTuAq04TJLz1a1Z3T9jo8QQQQaeJ6bzz_b37Uw0kbjHRSNiCnEWJXpMYVL4U-4rYJWj',
-          production: 'ASwgeBVhPxsHWjswNXVXzj-yRoJe8X9eyDExf1UC8rCYMk-MzIwKpoTHgT3_JNLzD0N-cP9ffcHdT4QJ'
+          sandbox:    clientIDwallet_paypal,
+          production: clientIDwallet_paypal
       },
 
       // Wait for the PayPal button to be clicked

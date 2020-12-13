@@ -19,6 +19,17 @@ if(!isset($_GET['idwallet']) || !is_numeric($_GET['idwallet']) || $_GET['idwalle
   header('location: ./');
 }
 
+
+require_once '../php/class/credentials.php';
+$cred_adm = new Credentials();
+$data_cred = $cred_adm->get_credentials();
+
+//Datos para solicitar las credenciales de accesso..
+$_ClientID = $data_cred[0]['key_public'];
+$_Secret = $data_cred[0]['key_secret'];
+
+echo "<input id='clientIDwallet_paypal' type='hidden' value='$_ClientID'>";
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
