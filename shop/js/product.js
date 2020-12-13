@@ -75,16 +75,17 @@ $(document).on("click", "#btn-product", function (e) {
         timer: 1400,
       });
       CKEDITOR.instances["ckeditor"].setData('');
+      window.location.replace("../shop/products_v.php");
     } else if (resul["res"] == "agotado") {
       Swal.fire({
         title: "Error",
-        text: "Menbresia Acabada, vuelva a recargar",
+        text: "Membresía acabada, vuelva a recargar",
         icon: "error",
         confirmButtonText: "Cerrar",
       });
     } else {
       //console.log(formData);
-      alert("no inserto");
+      alert("No insertó");
     }
   });
 });

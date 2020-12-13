@@ -29,7 +29,7 @@ $categories = $c->get_categorias();
       <?php require_once 'includes/header-top.php'; ?>
       <div class="content-top cont-titles-t-c-dinamic">
         <div class="content-title t-c-titles-dinamic">
-          <h1 class="title-dashboard" id="titles-dinamic-t-c">Marcas</h1>
+          <h1 class="title-dashboard lang_ttrq" key='title-trademarks' id="titles-dinamic-t-c">Marcas</h1>
         </div>
       </div>
       <div class="btns-top">
@@ -42,7 +42,7 @@ $categories = $c->get_categorias();
               <div>
                 <h4 id="totalList">0</h4>
               </div>
-              <p>Marcas</p>
+              <p class='lang_ttrq' key='title-trademarks'>Marcas</p>
             </li>
           </a>
           <a href="#categories" class="trademarks-categories-detail">
@@ -53,7 +53,7 @@ $categories = $c->get_categorias();
               <div>
                 <h4 id="totalList_categories">0</h4>
               </div>
-              <p>Categorías</p>
+              <p class='lang_ttrq' key='title-categories'>Categorías</p>
             </li>
           </a>
         </ul>
@@ -63,16 +63,16 @@ $categories = $c->get_categorias();
       <div class="content-change-dinamic-view-t-c">
         <div class="contents_items_t-c-dinamic" id="trademarks">
           <div class="trademarks_categories-controls">
-            <label for="" class="label-trademarks_categories">Nombre de la Marca</label>
+            <label for="" class="label-trademarks_categories lang_ttrq" key='title-name-of-trademarks'>Nombre de la Marca</label>
             <input type="text" name="name" id="name">
-            <button class="btn-add-product" id="btn-add-marca">Guardar</button>
+            <button class="btn-add-product lang_ttrq" id="btn-add-marca" key='title-name-of-save'>Guardar</button>
           </div> <!-- CATEGORÍA DEL PRODUCTO -->
           <table class="list-trademarks_categories">
             <thead class="thead-trademarks_categories">
               <tr>
                 <th>ID</th>
-                <th>Nombre Marca</th>
-                <th colspan='2'>Opciones</th>
+                <th class='lang_ttrq' key='title-name-of-trademark'>Nombre Marca</th>
+                <th colspan='2' class='lang_ttrq' key='title-options-of-trademark'>Opciones</th>
               </tr>
             </thead>
             <tbody class="tbody-trademarks_categories" id="list">
@@ -81,7 +81,7 @@ $categories = $c->get_categorias();
         </div>
         <div class="contents_items_t-c-dinamic" id="categories">
           <div class="trademarks_categories-controls">
-            <label for="" class="label-trademarks_categories">Nombre de la Categoría</label>
+            <label for="" class="label-trademarks_categories lang_ttrq" key='title-name-of-categories'>Nombre de la Categoría</label>
             <select name="categories_list_admin" id="categories_list_admin" class="select-onehidden">
               <option value="0">Selecciona una Categoría</option>
               <?php
@@ -92,14 +92,14 @@ $categories = $c->get_categorias();
               }
               ?>
             </select>
-            <button class="btn-add-product" id="btn-add-categoria_tienda">Guardar</button>
+            <button class="btn-add-product lang_ttrq" id="btn-add-categoria_tienda" key='title-name-of-save'>Guardar</button>
           </div> <!-- CATEGORÍA DEL PRODUCTO -->
           <table class="list-trademarks_categories">
             <thead class="thead-trademarks_categories">
               <tr>
-                <th>ID</th>
-                <th>Nombre Categoría</th>
-                <th colspan='2'>Opciones</th>
+                <th class='lang_ttrq' key='title-id-categories'>ID</th>
+                <th class='lang_ttrq' key='title-name-of-categoria'>Nombre Categoría</th>
+                <th class='lang_ttrq' colspan='2' key='title-opts-of-categories'>Opciones</th>
               </tr>
             </thead>
             <tbody class="tbody-trademarks_categories" id="list_categories_tienda">
