@@ -116,7 +116,8 @@
 		"title-form-1-cli-dp-ad_cli": "Meu perfil",
 		"subtitle-form-1-cli-dp-ad_cli": "Informação básica",
 		"txt-form-1-cli-dp-ad_cli-1": "Teu nome",
-		"txt-form-1-cli-dp-ad_cli-2": "Teu e-mail",
+		"txt-form-1-cli-dp-ad_cli-2": "Seu último Nome",
+		"txt-form-1-cli-dp-ad_cli-3": "Teu e-mail",
 		"subtitle-form-2-cli-dp-ad_cli": "Dados de envio",
 		"txt-form-2-cli-de-ad_cli-1": "País",
 		"txt-form-2-cli-de-ad_cli-2": "Endereço",
@@ -154,6 +155,16 @@
 		"title-th-products-ad_cli-9": "Escolhas",
 
 
+		"title-trademarks": "Marcas Registradas",
+		"title-categories": "Categorias",
+		"title-name-of-trademarks": "Marca",
+		"title-name-of-trademark": "Marca",
+		"title-options-of-trademark": "Escolhas",
+		"title-name-of-categories": "Nome da Categoria",
+		"title-name-of-save": "Salve",
+		"title-id-categories": "ID",
+		"title-name-of-categoria": "Nome da Categoria",
+		"title-opts-of-categories": "Escolhas",
 		
 
 		"title-top-salesreport-cli-ad_cli": "Relatório de vendas",

@@ -52,13 +52,13 @@ $country_byid = $c->get_countries_by_idcountry($d[0]['pais']);
                                         value="<?php echo $d[0]['nombre_cliente']  ?>">
                                 </div>
                                 <div class="profile-controls">
-                                    <label for="" class="label-profile lang_ttrq" key="txt-form-1-cli-dp-ad_cli-1">Tu
+                                    <label for="" class="label-profile lang_ttrq" key="txt-form-1-cli-dp-ad_cli-2">Tu
                                         nombre</label>
                                     <input type="text" name="lastaname_cli" class="input-profile"
                                         value="<?php echo  $d[0]['apellido_cliente']; ?>">
                                 </div>
                                 <div class="profile-controls">
-                                    <label for="" class="label-profile lang_ttrq" key="txt-form-1-cli-dp-ad_cli-2">Tu
+                                    <label for="" class="label-profile lang_ttrq" key="txt-form-1-cli-dp-ad_cli-3">Tu
                                         correo electrónico</label>
                                     <input type="text" class="input-profile" name="email"
                                         value="<?php echo $d[0]['email_cliente']; ?>">

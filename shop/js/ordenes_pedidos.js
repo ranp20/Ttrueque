@@ -85,9 +85,9 @@ $(document).ready(function () {
                   "<h1>Vendido</h1>"
                 );
               }
-              Swal.fire("Bien!", "Se actualizo correctamente", "success");
+              Swal.fire("Bien!", "Se actualizó correctamente", "success");
             } else {
-              console.log("operqacion cancelads");
+              console.log("operación cancelada");
               // Swal.fire("Deleted!", "Your file has been deleted.", "success");
             }
           });
