@@ -1,6 +1,18 @@
 <?php
 require_once "./php/process_header_home.php";
 
+require_once 'php/class/all.php';
+$all = new ALl();
+$mante = $all->get_mantenience();
+$mantenience =  $mante[0]['state_mantenience'];
+
+//print_r($mante[0]['state_mantenience']);
+if($mantenience == 'YES'){
+    header('Location: mantenience');
+}
+
+
+
 $banner_p = $data["banner_principal"];
 session_start();
 $path_b_p = "admin/images/banner_principal/";

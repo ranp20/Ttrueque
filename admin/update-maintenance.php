@@ -55,12 +55,15 @@ if (isset($_GET['id'])) {
                                                         <label for="name">Desde </label>
                                                         <input type="date" maxlength="100"
                                                             value="<?php echo $cat[0]['desde'] ?>" required
+                                                            min=<?php $hoy=date("Y-m-d"); echo $hoy;?>
                                                             name="precio-eeuu" id="price-eeuu" class="form-control">
+
                                                     </div>
                                                     <div class="form-group">
                                                         <label for="name">Hasta </label>
                                                         <input type="date" maxlength="100"
                                                             value="<?php echo $cat[0]['hasta'] ?>" required
+                                                            min=<?php $hoy=date("Y-m-d"); echo $hoy;?>
                                                             name="precio-eeuu" id="price-eeuu" class="form-control">
                                                     </div>
 

@@ -1,6 +1,17 @@
 <?php
 // 	error_reporting(0);
-	session_start();
+require_once '../php/class/all.php';
+$all = new ALl();
+$mante = $all->get_mantenience();
+$mantenience =  $mante[0]['state_mantenience'];
+
+//print_r($mante[0]['state_mantenience']);
+if($mantenience == 'YES'){
+    header('Location: mantenience');
+}
+
+
+session_start();
 require_once("../php/class/all.php");
 $all = new All();
 $paises = $all->get_name_country();
