@@ -140,7 +140,7 @@ function list_sr_by_year(i) {
               $("#calculo").html(
                 "Usted tiene " +
                   (date_ultimate - current) +
-                  " dias para pagar o sino se inabilitara su cuenta*"
+                  " días para pagar o sino se inabilitara su cuenta*"
               );
               $("#calculo").css({
                 "color": "#FBE017",
@@ -161,7 +161,7 @@ function list_sr_by_year(i) {
             });
           }
         } else {
-          $("#calculo").html("Usted esta al dia en sus pago mensuales de "+ filaMes+"*");
+          $("#calculo").html("Usted esta al día en sus pago mensuales de "+ filaMes+"*");
           $("#calculo").css({
             "color": "green",
             "margin": "20px 0 10px 0",
@@ -251,7 +251,7 @@ $(document).on('click', '.btn-paypal-sales-report', function(e){
 
   paypal.Button.render(
   {
-    env: "sandbox", // sandbox | production
+    env: "production", // sandbox | production
     style: {
       label: "checkout", // checkout | credit | pay | buynow | generic
       size: "responsive", // small | medium | large | responsive
@@ -315,7 +315,7 @@ $(document).on('click', '.btn-paypal-sales-report', function(e){
           $(`.btn-payer-bolet-${indice}`).html(`<h5 style='color:green;'>CANCELADO</h5>`);
           $(`.info-state-${indice}`).html(`PAGADO`);
           $("#exampleModalCenter").modal("hide");
-          $("#calculo").html("Usted esta al dia en sus pago mensuales");
+          $("#calculo").html("Usted esta al día en sus pago mensuales");
           $("#calculo").css({
             "color": "green",
             "margin": "20px 0 10px 0",
