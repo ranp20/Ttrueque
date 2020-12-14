@@ -30,7 +30,6 @@ $_ClientID = $data_cred[0]['key_public'];
 $_Secret = $data_cred[0]['key_secret'];
 
 // echo $_ClientID;
-
  ?>
 
 <body>

@@ -20,16 +20,6 @@ if(!isset($_GET['idwallet']) || !is_numeric($_GET['idwallet']) || $_GET['idwalle
 }
 
 
-require_once '../php/class/credentials.php';
-$cred_adm = new Credentials();
-$data_cred = $cred_adm->get_credentials();
-
-//Datos para solicitar las credenciales de accesso..
-$_ClientID = $data_cred[0]['key_public'];
-$_Secret = $data_cred[0]['key_secret'];
-
-echo "<input id='clientIDwallet_paypal' type='hidden' value='$_ClientID'>";
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -55,9 +45,22 @@ echo "<input id='clientIDwallet_paypal' type='hidden' value='$_ClientID'>";
     }
   }
 </style>
+<?php 
 
+require_once '../php/class/credentials.php';
+$cred_adm = new Credentials();
+$data_cred = $cred_adm->get_credentials();
+
+//Datos para solicitar las credenciales de accesso..
+$_ClientID = $data_cred[0]['key_public'];
+$_Secret = $data_cred[0]['key_secret'];
+
+//echo "<input id='clientIDwallet_paypal' type='hidden' value='$_ClientID'>";
+
+ ?>
 <body>
   <div class="container-total active">
+    <input id='clientIDwallet_paypal' type='hidden' value='<?php echo $_ClientID; ?>'>
     <!-- NAVBAR LEFT -->
     <?php require_once './includes/sidebar-left.php'; ?>
     <!-- CONTENT ADD-TO-WALLET -->
