@@ -218,4 +218,17 @@ class All extends Connection
             return $e->getMessage();
         }   
     }
+
+    function get_mantenimiento_by_id($id){
+        try {
+            $sql = "SELECT * from mantenimiento WHERE id = :id";
+            $stm = $this->con->prepare($sql);
+            $stm->bindValue(":id", $id);
+            $stm->execute();
+
+            return $stm->fetchAll();
+        } catch (PDOException $e) {
+            return $e->getMessage();
+        }
+    }
 }
