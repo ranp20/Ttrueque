@@ -31,6 +31,7 @@
           <h1>SITIO WEB EN MANTENIMIENTO</h1>
           <p>Nuestro sitio web estará disponible pronto</p>
         </div>
+        <input type="hidden" id='count-remove-mant' value="<?php echo $mante[0]['day']; ?>">
         <div id="countdown" class="cont-crono-under-const"></div>
       </div>
     </div>

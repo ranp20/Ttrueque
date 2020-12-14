@@ -1,5 +1,17 @@
 <?php
 session_start();
+
+require_once '../php/class/all.php';
+$all = new ALl();
+$mante = $all->get_mantenience();
+$mantenience =  $mante[0]['state_mantenience'];
+
+//print_r($mante[0]['state_mantenience']);
+if($mantenience == 'YES'){
+    header('Location: mantenience');
+}
+
+
 if (isset($_SESSION["user"])) {
 
 	// header('location: views/');
