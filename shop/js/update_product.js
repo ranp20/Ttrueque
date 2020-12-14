@@ -41,6 +41,7 @@ $(document).ready(function () {
 
 $(document).on("click", "#btn-product-update", function (e) {
   e.preventDefault();
+let a=$("#form-product").serialize();
 
   var formData = new FormData();
   var filesLength = $(".imgs")[0].files.length;
