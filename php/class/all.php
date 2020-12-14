@@ -231,4 +231,20 @@ class All extends Connection
             return $e->getMessage();
         }
     }
+
+    function update_mantenience($arr_mantenience){
+        try {
+            $sql = "UPDATE mantenimiento SET desde = :desde, hasta = :hasta WHERE id = :id";
+            $stm = $this->con->prepare($sql);
+
+            foreach ($arr_mantenience as $key => $value) {
+                $stm->bindValue($key, $value);
+            }
+            $stm->execute();
+
+            return "actualizado";
+        } catch (PDOException $e) {
+            return $e->getMessage();
+        }
+    }
 }
