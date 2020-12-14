@@ -47,7 +47,9 @@ $(function(){
 		ts = new Date(2017, 0, 1),
 		newYear = true;
 	
-		console.log(restaFechas(f1,f2));
+if(restaFechas(f1,f2)==0){
+			
+	
 	if((new Date()) > ts){
 		// The new year is here! Count towards something else.
 		// Notice the *1000 at the end - time must be in milliseconds
@@ -76,5 +78,5 @@ $(function(){
 			note.html(message);
 		}
 	});
-	
+}
 });
