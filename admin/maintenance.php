@@ -42,6 +42,7 @@
                                         cellspacing="0" width="100%">
                                         <thead>
                                             <tr>
+<<<<<<< HEAD
                                                 <th>ID</th>
                                                 <th>Publicación</th>
                                                 <th>Desde</th>
@@ -62,6 +63,14 @@
                                                 </tr>";
                                                 }
                                             ?>
+=======
+                                                <td>ID</td>
+                                                <td>Publicación</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+
+>>>>>>> 31e27a0... canges
                                         </tbody>
                                     </table>
                                 </div>
