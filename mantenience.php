@@ -36,8 +36,10 @@
             </div>
 
             <input type="hidden" id='idtime' value="<?php echo $mante[0]['id']; ?>">
-            <input type="hidden" id='count-remove-desde' value="<?php echo $mante[0]['desde']; ?>">
-            <input type="hidden" id='count-remove-hasta' value="<?php echo $mante[0]['hasta']; ?>">
+            <input type="hidden" id='count-remove-desde'
+                value="<?php echo   date("d/m/Y", strtotime($mante[0]['desde'])); ?>">
+            <input type="hidden" id='count-remove-hasta'
+                value="<?php echo   date("d/m/Y", strtotime($mante[0]['hasta']));  ?>">
             <div id="countdown" class="cont-crono-under-const"></div>
         </div>
     </div>
