@@ -7,8 +7,11 @@ $d = $c->get_data_by_id($_SESSION['user']);
 // if(!isset($d[0]['tienda']) || $d[0]['tienda'] == "" || !is_numeric($d[0]['tienda'])){
 //     header('Location: ../');
 // }
+<<<<<<< HEAD
 
 //print_r($_SESSION['user']);
+=======
+>>>>>>> 4647760... validations shop
 
 ?>
 <section class="sidebar-nav">
