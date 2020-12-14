@@ -234,7 +234,7 @@ class All extends Connection
 
     function update_mantenience($arr_mantenience){
         try {
-            $sql = "UPDATE mantenimiento SET desde = :desde, hasta = :hasta WHERE id = :id";
+            $sql = "UPDATE mantenimiento SET state_mantenience = :state_mantenience WHERE id = :id";
             $stm = $this->con->prepare($sql);
 
             foreach ($arr_mantenience as $key => $value) {

@@ -49,23 +49,25 @@ if (isset($_GET['id'])) {
                                             <div class="col-md-12">
                                                 <form action="../php/process_admin_update_mantenimiento.php"
                                                     method="POST" class="form-horizontal" enctype="multipart/form-data">
-                                                    <input type="hidden" name="id"
-                                                        value="<?php echo $cat[0]['id'] ?>"></input>
+                                                    <input type="hidden" name="id" value="<?php echo $cat[0]['id'] ?>"></input>
                                                     <div class="form-group">
+                                                        <input class="form-control" type="text" name="state_mantenience" id="state_mantenience" value="<?php echo $cat[0]['state_mantenience'] ?>"></input>
+                                                    </div>
+                                                    <!--<div class="form-group">
                                                         <label for="name">Desde </label>
                                                         <input type="date" maxlength="100"
-                                                            value="<?php echo $cat[0]['desde'] ?>" required
-                                                            min=<?php $hoy=date("Y-m-d"); echo $hoy;?>
+                                                            value="<?php //echo $cat[0]['desde'] ?>" required
+                                                            min=<?php ///$hoy=date("Y-m-d"); echo $hoy;?>
                                                             name="precio-eeuu" id="price-eeuu" class="form-control">
 
                                                     </div>
                                                     <div class="form-group">
                                                         <label for="name">Hasta </label>
                                                         <input type="date" maxlength="100"
-                                                            value="<?php echo $cat[0]['hasta'] ?>" required
-                                                            min=<?php $hoy=date("Y-m-d"); echo $hoy;?>>
-                                                    </div>
-                                                    <div>
+                                                            value="<?php //echo $cat[0]['hasta'] ?>" required
+                                                            min=<?php //$hoy=date("Y-m-d"); echo $hoy;?>>
+                                                    </div>-->
+                                                    <div class="form-group">
                                                         <input type="submit" name="submit" id="submit"
                                                             value="Actualizar" class="form-control btn-primary">
                                                     </div>

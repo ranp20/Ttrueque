@@ -4,14 +4,16 @@ session_start();
 
 if(isset($_POST["submit"])){
   
-  $desde = $_POST["desde"];
-  $hasta = $_POST["hasta"];
+  $state_mantenience = $_POST["state_mantenience"];
+  /*$desde = $_POST["desde"];
+  $hasta = $_POST["hasta"];*/
   $id = $_POST["id"];
 
 
   $arr_mantenience = [
-    "desde" => $desde,
-    "hasta" => $hasta,
+    "state_mantenience" => $state_mantenience,
+    /*"desde" => $desde,
+    "hasta" => $hasta,*/
     "id" => $id
   ];
 

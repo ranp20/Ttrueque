@@ -1,6 +1,28 @@
 $(function(){
 	var countdays = $('#count-remove-mant').val();
 	//console.log(countdays);
+	function fechaCorrecta(fecha1, fecha2){
+
+    //Split de las fechas recibidas para separarlas
+    var x = fecha1.split("-");
+    var z = fecha2.split("-");
+
+    //Cambiamos el orden al formato americano, de esto dd/mm/yyyy a esto mm/dd/yyyy
+    fecha1 = x[0] + "-" + x[1] + "-" + x[2];
+    fecha2 = z[0] + "-" + z[1] + "-" + z[2];
+
+    console.log(fecha1);
+    console.log(Date.parse(fecha1));
+    //Comparamos las fechas
+    if (Date.parse(fecha1) > Date.parse(fecha2)){
+        return false;
+    }else{
+        return true;
+    }
+	}
+
+  
+	console.log(fechaCorrecta('2020-12-16','2020-12-19'));
 
 	$.ajax({
 		url: '../../../php/class/all.php',
@@ -11,7 +33,7 @@ $(function(){
 		//console.log(e);
 	});	
 
-	restaFechas = function(f1,f2)
+	/*restaFechas = function(f1,f2)
 	{
 	var aFecha1 = f1.split('/');
 	var aFecha2 = f2.split('/');
@@ -23,10 +45,10 @@ $(function(){
 	return dias;
 
 	}
-
+	
 	var f1 = fechaactual;
-	var f2=desde;
-   
+	var f2=desde;*/
+
 	
 
 	var daystimeout = 2; 
@@ -34,13 +56,13 @@ $(function(){
 	var getcurrent_date = d.getDate();
 	//var strDate = d.getFullYear() + "-" + (d.getMonth()+1) + "-" + d.getDate() + " " + d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
 
-	console.log(getcurrent_date + parseInt(countdays));
+	//console.log(getcurrent_date + parseInt(countdays));
 
 	var note = $('#note'),
 		ts = new Date(2017, 0, 1),
 		newYear = true;
 	
-		console.log(restaFechas(f1,f2));
+		//console.log(restaFechas(f1,f2));
 	if((new Date()) > ts){
 		// The new year is here! Count towards something else.
 		// Notice the *1000 at the end - time must be in milliseconds

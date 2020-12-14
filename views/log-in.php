@@ -7,7 +7,7 @@ $mante = $all->get_mantenience();
 $mantenience =  $mante[0]['state_mantenience'];
 
 //print_r($mante[0]['state_mantenience']);
-if($mantenience == 'YES'){
+if($mantenience == 'YES' || $mantenience == 'yes'){
     header('Location: mantenience');
 }
 

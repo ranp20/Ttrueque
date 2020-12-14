@@ -22,7 +22,7 @@
         <div class="content-wrapper">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-6">
                         <!-- TÍTULO DEL ITEM Y BOTON DE AGREGADO -->
                         <div id="content-title-list-user">
                             <h2 class="page-title">Mantemiento&nbsp;&nbsp;<i class="fa fa-cogs"></i>
@@ -44,8 +44,8 @@
                                             <tr>
                                                 <th>ID</th>
                                                 <th>Publicación</th>
-                                                <th>Desde</th>
-                                                <th>Hasta</th>
+                                                <!--<th>Desde</th>
+                                                <th>Hasta</th>-->
                                                 <th>Opción</th>
                                             </tr>
                                         </thead>
@@ -56,8 +56,8 @@
                                                 <tr>
                                                     <td>{$man["id"]}</td>
                                                     <td>{$man["state_mantenience"]}</td>
-                                                    <td>{$man["desde"]}</td>
-                                                    <td>{$man["hasta"]}</td>
+                                                    <!--<td>{$man["desde"]}</td>
+                                                    <td>{$man["hasta"]}</td>-->
                                                     <td> <a  href='update-maintenance.php?id={$man["id"]}'  class='btn btn-primary'>Editar</a></td>                                                                                              
                                                 </tr>";
                                                 }

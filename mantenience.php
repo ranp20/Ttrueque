@@ -14,7 +14,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mantenimiento</title>
+    <title>Sitio en mantenimiento</title>
     <link rel="icon" href="<?php echo $url ?>img/icon-pages/drawable-xxxhdpi-icon.png" type="image/ico">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo $url ?>views/mantenience/css/bootstrap.min.css">
@@ -32,12 +32,12 @@
           <p>Nuestro sitio web estará disponible pronto</p>
         </div>
         <input type="hidden" id='count-remove-mant' value="<?php echo $mante[0]['day']; ?>">
-        <div id="countdown" class="cont-crono-under-const"></div>
+        <!--<div id="countdown" class="cont-crono-under-const"></div>-->
       </div>
     </div>
     <script src="<?php echo $url ?>views/mantenience/js/jquery-3.1.1.min.js"></script>
     <script src="<?php echo $url ?>views/mantenience/js/bootstrap.min.js"></script>
     <script src="<?php echo $url ?>views/mantenience/js/jquery.countdown.js"></script>
-    <script src="<?php echo $url ?>views/mantenience/js/active.js"></script>
+    <!--<script src="<?php //echo $url ?>views/mantenience/js/active.js"></script>-->
 </body>
 </html>
