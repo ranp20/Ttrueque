@@ -6,7 +6,7 @@
   $all = new ALl();
   $mante = $all->get_mantenience();
 
-  print_r($mante[0]['state_mantenience']);
+  //print_r($mante[0]['state_mantenience']);
 
 ?>
 <!DOCTYPE html>
@@ -14,7 +14,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coming Soon Evening</title>
+    <title>Mantenimiento</title>
+    <link rel="icon" href="<?php echo $url ?>img/icon-pages/drawable-xxxhdpi-icon.png" type="image/ico">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo $url ?>views/mantenience/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo $url ?>views/mantenience/css/jquery.countdown.css">
