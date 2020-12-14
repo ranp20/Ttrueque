@@ -1,9 +1,11 @@
 <?php
   session_start();
 
-  require_once "../php/class/credentials.php";
-  $cred = new Credentials();
-  $data = $cred->get_credentials();
+  require_once '../php/class/all.php';
+  $all = new ALl();
+  $mante = $all->get_mantenience();
+
+
 ?>
 <!doctype html>
 <html lang="en" class="no-js">
@@ -40,12 +42,26 @@
                                         cellspacing="0" width="100%">
                                         <thead>
                                             <tr>
-                                                <td>ID</td>
-                                                <td>Publicación</td>
+                                                <th>ID</th>
+                                                <th>Publicación</th>
+                                                <th>Desde</th>
+                                                <th>Hasta</th>
+                                                <th>Opción</th>
                                             </tr>
                                         </thead>
                                         <tbody>
-
+                                            <?php
+                                                foreach($mante as $man){
+                                                echo "
+                                                <tr>
+                                                    <td>{$man["id"]}</td>
+                                                    <td>{$man["state_mantenience"]}</td>
+                                                    <td>{$man["desde"]}</td>
+                                                    <td>{$man["hasta"]}</td>
+                                                    <td> <a  href='update-maintenance.php?id={$man["id"]}'  class='btn btn-primary'>Editar</a></td>                                                                                              
+                                                </tr>";
+                                                }
+                                            ?>
                                         </tbody>
                                     </table>
                                 </div>
