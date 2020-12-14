@@ -25,42 +25,56 @@ if (isset($_GET['id'])) {
 <body>
     <?php include('includes/header.php'); ?>
     <div class="ts-main-content">
-      <?php include('includes/leftbar.php'); ?>
-      <div class="content-wrapper">
-        <div class="container-fluid">
-          <div class="row  fila-contenedor-add-items_all">
-            <div class="col-12 my-4 col-md-7 content-add-items_all">
-              <!-- TÍTULO DEL ITEM Y BOTON DE LISTADO DE ITEMS -->
-              <?php //print_r($cat); ?>
-              <div id="content-title-add">
-                  <h2 class="page-title">Actualizar Publicación&nbsp;<i class="fa fa-pencil"></i></h2>
-                  <a href="maintenance.php" id="button-list-left-header"><i class="fa fa-list"
-                          id="icon-btn-list"></i>Lista de Publicación</a>
-              </div>
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="panel panel-default">
-                    <div class="panel-heading">
-                      <p class="h6">Campos del formulario</p>
-                    </div>
-                    <div class="panel-body">
-                      <div class="row m-0">
-                        <div class="col-md-12">
-                          <form action="../php/process_admin_update_mantenimiento.php" method="POST" class="form-horizontal" enctype="multipart/form-data">
-                              <input type="hidden" name="id" value="<?php echo $cat[0]['id'] ?>"></input>
-                              <div class="form-group">
-                                  <label for="name">Desde </label>
-                                  <input type="date" maxlength="100" value="<?php echo $cat[0]['desde'] ?>" required name="desde" id="price-eeuu" class="form-control">
-                              </div>
-                              <div class="form-group">
-                                  <label for="name">Hasta </label>
-                                  <input type="date" maxlength="100" value="<?php echo $cat[0]['hasta'] ?>" required name="hasta" id="price-eeuu" class="form-control">
-                              </div>
+        <?php include('includes/leftbar.php'); ?>
+        <div class="content-wrapper">
+            <div class="container-fluid">
+                <div class="row  fila-contenedor-add-items_all">
+                    <div class="col-12 my-4 col-md-7 content-add-items_all">
+                        <!-- TÍTULO DEL ITEM Y BOTON DE LISTADO DE ITEMS -->
+                        <?php //print_r($cat); 
+            ?>
+                        <div id="content-title-add">
+                            <h2 class="page-title">Actualizar Publicación&nbsp;<i class="fa fa-pencil"></i></h2>
+                            <a href="maintenance.php" id="button-list-left-header"><i class="fa fa-list"
+                                    id="icon-btn-list"></i>Lista de Publicación</a>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <p class="h6">Campos del formulario</p>
+                                    </div>
+                                    <div class="panel-body">
+                                        <div class="row m-0">
+                                            <div class="col-md-12">
+                                                <form action="../php/process_admin_update_mantenimiento.php"
+                                                    method="POST" class="form-horizontal" enctype="multipart/form-data">
+                                                    <input type="hidden" name="id"
+                                                        value="<?php echo $cat[0]['id'] ?>"></input>
+                                                    <div class="form-group">
+                                                        <label for="name">Desde </label>
+                                                        <input type="date" maxlength="100"
+                                                            value="<?php echo $cat[0]['desde'] ?>" required
+                                                            min=<?php $hoy=date("Y-m-d"); echo $hoy;?>
+                                                            name="precio-eeuu" id="price-eeuu" class="form-control">
 
-                              <div class="form-group mt-4">
-                                  <input type="submit" name="submit" id="submit" value="Actualizar" class="form-control btn-primary">
-                              </div>
-                          </form>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="name">Hasta </label>
+                                                        <input type="date" maxlength="100"
+                                                            value="<?php echo $cat[0]['hasta'] ?>" required
+                                                            min=<?php $hoy=date("Y-m-d"); echo $hoy;?>>
+                                                    </div>
+                                                    <div>
+                                                        <input type="submit" name="submit" id="submit"
+                                                            value="Actualizar" class="form-control btn-primary">
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                       </div>
                     </div>
