@@ -208,4 +208,14 @@ class All extends Connection
             return $e->getMessage();
         }
     }
+
+    function get_mantenience(){
+        try {
+            $sql = "SELECT * FROM mantenimiento";
+            $stm = $this->con->query($sql);
+            return $stm->fetchAll();
+        } catch (PDOException $e) {
+            return $e->getMessage();
+        }   
+    }
 }

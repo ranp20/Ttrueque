@@ -44,6 +44,7 @@ RewriteRule ^presentacion_texto_three_b?$  ./view_home/presentacion_texto_three_
 
 ########Rewrite files into home
 RewriteRule ^home?$  home.php
+RewriteRule ^mantenience?$  mantenience.php
 #RewriteRule ^home_header?$  ./views_home/presentacion_header_texto_b.php
 RewriteRule ^home_texto?$  ./views_home/presentacion_texto_b.php
 #RewriteRule ^footer_home?$  ./views_home/footer-policy.php

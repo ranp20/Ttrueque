@@ -41,7 +41,7 @@ function renderbtnPaypal(){
   var clientpar = parseInt(idclient);
 
   paypal.Button.render({
-      env: 'sandbox', // sandbox | production
+      env: 'production', // sandbox | production
       style: {
           label: 'checkout',  // checkout | credit | pay | buynow | generic
           size:  'responsive', // small | medium | large | responsive
@@ -53,7 +53,7 @@ function renderbtnPaypal(){
       // Create a PayPal app: https://developer.paypal.com/developer/applications/create
       client: {
           sandbox:    clientIDwallet_paypal,
-          production: clientIDwallet_paypal
+          production: clientIDwallet_paypal,
       },
 
       // Wait for the PayPal button to be clicked
