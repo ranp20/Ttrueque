@@ -5,7 +5,11 @@
   require_once 'php/class/all.php';
   $all = new ALl();
   $mante = $all->get_mantenience();
+  $mantenience =  $mante[0]['state_mantenience'];
 
+  if($mantenience == 'NO' || $mantenience == 'no'){
+    header('Location: home');
+  }
   //print_r($mante[0]['state_mantenience']);
 
 ?>
