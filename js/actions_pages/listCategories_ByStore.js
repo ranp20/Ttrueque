@@ -39,9 +39,9 @@ $(document).ready(function () {
                 <div>
                   <p>${v.nombre_categoria}</p>
                   <p>${v.tienda}</p>
-                  <p class="tooltip-categ-stores">
+                  <!--<p class="tooltip-categ-stores">
                     <i class="fal fa-calendar-alt"></i>Hoy, 9pm
-                  </p>
+                  </p>-->
                 </div>
               </div>
             </a>

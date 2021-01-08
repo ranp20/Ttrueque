@@ -21,7 +21,7 @@ $(document).ready(function () {
          <div>
            <i class="far fa-store-slash fa-4x"></i>
            <h1>Aún no hay productos disponibles para esta categoría</h1>
-           <a href="categorias">Ver todas las categorías</a>
+           <a href="allcategories">Ver todas las categorías</a>
          </div>
        </div>
       `);
@@ -43,8 +43,9 @@ $(document).ready(function () {
             <li class="item-product-search_categ">
               <div class="item-cont-products-search-categ">
                 <a href="product-detail?id=${v.id_producto}" class="cont-image-products-search-categ">
-                  <div loading='lazy' class="image-product-search-categ img-fluid" style="background-image: url(${path});">
-                  </div>
+                  <img src='${path}' loading='lazy' class='img-fluid'>
+                  <!--<div loading='lazy' class="image-product-search-categ img-fluid" style="background-image: url(${path});">
+                  </div>-->
                 </a>
                 <div>
                   <div class="sms-currstore-prod">
@@ -68,8 +69,9 @@ $(document).ready(function () {
             <li class="item-product-search_categ">
               <div class="item-cont-products-search-categ">
                 <a href="product-detail?id=${v.id_producto}" class="cont-image-products-search-categ">
-                  <div loading='lazy' class="image-product-search-categ img-fluid" style="background-image: url(${path});">
-                  </div>
+                  <img src='${path}' loading='lazy' class='img-fluid'>
+                  <!--<div loading='lazy' class="image-product-search-categ img-fluid" style="background-image: url(${path});">
+                  </div>-->
                 </a>
                 <div>
                   <div class="cont-info-product-search-categ">

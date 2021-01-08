@@ -11,7 +11,7 @@
 .value-subtotal-cart {  border-bottom: 1px solid #ededed;}
 .detail-cart-prods-total-ttrk {  min-height: 260px;  background-color: #fff;  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.1);  border-radius: 6px;  width: 326px;}
 .table.cart-list{margin: 0 !important;}
-.table.cart-list > thead > tr{background: #007bff;}
+.table.cart-list > thead > tr{background: #172134;color: #fff;}
 .table.cart-list > thead > tr > th{color: #fff;padding: 1rem .5rem 1rem 1.2rem;font-weight: bold;}
 .table.cart-list > thead > tr > th:first-child{border-radius: 10px 0 0 0 !important;}
 .table.cart-list > thead > tr > th:last-child{border-radius: 0 10px 0 0 !important;}

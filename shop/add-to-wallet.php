@@ -9,7 +9,7 @@ if (!isset($tienda[1][0]["id_menbresia"])) {
 }
 
 require_once '../php/class/all.php';
-require_once 'global/config.php';
+//require_once 'global/config.php';
 $c = new All();
 $wall = $c->get_wallet();
 ?>

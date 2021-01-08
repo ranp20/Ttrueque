@@ -41,7 +41,7 @@ function renderbtnPaypal(){
   var clientpar = parseInt(idclient);
 
   paypal.Button.render({
-      env: 'production', // sandbox | production
+      env: 'sandbox', // sandbox | production
       style: {
           label: 'checkout',  // checkout | credit | pay | buynow | generic
           size:  'responsive', // small | medium | large | responsive

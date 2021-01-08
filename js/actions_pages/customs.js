@@ -1,5 +1,5 @@
 //INPUT DEL BUSCADOR EN EL HOME...
-window.onload = function () {
+/*window.onload = function () {
   var input = document.querySelector(".search-input_home");
   input.onfocus = () => {
     input.previousElementSibling.classList.add("foco");
@@ -9,7 +9,7 @@ window.onload = function () {
     if (input.value.trim().length == 0)
       input.previousElementSibling.classList.remove("foco");
   };
-};
+};*/
 
 $(document).ready(function(){
   //MOSTRAR Y OCULTAR CARRITO...

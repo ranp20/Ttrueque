@@ -33,7 +33,7 @@ $(document).ready(function () {
               <div class="contain-lr-in-detail-prod">
                 <div class="content-l-info-product-det">
                   <p><span>${v.precio_producto}</span><span> Bikers </span></p> 
-                  <h2><span>Color: </span><span> Negro </span></h2>
+                  <!--<h2><span>Color: </span><span> Negro </span></h2>-->
                   <!--<div class="content-r-quant-prod-detail">
                     <h2>Cantidad: </h2>
                     <div class="cont-r-qua-p-detail">
@@ -78,7 +78,7 @@ $(document).ready(function () {
   						<div class="contain-lr-in-detail-prod">
   							<div class="content-l-info-product-det">
   								<p><span>${v.precio_producto}</span><span> Bikers </span></p>	
-  								<h2><span>Color: </span><span> Negro </span></h2>
+  								<!--<h2><span>Color: </span><span> Negro </span></h2>-->
   								<!--<div class="content-r-quant-prod-detail">
   									<h2>Cantidad: </h2>
   									<div class="cont-r-qua-p-detail">

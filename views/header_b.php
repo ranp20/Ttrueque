@@ -1,9 +1,9 @@
   <!----------------------------->
   <?php 
 
-if (!isset($_SESSION["user"])) {
-	header("Location: ./login");
-}
+/*if (!isset($_SESSION["user"])) {
+	header("Location: login");
+}*/
 
 ?>
   <nav class="navbar navbar-expand-lg navbar-dark justify-content-sm-start fixed-top nav-index-ttrq">

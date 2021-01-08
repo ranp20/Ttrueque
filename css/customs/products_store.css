@@ -16,7 +16,9 @@
 .item-cont-products-store{	display: block;	position: relative;	text-decoration: none;}
 .item-cont-products-store{	display: flex;    align-items: center;    justify-content: space-between;    flex-direction: column;    border-radius: 15px;}
 .item-cont-products-store > .cont-image-products-str-b-ttrk{	width: 100%;    height: 190px;    margin: 0 auto 18px auto;    border-bottom: 1px solid rgba(0,0,0,.08);    overflow: hidden;}
-.item-cont-products-store > .cont-image-products-str-b-ttrk > .image-product-str-c-ttrk{	height: 100%;	width: 100%;	background-repeat: no-repeat;    background-position: center;    background-size: contain;}
+.item-cont-products-store > .cont-image-products-str-b-ttrk img{width: 100% !important;height: 100%; object-fit: contain !important;object-position: center !important;}
+
+/*.item-cont-products-store > .cont-image-products-str-b-ttrk > .image-product-str-c-ttrk{	height: 100%;	width: 100%;	background-repeat: no-repeat;    background-position: center;    background-size: contain;}*/
 /* INFORMACIÓN DEL PRODUCTO */
 .cont-info-product-stores-b-ttrk{	display: flex;    flex-direction: column;    align-items: flex-start;    justify-content: flex-start;    box-sizing: border-box;    width: 100%;    padding: .5rem 1rem .5rem 1rem;    height: 115px;    min-height: 115px;    max-height: 115px;}
 .cont-info-product-stores-b-ttrk p{    margin: 0 !important;    color: #444;}

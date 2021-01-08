@@ -12,7 +12,7 @@ $title = "Completar compra";
 
 $id_cli = $_SESSION['user'];
 require_once '../php/class/purchase_points.php';
-require_once 'global/config.php';
+//require_once 'global/config.php';
 
 //print_r($_GET);
 if(!isset($_GET['idwallet']) || !is_numeric($_GET['idwallet']) || $_GET['idwallet'] == ""){
