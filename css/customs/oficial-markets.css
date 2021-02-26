@@ -1,7 +1,7 @@
 .content-total-page-ttrk{	min-height: 100vh;	display: flex;	flex-direction: column;}
 .content-ttrk-official-markets-c{	max-width: 1200px;	width: 100%;	margin: auto;}
 .contenido-tiendas-off-header > .content-title-tiendas {  margin: auto auto 25px auto;  height: 60px;  display: flex;  align-items: center;}
-.contenido-tiendas-off-header > .content-title-tiendas > h3{	font-family: var(--fuente-subtitles);	}
+.contenido-tiendas-off-header > .content-title-tiendas > h3{	font-family: var(--fuente-subtitles);border-bottom: 1px solid var(--secondary-clr);padding: 0 1.8rem .5rem 0;}
 /* CONTENIDO PRICIPAL DEL LANDING PAGE*/
 .container-content-off-mrkts{  min-height: 100vh;  display: block;  margin: auto;  width: 100%;}
 /* RESULTADOS DE LAS MARCAS DE LOS VENDEDORES Y DEMÁS DENTRO DE TTRUEQUE*/
@@ -15,7 +15,7 @@
 .list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into > .item-cont-str-off > .cont-logo-offi-mrkt-b-ttrk > .logo-off-mrkt-c-ttrk{height: 100%;width: 100%;background-repeat: no-repeat; background-position: center; background-size: contain;border-radius: 20px;box-shadow: 0 0 0 5px #fff, 0 20px 20px -12px #000;}
 .list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into > .item-cont-str-off > .cont-info-offi-mrkt-b-ttrk{	display: block;	width: 100%;	text-align: center;}
 .list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into > .item-cont-str-off > .cont-info-offi-mrkt-b-ttrk > p{	margin-bottom: 0;	overflow: hidden;	color: #332927;	white-space: nowrap;}
-.list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into > .item-cont-str-off > .cont-info-offi-mrkt-b-ttrk > p:first-child{	font-size: 1.44rem;  font-weight: 600;}
+.list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into > .item-cont-str-off > .cont-info-offi-mrkt-b-ttrk > p:first-child{	font-size: 1.44rem;  font-weight: 600;font-family: var(--fuente-categorias_1);}
 .list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into > .item-cont-str-off > .cont-info-offi-mrkt-b-ttrk > p:nth-child(2){	font-size: 20px;	color: #706967;}
 .list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into > .item-cont-str-off > .cont-info-offi-mrkt-b-ttrk > p:nth-child(3){	display: flex;	align-items: center;	justify-content: center;	box-sizing: border-box;}
 .list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into > .item-cont-str-off > .cont-info-offi-mrkt-b-ttrk > p:nth-child(3) > svg{	margin-right: 5px;}

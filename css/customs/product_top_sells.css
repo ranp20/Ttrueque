@@ -1,7 +1,7 @@
 /* LIST BEST SELLER */
-.content-more-sells{padding-top: 0 !important;margin-top: 2rem !important;}
+.content-more-sells{padding-top: 0 !important;margin-top: 3rem !important;}
 .content-more-sells > #title-content-more-sells{margin-bottom: 25px;position: unset;display: flex;align-items: center;justify-content: flex-start;}
-.content-more-sells > #title-content-more-sells > #content-text-more-sells > h3{font-family: var(--fuente-subtitles);margin: 1rem 0 0 0 !important;}
+.content-more-sells > #title-content-more-sells > #content-text-more-sells > h3{font-family: var(--fuente-subtitles);margin: 1rem 0 0 0 !important;border-bottom: 1px solid var(--secondary-clr);padding: 0 1.8rem .5rem 0;}
 #products-more-sells .owl-stage-outer .owl-stage .owl-item .item .targets_products > .photo_products > a > .content-img-best-sells-h{	display: flex;  align-items: center;  justify-content: center;  height: 210px;  overflow: hidden;}
 #products-more-sells .owl-stage-outer .owl-stage .owl-item .item .targets_products > .photo_products > a > .content-img-best-sells-h > div{	background-position: center;	background-repeat: no-repeat;	background-size: contain;	width: 100%;	height: 100%;}
 #products-more-sells .owl-stage-outer .owl-stage .owl-item .item .targets_products > .photo_products > a > .content-img-best-sells-h:hover{	box-shadow: unset !important;}
@@ -15,14 +15,14 @@
 #products-more-sells > .owl-stage-outer{	width: 100% !important;  max-height: 380px !important;  min-height: 380px !important;  padding: 10px 0;}
 /* ÍCONOS DE ACCIONES A LOS PRODUCTOS */
 /* BANDERA PARA EL PAÍS EN CADA PRODUCTO */
-.new_price{color: var(--color-letters-price);font-weight: 500 !important;font-size: 16px !important;font-size: 1.42rem !important;}
+.new_price{color: var(--blue-price-clr);font-weight: bold !important;font-size: 1.42rem !important;font-family: var(--fuente-categorias_2);}
 #products-more-sells .owl-stage-outer .owl-stage .owl-item .item{max-height: 359px !important;}
 #products-more-sells .owl-stage-outer .owl-stage .owl-item .item .targets_products{	width: 100% !important;  max-height: 360px !important;  min-height: 360px !important;}
 #products-more-sells .owl-stage-outer .owl-stage .owl-item .item .descriptions_products,#products-more-sells .owl-stage-outer .owl-stage .owl-item .item .descriptions_products_admin{	text-align: left;  padding: 0 1em;}
 #products-more-sells .owl-stage-outer .owl-stage .owl-item .item .descriptions_products > div,#products-more-sells .owl-stage-outer .owl-stage .owl-item .item .descriptions_products_admin > div{  position: relative;}
 #products-more-sells .owl-stage-outer .owl-stage .owl-item .item .descriptions_products > div > .watermark{	position: absolute;  z-index: 99;  color: #ccc;  background: rgba(0,0,0,.2);  width: 228px;  height: 147px;  display: flex;  align-items: center;  justify-content: center;  top: -16px;  left: -14px;  box-sizing: border-box;}
 #products-more-sells .owl-stage-outer .owl-stage .owl-item .item .descriptions_products > div > .watermark > h1{  -webkit-transform: rotate(-45deg);  -moz-transform: rotate(-45deg);  -ms-transform: rotate(-45deg);  -o-transform: rotate(-45deg);  color: rgba(0,0,0,.2);  transform: translateY(0px) rotate(-45deg);  font-size: 2rem;}
-#products-more-sells .owl-stage-outer .owl-stage .owl-item .item .descriptions_products_admin > div > .desc-product-text_admin h1,#products-more-sells .owl-stage-outer .owl-stage .owl-item .item .descriptions_products > div > .desc-product-text h1{	min-height: 36px;  max-height: 36px;  overflow: hidden;  font-size: .91rem;	color: rgba(0,0,0,.8);}
+#products-more-sells .owl-stage-outer .owl-stage .owl-item .item .descriptions_products_admin > div > .desc-product-text_admin h1,#products-more-sells .owl-stage-outer .owl-stage .owl-item .item .descriptions_products > div > .desc-product-text h1{	min-height: 50px;  max-height: 50px;  overflow: hidden;  font-size: .91rem;	color: var(--primary-clr);font-weight: 800;font-family: var(--fuente-subtitles);}
 #products-more-sells .owl-stage-outer .owl-stage .owl-item .item .targets_products > .photo_products{	border-radius: 4px 4px 0 0 !important;  overflow: hidden !important;}
 #products-more-sells .owl-stage-outer .owl-stage .owl-item .item .targets_products > .photo_products .flag-by-country{	position: absolute !important;  top: 5px;  left: 9px;}
 #products-more-sells .owl-stage-outer .owl-stage .owl-item .item .targets_products > .photo_products .flag-by-country > .cont-flag-into-image-prod{	height: 23px;  width: 36px;  background: #fff;}

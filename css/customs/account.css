@@ -10,6 +10,6 @@
 .cont-session-exist-login p{margin: 0;}
 .cont-session-exist-login p a{font-weight: bold;text-decoration: underline;}
 /* BUTTON REGISTER */
-.btn-register-user-new{background: var(--principal-color) !important;}
-.btn-register-user-new:hover{background: var(--principal-color-h) !important;color: var(--color-black-h) !important;}
-.btn-register-user-new:active{background: var(--principal-color-h) !important;color: var(--color-black-h) !important;}
+.btn-register-user-new{background: var(--secondary-clr) !important;color: #fff !important;}
+.btn-register-user-new:hover{background: var(--hov-secondary-clr) !important;color: #fff !important;}
+.btn-register-user-new:active{background: var(--hov-secondary-clr) !important;color: #fff !important;}

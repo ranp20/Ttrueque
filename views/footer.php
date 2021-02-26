@@ -5,7 +5,7 @@
       <div class="col-lg-3 col-md-6">
         <h3 data-target="#collapse_1"  class="lang_ttrq" key="t_list-footer-one">Enlaces rápidos</h3>
         <div class="collapse dont-collapse-sm links" id="collapse_1">
-          <ul>
+          <ul class="list-items-footer-opts">
             <!--<li><a href="about.php" class="lang_ttrq" key="opt-l-f_one-1">Acerca de</a></li>-->
             <li><a href="shop" class="lang_ttrq" key="opt-l-f_one-4">Mi cuenta</a></li>
             <li><a href="home" class="lang_ttrq" key="opt-l-f_one-2">Preguntas más frecuentes</a></li>
@@ -19,7 +19,7 @@
       <div class="col-lg-3 col-md-6">
         <h3 data-target="#collapse_2" class="lang_ttrq" key="t_list-footer-two">Categorías</h3>
         <div class="collapse dont-collapse-sm links" id="collapse_2">
-          <ul>
+          <ul class="list-items-footer-opts">
             <?php
               $only_six = array_slice($cat_limit, 0, 6);
 
@@ -41,7 +41,7 @@
       <div class="col-lg-3 col-md-6">
         <h3 data-target="#collapse_3" class="lang_ttrq" key="t_list-footer-three">Contactos</h3>
         <div class="collapse dont-collapse-sm contacts" id="collapse_3">
-          <ul>
+          <ul class="list-items-footer-opts">
             <li><i class="ti-home"></i>Av. Arenales Nro. 1031 Int. B - <br>Santa Beatriz, Lima.</li>
             <li><i class="ti-headphone-alt"></i><a href="tel://51 951 488 317" title="Necesitas Ayuda?">+51 951 488 317</a></li>
             <li><i class="ti-email"></i>melgarejo777666@gmail.com</li>
@@ -60,7 +60,7 @@
           </div>-->
           <div class="follow_us">
             <h5 class="lang_ttrq" key="opt-l-f_four-1">Siguenos en:</h5>
-            <ul>
+            <ul class="list-items-footer-opts">
               <li><a href="#0"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="img/twitter_icon.svg" alt="" class="lazy"></a></li>
               <li><a href="#0"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="img/facebook_icon.svg" alt="" class="lazy"></a></li>
               <li><a href="#0"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="img/instagram_icon.svg" alt="" class="lazy"></a></li>
@@ -71,7 +71,6 @@
       </div>
     </div>
     <!-- /row-->
-    <hr>
     <div class="row add_bottom_25">
       <div class="col-lg-12 d-flex justify-content-center">
         <ul class="footer-selector clearfix">
@@ -102,7 +101,7 @@
       </div>
     </div>
   </div>
-  <div class="cont-foot-two-p-ttrq">
+  <div class="cont-foot-two-p-ttrq footer-pg-index">
     <div class="container margin_60_35 content-footer-policy-ttrk">
       <div class="content-footer-bottom">
         <div class="content-left-footer">

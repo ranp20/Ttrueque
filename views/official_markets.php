@@ -1,4 +1,4 @@
-<div class="content-ttrk-official-markets-c">
+<div class="content-ttrk-official-markets-c principal-view-h">
 	<div class="contenido-tiendas-off-header">
 		<div class="content-title-tiendas">
 			<h3 class="lang_ttrq" key="title_official_markets">Tiendas Oficiales</h3>

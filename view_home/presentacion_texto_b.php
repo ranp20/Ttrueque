@@ -64,9 +64,9 @@
 	<div class="content-que-es-ttrq oposition-info" id="que-es-ttrueque">
 		<section>
 			<div class="contn-info-que-es">
-				<h1>¿Qué es Trueque.ga?</h1>
-				<p>Trueque.ga es un club en línea creado para intercambiar productos por Bikers, esto con la finalidad de no tener que usar tu dinero real.</p>
-				<p>Es muy sencillo, tan solo ingresa y/o registrate en la página web <a href="login">www.trueque.ga</a> y de inmediato puedes comenzar a comprar con el bono de bienvenida, el cuál te brinda 100 Bikers para comprar lo que quieras dentro del sitio.</p>
+				<h1>¿Qué es Ttrueque.com?</h1>
+				<p>Ttrueque.com es un club en línea creado para intercambiar productos por Bikers, esto con la finalidad de no tener que usar tu dinero real.</p>
+				<p>Es muy sencillo, tan solo ingresa y/o registrate en la página web <a href="login">www.ttrueque.com</a> y de inmediato puedes comenzar a comprar con el bono de bienvenida, el cuál te brinda 100 Bikers para comprar lo que quieras dentro del sitio.</p>
 				<p>Posterior a la compra el vendedor de dicha tienda te informará si tu pedido o compra ha sido recogido y dará pie al siguiente paso, que consiste en la entrega como tál de 
 dicho artículo a la dirección que especificaste con anterioridad al crear tu cuenta.</p>
 				<div class="cont-img-referencial">

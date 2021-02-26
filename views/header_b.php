@@ -26,7 +26,7 @@
                       <a class="nav-link dropdown-toggle con-t-profile-opts-link" href="#" id="navbarDropdown"
                           role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           <span class="lang_ttrq"
-                              key="name_user">¡Hola,</span><span>&nbsp;<?php echo ucfirst($d[0][3]); ?>!</span>
+                              key="name_user">¡Hola,</span><span>&nbsp;<?php echo ucfirst($d[0][3]);?>!</span>
                           <input type="hidden" name="paisclient" id="paisclient"
                               value="<?php echo $_SESSION['idcountries'] = $d[0]['pais']; ?>">
                           <input type="hidden" id="userid_cli" value="<?php echo $_SESSION['user']; ?>">

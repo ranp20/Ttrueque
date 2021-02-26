@@ -2,6 +2,7 @@
 	<div class="main_title" id="title-content-more-sells">
 		<div id="content-text-more-sells">
 			<h3 class="lang_ttrq" key="title_best-seller">Lo más Vendido</h3>
+			
 		</div>
 	</div>
 	<?php 

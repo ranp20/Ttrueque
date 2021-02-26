@@ -1,5 +1,6 @@
 .content-total-page-ttrk{	min-height: 100vh;	display: flex;	flex-direction: column;}
-.content-ttrk-official-markets-c{	max-width: 1220px;width: 100%;margin: 4rem auto auto auto;position: relative;padding-left: 15px;padding-right: 15px;}
+.content-ttrk-official-markets-c{	max-width: 1220px;width: 100%;margin: 5rem auto auto auto;position: relative;padding-left: 15px;padding-right: 15px;}
+.content-ttrk-official-markets-c.principal-view-h{margin: 4rem auto auto auto !important;}
 .contenido-categorias_ttrk-off-header > .content-title-categorias_ttrk {    margin: 25px auto 25px auto;    height: 60px;    display: flex;    align-items: center;}
 .contenido-categorias_ttrk-off-header > .content-title-categorias_ttrk > h3{	font-family: var(--fuente-subtitles);
 }
@@ -8,8 +9,8 @@
 /*BOTÓN PARA VER TODAS LOS PRODUCTOS*/
 .content-btn-more-brands-ttrk{    margin: 100px auto 60px auto;    width: 100%;    text-align: center;}
 .content-btn-more-brands-ttrk > .btn-brands-alls-ttrk{	min-width: 235px;}
-.content-btn-more-brands-ttrk > .btn-brands-alls-ttrk > .btn-into-alls-ttrk{	font-size: 20px;    border: none;    background: var(--principal-color);    color: #fff;    border-radius: 4px;    line-height: 1;    padding: 14px 32px;    text-align: center;    transition: ease .3s;}
-.content-btn-more-brands-ttrk > .btn-brands-alls-ttrk > .btn-into-alls-ttrk:hover{	background: var(--principal-color-h);color: var(--color-black-h);}
+.content-btn-more-brands-ttrk > .btn-brands-alls-ttrk > .btn-into-alls-ttrk{	font-size: 20px;    border: none;    background: var(--secondary-clr);    color: var(--tertiary-clr);    border-radius: 1.5rem;    line-height: 1;    padding: .875rem 2.5rem;    text-align: center;    transition: ease .3s;font-family: var(--fuente-categorias_3);}
+.content-btn-more-brands-ttrk > .btn-brands-alls-ttrk > .btn-into-alls-ttrk:hover{	background: var(--hov-secondary-clr);color: var(--tertiary-clr);}
 /* RESULTADOS DE PRODUCTOS POR CATEGORIÍA -> TIENDA*/
 .item-product-stores-into{    width: 222px;    border: 1px solid #dddd;    border-radius: 12px;    background: #fff;    position: relative;    overflow: hidden;    margin: 1rem .4rem;    text-decoration: none;    transition: all ease .4s;}
 .item-product-stores-into:hover{	transform: translateY(-10px);    background: #fff;    box-shadow: 0 10px 16px 0 rgba(0,0,0,.2);    border-radius: 12px;}

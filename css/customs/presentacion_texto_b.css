@@ -70,23 +70,29 @@ section > .container-desc-txt-l > .content-text-desc-trk > h2,
 section > .container-desc-txt-l > .content-text-desc-trk > p,
 section > .container-desc-txt-l > .content-text-desc-trk > a{
 	font-family: var(--fuente-categorias_1);
-	font-size: 2.5rem;
+	font-size: 2.4rem;
 	font-weight: 400;
+  margin-bottom: 1.5rem;
 }
 section > .container-desc-txt-r > .content-text-desc-trk > p,
 section > .container-desc-txt-l > .content-text-desc-trk > p{
-	font-size: 1.2rem;
-	margin-bottom: .5em;
+	font-size: 1.15rem;
+	margin-bottom: 2.8rem;
+  color: var(--grey-line-clr);
 }
 section > .container-desc-txt-r > .content-text-desc-trk > a,
 section > .container-desc-txt-l > .content-text-desc-trk > a{
-	font-size: 1.5em;
-	color: #0070ba;
-	font-weight: 600;
+	font-size: 1.2em;
+	color: var(--tertiary-clr);
+	font-weight: 800;
+  background: var(--secondary-clr);
+  padding: .75rem 3rem;
+  border-radius: 1.5rem;
+  transition: 0s !important;
 }
 section > .container-desc-txt-r > .content-text-desc-trk > a:hover,
 section > .container-desc-txt-l > .content-text-desc-trk > a:hover{
-	text-decoration: underline;
+	background: var(--hov-secondary-clr);
 }
 /* GUÍA DE USUARIO EN EL SITIO WEB */
 /***************** GRUÍA DEL COMPRADOR ******************/
@@ -104,7 +110,8 @@ section > .container-desc-txt-l > .content-text-desc-trk > a:hover{
 .content-tutorial-webapp-client .contain-appcli-tutorial h1{
   text-align: center;
   padding: .5rem 0 1.5rem 0;
-  color: red;
+  color: var(--secondary-clr);
+  font-weight: bold;
 }
 .content-tutorial-webapp-client .contain-webcli-tutorial .cont-steps-web,
 .content-tutorial-webapp-client .contain-appcli-tutorial .cont-steps-app{
@@ -117,7 +124,7 @@ section > .container-desc-txt-l > .content-text-desc-trk > a:hover{
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  align-items: baseline;
+  align-items: stretch;
   justify-content: center;
 }
 .content-tutorial-webapp-client .contain-webcli-tutorial .cont-steps-web ul li,
@@ -154,16 +161,12 @@ section > .container-desc-txt-l > .content-text-desc-trk > a:hover{
 .content-tutorial-webapp-client .contain-appcli-tutorial .cont-steps-app ul li .cont-step{
   padding: 1.2rem;
   font-size: 1.2rem;
-  height: 175px;
-  min-height: 175px;
-}
-.content-tutorial-webapp-client .contain-webcli-tutorial .cont-steps-web ul li .cont-step p,
-.content-tutorial-webapp-client .contain-appcli-tutorial .cont-steps-app ul li .cont-step p{
-  font-size: 1.25rem;
+  height: auto;
+  min-height: auto;
 }
 .content-tutorial-webapp-client .contain-webcli-tutorial .cont-steps-web ul li .cont-step p span,
 .content-tutorial-webapp-client .contain-appcli-tutorial .cont-steps-app ul li .cont-step p span{
-  color: red;
+  color: var(--secondary-clr);
   font-weight: bold;
 }
 .content-tutorial-webapp-client .contain-webcli-tutorial .cont-steps-web ul li .cont-step p a{
@@ -185,7 +188,8 @@ section > .container-desc-txt-l > .content-text-desc-trk > a:hover{
 .content-tutorial-webapp-seller .contain-appsell-tutorial h1{
   text-align: center;
   padding: .5rem 0 1.5rem 0;
-  color: red;
+  color: var(--secondary-clr);
+  font-weight: bold;
 }
 .content-tutorial-webapp-seller .contain-websell-tutorial .cont-steps-web,
 .content-tutorial-webapp-seller .contain-appsell-tutorial .cont-steps-app{
@@ -198,7 +202,7 @@ section > .container-desc-txt-l > .content-text-desc-trk > a:hover{
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  align-items: baseline;
+  align-items: stretch;
   justify-content: center;
 }
 .content-tutorial-webapp-seller .contain-websell-tutorial .cont-steps-web ul li,
@@ -231,16 +235,12 @@ section > .container-desc-txt-l > .content-text-desc-trk > a:hover{
 .content-tutorial-webapp-seller .contain-appsell-tutorial .cont-steps-app ul li .cont-step{
   padding: 1.2rem;
   font-size: 1.2rem;
-  height: 175px;
-  min-height: 175px;
-}
-.content-tutorial-webapp-seller .contain-websell-tutorial .cont-steps-web ul li .cont-step p,
-.content-tutorial-webapp-seller .contain-appsell-tutorial .cont-steps-app ul li .cont-step p{
-  font-size: 1.25rem;
+  height: auto;
+  min-height: auto;
 }
 .content-tutorial-webapp-seller .contain-websell-tutorial .cont-steps-web ul li .cont-step p span,
 .content-tutorial-webapp-seller .contain-appsell-tutorial .cont-steps-app ul li .cont-step p span{
-  color: red;
+  color: var(--secondary-clr);
   font-weight: bold;
 }
 .content-tutorial-webapp-seller .contain-websell-tutorial .cont-steps-web ul li .cont-step p strong,
@@ -277,16 +277,16 @@ section > .container-desc-txt-l > .content-text-desc-trk > a:hover{
 }
 .content-options-trk-tabs a:first-child{
   background: transparent;
-  border: 1px solid #fff;
-  color: #fff;
+  border: 1px solid var(--secondary-clr);
+  color: var(--tertiary-clr);
+  font-weight: bold;
 }
 .content-options-trk-tabs a:nth-child(2){
   background: #fff;
   color: #000;
 }
 .content-options-trk-tabs a:first-child:hover{
-  background: #fff;
-  color:#000;
+  background: var(--secondary-clr);
 }
 /* RETORNAR AL HOME */
 .content-options-trk-tabs a.ico-user-valid{
@@ -297,9 +297,9 @@ section > .container-desc-txt-l > .content-text-desc-trk > a:hover{
 }
 
 #cont-total-tabs{
-  background: var(--principal-color);
+  background: var(--primary-clr);
   color: #fff;
-  box-shadow: 0 0 36px 1px #000;
+  /*box-shadow: 0 0 36px 1px #000;*/
 }
 .cont-tabs-principal-home{
   width: 100%;
@@ -311,18 +311,24 @@ section > .container-desc-txt-l > .content-text-desc-trk > a:hover{
 .cont-tabs-principal-home a{
   flex: auto;
   text-align: center;
-  color: rgba(255,255,255,.5);
+  color: #fff;
   margin: .5rem 0rem .5rem 0rem;
   padding: .1rem 0 .1rem 0;
   transition: .2s ease;
-  border-right: 1px solid rgba(255,255,255,.4)
+  border-right: 1px solid #fff;
+  font-family: var(--fuente-categorias_1);
+  font-weight: bold;
 }
 .cont-tabs-principal-home a:last-child{
   box-shadow: unset; 
   border:none;
 }
 .cont-tabs-principal-home a:hover{
-  color: #fff;
+  color: rgba(255,255,255,.5);
+  border-right: 1px solid rgba(255,255,255,.4);
+}
+.cont-tabs-principal-home a:last-child:hover{
+  border:none;
 }
 .cont-tabs-principal-home a li{
   flex: auto;
@@ -383,6 +389,9 @@ section > .container-desc-txt-l > .content-text-desc-trk > a:hover{
     margin: 0;
     border-right: unset;
   }
+  .cont-tabs-principal-home a:hover{
+    border-right: none;
+  }
 } 
 
 @media (max-width: 900px){
@@ -390,9 +399,6 @@ section > .container-desc-txt-l > .content-text-desc-trk > a:hover{
 }
 @media (max-width: 850px){
   .mobileMenu.tabs-header.open {width: 40%;}
-  #cont-b-init-home-ttrq{
-    margin: 7.5rem 0 0 0 !important;
-  }
 }
 @media (max-width: 800px){
   .mobileMenu.tabs-header.open {width: 40%;}
@@ -422,16 +428,12 @@ section > .container-desc-txt-l > .content-text-desc-trk > a:hover{
   .mobileMenu.tabs-header.open {width: 80%;}
 }
 @media (max-width: 375px){
-  #cont-b-init-home-ttrq{margin: 3.5rem 0 0 0 !important;}
   .mobileMenu.tabs-header.open {width: 85%;}
   .cont-tabs-principal-home a{font-size: 0.8rem;}
   .cont-logo-ttrq-nav-tabs img{width: 100px !important;}
   .cont-logo-ttrq-nav-tabs{margin: 0 !important;}
   .content-options-trk-tabs a:first-child{font-size: 0.66rem;}
-  .container-texto > .content-options-sus-trk{display: block;}
-  .content-options-sus-trk > .content-right-o, .content-options-sus-trk > .content-left-o{width: 100%;margin: 0;padding: 0;display: flex;align-items: center;justify-content: center;text-align: center;margin-bottom: 2rem;}
 }
 @media (max-width: 320px){
   .mobileMenu.tabs-header.open {width: 85%;}
-  #cont-b-init-home-ttrq{margin: 5.1rem 0 0 0 !important;}
 }

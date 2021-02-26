@@ -56,6 +56,14 @@
   --color-letters-resalt: red;
   --color-tooltip-cart: #004dda;
   --color-tooltip-favorites: #df4251;
+
+  /* COLORES AGREGADOS*/
+  --primary-clr     : #071573;
+  --secondary-clr   : #B80F0F;
+  --tertiary-clr    : #FFFFFF;
+  --grey-line-clr   : #5C697A;
+  --hov-secondary-clr   : #FF5151;
+  --blue-price-clr      : #036AFE;
 }
 
 /**
