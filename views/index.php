@@ -44,10 +44,10 @@ if (!isset($_SESSION['user'])) {
                     <div class="owl-slide cover"
                         style="height: 338px;background-image: url(<?php echo $path . $banners[0]["link_banner"]; ?>);">
                         <div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.4)">
-                            <div class="container">
-                                <div class="row justify-content-center justify-content-md-end">
+                            <div class="container contain-total-slider-banners">
+                                <div class="row justify-content-center justify-content-md-start">
                                     <div class="col-lg-6 static">
-                                        <div class="slide-text text-right white">
+                                        <div class="slide-text white content-info-banner-top">
                                             <h2 class="owl-slide-animated owl-slide-title">
                                                 <?php echo $banners[0]["titulo_banner"]; ?></h2>
                                             <p class="owl-slide-animated owl-slide-subtitle">
@@ -66,10 +66,10 @@ if (!isset($_SESSION['user'])) {
                     <div class="owl-slide cover"
                         style="height: 338px;background-image: url(<?php echo $path . $banners[1]["link_banner"]; ?>);">
                         <div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.4)">
-                            <div class="container">
-                                <div class="row justify-content-center justify-content-md-start">
+                            <div class="container contain-total-slider-banners">
+                                <div class="row justify-content-center justify-content-md-end">
                                     <div class="col-lg-6 static">
-                                        <div class="slide-text white">
+                                        <div class="slide-text text-right white content-info-banner-top">
                                             <h2 class="owl-slide-animated owl-slide-title">
                                                 <?php echo $banners[1]["titulo_banner"]; ?></h2>
                                             <p class="owl-slide-animated owl-slide-subtitle">
@@ -88,10 +88,10 @@ if (!isset($_SESSION['user'])) {
                     <div class="owl-slide cover"
                         style="height: 338px;background-image: url(<?php echo $path . $banners[2]["link_banner"]; ?>);">
                         <div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.4)">
-                            <div class="container">
+                            <div class="container contain-total-slider-banners">
                                 <div class="row justify-content-center justify-content-md-start">
                                     <div class="col-lg-12 static">
-                                        <div class="slide-text text-center white">
+                                        <div class="slide-text text-center white content-info-banner-top">
                                             <h2 class="owl-slide-animated owl-slide-title">
                                                 <?php echo $banners[2]["titulo_banner"]; ?></h2>
                                             <p class="owl-slide-animated owl-slide-subtitle">
@@ -110,10 +110,10 @@ if (!isset($_SESSION['user'])) {
                     <div class="owl-slide cover"
                         style="height: 338px;background-image: url(<?php echo $path . $banners[3]["link_banner"]; ?>);">
                         <div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.4)">
-                            <div class="container">
+                            <div class="container contain-total-slider-banners">
                                 <div class="row justify-content-center justify-content-md-start">
                                     <div class="col-lg-12 static">
-                                        <div class="slide-text text-center white">
+                                        <div class="slide-text text-center white content-info-banner-top">
                                             <h2 class="owl-slide-animated owl-slide-title">
                                                 <?php echo $banners[3]["titulo_banner"]; ?></h2>
                                             <p class="owl-slide-animated owl-slide-subtitle">
@@ -132,10 +132,10 @@ if (!isset($_SESSION['user'])) {
                     <div class="owl-slide cover"
                         style="height: 338px;background-image: url(<?php echo $path . $banners[4]["link_banner"]; ?>);">
                         <div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.4)">
-                            <div class="container">
+                            <div class="container contain-total-slider-banners">
                                 <div class="row justify-content-center justify-content-md-start">
                                     <div class="col-lg-6 static">
-                                        <div class="slide-text white">
+                                        <div class="slide-text white content-info-banner-top">
                                             <h2 class="owl-slide-animated owl-slide-title">
                                                 <?php echo $banners[4]["titulo_banner"]; ?></h2>
                                             <p class="owl-slide-animated owl-slide-subtitle">
@@ -154,10 +154,10 @@ if (!isset($_SESSION['user'])) {
                     <div class="owl-slide cover"
                         style="height: 338px;background-image: url(<?php echo $path . $banners[5]["link_banner"]; ?>);">
                         <div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.4)">
-                            <div class="container">
+                            <div class="container contain-total-slider-banners">
                                 <div class="row justify-content-center justify-content-md-start">
                                     <div class="col-lg-12 static">
-                                        <div class="slide-text text-center white">
+                                        <div class="slide-text text-center white content-info-banner-top">
                                             <h2 class="owl-slide-animated owl-slide-title">
                                                 <?php echo $banners[5]["titulo_banner"]; ?></h2>
                                             <p class="owl-slide-animated owl-slide-subtitle">

@@ -1,8 +1,10 @@
-<div class="container-banner-pub_ttrq">
+<div class="container-banner-pub_ttrq margintb-2">
 	<div class="content-b-pub_ttrq">
 		<div class="content-left-info-banner-publicity_ttrq">
-			<h1><?php echo $banner_pub[0]['titulo_banner']; ?></h1>
-			<h4><?php echo $banner_pub[0]['descripcion_banner']; ?></h4>
+			<div class="content-description-banner-publicity">
+				<h1><?php echo $banner_pub[0]['titulo_banner']; ?></h1>
+				<h4><?php echo $banner_pub[0]['descripcion_banner']; ?></h4>
+			</div>
 			<!--<a href="#">
 				<span>CONOCER MÁS</span><i class="fas fa-arrow-right"></i>
 			</a>-->

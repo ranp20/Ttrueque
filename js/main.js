@@ -130,27 +130,27 @@
 				dots:true,
 				items: 2
 			},
-			320: {
+			244: {
 				nav: false,
 				dots:true,
 				items: 1
 			},
-			414: {
+			300: {
 				nav: false,
 				dots:true,
 				items: 1
 			},
-			478: {
+			360: {
+				nav: false,
+				dots:true,
+				items: 1
+			},
+			488: {
 				nav: false,
 				dots:true,
 				items: 2
 			},
-			560: {
-				nav: false,
-				dots:true,
-				items: 3
-			},
-			640: {
+			600: {
 				nav: false,
 				dots:true,
 				items: 3
@@ -160,22 +160,7 @@
 				dots:true,
 				items: 3
 			},
-			800: {
-				nav: false,
-				dots:true,
-				items: 4
-			},
 			850: {
-				nav: false,
-				dots:true,
-				items: 4
-			},
-			900: {
-				nav: false,
-				dots:true,
-				items: 4
-			},
-			960: {
 				nav: false,
 				dots:true,
 				items: 4
@@ -183,7 +168,13 @@
 			1024: {
 				items: 4
 			},
+			1025: {
+				items: 4
+			},
 			1200: {
+				items: 5
+			},
+			1400: {
 				items: 5
 			}
 		}

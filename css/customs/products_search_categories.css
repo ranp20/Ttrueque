@@ -10,7 +10,7 @@
 .list-all-products-search-categoria > .btn-r-search-all-categorias-products{    right: 0;}
 .list-all-products-search-categoria:hover > .btn-l-search-all-categorias-products,.list-all-products-search-categoria:hover > .btn-r-search-all-categorias-products{    display: flex;}
 /* RESULTADOS DE PRODUCTOS POR CATEGORIÍA -> TIENDA*/
-.item-product-search_categ{  width: 222px;  border: 1px solid #dddd;  border-radius: 12px;  background: #fff;  position: relative;  overflow: hidden;  margin: 1rem 0.4rem;  text-decoration: none;  transition: all ease .4s;}
+.item-product-search_categ{  width: 222px;  border: 1px solid #dddd;  border-radius: 12px;  background: #fff;  position: relative;  overflow: hidden;  margin: 1rem 0.625rem 1rem 0;  text-decoration: none;  transition: all ease .4s;min-height: 360px;max-height: 360px;height: 100%;}
 .item-product-search_categ:hover{	transform: translateY(-10px);  background: #fff;  box-shadow: 0 10px 16px 0 rgba(0,0,0,.2);  border-radius: 12px;}
 .item-cont-products-search-categ{	display: block;	position: relative;	text-decoration: none;}
 .item-cont-products-search-categ{	display: flex;  align-items: center;  justify-content: space-between;  flex-direction: column;  border-radius: 15px;}
@@ -24,8 +24,8 @@
 .item-cont-products-search-categ > div > .sms-currstore-prod > h1{  font-size: 1.5rem;  color: rgba(0,0,0,0.3);  transform: rotate(-45deg);}
 .cont-info-product-search-categ{  display: flex;  flex-direction: column;  align-items: flex-start;  justify-content: flex-start;  box-sizing: border-box;  width: 100%;  padding: .5rem 1rem .5rem 1rem;  height: 115px;  min-height: 115px;  max-height: 115px;}
 .cont-info-product-search-categ p{	margin: 0 !important;	color: #444;}
-.cont-info-product-search-categ p:first-child{	font-size: .92rem;  height: 100%;}
-.cont-info-product-search-categ p:nth-child(2){	font-size: 1.25rem;  align-self: flex-end;  justify-self: flex-end;text-align: left;width: inherit;color: var(--color-letters-price);}
+.cont-info-product-search-categ p:first-child{font-size: .91rem;min-height: 50px;max-height: 50px;height: 100%;overflow: hidden;color: var(--name-product-clr);font-weight: 800;font-family: var(--fuente-subtitles);line-height: 1.2;margin-bottom: 0.5rem !important;}
+.cont-info-product-search-categ p:nth-child(2){	font-size: 1.42rem;align-self: flex-end;justify-self: flex-end;text-align: left;width: inherit;color: var(--blue-price-clr);margin-bottom: 5px !important;font-weight: bold;font-family: var(--fuente-categorias_2);}
 .cont-info-product-search-categ ul{  list-style: none;  padding: 0 !important;  margin: 0 !important;}
 .cont-info-product-search-categ ul li:nth-child(2) .heart-icon-p-by-str{	position: absolute;  top: 3.2rem;  right: .5rem;}
 .cont-info-product-search-categ ul li:nth-child(2) .heart-icon-p-by-str svg{	font-size: 1.3rem;  color: #000;}
@@ -51,4 +51,42 @@
 }
 @media (max-width: 320px){
   .list-all-products-search-categoria > .btn-l-search-all-categorias-products, .list-all-products-search-categoria > .btn-r-search-all-categorias-products{display: block;border: 1px solid #ccc;}
+}
+
+/* REPARACIÓN DE MEDIA QUERIES */
+/* TAMAÑO - PREDETERMINADO(244px) */
+@media (min-width: 244px){
+	.item-product-search_categ{width: 219.667px;}
+}
+/* TAMAÑO - PREDETERMINADO(300px) */
+@media (min-width: 300px){
+		
+}
+/* TAMAÑO - MÓVIL PEQUEÑO(360px) */
+@media (min-width: 360px){
+	
+}
+/* TAMAÑO - MÓVIL(480px) */
+@media (min-width: 480px){
+}
+/* TAMAÑO - CUSTOM MEDIA QUERIE */
+@media (min-width: 244px) and (max-width: 768px){
+	.list-all-products-search-categoria > .btn-l-search-all-categorias-products, .list-all-products-search-categoria > .btn-r-search-all-categorias-products{width: 38px;height: 38px;padding: 1.5rem 1.5rem;display: flex;align-items: center;justify-content: center;border-radius: 50%;top: 50%;transform: translateY(-50%);}
+	.list-all-products-search-categoria > .btn-l-search-all-categorias-products{left: -8px;}
+	.list-all-products-search-categoria > .btn-r-search-all-categorias-products{right: -8px;}
+	.list-all-products-search-categoria .items-products-search-categorias .cont-info-product-search-categ ul{width: 100%;height: auto;}
+	.list-all-products-search-categoria .items-products-search-categorias .cont-info-product-search-categ ul li{width: 100%;height: auto;}
+	.list-all-products-search-categoria .items-products-search-categorias .cont-info-product-search-categ ul li a{display: flex;position: relative;padding: 1.2rem;text-align: center;margin: 0.2rem auto .625rem auto;top: 0 !important;right: 0 !important;left: 0 !important;bottom: 0 !important;align-items: center;justify-content: center;}
+}
+/* TAMAÑO - TABLET(768px) */
+@media (min-width: 768px){
+	
+}
+/* TAMAÑO - DESKTOP(1024x) */
+@media (min-width: 1024px){
+
+}
+/* TAMAÑO - DESKTOP HD(1400px) */
+@media (min-width: 1400px){
+
 }

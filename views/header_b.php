@@ -6,12 +6,12 @@
 }*/
 
 ?>
-  <nav class="navbar navbar-expand-lg navbar-dark justify-content-sm-start fixed-top nav-index-ttrq">
+  <nav class="navbar navbar-expand-lg navbar-dark justify-content-sm-start fixed-top nav-index-ttrq" id="contain-index-nav-ttrk">
       <div class="container">
           <a class="navbar-brand order-1 order-lg-0 ml-lg-0 ml-2 mr-auto cont-logo-ttrq-nav" href="./">
               <img src="././img/logo/Logo_TTRQ_dark.png" alt="Logo_Ttrueque" class="img-fluid">
           </a>
-          <button class="navbar-toggler align-self-start" type="button">
+          <button class="navbar-toggler align-self-start menu-nav-burger-index" type="button">
               <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse p-3 p-lg-0 mt-5 mt-lg-0 d-flex flex-column flex-lg-row flex-xl-row justify-content-lg-between mobileMenu nav-index-ttrq-collapse"

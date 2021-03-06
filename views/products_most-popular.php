@@ -1,4 +1,4 @@
-<div class="content-ttrk-official-markets-c">
+<div class="content-ttrk-official-markets-c" id="cont-all-products_in_stores-categories">
 	<div class="contenido-categorias_ttrk-off-header">
 		<div class="content-title-categorias_ttrk">
 			<h3 class="lang_ttrq" key="title-prods-list-cat_ttrq">Productos</h3>

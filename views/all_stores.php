@@ -20,7 +20,7 @@ $dat = $c->select_tienda();
 		require_once 'header_b.php';
 		?>
         <!-- /header -->
-        <div class="content-ttrk-official-markets-c">
+        <div class="content-ttrk-official-markets-c" id="cont-all-stores_in_ttrk">
             <div class="contenido-tiendas-off-header">
                 <div class="content-title-tiendas">
                     <h3 class="lang_ttrq" key="title_all_official_markets">Todas las tiendas</h3>

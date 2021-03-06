@@ -1,5 +1,5 @@
-<footer class="footer_primary_page-ttrk">
-  <div class="container max-footer-w_ttrq">
+<footer class="footer_primary_page-ttrk" id="contain-foot-index">
+  <div class="max-footer-w_ttrq">
     <div class="row container-list-opts-footer_ttrq">
       <!--------//ENLACES RÁPIDOS--------->
       <div class="col-lg-3 col-md-6">
@@ -102,7 +102,7 @@
     </div>
   </div>
   <div class="cont-foot-two-p-ttrq footer-pg-index">
-    <div class="container margin_60_35 content-footer-policy-ttrk">
+    <div class="content-footer-policy-ttrk">
       <div class="content-footer-bottom">
         <div class="content-left-footer">
           <div class="content-top-footer-left">
@@ -112,11 +112,14 @@
             <a href="home" class="lang_ttrq" key="opt_f-policy-4">Ayuda</a>
           </div>
           <div class="content-bottom-footer-right">
-            <p>Copyright &copy; 2020 Trueque Perú S.R.L.</p>
+            <p>Copyright &copy; 2020 Ttrueque Perú S.R.L.</p>
           </div>
         </div>
         <div class="content-right-footer">
-          <i class="fal fa-mobile-android"></i><a href="https://play.google.com/store/apps/details?id=ttrueque.css.com" class="lang_ttrq" key="btn-app_f-policy-1">¡Descarga Gratis la App de Trueque!</a>
+          <a href="https://play.google.com/store/apps/details?id=ttrueque.css.com" class="lang_ttrq" key="btn-app_f-policy-1">
+            <i class="fal fa-mobile-android"></i>
+            <span>¡Descarga Gratis la App de Trueque!</span>
+          </a>
         </div>
       </div>
     </div>

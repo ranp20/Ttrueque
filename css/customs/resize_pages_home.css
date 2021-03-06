@@ -27,12 +27,10 @@
   section > .container-desc-txt-r > .content-text-desc-trk > h2, section > .container-desc-txt-l > .content-text-desc-trk > h2{font-size: 1.8rem;}
   section > .container-desc-txt-r > .content-text-desc-trk > p, section > .container-desc-txt-l > .content-text-desc-trk > p{font-size: 1rem;}
   section > .container-desc-txt-r > .content-text-desc-trk > a, section > .container-desc-txt-l > .content-text-desc-trk > a{font-size: 0.9rem;}
-  .content-footer-policy-ttrk > .content-footer-bottom > .content-right-footer{font-size: 0.9rem;}
   section > .container-desc-txt-r > .content-img-desc-trk, section > .container-desc-txt-l > .content-img-desc-trk{width: 40%;}
 }
 @media (max-width: 960px){
 	.content-b-bar-options-h .cont-opts-h{max-width: 850px;}
-  .content-footer-policy-ttrk > .content-footer-bottom > .content-right-footer{font-size: 0.8rem;padding: 0.8rem 2rem;}
   .content-options-sus-trk > .content-right-o, .content-options-sus-trk > .content-left-o{width: 40%;}
   .content-options-sus-trk > .content-left-o > p, .content-options-sus-trk > .content-right-o > p{font-weight: 400;}
 }
@@ -202,7 +200,6 @@
   .content-b-bar-options-h .cont-opts-h{max-width: 768px;height: auto;}
   .content-b-bar-options-h .cont-opts-h ul{flex-wrap: wrap;}
   .content-b-bar-options-h .cont-opts-h ul a{width: calc(100% * 1/2);}
-  .container-texto{margin: 2px 0 0 0 !important;}
   .content-header-trk{box-shadow: unset;}
   .header-trk > section{width: 100% !important;}
   .content-options-trk{width: 239px;}
@@ -217,8 +214,6 @@
   .content-options-sus-trk > .content-right-o, .content-options-sus-trk > .content-left-o{width: 100%;}
   section > .container-desc-txt-r > .content-text-desc-trk > h2, section > .container-desc-txt-l > .content-text-desc-trk > h2{font-size: 1.6rem;}
   section > .container-desc-txt-r > .content-text-desc-trk > p, section > .container-desc-txt-l > .content-text-desc-trk > p{font-size: 0.9rem;}
-  .content-footer-policy-ttrk > .content-footer-bottom > .content-left-footer > .content-top-footer-left > a{font-size: 0.9rem;}
-
 }
 @media (max-width: 280px){
   #contenedor-principal-home{height: 1000px !important;}
@@ -254,12 +249,32 @@
 
 
 /* TAMAÑOS ARREGLADOS Y REALES */
-/* TAMAÑO - PREDETERMINADO */
+/* TAMAÑO - PREDETERMINADO (244)*/
 @media (min-width: 244px){
   .contn-info-que-es h1, .contn-info-como-se-usa h1, .contn-info-tramites-que-hacer h1, .contn-info-preguntas-frecuentes h1{font-size: 1.35rem;}
   .contn-info-que-es p, .contn-info-como-se-usa p, .contn-info-tramites-que-hacer p, .contn-info-preguntas-frecuentes p{font-size: 0.95rem;text-align: justify;}
 	.cont-preg-frecuentes ul li h1{font-size: 1.35rem;}
 	.content-que-es-ttrq section, .content-como-se-usa-ttrq section, .content-tramites-que-hacer-ttrq section, .content-preguntas-frecuentes-ttrq section{width: 85%;}
+  #cont-b-init-home-ttrq #cont-total-tabs{padding: .67rem .3rem;}
+  #cont-b-init-home-ttrq #cont-total-tabs .container .cont-logo-ttrq-nav-tabs{margin: 0 !important;}
+  #cont-b-init-home-ttrq #cont-total-tabs .container .cont-logo-ttrq-nav-tabs img{width: 85px !important;}
+  #cont-b-init-home-ttrq #cont-total-tabs .container .content-options-trk-tabs a{font-size: 0.65rem;padding: 0.7rem 1rem;}
+  #cont-total-tabs .container .mobileMenu.open{top: 10px !important;width: 100% !important;}
+}
+/* MEDIA QUERIE INTERMEDIA */
+@media (min-width: 244px) and (max-width: 300px){
+  #cont-b-init-home-ttrq{margin: 4.5rem 0 0 0 !important;}
+  .container-texto > .content-slogan-trk > h2{font-size: 1.4rem !important;margin-bottom: 2rem;}
+  .content-options-sus-trk > .content-left-o > h2, .content-options-sus-trk > .content-right-o > h2{font-size: 0.95rem !important;line-height: 1;}
+  .content-options-sus-trk > .content-left-o > p, .content-options-sus-trk > .content-right-o > p{font-size: 0.85rem !important;line-height: 1.4;}
+  #cont-b-init-home-ttrq #cont-total-tabs .container .content-options-trk-tabs a.ico-user-valid{padding: 0.7rem 0.65rem;}
+  #cont-b-init-home-ttrq #cont-total-tabs .container .content-options-trk-tabs a.ico-user-valid svg{width: 0.7rem;}
+}
+/* TAMAÑO - PREDETERMINADO (300) */
+@media (min-width: 300px){
+  #cont-total-tabs .container .mobileMenu.open{width: 80% !important;}
+  #cont-b-init-home-ttrq #cont-total-tabs{padding: .5rem 1rem;}
+  #cont-b-init-home-ttrq #cont-total-tabs .container .cont-logo-ttrq-nav-tabs img{width: 100px !important;}
 }
 /* TAMAÑO - MÓVIL */
 @media (min-width: 480px){
@@ -270,6 +285,7 @@
 @media (min-width: 768px){
   .contn-info-que-es h1, .contn-info-como-se-usa h1, .contn-info-tramites-que-hacer h1, .contn-info-preguntas-frecuentes h1{font-size: 1.85rem;}
   .contn-info-que-es p, .contn-info-como-se-usa p, .contn-info-tramites-que-hacer p, .contn-info-preguntas-frecuentes p{font-size: 1.05rem;}
+  #cont-b-init-home-ttrq #cont-total-tabs .container .content-options-trk-tabs a{font-size: 0.7rem;}
 }
 /* TAMAÑO - DESKTOP */
 @media (min-width: 1025px){
@@ -277,6 +293,7 @@
   .contn-info-que-es p, .contn-info-como-se-usa p, .contn-info-tramites-que-hacer p, .contn-info-preguntas-frecuentes p{font-size: 1.2rem;}
   .content-que-es-ttrq section, .content-como-se-usa-ttrq section, .content-tramites-que-hacer-ttrq section, .content-preguntas-frecuentes-ttrq section{width: 90%;}
   .cont-preg-frecuentes ul li h1{font-size: 1.65rem;}
+  #cont-b-init-home-ttrq #cont-total-tabs .container .content-options-trk-tabs a{padding: 0.8rem 1.2rem;}
 }
 /* TAMAÑO - DESKTOP HD */
 @media (min-width: 1400px){

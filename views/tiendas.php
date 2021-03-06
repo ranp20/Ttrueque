@@ -28,7 +28,7 @@ if(!isset($_GET['tipos']) || $_GET['tipos'] == ""){
     }
     ?>
         <input type="hidden" readonly name="tipo" id="tipo" value="<?php echo  empty($var) ? "" : $var;  ?>" />
-        <div class="content-ttrk-official-markets-c">
+        <div class="content-ttrk-official-markets-c"  id="cont-all-products_namecategories-in-ttrk">
             <div class="contenido-tiendas-off-header">
                 <div class="content-title-tiendas">
                     <h3 id="lista_stores">Categorías <?php echo  empty($var) ? "" : $var;  ?></h3>

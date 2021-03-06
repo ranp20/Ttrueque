@@ -1,4 +1,4 @@
-<div class="container margin_60_35 content-more-sells" id="content-index-ttrq">
+<div class="content-more-sells margintb-3" id="content-index-ttrq">
 	<div class="main_title" id="title-content-more-sells">
 		<div id="content-text-more-sells">
 			<h3 class="lang_ttrq" key="title_best-seller">Lo más Vendido</h3>
@@ -63,7 +63,7 @@
 			$idcliente = $_SESSION['user'];
 
 
-			$name_products = substr($key["nombre_producto"], 0, 55);
+			$name_products = substr($key["nombre_producto"], 0, 60);
 			$idtienda_productos = $key["id_tienda"];
 			$idtienda_current = $d[0]['tienda'];
 

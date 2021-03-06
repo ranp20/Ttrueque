@@ -394,7 +394,7 @@ section > .container-desc-txt-l > .content-text-desc-trk > a:hover{
   }
 } 
 
-@media (max-width: 900px){
+/*@media (max-width: 900px){
   .mobileMenu.tabs-header.open {width: 40%;}
 }
 @media (max-width: 850px){
@@ -430,10 +430,8 @@ section > .container-desc-txt-l > .content-text-desc-trk > a:hover{
 @media (max-width: 375px){
   .mobileMenu.tabs-header.open {width: 85%;}
   .cont-tabs-principal-home a{font-size: 0.8rem;}
-  .cont-logo-ttrq-nav-tabs img{width: 100px !important;}
   .cont-logo-ttrq-nav-tabs{margin: 0 !important;}
-  .content-options-trk-tabs a:first-child{font-size: 0.66rem;}
 }
 @media (max-width: 320px){
   .mobileMenu.tabs-header.open {width: 85%;}
-}
+}*/

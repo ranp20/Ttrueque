@@ -64,7 +64,7 @@ $all_stores = $stores->select_tienda();
   <script src="<?php echo $url ?>js/actions_pages/search_products.js"></script>
   <script src="<?php echo $url ?>js/actions_pages/language_currency.js"></script>
   <script src="<?php echo $url ?>js/actions_pages/listCategories_ByStore.js"></script>
-  <script src="<?php echo $url ?>js/actions_pages/listProds_Store_Category.js"></script>-->
+  <script src="<?php echo $url ?>js/actions_pages/listProds_Store_Category.js"></script>
   <script src="<?php echo $url ?>js/customs/custom.js"></script>
   <script src="<?php echo $url ?>js/actions_pages/track-order.js"></script>
   
@@ -124,7 +124,7 @@ $all_stores = $stores->select_tienda();
 
         if(isset($_GET['store'])){
         echo '
-            <div class="content-ttrk-official-markets-c">
+            <div class="content-ttrk-official-markets-c" id="container_all_categories_in_store">
                 <div class="contenido-categorias_ttrk-off-header">
                     <div class="content-title-categorias_ttrk">
                         <h3>Categorías en '.$_GET['store'].'</h3>

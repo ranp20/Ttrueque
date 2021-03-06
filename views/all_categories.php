@@ -66,7 +66,7 @@ $all_stores = $stores->select_tienda();
   <script src="<?php echo $url ?>js/actions_pages/search_products.js"></script>
   <script src="<?php echo $url ?>js/actions_pages/language_currency.js"></script>
   <script src="<?php echo $url ?>js/actions_pages/listCategories_ByStore.js"></script>
-  <script src="<?php echo $url ?>js/actions_pages/listProds_Store_Category.js"></script>-->
+  <script src="<?php echo $url ?>js/actions_pages/listProds_Store_Category.js"></script>
   <script src="<?php echo $url ?>js/customs/custom.js"></script>
   <script src="<?php echo $url ?>js/actions_pages/track-order.js"></script>
   
@@ -118,7 +118,7 @@ $all_stores = $stores->select_tienda();
         require_once './header_b.php';
         ?>
         
-        <div class="content-ttrk-official-markets-c">
+        <div class="content-ttrk-official-markets-c" id="cont-all-categories_in_ttrk">
             <div class="contenido-categorias_ttrk-off-header">
                 <div class="content-title-categorias_ttrk">
                     <h3 class="lang_ttrq" key="title-cat-list-s_ttrq">Categorías</h3>

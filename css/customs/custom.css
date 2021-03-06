@@ -58,12 +58,17 @@
   --color-tooltip-favorites: #df4251;
 
   /* COLORES AGREGADOS*/
-  --primary-clr     : #071573;
-  --secondary-clr   : #B80F0F;
-  --tertiary-clr    : #FFFFFF;
-  --grey-line-clr   : #5C697A;
+  --primary-clr         : #071573;
+  --primary-clr-light   : #162EBD;
+  --secondary-clr       : #B80F0F;
+  --tertiary-clr        : #FFFFFF;
+  --grey-line-clr       : #6D7CB1;
   --hov-secondary-clr   : #FF5151;
   --blue-price-clr      : #036AFE;
+  --name-product-clr    : #000000;
+
+  /* PANTALLA TOTAL DEL SITIO */
+  --max-width           : 1220px;    
 }
 
 /**
@@ -128,6 +133,16 @@ body::-webkit-scrollbar-track:active,
 body::-webkit-scrollbar-track:hover {
   background: #d4d4d4;
 }
+/* RESETS BÁSICOS */
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+/* UTILITIES CLASS */
+.margintb-2{margin-top: 2rem;margin-bottom: 2rem;}
+.margintb-3{margin-top: 3rem;margin-bottom: 3rem;}
+
 /* COLOR BODY ALL PAGES */
 .body-log-in-ttrueque,
 .body-p-txt-oneb-ttrueque,
@@ -240,22 +255,31 @@ body::-webkit-scrollbar-track:hover {
   display: block !important;
 }
 .container_cart_lis-ttrq {
-  /*display: none !important;*/
-  width: 500px;
+  width: 75%;
   min-height: 100vh;
   background: #f9f9f8;
   position: fixed;
   z-index: 99999999999;
-  right: 0;
+  right: -90%;
   box-shadow: 0px 10px 30px 2px rgba(0, 0, 0, 0.4);
-  /* top: 65px; */
-  transform: translateX(100%);
-  transition: all ease 0.3s !important;
+  transition: ease 0.3s !important;
+  animation-name: deslizar;
+  animation-duration: .4s;
 }
 .containt_total_ttrq-cart.active .container_cart_lis-ttrq {
-  /*display: block !important;*/
-  transform: translateX(0);
+  right: 0;
 }
+
+/* ANIMACIÓN DEL SIDEBARLEFT PARA EL LISTADO EN EL CARRITO DE COMPRAS */
+@keyframes deslizar{
+  0%{
+    right: -90%;
+  }
+  100%{
+    right: 0;
+  }
+}
+
 .container_cart_lis-ttrq > .content-list_cart_hb_ttrq {
   border: none;
   padding: 0 0 0 0 !important;
@@ -547,7 +571,7 @@ body::-webkit-scrollbar-track:hover {
 }
 .contain-btn-go-to-cart_ttrq > a{
   border: none;
-  background: var(--principal-color);
+  background-color: var(--secondary-clr);
   padding: 0.4rem 0;
   color: #fff;
   font-size: 1.4rem;
@@ -561,9 +585,7 @@ body::-webkit-scrollbar-track:hover {
   transition: ease 0.3s !important;
 }
 .contain-btn-go-to-cart_ttrq > a:hover{
-  background: var(--principal-color-h);
-  color: var(--color-black-h);
-  box-shadow: 0 0 16px 4px rgba(0,0,0,.2);
+  background-color: var(--hov-secondary-clr);
 }
 .contain-btn-go-to-cart_ttrq > a:active{
   transform: scale(.95);
