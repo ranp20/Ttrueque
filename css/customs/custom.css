@@ -730,10 +730,9 @@ img{
   align-items: center;
   justify-content: center;
   background: #ddd;
-  min-height: 100vh;
+  height: 450px;
 }
 .content-msg-any-prods_by_store div{
-  margin: 0 0 150px 0;
   color: rgba(0,0,0,.4) !important;
   line-height: 4.5rem;
 }
@@ -744,22 +743,21 @@ img{
 .content-msg-any-prods_by_store div a{
   font-size: 20px;
   border: none;
-  background: var(--principal-color);
+  background: var(--secondary-clr);
   color: #fff;
-  border-radius: 4px;
+  border-radius: 20px;
   line-height: 1;
-  padding: 14px 32px;
+  padding: .8rem 1rem;
   text-align: center;
   transition: 0 !important;
   text-decoration: none;    
 }
 .content-msg-any-prods_by_store div a:hover{
-    background: var(--principal-color-h);
-    color: var(--color-black-h);
+  background: var(--hov-secondary-clr);
 }
 /* CATEGORÍAS VACÍAS EN TIENDA*/
 .content-msg-any-categs-into-store{
- position: absolute;
+  position: absolute;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -767,10 +765,9 @@ img{
   align-items: center;
   justify-content: center;
   background: #ddd;
-  min-height: 100vh; 
+  height: 450px; 
 }
 .content-msg-any-categs-into-store div{
-  margin: 0 0 150px 0;
   color: rgba(0,0,0,.4) !important;
   line-height: 5rem;
 }
@@ -781,18 +778,17 @@ img{
 .content-msg-any-categs-into-store div a{
   font-size: 20px;
   border: none;
-  background: var(--principal-color);
+  background: var(--secondary-clr);
   color: #fff;
-  border-radius: 4px;
+  border-radius: 20px;
   line-height: 1;
-  padding: 14px 32px;
+  padding: .8rem 1rem;
   text-align: center;
   transition: 0 !important;
   text-decoration: none;    
 }
 .content-msg-any-categs-into-store div a:hover{
-    background: var(--principal-color-h);
-    color: var(--color-black-h);
+  background: var(--hov-secondary-clr);
 }
 
 /* ESTILOS DE LA PÁGINA DE CONFIRMACIÓN */
