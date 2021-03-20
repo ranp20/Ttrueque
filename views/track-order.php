@@ -9,8 +9,8 @@ if (!isset($_SESSION['user'])) {
 <?php require_once 'header_index.php'; ?>
 
 <body>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+	<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>-->
 	<div id="page" class="content-total-page-ttrk">
 		<?php
 		require_once '../php/process_header.php';
@@ -29,11 +29,13 @@ if (!isset($_SESSION['user'])) {
 							<div id="alert-feed"></div>
 							<div class="cont-products-order-info-cli_ttrq">
 								<div class="cont-wrap-radio-stores">
-									<!--<button type="button" class="btntrackord btn-sideleft" id="btn-sideleft">&#9668;</button>
-									<button type="button" class="btntrackord btn-sideright" id="btn-sideright">&#9658;</button>-->
+									<div class="cont-btns-carousel-ttrk-checkstores">
+										<button type="button" class="btntrackord btn-sideleft" id="btn-sideleft">&#8249;</button>
+										<button type="button" class="btntrackord btn-sideright" id="btn-sideright">&#8250;</button>
+									</div>
 									<div class="cont-radio-stores" id="cont-radio-stores">
 										<!---------NUEVO LISTADO DE PRODUCTOS DENTRO DE LAS TIENDAS ------->
-								
+									
 									</div>
 								</div>
 								<div class="cont-inf-prod-by-str-trackord"></div>

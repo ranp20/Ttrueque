@@ -272,7 +272,7 @@
 }
 /* TAMAÑO - PREDETERMINADO (300) */
 @media (min-width: 300px){
-  #cont-total-tabs .container .mobileMenu.open{width: 80% !important;}
+  #cont-total-tabs .container .mobileMenu.open{width: 80% !important;top: 8px !important;}
   #cont-b-init-home-ttrq #cont-total-tabs{padding: .5rem 1rem;}
   #cont-b-init-home-ttrq #cont-total-tabs .container .cont-logo-ttrq-nav-tabs img{width: 100px !important;}
 }
@@ -280,12 +280,16 @@
 @media (min-width: 480px){
   .contn-info-que-es h1, .contn-info-como-se-usa h1, .contn-info-tramites-que-hacer h1, .contn-info-preguntas-frecuentes h1{font-size: 1.6rem;}
   .contn-info-que-es p, .contn-info-como-se-usa p, .contn-info-tramites-que-hacer p, .contn-info-preguntas-frecuentes p{font-size: 1rem;}
+  #cont-total-tabs .container .mobileMenu.open{top: 18px !important;}
+  #cont-b-init-home-ttrq #cont-total-tabs{padding: .8rem 1rem;}
+  #cont-b-init-home-ttrq #cont-total-tabs .container .cont-logo-ttrq-nav-tabs img{width: 145px !important;}
 }
 /* TAMAÑO - TABLET */
 @media (min-width: 768px){
   .contn-info-que-es h1, .contn-info-como-se-usa h1, .contn-info-tramites-que-hacer h1, .contn-info-preguntas-frecuentes h1{font-size: 1.85rem;}
   .contn-info-que-es p, .contn-info-como-se-usa p, .contn-info-tramites-que-hacer p, .contn-info-preguntas-frecuentes p{font-size: 1.05rem;}
   #cont-b-init-home-ttrq #cont-total-tabs .container .content-options-trk-tabs a{font-size: 0.7rem;}
+  #cont-total-tabs .container .mobileMenu.open{width: 50% !important;}
 }
 /* TAMAÑO - DESKTOP */
 @media (min-width: 1025px){

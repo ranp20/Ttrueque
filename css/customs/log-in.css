@@ -38,7 +38,6 @@
   .cont-headertop-login > div{width: 90%;margin: auto;}
 }
 @media (max-width: 768px) {
-	.content-h-txt-b > section > .content-h-logo-txt-b{width: 115px !important;height: 50px !important;}
   .content-log-in-u > section > .head-log-in-u > .logo-head-log-in-u{    height: 65px;    width: 175px;  }
   .content-log-in-u > .sec-log-in-u{    width: 390px;  }
   .content-log-in-u > section > form > input{    line-height: 2.5rem;}   
@@ -58,7 +57,6 @@
 @media (max-width: 425px) {
 	.cont-headertop-login > div{padding: 0.7rem 0 0 0;}
 	.cont-headertop-login > div > header > div > section{padding: 0;}
-	.content-h-txt-b > section > .content-h-logo-txt-b{width: 89px !important;height: 40px !important;}
 }
 @media (max-width: 375px){
 	.cont-headertop-login > div{padding: 0;height: 60px;}

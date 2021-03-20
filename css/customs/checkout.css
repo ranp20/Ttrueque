@@ -1,5 +1,5 @@
-.main_checkout-container{  min-height: 100vh;  padding: 20px 0 30px 0;  display: flex;  max-width: 1050px;  margin: auto;  background: transparent;  flex-direction: column;}
-.main_checkout-container > h1{  font-weight: 700;  font-size: 26px;  letter-spacing: .6rem;}
+.main_checkout-container{  min-height: 100vh;  padding: 20px 0 30px 0;  display: flex;  max-width: var(--max-width);  margin: auto;  background: transparent;  flex-direction: column;width: 90%;}
+.main_checkout-container > h1{  font-weight: 700;  font-size: 1.2rem;  letter-spacing: .6rem;color: #444444;}
 .main_checkout-container > .content-total_checkout_ttrk> .row:first-child{  display: flex;  align-items: baseline;  justify-content: center;  text-align: center;}
 .box_general.summary ul li {  padding: 0;  margin: 0 0 15px 0;  font-weight: 500;  display: block;  line-height: 1.3;}
 #list_checkout > .list_checkout_products .clearfixem{  text-align: left;}
@@ -23,87 +23,107 @@
 #successpayment .content-msg-success-pay .cont-confirm-img-check .cont-img-msg-success-p img{min-width: 32%;}
 /* NUEVOS ESTILOS - CHECKOUT */
 .main_checkout-container .content-total_checkout_ttrk{  padding-top: 0 !important;  width: 100% !important;  display: flex;  justify-content: space-between;  flex-wrap: wrap;}
+.content-total_checkout_ttrk .content-right-check-page .content-detail-payment > h1{font-size: 1.3rem !important;color: #444;}
 /* LADO IZQUIERDO */
-.content-total_checkout_ttrk .content-left-check-page{  width: 50%;  height: 100%;}
+.content-total_checkout_ttrk .content-left-check-page{  width: 100%;  height: 100%;}
 .content-total_checkout_ttrk .content-left-check-page .content-info-client{  height: 100%;  display: flex;  flex-direction: column;  align-items: flex-start;}
 .content-total_checkout_ttrk .content-left-check-page .content-info-client .content-form-info-client{  height: 100%;  display: flex;  flex-direction: column;  width: 100%;}
 .content-total_checkout_ttrk .content-left-check-page .content-info-client .content-form-info-client form{  display: flex;  flex-direction: column;  align-items: flex-start;  width: 100%;}
-.content-total_checkout_ttrk .content-left-check-page .content-info-client .content-form-info-client form .cont-info-form-controls{  background: #fff;  border-radius: 1.3rem;  box-shadow: 0 9px 8px 1px rgba(0,0,0,.1);  display: flex;  flex-direction: column;  padding: 1.1rem 2.1rem 1.5rem 2.1rem;  width: 100%;  margin-bottom: 1rem;  border: 1px solid rgba(0,0,0,0.09);}
-.content-total_checkout_ttrk .content-left-check-page .content-info-client .content-form-info-client form .cont-info-form-controls h3{  color: #444;  font-size: 1.125rem;  font-weight: 600;}
+.content-total_checkout_ttrk .content-left-check-page .content-info-client .content-form-info-client form .cont-info-form-controls{  background: #fff;  border-radius: 1.3rem;  box-shadow: 0 9px 8px 1px rgba(0,0,0,.1);  display: flex;  flex-direction: column;  padding: 1rem .7rem;  width: 100%;  margin-bottom: 1rem;  border: 1px solid rgba(0,0,0,0.09);}
+.content-total_checkout_ttrk .content-left-check-page .content-info-client .content-form-info-client form .cont-info-form-controls h3{  color: #444;  font-size: 0.9rem;  font-weight: 600;text-align: center;}
 .content-total_checkout_ttrk .content-left-check-page .content-info-client .content-form-info-client form .cont-info-form-controls label{  font-size: 18px;  margin-left: 0.3rem;  font-weight: bold;  color: rgba(0,0,0,.3);}
-.content-total_checkout_ttrk .content-left-check-page .content-info-client .content-form-info-client form .cont-info-form-controls input{  border: 2px solid rgba(0,0,0,.06);  border-radius: 1.5rem;  line-height: 2rem;  padding: 0 1.2rem;  outline: none;  font-weight: bold;  font-size: 1rem;  margin-bottom: 1rem;}
-.content-total_checkout_ttrk .content-left-check-page .content-info-client .content-form-info-client form .cont-info-form-controls select{  border: 2px solid rgba(0,0,0,.06);  line-height: 2rem;  font-size: 1rem;  border-radius: 1.5rem;  padding: 0.4rem 1.2rem 0.4rem 1.2rem;  outline: none;  margin-bottom: 1rem;}
+.content-total_checkout_ttrk .content-left-check-page .content-info-client .content-form-info-client form .cont-info-form-controls input{  border: 2px solid rgba(0,0,0,.06);  border-radius: 1.5rem;  line-height: 2rem;  padding: 0 .5rem;  outline: none;  font-weight: bold;  font-size: 1rem;  margin-bottom: 1rem;}
+.content-total_checkout_ttrk .content-left-check-page .content-info-client .content-form-info-client form .cont-info-form-controls textarea{border: 2px solid rgba(0,0,0,.06);  border-radius: 1rem;  line-height: 1rem;  padding: .4rem .5rem;  outline: none;  font-weight: bold;margin-bottom: 1rem;min-height: 75px;max-height: 120px;font-size: 0.8rem;}
+.content-total_checkout_ttrk .content-left-check-page .content-info-client .content-form-info-client form .cont-info-form-controls select{  border: 2px solid rgba(0,0,0,.06);  line-height: 2rem;  font-size: 1rem;  border-radius: 1.5rem;  padding: 0.4rem .5rem 0.4rem .5rem;  outline: none;  margin-bottom: 1rem;}
 .content-total_checkout_ttrk .content-left-check-page .content-info-client .content-form-info-client form .cont-info-form-controls select option:first-child{  display: none;}
 .content-total_checkout_ttrk .content-left-check-page .content-info-client .content-form-info-client form .cont-info-form-controls select option{  background: #fff;}
 /* LADO DERECHO */
-.content-total_checkout_ttrk .content-right-check-page{  background: #fff;  width: 47%;  padding: 0.8rem 2.5rem 2rem 2.5rem;  text-align: center;  border-radius: 1.3rem;  box-shadow: 0 9px 8px 3px rgba(0,0,0,.1);  min-height: 285px;  height: 100%;}
+.content-total_checkout_ttrk .content-right-check-page{  background: #fff;  padding: 1rem;  text-align: center;  border-radius: 1.3rem;  box-shadow: 0 9px 8px 3px rgba(0,0,0,.1);  min-height: 285px;  height: 100%;border: 1px solid rgba(0,0,0,0.09);width: 100%;}
 .content-total_checkout_ttrk .content-right-check-page .content-detail-payment h1{  font-size: 1.75rem;  font-weight: bold; }
 .content-total_checkout_ttrk .content-right-check-page .content-detail-payment form .cont-info-store{  padding: .5rem 0;  border-bottom: 1px solid #eee;}
 .content-total_checkout_ttrk .content-right-check-page .content-detail-payment form .cont-info-store > h1 #name-store{line-break: anywhere;}
-.content-total_checkout_ttrk .content-right-check-page .content-detail-payment form .cont-info-store h1{  display: flex;  align-items: center;  justify-content: space-between;  font-size: 1.625rem;  margin: 0 !important;}
-.content-total_checkout_ttrk .content-right-check-page .content-detail-payment form .cont-list-price-prods > h1{  display: flex;  align-items: flex-start;  justify-content: flex-start;  text-align: left;  font-size: 1.625rem;  margin: 0 0 .6rem 0 !important;  padding: .5rem 0;  border-bottom: 1px solid #eee;}
+.content-total_checkout_ttrk .content-right-check-page .content-detail-payment form .cont-info-store h1{  display: flex;  align-items: center;  justify-content: space-between;  font-size: 1.05rem;  margin: 0 !important;}
+.content-total_checkout_ttrk .content-right-check-page .content-detail-payment form .cont-list-price-prods > h1{  display: flex;  align-items: flex-start;  justify-content: flex-start;  text-align: left;  font-size: 1.05rem;  margin: 0 0 .6rem 0 !important;  padding: .5rem 0;  border-bottom: 1px solid #eee;}
 .content-total_checkout_ttrk .content-right-check-page .content-detail-payment form .cont-list-price-prods ul{  list-style: none;  padding: 0 0 0 0 !important;  line-height: 2rem;}
-.content-total_checkout_ttrk .content-right-check-page .content-detail-payment form .cont-list-price-prods ul li{  display: flex;  align-items: center;  justify-content: space-between;  font-size: 1.125rem;}
-.content-total_checkout_ttrk .content-right-check-page .content-detail-payment form .cont-list-price-prods ul li .cont-name-product{  text-align: left;line-break: anywhere;}
+.content-total_checkout_ttrk .content-right-check-page .content-detail-payment form .cont-list-price-prods ul li{  display: flex;  align-items: flex-end;  justify-content: flex-end;  font-size: .8rem;font-weight: 500;flex-direction: column;}
+.content-total_checkout_ttrk .content-right-check-page .content-detail-payment form .cont-list-price-prods ul li .cont-name-product{  text-align: left;line-break: anywhere;align-self: flex-start;}
 .content-total_checkout_ttrk .content-right-check-page .content-detail-payment form .cont-list-price-prods ul li .cont-subtotal-product{  display: flex;  align-items: center;}
 .content-total_checkout_ttrk .content-right-check-page .content-detail-payment form .cont-list-price-prods ul li .cont-subtotal-product span:first-child{  margin-right: 0.3rem;}
 .content-total_checkout_ttrk .content-right-check-page .content-detail-payment form .cont-total-to-payment{  padding: 0.5rem 0;  border-top: 1px solid #eee;}
-.content-total_checkout_ttrk .content-right-check-page .content-detail-payment form .cont-total-to-payment h1{  display: flex;  align-items: center;  justify-content: space-between; color: red;}
+.content-total_checkout_ttrk .content-right-check-page .content-detail-payment form .cont-total-to-payment h1{  display: flex;  align-items: center;  justify-content: space-between; color: var(--secondary-clr);font-size: 1.1rem;font-weight: 700;}
 /* BOTÓN DE CONFIRMAR PEDIDO/PAGO */
-.btn-checkout{  background: #007bff;  color: #fff;  border: none;  display: block;  width: 100%;  text-align: center;  line-height: 2.8rem;  border-radius: 1.5rem;  font-size: 1.188rem;}
+.btn-checkout{  background: #007bff;  color: #fff;  border: none;  display: block;  width: 100%;  text-align: center;  line-height: 2.8rem;  border-radius: 1.5rem;  font-size: .9rem;font-weight: bold;line-height: 2.5;}
 .btn-checkout:hover{  background: #005DC1;}
 
 /* MEDIA QUERIES */
-@media (max-width: 1200px){
-  .main_checkout-container{width: 90%;}
-}
-@media (max-width: 1024px){
-  .main_checkout-container{width: 90%;}
-}
 @media (max-width: 991px){
-  .main_checkout-container{width: 95%;}
-  .content-total_checkout_ttrk .content-left-check-page{width: 45%;}
-  .content-total_checkout_ttrk .content-right-check-page{width: 52%;}
-  .content-total_checkout_ttrk .content-left-check-page .content-info-client .content-form-info-client form .cont-info-form-controls h3{font-size: 1rem;font-weight: bold;}
   .content-total_checkout_ttrk .content-left-check-page .content-info-client .content-form-info-client form .cont-info-form-controls input{font-size: 0.9rem;}
   .content-total_checkout_ttrk .content-left-check-page .content-info-client .content-form-info-client form .cont-info-form-controls select{font-size: 0.9rem;}
   .content-total_checkout_ttrk .content-right-check-page .content-detail-payment h1{font-size: 1.5rem;}
-  .content-total_checkout_ttrk .content-right-check-page .content-detail-payment form .cont-info-store h1{font-size: 1.3rem;}
-  .content-total_checkout_ttrk .content-right-check-page .content-detail-payment form .cont-list-price-prods > h1{font-size: 1.3rem;text-align: center;justify-content: center;}
-  .content-total_checkout_ttrk .content-right-check-page .content-detail-payment form .cont-list-price-prods ul li{font-size: 1rem;font-weight: 600;}
-  .content-total_checkout_ttrk .content-right-check-page .content-detail-payment form .cont-total-to-payment h1{font-size: 1.3rem;}
 }
 @media (max-width: 900px){
-  .main_checkout-container{width: 95%;}
   .main_checkout-container > h1{text-align: center;}
   .main_checkout-container .content-total_checkout_ttrk{flex-direction: column;}
-  .content-total_checkout_ttrk .content-left-check-page{width: 100%;}
-  .content-total_checkout_ttrk .content-right-check-page{width: 100%;}
 }
-@media (max-width: 768px){
-  .main_checkout-container{width: 95%;}
-}
+
 @media (max-width: 425px){
   .content-total_checkout_ttrk .content-right-check-page .content-detail-payment form .cont-list-price-prods ul li .cont-name-product{line-height: 1.2rem;}
-  .content-total_checkout_ttrk .content-right-check-page .content-detail-payment form .cont-list-price-prods ul li{font-size: .9rem;font-weight: 500;}
-  .content-total_checkout_ttrk .content-right-check-page .content-detail-payment form .cont-list-price-prods ul li .cont-name-product > span:first-child{font-weight: bold;}
   .content-total_checkout_ttrk .content-right-check-page .content-detail-payment form .cont-list-price-prods ul li .cont-subtotal-product{font-weight: bold;}
-  .content-total_checkout_ttrk .content-left-check-page .content-info-client .content-form-info-client form .cont-info-form-controls{padding: 1.1rem 1.5rem 1.5rem 1.5rem;}
-  .content-total_checkout_ttrk .content-right-check-page{padding: 0.8rem 2rem 2rem 2rem;}
-  .content-total_checkout_ttrk .content-left-check-page .content-info-client .content-form-info-client form .cont-info-form-controls h3{text-align: center;}
-  .main_checkout-container{width: 95%;}
 }
 @media (max-width: 375px){
-  .main_checkout-container{width: 95%;}
-  .content-total_checkout_ttrk .content-left-check-page .content-info-client .content-form-info-client form .cont-info-form-controls{padding: 1.1rem 1.2rem 1rem 1.2rem;}
-  .content-total_checkout_ttrk .content-left-check-page .content-info-client .content-form-info-client form .cont-info-form-controls h3{font-size: 0.9rem;}
   .content-total_checkout_ttrk .content-left-check-page .content-info-client .content-form-info-client form .cont-info-form-controls input{font-size: 0.8rem;margin-bottom: 0.6rem;}
   .content-total_checkout_ttrk .content-right-check-page .content-detail-payment form .cont-info-store h1{font-size: 1.05rem;}
-  .content-total_checkout_ttrk .content-right-check-page .content-detail-payment form .cont-list-price-prods ul li{font-size: .8rem;font-weight: 500;}
-  .btn-checkout{font-size: .9rem;font-weight: bold;line-height: 2.5rem;}
-  .content-total_checkout_ttrk .content-right-check-page .content-detail-payment form .cont-total-to-payment h1{font-size: 1.15rem;}
 }
-@media (max-width: 320px){
-  .content-total_checkout_ttrk .content-right-check-page{padding: 0.8rem 1.5rem 2rem 1.5rem;}
-  .main_checkout-container{width: 95%;}
+
+/* SOLUCIÓN DE BREAKPOINTS */
+/* TAMAÑO - CUSTOMS(244px) */
+@media (min-width: 244px){
+  .content-total_checkout_ttrk .content-right-check-page .content-detail-payment form .cont-list-price-prods ul li .cont-name-product > span:first-child{font-weight: bold;}
+  .main_checkout-container > h1{text-align: center;}
+}
+/* TAMAÑO - PREDETERMINADO(300px) */
+@media (min-width: 300px){
+  
+}
+/* TAMAÑO - MÓVIL PEQUEÑO(360px) */
+@media (min-width: 360px){
+}
+/* TAMAÑO - MÓVIL(480px) */
+@media (min-width: 480px){
+  .content-total_checkout_ttrk .content-right-check-page .content-detail-payment form .cont-list-price-prods ul{line-height: inherit;}
+  .content-total_checkout_ttrk .content-right-check-page .content-detail-payment form .cont-list-price-prods ul li{flex-direction: row;justify-content: space-between;align-items: flex-start;display: grid;grid-template-columns: auto 25%;grid-column-gap: 1rem;margin-bottom: 0.5rem;}
+  .content-total_checkout_ttrk .content-right-check-page .content-detail-payment form .cont-list-price-prods ul li .cont-subtotal-product{align-items: flex-end;justify-content: flex-end;}
+  .content-total_checkout_ttrk .content-left-check-page .content-info-client .content-form-info-client form .cont-info-form-controls{padding: 1rem 1.5rem;}
+  .content-total_checkout_ttrk .content-right-check-page{padding: 1rem 1.5rem;}
+  .content-total_checkout_ttrk .content-right-check-page .content-detail-payment > h1{font-size: 1.5rem !important;}
+  .btn-checkout{font-size: 1.05rem;}
+}
+/* TAMAÑO - TABLET(768px) */
+@media (min-width: 768px){
+  .content-total_checkout_ttrk .content-left-check-page .content-info-client .content-form-info-client form{display: grid;grid-template-columns: 1fr 1fr;grid-column-gap: 1rem;grid-template-rows: 1fr;align-items: stretch;}
+  .content-total_checkout_ttrk .content-right-check-page{padding: 2rem 2.5rem;}
+  .main_checkout-container > h1{text-align: left;letter-spacing: inherit;font-size: 1.6rem;}
+  .content-total_checkout_ttrk .content-right-check-page .content-detail-payment form .cont-list-price-prods ul li{font-size: 0.9rem;}
+  .content-total_checkout_ttrk .content-right-check-page .content-detail-payment form .cont-info-store h1{font-size: 1.2rem;}
+  .content-total_checkout_ttrk .content-right-check-page .content-detail-payment form .cont-list-price-prods > h1{font-size: 1.2rem;}
+  .content-total_checkout_ttrk .content-right-check-page .content-detail-payment form .cont-total-to-payment h1{font-size: 1.4rem;}
+}
+/* TAMAÑO - PORTÁTIL(1024px) */
+@media (min-width: 1024px){
+  .content-total_checkout_ttrk .content-left-check-page{width: 45%;}
+  .content-total_checkout_ttrk .content-right-check-page{width: 52%;}
+  .content-total_checkout_ttrk .content-left-check-page .content-info-client .content-form-info-client form{display: flex;}
+  .content-total_checkout_ttrk .content-right-check-page .content-detail-payment > h1{font-size: 1.8rem !important;}
+  .main_checkout-container > h1{font-size: 1.8rem;font-weight: 800;}
+  .content-total_checkout_ttrk .content-right-check-page .content-detail-payment form .cont-info-store h1{font-size: 1.4rem;}
+  .content-total_checkout_ttrk .content-right-check-page .content-detail-payment form .cont-list-price-prods > h1{font-size: 1.4rem;}
+  .content-total_checkout_ttrk .content-left-check-page .content-info-client .content-form-info-client form .cont-info-form-controls input{padding: 0 1rem;}
+  .content-total_checkout_ttrk .content-left-check-page .content-info-client .content-form-info-client form .cont-info-form-controls select{padding: 0.4rem 1rem;}
+  .content-total_checkout_ttrk .content-left-check-page .content-info-client .content-form-info-client form .cont-info-form-controls textarea{padding: 0.4rem 1rem;font-size: 1rem;}
+  .content-total_checkout_ttrk .content-left-check-page .content-info-client .content-form-info-client form .cont-info-form-controls h3{font-size: 1rem;}
+  .content-total_checkout_ttrk .content-right-check-page .content-detail-payment form .cont-list-price-prods ul li{font-size: 0.95rem;}
+}
+/* TAMAÑO - DESKTOP HD(1400px) */
+@media (min-width: 1400px){
+  
 }

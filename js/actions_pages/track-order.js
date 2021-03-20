@@ -31,18 +31,18 @@ $(document).ready(function () {
         `);
 
       });
-      //CAROUSEL DE TIENDAS...
-      var slider = tns({
-        "container": ".cont-radio-stores",
-        items: 3,
-        slideBy: "page",
-        mouseDrag: true,
-        swipeAngle: false,
-        speed: 200,
-        center: true,
-        edgePadding: 50,
-        controlsText: ['&#9668;', '&#9658;'],
-      });
+      // //CAROUSEL DE TIENDAS...
+      // var slider = tns({
+      //   "container": ".cont-radio-stores",
+      //   items: 3,
+      //   slideBy: "page",
+      //   mouseDrag: true,
+      //   swipeAngle: false,
+      //   speed: 200,
+      //   center: true,
+      //   edgePadding: 50,
+      //   controlsText: ['&#9668;', '&#9658;'],
+      // });
 
 
       $(`.cnt-chk-btns-stores input`).on("change", function () {
@@ -259,3 +259,18 @@ function reembolsouser(tienda, cliente, orderid) {
     });
   }
 }
+
+
+/* CAROUSEL DE TIENDAS */
+var contenedor = document.querySelector(  "#cont-radio-stores");
+var arrowleft = document.querySelector("#btn-sideleft");
+var arrowright = document.querySelector(  "#btn-sideright");
+
+arrowright.addEventListener("click", function () {
+  //contenedor.scrollLeft += contenedor.scrollLeft + 10;  
+  contenedor.scrollLeft += contenedor.offsetWidth;
+});
+arrowleft.addEventListener("click", function () {
+  //contenedor.scrollLeft -= contenedor.scrollLeft - 10;
+  contenedor.scrollLeft -= contenedor.offsetWidth;
+});
