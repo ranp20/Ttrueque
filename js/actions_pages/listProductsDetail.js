@@ -112,7 +112,7 @@ $(document).ready(function () {
                     attr_idclient='${idcliente}'		
   								
   								>AÑADIR AL CARRITO
-                  <i class="far fa-shopping-cart"></i>
+                  <img src='./img/iconos_home/index-sidebar-car-car.svg' alt=''>
                   </a>
   							</div>
   						</div>

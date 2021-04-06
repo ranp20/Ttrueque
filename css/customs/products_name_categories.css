@@ -50,7 +50,7 @@
 #container_all_categories_in_store .container-content-off-mrkts .list-categories-stores-ttrk-c > .items-categ-stores-ttrk .item-categ-stores-into .item-cont-categ-stores .cont-info-categ-stores-b-ttrk div p{}
 #container_all_categories_in_store .container-content-off-mrkts .content-btn-more-brands-ttrk .btn-brands-alls-ttrk .btn-into-alls-ttrk{}
 /* PRODUCTOS EN CATEGORÍAS DENTRO DE TIENDAS */
-#cont-all-products_in_stores-categories{max-width: var(--max-width) !important;width: 90%;margin-left: auto;margin-right: auto;position: relative;margin-top: 4rem;}
+#cont-all-products_in_stores-categories{max-width: var(--max-width) !important;width: 90%;margin-left: auto;margin-right: auto;position: relative;margin-top: 4rem;font-family: var(--fuente-categorias_2);}
 #cont-all-products_in_stores-categories .contenido-categorias_ttrk-off-header .content-title-categorias_ttrk h3{font-size: 1.75rem;border-bottom: 3px solid var(--secondary-clr);}
 #cont-all-products_in_stores-categories .container-content-off-mrkts .list-products-stores-ttrk-c .items-products-stores-ttrk .item-product-stores-into .item-cont-products-store .cont-info-product-stores-b-ttrk p:first-child{font-size: .91rem;min-height: 50px;max-height: 50px;height: 100%;overflow: hidden;color: var(--name-product-clr);font-weight: 800;font-family: var(--fuente-subtitles);line-height: 1.2;margin-bottom: 0.5rem !important;}
 #cont-all-products_in_stores-categories .container-content-off-mrkts .list-products-stores-ttrk-c .items-products-stores-ttrk .item-product-stores-into .item-cont-products-store .cont-info-product-stores-b-ttrk p:nth-child(2){font-size: 1.42rem;align-self: flex-end;justify-self: flex-end;text-align: left;width: inherit;color: var(--blue-price-clr);margin-bottom: 5px !important;font-weight: bold;font-family: var(--fuente-categorias_2);}
@@ -140,10 +140,12 @@
 }
 /* TAMAÑO - DESKTOP HD(1400px) */
 @media (min-width: 1400px){
-	#container_all_categories_in_store .container-content-off-mrkts .list-categories-stores-ttrk-c > .items-categ-stores-ttrk{grid-template-columns: repeat(5, 1fr );}
 	#container_all_categories_in_store .contenido-categorias_ttrk-off-header .content-title-categorias_ttrk h3{font-size: 1.5rem;}
 	#cont-all-categories_in_ttrk .container-content-off-mrkts .list-categories-stores-ttrk-c .items-categ-stores-ttrk{grid-template-columns: repeat(5, 1fr);}
 	#cont-all-categories_in_ttrk .contenido-categorias_ttrk-off-header > .content-title-categorias_ttrk > h3{font-size: 1.5rem;}
 	#cont-all-categories_in_ttrk{margin-top: 5rem;}
 	#cont-all-products_in_stores-categories .contenido-categorias_ttrk-off-header .content-title-categorias_ttrk h3{font-size: 1.5rem;}
+	#container_all_categories_in_store .container-content-off-mrkts .list-categories-stores-ttrk-c > .items-categ-stores-ttrk .item-categ-stores-into{height: 180px;}
+	#container_all_categories_in_store .container-content-off-mrkts .list-categories-stores-ttrk-c > .items-categ-stores-ttrk .item-categ-stores-into .item-cont-categ-stores .cont-logo-categories-str-b-ttrk{height: 100%;}
+	#container_all_categories_in_store .container-content-off-mrkts .list-categories-stores-ttrk-c > .items-categ-stores-ttrk .item-categ-stores-into .item-cont-categ-stores .cont-info-categ-stores-b-ttrk div p:first-child{font-size: 1.25rem !important;}
 }

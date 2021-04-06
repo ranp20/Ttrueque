@@ -140,8 +140,10 @@
                   </div>
               </div>
               <div class="contain-btn-go-to-cart_ttrq">
-
-                  <a href="./cart" id="addtempcart" class='lang_ttrq' key='btn-go-cart-delay_ttrq'>Ir al Carrito</a>
+                <a href="./cart" id="addtempcart">
+                  <img src="./img/iconos_home/index-sidebar-car-car.svg" alt="">
+                  <span class='lang_ttrq' key='btn-go-cart-delay_ttrq'>Ir al Carrito</span>
+                </a>
               </div>
               <!-- //FINAL DEL CONTENEDOR PRINCIPAL-->
           </div>

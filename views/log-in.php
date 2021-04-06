@@ -65,17 +65,27 @@ $paises = $all->get_name_country();
             <section class="sec-log-in-u">
                 <header class="head-log-in-u">
                     <div class="logo-head-log-in-u">
-                        <img src="img/logo/Logo_TTRK.png" alt="logo_Ttrueque">
+                        <img src="img/logo/Login_Web-T-blue.svg" alt="logo_Ttrueque">
                     </div>
                 </header>
                 <div id="alert"></div>
                 <form action="./php/process_account.php?login=true" method="POST">
                     <input type="hidden" name="id" id="id" value="<?php echo empty($id) ? "" : $id ?>">
                     <input type="hidden" name="estado" id="estado" value="<?php echo empty($estado) ? "" : $estado  ?>">
-                    <input type="email" required maxlength="200" name="email" id="email"
-                        placeholder="Correo electrónico o número de celular">
-                    <input type="password" required maxlength="40" name="pass" id="password_in"
-                        placeholder="Ingrese su contraseña">
+                    <div class="cont-controls-login">
+                      <div class="cont-icon-login">
+                        <img src="img/iconos_home/home-login-mail.svg" alt="">
+                      </div>
+                      <input type="email" required maxlength="200" name="email" id="email"
+                          placeholder="Correo electrónico o número de celular">
+                    </div>
+                    <div class="cont-controls-login">
+                      <div class="cont-icon-login">
+                        <img src="img/iconos_home/home-login-lock.svg" alt="">
+                      </div>
+                      <input type="password" required maxlength="40" name="pass" id="password_in"
+                          placeholder="Ingrese su contraseña">
+                    </div>
                     <button type="submit">Iniciar Sesión</button>
                 </form>
                 <div class="content-register-log-in-u">

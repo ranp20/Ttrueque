@@ -12,12 +12,6 @@
         padding-top: 5px;
         display: inline-block;
 		color: $body-text-color;
-        &.client {
-            background: url(../img/user.svg) center left no-repeat;
-        }
-        &.new_client {
-            background: url(../img/new_user.svg) center left no-repeat;
-        }
         }
     .form_container {
         background-color: #fff;

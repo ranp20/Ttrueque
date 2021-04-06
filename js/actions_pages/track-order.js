@@ -13,11 +13,13 @@ $(document).ready(function () {
       $(".cont-products-order-info-cli_ttrq").append(`
         <div class="content-msg-any-track-orders">
          <div>
-           <i class="fal fa-sad-tear fa-4x"></i>
+           <img src='./img/iconos_home/index-sidebar-car-sad-face.svg' alt=''>
            <h1>Aún no hay productos para rastrear</h1>
          </div>
        </div>
       `);
+      $('.cont-inf-prod-by-str-trackord').remove();
+      $('.cont-wrap-radio-stores').remove();
     } else {
       $.each(res, function (i, value) {
         //console.log(value);

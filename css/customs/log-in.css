@@ -8,17 +8,22 @@
 .content-log-in-u > section > .head-log-in-u > .logo-head-log-in-u > img{	width: 100%;	height: 100%;}
 /* FORMULARIO - LOG-IN */
 .content-log-in-u > section > form{	display: flex;	flex-direction: column;}
-.content-log-in-u > section > form > input{	margin-bottom: 1.25rem;  line-height: 3.3rem;  border-radius: 0.25rem;  border: 1px solid #9da3a6;  padding: 0 0.65rem;  outline: none;}
-.content-log-in-u > section > form > input:focus{	border:1px solid rgba(0,0,0,0.5);}
-.content-log-in-u > section > form > button{	display: flex;  align-items: center;  justify-content: center;  background-color: var(--secondary-clr);  color: #fff;  min-height: 44px;  border-radius: .25rem;  font-weight: 800;  border: none;  outline: none;  box-sizing: border-box;  text-decoration: none;  transition: .1s;  font-size: .9rem;font-family: var(--fuente-categorias_1);}
+.content-log-in-u > section > form .cont-controls-login{width: 100%;position: relative;display: flex;align-items: center;margin-bottom: 1rem;background-color: #fff;padding-left: 0.7rem;border-radius: .8rem;}
+.content-log-in-u > section > form .cont-controls-login .cont-icon-login{width: 24px;height: 24px;}
+.content-log-in-u > section > form .cont-controls-login .cont-icon-login img{width: 100%;height: 100%;}
+.content-log-in-u > section > form > .cont-controls-login input{width: 100%;line-height: 3.3rem;border: 1px solid #9da3a6;outline: none;padding-top: 0;padding-bottom: 0;padding-left: .6rem;padding-right: 0.65rem;margin-left: 0.6rem;border-radius: 0 .6rem .6rem 0;}
+.content-log-in-u > section > form > .cont-controls-login *::placeholder{color: var(--placeholder-login);}
+.content-log-in-u > section > form > .cont-controls-login input:focus{	border: unset;}
+.content-log-in-u > section > form > button{	display: flex;  align-items: center;  justify-content: center;  background-color: var(--secondary-clr);  color: #fff;  min-height: 40px;  border-radius: .8rem;  font-weight: 800;  border: none;  outline: none;  box-sizing: border-box;  text-decoration: none;  transition: .1s;  font-size: .9rem;font-family: var(--fuente-categorias_1);padding: 0.68rem;}
 .content-log-in-u > section > form > button:active{    text-decoration: underline;}
 .content-log-in-u > section > form > button:hover{	background-color: var(--hov-secondary-clr);}
+/* COTENEDOR DE CONTROLES */
 /* BOTÓN "REGISTRARSE" - LOG-IN */
 .content-register-log-in-u{	text-align: center;}
-.content-divisor-log-in-u{	border-top: 1px solid #ddd;	position: relative;	margin: 25px 0 10px;}
-.content-divisor-log-in-u > span{	background: #fff;	position: relative;	padding: 0 .5em;	top: -.7em;}
-.btn-reg-log-in-u{	background: #E1E7EB;  color: #2C2E2F;  padding: .68rem;  min-height: 2.75rem;  width: 100%;  display: block;  box-sizing: border-box;  font-weight: 700;  font-size: .9rem;  transition: 0s;  border-radius: .25rem;font-family: var(--fuente-categorias_1);}
-.btn-reg-log-in-u:hover{	background: #D7D3EB;}
+.content-divisor-log-in-u{	border-top: thin solid var(--primary-clr);	position: relative;	margin-top: 1.9rem;margin-bottom: 0;margin-left: auto;margin-right: auto;}
+.content-divisor-log-in-u > span{	background-color: var(--bgc-login);	position: relative;	padding: 0 .5em;	top: -.7em;font-size: 1.5rem;font-weight: lighter;color: var(--color-letter-o);}
+.btn-reg-log-in-u{	background-color: var(--bgc-button-login);  color: #fff;  padding: .68rem;  min-height: 40px;  width: 100%;  display: block;  box-sizing: border-box;  font-weight: 800;  font-size: .9rem;  transition: 0s;  border-radius: .8rem;font-family: var(--fuente-categorias_1);}
+.btn-reg-log-in-u:hover{opacity: .7;}
 /* FOOTER - LOG-IN */
 .footer-log-in-u{	  align-self: flex-end;  text-align: center;  padding: 0.87rem;  padding-top: 0.87rem;  width: 100%;  background: var(--principal-color) !important;}
 .footer-log-in-u > .content-f-log-in-u{	text-align: center;}
@@ -34,22 +39,20 @@
 /* MEDIA QUERIES - LOGIN.PHP */
 @media (max-width: 1024px) {
   .content-log-in-u > .sec-log-in-u{    width: 440px;  }
-  .content-log-in-u > section > form > input{    line-height: 2.75rem;  }    
+  .content-log-in-u > section > form > .cont-controls-login input{    line-height: 2.75rem;  }    
   .cont-headertop-login > div{width: 90%;margin: auto;}
 }
 @media (max-width: 768px) {
   .content-log-in-u > section > .head-log-in-u > .logo-head-log-in-u{    height: 65px;    width: 175px;  }
   .content-log-in-u > .sec-log-in-u{    width: 390px;  }
-  .content-log-in-u > section > form > input{    line-height: 2.5rem;}   
-  .content-log-in-u > section > form > button{    font-size: 0.75rem;  }
+  .content-log-in-u > section > form > .cont-controls-login input{    line-height: 2.5rem;}   
   .footer-log-in-u > .content-f-log-in-u > .group-f-log-in-u > li > a{    font-size: .75rem;  }
-  .btn-reg-log-in-u{    font-size: .75rem;  }
 }
 @media (max-width: 480px) {
   .content-log-in-u{    margin: inherit;  }
   .content-log-in-u > section > .head-log-in-u > .logo-head-log-in-u{    height: 65px;    width: 175px;  }
   .content-log-in-u > .sec-log-in-u{    width: 390px;    border: none;}
-  .content-log-in-u > section > form > input{    line-height: 2.5rem;}   
+  .content-log-in-u > section > form > .cont-controls-login input{    line-height: 2.5rem;}   
   .content-log-in-u > section > form > button{    font-size: 0.75rem;  }
   .footer-log-in-u > .content-f-log-in-u > .group-f-log-in-u{    display: flex;    align-items: center;    justify-content: center;    padding-left: 1rem;  }
   .footer-log-in-u > .content-f-log-in-u > .group-f-log-in-u > li > a{    font-size: .7rem;  }   
@@ -63,7 +66,7 @@
 	.cont-headertop-login:before{	height: 75px;}
   .content-log-in-u > section > .head-log-in-u > .logo-head-log-in-u{    height: 65px;    width: 175px;  }
   .content-log-in-u > .sec-log-in-u{    width: 320px;}
-  .content-log-in-u > section > form > input{    line-height: 2.5rem;}   
+  .content-log-in-u > section > form > .cont-controls-login input{    line-height: 2.5rem;}   
   .content-log-in-u > section > form > button{    font-size: 0.75rem;  }
   .footer-log-in-u > .content-f-log-in-u > .group-f-log-in-u > li > a{    font-size: .7rem;  }
 }
@@ -71,7 +74,7 @@
   .content-log-in-u > section > .head-log-in-u{    height: 55px;  }
   .content-log-in-u > section > .head-log-in-u > .logo-head-log-in-u{    height: 60px;    width: 155px;  }
   .content-log-in-u > .sec-log-in-u{    width: 270px;    padding: 0 !important;  }
-  .content-log-in-u > section > form > input{    line-height: 2.5rem;}   
+  .content-log-in-u > section > form > .cont-controls-login input{    line-height: 2.5rem;}   
   .content-log-in-u > section > form > button{    font-size: 0.85rem;    font-weight: bold;  }
   .footer-log-in-u > .content-f-log-in-u > .group-f-log-in-u{    display: block;  }
   .footer-log-in-u > .content-f-log-in-u > .group-f-log-in-u > li:last-child{    margin: 0 1.32rem 0 0;  }
@@ -85,8 +88,8 @@
 @media (min-width: 244px){
   .container-log-in-u{width: 90%;display: flex;align-items: center;justify-content: center;margin-left: auto;margin-right: auto;margin-bottom: 3rem;}
   .content-log-in-u{width: 100%;margin: 0;}
-  .content-log-in-u > .sec-log-in-u{width: auto;}
-  .content-log-in-u > section > form > input{font-size: 0.75rem;margin-bottom: 1rem;}
+  .content-log-in-u > .sec-log-in-u{width: auto;border-radius: 1.5rem;padding: 1.5rem !important;background-color: var(--bgc-login);}
+  .content-log-in-u > section > form > .cont-controls-login input{font-size: 0.75rem;border: none;}
   .content-log-in-u > section > form > button, .btn-reg-log-in-u{font-size: 0.8rem;}
 }
 /* TAMAÑO - MÓVIL SMALL */
@@ -96,17 +99,19 @@
 /* TAMAÑO - MÓVIL */
 @media (min-width: 480px){
   .container-log-in-u{width: 70%;}
-  .content-log-in-u > .sec-log-in-u{border: 1px solid #eaeced;border-radius: .31rem;padding: 2rem;}
+  .content-log-in-u > .sec-log-in-u{border: 1px solid #eaeced;border-radius: 1.5rem;padding: 2rem !important;background-color: var(--bgc-login);}
 }
 /* TAMAÑO - TABLET */
 @media (min-width: 768px){
   .content-log-in-u > .sec-log-in-u{  width: 432px;margin-left: auto;margin-right: auto;}
-  .content-log-in-u > section > form > input{font-size: 0.9rem;}
+  .content-log-in-u > section > form > .cont-controls-login input{font-size: 0.9rem;}
   .content-log-in-u > .sec-log-in-u{padding: 2.5rem}
+  .content-log-in-u > section > form > button, .btn-reg-log-in-u{font-size: 0.9rem;}
 }
 /* TAMAÑO - DESKTOP */
-@media (min-width: 1025px){
-  .content-log-in-u > section > form > input{font-size: 0.95rem;}
+@media (min-width: 1024px){
+  .content-log-in-u > section > form > .cont-controls-login input{min-height: 46px; height: 46px;}
+  .content-log-in-u > section > form > button, .btn-reg-log-in-u{font-size: 1rem;}
 }
 /* TAMAÑO - DESKTOP HD */
 @media (min-width: 1400px){

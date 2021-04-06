@@ -68,7 +68,13 @@ require_once 'header_index.php'; ?>
 				<div class="col-xl-6 col-lg-6 col-md-8" id="form-register-info-personal">
 					<!--NUEVO-->
 					<div class="box_account">
-						<h3 class="new_client">Nuevo Usuario</h3> <small class="float-right pt-2">* Campos requeridos</small>
+						<div class="cont-infoicons-account">
+							<div class="cont-imgh3-accounttop">
+								<img src="./img/iconos_home/home-account-user.svg" alt="">
+								<h3 class="new_client">Nuevo Usuario</h3> 
+							</div>
+							<small class="float-right pt-2">* Campos requeridos</small>
+						</div>
 						<form class="form_container" method="POST" action="php/process_account.php?register" id="form-register">
 							<div class="form-group">
 								<input type="email" maxlength="200" required class="form-control form-register-input" name="mail" id="email_2" placeholder="Email*">
@@ -110,6 +116,9 @@ require_once 'header_index.php'; ?>
 												}
 												?>
 											</select>
+											<div class="arrow-down-select">
+												<i></i>
+											</div>
 										</div>
 									</div>
 									<div class="col-6 pl-1">
@@ -129,6 +138,9 @@ require_once 'header_index.php'; ?>
 												}
 												?>
 											</select>
+											<div class="arrow-down-select">
+												<i></i>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -137,6 +149,7 @@ require_once 'header_index.php'; ?>
 								<div class="form-group" style="left:20px !important;">
 									<label class="form-check-label">
 										<input type="checkbox" required id="check-terms" class="form-check-input" value=""> Términos y Condiciones
+										<span class="checkmark"></span>
 									</label>
 								</div>
 							</div>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Trueque | Carrito de compras</title>
+  <title>Ttrueque | Carrito de compras</title>
   <!-- //METAS-->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">

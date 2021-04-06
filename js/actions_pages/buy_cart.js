@@ -59,7 +59,7 @@ function listProductsIntoCart() {
     if(res == ""){
       $("#cart-buy-list").append(`
         <div class='cont-msg-any-products-cart'>
-          <i class="fal fa-frown-open"></i>
+          <img src='./img/iconos_home/index-sidebar-car-sad-face.svg' alt=''>
           <h5>No hay productos en el carrito</h5>  
         </div>
       `);

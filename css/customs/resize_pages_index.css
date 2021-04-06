@@ -127,7 +127,6 @@
 
 @media (max-width: 375px){
   .container_cart_lis-ttrq .content-list_cart_hb_ttrq .contain-title-cart-sdleft_ttrq{padding: .8rem .8rem .5rem .8rem;}
-  #cart-buy-list li{padding: .3rem .5rem .3rem .5rem;}
   #cart-buy-list li .content-info-p-prods a span:last-child{font-size: 0.7rem;}
   #cart-buy-list li .content-price-s-prods{font-size: 0.7rem;}
   .link-logo_official_ttrueque{width: 90px;height: 55px;}
@@ -308,7 +307,7 @@
 /* TAMAÑO - MÓVIL */
 @media (min-width: 480px){
 	.cont-msg-any-products-cart > svg{font-size: 3rem;}
-	.cont-msg-any-products-cart > h5{font-size: 1.25rem;font-weight: 500;}
+	.cont-msg-any-products-cart > h5{font-size: 1.2rem;font-weight: bold;}
   #products-more-sells .owl-stage-outer .owl-stage .owl-item{width: 211.667px !important;}
   #products-more-sells .owl-stage-outer .owl-stage .owl-item .item .descriptions_products > div > .watermark{width: 203px;}
   #contain-index-nav-ttrk .container .mobileMenu.open .navbar-nav .dropdown-menu .dropdown-item{line-height: 2;}
@@ -347,14 +346,13 @@
   .search-input-customs-header > .container-search{top: 2.45rem;width: 97.6%;}
   .list-stores-officials-ttrk-c > .items-str-off-ttrk{grid-template-columns: repeat(3, 1fr);}
   .container_cart_lis-ttrq .content-list_cart_hb_ttrq .contain-title-cart-sdleft_ttrq h4{font-size: 1.45rem;}
-  #cart-buy-list li .content-price-s-prods{font-size: 0.95rem;}
+  #cart-buy-list li .content-price-s-prods{font-size: 1rem;padding-right: 1rem;}
   #carousel-home .owl-carousel .owl-stage-outer .owl-stage .owl-item .owl-slide div .container div div .slide-text h2{font-size: 2rem !important;}
   .container-banner-pub_ttrq .content-b-pub_ttrq .content-left-info-banner-publicity_ttrq .content-description-banner-publicity h1{font-size: 1.8rem;}
   .container-banner-pub_ttrq .content-b-pub_ttrq .content-left-info-banner-publicity_ttrq .content-description-banner-publicity h4{font-size: 1.25rem;}
   .container-banner-pub_ttrq .content-b-pub_ttrq .content-left-info-banner-publicity_ttrq .content-description-banner-publicity{align-items: flex-start;text-align: left;width: 60%;}
   #cont-all-products_namecategories-in-ttrk{margin-top: 5rem;}
   .cont-msg-any-products-cart > svg{font-size: 3.5rem;}
-	.cont-msg-any-products-cart > h5{font-size: 1.35rem;font-weight: 500;}
   .cont-msg-any-products_sells svg{font-size: 3.5rem;}
   .cont-msg-any-products_sells p{font-size: 1.35rem;font-weight: 500;}
   #contain-foot-index .footer-pg-index .content-footer-policy-ttrk .content-footer-bottom .content-left-footer .content-top-footer-left a{margin: 0;}
@@ -369,7 +367,7 @@
   .cont-list-opts-profile > a.dropdown-item{font-size: 0.9rem;padding: 0.4rem 1rem !important;}
   .content-list-categories-naside > a.dropdown-item{font-size: 0.9rem;}
   .content-list-categories-naside > a.dropdown-item{color: #000;padding: 0.4rem 1.5rem;}
-  #cart-buy-list li .content-info-p-prods{grid-template-columns: 14% 84%;}
+  #cart-buy-list li .content-info-p-prods{grid-template-columns: 17% 81%;}
   /* SIDEBARLEFT PARA LOS PRODUCTOS EN EL CARRITO */
   .container_cart_lis-ttrq{width: 55% !important;}
   #contenedor-principal-home_2{margin-top: 3.4rem;}
@@ -392,7 +390,7 @@
   .search-input-customs-header > .container-search{width: 94.4%;top: 2.43rem;}
   .container-banner-pub_ttrq{height: 420px;}
   .cont-msg-any-products-cart > svg{font-size: 4rem;}
-	.cont-msg-any-products-cart > h5{font-size: 1.5rem;font-weight: 500;}
+	.cont-msg-any-products-cart > h5{font-size: 1.3rem;}
   .cont-msg-any-products_sells svg{font-size: 4rem;}
   .cont-msg-any-products_sells p{font-size: 1.5rem;font-weight: 500;}
   #contain-index-nav-ttrk .container .cont-logo-ttrq-nav img{width: 145px;}
@@ -416,7 +414,7 @@
   .container-list-opts-footer_ttrq > div > h3:first-child{font-size: 1rem !important;}
   .content-list-categories-naside > a.dropdown-item{font-size: .95rem;}
   .search-input-customs-header > .container-search{width: 95.7%;}
-  #cart-buy-list li .content-info-p-prods{grid-template-columns: 13% 85%;}
+  #cart-buy-list li .content-info-p-prods{grid-template-columns: 16% 81%;}
   .list-stores-officials-ttrk-c > .items-str-off-ttrk{grid-template-columns: repeat(5, 1fr);grid-column-gap: 2rem;}
 .container-list-opts-footer_ttrq > div div .list-items-footer-opts li{font-size: 0.9rem;}
   .container-list-opts-footer_ttrq > div div .list-items-footer-opts li a{font-size: 0.9rem;}

@@ -18,7 +18,7 @@ $(document).ready(function () {
       $("#list_all-products-name-category").append(`
         <div class="content-msg-any-prods_cat">
          <div>
-           <i class="far fa-store-slash fa-4x"></i>
+           <img src='./img/iconos_home/index-any-products.svg' alt=''>
            <h1>Aún no hay productos disponibles para esta categoría</h1>
            <a href="allcategories">Ver todas las categorías</a>
          </div>

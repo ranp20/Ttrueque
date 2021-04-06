@@ -20,7 +20,7 @@ $(document).ready(function () {
         <div class="content-msg-any-prods_by_store">
          <div>
            <i class="far fa-store-slash fa-4x"></i>
-           <h1>Aún no hay productos disponibles para esta categoría</h1>
+           <img src='./img/iconos_home/index-any-products.svg' alt=''>
            <a href="allcategories">Ver todas las categorías</a>
          </div>
        </div>
