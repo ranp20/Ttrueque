@@ -75,6 +75,35 @@ a{
 li {
   list-style: none;
 }
+
+@keyframes deslizarizquierda{
+  0%{grid-template-columns: 98px auto;}
+  10%{grid-template-columns: 105px auto;}
+  20%{grid-template-columns: 130px auto;}
+  30%{grid-template-columns: 150px auto;}
+  40%{grid-template-columns: 180px auto;}
+  50%{grid-template-columns: 200px auto;}
+  60%{grid-template-columns: 220px auto;}
+  70%{grid-template-columns: 240px auto;}
+  80%{grid-template-columns: 260px auto;}
+  90%{grid-template-columns: 280px auto;}
+  100%{grid-template-columns: 315px auto;}
+}
+
+@keyframes deslizarderecha{
+  0%{grid-template-columns: 315px auto;}
+  10%{grid-template-columns: 280px auto;}
+  20%{grid-template-columns: 260px auto;}
+  30%{grid-template-columns: 240px auto;}
+  40%{grid-template-columns: 220px auto;}
+  50%{grid-template-columns: 200px auto;}
+  60%{grid-template-columns: 180px auto;}
+  70%{grid-template-columns: 150px auto;}
+  80%{grid-template-columns: 130px auto;}
+  90%{grid-template-columns: 105px auto;}
+  100%{grid-template-columns: 98px auto;}
+}
+
 .container-total {
   margin: 0 auto;
   width: 100%;
@@ -82,12 +111,20 @@ li {
   display: grid;
   grid-template-columns: 98px auto;
   grid-template-areas: "sidebar contenido";
-  transition: all ease 0.5s;
+  transition: all ease 0.3s;
+  animation-name: deslizarderecha;
+  animation-duration: .3s;
+  animation-timing-function: ease;
 }
+
+
 .container-total.active {
+  animation-name: deslizarizquierda;
+  animation-duration: .3s;
+  animation-timing-function: ease;
   grid-template-columns: 315px auto;
-  transition: all ease 0.5s;
 }
+
 .container-total.active > .sidebar-nav > h3 {
   text-align: center;
 }

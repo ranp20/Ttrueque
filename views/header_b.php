@@ -129,7 +129,7 @@
               </div>
               <!-- //CONTENEDOR PRINCIPAL DE LAS TIENDAS-->
               <div class="contain-cart-info_header-ttrq">
-                  <div class="contain-link-stor-sdleft_header_ttrq"></div>
+                  <!--<div class="contain-link-stor-sdleft_header_ttrq"></div>-->
                   <div id="list-products-sdleft" class="lista-prods-sdleft_header_ttrq">
                       <ul id="cart-buy-list"></ul>
                   </div>

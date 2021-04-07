@@ -42,8 +42,8 @@ $d_by_id =  $c->select_points_default($_SESSION['user']);
                             <th class="lang_ttrq" key="title-row-sc_ttrq_1">Productos</th>
                             <th class="lang_ttrq" key="title-row-sc_ttrq_2">Bikers</th>
                             <th class="lang_ttrq" key="title-row-sc_ttrq_3">Cantidad</th>
-                            <th class="lang_ttrq" key="title-row-sc_ttrq_4">Subtotal</th>
-                            <th></th>
+                            <th colspan="2" class="lang_ttrq" key="title-row-sc_ttrq_4">Subtotal</th>
+                            <!--<th></th>-->
                         </tr>
                     </thead>
                     <tbody id="table-list-product" class="Cls-tblistm">

@@ -18,13 +18,25 @@ function search(force) {
   }).done((res) => {
     $(".container-search").show();
     $(".container-search").html("");
-    $.each(res, function (i, v) {
-      $(".container-search").append(`
-        <ul>
-          <li>
-            <a href="productos?categoria=${v.nombre_categoria}">${v.nombre_categoria}</a>
-          </li>
-        </ul>`);
-    });
+
+    if(res == [] || res == ""){
+      $(".container-search").css({
+        "paddingTop" : "0",
+        "paddingBottom" : "0"
+      });      
+    }else{
+      $.each(res, function (i, v) {
+        $(".container-search").css({
+          "paddingTop" : ".5rem",
+          "paddingBottom" : "1rem"
+        });
+        $(".container-search").append(`
+          <ul>
+            <li>
+              <a href="productos?categoria=${v.nombre_categoria}">${v.nombre_categoria}</a>
+            </li>
+          </ul>`);
+      });
+    }
   });
 }

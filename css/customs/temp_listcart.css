@@ -31,6 +31,8 @@
   list-style: none !important;
   padding: 0 .5rem !important;
   margin: 0 !important;
+  max-height: 75vh !important;
+  overflow-y: auto !important;
 }
 #cart-buy-list li {
   padding: .5rem .5rem .3rem 0;
@@ -112,7 +114,7 @@
 
 @media (min-width: 1024px){
   #cart-buy-list li{padding: 0.5rem;}
-  #cart-buy-list{width: 90%;margin: 2rem auto 0 auto !important;}
+  #cart-buy-list{min-height: 70vh !important;width: 90%;margin: 0 auto 0 auto !important;padding-top: 1rem !important;}
   #cart-buy-list li .content-info-p-prods div{background-color: #fff;padding: 0.2rem 0;border-radius: .5rem;}
   #cart-buy-list li .content-info-p-prods div .cont-img-p-prod{width: 70px;height: 70px;padding: 0;}
 }
