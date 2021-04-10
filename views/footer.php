@@ -116,7 +116,7 @@
           </div>
         </div>
         <div class="content-right-footer">
-          <a href="https://play.google.com/store/apps/details?id=ttrueque.css.com" class="lang_ttrq" key="btn-app_f-policy-1">
+          <a href="https://play.google.com/store/apps/details?id=ttrueque.ttrueque.com" class="lang_ttrq" key="btn-app_f-policy-1" target="_blank">
             <i class="fal fa-mobile-android"></i>
             <span>¡Descarga Gratis la App de Trueque!</span>
           </a>

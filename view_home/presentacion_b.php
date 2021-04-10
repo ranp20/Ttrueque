@@ -6,7 +6,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark justify-content-sm-start fixed-top" id="cont-total-tabs">
       <div class="container">
         <a class="navbar-brand order-1 order-lg-0 ml-lg-0 ml-2 mr-auto cont-logo-ttrq-nav-tabs" href="./">
-          <img src="././img/logo/el-ttrueque-logotipo-web.png" alt="Logo_Ttrueque" class="img-fluid">
+          <img src="././img/logo/logotipo-T-white.svg" alt="Logo_Ttrueque" class="img-fluid">
         </a>
         <button class="navbar-toggler align-self-start menu-nav-burger" type="button">
           <span class="navbar-toggler-icon"></span>

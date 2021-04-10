@@ -6,7 +6,7 @@
 				<section>
 					<div class="content-h-logo-txt-b">
 						<a href="home.php" class="h-logo-txt-b-link-trk">
-							<img src="./img/logo/el-ttrueque-logotipo-web.png" alt="logo_Ttrueque">
+							<img src="./img/logo/logotipo-T-white.svg" alt="logo_Ttrueque">
 						</a>
 					</div>
 					<div class="content-h-buttons-txt-b">

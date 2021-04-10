@@ -2,7 +2,7 @@
 	<div class="content-header-sidebar">
 		<div class="content-logo-sidebar-header">
 			<a title="Trueque" href="dashboard.php">
-				<img class="logo-admin-ttrk-login" src="../img/logo/Logo_TTRK.png" alt="logo_Ttrueque">
+				<img class="logo-admin-ttrk-login" src="../img/logo/logotipo-T-white.svg" alt="logo_Ttrueque">
 			</a>
 		</div>
 		<div class="cont-total-opts-header">

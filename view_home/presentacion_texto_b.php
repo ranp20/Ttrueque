@@ -54,7 +54,7 @@
 		        </div>
 		      </div>
 		      <div class="content-right-footer">
-		        <a href="https://play.google.com/store/apps/details?id=ttrueque.css.com"><i class="fal fa-mobile-android"></i>¡Descarga Gratis la App de Trueque!</a>
+		        <a href="https://play.google.com/store/apps/details?id=ttrueque.ttrueque.com" target="_blank" ><i class="fal fa-mobile-android"></i>¡Descarga Gratis la App de Trueque!</a>
 		      </div>
 		    </div>
 	  	</div>
@@ -89,7 +89,7 @@ dicho artículo a la dirección que especificaste con anterioridad al crear tu c
 		        </div>
 		      </div>
 		      <div class="content-right-footer">
-		        <a href="https://play.google.com/store/apps/details?id=ttrueque.css.com"><i class="fal fa-mobile-android"></i>¡Descarga Gratis la App de Trueque!</a>
+		        <a href="https://play.google.com/store/apps/details?id=ttrueque.ttrueque.com" target="_blank"><i class="fal fa-mobile-android"></i>¡Descarga Gratis la App de Trueque!</a>
 		      </div>
 		    </div>
 	  	</div>
@@ -193,7 +193,7 @@ dicho artículo a la dirección que especificaste con anterioridad al crear tu c
 		        </div>
 		      </div>
 		      <div class="content-right-footer">
-		        <a href="https://play.google.com/store/apps/details?id=ttrueque.css.com"><i class="fal fa-mobile-android"></i>¡Descarga Gratis la App de Trueque!</a>
+		        <a href="https://play.google.com/store/apps/details?id=ttrueque.ttrueque.com" target="_blank"><i class="fal fa-mobile-android"></i>¡Descarga Gratis la App de Trueque!</a>
 		      </div>
 		    </div>
 	  	</div>
@@ -286,7 +286,7 @@ dicho artículo a la dirección que especificaste con anterioridad al crear tu c
 		        </div>
 		      </div>
 		      <div class="content-right-footer">
-		        <a href="https://play.google.com/store/apps/details?id=ttrueque.css.com"><i class="fal fa-mobile-android"></i>¡Descarga Gratis la App de Trueque!</a>
+		        <a href="https://play.google.com/store/apps/details?id=ttrueque.ttrueque.com" target="_blank"><i class="fal fa-mobile-android"></i>¡Descarga Gratis la App de Trueque!</a>
 		      </div>
 		    </div>
 	  	</div>
@@ -453,7 +453,7 @@ dicho artículo a la dirección que especificaste con anterioridad al crear tu c
 		        </div>
 		      </div>
 		      <div class="content-right-footer">
-		        <a href="https://play.google.com/store/apps/details?id=ttrueque.css.com"><i class="fal fa-mobile-android"></i>¡Descarga Gratis la App de Trueque!</a>
+		        <a href="https://play.google.com/store/apps/details?id=ttrueque.ttrueque.com" target="_blank"><i class="fal fa-mobile-android"></i>¡Descarga Gratis la App de Trueque!</a>
 		      </div>
 		    </div>
 	  	</div>
