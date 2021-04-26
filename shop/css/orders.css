@@ -1,3 +1,9 @@
+.cont-tablelist-orders-v{
+  background-color: #fff;
+  overflow-x: auto;
+  box-shadow: 5px 12px 20px 0 rgba(0,0,0,.2);
+  border-radius: 20px;
+}
 .orders-table{
     background: #fff;
     width: 100%;
@@ -6,7 +12,6 @@
     border-collapse: collapse;
     border-radius: 20px;
     font-size: .9em;
-    box-shadow: 5px 15px 20px 0 rgba(0,0,0,.2);
 }
 .orders-table > thead > tr > th{
     padding: .9em 1em;
@@ -26,6 +31,11 @@
 .orders-table > thead > tr > th:nth-child(7),
 .orders-table > thead > tr > th:last-child{
     padding: .5rem 0;
+}
+.orders-table > thead > tr > th:nth-child(2),
+.orders-table > thead > tr > th:nth-child(3),
+.orders-table > thead > tr > th:nth-child(7){
+    min-width: 160px;
 }
 .orders-table > thead > tr > th:last-child{
     padding: .9em 2rem;

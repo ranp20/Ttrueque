@@ -57,7 +57,7 @@ function list_cant_m_idtienda() {
           <div class='card-memb-item'>
             <h4>${v.tipo}</h4>
             <div class='cont-img-memb'>
-                <div class='img-memb-itm' style='background-image: url(${img_path});background-repeat:no-repeat;background-size: cover;background-position: center;'></div>
+                <div class='img-memb-itm' style='background-image: url(${img_path});background-repeat:no-repeat;background-size: contain;background-position: center;'></div>
             </div>
             <h1 class='price-country'>$ ${v.precio_eeuu}</h1>
             <div class='cont-list-benefits'>

@@ -1,18 +1,105 @@
-/*///////////// CONTENIDO PRINCIPAL ////////////  */
+/*=================================
+=            NUEVO CSS            =
+=================================*/
 .content-dash{
-  grid-area: contenido;
-  padding: .5rem 1rem 0 1.5rem;
+  padding: .5rem 1rem 1rem 1rem;
   background: #e6e6e6;
-  z-index: 999;
+  min-height: 100vh;
+  height: 100%;
 }
-/* CONTENEDOR DEL MENU DESLIZABLE SIDEBARLEFT */
+.content-bottom {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+}
+.subcontent-left, .subcontent-right {
+  display: block;
+  margin-bottom: 1rem;
+}
 .content-btn-toggle-dashboard-dc{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 0 .5rem 0;
   border-bottom: 1px solid rgba(0,0,0,.1);
+  padding: 0 0 .5rem 0;
+  position: relative;
 }
+.content-btn-toggle-dashboard-dc .c-center-btn-tdc{
+  margin: 0;
+  padding: 0;
+}
+.content-btn-toggle-dashboard-dc .c-center-btn-tdc > a{
+  text-decoration: none;
+  background: var(--boton-saldo);
+  color: #fff;
+  font-weight: bold;
+  padding: .5rem 1rem;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#btn-show-rigth-actions{
+  cursor: pointer;  
+}
+#btn-show-rigth-actions > i{
+  transform: rotate(90deg);
+}
+.content-btn-toggle-dashboard-dc .c-right-btn-tdc{
+  display: none;
+}
+.content-btn-toggle-dashboard-dc .c-right-btn-tdc.active{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 8px;
+  top: 32px;
+  background-color: #F5F5F5;
+  padding: 1.5rem 2rem;
+  border-radius: 5px 0 5px 5px;
+  z-index: 9;
+  box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.3);
+}
+.content-btn-toggle-dashboard-dc .c-right-btn-tdc > a{
+  text-decoration: none;
+  background: var(--boton-mercado);
+  color: #fff;
+  font-weight: bold;
+  padding: .5rem 1.5rem;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+.btns-action .products-detail:hover {
+  transform: scale(.95);
+}
+.btns-action .products-whislist:hover {
+  transform: scale(.95);
+}
+.btns-action .products-orders:hover {
+  transform: scale(.95);
+}
+.btns-action .products-sales:hover {
+  transform: scale(.95);
+}
+.btns-action {
+  color: #fff;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-row-gap: 1rem;
+  margin-bottom: 1rem;
+}
+/*=================================
+=            NUEVO CSS            =
+=================================*/
+/*===================================
+=            ANTIGUO CSS            =
+===================================*/
+/*///////////// CONTENIDO PRINCIPAL ////////////  */
 .content-btn-toggle-dashboard-dc > .c-left-btn-tdc > i{
   padding: .5rem;
   font-size: 1.3rem;
@@ -20,46 +107,15 @@
   transition: ease .3s;
   border-radius: 50%;
 }
-.content-btn-toggle-dashboard-dc > .c-left-btn-tdc > i:hover{
-  background: rgba(0,0,0,.2);
-  color: #fff;
-}
-.content-btn-toggle-dashboard-dc > .c-center-btn-tdc{
-  margin-left: 150px;
-}
-.content-btn-toggle-dashboard-dc > .c-center-btn-tdc > a{
-  text-decoration: none;
-  background: var(--boton-saldo);
-  color: #fff;
-  font-weight: bold;
-  padding: 9px 40px;
-  border-radius: 5px;
-}
-.content-btn-toggle-dashboard-dc > .c-center-btn-tdc > a:hover{
+.content-btn-toggle-dashboard-dc .c-center-btn-tdc > a:hover{
   background: var(--boton-saldo_hover);
-  transform: scale(1.5);
-}
-.content-btn-toggle-dashboard-dc > .c-center-btn-tdc > a:active{
   transform: scale(.95);
 }
-.content-btn-toggle-dashboard-dc > .c-right-btn-tdc{
-  display: flex;
-  width: 29%;
-  align-items: center;
-  justify-content: space-between;
-}
-.content-btn-toggle-dashboard-dc > .c-right-btn-tdc > a{
-  text-decoration: none;
-  background: var(--boton-mercado);
-  color: #fff;
-  font-weight: bold;
-  padding: 9px 40px;
-  border-radius: 5px;
-}
-.content-btn-toggle-dashboard-dc > .c-right-btn-tdc > a:hover{
+
+.content-btn-toggle-dashboard-dc .c-right-btn-tdc > a:hover{
   background: var(--boton-mercado_hover);
 }
-.content-btn-toggle-dashboard-dc > .c-right-btn-tdc > a > i{
+.content-btn-toggle-dashboard-dc .c-right-btn-tdc > a > i{
   margin-right: 12px;
 }
 /* CONTENEDOR PRINCIPAL DEL DASHBOARD */
@@ -88,15 +144,6 @@
   box-sizing: border-box;
   margin: 10px 0 0 0;
 }
-/*//////////// BOTONES DE ACCIONES  ///////////  */
-.btns-action {
-  color: #fff;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-areas: "boton1 boton2 boton3 boton4";
-  gap: 1em;
-  margin-bottom: 1em;
-}
 
 .btns-action a {
   text-decoration: none !important;
@@ -111,12 +158,6 @@
 .btns-action a:hover{
   color: #fff;
 }
-.btns-action .products-detail:hover {
-  transform: scale(2em);
-}
-.btns-action a:active {
-  transform: scale(0.95);
-}
 .content-icons {
   align-self: center !important;
   text-align: -webkit-center !important;
@@ -124,9 +165,6 @@
 }
 .btns-action li span{
   transition: ease all 0.4s !important;
-}
-.btns-action li span:hover{
-  transform: scale(1.4) !important;
 }
 .btns-action li span.icon-btn-dash-cart,
 .btns-action li span.icon-btn-dash-heart,
@@ -174,7 +212,6 @@
 }
 /*//////////// BOTÓN PRODUCTOS EN EL CARRITO ///////////  */
 .btns-action .products-detail {
-  grid-area: boton1;
   background: var(--boton1);
 }
 .btns-action .products-detail i,
@@ -186,40 +223,17 @@
 }
 /*//////////// BOTÓN PRODUCTOS EN LA LISTA DE DESEOS ///////////  */
 .btns-action .products-whislist {
-  grid-area: boton2;
   background: var(--boton2);
 }
 /*//////////// BOTÓN PRODUCTOS EN TUS PEDIDOS ///////////  */
 .btns-action .products-orders {
-  grid-area: boton3;
   background: var(--boton3);
 }
 /*//////////// BOTÓN PRODUCTOS VENDIDOS ///////////  */
 .btns-action .products-sales {
-  grid-area: boton4;
   background: var(--boton4);
 }
-/*//////////// HOVER DE LOS BOTONES ///////////  */
-.btns-action .products-detail:hover {
-  transform: scale(1.1);
-}
-.btns-action .products-whislist:hover {
-  transform: scale(1.1);
-}
-.btns-action .products-orders:hover {
-  transform: scale(1.1);
-}
-.btns-action .products-sales:hover {
-  transform: scale(1.1);
-}
 /*//////////// COTENIDO INFERIOR ///////////  */
-.content-bottom {
-  display: grid;
-  grid-template-columns: 40% auto;
-  grid-template-rows: 1fr;
-  grid-template-areas: "inferiorL inferiorR";
-  gap: 1.5em;
-}
 .cabecera-content {
   padding: 1em;
   display: flex;
@@ -251,18 +265,6 @@
 .table-td-b {
   padding: 0;
 }
-/*//////////// COTENIDO INFERIOR - IZQUIERDO ///////////  */
-.subcontent-left {
-  grid-area: inferiorL;
-  box-shadow: -1px 8px 10px -1px rgba(0,0,0,.12);
-  border-radius: 20px;
-}
-/*//////////// COTENIDO INFERIOR - DERECHO ///////////  */
-.subcontent-right {
-  grid-area: inferiorR;
-  box-shadow: -1px 8px 10px -1px rgba(0,0,0,.12);
-  border-radius: 20px;
-}
 .contenido-content {
   background: #fff;
   padding: .5em 1em 1em .8em;
@@ -280,15 +282,149 @@
   padding: 0 1em;
 }
 
-/* NUEVOS ESTILOS FINALES TTRUEQUE_V.1 */
-.btns-action.cont-btns-pages-shop{
-  display: flex !important;
-  justify-content: center;
-  align-items: center;
+
+@media (min-width: 300px){
+
 }
-.btns-action.cont-btns-pages-shop .btn-sel-page-shop{
-  width: calc(100% * 1/3 - 25px) !important;
+
+@media (min-width: 320px){
+  
 }
-.btns-action.cont-btns-pages-shop .btn-sel-page-shop:hover{
-  transform: scale(1.07) !important;
+
+@media (min-width: 360px){
+  
+}
+
+@media (min-width: 480px){
+  
+}
+
+@media (min-width: 600px){
+  .btns-action {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1rem;
+    grid-template-rows: auto;
+  }
+  .content-btn-toggle-dashboard-dc .c-center-btn-tdc > a{
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 768px){
+  .btns-action{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .btns-action a{
+    width: 330px;
+  }
+}
+
+@media (min-width: 1024px){
+  .content-btn-toggle-dashboard-dc .c-center-btn-tdc > a{
+    font-size: 1rem;
+  }
+  #btn-show-rigth-actions{
+    display: none; 
+  } 
+  .content-btn-toggle-dashboard-dc .c-right-btn-tdc{
+    display: flex;
+    align-items: center;
+    width: auto;
+  }
+  .container-memb-rest_cli{
+    margin: 0 1rem 0 0;
+  }
+  .content-btn-toggle-dashboard-dc .c-center-btn-tdc{
+    margin: 0 0 0 12rem;
+  }
+  .content-bottom {
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1rem;
+  }
+}
+
+@media (min-width: 1280px){
+  .content-btn-toggle-dashboard-dc > .c-left-btn-tdc > i:hover{
+    background: rgba(0,0,0,.2);
+    color: #fff;
+  }
+  .content-bottom {
+    grid-template-columns: 40% auto;
+    grid-template-rows: 1fr;
+    grid-template-areas: "inferiorL inferiorR";
+    gap: 1.5em;
+  }
+  .subcontent-left {
+    grid-area: inferiorL;
+    box-shadow: -1px 8px 10px -1px rgba(0,0,0,.12);
+    border-radius: 20px;
+  }
+  .subcontent-right {
+    grid-area: inferiorR;
+    box-shadow: -1px 8px 10px -1px rgba(0,0,0,.12);
+    border-radius: 20px;
+  }
+  .btns-action.cont-btns-pages-shop{
+    display: flex !important;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .btns-action.cont-btns-pages-shop .btn-sel-page-shop{
+    width: calc(100% * 1/3 - 25px) !important;
+  }
+  .btns-action.cont-btns-pages-shop .btn-sel-page-shop:hover{
+    transform: scale(1.07) !important;
+  }
+  .content-btn-toggle-dashboard-dc{
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 .5rem 0;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+  }
+  #btn-show-rigth-actions{
+    display: none;
+  }
+  .content-dash{
+    grid-area: contenido;
+    padding: .5rem 1rem 0 1.5rem;
+    z-index: 999;
+  }
+  .content-btn-toggle-dashboard-dc .c-center-btn-tdc > a:active{
+    transform: scale(.95);
+  }
+  .content-btn-toggle-dashboard-dc .c-right-btn-tdc > a{
+    text-decoration: none;
+    background: var(--boton-mercado);
+    color: #fff;
+    font-weight: bold;
+    padding: 9px 40px;
+    border-radius: 5px;
+  }
+  .btns-action a:active {
+    transform: scale(0.95);
+  }
+  .btns-action li span:hover{
+    transform: scale(1.4) !important;
+  }
+  /*//////////// HOVER DE LOS BOTONES ///////////  */
+  .btns-action .products-detail:hover {
+    transform: scale(1.1);
+  }
+  .btns-action .products-whislist:hover {
+    transform: scale(1.1);
+  }
+  .btns-action .products-orders:hover {
+    transform: scale(1.1);
+  }
+  .btns-action .products-sales:hover {
+    transform: scale(1.1);
+  }
+}
+
+@media (min-width: 1400px){
+  
 }

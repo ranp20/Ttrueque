@@ -56,21 +56,23 @@ if(!isset($_GET['ord']) || !is_numeric($_GET['ord']) || $_GET['ord'] == ""){
             <h2><span>Total:</span><span id="total_points-ord"></span></h2>
           </div>
         </div>
-        <table class="view-orders-table">
-          <thead class="view-orders-thead">
-            <tr>
-              <th>#</th>
-              <th>Producto</th>
-              <th>Cliente</th>
-              <th>Bikers</th>
-              <th>Cantidad</th>
-              <th>Subtotal</th>
-              <th>F. Creación</th>
-            </tr>
-          </thead>
-          <tbody class="view-orders-tbody" id="list_view_order_idord">
-          </tbody>
-        </table>
+        <div class="cont-tablelist-vieworders">
+          <table class="view-orders-table">
+            <thead class="view-orders-thead">
+              <tr>
+                <th>#</th>
+                <th>Producto</th>
+                <th>Cliente</th>
+                <th>Bikers</th>
+                <th>Cantidad</th>
+                <th>Subtotal</th>
+                <th>F. Creación</th>
+              </tr>
+            </thead>
+            <tbody class="view-orders-tbody" id="list_view_order_idord">
+            </tbody>
+          </table>
+        </div>
       </div>
       <h2 id="resultTabla"></h2>
     </section>

@@ -1,14 +1,64 @@
-/*======== CONTENIDO - PRIMER FORMULARIO =========*/
+/*=================================
+=            NUEVO CSS            =
+=================================*/
+.form-product{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
 .content-add-product {
-  width: 80%;
+  width: 100%;
   border-radius: 3px;
 }
+.product-controls {
+  display: flex;
+  flex-direction: column;
+  margin: 0.7em 0;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.label-product {
+  width: 100%;
+}
+.product-controls:nth-child(2) {
+  margin: 0 0;
+}
+.input-product {
+  width: 100%;
+  border: 1px solid var(--divisor);
+  padding: 0.5em 0.6em;
+}
+.product-content:nth-child(3) > .form-content{
+  border-radius: 20px;
+  height: auto;
+}
+#btn-product-update{
+  margin-bottom: 0;
+  width: auto;
+  float: unset;
+  padding: 0.6rem 4rem;
+}
+.btn-add-product.add_cli-prods-ttrk{
+  margin-bottom: 0;
+  width: auto;
+  float: unset;
+  padding: 0.6rem 4rem;
+}
+/*=================================
+=            NUEVO CSS            =
+=================================*/
+/*===================================
+=            ANTIGUO CSS            =
+===================================*/
+/*======== CONTENIDO - PRIMER FORMULARIO =========*/
 .product-content {
   padding: 0 0 0 0;
   margin-bottom: 1em;
   border: 1px solid rgba(0,0,0,.05);
   border-radius: 20px;
   box-shadow: 5px 15px 20px 0 rgba(0,0,0,.2);
+  width: 100%;
 }
 .product-head {
   background: var(--head_contenedor);
@@ -27,27 +77,6 @@
 }
 .product-content:nth-child(2) > .form-content{
   border-radius: 20px;
-}
-.product-content:nth-child(3) > .form-content{
-  border-radius: 20px;
-  height: 450px;
-}
-.product-controls {
-  display: flex;
-  flex-direction: row;
-  margin: 0.7em 0;
-  justify-content: space-between;
-}
-.label-product {
-  width: 20%;
-}
-.product-controls:nth-child(2) {
-  margin: 0 0;
-}
-.input-product {
-  width: 75%;
-  border: 1px solid var(--divisor);
-  padding: 0.5em 0.6em;
 }
 .input-product.unidad {
   width: 20%;
@@ -111,20 +140,6 @@
   height: 100px;   
 }
 /* PRECIO PRODUCTO */
-.product-controls-precio {
-  display: flex;
-  flex-direction: row;
-  margin: 0.7em 0;
-  justify-content: space-between;
-}
-.label-product-precio {
-  width: 20%;
-}
-.input-product-precio {
-  width: 75%;
-  border: 1px solid var(--divisor);
-  padding: 0.5em 0.6em;
-}
 .product-controls-desc {
   display: flex;
   flex-direction: column;
@@ -171,10 +186,6 @@
   background: var(--btn-update);
   border-radius: 20px;
 }
-#btn-product-update{
-  margin-bottom: 20px;
-  width: 30%;
-}
 /* ELIMINAR */
 .btn-delete-product {
   background: var(--btn-delete);
@@ -199,10 +210,6 @@
 .btn-delete-product:active {
   transform: scale(0.95);
 }
-.btn-add-product.add_cli-prods-ttrk{
-  margin-bottom: 20px;
-  width: 30%;
-}
 /* UPDATE PRODUCT */
 #imgSrc{
   display: flex;
@@ -215,4 +222,75 @@
   width: 100px;
   height: 100px;
   border:1px solid #ddd;
+}
+
+
+/*===========================================================
+=            MEDIA QUERIES INTO THIS STYLESSHEET            =
+===========================================================*/
+@media (min-width: 300px){
+
+}
+
+@media (min-width: 320px){
+  
+}
+
+@media (min-width: 360px){
+  
+}
+
+@media (min-width: 480px){
+  
+}
+
+@media (min-width: 600px){
+  
+}
+
+@media (min-width: 768px){
+  .product-controls {
+    display: flex;
+    flex-direction: row;
+    margin: 0.7em 0;
+    justify-content: space-between;
+  }
+  .label-product {
+    width: 20%;
+  }
+  .product-controls:nth-child(2) {
+    margin: 0 0;
+  }
+  .input-product {
+    width: 75%;
+    border: 1px solid var(--divisor);
+    padding: 0.5em 0.6em;
+  }
+  .product-content:nth-child(3) > .form-content{
+    border-radius: 20px;
+    height: 450px;
+  }
+  #btn-product-update{
+    margin-bottom: 20px;
+    width: 30%;
+  }
+  .btn-add-product.add_cli-prods-ttrk{
+    margin-bottom: 20px;
+    width: 30%;
+  }
+}
+
+@media (min-width: 1024px){
+  
+}
+
+@media (min-width: 1280px){
+  .content-add-product {
+    width: 80%;
+    border-radius: 3px;
+  }
+}
+
+@media (min-width: 1400px){
+  
 }

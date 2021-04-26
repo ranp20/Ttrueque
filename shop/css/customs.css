@@ -12,7 +12,7 @@
 }
 
 .loader-cli > img{
-  width: 700px;
+  width: 550px;
 }
 
 .loader-cli.hidden{
@@ -25,4 +25,41 @@
       opacity: 0;
       visibility: hidden;
   }
+}
+
+/*===========================================================
+=            MEDIA QUERIES INTO THIS STYLESSHEET            =
+===========================================================*/
+@media (min-width: 300px){
+
+}
+
+@media (min-width: 320px){
+  
+}
+
+@media (min-width: 360px){
+  
+}
+
+@media (min-width: 480px){
+  
+}
+
+@media (min-width: 768px){
+  
+}
+
+@media (min-width: 1024px){
+  
+}
+
+@media (min-width: 1280px){
+  .loader-cli > img{
+    width: 700px;
+  }  
+}
+
+@media (min-width: 1400px){
+  
 }

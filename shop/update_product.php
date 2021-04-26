@@ -113,12 +113,10 @@ if(!isset($_GET['id']) || !is_numeric($_GET['id']) || $_GET['id'] == ""){
                                 <input type="number" name="stock" id="stock" class="input-product">
                             </div>
                             <!--  PRECIO DEL PRODUCTO -->
-                            <div class="form-controls">
-                                <div class="product-controls-precio">
-                                    <label for="" class="label-product-precio lang_ttrq"
-                                        key="txt-form-update_product-6">Precio</label>
-                                    <input type="text" name="precio" class="input-product-precio" id="precio">
-                                </div>
+                            <div class="product-controls">
+                                <label for="" class="label-product lang_ttrq"
+                                    key="txt-form-update_product-6">Precio</label>
+                                <input type="text" name="precio" class="input-product" id="precio">
                             </div>
                         </div>
                     </div>

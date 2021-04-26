@@ -1,12 +1,17 @@
+.cont-tablelist-request-refund{
+  background-color: #fff;
+  overflow-x: auto;
+  box-shadow: 5px 12px 20px 0 rgba(0,0,0,.2);
+  border-radius: 20px;
+}
 .request_refund-table{
-    background: #fff;
-    width: 100%;
-    text-align: left;
-    box-sizing: border-box;
-    border-collapse: collapse;
-    border-radius: 20px;
-    font-size: .9em;
-    box-shadow: 5px 15px 20px 0 rgba(0,0,0,.2);
+  background: #fff;
+  width: 100%;
+  text-align: left;
+  box-sizing: border-box;
+  border-collapse: collapse;
+  border-radius: 20px;
+  font-size: .9em;
 }
 .request_refund-table > thead > tr > th{
     padding: .9em 1em;
@@ -20,6 +25,12 @@
 .request_refund-table > tbody > tr > td{
     padding:1.2em 1em;
     border-top: 1px solid var(--divisor);
+}
+.request_refund-table > tbody > tr > td:nth-child(2){
+  min-width: 160px;
+}
+.request_refund-table > tbody > tr > td:last-child{
+  min-width: 160px;
 }
 .request_refund-table > tbody > tr > td:first-child{
     text-align: center;

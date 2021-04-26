@@ -67,17 +67,19 @@ $categories = $c->get_categorias();
             <input type="text" name="name" id="name">
             <button class="btn-add-product lang_ttrq" id="btn-add-marca" key='title-name-of-save'>Guardar</button>
           </div> <!-- CATEGORÍA DEL PRODUCTO -->
-          <table class="list-trademarks_categories">
-            <thead class="thead-trademarks_categories">
-              <tr>
-                <th>ID</th>
-                <th class='lang_ttrq' key='title-name-of-trademark'>Nombre Marca</th>
-                <th colspan='2' class='lang_ttrq' key='title-options-of-trademark'>Opciones</th>
-              </tr>
-            </thead>
-            <tbody class="tbody-trademarks_categories" id="list">
-            </tbody>
-          </table>
+          <div class="cont-tablelist-trademarks">
+            <table class="list-trademarks_categories">
+              <thead class="thead-trademarks_categories">
+                <tr>
+                  <th>ID</th>
+                  <th class='lang_ttrq' key='title-name-of-trademark'>Nombre Marca</th>
+                  <th colspan='2' class='lang_ttrq' key='title-options-of-trademark'>Opciones</th>
+                </tr>
+              </thead>
+              <tbody class="tbody-trademarks_categories" id="list">
+              </tbody>
+            </table>
+          </div>  
         </div>
         <div class="contents_items_t-c-dinamic" id="categories">
           <div class="trademarks_categories-controls">
@@ -94,17 +96,19 @@ $categories = $c->get_categorias();
             </select>
             <button class="btn-add-product lang_ttrq" id="btn-add-categoria_tienda" key='title-name-of-save'>Guardar</button>
           </div> <!-- CATEGORÍA DEL PRODUCTO -->
-          <table class="list-trademarks_categories">
-            <thead class="thead-trademarks_categories">
-              <tr>
-                <th class='lang_ttrq' key='title-id-categories'>ID</th>
-                <th class='lang_ttrq' key='title-name-of-categoria'>Nombre Categoría</th>
-                <th class='lang_ttrq' colspan='2' key='title-opts-of-categories'>Opciones</th>
-              </tr>
-            </thead>
-            <tbody class="tbody-trademarks_categories" id="list_categories_tienda">
-            </tbody>
-          </table>
+          <div class="cont-tablelist-trademarks">
+            <table class="list-trademarks_categories">
+              <thead class="thead-trademarks_categories">
+                <tr>
+                  <th class='lang_ttrq' key='title-id-categories'>ID</th>
+                  <th class='lang_ttrq' key='title-name-of-categoria'>Nombre Categoría</th>
+                  <th class='lang_ttrq' colspan='2' key='title-opts-of-categories'>Opciones</th>
+                </tr>
+              </thead>
+              <tbody class="tbody-trademarks_categories" id="list_categories_tienda">
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
     </section>

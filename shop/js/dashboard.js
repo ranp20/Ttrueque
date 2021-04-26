@@ -15,3 +15,32 @@ linksParentCli.on('click', 'a', function(){
 
 	t.addClass('active').siblings().removeClass('active');
 });
+
+((d) => {
+
+	/************************** SIDEBARLEFT MOVEMENT **************************/
+	let btnsidebarLeft = d.querySelector('.c-left-btn-tdc');
+	let sidebarLeft = d.querySelector('.sidebar-nav');
+	btnsidebarLeft.addEventListener('click', e => {
+		btnsidebarLeft.classList.toggle('active');
+		sidebarLeft.classList.toggle('active');
+	});
+
+
+	/************************** HIDE SIDEBAR WHEN CLICKIN ON A LINK **************************/
+	d.addEventListener("click", e => {
+		if(!e.target.matches('#options-user-d-cli a')) return false;
+		btnsidebarLeft.classList.remove('active');
+		sidebarLeft.classList.remove('active');
+	});
+
+	/************************** HIDE AND SHOW WHEN CLICKIN ON A MENU OF POINTS **************************/
+	let btnpointsRight = d.querySelector('#btn-show-rigth-actions');
+	let contentRightbtns = d.querySelector('.c-right-btn-tdc');
+	btnpointsRight.addEventListener('click', e => {
+		btnpointsRight.classList.toggle('active');
+		contentRightbtns.classList.toggle('active');
+	});
+
+
+})(document);

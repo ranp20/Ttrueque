@@ -1,17 +1,39 @@
+/*===================================
+=            NUEVO CSS            =
+===================================*/
+.btns-options-trademarks-categories{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-row-gap: 1rem;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.contents_items_t-c-dinamic{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  align-items: center;
+  grid-row-gap: 1rem;
+  width: 100%;
+  background: rgba(255,255,255,.5);
+  padding: 10px;
+  border-radius: 20px;
+  display: none;
+  margin-bottom: 20px;
+}
+/*===================================
+=            NUEVO CSS            =
+===================================*/
+/*===================================
+=            ANTIGUO CSS            =
+===================================*/
 .t-c-titles-dinamic > h1{
     font-size: 24px;  
 }
 /*//////////// BOTONES DE ACCIONES - WALLET ///////////  */
-.btns-options-trademarks-categories{
-    display: grid;
-    grid-template-columns: 25% 25%;
-    grid-template-areas: "trademarks categories";
-    gap: 1em;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    margin-bottom: 10px;
-}
 .btns-options-trademarks-categories > a{
     color: #fff;
     text-decoration: none !important;
@@ -76,21 +98,6 @@
     display: block;
     position: relative;
 }
-.contents_items_t-c-dinamic{
-    display: grid;
-    grid-template-columns: 35% auto;
-    align-items: center;
-    gap: 20px;
-    width: 100%;
-    background: rgba(255,255,255,.5);
-    padding: 10px;
-    border-radius: 20px;
-    display: none;
-    margin-bottom: 20px;
-    /*position: absolute;
-    overflow: scroll;
-    max-height: 379px;*/
-}
 .contents_items_t-c-dinamic.active{
     /*visibility: visible;*/
     display: grid;
@@ -114,12 +121,17 @@
     align-self: flex-end;
 }
 /* TABLA DE LISTADO */
+.cont-tablelist-trademarks{
+  background-color: #fff;
+  overflow-x: auto;
+  box-shadow: 5px 12px 20px 0 rgba(0,0,0,.2);
+  border-radius: 20px;
+}
 .list-trademarks_categories{
     background: #fff;
     font-size: .9em;
     border-collapse: collapse;
     border-radius: 20px;
-    box-shadow: 5px 15px 20px 0 rgba(0,0,0,.2);
 }
 .thead-trademarks_categories > tr,
 .thead-trademarks_categories > td{
@@ -147,4 +159,73 @@
     border: 1px solid var(--divisor);
     padding: 0.5em 0.6em;
     margin: 0 0 10px 0;
+}
+
+
+
+/*===========================================================
+=            MEDIA QUERIES INTO THIS STYLESSHEET            =
+===========================================================*/
+@media (min-width: 300px){
+
+}
+
+@media (min-width: 320px){
+  
+}
+
+@media (min-width: 360px){
+  
+}
+
+@media (min-width: 480px){
+  
+}
+
+@media (min-width: 600px){
+ .btns-options-trademarks-categories{
+  grid-template-columns: 1fr 1fr;
+ } 
+}
+
+@media (min-width: 768px){
+  .contents_items_t-c-dinamic{
+      display: grid;
+      grid-template-columns: 35% auto;
+      align-items: center;
+      gap: 20px;
+      width: 100%;
+      background: rgba(255,255,255,.5);
+      padding: 10px;
+      border-radius: 20px;
+      display: none;
+      margin-bottom: 20px;
+      /*position: absolute;
+      overflow: scroll;
+      max-height: 379px;*/
+  }
+  .btns-options-trademarks-categories{
+    display: flex;
+    gap: 1rem;
+  }
+  .btns-options-trademarks-categories > a{
+    width: 330px;
+  }
+}
+
+@media (min-width: 1024px){
+  
+}
+
+@media (min-width: 1280px){
+  .btns-options-trademarks-categories{
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 1400px){
+  
 }

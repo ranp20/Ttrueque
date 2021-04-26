@@ -1,3 +1,78 @@
+/*=================================
+=            NUEVO CSS            =
+=================================*/
+.content-memb-ttrk > main > .content-memb-titles{
+  color: #fff;
+  margin: 1rem 0;
+}
+.content-memb-ttrk > main > .content-memb-titles h3{
+  font-size: 1.4rem;
+}
+.content-memb-ttrk > header{
+  width: 130px;
+  height: auto;
+  position: relative;
+  margin: 0 auto;
+}
+.content-memb-ttrk > main > .content-memb-targets > .card-memb-item{
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 0.25rem;
+  padding: 1rem 1rem 2rem 1rem;
+  max-width: 315px;
+  width: 100%;
+  line-height: 1.875rem;
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+  box-sizing: border-box;
+  transition: ease .3s;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0;
+}
+.container-ttlp-memb{
+  margin: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(
+      var(--principal-color) 30%,
+      #fff 30%
+      );
+}
+.content-memb-ttrk > main > .content-memb-targets{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-row-gap: 2rem;
+}
+.content-memb-ttrk > main > .content-memb-targets > .card-memb-item > h1{
+  margin: 0.625rem 0;
+  color: #F33B85;
+  font-weight: 500;
+  font-size: 2.2rem;
+}
+.content-memb-ttrk > main > .content-memb-targets > .card-memb-item > .cont-list-benefits{
+  margin: 0 0 1rem 0;
+  line-height: 1.875rem;
+  text-align: initial;
+  padding: 0 0 0 1.8rem;
+}
+.content-memb-ttrk > main > .content-memb-targets > .card-memb-item > h4{
+  margin: 0 0 0.313rem 0;
+  color: #91D3F3;
+  font-weight:600;
+  text-shadow: 0 1px 4px rgba(0,0,0,.2), 0 1px 2px blue;
+  font-size: 1.35rem;
+}
+/*=================================
+=            NUEVO CSS            =
+=================================*/
+/*===================================
+=            ANTIGUO CSS            =
+===================================*/
 .container-membership-ttrk{
     width: 100%;
     min-height: 100vh;
@@ -6,33 +81,14 @@
     overflow: hidden;
     background: var(--background-color);
 }
-.container-ttlp-memb{
-    margin: auto;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-}
 .content-memb-ttrk{
     max-width: 1199px;
     width: 100%;
-    padding: 1rem 3.75rem 0 3.75rem;
+    padding: 1rem;
     text-align: center;
     margin: auto;
-    background: linear-gradient(
-        var(--principal-color) 70%,
-        #fff 30%
-        );
-    box-shadow: 1px 1px 25px 1px rgba(0,0,0,.4);
     position: relative;
     border-radius: 0.4rem;
-}
-.content-memb-ttrk > header{
-    width: 8.75rem;
-    height: 3.438rem;
-    position: absolute;
-    z-index: 999999;
 }
 .content-top-memb > .cont-memb-logo-ttrk > a{
     width: 100%;
@@ -50,50 +106,6 @@
     align-items: center;
     align-content: center;
 }
-/* TÍTULO DE LA TABLA DE MEBRESÍAs */
-.content-memb-ttrk > main > .content-memb-titles{
-    color: #fff;
-    margin: 0.625rem 0 2.5rem 0;
-}
-.content-memb-ttrk > main > .content-memb-targets{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    transition: ease all .5s;
-}
-
-/* TARGETAS DE MEMBRESÍA */
-.content-memb-ttrk > main > .content-memb-targets > .card-memb-item{
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 0.25rem;
-    padding: 1.25rem;
-    width: calc(100% * 1/3 - 24px);
-    line-height: 1.875rem;
-    box-shadow: 7px -1px 7px -1px rgba(0,0,0,0.3);
-    box-sizing: border-box;
-    transition: ease .3s;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin: 0 .5rem 1.5rem .5rem;
-}
-.content-memb-ttrk > main > .content-memb-targets > .card-memb-item:hover{
-    transform: scale(1.05) translateY(-20px);
-}
-.content-memb-ttrk > main > .content-memb-targets > .card-memb-item:nth-child(2){
-
-    box-shadow: 0px 1px 25px -6px rgba(0,0,0,0.75);
-}
-.content-memb-ttrk > main > .content-memb-targets > .card-memb-item:nth-child(2) > .cont-list-benefits{
-    font-size: 0.938rem;
-}
-.content-memb-ttrk > main > .content-memb-targets > .card-memb-item > h4{
-    margin: 0 0 0.313rem 0;
-    color: #91D3F3;
-    font-weight:600;
-    text-shadow: 0 1px 4px rgba(0,0,0,.2), 0 1px 2px blue;
-}
 .content-memb-ttrk > main > .content-memb-targets > .card-memb-item > .cont-img-memb{
     display: flex;
     align-items: center;
@@ -106,17 +118,7 @@
     width: 50%;
     height: 100%;
 }
-.content-memb-ttrk > main > .content-memb-targets > .card-memb-item > h1{
-    margin: 0.625rem 0;
-    color: #F33B85;
-    font-weight: 500;
-}
-.content-memb-ttrk > main > .content-memb-targets > .card-memb-item > .cont-list-benefits{
-    margin: 0.313rem 0 0 0;
-    line-height: 1.875rem;
-    text-align: initial;
-    padding: 0 0 0 1.8rem;
-}
+
 .content-memb-ttrk > main > .content-memb-targets > .card-memb-item > a{
     color: #F04587;
     padding: 0.5rem 0;
@@ -143,4 +145,154 @@
     .content-memb-ttrk > main > .content-memb-targets > .card-memb-item{
         width: 45%;
     }
+}
+
+
+
+/*===========================================================
+=            MEDIA QUERIES INTO THIS STYLESSHEET            =
+===========================================================*/
+@media (min-width: 300px){
+
+}
+
+@media (min-width: 320px){
+  
+}
+
+@media (min-width: 360px){
+  
+}
+
+@media (min-width: 480px){
+  
+}
+
+@media (min-width: 600px){
+  .content-memb-ttrk > main > .content-memb-targets{
+    grid-column-gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+  } 
+  .container-ttlp-memb{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(
+        var(--principal-color) 30%,
+        #fff 30%
+        );
+  }
+  .content-memb-ttrk > main > .content-memb-targets > .card-memb-item{
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    padding: 1rem 1rem 2rem 1rem;
+    max-width: 315px;
+    width: calc(100% * 1/2 - 15px);
+    line-height: 1.875rem;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+    box-sizing: border-box;
+    transition: ease .3s;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+  }
+}
+
+@media (min-width: 768px){
+  
+}
+
+@media (min-width: 1024px){
+  .container-ttlp-memb{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(
+        var(--principal-color) 40%,
+        #fff 40%
+        );
+  }
+}
+
+@media (min-width: 1280px){
+  .content-memb-ttrk{
+    max-width: 1199px;
+    width: 100%;
+    padding: 1rem 3.75rem 0 3.75rem;
+    text-align: center;
+    margin: auto;
+    background: linear-gradient(
+        var(--principal-color) 70%,
+        #fff 30%
+        );
+    box-shadow: 1px 1px 25px 1px rgba(0,0,0,.4);
+    position: relative;
+    border-radius: 0.4rem;
+  }
+  .content-memb-ttrk > header{
+    width: 8.75rem;
+    height: 3.438rem;
+    position: absolute;
+    z-index: 999999;
+  }
+  .content-memb-ttrk > main > .content-memb-targets > .card-memb-item{
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    padding: 1.25rem;
+    width: calc(100% * 1/3 - 24px);
+    line-height: 1.875rem;
+    box-shadow: 7px -1px 7px -1px rgba(0,0,0,0.3);
+    box-sizing: border-box;
+    transition: ease .3s;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 .5rem 1.5rem .5rem;
+  }
+  .content-memb-ttrk > main > .content-memb-targets{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: ease all .5s;
+  }
+  .content-memb-ttrk > main > .content-memb-targets > .card-memb-item > h1{
+    margin: 0.625rem 0;
+    color: #F33B85;
+    font-weight: 500;
+  }
+  .content-memb-ttrk > main > .content-memb-targets > .card-memb-item > .cont-list-benefits{
+    margin: 0.313rem 0 0 0;
+    line-height: 1.875rem;
+    text-align: initial;
+    padding: 0 0 0 1.8rem;
+  }
+	.content-memb-ttrk > main > .content-memb-targets > .card-memb-item:hover{
+	    transform: scale(.95) translateY(20px);
+	}
+	.content-memb-ttrk > main > .content-memb-targets > .card-memb-item > h4{
+    margin: 0 0 0.313rem 0;
+    color: #91D3F3;
+    font-weight:600;
+    text-shadow: 0 1px 4px rgba(0,0,0,.2), 0 1px 2px blue;
+	}
+  .content-memb-ttrk > main{
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 1400px){
+  
 }

@@ -59,21 +59,23 @@ $_Secret = $data_cred[0]['key_secret'];
                 <h1><i class="lni lni-eye"></i>Si usted canceló este mes y aún recibe pedidos confirmados, sus aportes
                     se estarán acumulando para el siguiente mes...</h1>
             </div>
-            <table class="sales_report-table">
-                <thead class="sales_report-thead">
-                    <tr>
-                        <th class="lang_ttrq">Mes</th>
-                        <th class="lang_ttrq">Total</th>
-                        <th class="lang_ttrq">Impuesto 8%</th>
-                        <th class="lang_ttrq">Año</th>
-                        <th class="lang_ttrq">Estado</th>
-                        <th class="lang_ttrq">Detalle</th>
-                        <th class="lang_ttrq">Opciones</th>
-                    </tr>
-                </thead>
-                <tbody class="sales_report-tbody" id="list_cartstore_idtienda">
-                </tbody>
-            </table>
+            <div class="cont-tablelist-sales-report">
+                <table class="sales_report-table">
+                    <thead class="sales_report-thead">
+                        <tr>
+                            <th class="lang_ttrq">Mes</th>
+                            <th class="lang_ttrq">Total</th>
+                            <th class="lang_ttrq">Impuesto 8%</th>
+                            <th class="lang_ttrq">Año</th>
+                            <th class="lang_ttrq">Estado</th>
+                            <th class="lang_ttrq">Detalle</th>
+                            <th class="lang_ttrq">Opciones</th>
+                        </tr>
+                    </thead>
+                    <tbody class="sales_report-tbody" id="list_cartstore_idtienda">
+                    </tbody>
+                </table>
+            </div>
         </section>
     </div>
     <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"

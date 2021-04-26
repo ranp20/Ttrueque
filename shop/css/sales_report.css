@@ -1,22 +1,38 @@
+/*=================================
+=            NUEVO CSS            =
+=================================*/
 .content-top-sales-report{
-    box-sizing: border-box;
-    margin: 0 0 .5rem 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 1.5rem 0 0;
+  box-sizing: border-box;
+  margin: 0 0 .5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
 }
 .content-top-sales-report > .content-title-sales-report{
-    display: flex;
-    align-items: center;
-    margin: 20px 0 10px 0;
-    padding: 0 0 0 10px;
-    width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px 0 10px 0;
+  padding: 0;
+  width: 100%;
+  height: 75px;
 }
 .content-top-sales-report > .content-title-sales-report > select{
-    width: 25%;
-    margin-left: 2rem;
+  width: 150px;
+  margin: 0;
 }
+.sales_report-table > tbody > tr > td:nth-child(6),
+.sales_report-table > tbody > tr > td:last-child{
+  min-width: 160px;
+}
+/*=================================
+=            NUEVO CSS            =
+=================================*/
+/*===================================
+=            ANTIGUO CSS            =
+===================================*/
 .content-top-sales-report > .content-title-sales-report > select > option{
     padding: .5rem 0 !important;
     font-size: 1rem;
@@ -45,6 +61,12 @@
 .content-button-view-sales-report a i{
     margin-left: 0.9rem;
     font-size: 1.4rem;
+}
+.cont-tablelist-sales-report{
+  background-color: #fff;
+  overflow-x: auto;
+  box-shadow: 5px 12px 20px 0 rgba(0,0,0,.2);
+  border-radius: 20px;
 }
 .sales_report-table{
     background: #fff;
@@ -193,4 +215,73 @@
 }
 .cont-msg-monthly-sales > h1 > i:last-child{
     margin-left: 0.5rem;
+}
+
+
+/*===========================================================
+=            MEDIA QUERIES INTO THIS STYLESSHEET            =
+===========================================================*/
+@media (min-width: 300px){
+
+}
+
+@media (min-width: 320px){
+  
+}
+
+@media (min-width: 360px){
+  
+}
+
+@media (min-width: 480px){
+  
+}
+
+@media (min-width: 600px){
+  .content-top-sales-report > .content-title-sales-report{
+    flex-direction: row;
+    align-items: baseline;
+    height: 45px;
+  }
+  .content-top-sales-report > .content-title-sales-report > select{
+    margin-left: 1rem;
+  }
+}
+
+@media (min-width: 768px){
+  .content-top-sales-report > .content-title-sales-report{
+    width: auto;
+  }
+  .content-top-sales-report{
+    box-sizing: border-box;
+    margin: 0 0 .5rem 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+  }
+}
+
+@media (min-width: 1024px){
+  
+}
+
+@media (min-width: 1280px){
+  .content-top-sales-report > .content-title-sales-report{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 0 10px 0;
+    padding: 0 0 0 10px;
+    width: 50%;
+  }
+  .content-top-sales-report > .content-title-sales-report > select{
+      width: 25%;
+      margin-left: 2rem;
+  }
+}
+
+@media (min-width: 1400px){
+  
 }

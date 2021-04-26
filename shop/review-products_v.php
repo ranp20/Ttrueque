@@ -32,19 +32,21 @@ if (!isset($tienda[1][0]["id_menbresia"])) {
         </div>
       </div>
       <input type="hidden" name="id_tienda" id="store" value="<?php echo $d[0]["tienda"]; ?>">
-      <table class="list-comments">
-        <thead class="thead-comments">
-          <tr>
-            <th class="lang_ttrq" key="title-th-reviewproducts-ad_cli-1">#</th>
-            <th class="lang_ttrq" key="title-th-reviewproducts-ad_cli-3">Cliente</th>
-            <th class="lang_ttrq" key="title-th-reviewproducts-ad_cli-5">Comentario</th>
-            <th class="lang_ttrq" key="title-th-reviewproducts-ad_cli-6">Publicado</th>
-          </tr>
-        </thead>
-        <tbody class="tbody-comments" id="list">
-          <!------ TEXTO PROVICIONAL ------>
-        </tbody>
-      </table>
+      <div class="cont-tablelist-list-comment">
+        <table class="list-comments">
+          <thead class="thead-comments">
+            <tr>
+              <th class="lang_ttrq" key="title-th-reviewproducts-ad_cli-1">#</th>
+              <th class="lang_ttrq" key="title-th-reviewproducts-ad_cli-3">Cliente</th>
+              <th class="lang_ttrq" key="title-th-reviewproducts-ad_cli-5">Comentario</th>
+              <th class="lang_ttrq" key="title-th-reviewproducts-ad_cli-6">Publicado</th>
+            </tr>
+          </thead>
+          <tbody class="tbody-comments" id="list">
+            <!------ TEXTO PROVICIONAL ------>
+          </tbody>
+        </table>
+      </div>
     </section>
   </div>
   <script src="js/dashboard.js"></script>

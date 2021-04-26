@@ -59,20 +59,22 @@ if (!isset($tienda[1][0]["id_menbresia"])) {
             <div class="cabecera-wallet lang_ttrq" key="subtitle-table-wallet-ad_cli">Historial de recarga de Saldo</div>
           </div>
         </div>
-        <table class="wallet-table">
-          <thead>
-            <tr>
-              <th class="lang_ttrq" key="title-th-wallet-ad_cli-1">#</th>
-              <th class="lang_ttrq" key="title-th-wallet-ad_cli-2">Fecha Transacción</th>
-              <th class="lang_ttrq" key="title-th-wallet-ad_cli-3">T.Recarga</th>
-              <th class="lang_ttrq" key="title-th-wallet-ad_cli-4">Monto</th>
-              <th class="lang_ttrq" key="title-th-wallet-ad_cli-5">Cant.Recarga</th>
-              <th class="lang_ttrq" key="title-th-wallet-ad_cli-6">Método de Pago</th>
-            </tr>
-          </thead>
-          <tbody id="list_hw_idcliente">
-          </tbody>
-        </table>
+        <div class="cont-tablelist-wallet">
+          <table class="wallet-table">
+            <thead>
+              <tr>
+                <th class="lang_ttrq" key="title-th-wallet-ad_cli-1">#</th>
+                <th class="lang_ttrq" key="title-th-wallet-ad_cli-2">Fecha Transacción</th>
+                <th class="lang_ttrq" key="title-th-wallet-ad_cli-3">T.Recarga</th>
+                <th class="lang_ttrq" key="title-th-wallet-ad_cli-4">Monto</th>
+                <th class="lang_ttrq" key="title-th-wallet-ad_cli-5">Cant.Recarga</th>
+                <th class="lang_ttrq" key="title-th-wallet-ad_cli-6">Método de Pago</th>
+              </tr>
+            </thead>
+            <tbody id="list_hw_idcliente">
+            </tbody>
+          </table>
+        </div>
       </div>
     </section>
   </div>

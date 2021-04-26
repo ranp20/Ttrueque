@@ -1,0 +1,88 @@
+@media (min-width: 300px){
+
+}
+
+@media (min-width: 320px){
+	
+}
+
+@media (min-width: 360px){
+	
+}
+
+@media (min-width: 480px){
+	
+}
+
+@media (min-width: 768px){
+	
+}
+
+@media (min-width: 1024px){
+	
+}
+
+@media (min-width: 1280px){
+	.container-total {
+	  margin: 0 auto;
+	  width: 100%;
+	  min-height: 100vh;
+	  display: grid;
+	  grid-template-columns: 98px auto;
+	  grid-template-areas: "sidebar contenido";
+	  transition: all ease 0.3s;
+	  animation-name: deslizarderecha;
+	  animation-duration: .3s;
+	  animation-timing-function: ease;
+	}
+
+	.container-total.active {
+	  animation-name: deslizarizquierda;
+	  animation-duration: .3s;
+	  animation-timing-function: ease;
+	  grid-template-columns: 315px auto;
+	}
+
+	.container-total.active > .sidebar-nav > h3 {
+	  text-align: center;
+	}
+	.container-total.active #content-list-products-ad_cli-ttrk {
+	  width: 100%;
+	}
+	/* OCULTAR LA PRIMERA OPCIÓN DENTRO DEL SELECT */
+	.select-onehidden > option:first-child {
+	  display: none;
+	}
+	/*OCULTAR LOS LINKS*/
+	.container-total > .sidebar-nav > .user-options > a{
+	  padding: 11px 33px;
+	}
+	.container-total.active > .sidebar-nav > .user-options > a{
+	  padding: 11px 15px;
+	}
+	.container-total.active > .sidebar-nav > .user-options > a > .lni{
+	  margin-right: 30px;
+	}
+	/*MENU DEL SIDEBAR*/
+	.container-total > .sidebar-nav > h3{
+	  padding-left: 0;
+	  color: rgba(0,0,0,.4);
+	  display: block;
+	  transition: .3s;
+	  margin: 10px 0;
+	  font-size: .9rem;
+	  font-weight: 700;
+	  width: 98px;
+	  text-align: center;
+	  transition: all ease .4s;
+	}
+	.container-total.active > .sidebar-nav > h3{
+	  width: 100%;
+	  padding-left: .68rem;
+	  text-align: center;
+	}
+}
+
+@media (min-width: 1400px){
+	
+}

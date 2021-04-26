@@ -1,3 +1,9 @@
+.cont-tablelist-list-comment{
+  background-color: #fff;
+  overflow-x: auto;
+  box-shadow: 5px 12px 20px 0 rgba(0,0,0,.2);
+  border-radius: 20px;
+}
 .list-comments{
   background: #fff;
   width: 100%;
@@ -6,7 +12,6 @@
   border-collapse: collapse;
   border-radius: 20px;
   font-size: .9em;
-  box-shadow: 5px 15px 20px 0 rgba(0,0,0,.2);
 }
 .thead-comments tr,
 .tbody-comments tr{
@@ -21,6 +26,11 @@
 }
 .list-comments .thead-comments tr th:first-child{
  padding: 1rem .6rem 1rem 1.5rem;
+}
+.list-comments .thead-comments tr th:nth-child(2),
+.list-comments .thead-comments tr th:nth-child(3),
+.list-comments .thead-comments tr th:last-child{
+  min-width: 160px;
 }
 .list-comments .thead-comments tr th:nth-child(even){
   padding: 1rem 0;

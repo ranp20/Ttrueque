@@ -31,17 +31,19 @@ if (!isset($tienda[1][0]["id_menbresia"])) {
           <input type="hidden" id="tienda" value="<?php echo $d[0]['tienda']; ?>">
         </div>
       </div>
-      <table class="request_refund-table">
-        <thead class="request_refund-thead">
-          <tr>
-            <th class="lang_ttrq" key="title-th-requestrefund-ad_cli-1">Código</th>
-            <th class="lang_ttrq" key="title-th-requestrefund-ad_cli-3">Cliente</th>
-            <th class="lang_ttrq" key="title-th-requestrefund-ad_cli-5">Solicitud</th>
-          </tr>
-        </thead>
-        <tbody class="request_refund-tbody" id="list_request_refund_idtienda">
-        </tbody>
-      </table>
+      <div class="cont-tablelist-request-refund">
+        <table class="request_refund-table">
+          <thead class="request_refund-thead">
+            <tr>
+              <th class="lang_ttrq" key="title-th-requestrefund-ad_cli-1">Código</th>
+              <th class="lang_ttrq" key="title-th-requestrefund-ad_cli-3">Cliente</th>
+              <th class="lang_ttrq" key="title-th-requestrefund-ad_cli-5">Solicitud</th>
+            </tr>
+          </thead>
+          <tbody class="request_refund-tbody" id="list_request_refund_idtienda">
+          </tbody>
+        </table>
+      </div>
     </section>
   </div>
   <script src="./js/dashboard.js"></script>

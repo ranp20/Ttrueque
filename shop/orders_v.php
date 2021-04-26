@@ -36,25 +36,27 @@ date_default_timezone_set('America/Bogota');
 
         </div>
       </div>
-      <table class="orders-table">
-        <thead class="orders-thead">
-          <tr>
-            <!-- <th class="lang_ttrq" key="title-th-orders-ad_cli-1">Código</th> -->
-            <th class="lang_ttrq" key="title-th-orders-ad_cli-1">N° Orden</th>
-            <th class="lang_ttrq" key="title-th-orders-ad_cli-2">Cliente</th>
-            <th class="lang_ttrq" key="title-th-orders-ad_cli-3">Dirección de Entrega</th>
-            <th class="lang_ttrq" key="title-th-orders-ad_cli-4">País</th>
-            <th class="lang_ttrq" key="title-th-orders-ad_cli-5">Teléfono</th>
-            <th class="" key="">Desde</th>
-            <th class="lang_ttrq" key="title-th-orders-ad_cli-6">Estado de Entrega</th>
-            <th class="" key="">Confirmación</th>
-            <th class="lang_ttrq" key="title-th-orders-ad_cli-8">Pedido</th>
-          </tr>
-        </thead>
-        <tbody class="orders-tbody" id="list_orders_idtienda">
-        </tbody>
-      </table>
-      <h2 id="resultTabla"></h2>
+      <div class="cont-tablelist-orders-v">
+        <table class="orders-table">
+          <thead class="orders-thead">
+            <tr>
+              <!-- <th class="lang_ttrq" key="title-th-orders-ad_cli-1">Código</th> -->
+              <th class="lang_ttrq" key="title-th-orders-ad_cli-1">N° Orden</th>
+              <th class="lang_ttrq" key="title-th-orders-ad_cli-2">Cliente</th>
+              <th class="lang_ttrq" key="title-th-orders-ad_cli-3">Dirección de Entrega</th>
+              <th class="lang_ttrq" key="title-th-orders-ad_cli-4">País</th>
+              <th class="lang_ttrq" key="title-th-orders-ad_cli-5">Teléfono</th>
+              <th class="" key="">Desde</th>
+              <th class="lang_ttrq" key="title-th-orders-ad_cli-6">Estado de Entrega</th>
+              <th class="" key="">Confirmación</th>
+              <th class="lang_ttrq" key="title-th-orders-ad_cli-8">Pedido</th>
+            </tr>
+          </thead>
+          <tbody class="orders-tbody" id="list_orders_idtienda">
+          </tbody>
+        </table>
+        <h2 id="resultTabla"></h2>
+      </div>
     </section>
   </div>
   <script src="./js/dashboard.js"></script>

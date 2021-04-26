@@ -32,22 +32,24 @@ if (!isset($tienda[1][0]["id_menbresia"])) {
           <!--<div id="btn-reporte"> </div>-->
         </div>
       </div>
-      <table class="history-table">
-        <thead class="history-thead">
-          <tr>
-            <th class="lang_ttrq" key="txt-th-page-hs-ad_cli-1">Código</th>
-            <th class="lang_ttrq" key="txt-th-page-hs-ad_cli-2">Producto</th>
-            <th class="lang_ttrq" key="txt-th-page-hs-ad_cli-3">Tienda</th>
-            <th class="lang_ttrq" key="txt-th-page-hs-ad_cli-4">Bikers real</th>
-            <th class="lang_ttrq" key="txt-th-page-hs-ad_cli-5">Cantidad</th>
-            <th class="lang_ttrq" key="txt-th-page-hs-ad_cli-6">Subtotal</th>
-            <th class="lang_ttrq" key="txt-th-page-hs-ad_cli-7">Fecha de compra</th>
-          </tr>
-        </thead>
-        <tbody class="history-tbody" id="list_hc_idtienda">
-        </tbody>
-      </table>
-      <h2 id="resultTabla"></h2>
+      <div class="cont-tablelist-result">
+        <table class="history-table">
+          <thead class="history-thead">
+            <tr>
+              <th class="lang_ttrq" key="txt-th-page-hs-ad_cli-1">Código</th>
+              <th class="lang_ttrq" key="txt-th-page-hs-ad_cli-2">Producto</th>
+              <th class="lang_ttrq" key="txt-th-page-hs-ad_cli-3">Tienda</th>
+              <th class="lang_ttrq" key="txt-th-page-hs-ad_cli-4">Bikers real</th>
+              <th class="lang_ttrq" key="txt-th-page-hs-ad_cli-5">Cantidad</th>
+              <th class="lang_ttrq" key="txt-th-page-hs-ad_cli-6">Subtotal</th>
+              <th class="lang_ttrq" key="txt-th-page-hs-ad_cli-7">Fecha de compra</th>
+            </tr>
+          </thead>
+          <tbody class="history-tbody" id="list_hc_idtienda">
+          </tbody>
+        </table>
+        <h2 id="resultTabla"></h2>
+      </div>
     </section>
   </div>
   <script src="./js/dashboard.js"></script>
