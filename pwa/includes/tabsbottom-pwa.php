@@ -6,13 +6,13 @@
       </div>
       <span class="tabspwa-ttrq__content__item--info">Categorías</span>
     </a>
-    <a href="#" class="tabspwa-ttrq__content__item">
+    <a href="categories-list.php" class="tabspwa-ttrq__content__item">
       <div class="tabspwa-ttrq__content__item--img">
         <img src="img/icons/icon-store.svg" alt="" class="tabspwa-ttrq__content__item--img--icon">
       </div>
       <span class="tabspwa-ttrq__content__item--info">Tienda</span>
     </a>
-    <a href="#" class="tabspwa-ttrq__content__item">
+    <a href="manager.php" class="tabspwa-ttrq__content__item">
       <div class="tabspwa-ttrq__content__item--img">
         <img src="img/icons/icon-hearth.svg" alt="" class="tabspwa-ttrq__content__item--img--icon">
       </div>
@@ -21,7 +21,7 @@
     <a href="shopping-cart.php" class="tabspwa-ttrq__content__item">
       <div class="tabspwa-ttrq__content__item--img">
         <img src="img/icons/icon-bag-shopping.svg" alt="" class="tabspwa-ttrq__content__item--img--icon">
-        <span class="tabspwa-ttrq__content__item--img--infoquantity" id="count-product-cart"></span>
+        <span class="tabspwa-ttrq__content__item--img--infoquantity" id="count-product-cart">0</span>
       </div>
       <span class="tabspwa-ttrq__content__item--info">Carro</span>
     </a>

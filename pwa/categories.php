@@ -14,9 +14,9 @@
 	<?php require_once 'includes/header-index.php'; ?>
 	<title>Categories - App WebView</title>
 </head>
-<body>
-	<?php require_once 'includes/headertop-pwa.php'; ?>
+<body class="body-categoriespwa">
   <?php require_once 'php/process_headerWebView.php'; ?>
+  <?php require_once 'includes/headertop-pwa.php'; ?>
 
 	<?php 
 
@@ -96,13 +96,13 @@
   <script src="../js/common_scripts.min.js"></script>
   <script src="../js/main.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-  <script src="../js/actions_pages/language_currency.js"></script>
+  <script src="js/actions-pages/language-currency.js"></script>
   <script src="js/actions-pages/buy-cart.js"></script>
   <script src="js/actions-pages/view-cart.js"></script>
   <script src="../js/actions_pages/remove.js"></script>
   <script src="../js/actions_pages/customs.js"></script>
   <script src="../js/actions_pages/search_products.js"></script>
-  <script src="../js/actions_pages/listCategories_ByStore.js"></script>
+  <script src="js/actions-pages/list-categories-by-store.js"></script>
   <script src="../js/customs/custom.js"></script>
   <script src="js/actions-pages/track-order.js"></script>
 </body>

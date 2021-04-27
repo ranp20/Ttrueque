@@ -8,6 +8,7 @@
 	--clr-loader: #09f;
 	--clr-paragraph: #676672;
 	--maxwidth-page: 1200px;
+	--bgc-login: #DFE9F2;
 }
 *,
 *:before,
@@ -30,6 +31,175 @@ ul{
 	list-style: none !important;
 	padding: 0;
 }
+/*===========================================================
+=            OCULTAR EL SCROLLBAR DE LOS IFRAMES            =
+===========================================================*/
+/************************** HOME **************************/
+/* ANCHO DE LA BARRA DE SCROLL */
+.body-homepwa::-webkit-scrollbar { width: 0;}
+/* Estilos barra (thumb) de scroll */
+.body-homepwa::-webkit-scrollbar-thumb {background: transparent;}
+.body-homepwa::-webkit-scrollbar-thumb:active {background-color: #999999;}
+.body-homepwa::-webkit-scrollbar-thumb:hover {background: #b3b3b3;box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);}
+/* Estilos track de scroll */
+.body-homepwa::-webkit-scrollbar-track {background: #e1e1e1;border-radius: 4px;}
+.body-homepwa::-webkit-scrollbar-track:hover, .body-homepwa::-webkit-scrollbar-track:active {background: #d4d4d4;}
+/* scrollling */
+/* ANCHO DEL SCROLLING */
+.body-homepwa::-webkit-scrollbar {width: 0;}
+.body-homepwa::-webkit-scrollbar-thumb {background: #cccc;border-radius: 4px;}
+.body-homepwa::-webkit-scrollbar-thumb:active {background: #999999;}
+.body-homepwa::-webkit-scrollbar-thumb:hover {background: #b3b3b3;box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);}
+.body-homepwa::-webkit-scrollbar-track {background: #e1e1e1;}
+.body-homepwa::-webkit-scrollbar-track:active, .body-homepwa::-webkit-scrollbar-track:hover {background: #d4d4d4;}
+/************************** CATEGORIES **************************/
+/* ANCHO DE LA BARRA DE SCROLL */
+.body-categoriespwa::-webkit-scrollbar { width: 0;}
+/* Estilos barra (thumb) de scroll */
+.body-categoriespwa::-webkit-scrollbar-thumb {background: transparent;}
+.body-categoriespwa::-webkit-scrollbar-thumb:active {background-color: #999999;}
+.body-categoriespwa::-webkit-scrollbar-thumb:hover {background: #b3b3b3;box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);}
+/* Estilos track de scroll */
+.body-categoriespwa::-webkit-scrollbar-track {background: #e1e1e1;border-radius: 4px;}
+.body-categoriespwa::-webkit-scrollbar-track:hover, .body-categoriespwa::-webkit-scrollbar-track:active {background: #d4d4d4;}
+/* scrollling */
+/* ANCHO DEL SCROLLING */
+.body-categoriespwa::-webkit-scrollbar {width: 0;}
+.body-categoriespwa::-webkit-scrollbar-thumb {background: #cccc;border-radius: 4px;}
+.body-categoriespwa::-webkit-scrollbar-thumb:active {background: #999999;}
+.body-categoriespwa::-webkit-scrollbar-thumb:hover {background: #b3b3b3;box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);}
+.body-categoriespwa::-webkit-scrollbar-track {background: #e1e1e1;}
+.body-categoriespwa::-webkit-scrollbar-track:active, .body-categoriespwa::-webkit-scrollbar-track:hover {background: #d4d4d4;}
+/************************** MY PROFILE **************************/
+/* ANCHO DE LA BARRA DE SCROLL */
+.body-my-profilepwa::-webkit-scrollbar { width: 0;}
+/* Estilos barra (thumb) de scroll */
+.body-my-profilepwa::-webkit-scrollbar-thumb {background: transparent;}
+.body-my-profilepwa::-webkit-scrollbar-thumb:active {background-color: #999999;}
+.body-my-profilepwa::-webkit-scrollbar-thumb:hover {background: #b3b3b3;box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);}
+/* Estilos track de scroll */
+.body-my-profilepwa::-webkit-scrollbar-track {background: #e1e1e1;border-radius: 4px;}
+.body-my-profilepwa::-webkit-scrollbar-track:hover, .body-my-profilepwa::-webkit-scrollbar-track:active {background: #d4d4d4;}
+/* scrollling */
+/* ANCHO DEL SCROLLING */
+.body-my-profilepwa::-webkit-scrollbar {width: 0;}
+.body-my-profilepwa::-webkit-scrollbar-thumb {background: #cccc;border-radius: 4px;}
+.body-my-profilepwa::-webkit-scrollbar-thumb:active {background: #999999;}
+.body-my-profilepwa::-webkit-scrollbar-thumb:hover {background: #b3b3b3;box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);}
+.body-my-profilepwa::-webkit-scrollbar-track {background: #e1e1e1;}
+.body-my-profilepwa::-webkit-scrollbar-track:active, .body-my-profilepwa::-webkit-scrollbar-track:hover {background: #d4d4d4;}
+/************************** MANAGER **************************/
+/* ANCHO DE LA BARRA DE SCROLL */
+.body-managerpwa::-webkit-scrollbar { width: 0;}
+/* Estilos barra (thumb) de scroll */
+.body-managerpwa::-webkit-scrollbar-thumb {background: transparent;}
+.body-managerpwa::-webkit-scrollbar-thumb:active {background-color: #999999;}
+.body-managerpwa::-webkit-scrollbar-thumb:hover {background: #b3b3b3;box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);}
+/* Estilos track de scroll */
+.body-managerpwa::-webkit-scrollbar-track {background: #e1e1e1;border-radius: 4px;}
+.body-managerpwa::-webkit-scrollbar-track:hover, .body-managerpwa::-webkit-scrollbar-track:active {background: #d4d4d4;}
+/* scrollling */
+/* ANCHO DEL SCROLLING */
+.body-managerpwa::-webkit-scrollbar {width: 0;}
+.body-managerpwa::-webkit-scrollbar-thumb {background: #cccc;border-radius: 4px;}
+.body-managerpwa::-webkit-scrollbar-thumb:active {background: #999999;}
+.body-managerpwa::-webkit-scrollbar-thumb:hover {background: #b3b3b3;box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);}
+.body-managerpwa::-webkit-scrollbar-track {background: #e1e1e1;}
+.body-managerpwa::-webkit-scrollbar-track:active, .body-managerpwa::-webkit-scrollbar-track:hover {background: #d4d4d4;}
+/************************** MENBRESIAS **************************/
+/* ANCHO DE LA BARRA DE SCROLL */
+.body-menbresiaspwa::-webkit-scrollbar { width: 0;}
+/* Estilos barra (thumb) de scroll */
+.body-menbresiaspwa::-webkit-scrollbar-thumb {background: transparent;}
+.body-menbresiaspwa::-webkit-scrollbar-thumb:active {background-color: #999999;}
+.body-menbresiaspwa::-webkit-scrollbar-thumb:hover {background: #b3b3b3;box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);}
+/* Estilos track de scroll */
+.body-menbresiaspwa::-webkit-scrollbar-track {background: #e1e1e1;border-radius: 4px;}
+.body-menbresiaspwa::-webkit-scrollbar-track:hover, .body-menbresiaspwa::-webkit-scrollbar-track:active {background: #d4d4d4;}
+/* scrollling */
+/* ANCHO DEL SCROLLING */
+.body-menbresiaspwa::-webkit-scrollbar {width: 0;}
+.body-menbresiaspwa::-webkit-scrollbar-thumb {background: #cccc;border-radius: 4px;}
+.body-menbresiaspwa::-webkit-scrollbar-thumb:active {background: #999999;}
+.body-menbresiaspwa::-webkit-scrollbar-thumb:hover {background: #b3b3b3;box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);}
+.body-menbresiaspwa::-webkit-scrollbar-track {background: #e1e1e1;}
+.body-menbresiaspwa::-webkit-scrollbar-track:active, .body-menbresiaspwa::-webkit-scrollbar-track:hover {background: #d4d4d4;}
+/************************** CATEOGORIES INTO STORE **************************/
+/* ANCHO DE LA BARRA DE SCROLL */
+.body-categories-listpwa::-webkit-scrollbar { width: 0;}
+/* Estilos barra (thumb) de scroll */
+.body-categories-listpwa::-webkit-scrollbar-thumb {background: transparent;}
+.body-categories-listpwa::-webkit-scrollbar-thumb:active {background-color: #999999;}
+.body-categories-listpwa::-webkit-scrollbar-thumb:hover {background: #b3b3b3;box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);}
+/* Estilos track de scroll */
+.body-categories-listpwa::-webkit-scrollbar-track {background: #e1e1e1;border-radius: 4px;}
+.body-categories-listpwa::-webkit-scrollbar-track:hover, .body-categories-listpwa::-webkit-scrollbar-track:active {background: #d4d4d4;}
+/* scrollling */
+/* ANCHO DEL SCROLLING */
+.body-categories-listpwa::-webkit-scrollbar {width: 0;}
+.body-categories-listpwa::-webkit-scrollbar-thumb {background: #cccc;border-radius: 4px;}
+.body-categories-listpwa::-webkit-scrollbar-thumb:active {background: #999999;}
+.body-categories-listpwa::-webkit-scrollbar-thumb:hover {background: #b3b3b3;box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);}
+.body-categories-listpwa::-webkit-scrollbar-track {background: #e1e1e1;}
+.body-categories-listpwa::-webkit-scrollbar-track:active, .body-categories-listpwa::-webkit-scrollbar-track:hover {background: #d4d4d4;}
+/************************** ALL STORES **************************/
+/* ANCHO DE LA BARRA DE SCROLL */
+.body-all-storespwa::-webkit-scrollbar { width: 0;}
+/* Estilos barra (thumb) de scroll */
+.body-all-storespwa::-webkit-scrollbar-thumb {background: transparent;}
+.body-all-storespwa::-webkit-scrollbar-thumb:active {background-color: #999999;}
+.body-all-storespwa::-webkit-scrollbar-thumb:hover {background: #b3b3b3;box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);}
+/* Estilos track de scroll */
+.body-all-storespwa::-webkit-scrollbar-track {background: #e1e1e1;border-radius: 4px;}
+.body-all-storespwa::-webkit-scrollbar-track:hover, .body-all-storespwa::-webkit-scrollbar-track:active {background: #d4d4d4;}
+/* scrollling */
+/* ANCHO DEL SCROLLING */
+.body-all-storespwa::-webkit-scrollbar {width: 0;}
+.body-all-storespwa::-webkit-scrollbar-thumb {background: #cccc;border-radius: 4px;}
+.body-all-storespwa::-webkit-scrollbar-thumb:active {background: #999999;}
+.body-all-storespwa::-webkit-scrollbar-thumb:hover {background: #b3b3b3;box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);}
+.body-all-storespwa::-webkit-scrollbar-track {background: #e1e1e1;}
+.body-all-storespwa::-webkit-scrollbar-track:active, .body-all-storespwa::-webkit-scrollbar-track:hover {background: #d4d4d4;}
+/************************** SHOPPING CART **************************/
+/* ANCHO DE LA BARRA DE SCROLL */
+.body-shopping-cartpwa::-webkit-scrollbar { width: 0;}
+/* Estilos barra (thumb) de scroll */
+.body-shopping-cartpwa::-webkit-scrollbar-thumb {background: transparent;}
+.body-shopping-cartpwa::-webkit-scrollbar-thumb:active {background-color: #999999;}
+.body-shopping-cartpwa::-webkit-scrollbar-thumb:hover {background: #b3b3b3;box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);}
+/* Estilos track de scroll */
+.body-shopping-cartpwa::-webkit-scrollbar-track {background: #e1e1e1;border-radius: 4px;}
+.body-shopping-cartpwa::-webkit-scrollbar-track:hover, .body-shopping-cartpwa::-webkit-scrollbar-track:active {background: #d4d4d4;}
+/* scrollling */
+/* ANCHO DEL SCROLLING */
+.body-shopping-cartpwa::-webkit-scrollbar {width: 0;}
+.body-shopping-cartpwa::-webkit-scrollbar-thumb {background: #cccc;border-radius: 4px;}
+.body-shopping-cartpwa::-webkit-scrollbar-thumb:active {background: #999999;}
+.body-shopping-cartpwa::-webkit-scrollbar-thumb:hover {background: #b3b3b3;box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);}
+.body-shopping-cartpwa::-webkit-scrollbar-track {background: #e1e1e1;}
+.body-shopping-cartpwa::-webkit-scrollbar-track:active, .body-shopping-cartpwa::-webkit-scrollbar-track:hover {background: #d4d4d4;}
+
+
+.iframes-viewspwa{
+	width: 100%;
+	min-height: 100vh;
+	height: 100%;
+}
+.body-loginpwa{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+.body-loginpwa:before{
+	content: "";
+  background-color: rgba(0,0,0,.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
 /*=======================================
 =            UTILITIES CLASS            =
 =======================================*/
@@ -46,19 +216,6 @@ ul{
 /*=================================================
 =            LOGIN PAGE - TTRUEQUE APP            =
 =================================================*/
-.content-login-background{
-	width: 100%;
-	height: auto;
-	position: relative;
-	display: flex;
-}
-.content-login-background__img{
-	width: 100%;
-	min-height: 100vh;
-	height: 100%;
-	object-fit: cover;
-	object-position: center;
-}
 .content-login{
 	position: absolute;
 	min-height: 100vh;
@@ -83,15 +240,13 @@ ul{
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	background-color: rgba(255,255,255,.8);
-  padding: 2.5rem 1rem;
-  border-radius: 20px;
+  padding-bottom: 1.5rem;
 }
 .cont-form--logo{
-	width: 80%;
+	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 3rem;
+	margin-bottom: 5rem;
 }
 .cont-form--logo__img{
 	width: 100%;
@@ -102,7 +257,9 @@ ul{
 	margin-bottom: 1rem;
 }
 .cont-form__form{
-	padding: 0 1rem;
+  border-radius: 20px;
+  padding: 2rem 1.5rem;
+	background-color: var(--bgc-login);
 }
 .cont-form__form--controls{
 	display: flex;
@@ -275,15 +432,10 @@ ul{
 ===============================================*/
 /* TAMAÑO - MÓVIL */
 @media (min-width: 480px){
-	.cont-form--logo{
-		width: 65%;
-	}
+	
 }
 /* TAMAÑO - TABLET */
 @media (min-width: 768px){
-	.cont-form__form{
-		padding: 0 1.5rem;
-	}
 	.cont-form__form--controls{
 		margin-bottom: 1.2rem;
 	}
@@ -292,10 +444,12 @@ ul{
 @media (min-width: 1024px){
 	.cont-form{
 		max-width: 330px;
-		padding: 2.8rem 1rem;
 	}
 	.cont-form__form--btn-login{
 		transition: all ease-out .4s;
+	}
+	.cont-form__form{
+		padding: 2.5rem 2rem;
 	}
 }
 /*==========================================================

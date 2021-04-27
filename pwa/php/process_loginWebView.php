@@ -24,6 +24,8 @@ if(isset($_POST)){
 
 			if($getID > 0){
 				session_start();
+				
+				//$_SESSION['user'] = $_SESSION['user'];
 				$_SESSION['user'] = $getID;
 				
 				$response = [

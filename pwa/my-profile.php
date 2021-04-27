@@ -15,7 +15,7 @@ $nameuser = $_SESSION['user'][0]['nombre_cliente'];
   <?php require_once 'includes/header-index.php'; ?>
 	<title>My profile - App WebView</title>
 </head>
-<body>
+<body class="body-my-profilepwa">
   <?php require_once 'includes/headertop-pwa.php'; ?>
   <?php require_once 'php/process_headerWebView.php'; ?>
 	<div class="mrgtop-57 container-maxwidth">
@@ -96,7 +96,7 @@ $nameuser = $_SESSION['user'][0]['nombre_cliente'];
   <script src="../js/actions_pages/remove.js"></script>
   <script src="../js/actions_pages/customs.js"></script>
   <script src="../js/actions_pages/search_products.js"></script>
-  <script src="../js/actions_pages/language_currency.js"></script>
+  <script src="js/actions-pages/language-currency.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="../js/actions_pages/track-order.js"></script>
   <script src="../js/customs/custom.js"></script>

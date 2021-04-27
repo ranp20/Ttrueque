@@ -32,9 +32,8 @@
   <?php require_once 'includes/header-index.php'; ?>
 	<title>Home - App WebView</title>
 </head>
-<body>
+<body class="body-homepwa">
   <?php require_once 'includes/headertop-pwa.php'; ?>
-	<?php require_once '../views/api_whatsapp.php'; ?>
    <div class="container-home" id="container-homeWebView">
     <?php
 			require_once 'php/process_headerWebView.php';
@@ -188,20 +187,13 @@
           );
       }
   });
-
-  $(document).ready(function() {
-      'use strict';
-      $.cookieBar({
-          fixed: true
-      });
-  });
   </script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
   <script src="../js/actions_pages/buy_cart.js"></script>
   <script src="../js/actions_pages/remove.js"></script>
   <script src="../js/actions_pages/customs.js"></script>
   <script src="../js/actions_pages/search_products.js"></script>
-  <script src="../../js/actions_pages/language_currency.js"></script>
+  <script src="js/actions-pages/language-currency.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="../js/actions_pages/track-order.js"></script>
   <script src="../js/customs/custom.js"></script>

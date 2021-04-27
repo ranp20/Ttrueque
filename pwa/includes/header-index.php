@@ -5,6 +5,8 @@
 <meta name="author" content="Ttrueque">
 <!-------RESPONSIVE--------->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- CDN JQUERY -->
+<script src="js/jquery-3.3.1.min.js"></script>
 <!-- //GOOGLE WEB FONTS -->
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Oxygen:wght@300;400;700&family=Quicksand:wght@300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Sen:wght@400;700;800&family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 <!-- //BOOTSTRAP-->

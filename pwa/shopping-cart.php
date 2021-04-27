@@ -16,7 +16,7 @@ $d_by_id =  $c->select_points_default($_SESSION['user'][0]['id_cliente']);
   <?php require_once 'includes/header-index.php'; ?>
   <title>Shopping Cart - App WebView</title>
 </head>
-<body>
+<body class="body-shopping-cartpwa">
   <?php require_once 'includes/headertop-pwa.php'; ?>
   <?php require_once 'php/process_headerWebView.php'; ?>
   <main class="main-cart-container margin_30">
@@ -63,7 +63,7 @@ $d_by_id =  $c->select_points_default($_SESSION['user'][0]['id_cliente']);
   <script src="../js/actions_pages/remove.js"></script>
   <script src="../js/actions_pages/customs.js"></script>
   <script src="../js/actions_pages/search_products.js"></script>
-  <script src="../js/actions_pages/listCategories_ByStore.js"></script>
+  <script src="js/actions_pages/list-categories-by-store.js"></script>
   <script src="../js/customs/custom.js"></script>
   <script src="js/actions-pages/track-order.js"></script>
 </body>

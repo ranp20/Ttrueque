@@ -6,16 +6,13 @@
 	<title>Login - App WebView</title>
 	<link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
+<body class="body-loginpwa" style="background-image: url(img/montana-con-el-pico-nevado.jpg);">
 	<div id="res-login"></div>
-	<div class="content-login-background">
-		<img class="content-login-background__img" src="img/montana-con-el-pico-nevado.jpg" alt="montaña-pico-elevado" loading="lazy">
-	</div>
 	<div class="content-login">
 		<div class="container">
 			<div class="cont-form">
 				<div class="cont-form--logo">
-					<img src="img/Login_Web-T-blue.svg" alt="" class="cont-form--logo__img">
+					<img src="img/logotipo-T-white.svg" alt="" class="cont-form--logo__img">
 				</div>
 				<form action="" method="POST" class="cont-form__form" id="formLoginWebView">
 					<!--<h2 class="cont-form__form--title">INICIAR SESIÓN</h2>-->
