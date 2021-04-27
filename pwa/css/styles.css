@@ -3,20 +3,45 @@
 	margin: 0;
 	font-family: sans-serif;
 	box-sizing: border-box;
+	--clr-primary: #071573;
 	--clr-red: #B80F0F;
 	--clr-loader: #09f;
 	--clr-paragraph: #676672;
+	--maxwidth-page: 1200px;
 }
 *,
 *:before,
 *:after{
 	box-sizing: inherit;
 }
-
 body{
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+a{
+	text-decoration: none !important;
+}
+ul{
+	list-style: none !important;
+	padding: 0;
+}
+/*=======================================
+=            UTILITIES CLASS            =
+=======================================*/
+.container-maxwidth{
+	max-width: var(--maxwidth-page);
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+}
+.mrgtop-57{
+	margin-top: 57px !important;
 }
 /*=================================================
 =            LOGIN PAGE - TTRUEQUE APP            =
@@ -118,6 +143,26 @@ body{
 .cont-form__form--btn-login:hover{
 	background-color: var(--clr-red);
 	color: #fff;
+}
+/*====================================
+=            API WHATSAPP            =
+====================================*/
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:80px;
+	right:20px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  	font-size:30px;
+	box-shadow: 2px 2px 12px 3px rgba(0,0,0,.3);
+  	z-index:100;
+}
+.my-float{
+	margin-top:16px;
 }
 /*============================================
 =            MESSAGE INFO - USERS            =
@@ -252,4 +297,176 @@ body{
 	.cont-form__form--btn-login{
 		transition: all ease-out .4s;
 	}
+}
+/*==========================================================
+=            STYLES FOR HEADER-TOP INTO APP PWA            =
+===========================================================*/
+.toppwa-ttrq{
+	background-color: var(--clr-primary);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 12px 15px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 99999;
+	box-shadow: 0 3px 10px 1px rgba(0,0,0,.2);
+}
+.toppwa-ttrq__content{
+	display: grid;
+  grid-template-columns: 34px auto;
+  align-items: flex-end;
+  width: 100%;
+}
+.toppwa-ttrq__content--iconbackpage{
+	width: 34px;
+	height: 30px;
+}
+.toppwa-ttrq__content--iconbackpage-icon{
+	width: 34px;
+	height: 30px;	
+}
+.toppwa-ttrq__content--img{
+	width: auto;
+	padding-right: 1rem;
+}
+.toppwa-ttrq__content--img--logo{
+	width: 130px;
+}
+/*===========================================================
+=            STYLES FOR TABS-BOTTOM INTO APP PWA            =
+===========================================================*/
+.tabspwa-ttrq{
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 10px 0 0 0;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 99999;	
+	box-shadow: 0 -3px 10px 1px rgba(0,0,0,.12);
+}
+.tabspwa-ttrq__content{
+	display: grid;
+	grid-template-columns: repeat(5,1fr);
+	grid-template-rows: auto;
+	align-items: center;
+	justify-content: space-between;
+}
+.tabspwa-ttrq__content__item{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.tabspwa-ttrq__content__item--img{
+	width: 36px;
+	height: 36px;
+	position: relative;
+}
+.tabspwa-ttrq__content__item--img--icon{
+	width: 36px;
+	height: 36px;
+}
+.tabspwa-ttrq__content__item--img--infoquantity{
+	background-color: #EF5B2C;
+  color: #fff;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.tabspwa-ttrq__content__item--info{
+	color: #000;
+	font-size: 0.72rem;
+	position: relative;
+	top: -6px;
+}
+.tabspwa-ttrq__content__item:hover .tabspwa-ttrq__content__item--info,
+.tabspwa-ttrq__content__item:active .tabspwa-ttrq__content__item--info{
+	font-weight: bold;
+}
+/*====================================================
+=            STYLES - SLIDER BANNERS HOME            =
+====================================================*/
+#container-homeWebView #contenedor-principal-home_WebView #carousel-home .owl-carousel .owl-stage-outer,
+#container-homeWebView #contenedor-principal-home_WebView #carousel-home .owl-carousel .owl-slide{
+	height: 210px;
+}
+
+/*===========================================
+=            STYLES - MY PROFILE            =
+===========================================*/
+.myprofile-cont,
+.categories-cont{
+	min-height: 100vh;
+	height: 100%;
+}
+.myprofile-cont--title{
+	text-align: center;
+	padding: 10px 0;
+}
+.myprofile-cont--dropdown-menu{
+	cursor: pointer;
+	background-color: var(--clr-primary);
+	border-bottom: thin solid #fafaf8;
+}
+.myprofile-cont--dropdown-menu--nameuser{
+	color: #fff;
+	line-height: 3;
+	padding: 0 15px;
+	display: flex;
+	justify-content: space-between;
+}
+.myprofile-cont--dropdown-menu--nameuser--icon{
+	width: 23px;
+	height: 23px;
+}
+.myprofile-cont--dropdown-menu--nameuser--icon.slide{
+	transform: rotate(180deg);
+	margin-top: 1rem;
+}
+.myprofile-cont--dropdown-menu--nameuser--icon img{
+	width: 23px;
+	height: 23px;
+}
+.myprofile-cont--dropdown-menu--slide{
+	display: none;	
+	background-color: #ddd;
+	line-height: 2.2;
+}
+.myprofile-cont--dropdown-menu--slide button{
+	outline: none !important;
+	width: 130px !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+.myprofile-cont--dropdown-menu--slide a{
+	outline: none !important;
+	width: auto !important;
+	padding: 5px 10px !important;
+}
+.myprofile-cont--dropdown-menu--slide a i{
+	font-size: 18px;
+	margin-right: 10px;	
+}
+/*==============================================
+=            STYLE - ALL CATEGORIES            =
+==============================================*/
+.categories-cont{
+	padding-bottom: 2rem;
 }
