@@ -1,16 +1,84 @@
+/*=================================
+=            NUEVO CSS            =
+=================================*/
+/* FORMULARIO DE REGISTRO DE DATOS*/
+.container-t-add-store_ttrq .content-principal-add-store_ttrq{
+  max-width: 1058px;
+  width: 90%;
+  margin: 2rem auto 2rem auto;
+  display: flex;
+  align-items: center;
+  box-shadow: 1px 1px 25px 1px rgba(0,0,0,.3);
+  min-height: 100%;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.form-store .content-controls-radio_add-store{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: .8rem;
+  grid-template-rows: auto;
+  border-radius: 20px;
+}
+.form-store .content-controls-radio_add-store div label{
+  margin: 0 !important;
+  padding: .35rem 0;
+  background: #46576B;
+  color: #fff;
+  width: 100%;
+  cursor: pointer;
+  color: #798798;
+  font-weight: 400;
+  font-size: 0.92rem;
+  transition: all ease .3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.content-right-inputs #tipos div{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto .85rem auto;
+}
+.content-right-inputs .form-store h3{
+  color: #fff;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1.1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.content-buton-paypal-payment h3{
+  color: #fff;
+  margin: 0 0 1rem 0 !important;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.content-right-inputs #tipos div label{
+  color: #fff;
+  margin-bottom: 0 !important;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+.cnt-payments-method{
+  display: block;
+}
+/*=================================
+=            NUEVO CSS            =
+=================================*/
+/*===================================
+=            ANTIGUO CSS            =
+===================================*/
 /* VISIBILIDAD DEL BOTÓN DE PAGO DE ACUEDO A LA MEMBRESÍA */
 .cnt-paypal-payment.esconder{
   display: none;
 }
-/* BOTÓN DE MEMBRESÍA BÁSICA */
-.cnt-payments-method{
-  display: block;
-  max-width: 250px;
-  min-width: 250px;
-}
 .cnt-payments-method .btn-memb-store-register{
   width: 100%;
-  padding: .5rem 0;
+  padding: .5rem 2rem;
   border: none;
   border-radius: 1.5rem;
   color: #fff;
@@ -35,18 +103,6 @@
   top: 0 !important;
   display: flex;
 }
-.container-t-add-store_ttrq .content-principal-add-store_ttrq{
-  max-width: 1058px;
-  width: 90%;
-  margin: 2rem auto 2rem auto;
-  display: flex;
-  align-items: center;
-  box-shadow: 1px 1px 25px 1px rgba(0,0,0,.3);
-  min-height: 100%;
-  border-radius: 10px;
-  flex-wrap: wrap;
-  justify-content: center;
-}
 .container-t-add-store_ttrq .content-principal-add-store_ttrq .content-left-options-buttons{
   display: none;
 }
@@ -68,12 +124,6 @@
   padding: 1rem 2rem 2rem 2rem;
   border-radius: 10px;
 }
-/* FORMULARIO DE REGISTRO DE DATOS*/
-.form-store .content-controls-radio_add-store{
-  display: grid;
-  grid-template-columns: auto auto auto;
-  border-radius: 20px;
-}
 .form-store .content-controls-radio_add-store div{
   background: transparent;
   display: flex;
@@ -81,14 +131,6 @@
   padding: 0;
   align-items: center;
   justify-content: center;
-}
-.form-store .content-controls-radio_add-store div:first-child,
-.form-store .content-controls-radio_add-store div:first-child label{
-  border-radius: 20px 0 0 20px;
-}
-.form-store .content-controls-radio_add-store div:nth-child(3),
-.form-store .content-controls-radio_add-store div:nth-child(3) label{
-  border-radius: 0 20px 20px 0;
 }
 .form-store .content-controls-radio_add-store div input{
   display: none;
@@ -117,26 +159,9 @@
   background: #55C8BB;
   color: #fff;
 }
-.content-right-inputs .form-store h3{
-  color: #fff;
-  text-align: center;
-  margin-top: 1rem;
-  margin-bottom: 1.1rem;
-}
 .content-right-inputs #tipos{
   margin: auto;
   width: 100%;
-}
-.content-right-inputs #tipos div{
-  width: 82%;
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto .85rem auto;
-}
-.content-right-inputs #tipos div label{
-  color: #fff;
-  margin-bottom: 0 !important;
-  font-weight: 500;
 }
 .content-right-inputs #tipos div select{
   border: none !important;
@@ -166,10 +191,6 @@
   flex-direction: column;
   text-align: center;
 }
-.content-buton-paypal-payment h3{
-  color: #fff;
-  margin: 0 0 1rem 0 !important;
-}
 
 
 
@@ -197,12 +218,70 @@
 }
 
 @media (min-width: 768px){
-  
+  .form-store .content-controls-radio_add-store{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border-radius: 20px;
+  }
+  .form-store .content-controls-radio_add-store div label{
+    margin: 0 !important;
+    padding: .35rem 0;
+    background: #46576B;
+    color: #fff;
+    width: 100%;
+    cursor: pointer;
+    color: #798798;
+    font-weight: 400;
+    font-size: 0.92rem;
+    transition: all ease .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .form-store .content-controls-radio_add-store div label:nth-child(2){
+    border-radius: unset;
+  }
+  .form-store .content-controls-radio_add-store div:first-child,
+  .form-store .content-controls-radio_add-store div:first-child label{
+    border-radius: 20px 0 0 20px;
+  }
+  .form-store .content-controls-radio_add-store div:nth-child(3),
+  .form-store .content-controls-radio_add-store div:nth-child(3) label{
+    border-radius: 0 20px 20px 0;
+  }
+  .content-right-inputs #tipos div{
+    width: 82%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto .85rem auto;
+  }
+  .content-right-inputs #tipos div label{
+    color: #fff;
+    margin-bottom: 0 !important;
+    font-weight: 500;
+  }
+  .cnt-payments-method .btn-memb-store-register{
+    padding: .5rem 2.5rem;
+  }
 }
 
 @media (min-width: 1024px){
+  .container-t-add-store_ttrq .content-principal-add-store_ttrq{
+    max-width: 1058px;
+    width: 90%;
+    margin: 2rem auto 2rem auto;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 1px 25px 1px rgba(0,0,0,.3);
+    min-height: 100%;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 40% 1fr;
+  }
   .container-t-add-store_ttrq .content-principal-add-store_ttrq .content-left-options-buttons{
-    width: 50%;
+    width: 100%;
     background: #fff;
     align-self: flex-start;
     justify-content: flex-start;
@@ -214,7 +293,7 @@
     border-radius: 10px 0 0 10px;
   } 
   .container-t-add-store_ttrq .content-principal-add-store_ttrq .content-right-inputs{
-    width: 50%;
+    width: 100%;
     background: var(--principal-color);
     align-self: flex-end;
     height: 100%;
@@ -224,12 +303,24 @@
     padding: 1rem 2rem 2rem 2rem;
     border-radius: 0 10px 10px 0;
   }
+  .content-right-inputs .form-store h3{
+    color: #fff;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1.1rem;
+    font-size: 1.7rem;
+  }
+  .content-buton-paypal-payment h3{
+    color: #fff;
+    margin: 0 0 1rem 0 !important;
+    font-size: 1.7rem;
+  }
 }
 
 @media (min-width: 1280px){
   .container-t-add-store_ttrq .content-principal-add-store_ttrq{
     max-width: 1058px;
-    width: 100%;
+    width: 90%;
     margin: 2rem auto 2rem auto;
     display: flex;
     align-items: center;
@@ -238,6 +329,8 @@
     border-radius: 10px;
     flex-wrap: wrap;
     justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
 

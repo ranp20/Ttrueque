@@ -5,7 +5,7 @@
 /*BOTÓN PARA VER TODAS LOS PRODUCTOS*/
 .content-btn-more-brands-ttrk{	margin: 0 auto 60px auto;	width: 100%;	text-align: center;}
 .content-btn-more-brands-ttrk > .btn-brands-alls-ttrk{	min-width: 235px;}
-.content-btn-more-brands-ttrk > .btn-brands-alls-ttrk > .btn-into-alls-ttrk{	font-size: 20px;    border: none;    background-color: var(--secondary-clr);    color: #fff;    border-radius: 4px;    line-height: 1;    padding: 14px 32px;    text-align: center;    transition: ease .3s;}
+.content-btn-more-brands-ttrk > .btn-brands-alls-ttrk > .btn-into-alls-ttrk{	font-size: 20px;    border: none;    background-color: var(--secondary-clr);    color: #fff;    border-radius: 4px;    line-height: 1;    padding: 14px 32px;    text-align: center;    transition: ease .3s;outline: none;}
 .content-btn-more-brands-ttrk > .btn-brands-alls-ttrk > .btn-into-alls-ttrk:hover{	background-color: var(--hov-secondary-clr);}
 /* CONTENDOR DE LAS CATEGORÍAS */
 .list-categories-stores-ttrk-c{    width: 100%;}
