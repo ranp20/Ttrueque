@@ -1,17 +1,29 @@
 <section id="tabspwa-ttrq" class="tabspwa-ttrq">
   <div class="tabspwa-ttrq__content container-maxwidth">
+    <?php   
+      require_once 'controllers/get_namestore-by-id.php';
+      $getName = new getNameStore();
+      $name = $getName->getnamestore($_SESSION['user']);
+      
+     ?>
     <a href="categories.php" class="tabspwa-ttrq__content__item">
       <div class="tabspwa-ttrq__content__item--img">
         <img src="img/icons/icon-category.svg" alt="" class="tabspwa-ttrq__content__item--img--icon">
       </div>
       <span class="tabspwa-ttrq__content__item--info">Categorías</span>
     </a>
-    <a href="categories-list.php" class="tabspwa-ttrq__content__item">
-      <div class="tabspwa-ttrq__content__item--img">
-        <img src="img/icons/icon-store.svg" alt="" class="tabspwa-ttrq__content__item--img--icon">
-      </div>
-      <span class="tabspwa-ttrq__content__item--info">Tienda</span>
-    </a>
+    <?php 
+      foreach ($name as $val){
+        echo "
+          <a href='categories.php?store={$val['nombre_tienda']}' class='tabspwa-ttrq__content__item'>
+            <div class='tabspwa-ttrq__content__item--img'>
+              <img src='img/icons/icon-store.svg' alt='' class='tabspwa-ttrq__content__item--img--icon'>
+            </div>
+            <span class='tabspwa-ttrq__content__item--info'>Tienda</span>
+          </a>
+        ";
+      }
+    ?>
     <a href="manager.php" class="tabspwa-ttrq__content__item">
       <div class="tabspwa-ttrq__content__item--img">
         <img src="img/icons/icon-hearth.svg" alt="" class="tabspwa-ttrq__content__item--img--icon">

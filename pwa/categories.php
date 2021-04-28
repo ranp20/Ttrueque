@@ -5,8 +5,6 @@
 		header("location: index.php");
 	}
 
-	$nameuser = $_SESSION['user'][0]['nombre_cliente'];
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -24,7 +22,7 @@
     require_once '../php/class/client.php';
     require_once '../php/class/all.php';
 
-    $user = !isset($_SESSION["user"][0]['id_cliente'])  ? "" : $_SESSION["user"][0]['id_cliente'];
+    $user = !isset($_SESSION["user"])  ? "" : $_SESSION["user"];
     //LISTAR CATEGORIA...
     $c = new Categoria();
     $categoria = $c->get_categoria();

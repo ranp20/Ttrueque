@@ -7,7 +7,7 @@ if(!isset($_SESSION['user'])){
 
 require_once '../php/class/client.php';
 $c = new Client();
-$d_by_id =  $c->select_points_default($_SESSION['user'][0]['id_cliente']);
+$d_by_id =  $c->select_points_default($_SESSION['user']);
 ?>
 
 <!DOCTYPE html>
@@ -36,7 +36,7 @@ $d_by_id =  $c->select_points_default($_SESSION['user'][0]['id_cliente']);
         <h3 class="remove-cart"></h3>
         <h3 class="total-pagar"></h3>
       </div>
-      <input type="hidden" id="userid_cli" value="<?php $_SESSION['user'][0]['id_cliente']; ?>">
+      <input type="hidden" id="userid_cli" value="<?php $_SESSION['user']; ?>">
       <table class="table cart-list" id="tbl_id">
         <thead>
           <tr>

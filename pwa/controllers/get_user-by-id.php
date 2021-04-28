@@ -1,5 +1,5 @@
 <?php 
-require_once '../../php/class/connection.php';
+require_once '../php/class/connection.php';
 
 class getUserData extends Connection{
 	

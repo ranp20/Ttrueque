@@ -22,19 +22,18 @@ if ($d[0]['estado'] == "INACTIVO") {
   <?php require_once 'includes/header-index.php'; ?>
   <title>Dashboard - Cliente</title>
   <link rel="stylesheet" href="../shop/css/style.css">
-  <?php require_once 'includes/head.php'; ?>
 </head>
-<body class="body-managerpwa">
+<body class="body-managerpwa mrgtop-57" style="padding-bottom: 3rem;">
   <?php require_once 'includes/headertop-pwa.php'; ?>
   <div class="loader-cli">
-    <img src="images/gifs/shopping-loader.gif" alt="Loading...">
+    <img src="../shop/images/gifs/shopping-loader.gif" alt="Loading...">
   </div>
   <div class="container-total active">
     <!-- LEFT SIDEBAR NAV -------->
-    <?php require_once 'includes/sidebar-left.php'; ?>
+    <?php require_once 'includes/manager-sidebar-left.php'; ?>
     <!-- CONTENT FULL DASHBOARD -->
     <section class="content-dash">
-        <?php require_once 'includes/header-top.php'; ?>
+        <?php require_once 'includes/manager-header-top.php'; ?>
         <div class="content-top">
             <div class="btns-show">
                 <ul class="btns-action cont-btns-pages-shop">
@@ -146,10 +145,26 @@ if ($d[0]['estado'] == "INACTIVO") {
     </section>
   </div>
   <?php require_once 'includes/tabsbottom-pwa.php'; ?>
-  <script src="js/sidebar-left.js"></script>
-  <script src="js/customs.js"></script>
-  <script src="js/dashboard.js"></script>
-  <script src="js/ordenes_pedidos.js"></script>
-  <script src="js/informe_ventas.js"></script>
+<script type="text/javascript">
+  ((d) => {
+    
+    d.querySelector('#btn-tdc-toggle').addEventListener('click', function (){
+      let sidebarmanager = d.querySelector('.sidebar-nav');
+      let closebtnsidebarleft = d.querySelector('.c-left-btn-tdc');
+      if(!sidebarmanager.classList.contains('active')){
+        sidebarmanager.style.paddingTop = "3.5rem";
+        sidebarmanager.style.paddingBottom = "5rem";
+        closebtnsidebarleft.style.top = "60px";
+      }else{
+        console.log('No tiene la clase');
+      }
+    })
+  })(document);
+  </script>
+  <script src="../shop/js/sidebar-left.js"></script>
+  <script src="../shop/js/customs.js"></script>
+  <script src="../shop/js/dashboard.js"></script>
+  <script src="../shop/js/ordenes_pedidos.js"></script>
+  <script src="../shop/js/informe_ventas.js"></script>
 </body>
 </html>

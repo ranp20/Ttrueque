@@ -22,8 +22,14 @@
 		header("location: index.php");
 	}
 
-	$nameuser = $_SESSION['user'][0]['nombre_cliente'];
-	$idpaisuser = $_SESSION['user'][0]['id_pais'];
+
+  require_once 'controllers/get_user-by-id.php';
+      
+  $getUser = new getUserData();
+  $getID = $getUser->getData($_SESSION['user']);
+
+	$nameuser = $getID[0]['nombre_cliente'];
+	$idpaisuser = $getID[0]['id_pais'];
 
 ?>
 <!DOCTYPE html>

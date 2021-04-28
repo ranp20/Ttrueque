@@ -5,6 +5,8 @@
 <meta name="author" content="Ttrueque">
 <!-------RESPONSIVE--------->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- CDN LINEICONS -->
+<link rel="stylesheet" href="https://cdn.lineicons.com/2.0/LineIcons.css">
 <!-- CDN JQUERY -->
 <script src="js/jquery-3.3.1.min.js"></script>
 <!-- //GOOGLE WEB FONTS -->

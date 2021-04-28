@@ -22,7 +22,7 @@
 					</div>
 					<div class="cont-form__form--controls">
 						<label for="password" class="cont-form__form--controls--label">CONSTRASEÑA</label>
-						<input type="password" name="password" class="cont-form__form--controls--input" required>
+						<input type="password" name="pass" class="cont-form__form--controls--input" required>
 					</div>
 					<button type="submit" class="cont-form__form--btn-login">INICIAR SESIÓN</button>
 				</form>

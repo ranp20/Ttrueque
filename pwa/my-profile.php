@@ -6,8 +6,6 @@ if(!isset($_SESSION['user'])){
   header("location: index.php");
 }
 
-$nameuser = $_SESSION['user'][0]['nombre_cliente'];
-
 ?>
 <!DOCTYPE html>
 <html lang="en">

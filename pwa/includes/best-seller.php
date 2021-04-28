@@ -61,7 +61,7 @@
 			$ruta_flag = $path_flag . $string_flags;
 			$tienda = str_replace(" ", "-", $key["nombre_tienda"]);
 			$prod = str_replace(" ", "-", $key["nombre_producto"]);
-			$idcliente = $_SESSION['user'][0]['id_cliente'];
+			$idcliente = $_SESSION['user'];
 
 			$name_products = substr($key["nombre_producto"], 0, 60);
 			$idtienda_productos = $key["id_tienda"];

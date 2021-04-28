@@ -11,12 +11,13 @@
 				<?php
 
 				$slice_tiendas = array_slice($dat, 0, 10);
-
+			
 				foreach ($slice_tiendas as $val) {
+					
 					if($val['logo'] == "default-store.png"){
 						echo "
 						<li class='item-str-off-into'>
-							<a href='categorias?store={$val['nombre_tienda']}' class='item-cont-str-off btn_get_to_trademarks' >
+							<a href='categories.php?store={$val['nombre_tienda']}' class='item-cont-str-off btn_get_to_trademarks' >
 								<div class='cont-logo-offi-mrkt-b-ttrk' style='background: rgba(255,255,255,.3);'>
 									<div  loading='lazy' class='logo-off-mrkt-c-ttrk img-fluid' style='background-image: url(../shop/images/store/{$val['logo']});'></div>
 								</div>
@@ -33,7 +34,7 @@
 					}else{
 						echo "
 						<li class='item-str-off-into'>
-							<a href='categorias?store={$val['nombre_tienda']}' class='item-cont-str-off btn_get_to_trademarks' >
+							<a href='categories.php?store={$val['nombre_tienda']}' class='item-cont-str-off btn_get_to_trademarks' >
 								<div class='cont-logo-offi-mrkt-b-ttrk'>
 									<div loading='lazy' class='logo-off-mrkt-c-ttrk img-fluid' style='background-image: url(../shop/images/store/{$val['logo']});'></div>
 								</div>
