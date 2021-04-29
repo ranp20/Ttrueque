@@ -17,14 +17,14 @@ if ($d[0]['estado'] == "INACTIVO") {
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-  <?php require_once 'includes/header-index.php'; ?>
+  <?php require_once 'includes/manager-header-index.php'; ?>
   <title>Dashboard - Cliente</title>
   <link rel="stylesheet" href="../shop/css/style.css">
 </head>
 <body class="body-managerpwa mrgtop-57" style="padding-bottom: 3rem;">
-  <?php require_once 'includes/headertop-pwa.php'; ?>
+    <?php require_once 'includes/headertop-pwa.php'; ?>
   <div class="loader-cli">
     <img src="../shop/images/gifs/shopping-loader.gif" alt="Loading...">
   </div>
@@ -37,7 +37,7 @@ if ($d[0]['estado'] == "INACTIVO") {
         <div class="content-top">
             <div class="btns-show">
                 <ul class="btns-action cont-btns-pages-shop">
-                    <a href="orders_v.php" class="products-detail btn-sel-page-shop">
+                    <a href="manager-orders-v.php" class="products-detail btn-sel-page-shop">
                         <li>
                             <div class="content-icons">
                                 <span class="icon-btn-dash-cart">
@@ -48,7 +48,7 @@ if ($d[0]['estado'] == "INACTIVO") {
                             <p class="lang_ttrq" key="txt-down-btn-cart-top-ad_cli-3">en tus pedidos</p>
                         </li>
                     </a>
-                    <a href="sales-report.php" class="products-whislist btn-sel-page-shop">
+                    <a href="manager-sales-report.php" class="products-whislist btn-sel-page-shop">
                         <li>
                             <div class="content-icons">
                                 <span class="icon-btn-dash-heart">  
@@ -156,7 +156,7 @@ if ($d[0]['estado'] == "INACTIVO") {
         sidebarmanager.style.paddingBottom = "5rem";
         closebtnsidebarleft.style.top = "60px";
       }else{
-        console.log('No tiene la clase');
+        closebtnsidebarleft.style.top = "5px";
       }
     })
   })(document);

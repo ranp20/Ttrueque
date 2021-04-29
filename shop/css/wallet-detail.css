@@ -83,6 +83,7 @@
 .content-list-history-wallet-ad_cli-ttrk{
     box-shadow: 5px 15px 20px 0 rgba(0,0,0,.2);
     overflow: hidden;
+    margin-bottom: 1rem;
 }
 .content-list-history-wallet-ad_cli-ttrk > .content-wallet{
     background: var(--head_contenedor);

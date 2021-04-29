@@ -39,7 +39,13 @@
 	<title>Home - App WebView</title>
 </head>
 <body class="body-homepwa">
-  <?php require_once 'includes/headertop-pwa.php'; ?>
+  <section id="toppwa-ttrq" class="toppwa-ttrq">
+		<div class="toppwa-ttrq__content container-maxwidth" style="display: block;">
+			<div class="toppwa-ttrq__content--img" style="padding: 0 !important;">
+				<img src="img/logotipo-T-white.svg" alt="logotipo-Ttrueque-white.svg" class="toppwa-ttrq__content--img--logo">
+			</div>
+		</div>
+	</section>
    <div class="container-home" id="container-homeWebView">
     <?php
 			require_once 'php/process_headerWebView.php';
@@ -193,6 +199,40 @@
           );
       }
   });
+  
+  $(document).ready(function() {
+      $('#owl-carousel-official').owlCarousel({
+        navigation : false,
+        slideSpeed : 300,
+        paginationSpeed : 400,
+        singleItem:true,
+        dots: false,
+        nav: false,
+        lazyLoad: true,
+        loop:true,
+        margin:10,
+        autoplay:true,
+        autoplayTimeout: 3500,
+        autoplayHoverPause:true,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+                nav:false
+            },
+            600:{
+                items:3,
+                nav:false
+            },
+            1000:{
+                items:5,
+                nav:true,
+                loop:false
+            }
+          }
+      });
+
+  });
   </script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
   <script src="../js/actions_pages/buy_cart.js"></script>
@@ -203,5 +243,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="../js/actions_pages/track-order.js"></script>
   <script src="../js/customs/custom.js"></script>
+  <script src="jquery.min.js"></script>
+  <script src="owlcarousel/owl.carousel.min.js"></script>
 </body>
 </html>

@@ -73,7 +73,7 @@
 								<div class='grid_item targets_products'>
 									<figure class='photo_products'>
 										$descuento
-										<a href='./product-detail?id={$key["id_producto"]}'>
+										<a href='product-detail.php?id={$key["id_producto"]}'>
 										<div class='content-img-best-sells-h'>
 											<img loading='lazy' class='owl-lazy image-card-product img-fluid' src='{$ruta_image}' data-src='{$ruta_image}' alt='' height='200'>	
 											</div>
@@ -108,7 +108,7 @@
 								<div class='grid_item targets_products'>
 									<figure class='photo_products'>
 										$descuento
-										<a href='./product-detail?id={$key["id_producto"]}'>
+										<a href='product-detail.php?id={$key["id_producto"]}'>
 										<div class='content-img-best-sells-h'>
 											<img loading='lazy' class='owl-lazy image-card-product img-fluid' src='{$ruta_image}' data-src='{$ruta_image}' alt='' height='200'>	
 											</div>

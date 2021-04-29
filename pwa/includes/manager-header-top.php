@@ -3,7 +3,7 @@
       <i class="lni lni-menu" id="btn-tdc-toggle"></i>
   </div>
   <div class="c-center-btn-tdc">
-    <a href="wallet-info.php">
+    <a href="manager-wallet-info.php">
       <span class="lang_ttrq" key="txt-saldo-top-ad_cli">Saldo</span>
       <span>:&nbsp;<?php foreach($d as $val){echo $val['puntos'];}?>&nbsp;</span>
       <span class="lang_ttrq" key="txt-points-top-ad_cli">Puntos</span>

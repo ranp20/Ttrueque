@@ -69,6 +69,7 @@
 
 body {
   font-family: var(--fuente);
+  background-color: #e6e6e6;
 }
 a{
   text-decoration: none !important; 

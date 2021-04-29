@@ -4,9 +4,9 @@
 			<h3 class="lang_ttrq" key="title_official_markets">Tiendas Oficiales</h3>
 		</div>
 	</div>
-	<div class="container-content-off-mrkts" id="cont-filter-off-markets" style="padding-bottom: 1rem;">
+	<div class="container-content-off-mrkts" id="cont-filter-off-markets" style="padding-bottom: 1rem;overflow: hidden;">
 		<section class="list-stores-officials-ttrk-c" id="cont-list-filter-off-markets">
-			<ul class="items-str-off-ttrk">
+			<ul class="items-str-off-ttrk owl-carousel owl-theme" id="owl-carousel-official">
 				<!-- //ITEMS - TIENDAS OFICIALES EN TTRUEQUE-->
 				<?php
 
@@ -16,13 +16,13 @@
 					
 					if($val['logo'] == "default-store.png"){
 						echo "
-						<li class='item-str-off-into'>
-							<a href='categories.php?store={$val['nombre_tienda']}' class='item-cont-str-off btn_get_to_trademarks' >
-								<div class='cont-logo-offi-mrkt-b-ttrk' style='background: rgba(255,255,255,.3);'>
-									<div  loading='lazy' class='logo-off-mrkt-c-ttrk img-fluid' style='background-image: url(../shop/images/store/{$val['logo']});'></div>
+						<li class='item-str-off-into item' style='height:150px;border: 1px solid var(--secondary-clr);height:auto;border-radius:32px;padding: 15px;display: flex;flex-direction: column;justify-content: center;text-align: center;'>
+							<a href='categories.php?store={$val['nombre_tienda']}' class='item-cont-str-off btn_get_to_trademarks' style='height:auto;'>
+								<div class='cont-logo-offi-mrkt-b-ttrk' style='background: rgba(255,255,255,.3);height:150px;margin-bottom: 18px;'>
+									<div  loading='lazy' class='logo-off-mrkt-c-ttrk img-fluid' style='background-image: url(../shop/images/store/{$val['logo']});background-size:contain;background-repeat: no-repeat;background-position:center;width: 100%;height:100%;'></div>
 								</div>
 								<div class='cont-info-offi-mrkt-b-ttrk'>
-									<p>" . ucwords($val['nombre_tienda']) . "</p>
+									<p style='font-size: 1.25rem;color: #332927;'>" . ucwords($val['nombre_tienda']) . "</p>
 									<!--<p>Supermercados</p>-->
 									<!--<p class='tooltip-off-mrkt'>
 										<i class='fal fa-calendar-alt'></i>Hoy, 9pm
@@ -33,13 +33,13 @@
 						";
 					}else{
 						echo "
-						<li class='item-str-off-into'>
-							<a href='categories.php?store={$val['nombre_tienda']}' class='item-cont-str-off btn_get_to_trademarks' >
-								<div class='cont-logo-offi-mrkt-b-ttrk'>
-									<div loading='lazy' class='logo-off-mrkt-c-ttrk img-fluid' style='background-image: url(../shop/images/store/{$val['logo']});'></div>
+						<li class='item-str-off-into item' style='height:150px;border: 1px solid var(--secondary-clr);height:auto;border-radius:32px;padding: 15px;display: flex;flex-direction: column;justify-content: center;text-align: center;'>
+							<a href='categories.php?store={$val['nombre_tienda']}' class='item-cont-str-off btn_get_to_trademarks' style='height:auto;'>
+								<div class='cont-logo-offi-mrkt-b-ttrk' style='height:150px;margin-bottom: 18px;'>
+									<div loading='lazy' class='logo-off-mrkt-c-ttrk img-fluid' style='background-image: url(../shop/images/store/{$val['logo']});background-size:contain;background-repeat: no-repeat;background-position:center;width: 100%;height:100%;'></div>
 								</div>
 								<div class='cont-info-offi-mrkt-b-ttrk'>
-									<p>" . ucwords($val['nombre_tienda']) . "</p>
+									<p style='font-size: 1.25rem;color: #332927;'>" . ucwords($val['nombre_tienda']) . "</p>
 									<!--<p>Supermercados</p>-->
 									<!--<p class='tooltip-off-mrkt'>
 										<i class='fal fa-calendar-alt'></i>Hoy, 9pm

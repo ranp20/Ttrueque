@@ -178,6 +178,26 @@ ul{
 .body-shopping-cartpwa::-webkit-scrollbar-thumb:hover {background: #b3b3b3;box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);}
 .body-shopping-cartpwa::-webkit-scrollbar-track {background: #e1e1e1;}
 .body-shopping-cartpwa::-webkit-scrollbar-track:active, .body-shopping-cartpwa::-webkit-scrollbar-track:hover {background: #d4d4d4;}
+/************************** PRODUCT DETAIL **************************/
+/* ANCHO DE LA BARRA DE SCROLL */
+.body-product-detailpwa::-webkit-scrollbar { width: 0;}
+/* Estilos barra (thumb) de scroll */
+.body-product-detailpwa::-webkit-scrollbar-thumb {background: transparent;}
+.body-product-detailpwa::-webkit-scrollbar-thumb:active {background-color: #999999;}
+.body-product-detailpwa::-webkit-scrollbar-thumb:hover {background: #b3b3b3;box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);}
+/* Estilos track de scroll */
+.body-product-detailpwa::-webkit-scrollbar-track {background: #e1e1e1;border-radius: 4px;}
+.body-product-detailpwa::-webkit-scrollbar-track:hover, .body-product-detailpwa::-webkit-scrollbar-track:active {background: #d4d4d4;}
+/* scrollling */
+/* ANCHO DEL SCROLLING */
+.body-product-detailpwa::-webkit-scrollbar {width: 0;}
+.body-product-detailpwa::-webkit-scrollbar-thumb {background: #cccc;border-radius: 4px;}
+.body-product-detailpwa::-webkit-scrollbar-thumb:active {background: #999999;}
+.body-product-detailpwa::-webkit-scrollbar-thumb:hover {background: #b3b3b3;box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);}
+.body-product-detailpwa::-webkit-scrollbar-track {background: #e1e1e1;}
+.body-product-detailpwa::-webkit-scrollbar-track:active, .body-product-detailpwa::-webkit-scrollbar-track:hover {background: #d4d4d4;}
+
+
 
 
 .iframes-viewspwa{

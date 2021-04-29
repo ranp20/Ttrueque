@@ -1,14 +1,13 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-------RESPONSIVE--------->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 <meta name="description" content="">
 <meta name="author" content="Ttrueque">
-<!-------RESPONSIVE--------->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- CDN LINEICONS -->
-<link rel="stylesheet" href="https://cdn.lineicons.com/2.0/LineIcons.css">
 <!-- CDN JQUERY -->
 <script src="js/jquery-3.3.1.min.js"></script>
+<!-- CDN LINEICONS -->
+<link rel="stylesheet" href="https://cdn.lineicons.com/2.0/LineIcons.css">
 <!-- //GOOGLE WEB FONTS -->
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Oxygen:wght@300;400;700&family=Quicksand:wght@300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Sen:wght@400;700;800&family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 <!-- //BOOTSTRAP-->
@@ -32,12 +31,14 @@
 <link href="../css/customs/custom.css" rel="stylesheet">
 <!-----//ICON-PAGES------>
 <link rel="icon" href="../img/icon-pages/drawable-xxxhdpi-icon.png" type="image/ico">
-
 <!-- //WHATSAPP API -->
 <link href="../css/whatsapp.css" rel="stylesheet">
 <!-- //CUSTOMS JS-->
-<script src="../js/customs.js"></script>
+<script src="../js/customs/icons.js"></script>
 <!-- STYLESSHEET INTO PWA-->
 <link rel="stylesheet" href="css/styles.css">
 <link rel="stylesheet" href="../css/customs/custom.css">
+<!--  OWL CAROUSEL-->
+<link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+<link rel="stylesheet" type="text/css" href="owlcarousel/assets/owl.theme.default.min.css">
 </head>
