@@ -1,0 +1,166 @@
+/*=================================
+=            NUEVO CSS            =
+=================================*/
+.content-about-to-pay{
+	margin-top: 10px;
+	background: #e5e5e5;
+	min-height: 90%;
+	padding: 0 20px 20px 20px;
+	text-align: center;	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.content-about-to-pay > h1{
+	font-size: 38px;
+	color: rgba(0,0,0,.6);
+	font-weight: 200;
+	padding: 20px 0;
+	border-bottom: 1px solid rgba(0,0,0,.12);
+	display: block;
+	width: 100%;
+}
+.content-about-to-pay > .about-text-parr-one{
+	margin: 15px 0;
+	font-size: 18px;
+	color: rgba(0,0,0,.6);
+	font-weight: 200;
+}
+.content-about-to-pay > h3{
+	margin: 0 0 10px 0;
+	font-size: 32px;		
+	font-weight: bold;
+}
+.cont-btn-paypal-upd-wallet{
+	width: 220px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content-about-to-pay > .about-text-parr-two{
+	font-weight: 200;	
+	margin: 20px 0 18px 0;
+	font-size: 18px;
+}
+/*=================================
+=            NUEVO CSS            =
+=================================*/
+/*===================================
+=            ANTIGUO CSS            =
+===================================*/
+
+
+.content-about-to-pay > .about-text-parr-two > span{
+	font-weight: bold;
+}
+.content-about-to-pay > .about-text-parr-three{
+	margin-bottom: 5px;
+}
+.content-about-to-pay > .about-text-parr-four{
+	font-weight: bold;
+}
+
+
+/* CONTENIDO DE VERIFICACIÓN DE COMPRA DE PUNTOS */
+.content-verified-to-pay{
+	margin-top: 10px;
+	background: #e5e5e5;
+	min-height: 90%;
+	padding: 0 40px 40px 40px;
+	text-align: center;	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.content-verified-to-pay > h1{
+	font-size: 65px;
+	color: rgba(0,0,0,.6);
+	font-weight: 200;
+	padding: 20px 0;
+	border-bottom: 1px solid rgba(0,0,0,.12);
+	display: block;
+	width: 100%;
+}
+.content-verified-to-pay > h2{
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+/*======================================================
+=            MEDIA QUERIES INTO THIS STYLESHEET            =
+======================================================*/
+@media (min-width: 300px){
+
+}
+
+@media (min-width: 320px){
+  
+}
+
+@media (min-width: 360px){
+  
+}
+
+@media (min-width: 480px){
+  
+}
+
+@media (min-width: 600px){
+  .cont-btn-paypal-upd-wallet{
+		width: 250px;
+	}
+}
+
+@media (min-width: 768px){
+	.content-about-to-pay{
+		margin-top: 10px;
+		background: #e5e5e5;
+		min-height: 90%;
+		padding: 0 40px 40px 40px;
+		text-align: center;	
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+@media (min-width: 1024px){
+  
+}
+
+@media (min-width: 1280px){
+	.content-about-to-pay > h1{
+		font-size: 58px;
+		color: rgba(0,0,0,.6);
+		font-weight: 200;
+		padding: 20px 0;
+		border-bottom: 1px solid rgba(0,0,0,.12);
+		display: block;
+		width: 100%;
+	}  
+	.content-about-to-pay > h3{
+		margin: 0 0 10px 0;
+		font-size: 50px;		
+	}
+	.content-about-to-pay > .about-text-parr-one{
+		margin: 30px 0;
+		font-size: 20px;
+		color: rgba(0,0,0,.6);
+		font-weight: 200;
+	}
+	.content-about-to-pay > .about-text-parr-two{
+		font-weight: 200;	
+		margin: 20px 0 18px 0;
+		font-size: 20px;
+	}
+}
+
+@media (min-width: 1400px){
+  
+}

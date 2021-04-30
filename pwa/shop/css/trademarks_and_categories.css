@@ -1,0 +1,231 @@
+/*===================================
+=            NUEVO CSS            =
+===================================*/
+.btns-options-trademarks-categories{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-row-gap: 1rem;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.contents_items_t-c-dinamic{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  align-items: center;
+  grid-row-gap: 1rem;
+  width: 100%;
+  background: rgba(255,255,255,.5);
+  padding: 10px;
+  border-radius: 20px;
+  display: none;
+  margin-bottom: 20px;
+}
+/*===================================
+=            NUEVO CSS            =
+===================================*/
+/*===================================
+=            ANTIGUO CSS            =
+===================================*/
+.t-c-titles-dinamic > h1{
+    font-size: 24px;  
+}
+/*//////////// BOTONES DE ACCIONES - WALLET ///////////  */
+.btns-options-trademarks-categories > a{
+    color: #fff;
+    text-decoration: none !important;
+    padding: 1em;
+    border-radius: 5px;
+    font-weight: bold;    
+}
+.btns-options-trademarks-categories > a:hover{
+    color: #fff;
+}
+/*//////////// BOTONES DE MARCAS Y CATEGORIAS ///////////  */
+.trademarks-categories-detail:first-child.active{
+    transform: scale(.9);
+    box-shadow: 0 0 0 3px #068A64 inset;
+}
+.trademarks-categories-detail:nth-child(2).active{
+    transform: scale(.9);
+    box-shadow: 0 0 0 3px #273366 inset;
+}
+.trademarks-categories-detail:first-child,
+.trademarks-categories-detail:nth-child(2) {
+    transition: ease all .3s;
+}
+.trademarks-categories-detail:first-child{
+    background: var(--boton1);
+}
+.trademarks-categories-detail:nth-child(2) {
+    background: var(--boton-mercado);
+}
+.trademarks-categories-detail > li {
+    font-weight: bold;
+}
+.trademarks-categories-detail > li > .content-icons{
+    margin: 0 0 1em 0;
+}
+.trademarks-categories-detail > li > .content-icons > i,
+.trademarks-categories-detail > li > .content-icons > i{
+    padding: .8em;
+    border-radius: 50%;
+    transition:ease all .4s;
+}
+.trademarks-categories-detail > li > .content-icons > i:hover{
+    transform: scale(1.3);
+}
+.trademarks-categories-detail:first-child > li > .content-icons > i{
+    background: var(--boton1_icono);
+}
+.trademarks-categories-detail:nth-child(2) > li > .content-icons > i{
+    background: var(--boton5_icono);
+}
+.trademarks-categories-detail > li > p{
+    font-weight: lighter;
+    font-size: .7em;
+    margin-bottom: 1em;
+}
+.trademarks-categories-detail > li > div:nth-child(2) h4,
+.trademarks-categories-detail > li > div:nth-child(2) h4{
+    margin-bottom: 0 !important;
+}
+/* CONTENEDOR DINÁMICO DE AMBOS ITEMS */
+.content-change-dinamic-view-t-c{
+    display: block;
+    position: relative;
+}
+.contents_items_t-c-dinamic.active{
+    /*visibility: visible;*/
+    display: grid;
+}
+.contents_items_t-c-dinamic > .trademarks_categories-controls {
+    text-align: right;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+.contents_items_t-c-dinamic > .trademarks_categories-controls > label{
+    text-align: left;
+}
+.contents_items_t-c-dinamic > .trademarks_categories-controls > input {
+    border: 1px solid var(--divisor);
+    padding: 0.5em 0.6em;
+    margin: 0 0 10px 0;
+}
+.contents_items_t-c-dinamic > .trademarks_categories-controls > button{
+    align-self: flex-end;
+}
+/* TABLA DE LISTADO */
+.cont-tablelist-trademarks{
+  background-color: #fff;
+  overflow-x: auto;
+  box-shadow: 5px 12px 20px 0 rgba(0,0,0,.2);
+  border-radius: 20px;
+}
+.list-trademarks_categories{
+    background: #fff;
+    font-size: .9em;
+    border-collapse: collapse;
+    border-radius: 20px;
+}
+.thead-trademarks_categories > tr,
+.thead-trademarks_categories > td{
+    text-align: left;
+}
+.list-trademarks_categories > thead > tr > th{
+    padding: 1em;
+}
+.list-trademarks_categories > thead > tr > th:first-child{
+    width: 5%;
+}
+.list-trademarks_categories > thead > tr > th:nth-child(2){
+    width: 70%;
+}
+.list-trademarks_categories > tbody > tr > td{
+    padding: 7px;
+    border-top: 1px solid var(--divisor);
+}
+.list-trademarks_categories > tbody > tr:hover > td{
+    background: var(--fondo);
+}
+
+/* SECCIÓN DE CATEGORÍAS DEL CLIENTE */
+.contents_items_t-c-dinamic:nth-child(2) > .trademarks_categories-controls > select{
+    border: 1px solid var(--divisor);
+    padding: 0.5em 0.6em;
+    margin: 0 0 10px 0;
+}
+
+
+
+/*===========================================================
+=            MEDIA QUERIES INTO THIS STYLESSHEET            =
+===========================================================*/
+@media (min-width: 300px){
+
+}
+
+@media (min-width: 320px){
+  
+}
+
+@media (min-width: 360px){
+  
+}
+
+@media (min-width: 480px){
+  
+}
+
+@media (min-width: 600px){
+ .btns-options-trademarks-categories{
+  grid-template-columns: 1fr 1fr;
+ } 
+}
+
+@media (min-width: 768px){
+  .contents_items_t-c-dinamic{
+      display: grid;
+      grid-template-columns: 35% auto;
+      align-items: center;
+      gap: 20px;
+      width: 100%;
+      background: rgba(255,255,255,.5);
+      padding: 10px;
+      border-radius: 20px;
+      display: none;
+      margin-bottom: 20px;
+      /*position: absolute;
+      overflow: scroll;
+      max-height: 379px;*/
+  }
+  .btns-options-trademarks-categories{
+    display: flex;
+    gap: 1rem;
+  }
+  .btns-options-trademarks-categories > a{
+    width: 330px;
+  }
+}
+
+@media (min-width: 1024px){
+  
+}
+
+@media (min-width: 1280px){
+  .btns-options-trademarks-categories{
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 1400px){
+  
+}

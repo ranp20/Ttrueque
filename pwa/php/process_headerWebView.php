@@ -1,8 +1,8 @@
 <?php
 //LISTADO DE CATEGORÍAS DE LA CABECERA DEL HOME...
-require_once "../php/class/categoria.php";
-require_once '../php/class/client.php';
-require_once '../php/class/all.php';
+require_once "./class/categoria.php";
+// require_once './class/client.php';
+// require_once './class/all.php';
 
 $user = !isset($_SESSION['user'])  ? "" : $_SESSION['user'];
 //LISTAR CATEGORIA...
@@ -26,7 +26,7 @@ unset($categoria_actual);
 
 
 //TÍTULO DE LA CABECERA DEL HOME...
-require_once '../php/class/header_titles.php';
+require_once './class/header_titles.php';
 $h = new Header_Titles();
 $header = $h->get_header_titles();
 $c->close_connection();

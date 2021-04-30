@@ -1,0 +1,10 @@
+.content-ttrk-detail_product-c{
+    background: yellow;
+    min-height: 100vh;
+    max-width: 1200px;
+    margin: auto;
+}
+.content-ttrk-detail_product-c > .contenido-detail-products-ttrk{
+    padding:0 0 0 0;
+    box-shadow: 0 0 10px #ddd;
+}

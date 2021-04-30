@@ -1,0 +1,61 @@
+.slideshow{
+	width: 100%;
+	position: relative;
+}
+.slider-carousel-custom, .botones-slider{
+	list-style: none;
+	padding-left: 0;
+}
+.slider-carousel-custom > li{
+	height: 400px;
+}
+.slider-carousel-custom > li > img{
+	width: 100%;
+}
+.slideshow > .slider-carousel-custom > li > .description-banner{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 10%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.slideshow > .slider-carousel-custom > li > .description-banner > h1,
+.slideshow > .slider-carousel-custom > li > .description-banner > p{
+	color:#fff;
+	margin-bottom: 0;
+}
+.slideshow > .slider-carousel-custom > li > .description-banner > p{
+	font-size: 1.5em;
+}
+.slideshow > .botones-slider{
+	position: absolute;
+	top: 90%;
+	width: 100%;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+}
+.slideshow > .botones-slider > li{
+	font-size: 1.5em;
+	margin:.5em;
+}
+.slideshow > .content-left,
+.slideshow > .content-right{
+	position: absolute;
+	top: 0;
+	display: flex;
+	align-items: center;	
+	height: 100%;
+	color: #fff;
+	font-size: 4em;
+}
+.slideshow > .content-left{
+	left: 1%;
+}
+.slideshow > .content-right{
+	right: 1%;
+}

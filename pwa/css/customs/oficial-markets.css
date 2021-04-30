@@ -1,0 +1,39 @@
+.content-total-page-ttrk{	min-height: 100vh;	display: flex;	flex-direction: column;}
+.contenido-tiendas-off-header > .content-title-tiendas {  margin: auto auto 25px auto;  height: 60px;  display: flex;  align-items: center;}
+.contenido-tiendas-off-header > .content-title-tiendas > h3{	font-family: var(--fuente-subtitles);border-bottom: 3px solid var(--secondary-clr);padding: 0 1.8rem .5rem 0;}
+.container-content-off-mrkts{  min-height: 100vh;  display: block;  margin: auto;  width: 100%;}
+.list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into{border: 1px solid var(--secondary-clr);border-radius: 2rem;}
+.list-stores-officials-ttrk-c > .items-str-off-ttrk{  display: flex;  justify-content: flex-start;  list-style: none;  position: relative;  flex-wrap: wrap;  padding: 0 !important;overflow: hidden;}
+.list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into:hover{	background: #fff;}
+.list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into > a{	display: block;	position: relative;	text-decoration: none;}
+.list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into > .item-cont-str-off{	display: flex;	align-items: center;	justify-content: space-between;	flex-direction: column;	margin: 16px;}
+.list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into > .item-cont-str-off > .cont-logo-offi-mrkt-b-ttrk{	width: 100%;  height: 150px;  margin: 0 auto 18px auto;  border-radius: 15px;  background: rgba(0,0,0,.02);}
+.list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into > .item-cont-str-off > .cont-logo-offi-mrkt-b-ttrk > .logo-off-mrkt-c-ttrk{height: 100%;width: 100%;background-repeat: no-repeat; background-position: center; background-size: contain;border-radius: 20px;}
+.list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into > .item-cont-str-off > .cont-info-offi-mrkt-b-ttrk{	display: block;	width: 100%;	text-align: center;}
+.list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into > .item-cont-str-off > .cont-info-offi-mrkt-b-ttrk > p{	margin-bottom: 0;	overflow: hidden;	color: #332927;}
+.list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into > .item-cont-str-off > .cont-info-offi-mrkt-b-ttrk > p:first-child{	font-size: 1.44rem;  font-weight: bold;font-family: var(--fuente-categorias_1);}
+.list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into > .item-cont-str-off > .cont-info-offi-mrkt-b-ttrk > p:nth-child(2){	font-size: 20px;	color: #706967;}
+.list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into > .item-cont-str-off > .cont-info-offi-mrkt-b-ttrk > p:nth-child(3){	display: flex;	align-items: center;	justify-content: center;	box-sizing: border-box;}
+.list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into > .item-cont-str-off > .cont-info-offi-mrkt-b-ttrk > p:nth-child(3) > svg{	margin-right: 5px;}
+.list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into > .item-cont-str-off > .cont-info-offi-mrkt-b-ttrk > p.tooltip-off-mrkt{	display: none;  position: absolute;  top: 45%;  right: 0;  left: 0;  border-radius: 8px;  border: 2px solid #efece9;  background-color: #fff;  width: 122px;  height: 32px;  margin: auto;  text-align: center;  padding: 6px 8px;  color: #706967;  font-family: Poppins-Regular,Helvetica,Arial,sans-serif;  font-size: 16px;  line-height: normal;  transition: ease .3s;}
+.list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into > .item-cont-str-off > .cont-info-offi-mrkt-b-ttrk > p.tooltip-off-mrkt svg{margin-right: 0.5rem;}
+.list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into > .item-cont-str-off > .cont-info-offi-mrkt-b-ttrk > p.tooltip-off-mrkt:hover{	background: #3483fa;	border: 2px solid #047BFA;	color: #fff;}
+.list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into > .item-cont-str-off:hover > .cont-info-offi-mrkt-b-ttrk > p.tooltip-off-mrkt{	display: block;}
+/*BOTÓN PARA VER TODAS LAS MARCAS*/
+.content-btn-more-brands-ttrk{	margin: 0 auto 60px auto;	width: 100%;	text-align: center;}
+.content-btn-more-brands-ttrk > .btn-brands-alls-ttrk{	min-width: 235px;}
+.content-btn-more-brands-ttrk > .btn-brands-alls-ttrk > .btn-into-alls-ttrk{	font-size: 20px;  border: none;  background-color: var(--secondary-clr);  color: #fff;  border-radius: 4px;  line-height: 1;  padding: 14px 32px;  text-align: center;  transition: ease .3s;outline: none;}
+.content-btn-more-brands-ttrk > .btn-brands-alls-ttrk > .btn-into-alls-ttrk:hover{	background-color: var(--hov-secondary-clr);}
+/* CONTENIDO NO HAT TIENDAS */
+.content-msg-any-stores{	position: absolute;  width: 100%;  display: flex;  flex-direction: column;  text-align: center;  align-items: center;  justify-content: center;  background: #ddd;  min-height: 100vh;}
+.content-msg-any-stores div{  margin: 0 0 150px 0;  color: rgba(0,0,0,.4) !important;  line-height: 4.5rem;}
+.content-msg-any-stores div h1{  color: rgba(0,0,0,.4) !important;  font-size: 34px;}
+.content-msg-any-stores div a{	font-size: 20px;  border: none;  background: #3483fa;  color: #fff;  border-radius: 4px;  line-height: 1;  padding: 14px 32px;  text-align: center;  transition: 0 !important;  text-decoration: none;}
+.content-msg-any-stores div a:hover{background: #047BFA;}
+
+/* FILTRO DE TIENDAS EN EL HOME */
+#cont-filter-off-markets{min-height: unset !important;}
+#cont-list-filter-off-markets{min-height: unset !important;}
+#btn-filter-stores-index{margin: 1.563rem auto 3.75rem auto !important;}
+/* ESTILOS EXCLUSIVAMENTE PARA LAS TIENDAS EN TTRUEQUE */
+#cont-all-stores-in-ttrk{max-width: var(--max-width) !important; width: 90%;position: relative;margin-left: auto;margin-right: auto;}

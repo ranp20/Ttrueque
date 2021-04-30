@@ -68,7 +68,7 @@
               $url = '../admin/images/categoria/'.$value['imagen_categoria'];
               $name_category = $value['nombre_categoria'];
               $url_name = str_replace(" ", "-", $name_category);
-
+              
             echo 
             '<li class="item-categ-stores-into" style="margin:0 !important;width:100%;border-radius:10px;">
               <a href="./tienda?tipos='.$url_name.'" class="item-cont-categ-stores"> 

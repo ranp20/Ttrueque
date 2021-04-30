@@ -1,0 +1,287 @@
+/*=================================
+=            NUEVO CSS            =
+=================================*/
+.content-top-sales-report{
+  box-sizing: border-box;
+  margin: 0 0 .5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+}
+.content-top-sales-report > .content-title-sales-report{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px 0 10px 0;
+  padding: 0;
+  width: 100%;
+  height: 75px;
+}
+.content-top-sales-report > .content-title-sales-report > select{
+  width: 150px;
+  margin: 0;
+}
+.sales_report-table > tbody > tr > td:nth-child(6),
+.sales_report-table > tbody > tr > td:last-child{
+  min-width: 160px;
+}
+/*=================================
+=            NUEVO CSS            =
+=================================*/
+/*===================================
+=            ANTIGUO CSS            =
+===================================*/
+.content-top-sales-report > .content-title-sales-report > select > option{
+    padding: .5rem 0 !important;
+    font-size: 1rem;
+}
+.content-button-view-sales-report a{
+    padding: .5rem 1rem;
+    background: #28a745;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    width: 100%;
+    display: flex;
+    font-size: .9rem;
+    align-items: center;
+    text-decoration: none;
+}
+.content-button-view-sales-report a:hover{
+    opacity: .7;
+}
+.content-button-view-sales-report a:active{
+    transform: scale(.95);
+}
+.content-button-view-sales-report a span{
+    font-weight: 500;
+}
+.content-button-view-sales-report a i{
+    margin-left: 0.9rem;
+    font-size: 1.4rem;
+}
+.cont-tablelist-sales-report{
+  background-color: #fff;
+  overflow-x: auto;
+  box-shadow: 5px 12px 20px 0 rgba(0,0,0,.2);
+  border-radius: 20px;
+}
+.sales_report-table{
+    background: #fff;
+    width: 100%;
+    text-align: left;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    border-radius: 20px;
+    font-size: .9em;
+    box-shadow: 5px 15px 20px 0 rgba(0,0,0,.2);
+}
+.sales_report-table > thead > tr > th{
+    padding: .9em 1em;
+    text-align: center;
+}
+.sales_report-table > thead > tr > th:first-child{
+    width: 20px;
+}
+.sales_report-table > tbody > tr > td:nth-child(2){
+    text-align: center;
+}
+.sales_report-table > tbody{
+    border-radius: 0 0 20px 20px;
+}
+.sales_report-table > tbody > tr > td{
+    padding: .5rem .3rem;
+    border-top: 1px solid var(--divisor);
+    text-align: center !important;
+}
+.sales_report-table > tbody > tr > td:first-child{
+    text-align: center;
+}
+.sales_report-table > tbody > tr:hover > td{
+    background: var(--fondo);
+}
+.sales_report-table > tbody > tr > td:first-child{
+    color: red;
+    text-align: left !important;
+    padding: 0 0 0 1em;
+}
+.sales_report-table > tbody > tr > td:nth-child(3) > i{
+    border-radius: 50%;
+    background: #FFE600;
+    color: rgba(0,0,0,.25);
+}
+/* BOTÓNES DE ACCIONES EN INFORME DE VENTAS */
+.sales_report-table > tbody > tr > td > .view-report{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.sales_report-table > tbody > tr > td > .view-report a{
+    background: #28a745;
+    border-radius: 1.5rem;
+    border: none;
+    color: #fff;
+    width: 80%;
+    display: flex;
+    font-size: .9rem;
+    align-items: center;
+    text-decoration: none;
+    padding: .5rem 0;
+    justify-content: center;
+    text-align: center;
+}
+.sales_report-table > tbody > tr > td > .view-report a:hover{
+    opacity: .7;
+}
+.sales_report-table > tbody > tr > td > .view-report a:active{
+    transform: scale(.95);  
+}
+.sales_report-table > tbody > tr > td > .view-report a i{
+    margin-left: 0.9rem;
+    font-size: 1.2rem;
+}
+/* BOTÓN DE PAGO MENSUAL */
+.sales_report-table > tbody > tr > td > .btn-payer-bolet{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.sales_report-table > tbody > tr > td > .btn-payer-bolet form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.sales_report-table > tbody > tr > td > .btn-payer-bolet button{
+    background: steelblue;
+    border-radius: 1.5rem;
+    padding: .5rem 0;
+    color: #fff;
+    text-decoration: none;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:none;
+    cursor: pointer;
+    font-size: 0.9rem !important;
+}
+.sales_report-table > tbody > tr > td .btn-paypal-sales-report{
+    width: 80%;
+    border-radius: 1.5rem;
+}
+.sales_report-table > tbody > tr > td > .btn-payer-bolet button i{
+    margin-left: 0.9rem;
+    font-size: 1.2rem;   
+}
+.sales_report-table > tbody > tr > td > .btn-payer-bolet:hover{
+    opacity: .7;
+}
+.sales_report-table > tbody > tr > td > .btn-payer-bolet:active{
+    transform: scale(.95);
+}
+/* INFORMACIÓN DE DÍAS FALTANTES */
+.msm-days-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.msm-days-left h6{
+    font-size: .9rem;
+}
+.sel-years-sr{
+    width: 85%;
+}
+.cont-msg-monthly-sales{
+    padding: 0 0 0 .5rem;
+    /*background: #FFCBCB;
+    border: 1px solid #E71F47;
+    color: #E71F47;*/
+    margin: 0 0 .2rem 0;
+}
+.cont-msg-monthly-sales > h1{
+    font-size: 1rem;   
+    margin-bottom: 0;
+    color: red;
+}
+.cont-msg-monthly-sales > h1 > i:first-child{
+    margin-right: 0.5rem;
+}
+.cont-msg-monthly-sales > h1 > i:last-child{
+    margin-left: 0.5rem;
+}
+
+
+/*===========================================================
+=            MEDIA QUERIES INTO THIS STYLESSHEET            =
+===========================================================*/
+@media (min-width: 300px){
+
+}
+
+@media (min-width: 320px){
+  
+}
+
+@media (min-width: 360px){
+  
+}
+
+@media (min-width: 480px){
+  
+}
+
+@media (min-width: 600px){
+  .content-top-sales-report > .content-title-sales-report{
+    flex-direction: row;
+    align-items: baseline;
+    height: 45px;
+  }
+  .content-top-sales-report > .content-title-sales-report > select{
+    margin-left: 1rem;
+  }
+}
+
+@media (min-width: 768px){
+  .content-top-sales-report > .content-title-sales-report{
+    width: auto;
+  }
+  .content-top-sales-report{
+    box-sizing: border-box;
+    margin: 0 0 .5rem 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+  }
+}
+
+@media (min-width: 1024px){
+  
+}
+
+@media (min-width: 1280px){
+  .content-top-sales-report > .content-title-sales-report{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 0 10px 0;
+    padding: 0 0 0 10px;
+    width: 50%;
+  }
+  .content-top-sales-report > .content-title-sales-report > select{
+      width: 25%;
+      margin-left: 2rem;
+  }
+}
+
+@media (min-width: 1400px){
+  
+}

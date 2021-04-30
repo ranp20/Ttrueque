@@ -1,0 +1,405 @@
+.page_index-1{
+	background: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.cnt-total-info-side-lr{
+  width: 100%;
+}
+.cnt-total-info-side-lr .content-total-text_b{
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 0 50px 0;
+  width: 100%;
+  background: #fff;
+  max-width: 1152px;
+  margin: auto;
+  min-height: 100vh;
+}
+.cnt-total-info-side-lr .content-total-text_b > section{
+  padding: 70px 0;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  margin: auto;
+}
+.cnt-total-info-side-lr .content-total-text_b > section:last-child{
+	border:none;
+}
+.cnt-total-info-side-lr .content-total-text_b > section > .container-desc-txt-r,
+.cnt-total-info-side-lr .content-total-text_b > section > .container-desc-txt-l{
+	width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cnt-total-info-side-lr .content-total-text_b > section > .container-desc-txt-l{
+	flex-direction: row-reverse;
+}
+/* CONTENEDOR DE IMAGEN - LADO IZQUIERDO */
+section > .container-desc-txt-r > .content-img-desc-trk,
+section > .container-desc-txt-l > .content-img-desc-trk{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    float: none;
+}
+section > .container-desc-txt-r > .content-img-desc-trk > img,
+section > .container-desc-txt-l > .content-img-desc-trk > img{
+	max-height: 300px;
+	min-width: 90%;
+}
+/* COTENEDOR DE TEXTO - LADO DERECHO */
+section > .container-desc-txt-r > .content-text-desc-trk,
+section > .container-desc-txt-l > .content-text-desc-trk{
+	width: 50%;
+  text-align: center;
+}
+section > .container-desc-txt-r > .content-text-desc-trk > h2,
+section > .container-desc-txt-r > .content-text-desc-trk > p,
+section > .container-desc-txt-l > .content-text-desc-trk > h2,
+section > .container-desc-txt-l > .content-text-desc-trk > p{
+	color: #4a4a4a;
+}
+section > .container-desc-txt-r > .content-text-desc-trk > h2,
+section > .container-desc-txt-r > .content-text-desc-trk > p,
+section > .container-desc-txt-r > .content-text-desc-trk > a,
+section > .container-desc-txt-l > .content-text-desc-trk > h2,
+section > .container-desc-txt-l > .content-text-desc-trk > p,
+section > .container-desc-txt-l > .content-text-desc-trk > a{
+	font-family: var(--fuente-categorias_1);
+	font-size: 2.4rem;
+	font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+section > .container-desc-txt-r > .content-text-desc-trk > p,
+section > .container-desc-txt-l > .content-text-desc-trk > p{
+	font-size: 1.15rem;
+	margin-bottom: 2.8rem;
+  color: var(--grey-line-clr);
+}
+section > .container-desc-txt-r > .content-text-desc-trk > a,
+section > .container-desc-txt-l > .content-text-desc-trk > a{
+	font-size: 1.2em;
+	color: var(--tertiary-clr);
+	font-weight: 800;
+  background: var(--secondary-clr);
+  padding: .75rem 3rem;
+  border-radius: 1.5rem;
+  transition: 0s !important;
+}
+section > .container-desc-txt-r > .content-text-desc-trk > a:hover,
+section > .container-desc-txt-l > .content-text-desc-trk > a:hover{
+	background: var(--hov-secondary-clr);
+}
+/* GUÍA DE USUARIO EN EL SITIO WEB */
+/***************** GRUÍA DEL COMPRADOR ******************/
+.content-tutorial-webapp-client{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.content-tutorial-webapp-client .contain-webcli-tutorial
+.content-tutorial-webapp-client .contain-appcli-tutorial{
+
+}
+.content-tutorial-webapp-client .contain-webcli-tutorial h1,
+.content-tutorial-webapp-client .contain-appcli-tutorial h1{
+  text-align: center;
+  padding: .5rem 0 1.5rem 0;
+  color: var(--secondary-clr);
+  font-weight: bold;
+}
+.content-tutorial-webapp-client .contain-webcli-tutorial .cont-steps-web,
+.content-tutorial-webapp-client .contain-appcli-tutorial .cont-steps-app{
+  width: 100%;
+}
+.content-tutorial-webapp-client .contain-webcli-tutorial .cont-steps-web ul,
+.content-tutorial-webapp-client .contain-appcli-tutorial .cont-steps-app ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+}
+.content-tutorial-webapp-client .contain-webcli-tutorial .cont-steps-web ul li,
+.content-tutorial-webapp-client .contain-appcli-tutorial .cont-steps-app ul li{
+  width: calc(100% * 1/4 - 16px);
+  box-shadow: 0 0 0 1px #ddd;
+  margin: 0 .5rem 2.1rem .5rem;
+  border-radius: .5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.content-tutorial-webapp-client .contain-webcli-tutorial .cont-steps-web ul li .cont-img-ref,
+.content-tutorial-webapp-client .contain-appcli-tutorial .cont-steps-app ul li .cont-img-ref{
+  width: 100%;
+  height: 170px;
+  border-radius: .5rem .5rem 0 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+} 
+.content-tutorial-webapp-client .contain-webcli-tutorial .cont-steps-web ul li .cont-img-ref img,
+.content-tutorial-webapp-client .contain-appcli-tutorial .cont-steps-app ul li .cont-img-ref img{
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  object-fit: fill;
+  padding: 1rem;
+}
+.content-tutorial-webapp-client .contain-webcli-tutorial .cont-steps-web ul li .cont-step,
+.content-tutorial-webapp-client .contain-appcli-tutorial .cont-steps-app ul li .cont-step{
+  padding: 1.2rem;
+  font-size: 1.2rem;
+  height: auto;
+  min-height: auto;
+}
+.content-tutorial-webapp-client .contain-webcli-tutorial .cont-steps-web ul li .cont-step p span,
+.content-tutorial-webapp-client .contain-appcli-tutorial .cont-steps-app ul li .cont-step p span{
+  color: var(--secondary-clr);
+  font-weight: bold;
+}
+.content-tutorial-webapp-client .contain-webcli-tutorial .cont-steps-web ul li .cont-step p a{
+  text-decoration: underline;
+}
+
+/***************** GRUÍA DEL VENDEDOR ******************/
+.content-tutorial-webapp-seller{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.content-tutorial-webapp-seller .contain-websell-tutorial
+.content-tutorial-webapp-seller .contain-appsell-tutorial{
+
+}
+.content-tutorial-webapp-seller .contain-websell-tutorial h1,
+.content-tutorial-webapp-seller .contain-appsell-tutorial h1{
+  text-align: center;
+  padding: .5rem 0 1.5rem 0;
+  color: var(--secondary-clr);
+  font-weight: bold;
+}
+.content-tutorial-webapp-seller .contain-websell-tutorial .cont-steps-web,
+.content-tutorial-webapp-seller .contain-appsell-tutorial .cont-steps-app{
+  width: 100%;
+}
+.content-tutorial-webapp-seller .contain-websell-tutorial .cont-steps-web ul,
+.content-tutorial-webapp-seller .contain-appsell-tutorial .cont-steps-app ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+}
+.content-tutorial-webapp-seller .contain-websell-tutorial .cont-steps-web ul li,
+.content-tutorial-webapp-seller .contain-appsell-tutorial .cont-steps-app ul li{
+  width: calc(100% * 1/4 - 16px);
+  box-shadow: 0 0 0 1px #ddd;
+  margin: 0 .5rem 2.1rem .5rem;
+  border-radius: .5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.content-tutorial-webapp-seller .contain-websell-tutorial .cont-steps-web ul li .cont-img-ref,
+.content-tutorial-webapp-seller .contain-appsell-tutorial .cont-steps-app ul li .cont-img-ref{
+  width: 100%;
+  height: 170px;
+  border-radius: .5rem .5rem 0 0;
+  overflow: hidden;
+} 
+.content-tutorial-webapp-seller .contain-websell-tutorial .cont-steps-web ul li .cont-img-ref img,
+.content-tutorial-webapp-seller .contain-appsell-tutorial .cont-steps-app ul li .cont-img-ref img{
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  object-fit: fill;
+  padding: 1rem;
+}
+.content-tutorial-webapp-seller .contain-websell-tutorial .cont-steps-web ul li .cont-step,
+.content-tutorial-webapp-seller .contain-appsell-tutorial .cont-steps-app ul li .cont-step{
+  padding: 1.2rem;
+  font-size: 1.2rem;
+  height: auto;
+  min-height: auto;
+}
+.content-tutorial-webapp-seller .contain-websell-tutorial .cont-steps-web ul li .cont-step p span,
+.content-tutorial-webapp-seller .contain-appsell-tutorial .cont-steps-app ul li .cont-step p span{
+  color: var(--secondary-clr);
+  font-weight: bold;
+}
+.content-tutorial-webapp-seller .contain-websell-tutorial .cont-steps-web ul li .cont-step p strong,
+.content-tutorial-webapp-seller .contain-appsell-tutorial .cont-steps-app ul li .cont-step p strong{
+  font-weight: bold !important;
+}
+.content-tutorial-webapp-seller .contain-websell-tutorial .cont-steps-web ul li .cont-step p a{
+  text-decoration: underline;
+}
+
+
+
+/* NEW STYLES INTO TABS */
+/* HEADER LOGIN Y ACCESS USER */
+#cont-b-init-home-ttrq{
+  margin: 4.5rem 0 0 0 !important;    
+}
+.cont-logo-ttrq-nav-tabs{
+  padding: 0;
+  margin: 0 2rem 0 0 !important;
+}
+.cont-logo-ttrq-nav-tabs img{
+  width: 115px;
+}
+.content-options-trk-tabs a{
+  padding: .75rem 1.1rem;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: .75rem;
+  margin-left: 5px;
+  transition: 0s;
+  font-family: var(--fuente-categorias_1);
+}
+.content-options-trk-tabs a:first-child{
+  background: transparent;
+  border: 1px solid var(--secondary-clr);
+  color: var(--tertiary-clr);
+  font-weight: bold;
+}
+.content-options-trk-tabs a:nth-child(2){
+  background: #fff;
+  color: #000;
+}
+.content-options-trk-tabs a:first-child:hover{
+  background: var(--secondary-clr);
+}
+/* RETORNAR AL HOME */
+.content-options-trk-tabs a.ico-user-valid{
+  padding: .4rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#cont-total-tabs{
+  background: var(--primary-clr);
+  color: #fff;
+  /*box-shadow: 0 0 36px 1px #000;*/
+}
+.cont-tabs-principal-home{
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  color: #fff;
+  margin: 0;
+}
+.cont-tabs-principal-home a{
+  flex: auto;
+  text-align: center;
+  color: #fff;
+  margin: .5rem 0rem .5rem 0rem;
+  padding: .1rem 0 .1rem 0;
+  transition: .2s ease;
+  border-right: 1px solid #fff;
+  font-family: var(--fuente-categorias_1);
+  font-weight: bold;
+  font-size: 0.84rem;
+}
+.cont-tabs-principal-home a:last-child{
+  box-shadow: unset; 
+  border:none;
+}
+.cont-tabs-principal-home a:hover{
+  color: rgba(255,255,255,.5);
+  border-right: 1px solid rgba(255,255,255,.4);
+}
+.cont-tabs-principal-home a:last-child:hover{
+  border:none;
+}
+.cont-tabs-principal-home a li{
+  flex: auto;
+  margin: 0;
+  text-align: center;
+}
+@media (max-width: 1152px) {
+  #cont-b-init-home-ttrq{
+    margin: 6rem 0 0 0 !important;
+  }
+}
+@media (max-width: 992px) {
+  .mobileMenu.tabs-header {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    position: fixed;
+    top: 0px;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    -webkit-transition: all ease 0.25s;
+    transition: all ease 0.25s;
+  }
+  .mobileMenu.tabs-header.open {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+    width: 30%;
+  }
+  .mobileMenu.tabs-header .navbar-nav {
+    overflow-y: auto;
+    max-height: unset !important;
+ 
+  }
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+  }
+  .overlay.open {
+    display: block;
+    z-index: 1029;
+  }
+  .cont-tabs-principal-home a{
+    display: block;
+    padding: 1.2rem 0;
+    border-bottom: 1px solid grey;
+    border-radius: 0;
+    margin: 0;
+    border-right: unset;
+  }
+  .cont-tabs-principal-home a:hover{
+    border-right: none;
+  }
+} 
+
+/* SOLUCIÓN DE BREAKPOINTS */
+/* TAMAÑO - CUSTOMS(993px) */
+@media (min-width: 993px){
+  .cont-tabs-principal-home a{
+    font-size: 0.75rem;
+  }
+}
+/* TAMAÑO - DESKTOP HD(1400px) */
+@media (min-width: 1400px){
+  .cont-tabs-principal-home a{
+    font-size: 0.8rem;
+  }
+}

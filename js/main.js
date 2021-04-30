@@ -115,6 +115,7 @@
 	////CAROUSEL DE PRODUCTOS MÁS VENDIDOS - BEST SELLER...
 	$('#products-more-sells').owlCarousel({
 		autoplay:true,
+		autoplayTimeout: 6000,
 		center: false,
 		items: 5,
 		loop: true,
@@ -122,7 +123,6 @@
 		dots:true,
 		nav: true,
 		lazyLoad: true,
-		autoplayTimeout: 6000,
 		navText: ["<i class='ti-angle-left'></i>","<i class='ti-angle-right'></i>"],
 		responsive: {
 			0: {

@@ -1,0 +1,161 @@
+.linea-enlace:hover{
+
+    text-decoration-line: underline;
+    z-index: 1000;
+}
+
+/*///////////// BOTON EDITAR PERFIL INDEX ////////////*/
+.btn_edit{
+    border: none;
+    background-color: #0478FE;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    padding: .7em .5em;
+}
+
+.btn_edit:hover{
+    background-color: #0060FE;
+    color: #fff;
+}
+
+
+/*///////////// ESTILSO DE LA PORTADA ////////////*/
+.body-languages{
+    background: linear-gradient(
+                #FFBC00,
+                white,
+                #FFBC00
+    );
+}
+
+.content-front{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-enterprise{
+    font-size: 5.5em;
+    text-transform: uppercase;
+    padding: 1.4em 0 .4em 0;
+    color: transparent;
+    background: linear-gradient(
+                red 50%,
+                yellow,
+                red 
+                );
+    -webkit-background-clip: text;
+    position: relative;
+}
+
+.title-enterprise:after{
+    content: "TRUEQUE";
+    position: absolute;
+    width: 100%;
+    top: 44%;
+    left:-5px;
+    color: #303730;
+    z-index: -1;
+}
+
+.languages-content{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-self: center;
+    border: 2px solid rgb(209, 180, 100);
+}
+
+.languages-content a{
+    text-decoration: none;
+    color: #303730;
+    font-size: 1.5em;
+}
+
+.languages-content a:hover{
+    transform: scale(1.2);
+    
+}
+
+.languages-content a:active{
+    transform: scale(.95);
+}
+
+.languages-content a:hover img{
+    border:2px solid #000;
+}
+
+.list-languages{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas: "Arg Bol Pe";
+    gap: 1em;
+    padding: 0;
+    margin:0;
+}
+.languages-content{
+    text-align: center; 
+}
+
+.languages-title{
+    font-size: 1.4em;
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+.list-languages .language-argentina,
+.list-languages .language-bolivia,
+.list-languages .language-peru{
+    grid-area: Arg;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ddd;
+    font-size: .9em;
+}
+
+.list-languages .language-argentina:hover,
+.list-languages .language-bolivia:hover,
+.list-languages .language-peru:hover{
+    color: #000;
+    font-weight: bold;
+}
+
+.list-languages .language-bolivia{
+    display: flex;
+    flex-direction: column;
+    grid-area: Bol;
+}
+
+.list-languages .language-peru{
+    display: flex;
+    flex-direction: column;
+    grid-area: Pe;
+}
+
+.terms-conditions{
+    background: #ccc;
+    width: 90%;
+    align-self: center;
+    height: 9.2em;
+    margin: .9em 0;
+}
+
+.terms-conditions p,
+.terms-conditions a{
+    font-size: 1em;
+    margin: 0;
+}
+
+.terms-conditions a{
+    text-decoration: underline;
+    color: #303730;
+}
+.terms-conditions a:hover{
+    color: rgb(95, 61, 187);
+}

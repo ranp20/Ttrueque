@@ -1,0 +1,78 @@
+.content-payment-cards {
+  background: #fff;
+  width: 100%;
+  /* padding:.5em; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-radius: 5px;
+  box-shadow: -2px 3px 5px -2px #ccc;
+}
+.content-slogan-payment,
+.figure-payments-cards1 {
+  border-right: 1px solid #ddd;
+  display: flex;
+  justify-content: center;
+}
+.figure-payments-cards {
+  display: flex;
+  justify-content: center;
+}
+/* CONTENT SLOGAN PAYMENT CARDS */
+.content-slogan-payment {
+  border-left: 4px solid #3483fa;
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 1.5em;
+}
+.content-slogan-payment > p.title-slogan-payment {
+  font-size: 1.4em;
+  margin: 0;
+  font-weight: bold;
+  font-family: var(--fuente-categorias_1);
+}
+.content-slogan-payment > p.subtitle-slogan-payment {
+  font-size: 1.2em;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.4);
+}
+/* CONTENT FIGURE TYPES PAYMENT */
+.figure-payments-cards {
+  justify-content: center;
+  align-items: center;
+}
+/* CONTENT FIGURE1 FORMS PAYMENT */
+.figure-payments-cards1 {
+  justify-content: center;
+  align-items: center;
+}
+/* CONTENT MORE TYPES PAYMENT */
+.more-medios-payment {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1em;
+}
+.content-icon-plus-payment {
+  padding: 1em 0;
+}
+.content-more-payments {
+  padding: 1em;
+}
+.enlace-icon-more-payments > i {
+  transition: ease 0.3s;
+}
+.enlace-icon-more-payments > i:hover {
+  transform: scale(1.15);
+}
+.content-more-payments > p.title-more-payments {
+  margin: 0;
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family: var(--fuente-categorias_1);
+}
+.content-more-payments > a {
+  margin: 0;
+  font-size: 1.2em;
+  color: #3483fa;
+}

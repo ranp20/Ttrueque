@@ -1,0 +1,320 @@
+/* IMPORTS ALL OF shop */
+@import url(add-store.css);
+@import url(add-to-wallet.css);
+@import url(admin-profile.css);
+@import url(cart-products.css);
+@import url(chat-clients.css);
+@import url(check-payment.css);
+@import url(customs.css);
+@import url(history-shippings.css);
+@import url(membresias.css);
+@import url(menu-sidebar-left.css);
+@import url(orders.css);
+@import url(products_v.css);
+@import url(request_refund.css);
+@import url(review-products_v.css);
+@import url(sales_report.css);
+@import url(sidebar-left.css);
+@import url(tablero.css);
+@import url(track-products.css);
+@import url(trademarks_and_categories.css);
+@import url(verify_m.css);
+@import url(view-order.css);
+@import url(wallet-detail.css);
+@import url(whis-list.css);
+@import url(media-queries-shop.css);
+
+/* VARIABLES GLOBALES - shop */
+:root {
+  --fondo: #f3f3f3;
+  --sidebar-nav: #fcfcfc;
+  --borde-img: #eeeeee;
+  --head_contenedor: #f8f8f8;
+  --contenedor: #fff;
+  --boton1: #0acf97;
+  --boton1_icono: #54ddb6;
+  --boton2: #fa5c7c;
+  --boton2_icono: #fc8da4;
+  --boton3: #ffbc00;
+  --boton3_icono: #ffd04d;
+  --boton4: #20b2aa;
+  --boton4_icono: #6acbc6;
+  --boton5: #3b4d9a;
+  --boton5_icono: #7c88bb;
+  --boton-saldo: #e62e04;
+  --boton-saldo_hover: #ee7357;
+  --boton-saldo_hover1: #991e02;
+  --fuente: sans-serif;
+  --fuente-payment: Arial, Helvetica, sans-serif;
+  --editar: #507bff;
+  --enlaces: #8b9199;
+  --divisor: #ddd;
+  --estado_pagado: #4cd964;
+  --estado_nopagado: #ff3b30;
+  --title-wallet: #303730;
+  --check_icono: #008000;
+  --boton-mercado: #3b4d9a;
+  --boton-mercado_hover: #7c88bb;
+  --state-color: #86ba85;
+  --btn-update: #027cfd;
+  --btn-delete: #d93747;
+  --background-color:rgba(0,0,0,.01);
+  --principal-color: #071573;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--fuente);
+  background-color: #e6e6e6;
+}
+a{
+  text-decoration: none !important; 
+}
+li {
+  list-style: none;
+}
+
+@keyframes deslizarizquierda{
+  0%{grid-template-columns: 98px auto;}
+  10%{grid-template-columns: 105px auto;}
+  20%{grid-template-columns: 130px auto;}
+  30%{grid-template-columns: 150px auto;}
+  40%{grid-template-columns: 180px auto;}
+  50%{grid-template-columns: 200px auto;}
+  60%{grid-template-columns: 220px auto;}
+  70%{grid-template-columns: 240px auto;}
+  80%{grid-template-columns: 260px auto;}
+  90%{grid-template-columns: 280px auto;}
+  100%{grid-template-columns: 315px auto;}
+}
+
+@keyframes deslizarderecha{
+  0%{grid-template-columns: 315px auto;}
+  10%{grid-template-columns: 280px auto;}
+  20%{grid-template-columns: 260px auto;}
+  30%{grid-template-columns: 240px auto;}
+  40%{grid-template-columns: 220px auto;}
+  50%{grid-template-columns: 200px auto;}
+  60%{grid-template-columns: 180px auto;}
+  70%{grid-template-columns: 150px auto;}
+  80%{grid-template-columns: 130px auto;}
+  90%{grid-template-columns: 105px auto;}
+  100%{grid-template-columns: 98px auto;}
+}
+
+.mrgtop-57{
+  margin-top: 57px !important;
+}
+
+
+.container-total #content-list-products-ad_cli-ttrk {
+  width: 100%;
+}
+/* OCULTAR LA PRIMERA OPCIÓN DENTRO DEL SELECT */
+.select-onehidden > option:first-child {
+  display: none;
+}
+
+/* MENSAJES PARA REGISTROS VACÍOS*/
+.content-any-data-wallet,
+.content-any-data-hs,
+.content-any-data-sr,
+.content-any-data-rrfund,
+.content-any-data-orders,
+.content-any-data-reviewprods,
+.content-any-data-products,
+.content-any-data-marcas,
+.content-any-data-categorias,
+.content-any-data-sales-report{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+}
+.content-any-data-wallet > i,
+.content-any-data-hs > i,
+.content-any-data-sr > i,
+.content-any-data-rrfund > i,
+.content-any-data-orders > i,
+.content-any-data-reviewprods > i,
+.content-any-data-products > i,
+.content-any-data-marcas > i,
+.content-any-data-categorias > i,
+.content-any-data-sales-report > i{
+  font-size: 2.5rem;
+  color: rgba(0,0,0,.3) !important;
+  margin-bottom: 0.5rem;
+}
+.content-any-data-wallet > h1,
+.content-any-data-hs > h1,
+.content-any-data-sr > h1,
+.content-any-data-rrfund > h1,
+.content-any-data-orders > h1,
+.content-any-data-reviewprods > h1,
+.content-any-data-products > h1,
+.content-any-data-marcas > h1,
+.content-any-data-categorias > h1,
+.content-any-data-sales-report> h1{
+  color: rgba(0,0,0,.3) !important;
+  font-size: 1rem !important;
+}
+
+/*===========================================================
+=            MEDIA QUERIES INTO THIS STYLESSHEET            =
+===========================================================*/
+@media (min-width: 300px){
+
+}
+
+@media (min-width: 320px){
+  
+}
+
+@media (min-width: 360px){
+  
+}
+
+@media (min-width: 480px){
+  
+}
+
+@media (min-width: 768px){
+  
+}
+
+@media (min-width: 1024px){
+  
+}
+
+@media (min-width: 1280px){
+  .content-any-data-wallet > h1,
+  .content-any-data-hs > h1,
+  .content-any-data-sr > h1,
+  .content-any-data-rrfund > h1,
+  .content-any-data-orders > h1,
+  .content-any-data-reviewprods > h1,
+  .content-any-data-products > h1,
+  .content-any-data-marcas > h1,
+  .content-any-data-categorias > h1,
+  .content-any-data-sales-report> h1{
+    color: rgba(0,0,0,.3) !important;
+    font-size: 1.5rem !important;
+  }  
+}
+
+@media (min-width: 1400px){
+  
+}
+
+/*==================================================================
+=            STYLE INTO HEADERTOP-PWA AND TABSBOTTOM-PWA            =
+===================================================================*/
+/*===========================================================
+=            STYLES FOR TABS-BOTTOM INTO APP PWA            =
+===========================================================*/
+.tabspwa-ttrq {
+  background-color: #fff;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 0 0 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999;
+  box-shadow: 0 -3px 10px 1px rgba(0, 0, 0, 0.12);
+}
+.tabspwa-ttrq__content {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.tabspwa-ttrq__content__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.tabspwa-ttrq__content__item--img {
+  width: 36px;
+  height: 36px;
+  position: relative;
+}
+.tabspwa-ttrq__content__item--img--icon {
+  width: 36px;
+  height: 36px;
+}
+.tabspwa-ttrq__content__item--img--infoquantity {
+  background-color: #ef5b2c;
+  color: #fff;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.tabspwa-ttrq__content__item--info {
+  color: #000;
+  font-size: 0.72rem;
+  position: relative;
+  top: -6px;
+}
+.tabspwa-ttrq__content__item:hover .tabspwa-ttrq__content__item--info,
+.tabspwa-ttrq__content__item:active .tabspwa-ttrq__content__item--info {
+  font-weight: bold;
+}
+
+/*==========================================================
+=            STYLES FOR HEADER-TOP INTO APP PWA            =
+===========================================================*/
+.toppwa-ttrq {
+  background-color: var(--principal-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 12px 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999;
+  box-shadow: 0 3px 10px 1px rgba(0, 0, 0, 0.2);
+}
+.toppwa-ttrq__content {
+  display: grid;
+  grid-template-columns: 34px auto;
+  align-items: flex-end;
+  width: 100%;
+}
+.toppwa-ttrq__content--iconbackpage {
+  width: 34px;
+  height: 30px;
+}
+.toppwa-ttrq__content--iconbackpage-icon {
+  width: 34px;
+  height: 30px;
+}
+.toppwa-ttrq__content--img {
+  width: auto;
+  padding-right: 1rem;
+}
+.toppwa-ttrq__content--img--logo {
+  width: 130px;
+}

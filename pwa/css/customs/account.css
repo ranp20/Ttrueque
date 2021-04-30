@@ -1,0 +1,125 @@
+/* TOP FORM ACCCOUNT */
+#total-content-account{font-family: var(--fuente-categorias_2);}
+#form-register-info-personal .box_account .cont-infoicons-account{display: flex;align-items: center;justify-content: space-between;margin-bottom: 0.5rem;flex-wrap: wrap;}
+#form-register-info-personal .box_account .cont-infoicons-account .cont-imgh3-accounttop img{width: 33px;height: 33px;}
+#form-register-info-personal .box_account .cont-infoicons-account .cont-imgh3-accounttop .new_client{padding: 0;margin: 0;font-weight: bold;color: var(--primary-clr);}
+#form-register-info-personal .box_account .cont-infoicons-account > small{color: var(--primary-clr);font-weight: bold;padding-top: 0 !important;}
+
+/* CONTENEDOR DEL REGSTRO DE USUARIOS */
+.box_account .form_container{background-color: var(--bgc-login) !important;border-radius: 1.5rem;}
+.box_account .form_container .form-group *::placeholder{color: var(--placeholder-login);}
+.box_account .form_container .form-group .form-control{background-color: #fff !important;border: none !important;border-radius: .8rem;box-shadow: unset;}
+.box_account .form_container .private .row .col-12 .col-6 .form-group *::placeholder{color: var(--placeholder-login);}
+.box_account .form_container .private .row .col-6 .form-group *::placeholder{color: var(--placeholder-login);}
+.box_account .form_container .private .row .col-6 .form-group select{color: var(--placeholder-login);position: relative;appearance: none;	-webkit-appearance: none;-moz-appearance: none;}
+.box_account .form_container .private .row .col-6 .form-group select::-ms-expand{display: none;}
+.box_account .form_container .private .row .col-6 .form-group .arrow-down-select{position: absolute;top: 0;right: 0;background-color: var(--primary-clr);height: 40px;width: 25px;border-radius: 0 .8rem .8rem 0;display: flex;align-items: center;justify-content: center;text-align: center;}
+.box_account .form_container .private .row .col-6 .form-group i{right: 10px;top: calc(50% - 7px);width: 8px;height: 8px;display: block;border-left:4px solid #fff;border-bottom:4px solid #fff;transform: rotate(-45deg); /* Giramos el cuadrado */transition: all 0.25s ease;}
+.box_account .form_container .private .row .col-6 .form-group select option{color: #495057;}
+.box_account .form_container .private .row .col-12 .form-group select{color: var(--placeholder-login);}
+.box_account .form_container .private .row .col-12 .form-group select{color: var(--placeholder-login);position: relative;appearance: none;	-webkit-appearance: none;-moz-appearance: none;}
+.box_account .form_container .private .row .col-12 .form-group select::-ms-expand{display: none;}
+.box_account .form_container .private .row .col-12 .form-group .arrow-down-select{position: absolute;top: 0;right: 0;background-color: var(--primary-clr);height: 40px;width: 25px;border-radius: 0 .8rem .8rem 0;display: flex;align-items: center;justify-content: center;text-align: center;}
+.box_account .form_container .private .row .col-12 .form-group i{right: 10px;top: calc(50% - 7px);width: 8px;height: 8px;display: block;border-left:4px solid #fff;border-bottom:4px solid #fff;transform: rotate(-45deg); /* Giramos el cuadrado */transition: all 0.25s ease;}
+.box_account .form_container .private .row .col-12 .form-group select option{color: #495057;}
+
+.form-check-label {
+  display: block;
+  position: relative;
+  padding-left: 12px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.form-check-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: -15px;
+  height: 18px;
+  width: 18px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: thin solid var(--color-letter-o);
+}
+
+/* On mouse-over, add a grey background color */
+.form-check-label:hover input ~ .checkmark {
+  background-color: #fff;
+}
+
+/* When the checkbox is checked, add a blue background */
+.form-check-label input:checked ~ .checkmark {
+  background-color: var(--primary-clr);
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.form-check-label input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.form-check-label .checkmark:after {
+  left: 5px;
+  top: 3px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* BOTÓN REGISTRARME */
+.box_account .form_container .text-center .btn-register-user-new{background-color: #fff;border-radius: .8rem;min-height: 40px;padding: 0.68rem;font-weight: 800;font-family: var(--fuente-categorias_1);}
+
+.body-confirm-mail-ttrueque{min-height: 100vh;}
+.content-ttrk-confirm-mail-c{margin: auto;max-width: 1200px;padding: 0 50px;}
+.content-ttrk-confirm-mail-c > .contenido-confi_mail{margin: 35px auto 0 auto;border:1px solid rgba(0,0,0,.2);padding: 30px;border-radius: 15px;background: lavender;}
+.content-ttrk-confirm-mail-c > .contenido-confi_mail > h1{color: green;font-weight: bold;border-bottom: 1px solid rgba(0,0,0,.1);padding-bottom: 10px;margin-bottom: 10px;}
+.content-ttrk-confirm-mail-c > .contenido-confi_mail > p, .content-ttrk-confirm-mail-c > .contenido-confi_mail > a{font-size: 17px;}
+.content-ttrk-confirm-mail-c > .contenido-confi_mail > p:nth-child(2){font-weight: bold;font-size: 22px;}
+.content-ttrk-confirm-mail-c > .contenido-confi_mail > a:hover{text-decoration: underline;color: #004dda;}
+/* CUANDO YA HAY UN USUARIO */
+.cont-session-exist-login{display: flex;align-items: center;justify-content: center;text-align: center;padding: .8rem 0;border-radius: 0 0 .5rem .5rem;}
+.cont-session-exist-login p{margin: 0;}
+.cont-session-exist-login p a{font-weight: bold;color: var(--primary-clr);}
+/* BUTTON REGISTER */
+.btn-register-user-new{background: var(--secondary-clr) !important;color: #fff !important;}
+.btn-register-user-new:hover{background: var(--hov-secondary-clr) !important;color: #fff !important;}
+.btn-register-user-new:active{background: var(--hov-secondary-clr) !important;color: #fff !important;}
+
+
+/* MEDIA QUERIES */
+@media (min-width: 768px){
+  .box_account .form_container .form-group .form-control{padding: 0.5rem 1rem;}
+}
+@media (min-width: 1024px){
+  .box_account .form_container .form-group .form-control{font-size: 1rem;}
+  #form-register-info-personal .box_account .cont-infoicons-account .cont-imgh3-accounttop .new_client{font-size: 1.4rem;}
+  #form-register-info-personal .box_account .cont-infoicons-account > small{font-size: 0.9rem;}
+}
+@media (min-width: 1400px){
+  .form-check-label .checkmark:after{left: 6px;top: 2px;}
+}

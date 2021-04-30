@@ -1,0 +1,187 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{font-family: "Raleway",sans-serif;}
+.cont-under-const-site{display: flex;flex-direction: column;align-items: center;justify-content: center;text-align: center;max-width: 1200px;width: 90%;margin: auto;}
+.wrapper{position: relative;background-image: url(img/img_svg_04.svg);background-repeat: no-repeat;background-size: 100% 100%;z-index: 40;min-height: 100vh;display: flex;align-items: center;justify-content: center;flex-direction: column;}
+.cont-info-unser-const h1{color: #000;font-weight: 900;font-family: sans-serif;}
+.cont-info-unser-const p{color: #000;font-size: 2rem;font-weight: 800;}
+.opacity {background: rgba(255,255,255,.5);height: 100%;position: absolute;width: 100%;z-index: -1;}
+.cont-crono-under-const{background: rgba(0,0,0,0.5);border-radius: 1rem;}
+.cont-crono-under-const span{}
+.cont-crono-under-const span span{}
+
+.gravity {
+	width: 100%;
+	text-align: center;
+	padding: 70px 0;
+}
+.gravity .logo{
+
+}
+.gravity P {
+  color: #d0d0d0;
+  font-family: "Raleway",sans-serif;
+  font-size: 23px;
+  font-weight: 600;
+  text-align: center;
+    padding-top: 90px
+}
+.countdown .back-text h4{
+    color: red;
+    background: red
+}
+#countdown {
+  margin-top: 75px;
+}
+.email{
+    text-align: center;
+    padding-top: 120px;
+    z-index: 100;
+}
+.email p {
+  color: #fff;
+  font-family: "Raleway",sans-serif;
+  font-size: 21px;
+  font-weight: 600;
+  margin: 20px 0 50px;
+}
+.email input[type="email"] {
+    background: #403c3b;
+    text-transform: uppercase;
+    border: none;
+    color: #fff;
+    width: 390px;
+    padding: 20px;
+    font-size: 15px;
+    border: 2px solid #eadada;
+}
+.email input[type="submit"] {
+  background: #188588;
+  border: medium none;
+  color: #fff;
+  font-size: 15px;
+  padding: 10px;
+  width: 100px;
+  margin-left: -115px;
+}
+.email input[placeholder] {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.social-icon {
+	margin-top: 160px;
+	padding: 25px 0;
+}
+.icon {
+    width: 165px;
+    margin: 0px auto;
+}
+.icon i {
+  color: #fff;
+  font-size: 21px;
+  padding: 9px;
+  color: #13a3a7;
+}
+.countDays{
+    position: relative;
+}
+.countDays::after{
+    position: absolute;
+    content: 'days';
+    color: #fff;
+    top: 0px;
+    left: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+}
+.countHours{
+    position: relative;
+}
+.countHours::after {
+  color: #fff;
+  content: "hours";
+  font-family: "Raleway",sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+  left: 2px;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 0;
+}
+.countMinutes{
+    position: relative;
+}
+.countMinutes::after{
+    position: absolute;
+    content: 'minutes';
+    color: #fff;
+    top: 0px;
+    left: -10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+}
+.countSeconds{
+    position: relative;
+}
+.countSeconds::after{
+    position: absolute;
+    content: 'seconds';
+    color: #fff;
+    top: 0px;
+    left: -10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+}
+
+
+/* MEDIA QUERIES */
+@media (max-width: 1200px){
+  .cont-under-const-site{
+
+  }
+}
+@media (max-width: 992px){
+
+}
+@media (max-width: 768px){
+  .cont-crono-under-const{
+    font: 40px/1.3 'Open Sans Condensed',sans-serif;
+    letter-spacing: -10px;
+    width: 85%;
+  }  
+  .cont-crono-under-const .countDays,
+  .cont-crono-under-const .countHours,
+  .cont-crono-under-const .countMinutes,
+  .cont-crono-under-const .countSeconds{
+
+  }
+  .cont-crono-under-const span {
+
+  }
+}
+@media (max-width: 680px){
+  .cont-crono-under-const{
+    width: 90%;
+  }
+}
+@media (max-width: 650px){
+  .cont-crono-under-const{
+    width: 100%;
+  }
+}
+@media (max-width: 425px){
+  
+}
+@media (max-width: 375px){
+  
+}
+@media (max-width: 320px){
+  
+}

@@ -1,5 +1,5 @@
 <?php
-require_once "../../php/class/connection.php";
+require_once "class/connection.php";
 class List_Pedidos_by_store extends Connection
 {
     function listar_pediddos_by_store()

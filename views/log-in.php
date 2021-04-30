@@ -24,7 +24,7 @@ $paises = $all->get_name_country();
 ?>
 <?php require_once 'header_index.php'; ?>
 
-<body class="body-log-in-ttrueque">
+<body class="body-log-in-ttrueque" style="background-image: url();">
     <div class="cont-headertop-login">
         <div class="container-texto-alls-b">
             <header>

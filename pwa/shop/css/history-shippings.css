@@ -1,0 +1,137 @@
+/* TÍTULO DEL ENCABEZADO */
+.content-title-history{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 10px 0;
+    padding: 0 0 0 10px;
+}
+.title-dashboard-history{
+    font-size: 1.2em;
+}
+.btn-view-report-history-ship{
+    background: var(--btn-update);
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    padding: 0.8em 2em;
+    text-decoration: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+}
+.btn-view-report-history-ship:hover{
+    background:#0156B0 ;
+}
+.btn-view-report-history-ship > i{
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+}
+/* TABLA DE REGISTRO DE COMPRAS */
+.cont-tablelist-result{
+    background-color: #fff;
+    overflow-x: auto;
+    box-shadow: 5px 12px 20px 0 rgba(0,0,0,.2);
+    border-radius: 20px;
+    margin-bottom: 1rem;
+}
+.history-table{
+    background: #fff;
+    width: 100%;
+    text-align: left;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    border-radius: 20px;
+    font-size: .9em;
+}
+.history-table > thead > tr > th{
+    padding: .9em 1em;
+}
+.history-table > thead > tr > th:first-child{
+    width: 20px;
+    padding: 0 0 0 .4em;
+}
+.history-table > thead > tr > th:nth-child(3){
+    padding: 0;
+    text-align: center;
+    width: 15%;
+}
+.history-table > thead > tr > th:nth-child(4){
+    padding: .4em 0;
+    width: 10%;
+    text-align: center;
+}
+.history-table > thead > tr > th:last-child{
+    padding: 0;
+    text-align: center;
+    width: 18%;
+}
+.history-table > tbody > tr > td{
+    padding:1.2em 1em;
+    border-top: 1px solid var(--divisor);
+}
+.history-table > tbody > tr > td:first-child{
+    text-align: center;
+}
+.history-table > tbody > tr:hover > td{
+    background: var(--fondo);
+}
+.history-table > tbody > tr > td:nth-child(1){
+    color: red;
+}
+.history-table > tbody > tr > td:nth-child(1),
+.history-table > tbody > tr > td:nth-child(3),
+.history-table > tbody > tr > td:nth-child(4),
+.history-table > tbody > tr > td:nth-child(5),
+.history-table > tbody > tr > td:nth-child(6){
+    text-align: center;
+}
+.history-table > tbody > tr > td:nth-child(4),
+.history-table > tbody > tr > td:nth-child(5),
+.history-table > tbody > tr > td:nth-child(6),
+.history-table > tbody > tr > td:nth-child(7){
+    padding: 0.4em !important;
+}
+.history-table > tbody > tr > td:nth-child(2),
+.history-table > tbody > tr > td:nth-child(3),
+.history-table > tbody > tr > td:last-child{
+  min-width: 160px;
+}
+/*======================================================
+=            MEDIA QUERIES INTO THIS STYLESHEET            =
+======================================================*/
+@media (min-width: 300px){
+
+}
+
+@media (min-width: 320px){
+  
+}
+
+@media (min-width: 360px){
+  
+}
+
+@media (min-width: 480px){
+  
+}
+
+@media (min-width: 600px){
+  
+}
+
+@media (min-width: 768px){
+  
+}
+
+@media (min-width: 1024px){
+  
+}
+
+@media (min-width: 1280px){
+  
+}
+
+@media (min-width: 1400px){
+  
+}
