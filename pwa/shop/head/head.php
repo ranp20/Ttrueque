@@ -4,7 +4,7 @@ $url =  $actual_link . "/" ."Ttrueque/";
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -23,4 +23,4 @@ $url =  $actual_link . "/" ."Ttrueque/";
     <link rel="icon" href="<?php echo $url ?>img/icon-pages/drawable-xxxhdpi-icon.png" type="image/ico">
     <link rel="stylesheet" href="<?php echo $url ?>pwa/shop/css/style.css">
 </head>
-<body>
+<body class="body-homepwa">

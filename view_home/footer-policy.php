@@ -13,9 +13,23 @@
         </div>
       </div>
       <div class="content-right-footer">
-        <a href="https://play.google.com/store/apps/details?id=ttrueque.css.com" target="_blank">
-          <i class="fal fa-mobile-android"></i>
-          <span>¡Descarga Gratis la App de Trueque!</span></a>
+        <div class="cont-title-right-footer">
+          <p><!---<i class="fab fa-google-play"></i>-->Descarga nuestras aplicaciones</p>
+        </div>
+        <div class="cont-btns-download-apks">
+          <a class="btn-download-apk" href="https://play.google.com/store/apps/details?id=app.ttruequeqr.com" target="_blank" >
+            <span class="content-icon-btn-download-apk">
+              <i class="far fa-qrcode"></i>
+            </span>
+            <span>Ttrueque - Lector QR!</span>
+          </a>
+          <a class="btn-download-apk" href="https://play.google.com/store/apps/details?id=app.ttruequetienda.com" target="_blank" >
+            <span class="content-icon-btn-download-apk">
+              <i class="fal fa-bags-shopping"></i>
+            </span>
+            <span>Ttrueque - Negocios sin límites</span>
+          </a>
+        </div>
       </div>
     </div>
   </div>

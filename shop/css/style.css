@@ -24,6 +24,18 @@
 @import url(whis-list.css);
 @import url(media-queries-shop.css);
 
+
+/* INCLUIR FUENTE EXTERNA EN FORMATO TTF */
+@font-face
+{
+  font-family: “belleza”;
+  src: url(“../fonts/felix-titling-mt.eot”);
+  src: url(“../fonts/felix-titling-mt.eot”) format(“embedded-opentype”),
+  url(“../fonts/felix-titling-mt.woff”) format(“woff”),
+  url(“../fonts/felix-titling-mt.ttf”) format(“truetype”),
+  url(“../fonts/felix-titling-mt.svg”) format(“svg”);
+}
+
 /* VARIABLES GLOBALES - shop */
 :root {
   --fondo: #f3f3f3;
@@ -60,6 +72,7 @@
   --btn-delete: #d93747;
   --background-color:rgba(0,0,0,.01);
   --principal-color: #071573;
+  --fuente-menbresia: "belleza";
 }
 * {
   padding: 0;

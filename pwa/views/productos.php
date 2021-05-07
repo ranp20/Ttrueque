@@ -18,7 +18,7 @@ if (!isset($_SESSION["user"])) {
 require_once 'header_index.php';
 ?>
 
-<body>
+<body class="body-homepwa">
     <div id="page">
         <?php
 		    require_once '../php/process_header.php';

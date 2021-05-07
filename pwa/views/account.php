@@ -23,8 +23,10 @@ $rubros = $all->get_name_rubros();
 
 require_once 'header_index.php'; ?>
 
-<body>
-
+<body class="body-homepwa body-account-pwa">
+	<div class="loader-cli">
+      <img src="../shop/images/gifs/shopping-loader.gif" alt="Loading...">
+  </div>
 	<div id="page">
 		<!-- /header -->
 		<main class="bg_gray" id="total-content-account">
@@ -97,14 +99,14 @@ require_once 'header_index.php'; ?>
 												}
 												?>
 											</select>
-											<div class="arrow-down-select">
+											<!--<div class="arrow-down-select">
 												<i></i>
-											</div>
+											</div>-->
 										</div>
 									</div>
 									<div class="col-6 pl-1">
 										<div class="form-group">
-											<input type="text" required name="phone" class="form-control" placeholder="Teléfono *">
+											<input type="number" minlength="9" maxlength="11" required name="phone" class="form-control" placeholder="Teléfono *">
 										</div>
 									</div>
 								</div>
@@ -141,25 +143,18 @@ require_once 'header_index.php'; ?>
 								</div>
 							</div>
 						</form>
-						<!-- /form_container -->
 					</div>
-					<!-- /box_account -->
 				</div>
 			</div>
 	</div>
 	</main>
 	</div>
-	<!-- page -->
-	<div id="toTop"></div><!-- Back to top button -->
-	<!-- COMMON SCRIPTS -->
 	<script src="js/common_scripts.min.js"></script>
 	<script src="js/main.js"></script>
 	<script src="./js/actions_pages/account.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-	<!-- //BOOTSTRAP-->
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-	<!-- SWEEET ALERT 2-->
 	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+	<script src="./js/actions_pages/customs.js"></script>
 </body>
-
 </html>

@@ -13,7 +13,7 @@ if(!isset($_SESSION['user'])){
     <?php require_once 'header_index.php'; ?>
     <title>My profile - App WebView</title>
 </head>
-<body class="body-my-profilepwa">
+<body class="body-my-profilepwa body-homepwa">
     <div class="loader-cli">
         <img src="../shop/images/gifs/shopping-loader.gif" alt="Loading...">
     </div>

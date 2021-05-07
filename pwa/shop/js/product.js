@@ -128,7 +128,7 @@ $(document).ready(function () {
             <td>${limite}</td>
             <td>${v.precio_producto}</td>
             <td>${v.stock_producto}</td>
-            <td><a href='./folder/${v.imagen}' target=_blank><img src="./folder/${v.imagen}" class='img-list_adcli'></a></td>
+            <td><a href='#'><img src="../folder/${v.imagen}" class='img-list_adcli'></a></td>
             <td><a class="btn-update-product " href="./update_product.php?id=${v.id_producto}">Editar</a></td>
             <td><button class="btn-delete-product" id="btn-delete-product" data-eliminar='${v.id_producto}'  >Eliminar</button></td>
           </tr>`

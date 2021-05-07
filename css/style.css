@@ -2898,10 +2898,6 @@ header.version_2 .menu ul li ul li ul {
     opacity: 0;
   }
 }
-.owl-carousel .owl-item .owl-lazy {
-  opacity: 0;
-  transition: opacity 400ms ease;
-}
 .owl-carousel .owl-item .owl-lazy[src^=""],
 .owl-carousel .owl-item .owl-lazy:not([src]) {
   max-height: 0;

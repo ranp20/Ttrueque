@@ -13,7 +13,7 @@ if(!isset($_GET['tipos']) || $_GET['tipos'] == ""){
 
 ?>
 
-<body>
+<body class="body-homepwa">
     <div class="loader-cli">
         <img src="../shop/images/gifs/shopping-loader.gif" alt="Loading...">
     </div>

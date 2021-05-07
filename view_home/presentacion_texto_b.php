@@ -54,7 +54,23 @@
 		        </div>
 		      </div>
 		      <div class="content-right-footer">
-		        <a href="https://play.google.com/store/apps/details?id=ttrueque.ttrueque.com" target="_blank" ><i class="fal fa-mobile-android"></i>¡Descarga Gratis la App de Trueque!</a>
+		      	<div class="cont-title-right-footer">
+		      		<p><!---<i class="fab fa-google-play"></i>-->Descarga nuestras aplicaciones</p>
+		      	</div>
+		      	<div class="cont-btns-download-apks">
+			        <a class="btn-download-apk" href="https://play.google.com/store/apps/details?id=app.ttruequeqr.com" target="_blank" >
+			        	<span class="content-icon-btn-download-apk">
+			        		<i class="far fa-qrcode"></i>
+			        	</span>
+			        	<span>Ttrueque - Lector QR!</span>
+			        </a>
+			        <a class="btn-download-apk" href="https://play.google.com/store/apps/details?id=app.ttruequetienda.com" target="_blank" >
+			        	<span class="content-icon-btn-download-apk">
+			        		<i class="fal fa-bags-shopping"></i>
+			        	</span>
+			        	<span>Ttrueque - Negocios sin límites</span>
+			        </a>
+		      	</div>
 		      </div>
 		    </div>
 	  	</div>
@@ -89,7 +105,23 @@ dicho artículo a la dirección que especificaste con anterioridad al crear tu c
 		        </div>
 		      </div>
 		      <div class="content-right-footer">
-		        <a href="https://play.google.com/store/apps/details?id=ttrueque.ttrueque.com" target="_blank"><i class="fal fa-mobile-android"></i>¡Descarga Gratis la App de Trueque!</a>
+		      	<div class="cont-title-right-footer">
+		      		<p><!---<i class="fab fa-google-play"></i>-->Descarga nuestras aplicaciones</p>
+		      	</div>
+		      	<div class="cont-btns-download-apks">
+			        <a class="btn-download-apk" href="https://play.google.com/store/apps/details?id=app.ttruequeqr.com" target="_blank" >
+			        	<span class="content-icon-btn-download-apk">
+			        		<i class="far fa-qrcode"></i>
+			        	</span>
+			        	<span>Ttrueque - Lector QR!</span>
+			        </a>
+			        <a class="btn-download-apk" href="https://play.google.com/store/apps/details?id=app.ttruequetienda.com" target="_blank" >
+			        	<span class="content-icon-btn-download-apk">
+			        		<i class="fal fa-bags-shopping"></i>
+			        	</span>
+			        	<span>Ttrueque - Negocios sin límites</span>
+			        </a>
+		      	</div>
 		      </div>
 		    </div>
 	  	</div>
@@ -148,14 +180,14 @@ dicho artículo a la dirección que especificaste con anterioridad al crear tu c
 									<div class="cont-img-ref">
 										<img src="img/iconos_home/app_001.svg" alt="Paso_1_client_app"></div>
 									<div class="cont-step">
-										<p><span>Paso 1:</span> Registrarse mediante la web.</p>
+										<p><span>Paso 1:</span> Registrarse mediante la web o en el aplicativo <strong>Ttrueque - Negocios sin límites(Lo encuentras en Play Store).</strong></p>
 									</div>
 								</li>
 								<li>
 									<div class="cont-img-ref">
 										<img src="img/iconos_home/app_002.svg" alt="Paso_2_client_app"></div>
 									<div class="cont-step">
-										<p><span>Paso 2:</span> Inicia Sesión mediante la app.</p>
+										<p><span>Paso 2:</span> Inicia Sesión mediante el aplicativo <strong>Ttrueque - Lector QR(Lo encuentras en Play Store).</strong></p>
 									</div>
 								</li>
 								<li>
@@ -193,7 +225,23 @@ dicho artículo a la dirección que especificaste con anterioridad al crear tu c
 		        </div>
 		      </div>
 		      <div class="content-right-footer">
-		        <a href="https://play.google.com/store/apps/details?id=ttrueque.ttrueque.com" target="_blank"><i class="fal fa-mobile-android"></i>¡Descarga Gratis la App de Trueque!</a>
+		      	<div class="cont-title-right-footer">
+		      		<p><!---<i class="fab fa-google-play"></i>-->Descarga nuestras aplicaciones</p>
+		      	</div>
+		      	<div class="cont-btns-download-apks">
+			        <a class="btn-download-apk" href="https://play.google.com/store/apps/details?id=app.ttruequeqr.com" target="_blank" >
+			        	<span class="content-icon-btn-download-apk">
+			        		<i class="far fa-qrcode"></i>
+			        	</span>
+			        	<span>Ttrueque - Lector QR!</span>
+			        </a>
+			        <a class="btn-download-apk" href="https://play.google.com/store/apps/details?id=app.ttruequetienda.com" target="_blank" >
+			        	<span class="content-icon-btn-download-apk">
+			        		<i class="fal fa-bags-shopping"></i>
+			        	</span>
+			        	<span>Ttrueque - Negocios sin límites</span>
+			        </a>
+		      	</div>
 		      </div>
 		    </div>
 	  	</div>
@@ -248,7 +296,7 @@ dicho artículo a la dirección que especificaste con anterioridad al crear tu c
 									<div class="cont-img-ref">
 										<img src="img/iconos_home/034-hand.svg" alt="Paso_1_client_web"></div>
 									<div class="cont-step">
-										<p><span>Paso 1:</span> Click en "Scanear QR".</p>
+										<p><span>Paso 1:</span>Inicia sesión mediante el aplicativo <strong>Ttrueque - Lector QR</strong> Click en "Scanear QR".</p>
 									</div>
 								</li>
 								<li>
@@ -286,7 +334,23 @@ dicho artículo a la dirección que especificaste con anterioridad al crear tu c
 		        </div>
 		      </div>
 		      <div class="content-right-footer">
-		        <a href="https://play.google.com/store/apps/details?id=ttrueque.ttrueque.com" target="_blank"><i class="fal fa-mobile-android"></i>¡Descarga Gratis la App de Trueque!</a>
+		      	<div class="cont-title-right-footer">
+		      		<p><!---<i class="fab fa-google-play"></i>-->Descarga nuestras aplicaciones</p>
+		      	</div>
+		      	<div class="cont-btns-download-apks">
+			        <a class="btn-download-apk" href="https://play.google.com/store/apps/details?id=app.ttruequeqr.com" target="_blank" >
+			        	<span class="content-icon-btn-download-apk">
+			        		<i class="far fa-qrcode"></i>
+			        	</span>
+			        	<span>Ttrueque - Lector QR!</span>
+			        </a>
+			        <a class="btn-download-apk" href="https://play.google.com/store/apps/details?id=app.ttruequetienda.com" target="_blank" >
+			        	<span class="content-icon-btn-download-apk">
+			        		<i class="fal fa-bags-shopping"></i>
+			        	</span>
+			        	<span>Ttrueque - Negocios sin límites</span>
+			        </a>
+		      	</div>
 		      </div>
 		    </div>
 	  	</div>
@@ -453,7 +517,23 @@ dicho artículo a la dirección que especificaste con anterioridad al crear tu c
 		        </div>
 		      </div>
 		      <div class="content-right-footer">
-		        <a href="https://play.google.com/store/apps/details?id=ttrueque.ttrueque.com" target="_blank"><i class="fal fa-mobile-android"></i>¡Descarga Gratis la App de Trueque!</a>
+		      	<div class="cont-title-right-footer">
+		      		<p><!---<i class="fab fa-google-play"></i>-->Descarga nuestras aplicaciones</p>
+		      	</div>
+		      	<div class="cont-btns-download-apks">
+			        <a class="btn-download-apk" href="https://play.google.com/store/apps/details?id=app.ttruequeqr.com" target="_blank" >
+			        	<span class="content-icon-btn-download-apk">
+			        		<i class="far fa-qrcode"></i>
+			        	</span>
+			        	<span>Ttrueque - Lector QR!</span>
+			        </a>
+			        <a class="btn-download-apk" href="https://play.google.com/store/apps/details?id=app.ttruequetienda.com" target="_blank" >
+			        	<span class="content-icon-btn-download-apk">
+			        		<i class="fal fa-bags-shopping"></i>
+			        	</span>
+			        	<span>Ttrueque - Negocios sin límites</span>
+			        </a>
+		      	</div>
 		      </div>
 		    </div>
 	  	</div>

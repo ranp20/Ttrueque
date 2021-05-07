@@ -19,4 +19,16 @@ class Store extends Connection
             die($err->getMessage());
         }
     }
+
+    // function sel_idtienda_by_idcliente($cliente){
+    //     try{
+    //         $sql = "SELECT id FROM tienda WHERE cliente = :cliente";
+    //         $stm = $this->con->prepare($sql);
+    //         $stm->bindValue(":cliente", $cliente);
+    //         $stm->execute();
+    //         return $stm->fetchAll(PDO::FETCH_ASSOC);
+    //     }catch(PDOException $e){
+    //         die($err->getMessage());
+    //     }
+    // }
 }

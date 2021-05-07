@@ -57,7 +57,7 @@ require '../email/PHPMailer/SMTP.php';
                <thead>
                  <td>
                     <div style="display:block;align-items:center;justify-content:center;text-align:center;padding: 1rem 2.8rem 0 2.8rem;">
-                      <img src="http://trueque.ga/img/logo/Logo_TTRK.png" alt="logo_Ttrueque" style="max-width:200px;min-width:150px;width:100%;">
+                      <img src="http://ttrueque.com/pwa/img/logo/Logo_TTRK.png" alt="logo_Ttrueque" style="max-width:200px;min-width:150px;width:100%;">
                         <h2 style="color:#3c4858;text-align:left;font-size: 1.5rem;">¡Bienvenido '  . strip_tags($_POST['name']) . '! Confirme su dirección de correo electrónico.</h2> 
                     </div>
                     <div style="display:block;align-items:center;justify-content:center;text-align:center;padding: .5rem 2.8rem 2.8rem 2.8rem;font-size: .97rem;font-weight: lighter;">
@@ -70,7 +70,7 @@ require '../email/PHPMailer/SMTP.php';
                         correos electrónicos y recuperar los datos de su cuenta.</p>
                         <p>Simplemente haga clic en el botón de abajo. ¡Demasiado fácil!</p>   
                       </div>
-                      <a  style="border: none; color: #fff !important; background: #007bff;outline: none; cursor: pointer;display: inline-block; text-decoration: none; padding: 12px 25px;"  href="https://trueque.ga/login?link=' . $habil . -$cli[0]["id_cliente"] . ' " >Activar Cuenta</a>
+                      <a  style="border: none; color: #fff !important; background: #007bff;outline: none; cursor: pointer;display: inline-block; text-decoration: none; padding: 12px 25px;"  href="https://ttrueque.com/pwa/login?link=' . $habil . -$cli[0]["id_cliente"] . ' " >Activar Cuenta</a>
                     </div>
                   </td>
                </thead>

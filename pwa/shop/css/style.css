@@ -78,33 +78,29 @@ li {
   list-style: none;
 }
 
-@keyframes deslizarizquierda{
-  0%{grid-template-columns: 98px auto;}
-  10%{grid-template-columns: 105px auto;}
-  20%{grid-template-columns: 130px auto;}
-  30%{grid-template-columns: 150px auto;}
-  40%{grid-template-columns: 180px auto;}
-  50%{grid-template-columns: 200px auto;}
-  60%{grid-template-columns: 220px auto;}
-  70%{grid-template-columns: 240px auto;}
-  80%{grid-template-columns: 260px auto;}
-  90%{grid-template-columns: 280px auto;}
-  100%{grid-template-columns: 315px auto;}
-}
 
-@keyframes deslizarderecha{
-  0%{grid-template-columns: 315px auto;}
-  10%{grid-template-columns: 280px auto;}
-  20%{grid-template-columns: 260px auto;}
-  30%{grid-template-columns: 240px auto;}
-  40%{grid-template-columns: 220px auto;}
-  50%{grid-template-columns: 200px auto;}
-  60%{grid-template-columns: 180px auto;}
-  70%{grid-template-columns: 150px auto;}
-  80%{grid-template-columns: 130px auto;}
-  90%{grid-template-columns: 105px auto;}
-  100%{grid-template-columns: 98px auto;}
-}
+
+/*===========================================================
+=            OCULTAR EL SCROLLBAR DE LOS IFRAMES            =
+===========================================================*/
+/************************** HOME **************************/
+/* ANCHO DE LA BARRA DE SCROLL */
+.body-homepwa::-webkit-scrollbar { width: 0;}
+/* Estilos barra (thumb) de scroll */
+.body-homepwa::-webkit-scrollbar-thumb {background: transparent;}
+.body-homepwa::-webkit-scrollbar-thumb:active {background-color: #999999;}
+.body-homepwa::-webkit-scrollbar-thumb:hover {background: #b3b3b3;box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);}
+/* Estilos track de scroll */
+.body-homepwa::-webkit-scrollbar-track {background: #e1e1e1;border-radius: 4px;}
+.body-homepwa::-webkit-scrollbar-track:hover, .body-homepwa::-webkit-scrollbar-track:active {background: #d4d4d4;}
+/* scrollling */
+/* ANCHO DEL SCROLLING */
+.body-homepwa::-webkit-scrollbar {width: 0;}
+.body-homepwa::-webkit-scrollbar-thumb {background: #cccc;border-radius: 4px;}
+.body-homepwa::-webkit-scrollbar-thumb:active {background: #999999;}
+.body-homepwa::-webkit-scrollbar-thumb:hover {background: #b3b3b3;box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);}
+.body-homepwa::-webkit-scrollbar-track {background: #e1e1e1;}
+.body-homepwa::-webkit-scrollbar-track:active, .body-homepwa::-webkit-scrollbar-track:hover {background: #d4d4d4;}
 
 .mrgtop-57{
   margin-top: 57px !important;

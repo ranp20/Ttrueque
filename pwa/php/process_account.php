@@ -35,14 +35,14 @@ if (isset($_GET["login"])) {
         "id_rubro" => (int) $_POST["rubro"]
     ];
     if (!$client->get_mail($post_data_register["mail"]))
-        set_message("<div class='alert alert-warning alert-dismissible fade show' role='alert' style='width:566px !important;'>
+        set_message("<div class='alert alert-warning alert-dismissible fade show' role='alert' style='width:auto !important;'>
             <strong style='font-weight:bold;'>Atención!</strong> Este usuario ya se encuentra registrado.
                 <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
                     <span aria-hidden='true'>&times;</span>
                 </button></div>
             ", "../account");
     else if ($post_data_register["phone"] == 0) {
-        set_message("   <div class='alert alert-warning alert-dismissible fade show' role='alert' style='width:566px !important;'>
+        set_message("   <div class='alert alert-warning alert-dismissible fade show' role='alert' style='width:auto !important;'>
             <strong style='font-weight:bold;'>Atención!</strong> Número de teléfono no válido.
                 <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
                     <span aria-hidden='true'>&times;</span>
@@ -52,7 +52,7 @@ if (isset($_GET["login"])) {
         $response = $client->add_client($post_data_register);
         if ($response == "true") {
         //   require_once("../email/call-form.php");
-            set_message("<div class='alert alert-success alert-dismissible fade show' role='alert' style='width:566px !important;'><strong style='font-weight:bold;'>Éxito!</strong> Usuario creado correctamente. Por favor verifique su correo electrónico para activar su cuenta.
+            set_message("<div class='alert alert-success alert-dismissible fade show' role='alert' style='width:auto !important;'><strong style='font-weight:bold;'>Éxito!</strong> Usuario creado correctamente. Por favor verifique su correo electrónico para activar su cuenta.
                                       <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
                                         <span aria-hidden='true'>&times;</span>
                                       </button> </div>", "../account");

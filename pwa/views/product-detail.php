@@ -11,7 +11,7 @@ $data = $p->get_data($_GET["id"]);
 ?>
 <?php require_once 'header_index.php'; ?>
 
-<body>
+<body class="body-homepwa">
     <div class="loader-cli">
         <img src="../shop/images/gifs/shopping-loader.gif" alt="Loading...">
     </div>

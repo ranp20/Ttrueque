@@ -24,7 +24,7 @@ include "./head/head.php";
             <input type="hidden" class="get_selcantidadtienda" value="<?php echo $_GET['cantst']; ?>">
             <main>
                 <div class="content-memb-titles">
-                    <h3 class="lang_ttrq" key="title-top-addmembership-cli-ad_cli">MEMBRESÍA DE VENDEDORES</h3>
+                    <h3 class="lang_ttrq" key="title-top-addmembership-cli-ad_cli">MENBRESÍA</h3>
                 </div>
                 <div class="content-memb-targets"></div>
             </main>

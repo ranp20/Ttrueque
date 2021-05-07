@@ -30,7 +30,7 @@
         ";
       }*/
     ?> -->
-        <a href="shop" class="tabspwa-ttrq__content__item">
+        <a href="../shop" class="tabspwa-ttrq__content__item">
             <div class="tabspwa-ttrq__content__item--img">
                 <img src="../img/icons/icon-hearth.svg" alt="" class="tabspwa-ttrq__content__item--img--icon">
             </div>

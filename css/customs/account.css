@@ -23,6 +23,11 @@
 .box_account .form_container .private .row .col-12 .form-group i{right: 10px;top: calc(50% - 7px);width: 8px;height: 8px;display: block;border-left:4px solid #fff;border-bottom:4px solid #fff;transform: rotate(-45deg); /* Giramos el cuadrado */transition: all 0.25s ease;}
 .box_account .form_container .private .row .col-12 .form-group select option{color: #495057;}
 
+/* OCULTAR LOS ICONOS DE SUBIR Y BAJAR DENTRO DEL INPUT(NUMBER) */
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none;margin: 0;}
+input[type=number]{ -moz-appearance:textfield;}
+
+
 .form-check-label {
   display: block;
   position: relative;

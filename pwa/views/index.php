@@ -25,7 +25,8 @@ if (!isset($_SESSION['user'])) {
 
 <?php require_once './header_index.php'; ?>
 
-<body class="body-homepwa" style="padding-bottom: 3rem;">
+<body class="body-homepwa" style="padding-bottom: 3rem;position: relative;">
+    <div class="contModalGuidettrk"></div>
     <div class="loader-cli">
         <img src="../shop/images/gifs/shopping-loader.gif" alt="Loading...">
       </div>
@@ -196,6 +197,8 @@ if (!isset($_SESSION['user'])) {
     <script src="js/carousel-home.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script type="text/javascript">
+
+    /************************** SYSTEM TABS INTO BANNERS **************************/
     var linksParent = $(".cont-links-products-banners");
     var links = linksParent.find("a");
     var items = $(".content-more-sells");

@@ -123,7 +123,7 @@ require_once 'header_index.php'; ?>
 									</div>
 									<div class="col-6 pl-1">
 										<div class="form-group">
-											<input type="text" required name="phone" class="form-control" placeholder="Teléfono *">
+											<input type="number" minlength="9" maxlength="11" required name="phone" class="form-control" placeholder="Teléfono *">
 										</div>
 									</div>
 								</div>

@@ -9,27 +9,98 @@
 /* FOOTER POLICY */
 .cont-foot-two-p-ttrq{background:var(--primary-clr);padding-top: 2em;border-top: 1px solid var(--grey-line-clr);}
 .cont-foot-two-p-ttrq.cont-foot-two-p-ttrq{background:var(--primary-clr);padding: 0 !important;border:none !important;}
-.cont-foot-two-p-ttrq.cont-foot-two-p-ttrq > .content-footer-policy-ttrk{padding-top: 2em;border-top: 1px solid var(--grey-line-clr);}
+.cont-foot-two-p-ttrq.cont-foot-two-p-ttrq > .content-footer-policy-ttrk{padding: 2em 0;border-top: 1px solid var(--grey-line-clr);}
 .footer-policy-ttrk{padding: 30px 0;    background: #e6e6e6;    align-self: flex-end;    justify-self: flex-end;    width: 100%;}
 .content-footer-policy-ttrk{padding-top: 0;}
-.content-footer-policy-ttrk > .content-footer-bottom{display: flex;    justify-content: space-between;    align-items: center;}
+.content-footer-policy-ttrk > .content-footer-bottom{display: flex;justify-content: space-between;align-items: center;}
 /* LADO IZQUIERDO - FOOTER*/
 .content-footer-policy-ttrk > .content-footer-bottom > .content-left-footer{line-height: 3rem;padding-left: 1rem;font-weight: bold;}
 /* LADO IZUIERDO - TOP */
-.content-footer-policy-ttrk > .content-footer-bottom > .content-left-footer > .content-top-footer-left > a{	font-family: var(--fuente-categorias_2);    font-size: 1rem;    font-weight: bold;    color: var(--tertiary-clr);    text-decoration: none;border-bottom: 1px solid #fff;display: block;width: 80%;padding-bottom: 0.5rem;}
+.content-footer-policy-ttrk > .content-footer-bottom > .content-left-footer > .content-top-footer-left > a{	font-family: var(--fuente-categorias_2);    font-size: 1rem;    font-weight: bold;    color: var(--tertiary-clr);    text-decoration: none;border-bottom: 1px solid #fff;display: block;width: 80%;padding-bottom: 0.5rem;margin: 0 auto;}
 .content-footer-policy-ttrk > .content-footer-bottom > .content-left-footer > .content-top-footer-left > a:nth-child(2){	margin-left: 1em;}
 .content-footer-policy-ttrk > .content-footer-bottom > .content-left-footer > .content-top-footer-left > a:nth-child(3){	margin-left: 1em;}
 .content-footer-policy-ttrk > .content-footer-bottom > .content-left-footer > .content-top-footer-left > a:nth-child(4){	margin-left: 1em;}
 .content-footer-policy-ttrk > .content-footer-bottom > .content-left-footer > .content-top-footer-left > a:hover{	text-decoration: underline;}
 .content-footer-policy-ttrk > .content-footer-bottom > .content-left-footer > .content-bottom-footer-right{	color:#000;}
-.content-footer-policy-ttrk > .content-footer-bottom > .content-left-footer > .content-bottom-footer-right > p{	font-size: 15px;    font-family: var(--fuente-categorias_2);    color: var(--tertiary-clr);}
+.content-footer-policy-ttrk > .content-footer-bottom > .content-left-footer > .content-bottom-footer-right > p{	font-size: 15px;    font-family: var(--fuente-categorias_2);    color: var(--tertiary-clr);text-align: left;}
 /* LADO DERECHO - TOP*/
 .content-footer-policy-ttrk > .content-footer-bottom > .content-left-footer > .bottom-footer-right{	color:#000;    font-size:1em;}
-.content-footer-policy-ttrk > .content-footer-bottom > .content-right-footer{	display: flex;    justify-content: center;    align-items: center;    background: var(--secondary-clr);    padding: 1.1em 2.5em;    font-size: 1.1em;    color: var(--tertiary-clr);    border: 1px solid var(--secondary-clr);    border-radius: 4px;font-family: var(--fuente-categorias_2);}
-.content-footer-policy-ttrk > .content-footer-bottom > .content-right-footer > svg{	font-size: 1.3em;    margin-right: .6rem;}
-.content-footer-policy-ttrk > .content-footer-bottom > .content-right-footer > a{    color: var(--tertiary-clr);font-weight: bold;}
-.content-footer-policy-ttrk > .content-footer-bottom > .content-right-footer:hover{    background: var(--hov-secondary-clr);border: 1px solid var(--hov-secondary-clr);}
-.content-footer-policy-ttrk > .content-footer-bottom > .content-right-footer > a > svg{    margin-right: .5rem;    font-size: 1.2rem;}
+/* BOTÓN DE DESCARGA DE LAS APKS */
+.content-right-footer{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto;
+	grid-row-gap: 1rem;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+.cont-title-right-footer{
+	margin: 0 auto;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+  font-size: .9rem;
+  color: #fff;
+}
+.cont-title-right-footer p svg{
+	font-size: 1.5rem;
+}
+.cont-title-right-footer p{
+	margin: 0;
+}
+.cont-btns-download-apks{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto;
+	grid-row-gap: 1rem;
+}
+.cont-btns-download-apks .btn-download-apk{
+	display: grid;
+	grid-template-columns: auto 1fr;
+	grid-column-gap: 0.4rem;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.1em;
+  color: #fff;
+  padding: 0 1rem 0 0;
+  border-radius: 50px;
+  font-family: var(--fuente-categorias_2);
+  background-color: #000;
+  position: relative;
+  max-width: 370px;
+  width: 100%;
+	box-shadow: 0px 5px 10px 0px rgba(0,0,0,.4);
+}
+.cont-btns-download-apks .btn-download-apk:first-child{background-color: #036AFE;}
+.cont-btns-download-apks .btn-download-apk:nth-child(2){background-color: #F8200A;}
+.cont-btns-download-apks .btn-download-apk > span{
+	text-align: center;
+	margin-right: auto;
+	font-weight: bold;
+}
+.cont-btns-download-apks .btn-download-apk .content-icon-btn-download-apk{
+	height: 60px;
+  width: 60px;
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 50%;
+  margin-right: .5rem;
+  transition: all ease-out .4s;
+}
+.cont-btns-download-apks .btn-download-apk .content-icon-btn-download-apk svg{
+	font-size: 2rem;    
+}
+.cont-btns-download-apks .btn-download-apk:hover .content-icon-btn-download-apk{
+	transform: translateX(10px);
+}
+.cont-btns-download-apks .btn-download-apk:first-child:hover .content-icon-btn-download-apk{background-color: transparent;color:#fff;}
+.cont-btns-download-apks .btn-download-apk:nth-child(2):hover .content-icon-btn-download-apk{background-color: transparent;color:#fff;}
 
 /* FOOTER - INDEX.PHP */
 #contain-foot-index .max-footer-w_ttrq{max-width: var(--max-width) !important; width: 90%;margin-left: auto;margin-right: auto;}
@@ -51,13 +122,21 @@
 
 
 /* ARREGLO DE MEDIA QUERIES EN FOOTER */
-/* TAMAÑO - PREDETERMINADO  */
 @media (min-width: 244px){
   .max-footer-w_ttrq{width: 90%;}
-  .content-footer-policy-ttrk > .content-footer-bottom > .content-right-footer{padding: 1rem;}
 }
-
-/* CUSTOM MEDIA QUERIES  */
-@media (min-width: 244px) and (max-width: 768px){
-	.content-footer-policy-ttrk > .content-footer-bottom > .content-left-footer > .content-top-footer-left > a{margin: 0 auto;}
+@media (min-width: 600px){
+	.content-footer-policy-ttrk > .content-footer-bottom > .content-left-footer > .content-top-footer-left > a{margin: 0;text-align: left;}
+	.content-footer-policy-ttrk > .content-footer-bottom{flex-direction: row !important;justify-content: space-between !important;}
+	.cont-title-right-footer{text-align: left;margin: 0;}
+	.content-right-footer{width: 50%;}
+}
+@media (min-width: 768px){
+	.content-footer-policy-ttrk > .content-footer-bottom > .content-left-footer > .content-top-footer-left > a{margin: 0;}
+}
+@media (min-width: 1024px){
+	.cont-title-right-footer{text-align: center;}
+	.content-right-footer{grid-template-columns: 1fr;grid-template-rows: auto 1fr;}
+	.content-right-footer{width: auto;}
+	.cont-btns-download-apks{grid-template-columns: 1fr 1fr;grid-column-gap: 1rem;}
 }
