@@ -97,6 +97,28 @@
   font-size: 13px !important;
 }
 
+
+/*===============================================================
+=            OCULTAR EL SCROLLBAR DE LOS MODALES GUÍA            =
+================================================================*/
+/************************** CONTAINER  **************************/
+/* ANCHO DE LA BARRA DE SCROLL */
+.contmodal-guide::-webkit-scrollbar { width: 0;}
+/* Estilos barra (thumb) de scroll */
+.contmodal-guide::-webkit-scrollbar-thumb {background: transparent;}
+.contmodal-guide::-webkit-scrollbar-thumb:active {background-color: #999999;}
+.contmodal-guide::-webkit-scrollbar-thumb:hover {background: #b3b3b3;box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);}
+/* Estilos track de scroll */
+.contmodal-guide::-webkit-scrollbar-track {background: #e1e1e1;border-radius: 4px;}
+.contmodal-guide::-webkit-scrollbar-track:hover, .contmodal-guide::-webkit-scrollbar-track:active {background: #d4d4d4;}
+/* scrollling */
+/* ANCHO DEL SCROLLING */
+.contmodal-guide::-webkit-scrollbar {width: 0;}
+.contmodal-guide::-webkit-scrollbar-thumb {background: #cccc;border-radius: 4px;}
+.contmodal-guide::-webkit-scrollbar-thumb:active {background: #999999;}
+.contmodal-guide::-webkit-scrollbar-thumb:hover {background: #b3b3b3;box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);}
+.contmodal-guide::-webkit-scrollbar-track {background: #e1e1e1;}
+.contmodal-guide::-webkit-scrollbar-track:active, .contmodal-guide::-webkit-scrollbar-track:hover {background: #d4d4d4;}
 /*===========================================
 =            CONTENIDO DEL MODAL            =
 ===========================================*/
@@ -140,12 +162,14 @@
   align-items: flex-start;
   justify-content: center;
   padding-top: 1rem;
+  padding-bottom: 5rem;
   animation-name: modalguidettrk;
   animation-duration: 2s;
   animation-delay: 2s;
   animation-fill-mode: forwards;
   visibility: hidden;
   opacity: 0;
+  overflow-y: auto;
 }
 #close-modal-guide:checked + label, #close-modal-guide:checked ~ .contmodal-guide{
   display: none;
@@ -212,9 +236,6 @@
   font-size: 1.2rem;
   box-shadow: 0 0 0 3px #ddd;
 }
-.contmodal-guide__content--tablinks__link:hover span{
-  background-color: #FCA557;
-}
 .contmodal-guide__content--tablinks__link.active span{
   background-color: #FB7904;
 }
@@ -237,12 +258,13 @@
   display: block;
 }
 .contmodal-guide__content--tabcontent__cont--continue{
+  cursor: pointer !important;
   text-decoration: none;
   background-color: #FC3646;
   display: block;
   text-align: center;
   padding: .6rem;
-  color: #fff;
+  color: #fff !important;
   font-weight: 600;
 }
 .contmodal-guide__content--tabcontent__cont--continue:hover,

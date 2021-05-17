@@ -43,6 +43,9 @@ echo "<input id='clientID_paypal' type='hidden' value='$_ClientID'>";
   }
 </style>
 <!--<input id='clientID_paypal' type='hidden' value='<?php //echo $_ClientID;?>'>-->
+<div class="contModalGuidettrk-step-two"></div>
+<div class="contModalGuidettrk-step-three"></div>
+<input type="hidden" id="userid_cli" value="<?php echo $_SESSION['user']; ?>">
 <div class="container-t-add-store_ttrq">
   <div class="content-principal-add-store_ttrq">
     <div class="content-left-options-buttons">
@@ -112,6 +115,7 @@ echo "<input id='clientID_paypal' type='hidden' value='$_ClientID'>";
 <!-- SWEEET ALERT 2-->
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 <script src="../../../shop/js/paypay.js"></script>
+<script src="../../../shop/js/customs.js"></script>
 </body>
 
 </html>
