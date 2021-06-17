@@ -31,10 +31,11 @@ $(document).ready(function () {
       $(
         "#imgSrc"
       ).html(` 
-        <img src="./folder/${v.imagen}" />     
+        <img src="../../shop/folder/${v.imagen}" />     
       `);
       $("#imgitp").val(v.imagen);
-      CKEDITOR.instances["ckeditor"].setData(v.descripcion_producto);
+      $("#desc").val(v.descripcion_producto);
+      //CKEDITOR.instances["ckeditor"].setData(v.descripcion_producto);
     });
   });
 });
@@ -50,7 +51,7 @@ let a=$("#form-product").serialize();
     formData.append("imagen", $(".imgs")[0].files[i]);
   }
 
-  var desc = CKEDITOR.instances["ckeditor"].getData();
+  //var desc = CKEDITOR.instances["ckeditor"].getData();
   formData.append("prod", $("#prod").val());
   formData.append("name", $("#name").val());
   formData.append("categoria", $("#list_categories").val());
@@ -59,7 +60,7 @@ let a=$("#form-product").serialize();
   formData.append("pais", $("#pais").val());
   formData.append("stock", $("#stock").val());
   formData.append("precio", $("#precio").val());
-  formData.append("desc", desc);
+  formData.append("desc", $("#desc").val());
   formData.append("imagen", $("#imgitp").val());
   $.ajax({
     url: "../shop/ajax/update_product.php",

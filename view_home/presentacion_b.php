@@ -45,7 +45,7 @@
               
                 if (isset($_SESSION["user"])) {
                   echo '  <div class="content-options-trk-tabs valid-user order-1">
-                              <a href="./" class="ico-user-valid">Volver al CLUB &nbsp;&nbsp;<i class="fal fa-user fa-2x"></i></a>
+                              <a href="./" class="ico-user-valid">Volver al Mall &nbsp;&nbsp;<i class="fal fa-user fa-2x"></i></a>
                           </div>';
                 }else{
                   echo '  <div class="content-options-trk-tabs order-1">
@@ -68,15 +68,15 @@
                     <div class="content-options-sus-trk">
                         <div class="content-left-o">
                             <h2>Vende en tu propio negocio</h2>
-                            <p>Usando tu cuenta o tarjeta Trueke Al vender, tu ganancia se DUPLICA Ejemplo: Vendes un
+                            <p>Usando tu cuenta o tarjeta Ttrueque Al vender, tu ganancia se DUPLICA Ejemplo: Vendes un
                                 producto a 50 dólares. (o su equivalente en moneda nacional) Automáticamente tu cuenta
-                                en Trueke lo duplica: Obtienes 100 Bikers. <a href="#">Mayores detalles</a></p>
+                                en Ttrueque lo duplica: Obtienes 100 Bikkers. <a href="#">Mayores detalles</a></p>
                             <a href="account" class="btn-register">Regístrate sin costo</a>
                         </div>
                         <div class="content-right-o">
                             <h2>Compras de forma segura</h2>
-                            <p>Tu saldo estará fijado en Bikers Ejemplo: Vas a comprar un producto que cuesta 30 dólares
-                                (o su equivalente en moneda nacional)Con tu cuenta Trueke, pagarás con 30 Bikers. Porque
+                            <p>Tu saldo estará fijado en Bikkers Ejemplo: Vas a comprar un producto que cuesta 30 dólares
+                                (o su equivalente en moneda nacional)Con tu cuenta Ttrueque, pagarás con 30 Bikkers. Porque
                                 cada Biker, es equivalente a un dólar. <a href="#">Mayores detalles</a></p>
                             <a href="account" class="btn-register">Regístrate sin costo</a>
                         </div>

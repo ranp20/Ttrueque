@@ -45,6 +45,11 @@ echo "<input id='clientID_paypal' type='hidden' value='$_ClientID'>";
 <!--<input id='clientID_paypal' type='hidden' value='<?php //echo $_ClientID;?>'>-->
 <div class="contModalGuidettrk-step-two"></div>
 <div class="contModalGuidettrk-step-three"></div>
+<div class="msg-respMessage">
+  <div class="contloaderMessage">
+    <div class="contloaderMessage__loader"></div>
+  </div>
+</div>
 <input type="hidden" id="userid_cli" value="<?php echo $_SESSION['user']; ?>">
 <div class="container-t-add-store_ttrq">
   <div class="content-principal-add-store_ttrq">

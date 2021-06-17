@@ -2,7 +2,7 @@
 session_start();
 
 if (!isset($_SESSION['user'])) {
-    header('location: ../account');
+    header('location: ../login');
 }
 
 require_once("../php/class/menbresia.php");

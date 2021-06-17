@@ -6,6 +6,7 @@ $correo = $_POST["mail"];
 $c = new Client();
 $cli = $c->select_id($correo);
 
+
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 

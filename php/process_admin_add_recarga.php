@@ -2,12 +2,12 @@
 session_start();
 
 
-if (isset($_POST['tipo']) && isset($_POST['cap_carga']) && isset($_POST['precio']) && isset($_POST['submit'])) {
+if (isset($_POST['tipo']) && isset($_POST['precio']) && isset($_POST['submit'])) {
     require_once("class/wallet_client.php");
     $wc = new Wallet_client();
     $imagen = $_FILES['image'];
     $tipo = $_POST['tipo'];
-    $cap_carga = $_POST['cap_carga'];
+    $cap_carga = ((int) $_POST['precio']) * 2;
     $precio = $_POST['precio'];
 
 

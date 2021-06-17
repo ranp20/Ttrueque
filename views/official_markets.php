@@ -1,7 +1,7 @@
 <div class="content-ttrk-official-markets-c margintb-3" id="cont-all-stores-in-ttrk">
 	<div class="contenido-tiendas-off-header">
 		<div class="content-title-tiendas">
-			<h3 class="lang_ttrq" key="title_official_markets">Tiendas Oficiales</h3>
+			<h3 class="lang_ttrq" key="title_official_markets">Tiendas</h3>
 		</div>
 	</div>
 	<div class="container-content-off-mrkts" id="cont-filter-off-markets">
@@ -16,7 +16,7 @@
 					if($val['logo'] == "default-store.png"){
 						echo "
 						<li class='item-str-off-into'>
-							<a href='categorias?store={$val['nombre_tienda']}' class='item-cont-str-off btn_get_to_trademarks' >
+							<a href='productos?store={$val['nombre_tienda']}' class='item-cont-str-off btn_get_to_trademarks' >
 								<div class='cont-logo-offi-mrkt-b-ttrk' style='background: rgba(255,255,255,.3);'>
 									<div  loading='lazy' class='logo-off-mrkt-c-ttrk img-fluid' style='background-image: url(../Ttrueque/shop/images/store/{$val['logo']});'></div>
 								</div>
@@ -33,7 +33,7 @@
 					}else{
 						echo "
 						<li class='item-str-off-into'>
-							<a href='categorias?store={$val['nombre_tienda']}' class='item-cont-str-off btn_get_to_trademarks' >
+							<a href='productos?store={$val['nombre_tienda']}' class='item-cont-str-off btn_get_to_trademarks' >
 								<div class='cont-logo-offi-mrkt-b-ttrk'>
 									<div loading='lazy' class='logo-off-mrkt-c-ttrk img-fluid' style='background-image: url(../Ttrueque/shop/images/store/{$val['logo']});'></div>
 								</div>

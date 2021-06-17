@@ -65,6 +65,39 @@ class All extends Connection
         }
     }
 
+    /* LISTAR CATEGORÍA POR ID DE PRODUCTO */
+    function get_cat_idtienda_update($idproduct){
+        
+        try{
+            $sql = "SELECT categ.id_categoria,categ.nombre_categoria,prod.id_producto FROM producto prod
+                    INNER JOIN categoria categ ON categ.id_categoria = prod.id_categoria
+                    WHERE prod.id_producto  = :id";
+            $stm = $this->con->prepare($sql);
+            $stm->bindValue(":id",$idproduct);
+            $stm->execute();
+
+            return $stm->fetchAll(PDO::FETCH_ASSOC);
+
+        }catch(PDOException $err){
+            die($err->getMessage());
+        }
+    }
+    /* LISTAR TODAS LAS CATEGORÍAS MENOS EL ACTUAL */
+    function get_categs_without_currentcateg($idcategoria){
+        
+        try{
+            $sql = "SELECT id_categoria, nombre_categoria FROM categoria WHERE id_categoria != :idcategoria ORDER BY nombre_categoria ASC";
+            $stm = $this->con->prepare($sql);
+            $stm->bindValue(":idcategoria",$idcategoria);
+            $stm->execute();
+
+            return $stm->fetchAll(PDO::FETCH_ASSOC);
+
+        }catch(PDOException $err){
+            die($err->getMessage());
+        }
+    }
+
     function get_marcas_tienda($id)
     {
         try {
@@ -243,6 +276,37 @@ class All extends Connection
             $stm->execute();
 
             return "actualizado";
+        } catch (PDOException $e) {
+            return $e->getMessage();
+        }
+    }
+
+    /************************** NUEVAS FUNCIONES **************************/
+    function generate_uniqid($recover_pass){
+        
+        try {
+            $sql = "UPDATE cliente SET token = :token WHERE email_cliente = :email";
+            $stm = $this->con->prepare($sql);
+
+            foreach ($recover_pass as $key => $value) {
+                $stm->bindValue($key, $value);
+            }
+
+            $stm->execute();
+            return $stm->rowCount() > 0 ? "Se acaba de generar el token" : "No se ha generado el token";
+            
+        } catch (PDOException $e) {
+            return $e->getMessage();
+        }
+    }
+    function get_client_by_email($email){
+        
+        try {
+            $sql = "SELECT * FROM cliente WHERE email_cliente = :email";
+            $stm = $this->con->prepare($sql);
+            $stm->bindValue(":email", $email);
+            $stm->execute();
+            return $stm->fetchAll(PDO::FETCH_ASSOC);
         } catch (PDOException $e) {
             return $e->getMessage();
         }

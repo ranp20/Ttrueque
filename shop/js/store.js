@@ -3,8 +3,6 @@ $(function () {
   list_store_idtienda();
 });
 
-
-
 $("input[name=tipo_cliente]").click(function () {
   var tipo = $(this).val();
   // console.log(tipo);
@@ -121,6 +119,12 @@ function list_store_idtienda() {
             <p>${v.tienda}
               <span>(${v.cantidad})</span>
             </p>
+            <div class="cont-btngotostore">
+              <a href="../productos?store=${v.tienda}" target="_blank" class="goto-store-to-shop">
+                <i class="lni lni-restaurant"></i>
+                <span>Ir a mi tienda</span>
+              </a>
+            </div>
           </div>
         `
         );
@@ -142,6 +146,12 @@ function list_store_idtienda() {
             <p>${v.tienda}
               <span>(${v.cantidad})</span>
             </p>
+            <div class="cont-btngotostore">
+              <a href="../productos?store=${v.tienda}" target="_blank" class="goto-store-to-shop">
+                <i class="lni lni-restaurant"></i>
+                <span>Ir a mi tienda</span>
+              </a>
+            </div>
           </div>
         `
         );

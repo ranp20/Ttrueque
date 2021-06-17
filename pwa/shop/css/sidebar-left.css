@@ -30,6 +30,35 @@
   box-sizing: border-box;
   width: 100%;
 }
+/* BOTÓN DE IR A MI TIENDA */
+.goto-store-to-shop{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--boton-saldo);
+  color: #fff;
+  margin: .5rem 0;
+  padding: .5rem 1.5rem;
+  border-radius: 5px;
+}
+.goto-store-to-shop:hover{
+  color: #fff;
+  background-color: var(--boton-saldo_hover);
+}
+.goto-store-to-shop i{
+  font-size: 17px;
+}
+.goto-store-to-shop span{
+  margin-left: 0.5rem;
+}
+@media (min-width: 1280px){
+ .goto-store-to-shop i{
+    font-size: 22px;
+  } 
+  .goto-store-to-shop span{
+    margin-left: .8rem;
+  }
+}
 .user-image > .user-img-content > .img-photo-content-user-v{
   border-radius: 10px;
   box-sizing: border-box;

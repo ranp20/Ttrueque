@@ -37,11 +37,13 @@ RewriteRule ^confirm?$ views/confirm.php
 RewriteRule ^allstores?$ views/all_stores.php
 RewriteRule ^allcategories?$ views/all_categories.php
 
+
 ##########################################
 RewriteRule ^presentacion_texto_one_b?$  ./view_home/presentacion_texto_one_b.php
 RewriteRule ^presentacion_texto_two_b?$  ./view_home/presentacion_texto_two_b.php
 RewriteRule ^presentacion_texto_three_b?$  ./view_home/presentacion_texto_three_b.php
-
+RewriteRule ^recuperar-contrasena?$ views/recover-password.php
+RewriteRule ^reestablecer-contrasena?$ views/restore-password.php
 
 ########Rewrite files into home
 RewriteRule ^home?$  home.php
@@ -53,8 +55,12 @@ RewriteRule ^home_texto?$  ./views_home/presentacion_texto_b.php
 #RewriteRule ^mayores_detalles_two?$  ./views_home/presentacion_texto_two_b.php
 #RewriteRule ^mayores_detalles_three?$  ./views_home/presentacion_texto_three_b.php
 
-
-
+#########Deshabilitar la cache para los navegadores
+<IfModule mod_headers.c>
+  Header set Cache-Control "no-cache, no-store, must-revalidate"
+  Header set Pragma "no-cache"
+  Header set Expires 0
+</IfModule>
 
 
 

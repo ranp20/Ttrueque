@@ -2,7 +2,7 @@ $(function () {
   list_category_idtienda();
   add_category_idtienda();
   delete_category_idtienda();
-  list_Categories();
+  /*list_Categories();*/
 });
 
 var tienda = $("#tienda").val();
@@ -120,7 +120,7 @@ function delete_category_idtienda() {
   });
 }
 //LISTAR CATEGORÍAS PARA AGREGAR PRODUCTOS...
-function list_Categories() {
+/*function list_Categories() {
   $.ajax({
     url: "../shop/ajax/list_categoria_idtienda.php",
     type: "POST",
@@ -137,4 +137,4 @@ function list_Categories() {
       );
     });
   });
-}
+}*/

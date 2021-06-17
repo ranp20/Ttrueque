@@ -9,7 +9,7 @@
 					</div>
 					<div class="content-text-desc-trk">
 						<h2>Únete a la nueva forma de hacer negocios sin usar dinero convencional.</h2>
-						<p>Por cada dólar que vendas, usando tu cuenta TRUEKE, automáticamente, esa fracción se duplicará, en tu saldo en Bikers.</p>
+						<p>Por cada dólar que vendas, usando tu cuenta Ttrueque, automáticamente, esa fracción se duplicará, en tu saldo en Bikkers.</p>
 						<a href="./presentacion_texto_one_b">Mayores detalles</a>
 					</div>
 				</div>
@@ -21,7 +21,7 @@
 					</div>
 					<div class="content-text-desc-trk">
 						<h2>Seguridad al comprar sin afectar tus datos financieros.</h2>
-						<p>Cuando quieras comprar, en los negocios asociados a Trueke, Podrás usar tus Bikers, los que adquiriste vendiendo tus productos o servicios. Y lo beneficioso, es evidente, porque solo PAGARAS, 1 Biker por un dólar.</p>
+						<p>Cuando quieras comprar, en los negocios asociados a Ttrueque, Podrás usar tus Bikkers, los que adquiriste vendiendo tus productos o servicios. Y lo beneficioso, es evidente, porque solo PAGARAS, 1 Bikker por un dólar.</p>
 						<a href="./presentacion_texto_two_b">Mayores detalles</a>
 					</div>
 				</div>
@@ -32,8 +32,8 @@
 						<img src="./img/iconos_home/FLAT_dollar.svg" alt="Imagen-provicional">
 					</div>
 					<div class="content-text-desc-trk">
-						<h2>Comprar Bikers.</h2>
-						<p>Un ejemplo: Si queremos comprar una plancha que cuenta 20 dólares en un negocio asociado a TRUEKE. Y no tenemos saldo en nuestra cuenta. La solución, comprar BIKERS. Compramos en TRUEKE, 20 BIKERS, con solo 10 dólares. Porque siempre que compramos con la cuenta TRUEKE, la fracción se duplica. EL BENEFICIO REAL Y CONCRETO, la plancha nos cuesta el 50% menos, usando nuestra cuenta TRUEKE.</p>
+						<h2>Comprar Bikkers.</h2>
+						<p>Un ejemplo: Si queremos comprar una plancha que cuenta 20 dólares en un negocio asociado a Ttrueque. Y no tenemos saldo en nuestra cuenta. La solución, comprar Bikkers. Compramos en Ttrueque, 20 Bikkers, con solo 10 dólares. Porque siempre que compramos con la cuenta Ttrueque, la fracción se duplica. EL BENEFICIO REAL Y CONCRETO, la plancha nos cuesta el 50% menos, usando nuestra cuenta Ttrueque.</p>
 						<a href="./presentacion_texto_three_b">Mayores detalles</a>
 					</div>
 				</div>
@@ -81,8 +81,8 @@
 		<section>
 			<div class="contn-info-que-es">
 				<h1>¿Qué es Ttrueque.com?</h1>
-				<p>Ttrueque.com es un club en línea creado para intercambiar productos por Bikers, esto con la finalidad de no tener que usar tu dinero real.</p>
-				<p>Es muy sencillo, tan solo ingresa y/o registrate en la página web <a href="login">www.ttrueque.com</a> y de inmediato puedes comenzar a comprar con el bono de bienvenida, el cuál te brinda 100 Bikers para comprar lo que quieras dentro del sitio.</p>
+				<p>Ttrueque.com es un club en línea creado para intercambiar productos por Bikkers, esto con la finalidad de no tener que usar tu dinero real.</p>
+				<p>Es muy sencillo, tan solo ingresa y/o registrate en la página web <a href="login">www.ttrueque.com</a> y de inmediato puedes comenzar a comprar con el bono de bienvenida, el cuál te brinda 100 Bikkers para comprar lo que quieras dentro del sitio.</p>
 				<p>Posterior a la compra el vendedor de dicha tienda te informará si tu pedido o compra ha sido recogido y dará pie al siguiente paso, que consiste en la entrega como tál de 
 dicho artículo a la dirección que especificaste con anterioridad al crear tu cuenta.</p>
 				<div class="cont-img-referencial">
@@ -158,7 +158,7 @@ dicho artículo a la dirección que especificaste con anterioridad al crear tu c
 										<img src="img/iconos_home/web-003.svg" alt="Paso_3_client_web">
 									</div>
 									<div class="cont-step">
-										<p><span>Paso 3:</span> Paga con tus Bikers los productos que seleccionaste.</p>
+										<p><span>Paso 3:</span> Paga con tus Bikkers los productos que seleccionaste.</p>
 									</div>
 								</li>
 								<li>
@@ -310,7 +310,7 @@ dicho artículo a la dirección que especificaste con anterioridad al crear tu c
 									<div class="cont-img-ref">
 										<img src="img/iconos_home/014-check-list.svg" alt="Paso_3_client_web"></div>
 									<div class="cont-step">
-										<p><span>Paso 3:</span> Verificar el nombre del cliente a cobrar los Bikers.</p>
+										<p><span>Paso 3:</span> Verificar el nombre del cliente a cobrar los Bikkers.</p>
 									</div>
 								</li>
 							</ul>
@@ -373,32 +373,32 @@ dicho artículo a la dirección que especificaste con anterioridad al crear tu c
 								<h1>2. ¿Qué significa Saldo de Intercambio?</h1>
 								<div class="cont-response">
 									<p>Utilizaremos dos ejemplos para ilustrar:
-									<p><strong>Ejemplo A.-</strong> Cuando VENDES un producto o servicio que vale 50 dólares (o su equivalente en tu moneda nacional) en el mercado, en tu cuenta Ttrueque se registra 100 Bikers.</p>
-									<p><strong>Ejemplo B.-</strong> Cuando COMPRAS (con tu tarjeta Ttrueque o el aplicativo digital) un producto que vale 20 dólares; lo adquieres con 20 Bikers de tu cuenta.</p>
-									<p>Es decir, al vender o comprar, lo haces con tu saldo de tu cuenta Ttrueque, al que también llamamos <strong>Saldo de Intercambio</strong>, cuya unidad monetaria digital se denomina Biker.</p> 
+									<p><strong>Ejemplo A.-</strong> Cuando VENDES un producto o servicio que vale 50 dólares (o su equivalente en tu moneda nacional) en el mercado, en tu cuenta Ttrueque se registra 100 Bikkers.</p>
+									<p><strong>Ejemplo B.-</strong> Cuando COMPRAS (con tu tarjeta Ttrueque o el aplicativo digital) un producto que vale 20 dólares; lo adquieres con 20 Bikkers de tu cuenta.</p>
+									<p>Es decir, al vender o comprar, lo haces con tu saldo de tu cuenta Ttrueque, al que también llamamos <strong>Saldo de Intercambio</strong>, cuya unidad monetaria digital se denomina Bikker.</p> 
 									</p>
 								</div>
 							</li>
 							<li>
-								<h1>3. ¿Qué es un Biker?</h1>
+								<h1>3. ¿Qué es un Bikker?</h1>
 								<div class="cont-response">
-									<p>Es la unidad monetaria digital que utiliza la plataforma Ttrueque. Una vez que te registras en <a href="account">www.ttrueque.com</a> puedes empezar a vender o comprar utilizando Bikers.</p>
+									<p>Es la unidad monetaria digital que utiliza la plataforma Ttrueque. Una vez que te registras en <a href="account">www.ttrueque.com</a> puedes empezar a vender o comprar utilizando Bikkers.</p>
 								</div>
 							</li>
 							<li>
-								<h1>4. ¿A cuánto equivale un Biker?</h1>
+								<h1>4. ¿A cuánto equivale un Bikker?</h1>
 								<div class="cont-response">
-									<p>Un Biker equivale a un Dólar.</p>
+									<p>Un Bikker equivale a un Dólar.</p>
 								</div>
 							</li>
 							<li>
-								<h1>5. ¿Cómo se adquieren los Bikers?</h1>
+								<h1>5. ¿Cómo se adquieren los Bikkers?</h1>
 								<div class="cont-response">
-									<p>Una vez registrado en <a href="account">www.ttrueque.com</a>, podrás empezar a vender tus productos o servicios a otros usuarios de Ttrueque, y en tu cuenta se irá registrando en Bikers. Por cada Dólar (o su equivalente en moneda nacional) que vendes, se registrarán dos Bikers.</p>
+									<p>Una vez registrado en <a href="account">www.ttrueque.com</a>, podrás empezar a vender tus productos o servicios a otros usuarios de Ttrueque, y en tu cuenta se irá registrando en Bikkers. Por cada Dólar (o su equivalente en moneda nacional) que vendes, se registrarán dos Bikkers.</p>
 								</div>
 							</li>
 							<li>
-								<h1>6. ¿Significa que, si vendo con mi cuenta Ttrueque el valor de 400 dólares, en mi saldo se registra 800 Bikers?</h1>
+								<h1>6. ¿Significa que, si vendo con mi cuenta Ttrueque el valor de 400 dólares, en mi saldo se registra 800 Bikkers?</h1>
 								<div class="cont-response">
 									<p>Sí, así funciona, se duplica. 
 									</p>
@@ -411,7 +411,7 @@ dicho artículo a la dirección que especificaste con anterioridad al crear tu c
 								</div>
 							</li>
 							<li>
-								<h1>8. ¿Es verdad que al registrarse se nos otorga gratuitamente 100 Bikers?</h1>
+								<h1>8. ¿Es verdad que al registrarse se nos otorga gratuitamente 100 Bikkers?</h1>
 								<div class="cont-response">
 									<p>Sí, para que empiecen a utilizar su tarjeta o aplicativo en los comercios o empresas de los demás usuarios de Ttrueque.</p>
 								</div>
@@ -423,9 +423,9 @@ dicho artículo a la dirección que especificaste con anterioridad al crear tu c
 								</div>
 							</li>
 							<li>
-								<h1>10. ¿El pago por administración de cuenta se paga en Biker o Dólares?</h1>
+								<h1>10. ¿El pago por administración de cuenta se paga en Bikker o Dólares?</h1>
 								<div class="cont-response">
-									<p>Mensualmente el usuario de Ttrueque recibirá su estado de cuenta en donde se detallará las ventas que ha realizado en Bikers; y pagará <strong>por administración de cuenta</strong> el 8% del monto vendido. El pago lo realizará en dólares o equivalente en moneda nacional. 
+									<p>Mensualmente el usuario de Ttrueque recibirá su estado de cuenta en donde se detallará las ventas que ha realizado en Bikkers; y pagará <strong>por administración de cuenta</strong> el 8% del monto vendido. El pago lo realizará en dólares o equivalente en moneda nacional. 
 									</p>
 								</div>
 							</li>
@@ -439,7 +439,7 @@ dicho artículo a la dirección que especificaste con anterioridad al crear tu c
 								<h1>12. ¿Qué recibo al registrarme en Ttrueque?</h1>
 								<div class="cont-response">
 									<p>Al registrase gratuitamente, recibes automáticamente:
-									<p><strong>a.</strong>	Bikers 100.</p>
+									<p><strong>a.</strong>	Bikkers 100.</p>
 									<p><strong>b.</strong>	Una tienda para exhibir tus productos.</p>
 									<p><strong>c.</strong>	Un código QR en el aplicativo para que compres o vendas.</p> 
 									</p>
@@ -454,16 +454,16 @@ dicho artículo a la dirección que especificaste con anterioridad al crear tu c
 								</div>
 							</li>
 							<li>
-								<h1>14. ¿Se puede comprar Bikers?</h1>
+								<h1>14. ¿Se puede comprar Bikkers?</h1>
 								<div class="cont-response">
-									<p>Sí, los usuarios de Ttrueque pueden comprar Bikers. Por ejemplo, si se desea adquirir 100 Bikers, el costo será de 50 dólares. 
+									<p>Sí, los usuarios de Ttrueque pueden comprar Bikkers. Por ejemplo, si se desea adquirir 100 Bikkers, el costo será de 50 dólares. 
 									</p>
 								</div>
 							</li>
 							<li>
-								<h1>15. ¿Hay un mínimo para comprar de Bikers?</h1>
+								<h1>15. ¿Hay un mínimo para comprar de Bikkers?</h1>
 								<div class="cont-response">
-									<p>Veinte Bikers es el mínimo de compra; es decir le costará 10 dólares.</p>
+									<p>Veinte Bikkers es el mínimo de compra; es decir le costará 10 dólares.</p>
 								</div>
 							</li>
 							<li>

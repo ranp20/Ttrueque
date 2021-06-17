@@ -54,16 +54,16 @@ if (isset($_SESSION['msg'])) {
                                     <input type="text" maxlength="100" required name="tipo" id="tipo" class="form-control">
                                 </div>
                               </div>
-                              <div class="form-group">
+                              <!--<div class="form-group">
                                 <div class="form-group">
                                   <label for="name">Cantidad de puntos a recargar</label>
                                   <input type="number" maxlength="10" required name="cap_carga" id="cap_carga" class="form-control">
                                 </div>
-                              </div>
+                              </div>-->
                               <div class="form-group">
                                 <div class="form-group">
                                   <label for="name">Precio de la Recarga</label>
-                                  <input type="text" maxlength="100" required name="precio" id="precio" class="form-control">
+                                  <input type="number" maxlength="100" required name="precio" id="precio" class="form-control">
                                 </div>
                               </div>
                               <div class="form-group mt-4">

@@ -15,9 +15,22 @@ $(document).ready(function(){
 $(document).on("click", "#btn-product", function (e) {
   e.preventDefault();
 
+  $(this).attr("disabled", "disabled");
+  $(this).addClass("disabled");
+
+  var namevaluesinputs = {};
+
   $('#form-product').each(function(){
     $(this).find('input').each(function(){
-      var inputs = $(this);
+      
+    namevaluesinputs[this.name] = this.value;
+      //Recorrer los inputs y obtener el name
+      /*for(var i = 0;i < inputs.length; i++){
+        var namesinputs = inputs[i].name;
+        console.log(namesinputs);
+
+      }
+
       
       if(inputs.val().length <= 0){
         Swal.fire({
@@ -29,11 +42,15 @@ $(document).on("click", "#btn-product", function (e) {
         });
         return false;
       }else{
-        console.log('Campos Llenados:'+' '+inputs.val().length);
+        //console.log('Campos Llenados:'+' '+inputs.val().length);
         return true;
-      }
+      }*/
+
     });
+    console.log(namevaluesinputs);
   });
+
+
 
   var formData = new FormData();
   var filesLength = $(".imgs")[0].files.length;
@@ -41,7 +58,7 @@ $(document).on("click", "#btn-product", function (e) {
     formData.append("imagen", $(".imgs")[0].files[i]);
   }
 
-  var desc = CKEDITOR.instances["ckeditor"].getData();
+  //var desc = CKEDITOR.instances["ckeditor"].getData();
 
   formData.append("tienda", $("#tienda").val());
   formData.append("name", $("#name").val());
@@ -50,7 +67,7 @@ $(document).on("click", "#btn-product", function (e) {
   formData.append("pais", $("#pais").val());
   formData.append("stock", $("#stock").val());
   formData.append("precio", $("#precio").val());
-  formData.append("desc", desc);
+  formData.append("desc", $("#desc").val());
   
   //console.log(formData);
   $.ajax({
@@ -74,8 +91,10 @@ $(document).on("click", "#btn-product", function (e) {
         showConfirmButton: false,
         timer: 1400,
       });
-      CKEDITOR.instances["ckeditor"].setData('');
+      //CKEDITOR.instances["ckeditor"].setData('');
       window.location.replace("../shop/products_v.php");
+      $(this).removeAttr("disabled");
+      $(this).removeClass("disabled");
     } else if (resul["res"] == "agotado") {
       Swal.fire({
         title: "Error",
@@ -83,9 +102,13 @@ $(document).on("click", "#btn-product", function (e) {
         icon: "error",
         confirmButtonText: "Cerrar",
       });
+      $(this).removeAttr("disabled");
+      $(this).removeClass("disabled");
     } else {
       //console.log(formData);
       alert("No insertó");
+      $(this).removeAttr("disabled");
+      $(this).removeClass("disabled");
     }
   });
 });
@@ -123,7 +146,7 @@ $(document).ready(function () {
           `<tr  id='tr-${v.id_producto}'>
             <td></td>
             <td>${v.nombre_categoria}</td>
-            <td>${v.nombre_marca}</td>
+            <td>${v.marca_producto}</td>
             <td>${v.nombre_producto}</td>
             <td>${limite}</td>
             <td>${v.precio_producto}</td>
@@ -160,15 +183,15 @@ $(document).on("click", "#btn-delete-product", function () {
   });
 });
 
-$(document).ready(function(){
-  $.ajax({
-    url: "../shop/ajax/sel_default_description.php",
-    dataType: "JSON",
-    type: "POST",
-  }).done(function (res){
-    //console.log(res);
-    $.each(res, function(i, v){
-      CKEDITOR.instances["ckeditor"].setData(v.descripcion_default);
-    });
-  });
-});
+// $(document).ready(function(){
+//   $.ajax({
+//     url: "../shop/ajax/sel_default_description.php",
+//     dataType: "JSON",
+//     type: "POST",
+//   }).done(function (res){
+//     //console.log(res);
+//     $.each(res, function(i, v){
+//       CKEDITOR.instances["ckeditor"].setData(v.descripcion_default);
+//     });
+//   });
+// });

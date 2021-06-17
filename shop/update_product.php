@@ -7,16 +7,16 @@ if (!isset($tienda[1][0]["id_menbresia"])) {
  header('location: ../cliente/menbresia');
 }
 
-require_once '../php/class/all.php';
-$cat = new All();
-$pais = $cat->get_name_country();
-
-
-
-
 if(!isset($_GET['id']) || !is_numeric($_GET['id']) || $_GET['id'] == ""){
     header('Location: ./');
 }
+
+require_once '../php/class/all.php';
+$cat = new All();
+$pais = $cat->get_name_country();
+$allcategs = $cat->get_categorias();
+$categIdprod = $cat->get_cat_idtienda_update($_GET['id']);
+
 
 ?>
 <!DOCTYPE html>
@@ -45,6 +45,7 @@ if(!isset($_GET['id']) || !is_numeric($_GET['id']) || $_GET['id'] == ""){
                 </div>
             </div>
             <div class="content-add-product">
+                <p id="listcateg_byidtienda"></p>
                 <form action="" class="form-product" method="POST" autocomplete="false" id="form-product"
                     enctype="multipart/form-data">
                     <!--------- DATOS GENERALES DEL PRODUCTO --------->
@@ -65,29 +66,26 @@ if(!isset($_GET['id']) || !is_numeric($_GET['id']) || $_GET['id'] == ""){
 
                                 <label for="" class="label-product lang_ttrq" key="txt-form-update_product-2">Categoría
                                     del producto</label>
-                                <select class="input-product" name="categoria" id="list_categories">
-                                    <?php
+                                <select class="input-product" name="categoria" id="list_categories-update">
+                                    <option value="<?php echo $categIdprod[0]['id_categoria']; ?>" selected><?php echo $categIdprod[0]['nombre_categoria']; ?></option>
+                                        <?php
 
-                                    $cate = $cat->get_categorias_tienda($tienda);
-                                    foreach ($cate as $value) {
-                                        echo "<option value='{$value["id"]}'>{$value["nombre_categoria"]}</option>";
-                                    }
-                                    ?>
+                                          $idcurrentcateg = $categIdprod[0]['id_categoria'];
+
+                                          $listnotallcategs = $cat->get_categs_without_currentcateg($idcurrentcateg);
+
+                                          foreach ($listnotallcategs as $va) {
+                                            echo "<option value='{$va["id_categoria"]}'>{$va["nombre_categoria"]}</option>";
+                                          }
+
+                                        ?>
                                 </select>
                             </div>
                             <!--  MARCA DEL PRODUCTO -->
                             <div class="product-controls">
                                 <label for="" class="label-product lang_ttrq"
                                     key="txt-form-update_product-3">Marcas</label>
-                                <select name="marca" class="input-product" id="marca">
-                                    <?php
-
-                                    $cate = $cat->get_marcas_tienda($tienda);
-                                    foreach ($cate as $value) {
-                                        echo "<option value='{$value["id"]}'>{$value["nombre_marca"]}</option>";
-                                    }
-                                    ?>
-                                </select>
+                                <input type="text" name="marca" class="input-product" id="marca">
                             </div>
 
                             <!--  PAÍS DEL PRODUCTO -->
@@ -115,8 +113,19 @@ if(!isset($_GET['id']) || !is_numeric($_GET['id']) || $_GET['id'] == ""){
                             <!--  PRECIO DEL PRODUCTO -->
                             <div class="product-controls">
                                 <label for="" class="label-product lang_ttrq"
-                                    key="txt-form-update_product-6">Precio</label>
-                                <input type="text" name="precio" class="input-product" id="precio">
+                                    key="txt-form-add_product-6">Precio</label>
+                                <div class="content-icon-input">
+                                    <div class="content-icon-input__conticon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 100 125" x="0px" y="0px"><title>Artboard 39</title><path d="M61.94,50.08a19,19,0,0,0-4.88-2.24c-1-.31-2.21-.63-3.52-1-1.11-.31-2.31-.6-4.18-1a38.67,38.67,0,0,1-5.85-1.73,7,7,0,0,1-2.83-2,4.5,4.5,0,0,1-.91-3c0-.1,0-.19,0-.29a4.6,4.6,0,0,1,1-2.59,7.48,7.48,0,0,1,3.31-2.28A17.18,17.18,0,0,1,50.19,33a17.1,17.1,0,0,1,4.58.62,9.42,9.42,0,0,1,3,1.45,6,6,0,0,1,1.54,1.63l1.62,2.52L66,36l-1.62-2.52a11.93,11.93,0,0,0-3.08-3.25,15.36,15.36,0,0,0-4.84-2.36A22,22,0,0,0,53,27.17V20H47v7.16a23.3,23.3,0,0,0-4.88,1.08,13.53,13.53,0,0,0-6,4.12l-.08.1a10.66,10.66,0,0,0-2.29,6.26,10.51,10.51,0,0,0,2.11,7l.1.12a13,13,0,0,0,5.37,3.89,44.62,44.62,0,0,0,6.74,2c1.72.38,2.83.65,3.92,1,1.29.32,2.37.61,3.32.9a13,13,0,0,1,3.33,1.52,5.54,5.54,0,0,1,1.68,1.7A5.67,5.67,0,0,1,61,59.67s0,.09,0,.14a5.6,5.6,0,0,1-1,3.35,7.94,7.94,0,0,1-3.61,2.72A16.19,16.19,0,0,1,49.92,67h-.19a15,15,0,0,1-7-1.47,8.27,8.27,0,0,1-2.92-2.61l-1.71-2.46-4.93,3.42,1.71,2.46A14.38,14.38,0,0,0,40,70.89,21.24,21.24,0,0,0,48,73v7h6V72.71a21.32,21.32,0,0,0,4.59-1.24,13.91,13.91,0,0,0,6.29-4.79,11.57,11.57,0,0,0,2.12-7,10.84,10.84,0,0,0-5.06-9.61Z"/></svg>
+                                    </div>
+                                    <input type="number" name="precio" class="input-product" id="precio">
+                                </div>
+                            </div>
+                            <!--  DESCRIPCIÓN(MODIFICADO) DEL PRODUCTO -->
+                            <div class="product-controls">
+                                <label for="" class="label-product lang_ttrq"
+                                    key="txt-form-update_product-8">Descripción</label>
+                                <textarea type="text" name="desc" class="input-product" id="desc" style="min-height: 120px;max-height: 200px;"></textarea>
                             </div>
                         </div>
                     </div>
@@ -132,28 +141,9 @@ if(!isset($_GET['id']) || !is_numeric($_GET['id']) || $_GET['id'] == ""){
                                         <input type="hidden" name="imagen" class="input-product-imgs" id="imgitp">
                                     </div>
                                 </div>
-                                <!--<div class="content-secondary-imgs_product"> 
-                                    <label for="" class="label-product-imgs lang_ttrq" key="txt-form-add_product-7-1">Imágenes secundarias</label>
-                                    <div class="add-imgs-secondary">
-                                        <select name="" id="imgs-select" class="select-onehidden">
-                                          <option value="0">Seleccione una opción</option>
-                                          <option value="1">Imágenes Secundarias</option>
-                                        </select>
-                                    </div>
-                                </div>-->
                             </div>
                             <div id="imgSrc"> </div>
                             <div id="moreimgs"></div>
-                        </div>
-                    </div>
-                    <!--------- DESCRIPCIÓN DEL PRODUCTO --------->
-                    <div class="product-content">
-                        <div class="form-content">
-                            <div class="product-controls-desc">
-                                <label for="" class="label-product-desc lang_ttrq"
-                                    key="txt-form-update_product-8">Descripción</label>
-                                <textarea id="ckeditor" name="desc" class="ckeditor" cols="30" rows="10"></textarea>
-                            </div>
                         </div>
                     </div>
                     <button type="submit" class="btn-add-product lang_ttrq" id="btn-product-update"

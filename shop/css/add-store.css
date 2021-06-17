@@ -66,6 +66,40 @@
 .cnt-payments-method{
   display: block;
 }
+/*===========================================================================
+=            MENSAJE DE CONFIRMACIÓN O ERROR AL CREAR UNA TIENDA            =
+===========================================================================*/
+.contloaderMessage{
+  display: flex;
+}
+.contloaderMessage.show{
+  position: fixed;
+  background-color: rgba(255,255,255,.6);
+  width: 100%;
+  height: 100%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.contloaderMessage.show .contloaderMessage__loader{
+  border: 4px solid rgba(0,0,0,.1);
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border-left-color: #09f;
+  animation-name: girar;
+  animation-duration: .3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes girar {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);  
+  }
+}
 /*=================================
 =            NUEVO CSS            =
 =================================*/
@@ -77,18 +111,19 @@
   display: none;
 }
 .cnt-payments-method .btn-memb-store-register{
+  display: block;
   width: 100%;
-  padding: .5rem 2rem;
+  padding: .5rem 2.5rem;
   border: none;
-  border-radius: 1.5rem;
+  border-radius: 5px;
   color: #fff;
-  background: lightgreen;
-  box-shadow: 0 0 10px 2px rgba(0,0,0,.3);
+  box-shadow: 0 0 10px 2px rgb(0 0 0 / 30%);
   text-shadow: 1px 1px grey;
   outline: none;
+  background: var(--boton-saldo);
 }
 .cnt-payments-method .btn-memb-store-register:hover{
-  background: green;
+  background: var(--boton-saldo_hover);
 }
 .cnt-payments-method .btn-memb-store-register:active{
   transform: scale(.95);
@@ -197,26 +232,6 @@
 /*===========================================================
 =            MEDIA QUERIES INTO THIS STYLESSHEET            =
 ===========================================================*/
-@media (min-width: 300px){
-
-}
-
-@media (min-width: 320px){
-  
-}
-
-@media (min-width: 360px){
-  
-}
-
-@media (min-width: 480px){
-
-}
-
-@media (min-width: 600px){
-    
-}
-
 @media (min-width: 768px){
   .form-store .content-controls-radio_add-store{
     display: grid;
@@ -332,8 +347,4 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-}
-
-@media (min-width: 1400px){
-  
 }

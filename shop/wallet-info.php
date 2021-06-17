@@ -33,24 +33,32 @@ if (!isset($tienda[1][0]["id_menbresia"])) {
       </div>
       <div class="btns-top">
         <ul class="btns-options-wallet">
-          <a href="#" class="wallet-detail">
-            <li>
-              <div class="content-icons">
-                  <i class="lni lni-coin icon-hov"></i>
-              </div>
-              <?php foreach ($d as $val){echo $val['puntos'];}?> 
-              <span class="lang_ttrq" key="txt-wallet-btn-top-ad_cli-1">Bikers</span>
-              <p class="lang_ttrq" key="txt-down-btn-wallet-top-ad_cli-1">Monto de saldo</p>
-            </li>
-          </a>
-          <a href="add-to-wallet.php" class="add-to-wallet">
-            <li>
-              <div class="content-icons">
-                <i class="lni lni-plus icon-hov"></i>
-              </div>
-              <span class="lang_ttrq" key="txt-down-btn-wallet-top-ad_cli-2">Recargue su saldo</span>
-            </li>
-          </a>
+          <div class="btns-options-wallet__links">
+            <a href="#" class="wallet-detail">
+              <li>
+                <div class="content-icons">
+                    <i class="lni lni-coin icon-hov"></i>
+                </div>
+                <?php foreach ($d as $val){echo $val['puntos'];}?> 
+                <span class="lang_ttrq" key="txt-wallet-btn-top-ad_cli-1">Bikers</span>
+                <p class="lang_ttrq" key="txt-down-btn-wallet-top-ad_cli-1">Monto de saldo</p>
+              </li>
+            </a>
+          </div>
+          <div class="btns-options-wallet__links">
+            <a href="add-to-wallet.php" class="add-to-wallet">
+              <li>
+                <div class="content-icons">
+                  <i class="lni lni-plus icon-hov"></i>
+                </div>
+                <span class="lang_ttrq" key="txt-down-btn-wallet-top-ad_cli-2">Recargue su saldo</span>
+                <div class="text-desc-rechargewallet">
+                  <span>Comprando Bikkers</span>
+                </div>
+              </li>
+            </a>
+            <a href="../home" class="text-desc-addtowallet">¿Qué es un Bikker?</a>
+          </div>
         </ul>
       </div>
       <div class="content-list-history-wallet-ad_cli-ttrk">

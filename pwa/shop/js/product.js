@@ -41,7 +41,7 @@ $(document).on("click", "#btn-product", function (e) {
     formData.append("imagen", $(".imgs")[0].files[i]);
   }
 
-  var desc = CKEDITOR.instances["ckeditor"].getData();
+  //var desc = CKEDITOR.instances["ckeditor"].getData();
 
   formData.append("tienda", $("#tienda").val());
   formData.append("name", $("#name").val());
@@ -50,7 +50,7 @@ $(document).on("click", "#btn-product", function (e) {
   formData.append("pais", $("#pais").val());
   formData.append("stock", $("#stock").val());
   formData.append("precio", $("#precio").val());
-  formData.append("desc", desc);
+  formData.append("desc", $("#desc").val());
   
   //console.log(formData);
   $.ajax({
@@ -74,7 +74,7 @@ $(document).on("click", "#btn-product", function (e) {
         showConfirmButton: false,
         timer: 1400,
       });
-      CKEDITOR.instances["ckeditor"].setData('');
+      //CKEDITOR.instances["ckeditor"].setData('');
       window.location.replace("../shop/products_v.php");
     } else if (resul["res"] == "agotado") {
       Swal.fire({
@@ -123,12 +123,12 @@ $(document).ready(function () {
           `<tr  id='tr-${v.id_producto}'>
             <td></td>
             <td>${v.nombre_categoria}</td>
-            <td>${v.nombre_marca}</td>
+            <td>${v.marca_producto}</td>
             <td>${v.nombre_producto}</td>
             <td>${limite}</td>
             <td>${v.precio_producto}</td>
             <td>${v.stock_producto}</td>
-            <td><a href='#'><img src="../folder/${v.imagen}" class='img-list_adcli'></a></td>
+            <td><a href='#'><img src="../../shop/folder/${v.imagen}" class='img-list_adcli'></a></td>
             <td><a class="btn-update-product " href="./update_product.php?id=${v.id_producto}">Editar</a></td>
             <td><button class="btn-delete-product" id="btn-delete-product" data-eliminar='${v.id_producto}'  >Eliminar</button></td>
           </tr>`
@@ -160,15 +160,15 @@ $(document).on("click", "#btn-delete-product", function () {
   });
 });
 
-$(document).ready(function(){
-  $.ajax({
-    url: "../shop/ajax/sel_default_description.php",
-    dataType: "JSON",
-    type: "POST",
-  }).done(function (res){
-    //console.log(res);
-    $.each(res, function(i, v){
-      CKEDITOR.instances["ckeditor"].setData(v.descripcion_default);
-    });
-  });
-});
+// $(document).ready(function(){
+//   $.ajax({
+//     url: "../shop/ajax/sel_default_description.php",
+//     dataType: "JSON",
+//     type: "POST",
+//   }).done(function (res){
+//     //console.log(res);
+//     $.each(res, function(i, v){
+//       CKEDITOR.instances["ckeditor"].setData(v.descripcion_default);
+//     });
+//   });
+// });

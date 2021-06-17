@@ -38,18 +38,7 @@ $categories = $c->get_categorias();
       </div>
       <div class="btns-top">
         <ul class="btns-options-trademarks-categories">
-          <a href="#trademarks" class="trademarks-categories-detail">
-            <li>
-              <div class="content-icons">
-                <i class="lni lni-dropbox icon-hov"></i>
-              </div>
-              <div>
-                <h4 id="totalList">0</h4>
-              </div>
-              <p class='lang_ttrq' key='title-trademarks'>Marcas</p>
-            </li>
-          </a>
-          <a href="#categories" class="trademarks-categories-detail">
+          <!--<a href="#categories" class="trademarks-categories-detail">
             <li>
               <div class="content-icons">
                 <i class="lni lni-control-panel"></i>
@@ -59,32 +48,12 @@ $categories = $c->get_categorias();
               </div>
               <p class='lang_ttrq' key='title-categories'>Categorías</p>
             </li>
-          </a>
+          </a>-->
         </ul>
       </div>
       <input type="hidden" name="tienda" id="tienda" value="<?php echo $_SESSION['idtienda_m']; ?>">
       <!-- //CONTENT TRADEMARKS & CATEGORIES -->
       <div class="content-change-dinamic-view-t-c">
-        <div class="contents_items_t-c-dinamic" id="trademarks">
-          <div class="trademarks_categories-controls">
-            <label for="" class="label-trademarks_categories lang_ttrq" key='title-name-of-trademarks'>Nombre de la Marca</label>
-            <input type="text" name="name" id="name">
-            <button class="btn-add-product lang_ttrq" id="btn-add-marca" key='title-name-of-save'>Guardar</button>
-          </div> <!-- CATEGORÍA DEL PRODUCTO -->
-          <div class="cont-tablelist-trademarks">
-            <table class="list-trademarks_categories">
-              <thead class="thead-trademarks_categories">
-                <tr>
-                  <th>ID</th>
-                  <th class='lang_ttrq' key='title-name-of-trademark'>Nombre Marca</th>
-                  <th colspan='2' class='lang_ttrq' key='title-options-of-trademark'>Opciones</th>
-                </tr>
-              </thead>
-              <tbody class="tbody-trademarks_categories" id="list">
-              </tbody>
-            </table>
-          </div>  
-        </div>
         <div class="contents_items_t-c-dinamic" id="categories">
           <div class="trademarks_categories-controls">
             <label for="" class="label-trademarks_categories lang_ttrq" key='title-name-of-categories'>Nombre de la Categoría</label>

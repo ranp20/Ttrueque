@@ -2,7 +2,8 @@ $(document).ready(function () {
 	var idprodu = $("#idproductdet").val();
 	var idcliente = $('#userid_cli').val();
   var idstore = $('#tiendaid_cli').val();
-  
+
+
   $.ajax({
     url: "./php/class/list_product_detail.php",
     method: "POST",

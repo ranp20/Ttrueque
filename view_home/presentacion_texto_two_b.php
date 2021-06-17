@@ -35,55 +35,7 @@
 					<h3>MEJORA TUS BENEFICIOS</h3>
 				</section>
 				<section>
-					<ul>
-						<li>
-							<div class="t-m-img-b-trk">
-								<div loading="lazy" class="tm-image-b-trk img-fluid" style="background-image: url(shop/images/wallet/medalla_bronce.png);">
-								</div>
-							</div>
-							<div class="t-m-list-info-params">
-								<h4>Sello Básico</h4>
-								<ul class="list-membership-t-p">
-									<li>Es gratuito.</li>
-									<li>Al registrarte te obsequiamos 50 Bikkers como bienvenida.</li>
-									<li>Te brindamosun espacio en el Mall Ttrueque para que vendas tus productos o servicios.</li>
-								</ul>
-							</div>
-							<a href="login" class="btn-info-m-t">Conoce más</a>
-						</li>
-						<li>
-							<div class="t-m-img-b-trk">
-								<div loading="lazy" class="tm-image-b-trk img-fluid" style="background-image: url(shop/images/wallet/medalla_bronce.png);">
-								</div>
-							</div>
-							<div class="t-m-list-info-params">
-								<h4>Empresario Líder</h4>
-								<ul class="list-membership-t-p">
-									<li>Recibes 150 Bikkers de bienvenida.</li>
-									<li>En el Mall Ttrueque puedes subir hasta 25 productos a tu tienda.</li>
-									<li>Además recibes gratutamente una targeta física Ttrueque.</li>
-								</ul>
-							</div>
-							<a href="login" class="btn-info-m-t">Conoce más</a>
-						</li>
-						<li>
-							<div class="t-m-img-b-trk">
-								<div loading="lazy" class="tm-image-b-trk img-fluid" style="background-image: url(shop/images/wallet/medalla_bronce.png);">
-								</div>
-							</div>
-							<div class="t-m-list-info-params">
-								<h4>Corporativo Dorado</h4>
-								<ul class="list-membership-t-p">
-									<li>Recibes 250 Bikkers de Bienvenida.</li>
-									<li>En el Mall Ttrueque puedes subir hasta 40 productos a tu tienda.</li>
-									<li>Targeta física Ttrueque.</li>
-									<li>Crédito en Bikkers.</li>
-									<li>Uso del panel central para publicar tus productos.</li>
-								</ul>
-							</div>
-							<a href="login" class="btn-info-m-t">Conoce más</a>
-						</li>
-					</ul>
+					<ul class="" id="targets-info-menbershi"></ul>
 				</section>
 			</div>
 		</div>
@@ -96,6 +48,7 @@
 	<script src="js/common_scripts.min.js"></script>
 	<script src="js/main.js"></script>
 	<script src="./js/actions_pages/account.js"></script>
+	<script src="./js/actions_pages/listmenbership.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
 			var estado = false;

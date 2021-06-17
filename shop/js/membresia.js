@@ -62,8 +62,8 @@ function list_cant_m_idtienda() {
             <h1 class='price-country'>$ ${v.precio_eeuu}</h1>
             <div class='cont-list-benefits'>
               ${a}
-            </div>
-            <a href='../cliente/store/${v.cantidad}/${v.id}' >SELECCIONAR PLAN</a>
+            </div>`+(v.precio_eeuu == '0' || v.precio_eeuu == '0.00' ? `<a href='../cliente/store/${v.cantidad}/${v.id}' >PLAN GRATUITO</a>` : `<a href='../cliente/store/${v.cantidad}/${v.id}' >SELECCIONAR PLAN</a>`)+`
+            
         </div>
         `);
     });

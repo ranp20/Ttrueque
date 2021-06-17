@@ -377,4 +377,37 @@ class Product extends Connection
             return $e->getMessage();
         }
     }
+
+    /*===================================================================
+    =            FILTROS PARA LA VISTA DE LOS PRODUCTOS                 =
+    ===================================================================*/
+    /*  NÚMERO TOTAL DE REGISTROS POR NOMBRE DE LA TIENDA*/
+    function get_count_products($namestore)
+    {
+        try {
+            $sql = "CALL sp_count_products(:namestore)";
+            $stm = $this->con->prepare($sql);
+            $stm->bindValue(":namestore", $namestore);
+            $stm->execute();
+            return $stm->fetchAll(PDO::FETCH_ASSOC);
+        } catch (PDOException $err) {
+            die($err->getMessage());
+        }
+    }
+    /*  LIMITAR EL NÚMERO DE REGISTROS POR VISTA DE ACUERDO AL NOMBRE DE LA TIENDA */
+    function get_limit_products($namestore, $offset, $per_page)
+    {
+        try {
+            $sql = "CALL sp_limit_prods(:namestore, :offset, :per_page)";
+            $stm = $this->con->prepare($sql);            
+            $stm->bindValue(":namestore", $namestore);
+            $stm->bindValue(":offset", $offset);
+            $stm->bindValue(":per_page", $per_page);
+            $stm->execute();
+            return $stm->fetchAll(PDO::FETCH_ASSOC);
+
+        } catch (PDOException $err) {
+            die($err->getMessage());
+        }
+    }
 }

@@ -14,7 +14,7 @@
 		"btn-go-cart-delay_ttrq": "Ir al Carrito",
 
 		"title_best-seller": "Lo más Vendido",
-		"title_official_markets": "Tiendas Oficiales",
+		"title_official_markets": "Tiendas",
 		"title_all_official_markets": "Todas las tiendas",
 		"btn-all-stores_ttrq": "Ver todas las tiendas",
 		"btn-all-categories-stores_ttrq": "Ver todas las categorias",
@@ -70,7 +70,7 @@
 
 		"txt-saldo-top-ad_cli": "Saldo",
 		"txt-points-top-ad_cli": "Bikers",
-		"txt-go-to-home-top-ad_cli": "Ir al sitio",
+		"txt-go-to-home-top-ad_cli": "Ir al mall Ttrueque",
 
 		"txt-products-btn-top-ad_cli-1": "Productos",
 		"txt-products-btn-top-ad_cli-2": "Productos",
@@ -97,9 +97,10 @@
 		"txt-list-link-page-sdlf-ad_cli-2": "Historial de Compras",
 		"txt-list-link-page-sdlf-ad_cli-3": "Administrar Perfil",
 		"txt-list-link-page-sdlf-ad_cli-4": "Mi Saldo",
+		"txt-list-link-page-sdlf-ad_cli-recharge-balance": "Recarga (Compra Bikkers)",
 		"txt-list-link-page-sdlf-ad_cli-5": "Mensajería con Vendedor",
 		"txt-list-link-page-sdlf-ad_cli-6": "Mis Productos",
-		"txt-list-link-page-sdlf-ad_cli-7": "Mis Marcas y Categorías",
+		"txt-list-link-page-sdlf-ad_cli-7": "Mis Categorías",
 		"txt-list-link-page-sdlf-ad_cli-8": "Informe de Ventas",
 		"txt-list-link-page-sdlf-ad_cli-9": "Solicitud de reembolso",
 		"txt-list-link-page-sdlf-ad_cli-10": "Ordenes ó pedidos",
@@ -197,7 +198,9 @@
 		"title-th-reviewproducts-ad_cli-5": "Comentario",
 		"title-th-reviewproducts-ad_cli-6": "Publicado",
 
-		"title-top-addwallet-cli-ad_cli": "Paquetes Premium para Clientes",
+		"title-top-addwallet-cli-ad_cli": "Banco de Bikkers",
+		"title-top-addwallet-cli-ad_cli-txt-1": "Comprar con dólares:",
+		"title-top-addwallet-cli-ad_cli-txt-2": "En tu cuenta en Bikkers el monto se duplica automáticamente.",
 
 		"title-checkwallet-cli-ad_cli-1": "¡ Paso Final !",
 		"title-checkwallet-cli-ad_cli-2": "Estás a punto de pagar con Paypal la cantidad de:",
@@ -210,7 +213,7 @@
 		"subtitle-top-add-products-cli-ad_cli": "Información básica",
 		"txt-form-add_product-1": "Nombre del producto",
 		"txt-form-add_product-2": "Categoría del producto",
-		"txt-form-add_product-3": "Marcas",
+		"txt-form-add_product-3": "Marca",
 		"txt-form-add_product-4": "Pais",
 		"txt-form-add_product-5": "Stock",
 		"txt-form-add_product-6": "Precio",

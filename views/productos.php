@@ -1,15 +1,9 @@
 <?php
 session_start();
 
-if(count($_GET) == 2){
-	if(!isset($_GET['store']) || !isset($_GET['cat'])){
-		header("Location: ./");
-	}
-}else{
-	if(!isset($_GET['categoria'])){
-		header("Location: ./");
-	}
-}
+/*if(!isset($_GET['store']) || !isset($_GET['categoria'])){
+	header("Location: ./");
+}*/
 
 
 if (!isset($_SESSION["user"])) {
@@ -49,6 +43,7 @@ require_once 'header_index.php';
     <script src="./js/actions_pages/history-shoping.js"></script>
     <script src="./js/actions_pages/listProds_Search_Category.js"></script>
     <script src="./js/actions_pages/listProds_Store_Category.js"></script>
+    <script src="./js/actions_pages/listProds_ByNameStore.js"></script>
     <script src="./js/actions_pages/language_currency.js"></script>
     <script src="js/customs/custom.js"></script>
     <script src="./js/actions_pages/track-order.js"></script>

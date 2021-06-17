@@ -2,15 +2,17 @@
 .contenido-tiendas-off-header > .content-title-tiendas {  margin: auto auto 25px auto;  height: 60px;  display: flex;  align-items: center;}
 .contenido-tiendas-off-header > .content-title-tiendas > h3{	font-family: var(--fuente-subtitles);border-bottom: 3px solid var(--secondary-clr);padding: 0 1.8rem .5rem 0;}
 .container-content-off-mrkts{  min-height: 100vh;  display: block;  margin: auto;  width: 100%;}
-.list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into{border: 1px solid var(--secondary-clr);border-radius: 2rem;}
-.list-stores-officials-ttrk-c > .items-str-off-ttrk{  display: flex;  justify-content: flex-start;  list-style: none;  position: relative;  flex-wrap: wrap;  padding: 0 !important;overflow: hidden;}
+.list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into{border: 1px solid var(--secondary-clr);border-radius: 1rem;width: 100%;}
+.list-stores-officials-ttrk-c > .items-str-off-ttrk{  display: grid;grid-template-columns: 1fr;grid-column-gap: 1rem;grid-row-gap: 1.5rem;  justify-content: flex-start;  list-style: none;  position: relative;  flex-wrap: wrap;  padding: 0 !important;overflow: hidden;}
 .list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into:hover{	background: #fff;}
 .list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into > a{	display: block;	position: relative;	text-decoration: none;}
-.list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into > .item-cont-str-off{	display: flex;	align-items: center;	justify-content: space-between;	flex-direction: column;	margin: 16px;}
-.list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into > .item-cont-str-off > .cont-logo-offi-mrkt-b-ttrk{	width: 100%;  height: 150px;  margin: 0 auto 18px auto;  border-radius: 15px;  background: rgba(0,0,0,.02);}
+.list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into > .item-cont-str-off{	display: flex;	align-items: center;	justify-content: space-between;	flex-direction: column;}
+.list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into > .item-cont-str-off > .contlogo-allstores{	width: 80%;  height: 105px;  margin: 12px auto 12px auto;  border-radius: 15px;  background: rgba(0,0,0,.02);}
+.list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into > .item-cont-str-off > .cont-logo-offi-mrkt-b-ttrk{	width: 80%;  height: 150px;  margin: 12px auto 12px auto;  border-radius: 15px;  background: rgba(0,0,0,.02);}
 .list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into > .item-cont-str-off > .cont-logo-offi-mrkt-b-ttrk > .logo-off-mrkt-c-ttrk{height: 100%;width: 100%;background-repeat: no-repeat; background-position: center; background-size: contain;border-radius: 20px;}
-.list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into > .item-cont-str-off > .cont-info-offi-mrkt-b-ttrk{	display: block;	width: 100%;	text-align: center;}
+.list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into > .item-cont-str-off > .cont-info-offi-mrkt-b-ttrk{	display: block;	width: 100%;	text-align: center;padding: 0.5rem;}
 .list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into > .item-cont-str-off > .cont-info-offi-mrkt-b-ttrk > p{	margin-bottom: 0;	overflow: hidden;	color: #332927;}
+.list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into > .item-cont-str-off > .cont-info-offi-mrkt-b-ttrk > .name-store-off-ttrq{font-size: 0.85rem;font-weight: 500;}
 .list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into > .item-cont-str-off > .cont-info-offi-mrkt-b-ttrk > p:first-child{	font-size: 1.44rem;  font-weight: bold;font-family: var(--fuente-categorias_1);}
 .list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into > .item-cont-str-off > .cont-info-offi-mrkt-b-ttrk > p:nth-child(2){	font-size: 20px;	color: #706967;}
 .list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into > .item-cont-str-off > .cont-info-offi-mrkt-b-ttrk > p:nth-child(3){	display: flex;	align-items: center;	justify-content: center;	box-sizing: border-box;}
@@ -37,3 +39,11 @@
 #btn-filter-stores-index{margin: 1.563rem auto 3.75rem auto !important;}
 /* ESTILOS EXCLUSIVAMENTE PARA LAS TIENDAS EN TTRUEQUE */
 #cont-all-stores-in-ttrk{max-width: var(--max-width) !important; width: 90%;position: relative;margin-left: auto;margin-right: auto;}
+
+
+@media (min-width:  320px){
+	.list-stores-officials-ttrk-c > .items-str-off-ttrk{grid-template-columns: 1fr 1fr;}
+}
+@media (min-width:  480px){
+	.list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into > .item-cont-str-off > .contlogo-allstores{height: 120px;}
+}

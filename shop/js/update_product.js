@@ -23,7 +23,7 @@ $(document).ready(function () {
     console.log(res);
     $.each(res, function (i, v) {
       $("#name").val(v.nombre_producto);
-      $("#list_categories").val(v.id_categoria);
+      $("#list_categories-update").val(v.id_categoria);
       $("#marca").val(v.marca_producto);
       $("#pais").val(v.id_pais);
       $("#stock").val(v.stock_producto);
@@ -34,7 +34,7 @@ $(document).ready(function () {
         <img src="./folder/${v.imagen}" />     
       `);
       $("#imgitp").val(v.imagen);
-      CKEDITOR.instances["ckeditor"].setData(v.descripcion_producto);
+      $("#desc").val(v.descripcion_producto);
     });
   });
 });
@@ -50,16 +50,16 @@ let a=$("#form-product").serialize();
     formData.append("imagen", $(".imgs")[0].files[i]);
   }
 
-  var desc = CKEDITOR.instances["ckeditor"].getData();
+  //var desc = CKEDITOR.instances["ckeditor"].getData();
   formData.append("prod", $("#prod").val());
   formData.append("name", $("#name").val());
-  formData.append("categoria", $("#list_categories").val());
+  formData.append("categoria", $("#list_categories-update").val());
   formData.append("subcategoria", $("#list_subcategories").val());
   formData.append("marca", $("#marca").val());
   formData.append("pais", $("#pais").val());
   formData.append("stock", $("#stock").val());
   formData.append("precio", $("#precio").val());
-  formData.append("desc", desc);
+  formData.append("desc", $("#desc").val());
   formData.append("imagen", $("#imgitp").val());
   $.ajax({
     url: "../shop/ajax/update_product.php",

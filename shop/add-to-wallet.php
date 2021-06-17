@@ -30,7 +30,20 @@ $wall = $c->get_wallet();
     <!-- CONTENT ADD-TO-WALLET -->
     <section class="content-dash">
       <?php require_once 'includes/header-top.php'; ?>
-      <div class="title-add lang_ttrq" key="title-top-addwallet-cli-ad_cli">Paquetes Premium para Clientes</div>
+      <div class="title-add lang_ttrq">
+        <div class="cont-title-add-to-wallet">
+          <h3 class="cont-title-add-to-wallet__title" key="title-top-addwallet-cli-ad_cli">Banco de Bikkers</h3>
+          <p class="cont-title-add-to-wallet__description"><span key="title-top-addwallet-cli-ad_cli-txt-1">Comprar con dólares:</span> 
+            <?php 
+                $totalE = count($wall);  
+                foreach ($wall as $key => $value) { 
+                  echo $value['precio'];
+                  if($key < $totalE - 1) echo ", ";
+                }
+              ?>.</p>
+          <p class="cont-title-add-to-wallet__description" key="title-top-addwallet-cli-ad_cli-txt-2">En tu cuenta en Bikkers el monto se duplica automáticamente.</p>
+        </div>
+    </div>
       <div class="content-list-add-wallet">
         <ul class="options-wallet">
           <?php
@@ -45,14 +58,13 @@ $wall = $c->get_wallet();
 
             echo "
               <li>
-                <h3>Monto real: $ {$value['precio']} USD</h3>
-                <h1 class='tipe-wallet_recharge'>{$value['tipo']}</h1>
+                <h3><span>Monto real:</span>&nbsp;<span class='price-wallet_country'>$ {$value['precio']}</span></h3>
+                <!--<h1 class='tipe-wallet_recharge'>{$value['tipo']}</h1>
                 <div class='img-cont-list-add-wallet'>
                     <div style='background-image:url($img_path);background-repeat:no-repeat;background-size: contain;background-position: center;'>
                     </div>
-                </div>
-                Monto aproximado en:
-                <h1 class='price-wallet_country'>$ {$value['precio']}</h1>
+                </div>-->
+                <h2 class='real-price-wallet-usd'> $ {$value['precio']}</h2>
                 <p>Carga de Bikers: {$value['cap_carga']}</p>
                 <a href='check-payment-wallet.php?idwallet={$value['id']}'
                     class='btn-chck-payment-paypal'>Tomar esto
@@ -66,5 +78,6 @@ $wall = $c->get_wallet();
     </section>
   </div>
   <script src="./js/dashboard.js"></script>
+  <!--<script src="./js/language_currency.js"></script>
 </body>
 </html>

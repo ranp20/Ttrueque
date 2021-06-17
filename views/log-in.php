@@ -83,9 +83,9 @@ $paises = $all->get_name_country();
                       <div class="cont-icon-login">
                         <img src="img/iconos_home/home-login-lock.svg" alt="">
                       </div>
-                      <input type="password" required maxlength="40" name="pass" id="password_in"
-                          placeholder="Ingrese su contraseña">
+                      <input type="password" required maxlength="40" name="pass" id="password_in" placeholder="Ingrese su contraseña">
                     </div>
+                    <a href="recuperar-contrasena" class="link-recoverypass">¿Ha olvidado su contraseña?</a>
                     <button type="submit">Iniciar Sesión</button>
                 </form>
                 <div class="content-register-log-in-u">
@@ -97,21 +97,8 @@ $paises = $all->get_name_country();
             </section>
         </div>
     </div>
-    <!-----/FOOTER---->
-    <!--<footer class="footer-log-in-u">
-		<div class="content-f-log-in-u">
-			<ul class="group-f-log-in-u">
-				<li><a href="#">Contáctenos</a></li>
-				<li><a href="#">Privacidad</a></li>
-				<li><a href="#">Acuerdos legales</a></li>
-				<li><a href="#">En todo el mundo</a></li>
-			</ul>
-		</div>
-	</footer>-->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="./js/actions_pages/account.js"></script>
-    <!-- //BOOTSTRAP-->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-
 </html>

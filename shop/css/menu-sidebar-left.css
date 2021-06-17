@@ -83,7 +83,7 @@
 .sidebar-nav > .user-options > a.active {
   background: #e5e5e5;
   box-shadow: 4px 0px 0 0px red inset, 0px -1.4px 1px 0px #FFF  inset;
-  font-weight: bold;
+  font-weight: 500;
 }
 .sidebar-nav > .user-options > a:hover > .lni{
   color: #ff0000;

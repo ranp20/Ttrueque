@@ -31,9 +31,10 @@ $d = $c->get_data_by_id($_SESSION['user']);
                 <a href="admin-profile.php"><i class="icon-bar-left lni lni-user"></i><span class="lang_ttrq" key="txt-list-link-page-sdlf-ad_cli-3">Administrar Perfil</span></a>
                 <a href="history-shippings.php"><i class="icon-bar-left lni lni-files"></i><span class="lang_ttrq" key="txt-list-link-page-sdlf-ad_cli-2">Historial de Compras</span></a>
                 <a href="wallet-info.php"><i class="icon-bar-left lni lni-wallet"></i><span class="lang_ttrq" key="txt-list-link-page-sdlf-ad_cli-4">Mi Saldo</span></a>
+                <a href="add-to-wallet.php"><i class="icon-bar-left lni lni-reload"></i><span class="lang_ttrq" key="txt-list-link-page-sdlf-ad_cli-recharge-balance">Recarga (Compra Bikkers)</span></a>
                 <!-- <a href="chat-clients.php"><i class="icon-bar-left lni lni-comments"></i><span class="lang_ttrq" key="txt-list-link-page-sdlf-ad_cli-5">Mensajería con Vendedor</span></a> -->
                 <a href="products_v.php"><i class="icon-bar-left lni lni-cart"></i><span class="lang_ttrq" key="txt-list-link-page-sdlf-ad_cli-6">Mis Productos</span></a>
-                <a href="marcas.php"><i class="icon-bar-left lni lni-diamond-alt"></i><span class="lang_ttrq" key="txt-list-link-page-sdlf-ad_cli-7">Mis Marcas y Categorías</span></a>
+                <!--<a href="marcas.php"><i class="icon-bar-left lni lni-diamond-alt"></i><span class="lang_ttrq" key="txt-list-link-page-sdlf-ad_cli-7">Mis Categorías</span></a>-->
                 <a href="sales-report.php"><i class="icon-bar-left lni lni-dollar"></i><span class="lang_ttrq" key="txt-list-link-page-sdlf-ad_cli-8">Informe de Ventas</span></a>
                 <a href="request-refund.php"><i class="icon-bar-left lni lni-revenue"></i><span class="lang_ttrq" key="txt-list-link-page-sdlf-ad_cli-9">Solicitud de reembolso</span></a>
                 <a href="orders_v.php"><i class="icon-bar-left lni lni-delivery"></i><span class="lang_ttrq" key="txt-list-link-page-sdlf-ad_cli-10">Ordenes ó pedidos</span></a>

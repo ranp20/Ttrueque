@@ -21,7 +21,7 @@
   background: rgba(255,255,255,.5);
   padding: 10px;
   border-radius: 20px;
-  display: none;
+  /*display: none;*/
   margin-bottom: 20px;
 }
 /*===================================
@@ -112,7 +112,8 @@
 .contents_items_t-c-dinamic > .trademarks_categories-controls > label{
     text-align: left;
 }
-.contents_items_t-c-dinamic > .trademarks_categories-controls > input {
+.contents_items_t-c-dinamic > .trademarks_categories-controls > input,
+.contents_items_t-c-dinamic > .trademarks_categories-controls > select {
     border: 1px solid var(--divisor);
     padding: 0.5em 0.6em;
     margin: 0 0 10px 0;
@@ -198,7 +199,7 @@
       background: rgba(255,255,255,.5);
       padding: 10px;
       border-radius: 20px;
-      display: none;
+      /*display: none;*/
       margin-bottom: 20px;
       /*position: absolute;
       overflow: scroll;

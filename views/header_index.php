@@ -10,6 +10,10 @@
   <meta name="author" content="Ttrueque">
   <!-------RESPONSIVE--------->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- AGREGAR EL NO GUARDADO DE CACHE EN EL NAVEGADOR -->
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
   <!-- //GOOGLE WEB FONTS -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Oxygen:wght@300;400;700&family=Quicksand:wght@300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Sen:wght@400;700;800&family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <!-- //BOOTSTRAP-->
@@ -38,7 +42,5 @@
   <link href="./css/whatsapp.css" rel="stylesheet">
   <!-- //CUSTOMS JS-->
   <script src="./js/customs.js"></script>
-  <!----->
-  
-  
+  <!----->  
 </head>

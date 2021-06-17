@@ -91,8 +91,8 @@
 .page-two_b > .container-table-membership-txt-b-two > .content-info-table-membership-b-two > section:nth-child(2) > ul{	list-style: none;    display: flex;    justify-content: center;    padding: 0;    flex-wrap: wrap;}
 .page-two_b > .container-table-membership-txt-b-two > .content-info-table-membership-b-two > section:nth-child(2) > ul > li{	border: 1px solid #ddd;width: calc(100% * 1/3 - 28px);margin: 0 .5rem;    display: flex;    flex-direction: column;    box-shadow: 0 4px 5px #ddd;    border-radius: 5px;}
 .page-two_b > .container-table-membership-txt-b-two > .content-info-table-membership-b-two > section:nth-child(2) > ul > li:hover{	background: rgba(0,0,0,.05);}
-.content-info-table-membership-b-two > section:nth-child(2) > ul > li > .t-m-img-b-trk{	width: 100%;    height: 160px;    border-bottom: 1px solid #eee;}
-.content-info-table-membership-b-two > section:nth-child(2) > ul > li > .t-m-img-b-trk > .tm-image-b-trk{	width: 100%;	height: 100%;	background-repeat: no-repeat;	background-size: cover;	background-position: center;}
+.content-info-table-membership-b-two > section:nth-child(2) > ul > li > .t-m-img-b-trk{	width: auto;    height: 160px;display: flex;align-items: center;justify-content: center;text-align: center;margin: 1rem 0;}
+.content-info-table-membership-b-two > section:nth-child(2) > ul > li > .t-m-img-b-trk > .tm-image-b-trk{	width: 90%;	height: 100%;	background-repeat: no-repeat;	background-size: contain;	background-position: center;}
 /* LISTA DE BENEFICIOS DE MEMBRESÍAS */
 .content-info-table-membership-b-two > section:nth-child(2) > ul > li > .t-m-list-info-params{	padding: 0 2em 2.2em 2em;	height: 100%;}
 .content-info-table-membership-b-two > section:nth-child(2) > ul > li > .t-m-list-info-params > h4{	padding: 20px 0 10px 0;	margin-bottom: 0;	color: #356772;}

@@ -29,12 +29,12 @@ $categories = $c->get_categorias();
       <?php require_once 'includes/header-top.php'; ?>
       <div class="content-top cont-titles-t-c-dinamic">
         <div class="content-title t-c-titles-dinamic">
-          <h1 class="title-dashboard lang_ttrq" key='title-trademarks' id="titles-dinamic-t-c">Marcas</h1>
+          <h1 class="title-dashboard lang_ttrq" key='title-categories' id="titles-dinamic-t-c">Categorías</h1>
         </div>
       </div>
       <div class="btns-top">
         <ul class="btns-options-trademarks-categories">
-          <a href="#trademarks" class="trademarks-categories-detail">
+          <!--<a href="#trademarks" class="trademarks-categories-detail">
             <li>
               <div class="content-icons">
                 <i class="lni lni-dropbox icon-hov"></i>
@@ -44,7 +44,7 @@ $categories = $c->get_categorias();
               </div>
               <p class='lang_ttrq' key='title-trademarks'>Marcas</p>
             </li>
-          </a>
+          </a>-->
           <a href="#categories" class="trademarks-categories-detail">
             <li>
               <div class="content-icons">
@@ -61,12 +61,12 @@ $categories = $c->get_categorias();
       <input type="hidden" name="tienda" id="tienda" value="<?php echo $_SESSION['idtienda_m']; ?>">
       <!-- //CONTENT TRADEMARKS & CATEGORIES -->
       <div class="content-change-dinamic-view-t-c">
-        <div class="contents_items_t-c-dinamic" id="trademarks">
+        <!--<div class="contents_items_t-c-dinamic" id="trademarks">
           <div class="trademarks_categories-controls">
             <label for="" class="label-trademarks_categories lang_ttrq" key='title-name-of-trademarks'>Nombre de la Marca</label>
             <input type="text" name="name" id="name">
             <button class="btn-add-product lang_ttrq" id="btn-add-marca" key='title-name-of-save'>Guardar</button>
-          </div> <!-- CATEGORÍA DEL PRODUCTO -->
+          </div> 
           <div class="cont-tablelist-trademarks">
             <table class="list-trademarks_categories">
               <thead class="thead-trademarks_categories">
@@ -80,7 +80,7 @@ $categories = $c->get_categorias();
               </tbody>
             </table>
           </div>  
-        </div>
+        </div>-->
         <div class="contents_items_t-c-dinamic" id="categories">
           <div class="trademarks_categories-controls">
             <label for="" class="label-trademarks_categories lang_ttrq" key='title-name-of-categories'>Nombre de la Categoría</label>
@@ -113,7 +113,7 @@ $categories = $c->get_categorias();
       </div>
     </section>
   </div>
-  <script src="./js/marca.js"></script>
+  <!--<script src="./js/marca.js"></script>-->
   <script src="./js/categorias.js"></script>
   <script src="./js/dashboard.js"></script>
 </body>

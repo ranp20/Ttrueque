@@ -1,3 +1,8 @@
+$(function(){
+  changesFilterandTnfoProds();
+});
+
+
 $(document).ready(function(){
   //MOSTRAR Y OCULTAR CARRITO...
   var carContent = $("#view_cart_ttrq"),
@@ -85,10 +90,34 @@ $(document).ready(function(){
     let closeGuideModal = $('#close-icon-modal-guide');
     let closeAfterComplete = $('#btn-aftercomplete');
     let nextStepButton = $('.next-step-button');
-
+''
 
     linksGuide.eq(0).add(itemsGuide.eq(0)).add(itemsTitles.eq(0)).addClass('active');
     closeGuideModal.on('click', e => {$('.contmodal-guide').css({"display": "none"});});
     closeAfterComplete.on('click', e => {$('.contmodal-guide').css({"display": "none"});});
   });
+});
+
+
+function changesFilterandTnfoProds(){
+  let parentLinkFilter = $(".contain__cont--info--btnsiconsadap");
+  let LinksFilter = parentLinkFilter.find("a");
+  let itemsFilter = $(".c-sidebarLeft__filtericons");
+
+  parentLinkFilter.on("click", "a", function(){
+    var t = $(this);
+    var ind = t.index();
+
+    t.add(itemsFilter.eq(ind)).addClass("active").siblings().removeClass("active");
+  });
+}
+
+let filterprodbtn = document.querySelector("#ciconfilterprods");
+let infostorebtn = document.querySelector("#ciconinfostoreprods");
+
+filterprodbtn.addEventListener("click", e => {
+  if(e.target === filterprodbtn) filterprodbtn.classList.remove("active");
+});
+infostorebtn.addEventListener("click", e => {
+  if(e.target === infostorebtn) infostorebtn.classList.remove("active");
 });

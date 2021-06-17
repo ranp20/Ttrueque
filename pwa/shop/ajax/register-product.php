@@ -2,6 +2,7 @@
 require_once '../../php/class/connection.php';
 class Insert_Product extends Connection
 {
+  
   function insertar()
   {
     $arr = [
@@ -21,7 +22,7 @@ class Insert_Product extends Connection
       $file1 = $_FILES['imagen']['name'];
 
       $file_loc = $_FILES['imagen']['tmp_name'];
-      $folder = "../folder/";
+      $folder = "../../shop/folder/";
       $new_file_name = strtolower($file1);
 
       $final_file = str_replace(' ', '-', $new_file_name);

@@ -17,6 +17,24 @@
 /*===================================
 =            ANTIGUO CSS            =
 ===================================*/
+.btns-options-wallet__links{
+    display: grid;
+}
+.btns-options-wallet__links:nth-child(2){
+  position: relative;
+}
+.text-desc-rechargewallet{
+    color: #000;
+}
+.text-desc-addtowallet{
+    color: steelblue !important;
+    padding: 0 !important;
+    background: transparent !important;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
 .btns-options-wallet a{
     color: #fff;
     text-decoration: none;
@@ -25,9 +43,6 @@
 }
 .btns-options-wallet a:nth-child(2){
   background-color: #fff;
-}
-.btns-options-wallet a:active{
-    transform: scale(.95);
 }
 .btns-options-wallet a:hover{
     color: #fff;
@@ -41,10 +56,6 @@
 /*//////////// BOTONES DE DETALLE DE BILLETERA ///////////  */
 .wallet-detail {
     background: var(--boton1);
-    transition: ease all .3s;
-}
-.wallet-detail:hover{
-    transform: scale(.95);
 }
 .wallet-detail li {
     font-weight: bold;
@@ -66,14 +77,11 @@
     height: 100%;
     transition: ease all .3s;
 }
-.add-to-wallet:hover{
-    transform: scale(.95);
-}
 .add-to-wallet i{
     color: #fff;
     background: var(--divisor);
     border-radius: 50%;
-    padding: 1.2em;
+    padding: .8em;
     transition:ease all .4s;
 }
 .add-to-wallet li{
