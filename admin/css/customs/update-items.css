@@ -28,7 +28,8 @@
 }
 /* IMÁGEN DEL PRODUCTO */
 .img-prod-div > .content-img-prod-updt{
-  display: flex;
+  text-align: center;
+  display: inlin-block;
   align-items: center;
   justify-content: center;
 }

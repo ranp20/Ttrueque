@@ -127,8 +127,8 @@ if($store == $_POST['store']){
 								{$marca}
 								<h3 class='cont-allprods__menu--link--contdescript--name'>${name}</h3>
 								<h2 class='cont-allprods__menu--link--contdescript--price'>
-									<span class='realBikkersPrice'>{$value['precio_producto']} Bikkers</span></br>
-									<span class='convertDollarsPrice'>[$ {$value['precio_producto']}]</span>
+									<span class='convertDollarsPrice'>$ {$value['precio_producto']}</span></br>
+									<span class='realBikkersPrice'>[{$value['precio_producto']}] Bikkers</span>
 								<h2>
 							</div>
 						</a>
@@ -149,8 +149,8 @@ if($store == $_POST['store']){
 								{$marca}
 								<h3 class='cont-allprods__menu--link--contdescript--name'>${name}</h3>
 								<h2 class='cont-allprods__menu--link--contdescript--price'>
-									<span class='realBikkersPrice'>{$value['precio_producto']} Bikkers</span></br>
-									<span class='convertDollarsPrice'>[$ {$value['precio_producto']}]</span>
+									<span class='convertDollarsPrice'>$ {$value['precio_producto']}</span></br>
+									<span class='realBikkersPrice'>[{$value['precio_producto']}] Bikkers</span>
 								<h2>
 							</div>
 						</a>

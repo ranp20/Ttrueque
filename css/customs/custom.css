@@ -398,11 +398,12 @@ img{
 
 @media (min-width:  892px){
   .navbar-expand-lg .navbar-nav .content-list-categories-naside.show{
-    min-width: 255px;
     min-width: 485px;
+    max-height: 424px;
+    overflow-y: auto !important;
     top: 43px;
     left: -300px;
-    box-shadow: 0 10px 20px 1px rgba(0,0,0,.25);
+    box-shadow: 0 10px 20px 1px rgb(0 0 0 / 25%);
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
@@ -413,6 +414,11 @@ img{
     background-color: #ccc !important;
     text-decoration: underline;
   }
+}
+@media (min-width:  1400px){
+    .navbar-expand-lg .navbar-nav .content-list-categories-naside.show{
+        max-height: 438px;
+    }
 }
 
 /* UTILITIES CLASS */
