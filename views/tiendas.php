@@ -6,7 +6,6 @@ $c = new Store();
 $dat = $c->select_tienda();
 require_once 'header_index.php';
 
-//print_r($_GET);
 if(!isset($_GET['tipos']) || $_GET['tipos'] == ""){
   header('Location: ./');
 }
@@ -22,7 +21,7 @@ if(!isset($_GET['tipos']) || $_GET['tipos'] == ""){
     ?>
         <?php
     if (!isset($_GET["tipos"]) || empty($_GET["tipos"])) {
-      echo '<script> location.replace("./"); </script>';
+        header("Location: ./");
     } else {
       $var =  str_replace("-", " ", $_GET["tipos"]);
     }
@@ -36,42 +35,46 @@ if(!isset($_GET['tipos']) || $_GET['tipos'] == ""){
                 </div>
             </div>
             <div class="container-content-off-mrkts">
-                <section class='list-all-products-name-categoria'>
-                    <button type='button' class='btn-l-name-categorias-products'><i
-                            class='fas fa-angle-left'></i></button>
-                    <button type='button' class='btn-r-name-categorias-products'><i
-                            class='fas fa-angle-right'></i></button>
-                    <ul class='items-products-name-categorias' id='list_all-products-name-category'>
-                    </ul>
+                <section class='list-all-products-name-categoria' id="classlist_ProdsByNameCategories">
+                    
+                    <div class='contain__cont--info--btnsiconsadap'>
+                        <a href='#ciconfilterprods' class='contain__cont--info--btnsiconsadap--icon'>
+                            <img src='./img/iconos_index/svg_icon_filter.svg' alt=''>
+                            <span>Filtrar</span>
+                        </a>
+                    </div>
+                    <div class='c-sidebarLeft__filtericons' id='ciconfilterprods'>
+                        <div class='contain__cont--info--filter'>
+                            <p class='contain__cont--info--filter--titleord'>Ordernar por:</p>
+                            <select class='contain__cont--info--filter--selfilter' name='' id='list_filter_products'>
+                                <option value='1'>Más vendidos</option>
+                                <option value='2'>Precio de menor a mayor</option>
+                                <option value='3'>Precio de mayor a menor</option>
+                                <option value='4'>Marca</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class='contain__cont--products'>
+                        <div id='loader' class='contain__cont--products--loader'> 
+                            <img src='./img/Utilities/loader.gif'>
+                        </div>
+                        <div class='filter_result' id="filter_byNameCategory"></div>
+                    </div>
+
                 </section>
             </div>
         </div>
-        <!--/footer-->
         <?php require_once "./footer.php" ?>
     </div>
-    <!-- COMMON SCRIPTS -->
     <script src="./js/common_scripts.min.js"></script>
     <script src="./js/main.js"></script>
     <script src="./js/actions_pages/buy_cart.js"></script>
     <script src="./js/actions_pages/modal_dialog.js"></script>
     <script src="./js/actions_pages/customs.js"></script>
-    <script src="./js/jquery.cookiebar.js"></script>
-    <script>
-    $(document).ready(function() {
-        'use strict';
-        $.cookieBar({
-            fixed: true
-        });
-    });
-    </script>
-    <!-- CUSTOM JAVASCRIPT -->
     <script src="./js/actions_pages/search_products.js"></script>
-    <script src="./js/actions_pages/history-shoping.js"></script>
     <script src="./js/actions_pages/listProds_ByNameCategory.js"></script>
     <script src="./js/actions_pages/track-order.js"></script>
-    <!--------- SWEEET ALERT 2  ---------->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <script src="js/customs/custom.js"></script>
 </body>
-
 </html>

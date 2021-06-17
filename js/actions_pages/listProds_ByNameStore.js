@@ -8,10 +8,10 @@ function load(page){
   var idtienda_filter = $("#idtienda_current").val();
   var namestore = $("#tienda-cli_prod").val();
   console.log(namestore);
-  var parametros = {"action": namestore,"page":page};
+  var parametros = {"store": namestore,"page":page};
   $("#loader").fadeIn('slow');
   $.ajax({
-    url:'./views/list_pag_products.php',
+    url:'./views/pag_ProdsByNameStore.php',
     method: 'POST',
     data: parametros,
     beforeSend: function(){

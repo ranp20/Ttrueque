@@ -47,21 +47,21 @@ class Categoria extends Connection
             die($err->getMessage());
         }
     }
-    //-----------------------//
-    function get_categoria()
-    {
+    /************************** LISTAR TODAS LAS CATEGORÍAS **************************/
+    function get_categoria(){
         try {
-            $sql = "SELECT id_categoria,nombre_categoria,imagen_categoria FROM categoria";
+            $sql = "SELECT * FROM categoria ORDER BY nombre_categoria ASC";
             $stm = $this->con->query($sql);
             return $stm->fetchAll();
         } catch (PDOException $err) {
             die($err->getMessage());
         }
     }
+    /************************** LIMITAR MOSTRADO DE CATEGORÍAS **************************/
     function get_categoria_limit()
     {
         try {
-            $sql = "SELECT * FROM categoria LIMIT 10;";
+            $sql = "SELECT * FROM categoria LIMIT 10";
             $stm = $this->con->query($sql);
             return $stm->fetchAll();
         } catch (PDOException $err) {

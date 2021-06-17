@@ -1,14 +1,11 @@
-<?php require_once '././process_header.php'; ?>
-
-<header class="version_1">
-  <div class="layer"></div><!-- Mobile menu overlay mask -->
+<!-- <header class="version_1">
+  <div class="layer"></div>
   <div class="main_header">
       <div class="container">
           <div class="row small-gutters">
               <div class="col-xl-3 col-lg-3 d-lg-flex align-items-center">
                   <div id="logo">
 
-                      <!-- --- --- --- --- AGREGAR LOGO O MARCA DEL SITIO WEB --- --- --- --- -->
                       <a class="logo_inicio" href="index.php"><img src="img/svg/logo_trueque_color_0.2.svg" alt="" width="100" height="35" style="margin:auto;"></a>
 
                   </div>
@@ -21,11 +18,8 @@
                           </div>
                       </div>
                   </a>
-                  <!-- Mobile menu button -->
 
 
-                  <!-- --- --- --- --- LISTA DE OPCIONES DE MENU 1. --- --- --- --- -->
-                  <!-- Mobile menu button -->
                   <div class="main-menu">
                       <div id="header_menu">
                           <a href="/"><img src="img/logo_black.svg" alt="" width="100" height="35"></a>
@@ -42,7 +36,6 @@
                               </ul>
                           </li>
 
-                          <!-- --- --- --- --- LISTA DE OPCIONES DE MENU 2. --- --- --- --- -->
 
                           <li class="megamenu submenu">
                               <a href="javascript:void(0);" class="show-submenu-mega">Páginas</a>
@@ -93,10 +86,9 @@
                                           </div>
                                       </div>
                                   </div>
-                                  <!-- /row -->
+
                               </div>
-                              <!-- /menu-wrapper -->
-                              <!-- --- --- --- --- LISTA DE OPCIONES DE MENU 3. --- --- --- --- -->
+
                           <li class="submenu">
                               <a href="javascript:void(0);" class="show-submenu">Páginas Extra</a>
                               <ul>
@@ -121,16 +113,16 @@
                           </li>
                       </ul>
                   </div>
-                  <!--/main-menu -->
+
               </nav>
               <div class="col-xl-3 col-lg-2 d-lg-flex align-items-center justify-content-end text-right">
                   <a class="phone_top" href="tel://51 951 488 317" title="Necesitas Ayuda?"><strong><span>Necesitas Ayuda?</span>+51 951 488 317</strong></a>
               </div>
           </div>
-          <!-- /row -->
+
       </div>
   </div>
-  <!-- /main_header -->
+
 
   <div class="main_nav inner">
       <div class="container">
@@ -151,6 +143,7 @@
                               <div id="menu">
                                   <ul>
                                       <?php
+                                      /*
                                       foreach ($all_categorias as $key => $val) {
 
                                           $list = "<li class='list-item-dropwdown'>
@@ -166,6 +159,7 @@
 
                                           echo $list;
                                       }
+                                      */
 
                                       ?>
                                   </ul>
@@ -182,6 +176,7 @@
               </div>
               <div class="col-xl-3 col-lg-2 col-md-3">
                   <?php
+                  /*
                   $links = [];
                   if (isset($_SESSION["user"])) {
                       $links[0] = "cart.php";
@@ -190,6 +185,7 @@
                       $links[0] = "account";
                       $links[1] = "account";
                   }
+                  */
                   ?>
 
                   <ul class="top_tools" title="Ver carrito">
@@ -201,12 +197,12 @@
                                   </ul>
                                   <div class="total_drop">
                                       <div class="clearfix" id="price_total"></div>
-                                      <a href="<?php echo $links[0]; ?>" class="btn_1 outline">Ver Carrito</a>
-                                      <a href="<?php echo $links[1]; ?>" class="btn_1" title="Ir a comprar">Comprar</a>
+                                      <a href="<?php //echo $links[0]; ?>" class="btn_1 outline">Ver Carrito</a>
+                                      <a href="<?php //echo $links[1]; ?>" class="btn_1" title="Ir a comprar">Comprar</a>
                                   </div>
                               </div>
                           </div>
-                          <!-- /dropdown-cart-->
+
                       </li>
                       <li>
                           <a href="#0" class="wishlist" title="Ver Favoritos"><span>Lista de Favoritos</span></a>
@@ -216,6 +212,7 @@
                               <a href="account" class="access_link" title="Mi cuenta"><span>Cuenta</span></a>
                               <div class="dropdown-menu">
                                   <?php
+                                  /*
                                   if (!isset($_SESSION["user"])) {
                                       echo "<a href='account' class='btn_1'>Inicia sesión o regístrate</a>";
                                   } else {
@@ -235,10 +232,11 @@
                                                       </li>
                                                   </ul>";
                                   }
+                                  */
                                   ?>
                               </div>
                           </div>
-                          <!-- /dropdown-access-->
+
                       </li>
                       <li>
                           <a href="javascript:void(0);" class="btn_search_mob"><span>Search</span></a>
@@ -256,7 +254,6 @@
                   </ul>
               </div>
           </div>
-          <!-- /row -->
       </div>
   </div>
-</header>
+</header> -->

@@ -9,9 +9,9 @@ $dataCli = $client->get_data_by_id($_SESSION['user']);
 require_once '../php/class/product.php';
 $product = new Product();
 
-$action = (isset($_REQUEST['action'])&& $_REQUEST['action'] !=NULL) ? $_REQUEST['action'] : '';
+$store = (isset($_REQUEST['store'])&& $_REQUEST['store'] !=NULL) ? $_REQUEST['store'] : '';
 
-if($action == $_POST['action']){
+if($store == $_POST['store']){
 
 	//VARIABLES DE PAGINACIÓN...
 	$page = (isset($_REQUEST['page']) && !empty($_REQUEST['page'])) ? $_REQUEST['page'] : 1;
@@ -19,7 +19,7 @@ if($action == $_POST['action']){
 	$adjacents  = 3; //brecha entre páginas después de varios adyacentes
 	$offset = ($page - 1) * $per_page;
 
-	$count_query = $product->get_count_products($action);
+	$count_query = $product->get_count_ProdsByNameStore($store);
 
 	if ($row = $count_query){
 		$numrows = $row[0]['numrows'];
@@ -27,7 +27,7 @@ if($action == $_POST['action']){
 	
 	$total_pages = ceil($numrows/$per_page);
 
-	$products = $product->get_limit_products($action, $offset, $per_page);
+	$products = $product->get_limit_ProdsByNameStore($store, $offset, $per_page);
 
 	/*********************** FUNCIÓN - ESTRUCTURA DE PAGINACIÓN *********************/
 	function paginate($page, $tpages, $adjacents) {

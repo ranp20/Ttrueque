@@ -74,7 +74,7 @@
                       </a>
                       <div class="dropdown-menu content-list-categories-naside" aria-labelledby="navbarDropdown">
                           <?php
-                  foreach ($cat_limit as $key => $val) {
+                  foreach ($categoria as $key => $val) {
                     $e =    $val["nombre_categoria"];
                     $url =    str_replace(" ", "-", $e);
 

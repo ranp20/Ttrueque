@@ -38,7 +38,8 @@
 @import url(resize_pages_home.css);
 @import url(resize_pages_index.css);
 @import url(recover-password.css);
-@import url(list_allprods_by_namestore.css);
+@import url(list_AllProds_ByNameStore.css);
+@import url(list_AllProds_ByNameCategory.css);
 @import url(404.css);
 /*****************************************/
 /*      VARIABLES PAGE PRINCIPAL - G     */
@@ -387,6 +388,31 @@ body::-webkit-scrollbar-track:hover {
 img{
   max-width: 100%;
   height: auto;
+}
+
+/* CONTAINER CATEGORIES INTO SIDEBARLEFT BOOTSTRAP */
+#contain-index-nav-ttrk .container .mobileMenu.open .navbar-nav .dropdown-menu{    
+  overflow-y: auto !important;
+  max-height:  378px;
+}
+
+@media (min-width:  892px){
+  .navbar-expand-lg .navbar-nav .content-list-categories-naside.show{
+    min-width: 255px;
+    min-width: 485px;
+    top: 43px;
+    left: -300px;
+    box-shadow: 0 10px 20px 1px rgba(0,0,0,.25);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .navbar-expand-lg .navbar-nav .content-list-categories-naside.show a.dropdown-item{
+    transition: .1s ease-in-out !important;
+  }
+  .navbar-expand-lg .navbar-nav .content-list-categories-naside.show a.dropdown-item:hover{
+    background-color: #ccc !important;
+    text-decoration: underline;
+  }
 }
 
 /* UTILITIES CLASS */

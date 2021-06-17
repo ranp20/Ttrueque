@@ -1,0 +1,18 @@
+#classlist_ProdsByNameCategories .contain__cont--info--btnsiconsadap .contain__cont--info--btnsiconsadap--icon{flex: 0 0 100%;}
+#classlist_ProdsByNameCategories .contain__cont--info--btnsiconsadap{margin-bottom: 1.5rem;}
+
+#classlist_ProdsByNameCategories .contain__cont--products #filter_byNameCategory .alert-warning{margin: 1rem 0;}
+
+@media (min-width: 1024px){
+	#classlist_ProdsByNameCategories{
+		display: grid;
+		grid-template-columns: auto 1fr;
+		grid-column-gap: 1.2rem;
+	}
+	#classlist_ProdsByNameCategories .c-sidebarLeft__filtericons .contain__cont--info--filter{
+		border: none;
+	}
+	#classlist_ProdsByNameCategories .contain__cont--products #filter_byNameCategory .alert-warning{
+		margin: 0;
+	}
+}
