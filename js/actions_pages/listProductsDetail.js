@@ -25,9 +25,9 @@ $(document).ready(function () {
         $("#detailprod_ttrq").html(`
           <div class="content-c-primary_d-p_ttrq">
             <div class="contain-l-to-prod-detail">
-              <div class="content-img-prod-detail">
-                <div loading='lazy' class='img-fluid' style='background-image: url(${path});'></div>
-              </div>
+              <figure class="content-img-prod-detail">
+                <img loading='lazy' class='img-fluid' src='${path}' alt=''>
+              </figure>
             </div>
             <div class="contain-r-to-prod-detail">
               <h1>${v.nombre_producto}</h1>
@@ -70,10 +70,10 @@ $(document).ready(function () {
         $("#detailprod_ttrq").html(`
   				<div class="content-c-primary_d-p_ttrq">
   					<div class="contain-l-to-prod-detail">
-  						<div class="content-img-prod-detail">
-  							<div loading='lazy' class='img-fluid' style='background-image: url(${path});'></div>
-  						</div>
-  					</div>
+              <figure class="content-img-prod-detail">
+                <img loading='lazy' class='img-fluid' src='${path}' alt=''>
+              </figure>
+            </div>
   					<div class="contain-r-to-prod-detail">
   						<h1>${v.nombre_producto}</h1>
   						<div class="contain-lr-in-detail-prod">

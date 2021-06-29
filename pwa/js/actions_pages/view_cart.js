@@ -24,7 +24,7 @@ $(document).ready(function () {
     } else {
       $.each(res, function (i, val) {
         //var idprodanidado = val[0].id_p;
-        var path_store = "./shop/images/store/" + val[0].logo;
+        var path_store = "../shop/images/store/" + val[0].logo;
         $("#table-list-product").append(`
       <tr class="ctn-store-${i}" id="cart-store"  >
          <td colspan="5" class="cont-img-info-store">
@@ -50,7 +50,7 @@ $(document).ready(function () {
        `);
         $.each(val, function (j, v) {
           var total_price = v.cantidad * v.puntos;
-          var path = "./shop/folder/" + v.image;
+          var path = "../shop/folder/" + v.image;
           var stockrestado = v.stock_producto - v.cantidad;
           var productID = v.id_p;
           $("#table-list-product").append(`

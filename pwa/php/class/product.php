@@ -377,4 +377,70 @@ class Product extends Connection
             return $e->getMessage();
         }
     }
+
+    /*===================================================================
+    =            FILTROS PARA LA VISTA DE LOS PRODUCTOS                 =
+    ===================================================================*/
+    /***************************************************************************************************/
+    /*  1. NÚMERO TOTAL DE REGISTROS POR NOMBRE DE LA TIENDA*/
+    function get_count_ProdsByNameStore($namestore)
+    {
+        try {
+            $sql = "CALL sp_count_ProdsByNameStore(:namestore)";
+            $stm = $this->con->prepare($sql);
+            $stm->bindValue(":namestore", $namestore);
+            $stm->execute();
+            return $stm->fetchAll(PDO::FETCH_ASSOC);
+        } catch (PDOException $err) {
+            die($err->getMessage());
+        }
+    }
+    /*  2. LIMITAR EL NÚMERO DE REGISTROS POR VISTA DE ACUERDO AL NOMBRE DE LA TIENDA */
+    function get_limit_ProdsByNameStore($namestore, $offset, $per_page)
+    {
+        try {
+            $sql = "CALL sp_limit_ProdsByNameStore(:namestore, :offset, :per_page)";
+            $stm = $this->con->prepare($sql);            
+            $stm->bindValue(":namestore", $namestore);
+            $stm->bindValue(":offset", $offset);
+            $stm->bindValue(":per_page", $per_page);
+            $stm->execute();
+            return $stm->fetchAll(PDO::FETCH_ASSOC);
+
+        } catch (PDOException $err) {
+            die($err->getMessage());
+        }
+    }
+
+
+    /***************************************************************************************************/
+    /*  2. NÚMERO TOTAL DE REGISTROS POR NOMBRE DE LA TIENDA*/
+    function get_count_ProdsByNameCategory($namecategory)
+    {
+        try {
+            $sql = "CALL sp_count_ProdsByNameCategory(:namecategory)";
+            $stm = $this->con->prepare($sql);
+            $stm->bindValue(":namecategory", $namecategory);
+            $stm->execute();
+            return $stm->fetchAll(PDO::FETCH_ASSOC);
+        } catch (PDOException $err) {
+            die($err->getMessage());
+        }
+    }
+    /*  3. LIMITAR EL NÚMERO DE REGISTROS POR VISTA DE ACUERDO AL NOMBRE DE LA TIENDA */
+    function get_limit_ProdsByNameCategory($namecategory, $offset, $per_page)
+    {
+        try {
+            $sql = "CALL sp_limit_ProdsByNameCategory(:namecategory, :offset, :per_page)";
+            $stm = $this->con->prepare($sql);            
+            $stm->bindValue(":namecategory", $namecategory);
+            $stm->bindValue(":offset", $offset);
+            $stm->bindValue(":per_page", $per_page);
+            $stm->execute();
+            return $stm->fetchAll(PDO::FETCH_ASSOC);
+
+        } catch (PDOException $err) {
+            die($err->getMessage());
+        }
+    }
 }

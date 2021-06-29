@@ -130,7 +130,7 @@ $all_stores = $stores->select_tienda();
                     <ul class="items-categ-stores-ttrk" id="lista_categories">
                         <?php 
                         foreach ($all_categs as $value) {
-                            $url = './admin/images/categoria/'.$value['imagen_categoria'];
+                            $url = '../admin/images/categoria/'.$value['imagen_categoria'];
                             $name_category = $value['nombre_categoria'];
                             $url_name = str_replace(" ", "-", $name_category);
 

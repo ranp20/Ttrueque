@@ -8,7 +8,7 @@ $(document).ready(function () {
       var cadena = v.nombre_categoria;
       url = cadena.replace(/" "/g, "-");
       //console.log(url);
-      var path = "./admin/images/categoria/" + v.imagen_categoria;
+      var path = "../admin/images/categoria/" + v.imagen_categoria;
       $("#lista_categories").append(
         `
     <li class="item-categ-stores-into">

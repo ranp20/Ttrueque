@@ -5,18 +5,6 @@
 	// Sticky nav
 	var $headerStick = $('.Sticky');
 
-	//NUEVAS VARIABLES BREAKPOINTS...
-	// var smallBp = matchMedia("(max-width: 478px)");
-	// //var cabecera = document.getElementById('#principal-home1');
-	// var changesmall = mql => {
-	// 	mql.matches ? $('#principal-home1').css({'background' : 'red'}) 
-	// 							: $('#principal-home1').css({'background' : 'green'})}
-
-	
-
-	// smallBp.addListener(changesmall);
-	// changesmall(smallBp);
-
 	$(window).on("scroll", function () {
 		if ($(this).scrollTop() > 80) {
 			$headerStick.addClass("sticky_element");
@@ -451,3 +439,8 @@
 	
 
 })(window.jQuery); 
+
+let containCartAll = document.querySelector(".containt_total_ttrq-cart");
+containCartAll.addEventListener('click', e => {
+	if(e.target === containCartAll)	containCartAll.classList.remove('active');
+});

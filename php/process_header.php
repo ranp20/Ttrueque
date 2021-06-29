@@ -3,6 +3,7 @@
 require_once "class/categoria.php";
 require_once 'class/client.php';
 require_once 'class/all.php';
+require_once 'class/admin.php';
 
 $user = !isset($_SESSION["user"])  ? "" : $_SESSION["user"];
 //LISTAR CATEGORIA...
@@ -16,6 +17,9 @@ $d = $c->get_data_by_id($user);
 //LISTAR TODO...
 $ctr = new All();
 $flags = $ctr->get_countries();
+//LISTAR DATOS DEL ADMIN
+$admin = new Admin();
+$alldataAdm = $admin->get_admin();
 
 $c->close_connection();
 

@@ -43,7 +43,7 @@ if (!isset($tienda[1][0]["id_menbresia"])) {
                             <p class="lang_ttrq" key="txt-down-btn-products-top-ad_cli-1">Productos</p>
                         </li>
                     </a>
-                    <a href="add-product_v.php" class="add-to-wallet">
+                    <a href="sel-published.php" class="add-to-wallet">
                         <li>
                             <div class="content-icons">
                                 <i class="lni lni-plus icon-hov"></i>

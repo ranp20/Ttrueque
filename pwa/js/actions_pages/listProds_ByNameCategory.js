@@ -1,129 +1,26 @@
-$(document).ready(function () {
-  var tipo = $("#tipo").val();
-  var idcliente = $("#userid_cli").val();
-  var idtienda_curr = $("#idtienda_current").val();
-  //console.log(tipo);
+$(document).ready(function(){
+  load(1);
+});
+
+function load(page){
+  var tipoCateg = $("#tipo").val();
+  console.log(tipoCateg);
+
+  var parametros = {"namecategory": tipoCateg,"page":page};
+  $("#loader").fadeIn('slow');
   $.ajax({
-    url: "./php/class/store_cart.php",
-    dataType: "JSON",
-    method: "POST",
-    contentType: 'application/x-www-form-urlencoded;charset=UTF-8',
-    data: { tipo: tipo },
-  }).done(function (res) {
-
-    if (res.length == 0) {
-      $(".btn-l-name-categorias-products").hide();
-      $(".btn-r-name-categorias-products").hide();
-
-      $("#list_all-products-name-category").append(`
-        <div class="content-msg-any-prods_cat">
-         <div>
-           <img src='./img/iconos_home/index-any-products.svg' alt=''>
-           <h1>Aún no hay productos disponibles para esta categoría</h1>
-           <a href="allcategories">Ver todas las categorías</a>
-         </div>
-       </div>
-      `);
-
-    } else {
-      $.each(res, function (i, v) {
-        
-        var path = "./shop/folder/" + v.imagen;
-        var path_store = "./shop/images/store/" + v.logo;
-        var nomb_prod = v.nombre_producto.substring(0, 60);
-        var name_prod = nomb_prod.replace(/_/g, "-");
-        var idtienda_DB = v.id_tienda;
-
-        if(idtienda_curr == idtienda_DB){
-          if(v.stock_producto == 0){
-            console.log('Uno o más productos de este filtro no tienen stock');
-          }else{
-            $("#list_all-products-name-category").append(`
-            <li class="item-product-name_categ">
-            <div class="item-cont-products-name-categ">
-              <a href="product-detail?id=${v.id_producto}" class="cont-image-products-name-categ">
-                <img src='${path}' loading='lazy' class='img-fluid'>
-                <!--<div  loading='lazy' class="image-product-name-categ img-fluid" style="background-image: url(${path});">
-                </div>-->
-              </a>
-              <div>
-                <div class="sms-currstore-prod_categ">
-                  <h1>Tu producto</h1>
-                </div>
-                <div class="cont-info-product-name_categ-ttrk">
-                  <p>${name_prod}</p>
-                  <p>${v.precio_producto} Bikers</p>
-                </div>
-              </div>
-            </div>
-          </li>
-          `);
-          }
-        }else{
-          if(v.stock_producto == 0){
-            console.log('Uno o más productos de este filtro no tienen stock');
-          }else{
-            $("#list_all-products-name-category").append(`
-            <li class="item-product-name_categ">
-            <div class="item-cont-products-name-categ">
-              <a href="product-detail?id=${v.id_producto}" class="cont-image-products-name-categ">
-                <img src='${path}' loading='lazy' class='img-fluid'>
-                <!--<div  loading='lazy' class="image-product-name-categ img-fluid" style="background-image: url(${path});">
-                </div>-->
-              </a>
-              <div>
-                <div class="cont-info-product-name_categ-ttrk">
-                  <p>${name_prod}</p>
-                  <p>${v.precio_producto} Bikers</p>
-                  <ul>
-                    <li>
-                      <a href="#0" class="button_add_cart_name_cat"
-                        attr_name='${v.nombre_producto}'
-                        attr_price='${v.precio_producto} '
-                        attr_store_id='${v.id_tienda}'
-                        attr_store_name='${v.nombre_tienda}'
-                        attr_image='${path}'
-                        attr_store_logo='${path_store}'
-                        attr_count=1 
-                        attr_id='${v.id_producto}'
-                        attr_idclient='${idcliente}'
-                      >
-                        <i class="fal fa-shopping-cart"></i>
-                      </a>
-                    </li>
-                    <!--<li>
-                      <a href="#0" class="heart-icon-p-by-str">
-                        <i class="fal fa-heart"></i>
-                      </a>
-                    </li>-->
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </li>
-          `);
-          }
-        }        
-      });
-
-      //CAROUSEL PRODUCTOS...
-      var contenedor = document.querySelector(
-        ".items-products-name-categorias"
-      );
-      var arrowleft = document.querySelector(".btn-l-name-categorias-products");
-      var arrowright = document.querySelector(
-        ".btn-r-name-categorias-products"
-      );
-
-      arrowright.addEventListener("click", function () {
-        contenedor.scrollLeft += contenedor.offsetWidth;
-      });
-      arrowleft.addEventListener("click", function () {
-        contenedor.scrollLeft -= contenedor.offsetWidth;
-      });
+    url:'./views/pag_ProdsByNameCategory.php',
+    method: 'POST',
+    data: parametros,
+    beforeSend: function(){
+      $("#loader").html("<img src='./img/Utilities/loader.gif'>");
+    },
+    success:function(data){
+      $("#filter_byNameCategory").html(data).fadeIn('slow');
+      $("#loader").html("");
     }
   });
-});
+}
 
 function msg_alert(i) {
   Swal.fire({
@@ -134,11 +31,6 @@ function msg_alert(i) {
     showConfirmButton: false,
     grow: "row",
     toast: true,
-    customClass: {
-      container: "container-swalertcustomclass",
-      popup: "content-swalertcustomclass",
-      title: "title-swalertcustomclass",
-    },
   });
 }
 
@@ -176,11 +68,6 @@ $(document).on("click", ".button_add_cart_name_cat", function (e) {
           showConfirmButton: false,
           grow: "row",
           toast: true,
-          customClass: {
-            container: "container-swalertcustomclass",
-            popup: "content-swalertcustomclass",
-            title: "title-swalertcustomclass",
-          },
         });
       }
       listProductsIntoCart();

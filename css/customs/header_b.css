@@ -423,3 +423,62 @@ li .language_icon_header_b-ttrq .icon-language_ttrq ul li button div {  backgrou
     padding: .25rem .75rem;
   }
 }
+/* NEW STYLES INTO NAVBAR */
+/* ICONO DE HOME PARA IR A LA VISTA PRINCIPAL EN TTRUEQUE */
+#icon-homevisiblenoun{
+  display: none;
+  width: 42px;
+  height: 38px;
+  margin-right: 1rem;
+  box-shadow: 0 0 0 1px #fff;
+  border-radius: .4rem;
+  padding: .1rem;
+  text-align: center;
+  transition: ease-in-out .2s !important;
+}
+#icon-homevisiblenoun:hover,
+#icon-homevisiblenoun:active{
+  background-color: #fff;
+}
+#icon-homevisiblenoun:hover svg{
+  fill: var(--primary-clr);
+}
+@media (min-width:  1024px){
+  #icon-homevisiblenoun{
+    order: 0;
+    display: inline-block;
+  }
+  #icon-homevisiblenoun svg{
+    fill: #fff;
+    position: relative;
+    top: -2px;
+  }
+}
+/* ICONO DE CONTACTO PARA IR AL FORMULARIO DE TTRUEQUE */
+.cont-cartandcontact_Icons{
+  order: 3 !important;
+  display: flex;
+  align-items: center;
+}
+#icon-callvisiblenoun{
+  display: inline-block;
+  order: 3;
+  width: 42px;
+  height: 38px;
+  margin-left: 0.3rem;
+  border-radius: .4rem;
+  padding: .15rem;
+  text-align: center;
+  transition: ease-in-out .2s !important;
+}
+#icon-callvisiblenoun svg{
+  fill: #fff;
+  position: relative;
+  top: -2px;
+}
+@media (min-width:  1024px){
+  #icon-callvisiblenoun{
+    display: inline-block;
+    margin-left: 1rem;
+  }
+}

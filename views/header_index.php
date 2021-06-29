@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <title>Ttrueque | Carrito de compras</title>
   <!-- //METAS-->

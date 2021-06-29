@@ -1156,3 +1156,275 @@ img{
   .contain-btn-go-to-cart_ttrq > a span{font-size: 1.15rem;}
   .contain-btn-go-to-cart_ttrq > a{padding: 0.8rem 0;}
 }
+
+
+/************************** STYLES INTO CONTACT **************************/
+.cContactsMain{
+    margin-top: 54px;
+  }
+  .cContactsMain--c{
+    margin-bottom: 3.5rem;
+  }
+  .cContactsMain--c--cTop--cBanner{
+    width: 100%;  
+    height: 10rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cContactsMain--c--cTop--cBanner:after{
+    content: "";
+    background-color: rgba(0, 0, 0, .4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .cContactsMain--c--cTop--cBanner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  .cContactsMain--c--cTop--cBanner--cTitle{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    z-index: 9;
+  }
+  .cContactsMain--c--cTop--cBanner--cTitle--title{
+    color: #09A98F;
+    font-weight: bold;
+  }
+  .cContactsMain--c--cTop--cW{    
+    background-color: #003857;
+  }
+  .cContactsMain--c--cTop--cW--cMenuinfo{
+    height: 28rem;
+    max-width: var(--max-width);
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3,1fr);
+    background-color: #004D74;
+  }
+  .cContactsMain--c--cTop--cW--cMenuinfo--item{
+    position: relative;
+    background-color: #004D74;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .cContactsMain--c--cTop--cW--cMenuinfo--item:nth-child(even){
+    background-color: #003857;
+  }
+  .cContactsMain--c--cTop--cW--cMenuinfo--item--cont{
+    position: absolute;
+  }
+  .cContactsMain--c--cTop--cW--cMenuinfo--item--cont--cIcon{
+    width: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+  }
+  .cContactsMain--c--cTop--cW--cMenuinfo--item--cont--cIcon--title{
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #fff;
+    padding-bottom: 3px;
+    border-bottom: 3px solid #09A98F;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.1rem;
+  }
+  .cContactsMain--c--cTop--cW--cMenuinfo--item--cont--cIcon--info{
+    color: #fff;
+    font-weight: bold;
+  }
+  /* CONTENIDO FORMULARIO */
+  .cContactsMain--c--cF{
+    text-align: center;
+    max-width: var(--max-width);
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3rem;
+  }
+  .cContactsMain--c--cF--cTitle{
+    margin-bottom: 2.5rem;
+  }
+  .cContactsMain--c--cF--cTitle--title{
+    padding-bottom: 3px;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    color: #003857;
+  }
+  .cContactsMain--c--cF--cTitle--title:after{
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40%;
+    height: 3px;
+    background-color: #09A98F;
+  }
+  .cContactsMain--c--cF--form{
+    max-width: 580px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .cContactsMain--c--cF--form--control{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 100%;
+    margin-bottom: 1rem;
+    position: relative;
+  }
+  .cContactsMain--c--cF--form--control--icon{
+    position: absolute;
+    width: 1.5rem;
+    top: 50%;
+    transform: translateY(-42%);
+    left: 12px;
+  }
+  .cContactsMain--c--cF--form--control input{
+    width: 100%;
+    outline: none;
+    border: thin solid #004D74;
+    padding: 0.6rem 1rem .6rem 3rem;
+    border-radius: 1rem;
+    line-height: 1.5;
+    font-size: 1rem;
+  }
+  .cContactsMain--c--cF--form--controltextarea{
+    position: relative;
+  }
+  .cContactsMain--c--cF--form--controltextarea textarea{
+    width: 100%;
+    outline: none;
+    border: thin solid #004D74;
+    padding: 0.6rem 1rem .6rem 3rem;
+    border-radius: 1rem;
+    line-height: 1.5;
+    font-size: 1rem;
+    min-height: 8.5rem;
+    max-height: 8.5rem;
+  }
+  .cContactsMain--c--cF--form--controltextarea--icon{
+    position: absolute;
+    width: 1.5rem;
+    top: 12px;
+    left: 12px;
+  }
+  .cContactsMain--c--cF--form--doublecontrol{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 100%;
+    margin-bottom: 1rem;
+    position: relative;
+  }
+  .cContactsMain--c--cF--form--doublecontrol--cC{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 50%;
+    position: relative;
+  }
+  .cContactsMain--c--cF--form--doublecontrol--cC:first-child{
+    padding-right: 0.25rem;
+  }
+  .cContactsMain--c--cF--form--doublecontrol--cC:nth-child(2){
+    padding-left: 0.25rem;
+  }
+  .cContactsMain--c--cF--form--doublecontrol--cC--icon{
+    position: absolute;
+    width: 1.5rem;
+    top: 50%;
+    transform: translateY(-42%);
+    left: 12px; 
+  }
+  .cContactsMain--c--cF--form--doublecontrol--cC:nth-child(2) img{
+    left: 16px;   
+  }
+  .cContactsMain--c--cF--form--doublecontrol--cC--input{
+    width: 100%;
+    outline: none;
+    border: thin solid #004D74;
+    padding: 0.6rem 1rem .6rem 3rem;
+    border-radius: 1rem;
+    line-height: 1.5;
+    font-size: 1rem;
+  }
+  .cContactsMain--c--cF--form--btnsendMessage{
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: none;
+    background-color: transparent;
+    border: thin solid #004D74;
+    padding: .6rem 3rem;
+    border-radius: 1.5rem;
+    line-height: 1.5;
+    font-size: 1rem;
+    color: #004D74;
+    transition: .2s ease-in-out;
+  }
+  .cContactsMain--c--cF--form--btnsendMessage:hover{
+    color: #fff;
+    background-color: #004D74;
+  }
+
+  @media (min-width: 768px){
+    .cContactsMain--c--cTop--cW{
+      background-color: #004D74;
+    }
+    .cContactsMain--c--cTop--cW--cMenuinfo{
+      height: 13rem;
+      max-width: var(--max-width);
+      margin-left: auto;
+      margin-right: auto;
+      list-style: none;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      grid-template-rows: 1fr;
+      background-color: #004D74;
+    }
+    .cContactsMain--c--cTop--cW--cMenuinfo--item{
+      position: relative;
+      background-color: #004D74;
+      transform: skewX(10deg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .cContactsMain--c--cTop--cW--cMenuinfo--item:nth-child(even){
+      background-color: #003857;
+      transform: skewX(10deg);
+    }
+    .cContactsMain--c--cTop--cW--cMenuinfo--item--cont{
+      position: absolute;
+      transform: skewX(-10deg);
+      padding: 0 .85rem;
+    }
+    .cContactsMain--c--cF--form--btnsendMessage{
+      width: auto;
+    }
+  }

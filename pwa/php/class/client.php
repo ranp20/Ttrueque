@@ -203,4 +203,59 @@ class Client extends Connection
             return $e->getMessage();
         }
     }
+
+    /*======================= LISTAR LOS DATOS DEL USUARIO POR EL TOKEN =====================*/
+    function list_password_bytoken($token)
+    {
+    
+        try {
+          $sql = "SELECT * FROM cliente WHERE token = :token";
+          $stm = $this->con->prepare($sql);
+          $stm->bindValue(":token", $token);
+          $stm->execute();
+
+          return $stm->fetchAll(PDO::FETCH_ASSOC);
+
+          
+        } catch (PDOException $e) {
+          return $e->getMessage();
+        }
+    }
+
+    /*======================= ACTUALIZAR EL TOKEN A "NULL" POR EL ID DEL USUARIO =====================*/
+    function update_token_byid($id)
+    {
+    
+        try {
+          $sql = "UPDATE cliente SET token = NULL WHERE id_cliente = :id";
+          $stm = $this->con->prepare($sql);
+          $stm->bindValue(":id", $id);
+          $stm->execute();
+
+          return $stm->rowCount() > 0 ? "Se acaba de actualizar un registro" : "No se actualizó";
+
+          
+        } catch (PDOException $e) {
+          return $e->getMessage();
+        }
+    }
+
+    /*======================= ACTUALIZAR LA CONTRASEÑA DEL USUARIO POR EL ID =====================*/
+    function update_password_byid($arr_update_pass)
+    {
+    
+        try {
+          $sql = "UPDATE cliente SET password_cliente = :password WHERE id_cliente = :id";
+          $stm = $this->con->prepare($sql);
+          
+          foreach ($arr_update_pass as $key => $value) {
+            $stm->bindValue($key, $value);  
+          }
+          $stm->execute();
+          return $stm->rowCount() > 0 ? "Se acaba de actualizar el password" : "No se ha actualizado el password";
+          
+        } catch (PDOException $e) {
+          return $e->getMessage();
+        }
+    }
 }

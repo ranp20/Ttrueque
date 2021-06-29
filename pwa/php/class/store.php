@@ -19,16 +19,17 @@ class Store extends Connection
             die($err->getMessage());
         }
     }
-
-    // function sel_idtienda_by_idcliente($cliente){
-    //     try{
-    //         $sql = "SELECT id FROM tienda WHERE cliente = :cliente";
-    //         $stm = $this->con->prepare($sql);
-    //         $stm->bindValue(":cliente", $cliente);
-    //         $stm->execute();
-    //         return $stm->fetchAll(PDO::FETCH_ASSOC);
-    //     }catch(PDOException $e){
-    //         die($err->getMessage());
-    //     }
-    // }
+    /************************** NUEVAS FUNCIONES PARA LAS TIENDAS **************************/
+    function list_storeinfo_byName($name)
+    {
+        try {
+            $sql = "SELECT c.email_cliente, c.direccion_cliente, p.nombre_pais, c.telefono, c.id_rubro, t.logo FROM cliente c INNER JOIN tienda t ON c.id_cliente = t.cliente INNER JOIN pais p ON c.id_pais = p.id_pais WHERE t.nombre_tienda = :name";
+            $stm = $this->con->prepare($sql);
+            $stm->bindValue(":name", $name);
+            $stm->execute();
+            return $stm->fetchAll(PDO::FETCH_ASSOC);
+        } catch (PDOException $err) {
+            die($err->getMessage());
+        }
+    }
 }

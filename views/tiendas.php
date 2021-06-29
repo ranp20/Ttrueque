@@ -60,7 +60,7 @@ if(!isset($_GET['tipos']) || $_GET['tipos'] == ""){
                         </div>
                         <div class='filter_result' id="filter_byNameCategory"></div>
                     </div>
-
+                    <a href="allcategories" class="btn-allCategoriesLinkShow">Ver todas las categorías</a>
                 </section>
             </div>
         </div>

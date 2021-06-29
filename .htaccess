@@ -36,6 +36,7 @@ RewriteRule ^productos?$ views/productos.php
 RewriteRule ^confirm?$ views/confirm.php
 RewriteRule ^allstores?$ views/all_stores.php
 RewriteRule ^allcategories?$ views/all_categories.php
+RewriteRule ^contacto?$ views/contacts.php
 
 
 ##########################################
