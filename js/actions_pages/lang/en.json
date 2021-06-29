@@ -70,7 +70,7 @@
 
 		"txt-saldo-top-ad_cli": "Balance",
 		"txt-points-top-ad_cli": "Bikers",
-		"txt-go-to-home-top-ad_cli": "Go to the Ttrueque mall",
+		"txt-go-to-home-top-ad_cli": "Ttrueque Mall",
 
 		"txt-products-btn-top-ad_cli-1": "Products",
 		"txt-products-btn-top-ad_cli-2": "Products",
@@ -129,7 +129,7 @@
 		"txt-form-3-cli-ad_cli-1": "Logo",
 		"btn-updt-cli-form-2-ad_cli": "To update",
 
-		"txt-wallet-btn-top-ad_cli-1": "Bikers",
+		"txt-wallet-btn-top-ad_cli-1": "Bikkers",
 		"txt-down-btn-wallet-top-ad_cli-1": "Balance amount",
 		"txt-down-btn-wallet-top-ad_cli-2": "Top up your balance",
 		"subtitle-table-wallet-ad_cli": "Balance top-up history",
@@ -143,7 +143,7 @@
 		"title-top-chat-ad_cli": "Conversations",
 
 		"title-top-products-cli-ad_cli": "Products",
-		"txt-down-btn-products-top-ad_cli-1": "Products",
+		"txt-down-btn-products-top-ad_cli-1": "Products in my store",
 		"txt-down-btn-products-top-ad_cli-2": "Add new product",
 		"title-th-products-ad_cli-1": "#",
 		"title-th-products-ad_cli-2": "Category",

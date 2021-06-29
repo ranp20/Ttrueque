@@ -1,3 +1,92 @@
+/************************** NUEVOS ESTILOS (INICIO) **************************/
+#contWallet-Btnstop .bcontent-btns-top--m{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 100%;
+}
+#contWallet-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--link{
+  max-width: 340px;
+  flex: 0 0 50%;
+  margin-bottom: 1rem;
+  border: thin solid transparent;
+  border-radius: .5rem;
+  transition: .15s ease-in-out;
+}
+#contWallet-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--link:hover{
+  border: thin solid var(--boton-saldo);
+}
+#contWallet-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--link:first-child:hover li .bcontent-btns-top--m--item--cDesc .bcontent-btns-top--m--item--cDesc--text{
+  color: var(--boton-saldo);
+}
+#contWallet-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--link:nth-child(2):hover li .bcontent-btns-top--m--item--cDesc .bcontent-btns-top--m--item--cDesc--desc{
+  color: var(--boton-saldo);
+}
+#contWallet-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--item{
+  color: #222;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  background-color: #fff;
+  border-radius: .5rem;
+  overflow: hidden;
+  box-shadow: 0 12px 15px 1px rgb(0 0 0 / 10%);
+}
+#contWallet-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--item .bcontent-btns-top--m--item--cImg{
+  width: 140px;
+  height: 140px;  
+}
+#contWallet-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--item .bcontent-btns-top--m--item--cImg img{
+  max-width: 100%;
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+  object-position: 20% 10%;
+}
+#contWallet-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--item .bcontent-btns-top--m--item--cDesc{
+  padding: 1rem;
+}
+#contWallet-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--item .bcontent-btns-top--m--item--cDesc--cIcon{
+  background-color: #ccc;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto .3rem auto;
+}
+#contWallet-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--item .bcontent-btns-top--m--item--cDesc--cIcon i{
+  color: #fff;
+}
+#contWallet-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--item .bcontent-btns-top--m--item--cDesc--text{
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+@media (min-width: 768px){
+  #contWallet-Btnstop .bcontent-btns-top--m{
+    flex-direction: row;
+  }
+  #contWallet-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--link:first-child{
+    margin-right: 0.4rem;
+  }
+  #contWallet-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--link:nth-child(2){
+    margin-left: 0.4rem;
+  }
+}
+@media (min-width: 1024px){
+  #contWallet-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--link:first-child{
+    margin-right: 0.7rem;
+  }
+  #contWallet-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--link:nth-child(2){
+    margin-left: 0.7rem;
+  } 
+}
+/************************** NUEVOS ESTILOS (FIN) **************************/
+
 /*=================================
 =            NUEVO CSS            =
 =================================*/

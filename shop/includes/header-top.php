@@ -26,7 +26,7 @@
       </form>
     </div>
     <a href="../" target="_blank"><i class='lni lni-display'></i>
-      <span class="lang_ttrq" key="txt-go-to-home-top-ad_cli">Ir al mall Ttrueque</span>
+      <span class="lang_ttrq" key="txt-go-to-home-top-ad_cli">Mall Ttrueque</span>
     </a>
   </div>
 </div>

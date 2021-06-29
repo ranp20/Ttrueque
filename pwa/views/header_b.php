@@ -102,7 +102,7 @@
                               data-moneda='{$value['moneda']}' 
 
                               class='dropdown-item translate_lang' id='{$value['prefijo']}'>
-                              <img src='./admin/images/banderas/{$value['bandera']}'>
+                              <img src='../admin/images/banderas/{$value['bandera']}'>
                             </button>
                         ";
                     }

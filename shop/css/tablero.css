@@ -66,12 +66,15 @@
 }
 .content-btn-toggle-dashboard-dc .c-right-btn-tdc > a{
   text-decoration: none;
-  background: var(--boton-mercado);
-  color: #fff;
+  color: var(--boton-mercado);
   font-weight: bold;
   padding: .5rem 1rem;
   border-radius: 5px;
   font-size: 0.9rem;
+  text-decoration: none;
+}
+.content-btn-toggle-dashboard-dc .c-right-btn-tdc > a:hover{
+  text-decoration: underline !important; 
 }
 .btns-action .products-detail:hover {
   transform: scale(.95);
@@ -110,10 +113,6 @@
 .content-btn-toggle-dashboard-dc .c-center-btn-tdc > a:hover{
   background: var(--boton-saldo_hover);
   transform: scale(.95);
-}
-
-.content-btn-toggle-dashboard-dc .c-right-btn-tdc > a:hover{
-  background: var(--boton-mercado_hover);
 }
 .content-btn-toggle-dashboard-dc .c-right-btn-tdc > a > i{
   margin-right: 12px;
@@ -397,12 +396,8 @@
     transform: scale(.95);
   }
   .content-btn-toggle-dashboard-dc .c-right-btn-tdc > a{
-    text-decoration: none;
-    background: var(--boton-mercado);
-    color: #fff;
     font-weight: bold;
     padding: 9px 40px;
-    border-radius: 5px;
   }
   .btns-action a:active {
     transform: scale(0.95);

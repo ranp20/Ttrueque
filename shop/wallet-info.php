@@ -31,36 +31,37 @@ if (!isset($tienda[1][0]["id_menbresia"])) {
           <input type="hidden" id="idcliente" value="<?php echo $d[0]['id_cliente']; ?>">
         </div>
       </div>
-      <div class="btns-top">
-        <ul class="btns-options-wallet">
-          <div class="btns-options-wallet__links">
-            <a href="#" class="wallet-detail">
-              <li>
-                <div class="content-icons">
-                    <i class="lni lni-coin icon-hov"></i>
-                </div>
-                <?php foreach ($d as $val){echo $val['puntos'];}?> 
-                <span class="lang_ttrq" key="txt-wallet-btn-top-ad_cli-1">Bikers</span>
-                <p class="lang_ttrq" key="txt-down-btn-wallet-top-ad_cli-1">Monto de saldo</p>
-              </li>
-            </a>
-          </div>
-          <div class="btns-options-wallet__links">
-            <a href="add-to-wallet.php" class="add-to-wallet">
-              <li>
-                <div class="content-icons">
+      
+      <div class="bcontent-btns-top" id="contWallet-Btnstop">
+        <ul class="bcontent-btns-top--m">
+          <a href="#" class="bcontent-btns-top--m--link">
+            <li class="bcontent-btns-top--m--item">
+              <div class="bcontent-btns-top--m--item--cImg">
+                <img src="images/utilities/currency_ttrueque.jpeg" alt="" loading="lazy">
+              </div>
+              <div class="bcontent-btns-top--m--item--cDesc">
+                <p class="bcontent-btns-top--m--item--cDesc--text"><?php foreach ($d as $val){echo $val['puntos'];}?> <span class="lang_ttrq" key="txt-wallet-btn-top-ad_cli-1">Bikkers</span></p>
+                <span class="lang_ttrq bcontent-btns-top--m--item--cDesc--desc" key="txt-down-btn-wallet-top-ad_cli-1">Monto de saldo</span>
+              </div>
+            </li>
+          </a>
+          <a href="add-to-wallet.php" class="bcontent-btns-top--m--link">
+            <li class="bcontent-btns-top--m--item">
+              <div class="bcontent-btns-top--m--item--cImg">
+                <img src="images/utilities/recharger_currency_ttrueque.jpeg" alt="" loading="lazy">
+              </div>
+              <div class="bcontent-btns-top--m--item--cDesc">
+                <div class="bcontent-btns-top--m--item--cDesc--cIcon">
                   <i class="lni lni-plus icon-hov"></i>
                 </div>
-                <span class="lang_ttrq" key="txt-down-btn-wallet-top-ad_cli-2">Recargue su saldo</span>
-                <div class="text-desc-rechargewallet">
-                  <span>Comprando Bikkers</span>
-                </div>
-              </li>
-            </a>
-            <a href="../home" class="text-desc-addtowallet">¿Qué es un Bikker?</a>
-          </div>
+                <span class="lang_ttrq bcontent-btns-top--m--item--cDesc--desc" key="txt-down-btn-wallet-top-ad_cli-2">Recargue su saldo</span>
+              </div>
+            </li>
+          </a>
         </ul>
       </div>
+
+
       <div class="content-list-history-wallet-ad_cli-ttrk">
         <div class="content-wallet">
           <div class="content-history-wallet">

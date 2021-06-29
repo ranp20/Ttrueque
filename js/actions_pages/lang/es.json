@@ -70,7 +70,7 @@
 
 		"txt-saldo-top-ad_cli": "Saldo",
 		"txt-points-top-ad_cli": "Bikers",
-		"txt-go-to-home-top-ad_cli": "Ir al mall Ttrueque",
+		"txt-go-to-home-top-ad_cli": "Mall Ttrueque",
 
 		"txt-products-btn-top-ad_cli-1": "Productos",
 		"txt-products-btn-top-ad_cli-2": "Productos",
@@ -129,7 +129,7 @@
 		"txt-form-3-cli-ad_cli-1": "Logo",
 		"btn-updt-cli-form-2-ad_cli": "Actualizar",
 
-		"txt-wallet-btn-top-ad_cli-1": "Bikers",
+		"txt-wallet-btn-top-ad_cli-1": "Bikkers",
 		"txt-down-btn-wallet-top-ad_cli-1": "Monto de saldo",
 		"txt-down-btn-wallet-top-ad_cli-2": "Recargue su saldo",
 		"subtitle-table-wallet-ad_cli": "Historial de recarga de Saldo",
@@ -143,7 +143,7 @@
 		"title-top-chat-ad_cli": "Conversaciones",
 
 		"title-top-products-cli-ad_cli": "Productos",
-		"txt-down-btn-products-top-ad_cli-1": "Productos",
+		"txt-down-btn-products-top-ad_cli-1": "Productos en mi tienda",
 		"txt-down-btn-products-top-ad_cli-2": "Agregar nuevo producto",
 		"title-th-products-ad_cli-1": "#",
 		"title-th-products-ad_cli-2": "Categoría",
