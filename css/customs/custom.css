@@ -61,7 +61,8 @@
   --color-tooltip-favorites: #df4251;
 
   /* COLORES AGREGADOS*/
-  --primary-clr         : #071573;
+  /*--primary-clr         : #071573;*/
+  --primary-clr         : #003857;
   --primary-clr-light   : #162EBD;
   --secondary-clr       : #B80F0F;
   --tertiary-clr        : #FFFFFF;

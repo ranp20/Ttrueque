@@ -96,15 +96,7 @@
   margin-bottom: .5rem;
 }
 .container-memb-rest_cli{
-  background: #fff;
-  border-radius: 50%;
-  top: 3.8rem;
-  right: 1rem;
-  width: 50px;
-  height: 50px;
-  box-shadow: 0 3px 10px 1px rgba(0,0,0,.2), 0 0 0 2px #fff inset;
-  transition: all ease .3s;
-  margin-bottom: 1rem;
+  
 }
 .user-image > .user-img-content{
   display: flex;
@@ -126,24 +118,22 @@
 =            ANTIGUO CSS            =
 ====================================*/
 /* FLOTANTE DE LA MEMBRESÍA*/
-.container-memb-rest_cli:hover{
-  transform: scale(1.1);
-}
-.container-memb-rest_cli:active{
-  transform: scale(.95);
-}
 .container-memb-rest_cli > form{
   width: 100%;
   height: 100%;
 }
 .container-memb-rest_cli > form > button{
+  outline: none;
   text-decoration: none;
   border: none;
-  color: #000;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
+  background-color: transparent;
+  color: #507bff;
+  font-weight: bold;
   cursor: pointer;
+  margin-bottom: 1rem;
+}
+.container-memb-rest_cli > form > button:hover{
+  text-decoration: underline !important;
 }
 .container-memb-rest_cli > form > button > .content-memb-rest_cli{
   display: flex;
@@ -182,22 +172,7 @@
 }
 
 
-
-
-
-
-@media (min-width: 300px){
-
-}
-
-@media (min-width: 320px){
-  
-}
-
-@media (min-width: 360px){
-  
-}
-
+/************************** MEDIA QUERIES INTO SIDEBARLEFT **************************/
 @media (min-width: 480px){
  .sidebar-nav.active{
     left: 0;
@@ -207,7 +182,6 @@
     overflow-y: auto;
   } 
 }
-
 @media (min-width: 600px){
   .user-image > .user-img-content{
     display: grid;
@@ -221,15 +195,12 @@
     text-align: left;
   }
 }
-
-@media (min-width: 768px){
-  
-}
-
 @media (min-width: 1024px){
-  
+  .container-memb-rest_cli > form > button{
+    margin: 0;
+    font-size: 1.1rem;
+  }
 }
-
 @media (min-width: 1280px){
   .sidebar-nav{
     grid-area: sidebar;
@@ -267,16 +238,6 @@
     align-items: center;
     justify-content: center;
   }
-  .container-memb-rest_cli{
-    background: #fff;
-    border-radius: 50%;
-    top: 3.8rem;
-    right: 1rem;
-    width: 50px;
-    height: 50px;
-    box-shadow: 0 3px 10px 1px rgba(0,0,0,.2), 0 0 0 2px #fff inset;
-    transition: all ease .3s;
-  }
   .user-image > .user-img-content{
     display: grid;
     grid-template-columns: 80px auto;
@@ -291,8 +252,4 @@
     min-width: 200px;
     max-width: 200px;
   }
-}
-
-@media (min-width: 1400px){
-  
 }

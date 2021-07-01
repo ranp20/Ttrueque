@@ -1,3 +1,91 @@
+/************************** NUEVOS ESTILOS (INICIO) **************************/
+#contDetailsTablero-Btnstop .bcontent-btns-top--m{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 100%;
+}
+#contDetailsTablero-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--link{
+  max-width: 340px;
+  flex: 0 0 50%;
+  margin-bottom: 1rem;
+  border: thin solid transparent;
+  border-radius: .5rem;
+  transition: .15s ease-in-out;
+}
+#contDetailsTablero-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--link:hover{
+  border: thin solid var(--boton-saldo);
+}
+#contDetailsTablero-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--link:hover li .bcontent-btns-top--m--item--cDesc .bcontent-btns-top--m--item--cDesc--conttotal{
+  color: var(--boton-saldo);
+}
+#contDetailsTablero-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--item{
+  color: #222;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  background-color: #fff;
+  border-radius: .5rem;
+  overflow: hidden;
+  box-shadow: 0 12px 15px 1px rgb(0 0 0 / 10%);
+}
+#contDetailsTablero-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--item .bcontent-btns-top--m--item--cImg{
+  width: 140px;
+  height: 140px;  
+}
+#contDetailsTablero-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--link:first-child .bcontent-btns-top--m--item .bcontent-btns-top--m--item--cImg img{
+  object-position: center;
+}
+#contDetailsTablero-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--item .bcontent-btns-top--m--item--cImg img{
+  max-width: 100%;
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 10%;
+}
+#contDetailsTablero-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--item .bcontent-btns-top--m--item--cDesc{
+  padding: 1rem;
+}
+#contDetailsTablero-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--item .bcontent-btns-top--m--item--cDesc--cIcon{
+  background-color: #ccc;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto .3rem auto;
+}
+#contDetailsTablero-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--item .bcontent-btns-top--m--item--cDesc--cIcon i{
+  color: #fff;
+}
+#contDetailsTablero-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--item .bcontent-btns-top--m--item--cDesc--text{
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+@media (min-width: 768px){
+  #contDetailsTablero-Btnstop .bcontent-btns-top--m{
+    flex-direction: row;
+  }
+  #contDetailsTablero-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--link:first-child{
+    margin-right: 0.4rem;
+  }
+  #contDetailsTablero-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--link:nth-child(2){
+    margin-left: 0.4rem;
+  }
+}
+@media (min-width: 1024px){
+  #contDetailsTablero-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--link:first-child{
+    margin-right: 0.7rem;
+  }
+  #contDetailsTablero-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--link:nth-child(2){
+    margin-left: 0.7rem;
+  } 
+}
+/************************** NUEVOS ESTILOS (FIN) **************************/
 /*=================================
 =            NUEVO CSS            =
 =================================*/
@@ -30,8 +118,7 @@
 }
 .content-btn-toggle-dashboard-dc .c-center-btn-tdc > a{
   text-decoration: none;
-  background: var(--boton-saldo);
-  color: #fff;
+  color: #000;
   font-weight: bold;
   padding: .5rem 1rem;
   border-radius: 5px;
@@ -40,6 +127,9 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+}
+.content-btn-toggle-dashboard-dc .c-center-btn-tdc > a:hover{
+  text-decoration: underline !important;
 }
 #btn-show-rigth-actions{
   cursor: pointer;  
@@ -109,10 +199,6 @@
   cursor: pointer;
   transition: ease .3s;
   border-radius: 50%;
-}
-.content-btn-toggle-dashboard-dc .c-center-btn-tdc > a:hover{
-  background: var(--boton-saldo_hover);
-  transform: scale(.95);
 }
 .content-btn-toggle-dashboard-dc .c-right-btn-tdc > a > i{
   margin-right: 12px;
@@ -280,24 +366,6 @@
 .table-content-right > tbody > td {
   padding: 0 1em;
 }
-
-
-@media (min-width: 300px){
-
-}
-
-@media (min-width: 320px){
-  
-}
-
-@media (min-width: 360px){
-  
-}
-
-@media (min-width: 480px){
-  
-}
-
 @media (min-width: 600px){
   .btns-action {
     display: grid;
@@ -323,7 +391,10 @@
 
 @media (min-width: 1024px){
   .content-btn-toggle-dashboard-dc .c-center-btn-tdc > a{
-    font-size: 1rem;
+    font-size: 1.1rem;
+  }
+  .content-btn-toggle-dashboard-dc .c-right-btn-tdc > a{
+    font-size: 1.1rem; 
   }
   #btn-show-rigth-actions{
     display: none; 
@@ -332,9 +403,6 @@
     display: flex;
     align-items: center;
     width: auto;
-  }
-  .container-memb-rest_cli{
-    margin: 0 1rem 0 0;
   }
   .content-btn-toggle-dashboard-dc .c-center-btn-tdc{
     margin: 0 0 0 12rem;
@@ -418,8 +486,4 @@
   .btns-action .products-sales:hover {
     transform: scale(1.1);
   }
-}
-
-@media (min-width: 1400px){
-  
 }

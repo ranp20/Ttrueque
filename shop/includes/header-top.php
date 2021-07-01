@@ -4,9 +4,9 @@
   </div>
   <div class="c-center-btn-tdc">
     <a href="wallet-info.php">
-      <span class="lang_ttrq" key="txt-saldo-top-ad_cli">Saldo</span>
+      <span class="lang_ttrq" key="txt-saldo-top-ad_cli">Tu Saldo</span>
       <span>:&nbsp;<?php foreach($d as $val){echo $val['puntos'];}?>&nbsp;</span>
-      <span class="lang_ttrq" key="txt-points-top-ad_cli">Puntos</span>
+      <span class="lang_ttrq" key="txt-points-top-ad_cli">Bikkers</span>
     </a>
   </div>
   <div id="btn-show-rigth-actions">
@@ -17,11 +17,11 @@
       <form action="#" method="POST">
         <input type="hidden" name="tiendamemb" id="tiendamemb" value="<?php echo $_SESSION['idtienda_m'] = $d[0]['tienda']; ?>">
         <input type="hidden" name="cantidadmemb" id="cantidadmemb" value="<?php echo $_SESSION['cant_m'] = $d[0]['cantidad'];?>">
-
-        <button class="canttienda_ttrq" id="datamemb">
-            <div class="content-memb-rest_cli">
-                <div style="background-image: url(images/gold.png);"></div>
-            </div>
+        <button class="canttienda_ttrq lang_ttrq" id="datamemb">
+          <!-- <div class="content-memb-rest_cli">
+              <div style="background-image: url(images/gold.png);"></div>
+          </div> -->
+          Menbresía
         </button>
       </form>
     </div>
