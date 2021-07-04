@@ -26,10 +26,21 @@ if (!isset($tienda[1][0]["id_menbresia"])) {
     <section class="content-dash">
       <?php require_once 'includes/header-top.php'; ?>
       <div class="content-top">
-        <div class="content-title">
-          <h1 class="title-dashboard lang_ttrq" key="title-top-requestrefund-cli-ad_cli">Solicitud de Reembolso</h1>
+        <div class="content-title noimportant-mb">
+          <h1 class="title-dashboard lang_ttrq noimportant-mb" key="title-top-requestrefund-cli-ad_cli">Solicitud de Reembolso</h1>
           <input type="hidden" id="tienda" value="<?php echo $d[0]['tienda']; ?>">
         </div>
+      </div>
+      <div class="bcontent-btns-top" id="contRRefund-Btnstop">
+        <ul class="bcontent-btns-top--m">
+          <a href="#" class="bcontent-btns-top--m--link">
+            <li class="bcontent-btns-top--m--item">
+              <div class="bcontent-btns-top--m--item--cImg">
+                <img src="images/utilities/solicitud_reembolso.jpeg" alt="" loading="lazy">
+              </div>
+            </li>
+          </a>
+        </ul>
       </div>
       <div class="cont-tablelist-request-refund">
         <table class="request_refund-table">

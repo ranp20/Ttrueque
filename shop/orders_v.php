@@ -29,12 +29,23 @@ date_default_timezone_set('America/Bogota');
     <section class="content-dash">
       <?php require_once 'includes/header-top.php'; ?>
       <div class="content-top">
-        <div class="content-title">
-          <h1 class="title-dashboard lang_ttrq" key="title-top-orders-cli-ad_cli">Órdenes o Pedidos</h1>
+        <div class="content-title noimportant-mb">
+          <h1 class="title-dashboard lang_ttrq noimportant-mb" key="title-top-orders-cli-ad_cli">Órdenes o Pedidos</h1>
           <?php echo   strftime("%B")  . " " . date("Y")  ?>
           <input type="hidden" id="tienda" value="<?php echo $d[0]['tienda']; ?>">
 
         </div>
+      </div>
+      <div class="bcontent-btns-top" id="contOrders-Btnstop">
+        <ul class="bcontent-btns-top--m">
+          <a href="#" class="bcontent-btns-top--m--link">
+            <li class="bcontent-btns-top--m--item">
+              <div class="bcontent-btns-top--m--item--cImg">
+                <img src="images/utilities/ordenes_y_pedidos.jpeg" alt="" loading="lazy">
+              </div>
+            </li>
+          </a>
+        </ul>
       </div>
       <div class="cont-tablelist-orders-v">
         <table class="orders-table">

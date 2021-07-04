@@ -40,6 +40,9 @@ if ($d[0]['estado'] == "INACTIVO") {
     <section class="content-dash">
       <?php require_once 'includes/header-top.php'; ?>
       <div class="content-top">
+        <div class="content-title">
+          <h1 class="title-dashboard lang_ttrq" key="">Logística</h1>
+        </div>
         <div class="bcontent-btns-top" id="contDetailsTablero-Btnstop">
           <ul class="bcontent-btns-top--m">
             <a href="#" class="bcontent-btns-top--m--link">

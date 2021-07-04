@@ -10,56 +10,21 @@
   justify-content: center;
   align-items: center;
 }
-
 .loader-cli > img{
   width: 550px;
 }
-
 .loader-cli.hidden{
   animation: Desva 1.2s;
   animation-fill-mode: forwards;
 }
-
 @keyframes Desva{
   100%{
       opacity: 0;
       visibility: hidden;
   }
 }
-
-/*===========================================================
-=            MEDIA QUERIES INTO THIS STYLESSHEET            =
-===========================================================*/
-@media (min-width: 300px){
-
-}
-
-@media (min-width: 320px){
-  
-}
-
-@media (min-width: 360px){
-  
-}
-
-@media (min-width: 480px){
-  
-}
-
-@media (min-width: 768px){
-  
-}
-
-@media (min-width: 1024px){
-  
-}
-
 @media (min-width: 1280px){
   .loader-cli > img{
     width: 700px;
   }  
-}
-
-@media (min-width: 1400px){
-  
 }

@@ -26,11 +26,22 @@ if (!isset($tienda[1][0]["id_menbresia"])) {
     <section class="content-dash">
       <?php require_once 'includes/header-top.php'; ?>
       <div class="content-top">
-        <div class="content-title-history">
-          <h1 class="title-dashboard-history lang_ttrq" key="txt-list-link-page-sdlf-ad_cli-2">Historial de mis compras</h1>
+        <div class="content-title-history noimportant-mb">
+          <h1 class="title-dashboard-history lang_ttrq noimportant-mb" key="txt-list-link-page-sdlf-ad_cli-2">Historial de mis compras</h1>
           <input type="hidden" id="cliente" value="<?php echo $d[0]['id_cliente']; ?>">
           <!--<div id="btn-reporte"> </div>-->
         </div>
+      </div>
+      <div class="bcontent-btns-top" id="contHShippings-Btnstop">
+        <ul class="bcontent-btns-top--m">
+          <a href="#" class="bcontent-btns-top--m--link">
+            <li class="bcontent-btns-top--m--item">
+              <div class="bcontent-btns-top--m--item--cImg">
+                <img src="images/utilities/historial_compras.jpeg" alt="" loading="lazy">
+              </div>
+            </li>
+          </a>
+        </ul>
       </div>
       <div class="cont-tablelist-result">
         <table class="history-table">

@@ -9,6 +9,7 @@
 }
 #contWallet-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--link{
   max-width: 340px;
+  width: 100%;
   flex: 0 0 50%;
   margin-bottom: 1rem;
   border: thin solid transparent;
