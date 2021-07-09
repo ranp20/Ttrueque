@@ -45,19 +45,25 @@ if (!isset($tienda[1][0]["id_menbresia"])) {
               </div>
             </li>
           </a>
-          <a href="add-to-wallet.php" class="bcontent-btns-top--m--link">
-            <li class="bcontent-btns-top--m--item">
-              <div class="bcontent-btns-top--m--item--cImg">
+          <div class="bcontent-btns-top--m--linkgroup">
+            <li class="bcontent-btns-top--m--itemgroup">
+              <div class="bcontent-btns-top--m--itemgroup--cImg">
                 <img src="images/utilities/recharger_currency_ttrueque.jpeg" alt="" loading="lazy">
               </div>
-              <div class="bcontent-btns-top--m--item--cDesc">
-                <div class="bcontent-btns-top--m--item--cDesc--cIcon">
-                  <i class="lni lni-plus icon-hov"></i>
-                </div>
-                <span class="lang_ttrq bcontent-btns-top--m--item--cDesc--desc" key="txt-down-btn-wallet-top-ad_cli-2">Recargue su saldo</span>
+              <div class="bcontent-btns-top--m--itemgroup--cDesc">
+                <a href="add-to-wallet.php" class="bcontent-btns-top--m--itemgroup--cDesc--addlink">
+                  <div class="bcontent-btns-top--m--itemgroup--cDesc--cIcon">
+                    <i class="lni lni-plus icon-hov"></i>
+                  </div>
+                  <p class="bcontent-btns-top--m--itemgroup--cDesc--addlink--desc">
+                    <span class="lang_ttrq" key="txt-down-btn-wallet-top-ad_cli-2">Recargue su saldo</span>
+                    <span>Comprando Bikkers</span>
+                  </p>
+                </a>
+                <a href="../home" class="bcontent-btns-top--m--itemgroup--cDesc--redirectlink">Qué es un bikker?</a>
               </div>
             </li>
-          </a>
+          </div>
         </ul>
       </div>
 
@@ -89,5 +95,12 @@ if (!isset($tienda[1][0]["id_menbresia"])) {
   </div>
   <script src="./js/dashboard.js"></script>
   <script src="./js/historial_billetera.js"></script>
+  <script type="text/javascript">
+    $(".bcontent-btns-top--m--itemgroup--cDesc--addlink").hover(function(){
+      $(".bcontent-btns-top--m--linkgroup").css({"border": "thin solid red"});
+    }, function(){
+      $(".bcontent-btns-top--m--linkgroup").css({"border": "thin solid transparent"});
+    });
+  </script>
 </body>
 </html>

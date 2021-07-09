@@ -70,7 +70,9 @@
 
 		"txt-saldo-top-ad_cli": "Seu balanço",
 		"txt-points-top-ad_cli": "Bikkers",
-		"txt-go-to-home-top-ad_cli": "Ttrueque Mall",
+		"txt-membership-top-ad_cli": "Filiação",
+		"txt-go-to-home-top-ad_cli": "Lojas Ttrueque",
+		"txt-frequent-questions-top-ad_cli": "Perguntas Frequentes",
 
 		"txt-products-btn-top-ad_cli-1": "Produtos",
 		"txt-products-btn-top-ad_cli-2": "Produtos",
@@ -93,7 +95,7 @@
 		"txt-th-form-2-down-link-ad_cli-4": "Status de entrega",
 
 		"txt-menu-sdlf-ad_cli": "CARDÁPIO",
-		"txt-list-link-page-sdlf-ad_cli-1": "Borda",
+		"txt-list-link-page-sdlf-ad_cli-1": "Logística",
 		"txt-list-link-page-sdlf-ad_cli-2": "História de compras",
 		"txt-list-link-page-sdlf-ad_cli-3": "Gerenciar Perfil",
 		"txt-list-link-page-sdlf-ad_cli-4": "Minha carteira",
@@ -205,7 +207,7 @@
 		"title-checkwallet-cli-ad_cli-1": "¡ Passo final !",
 		"title-checkwallet-cli-ad_cli-2": "Você está prestes a pagar com Paypal o valor de:",
 		"title-checkwallet-cli-ad_cli-3": "Para recarregar ",
-		"title-checkwallet-cli-ad_cli-4": " Bikers.",
+		"title-checkwallet-cli-ad_cli-4": " Bikkers.",
 		"title-checkwallet-cli-ad_cli-5": "Sua carteira será recarregada automaticamente assim que o pagamento for processado.",
 		"title-checkwallet-cli-ad_cli-6": "(Para mais informações: megarejo777666@gmail.com)",
 

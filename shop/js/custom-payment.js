@@ -1,41 +1,32 @@
-$(function () {
-	list_info_by_wallet();
-  renderbtnPaypal();
-});	
+$(function(){
+	renderbtnPaypal();
+});
+$(document).on("keyup keypress blur change", "#val-inputIptrecharge", function(e){
 
-var id_wallet = $('#select_wallet').val();
+  if (e.which != 8 && e.which != 0 && (e.which < 45 || e.which > 57)) {
+     return false;
+  }else{
+      //limit length but allow backspace so that you can still delete the numbers.
+      if( $(this).val().length >= parseInt($(this).attr('maxlength')) && (e.which != 8 && e.which != 0)){
+          return false;
+      }
+  }
 
-//LISTAR LA INFORMACIÓN DE LA RECARGA SEGÚN LO ELGIDO...
-function list_info_by_wallet() {
-  var capcarg_wallet = $('.cap_carga_wallet');
-  $.ajax({
-    url: "../shop/ajax/list_info_by_wallet.php",
-    dataType: "JSON",
-    method: "POST",
-    contentType: 'application/x-www-form-urlencoded;charset=UTF-8',
-    data: { id_wallet : id_wallet },
-  }).done(function (res) {
-    $.each(res, function (i, v) {
-      
+	var convertDollar = new Intl.NumberFormat('en-US').format($(this).val());
+	$("#val-txtreturnRecharge").text(convertDollar);
+	(($("#val-txtreturnRecharge").text() == "0")) ? $("#val-txtreturnRecharge").text("0.00") : "0";
 
-      totalp = parseFloat(v.precio);
-      //VALOR A ENVIAR POR PAYPAL...
-      var priceTotal = $('.price_wallet').text(totalp);
-      //MPRIMIR EL TORAL EN LA ETIQUETA...
-      $(".price_wallet_USD--prefixSig").text("$");
-      var priceUSD = $('.price_wallet_USD--amount').text(parseFloat(totalp).toFixed(2));
-      $(".price_wallet_USD--prefixLetter").text("USD");
-      capcarg_wallet.html(`${v.cap_carga}`);
-      
-    });
-  });
-}
-
+});
+/*=====================================================
+=            RENDERIZAR EL BOTÓN DE PAYPAL            =
+=====================================================*/
 function renderbtnPaypal(){
+  $(".cCustom-PaymentBikkers--c--frm--valreturnRecharge--prefixSig").text("$");
+  $(".cCustom-PaymentBikkers--c--frm--valreturnRecharge--prefixLetters").text("USD");
   var clientIDwallet_paypal = $('#clientIDwallet_paypal').val();
+  var id_wallet = $('#select_wallet').val();
 
-
-  $('.cont-btn-paypal-upd-wallet').html(`
+  $('.cont-btn-paypal-custom-payment').html(`
     <div id="paypal-button-container"></div>
   `);
 
@@ -66,10 +57,10 @@ function renderbtnPaypal(){
                   transactions: [
                       {
                           amount: { 
-                            total: $('.price_wallet').text(), 
+                            total: $('.val-txtreturnRecharge').text(), 
                             currency: "USD",
                           }, 
-                          description:"Compra de Bikers a Ttrueque: $"+$('.price_wallet').text(),
+                          description:"Compra de Bikkers a Ttrueque: $"+$('.val-inputIptrecharge').text(),
                           custom: sess_wallet+"#"+id_wallet,
                       }
                   ]
@@ -88,8 +79,8 @@ function renderbtnPaypal(){
                 id_wallet: id_wallet,
                 idclient: clientpar,
                 sess_wallet: sess_wallet,
-                amount_recharge: Math.trunc($('.price_wallet_USD--amount').text()), 
-                quantity_recharge: $(".cap_carga_wallet").text()
+                amount_recharge: $(".val-txtreturnRecharge").text().replace(/,/g, ''),
+                quantity_recharge: $(".val-txtreturnRecharge").text().replace(/,/g, '')
               };
 
               $.ajax({

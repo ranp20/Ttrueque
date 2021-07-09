@@ -102,18 +102,6 @@
 /*=============================================
 =            ANTIGUO CSS            =
 =============================================*/
-@media (min-width: 300px){
-
-}
-
-@media (min-width: 320px){
-  
-}
-
-@media (min-width: 360px){
-  
-}
-
 @media (min-width: 480px){
   .c-left-btn-tdc.active{
     position: fixed;
@@ -140,19 +128,6 @@
     }
   }
 }
-
-@media (min-width: 600px){
-  
-}
-
-@media (min-width: 768px){
-  
-}
-
-@media (min-width: 1024px){
-  
-}
-
 @media (min-width: 1280px){
   .sidebar-nav > .user-options > a {
     display: block;
@@ -183,8 +158,8 @@
     left: auto;
     top: 5px;
     z-index: 999;
-    width: 35px;
-    height: 35px;
+    width: auto;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -196,8 +171,4 @@
     margin-right: 45px;  
     font-size: 22px;
   }
-}
-
-@media (min-width: 1400px){
-  
 }

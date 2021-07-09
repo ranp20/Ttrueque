@@ -4,7 +4,7 @@
 <div class="content-total-banner" id="cont-b-init-home-ttrq">
     <!-------------------------->
     <nav class="navbar navbar-expand-lg navbar-dark justify-content-sm-start fixed-top" id="cont-total-tabs">
-      <div class="container">
+      <div class="container" id="c--navbarcontainerHome">
         <a class="navbar-brand order-1 order-lg-0 ml-lg-0 ml-2 mr-auto cont-logo-ttrq-nav-tabs" href="./">
           <img src="././img/logo/logotipo-T-white.svg" alt="Logo_Ttrueque" class="img-fluid">
         </a>
@@ -38,6 +38,11 @@
                     <span>PREGUNTAS FRECUENTES</span>
                 </li>
             </a>
+            <a href="allstores">
+                <li class="nav-item dropdown">
+                    <span>TIENDAS TTRUEQUE</span>
+                </li>
+            </a>
           </ul>
         </div>
         
@@ -50,7 +55,7 @@
                 }else{
                   echo '  <div class="content-options-trk-tabs order-1">
                               <a href="login">Iniciar Sesión</a>
-                              <!--<a href="account">Abrir Cuenta</a>-->
+                              <a href="account">Regístrate</a>
                           </div>';
                 }
                   ?>
@@ -77,7 +82,7 @@
                             <h2>Compras de forma segura</h2>
                             <p>Tu saldo estará fijado en Bikkers Ejemplo: Vas a comprar un producto que cuesta 30 dólares
                                 (o su equivalente en moneda nacional)Con tu cuenta Ttrueque, pagarás con 30 Bikkers. Porque
-                                cada Biker, es equivalente a un dólar. <a href="#">Mayores detalles</a></p>
+                                cada Bikker, es equivalente a un dólar. <a href="#">Mayores detalles</a></p>
                             <a href="account" class="btn-register">Regístrate sin costo</a>
                         </div>
                     </div>

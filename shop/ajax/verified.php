@@ -85,11 +85,13 @@ if($state == "approved"){
         "pass_trans" => $SID,
         "paypal_data" => $responsesale,
         "status" => 'Completado',
-        "payment_method" => $payment_method
+        "payment_method" => $payment_method,
+        "amount_recharge" => $_POST['amount_recharge'],
+        "quantity_recharge" => $_POST['quantity_recharge'],
       ];
 
       try {
-        $sql = "CALL add_purchasepoints(:id_wallet,:id_client,:pass_trans,:paypal_data,:status,:payment_method)";
+        $sql = "CALL add_purchasepoints(:id_wallet,:id_client,:pass_trans,:paypal_data,:status,:payment_method,:amount_recharge,:quantity_recharge)";
         $stm = $this->con->prepare($sql);
         foreach ($arr_pay_wallet as $key => $val) {
             $stm->bindValue($key, $val);

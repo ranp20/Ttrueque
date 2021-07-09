@@ -127,7 +127,7 @@
   text-decoration: none;
   border: none;
   background-color: transparent;
-  color: #507bff;
+  color: #fff;
   font-weight: bold;
   cursor: pointer;
   margin-bottom: 1rem;
@@ -251,5 +251,12 @@
     justify-content: flex-start;
     min-width: 200px;
     max-width: 200px;
+  }
+}
+@media (min-width: 1440px){
+  .container-memb-rest_cli{
+    border-left: thin solid #fff;
+    border-right: thin solid #fff;
+    padding: 0 1rem;
   }
 }

@@ -7,7 +7,8 @@
   justify-content: center;
   flex: 0 0 100%;
 }
-#contWallet-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--link{
+#contWallet-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--link,
+#contWallet-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--linkgroup{
   max-width: 340px;
   width: 100%;
   flex: 0 0 50%;
@@ -25,7 +26,8 @@
 #contWallet-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--link:nth-child(2):hover li .bcontent-btns-top--m--item--cDesc .bcontent-btns-top--m--item--cDesc--desc{
   color: var(--boton-saldo);
 }
-#contWallet-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--item{
+#contWallet-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--item,
+#contWallet-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--itemgroup{
   color: #222;
   display: grid;
   grid-template-columns: auto 1fr;
@@ -35,11 +37,13 @@
   overflow: hidden;
   box-shadow: 0 12px 15px 1px rgb(0 0 0 / 10%);
 }
-#contWallet-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--item .bcontent-btns-top--m--item--cImg{
+#contWallet-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--item .bcontent-btns-top--m--item--cImg,
+#contWallet-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--itemgroup .bcontent-btns-top--m--itemgroup--cImg{
   width: 140px;
   height: 140px;  
 }
-#contWallet-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--item .bcontent-btns-top--m--item--cImg img{
+#contWallet-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--item .bcontent-btns-top--m--item--cImg img,
+#contWallet-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--itemgroup .bcontent-btns-top--m--itemgroup--cImg img{
   max-width: 100%;
   width: auto;
   height: 100%;
@@ -49,19 +53,43 @@
 #contWallet-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--item .bcontent-btns-top--m--item--cDesc{
   padding: 1rem;
 }
-#contWallet-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--item .bcontent-btns-top--m--item--cDesc--cIcon{
+#contWallet-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--item .bcontent-btns-top--m--item--cDesc--cIcon,
+#contWallet-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--itemgroup .bcontent-btns-top--m--itemgroup--cDesc--cIcon{
   background-color: #ccc;
   width: 45px;
   height: 45px;
   border-radius: 50%;
+  border: thin solid transparent;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   margin: 0 auto .3rem auto;
+  transition: .15s ease-in-out;
 }
-#contWallet-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--item .bcontent-btns-top--m--item--cDesc--cIcon i{
+#contWallet-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--item .bcontent-btns-top--m--item--cDesc--cIcon i,
+#contWallet-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--itemgroup .bcontent-btns-top--m--itemgroup--cDesc--cIcon i{
   color: #fff;
+}
+#contWallet-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--itemgroup .bcontent-btns-top--m--itemgroup--cDesc .bcontent-btns-top--m--itemgroup--cDesc--addlink{
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  color: #222;
+}
+#contWallet-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--itemgroup .bcontent-btns-top--m--itemgroup--cDesc .bcontent-btns-top--m--itemgroup--cDesc--addlink:hover .bcontent-btns-top--m--itemgroup--cDesc--cIcon{
+  border: thin solid red;
+}
+#contWallet-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--itemgroup .bcontent-btns-top--m--itemgroup--cDesc .bcontent-btns-top--m--itemgroup--cDesc--addlink:hover span:first-child{
+  color: red;
+}
+#contWallet-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--itemgroup .bcontent-btns-top--m--itemgroup--cDesc .bcontent-btns-top--m--itemgroup--cDesc--addlink .bcontent-btns-top--m--itemgroup--cDesc--addlink--desc{
+  margin-bottom: 0;
+  line-height: 1.3;
+}
+#contWallet-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--itemgroup .bcontent-btns-top--m--itemgroup--cDesc .bcontent-btns-top--m--itemgroup--cDesc--redirectlink:hover{
+  text-decoration: underline !important;
 }
 #contWallet-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--item .bcontent-btns-top--m--item--cDesc--text{
   margin-bottom: 0.5rem;

@@ -56,31 +56,34 @@ $dat = $wc->get_data();
                   </thead>
                   <tbody class="tbody-recharges-admin-table">
                     <?php
-                    foreach ($dat as $value) {
-                      $img = $value["image"];
-                      $img_path = "images/recargas/" . $img;
-                      echo "
-                      <tr>
-                        <td>
-                          <a target=_blank href='{$img_path}'>
-                            <img src='{$img_path}'>
-                          </a>
-                        </td>
-                        <td>{$value['tipo']}</td>
-                        <td>{$value['cap_carga']}</td>
-                        <td>{$value['precio']}</td>
-                        <td>
-                          <a href='update_wallet_client.php?id={$value['id']}' class='btn btn-primary btn-sm'>
-                            <i class='fa fa-pencil-square-o'></i>
-                          <a/>
-                        </td>
-                        <td>
-                          <a onclick='return confirmdelete()' href='../php/process_admin_delete_wallet_client.php?id={$value['id']}' class='btn btn-danger btn-sm'>
-                            <i class='fa fa-close'></i>
-                          <a/>
-                        </td>
-                      </tr>";
+                      foreach ($dat as $value) {
+                        if($value['id'] != 1){
+                          $img = $value["image"];
+                          $img_path = "images/recargas/" . $img;
+                          echo "
+                          <tr>
+                            <td>
+                              <a target=_blank href='{$img_path}'>
+                                <img src='{$img_path}'>
+                              </a>
+                            </td>
+                            <td>{$value['tipo']}</td>
+                            <td>{$value['cap_carga']}</td>
+                            <td>{$value['precio']}</td>
+                            <td>
+                              <a href='update_wallet_client.php?id={$value['id']}' class='btn btn-primary btn-sm'>
+                                <i class='fa fa-pencil-square-o'></i>
+                              <a/>
+                            </td>
+                            <td>
+                              <a onclick='return confirmdelete()' href='../php/process_admin_delete_wallet_client.php?id={$value['id']}' class='btn btn-danger btn-sm'>
+                                <i class='fa fa-close'></i>
+                              <a/>
+                            </td>
+                          </tr>";
+                      }
                     }
+
                     ?>
                   </tbody>
                 </table>

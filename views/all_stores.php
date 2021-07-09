@@ -2,7 +2,7 @@
 session_start();
 
 if (!isset($_SESSION["user"])) {
-	header("Location: account");
+	header("Location: login");
 }
 require_once '../php/class/store.php';
 $c = new Store();

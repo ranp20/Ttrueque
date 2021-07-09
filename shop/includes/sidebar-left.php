@@ -27,7 +27,7 @@ $d = $c->get_data_by_id($_SESSION['user']);
             if($d[0]['estado'] == "ACTIVO") {  
 
             echo '
-                <a href="./"><i class="icon-bar-left lni lni-dashboard"></i><span class="lang_ttrq" key="txt-list-link-page-sdlf-ad_cli-1">Tablero</span></a>
+                <a href="./"><i class="icon-bar-left lni lni-dashboard"></i><span class="lang_ttrq" key="txt-list-link-page-sdlf-ad_cli-1">Logística</span></a>
                 <a href="admin-profile.php" id="admin-profile"><i class="icon-bar-left lni lni-user"></i><span class="lang_ttrq" key="txt-list-link-page-sdlf-ad_cli-3">Administrar Perfil</span></a>
                 <a href="history-shippings.php" id="history-shippings"><i class="icon-bar-left lni lni-files"></i><span class="lang_ttrq" key="txt-list-link-page-sdlf-ad_cli-2">Historial de Compras</span></a>
                 <a href="wallet-info.php" id="wallet-info"><i class="icon-bar-left lni lni-wallet"></i><span class="lang_ttrq" key="txt-list-link-page-sdlf-ad_cli-4">Mi Saldo</span></a>

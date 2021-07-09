@@ -21,8 +21,10 @@ linksParentCli.on('click', 'a', function(){
 	/************************** SIDEBARLEFT MOVEMENT **************************/
 	let btnsidebarLeft = d.querySelector('.c-left-btn-tdc');
 	let sidebarLeft = d.querySelector('.sidebar-nav');
+	let containSidebarLeft = d.querySelector(".content-btn-toggle-dashboard-dc");
 	btnsidebarLeft.addEventListener('click', e => {
 		btnsidebarLeft.classList.toggle('active');
+		containSidebarLeft.classList.toggle('active');
 		sidebarLeft.classList.toggle('active');
 	});
 
