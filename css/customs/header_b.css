@@ -98,13 +98,14 @@ li .language_icon_header_b-ttrq .icon-language_ttrq ul li button:active {  trans
 li .language_icon_header_b-ttrq .icon-language_ttrq ul li button div {  background-repeat: no-repeat;  background-size: cover;  background-position: center;  width: 100%;  height: 100%;}
 /* DISEÑO DEL BUSCADOR PRINCIPAL DEL TTRUEQUE */
 .custom-search-input_buscador {  width: 100%;  position: relative;  display: block;  align-items: center;  margin: auto;  top: 1px;}
-.container-search {  background: #ffff;  border-radius: 0px 0px 15px 15px;}
+.c-contentSearchTtrq{display: block;width: 100%;}
+.c-contentSearchTtrq--cont {  background: #ffff;  border-radius: 0px 0px 15px 15px;}
 .custom-search-input_buscador div label {  width: 100%;  position: relative;}
-.custom-search-input_buscador div label .container-search{  position: absolute;  width: 100%;  padding: 0 0 0 0;  margin: 0;  border-radius: 0;  border-top: 1px solid #ddd;  box-shadow: 0 10px 10px 3px rgba(0,0,0,.2);}
-.custom-search-input_buscador div label .container-search ul{  list-style: none;  padding-left: 0 !important;  margin: 0 !important;}
-.custom-search-input_buscador div label .container-search ul li{  width: 100%;  height: 100%; }
-.custom-search-input_buscador div label .container-search ul li a{  width: 100%;  height: 100%;  padding: .5rem .91rem;  margin: 0 !important;  font-size: 1rem;  display: block;}
-.custom-search-input_buscador div label .container-search ul li a:hover{  background: #3483fa;  color: #fff;}
+.custom-search-input_buscador div label .c-contentSearchTtrq--cont{  position: absolute;  width: 100%;  padding: 0 0 0 0;  margin: 0;  border-radius: 0;  border-top: 1px solid #ddd;  box-shadow: 0 10px 10px 3px rgba(0,0,0,.2);}
+.custom-search-input_buscador div label .c-contentSearchTtrq--cont ul{  list-style: none;  padding-left: 0 !important;  margin: 0 !important;}
+.custom-search-input_buscador div label .c-contentSearchTtrq--cont ul li{  width: 100%;  height: 100%; }
+.custom-search-input_buscador div label .c-contentSearchTtrq--cont ul li a{  width: 100%;  height: 100%;  padding: .5rem .91rem;  margin: 0 !important;  font-size: 1rem;  display: block;}
+.custom-search-input_buscador div label .c-contentSearchTtrq--cont ul li a:hover{  background: #3483fa;  color: #fff;}
 /* ESTADO REPOSO */
 .custom-search-input_buscador div label span {  position: absolute;  z-index: 9;  top: 0.67rem;  left: 1rem;  color: grey;}
 /* ESTADO FOCUS*/
@@ -257,7 +258,7 @@ li .language_icon_header_b-ttrq .icon-language_ttrq ul li button div {  backgrou
   .custom-search-input_buscador button[type="submit"]{  top: .2rem;  font-size: 1.05rem;  right: .35rem;}
   .custom-search-input_buscador div label span{  top: 0.45rem;}
   .link-logo_official_ttrueque{  width: 90px;  height: 55px; }
-  .custom-search-input_buscador div label .container-search{  position: absolute;  width: 100%;  padding: 0 0 0 0;  margin: 0;  border-radius: 0;  box-shadow: 0 10px 10px 3px rgba(0,0,0,.2);}
+  .custom-search-input_buscador div label .c-contentSearchTtrq--cont{  position: absolute;  width: 100%;  padding: 0 0 0 0;  margin: 0;  border-radius: 0;  box-shadow: 0 10px 10px 3px rgba(0,0,0,.2);}
   header ul.top_tools li:first-child > div > a{font-size: .8rem;}
   header ul.top_tools li:first-child > div > a.access_link > p{margin-left: .3rem;}
   header ul.top_tools li:first-child > div > a.access_link:before{font-size: 1.22rem;}
@@ -320,11 +321,11 @@ li .language_icon_header_b-ttrq .icon-language_ttrq ul li button div {  backgrou
 .content-list-categories-naside > a.dropdown-item{font-size: 1rem;}
 /* BARRA DE BÚSQUEDA */
 .search-input-customs-header{width: 100% !important;position: relative !important;}
-.search-input-customs-header > input#caja_busqueda_primary{background-color: #fff;box-shadow: 0 2px 10px -1px rgba(0, 0, 0, 0.3);position: relative;border-radius: .5rem !important;width: 100%;}
-.search-input-customs-header > .container-search{background: #ffff;border-radius: 0px 0px 15px 15px;position: absolute;top: 28px;width: 100%;padding: 0;z-index: 9;}
-.search-input-customs-header > .container-search ul{list-style: none !important;width: 100% !important;margin: 0 !important;padding: 0;}
-.search-input-customs-header > .container-search > ul > li > a{display: block;padding: .4rem 0 .4rem 1rem !important;color: #000;text-decoration: none !important;}
-.search-input-customs-header > .container-search > ul > li > a:hover{background: #dddd;}
+.search-input-customs-header input#caja_busqueda_primary{background-color: #fff;box-shadow: 0 2px 10px -1px rgba(0, 0, 0, 0.3);position: relative;border-radius: .5rem !important;width: 100%;}
+.search-input-customs-header .c-contentSearchTtrq--cont{background: #ffff;border-radius: 0px 0px 15px 15px;position: absolute;top: 28px;width: 100%;padding: 0;z-index: 9;overflow: hidden;}
+.search-input-customs-header .c-contentSearchTtrq--cont ul{list-style: none !important;width: 100% !important;margin: 0 !important;padding: 0;}
+.search-input-customs-header .c-contentSearchTtrq--cont > ul > li > a{display: block;padding: .4rem 0 .4rem 1rem !important;color: #000;text-decoration: none !important;}
+.search-input-customs-header .c-contentSearchTtrq--cont > ul > li > a:hover{background: #dddd;}
 
 @media (max-width: 992px) {
   .mobileMenu {

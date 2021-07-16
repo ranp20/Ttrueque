@@ -44,9 +44,11 @@ if (!isset($_SESSION['user'])) {
           <div class="collapse navbar-collapse p-3 p-lg-0 mt-5 mt-lg-0 d-flex flex-column flex-lg-row flex-xl-row justify-content-lg-between mobileMenu nav-index-ttrq-collapse"
               id="navbarSupportedContent">
               <form class="form-inline my-2 my-lg-0 align-self-stretch search-input-customs-header">
-                  <input type="text" class="search-input_home form-control mr-sm-2" placeholder="Buscar en Ttrueque"
-                      id="caja_busqueda_primary" name="product" autocomplete="off">
-                  <div class="container-search"></div>
+                  <div class="c-contentSearchTtrq">
+                    <input type="text" class="search-input_home form-control mr-sm-2" placeholder="Buscar en Ttrueque"
+                        id="caja_busqueda_primary" name="product" autocomplete="off">
+                    <div class="c-contentSearchTtrq--cont"></div>
+                  </div>
               </form>
               <ul class="navbar-nav align-self-stretch">
                   <li class="nav-item dropdown">

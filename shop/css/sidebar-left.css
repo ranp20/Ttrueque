@@ -199,6 +199,7 @@
   .container-memb-rest_cli > form > button{
     margin: 0;
     font-size: 1.1rem;
+    font-weight: 400;
   }
 }
 @media (min-width: 1280px){

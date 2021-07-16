@@ -477,6 +477,7 @@
   }
   .content-btn-toggle-dashboard-dc .c-center-btn-tdc > a{
     font-size: 1.1rem;
+    font-weight: 400;
   }
   .content-btn-toggle-dashboard-dc .c-right-btn-tdc > a{
     font-size: 1.1rem; 
@@ -562,7 +563,7 @@
     transform: scale(.95);
   }
   .content-btn-toggle-dashboard-dc .c-right-btn-tdc > a{
-    font-weight: bold;
+    font-weight: 400;
     padding: 9px .5rem;
   }
   .btns-action a:active {

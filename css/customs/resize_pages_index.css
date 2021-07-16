@@ -363,7 +363,7 @@
 @media (min-width: 900px){.search-input-customs-header > .container-search{width: 98.2%;}}
 /* TAMAÑO - CUSTOM INPUT SEARCH */
 @media (min-width: 993px){
-  .search-input-customs-header{padding: 0 0 0 1rem;}
+  .search-input-customs-header{margin: 0 .5rem;}
   .search-input-customs-header > .container-search{width: 93.7%;}
   .cont-list-opts-profile > a.dropdown-item{font-size: 0.9rem;padding: 0.4rem 1rem !important;}
   .content-list-categories-naside > a.dropdown-item{font-size: 0.9rem;}
