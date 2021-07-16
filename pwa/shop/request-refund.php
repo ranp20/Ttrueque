@@ -35,6 +35,17 @@ if (!isset($tienda[1][0]["id_menbresia"])) {
           <input type="hidden" id="tienda" value="<?php echo $d[0]['tienda']; ?>">
         </div>
       </div>
+      <div class="bcontent-btns-top" id="contRRefund-Btnstop">
+        <ul class="bcontent-btns-top--m">
+          <a href="#" class="bcontent-btns-top--m--link">
+            <li class="bcontent-btns-top--m--item">
+              <div class="bcontent-btns-top--m--item--cImg">
+                <img src="images/utilities/solicitud_reembolso.jpeg" alt="" loading="lazy">
+              </div>
+            </li>
+          </a>
+        </ul>
+      </div>
       <div class="cont-tablelist-request-refund">
         <table class="request_refund-table">
           <thead class="request_refund-thead">

@@ -12,19 +12,34 @@ function list_history_idcliente() {
     method: "POST",
     data: { cliente: idcliente },
   }).done(function (res) {
-    console.log(res);
+
     if(res != ""){
       $.each(res, function (i, v) {
-      $("#list_hw_idcliente").append(`
+
+      if(v.tipo == "custom"){
+        $("#list_hw_idcliente").append(`
+          <tr>
+            <td>${v.id}</td>
+            <td>${v.fecha}</td>
+            <td>Personalizado</td>
+            <td>$ ${v.monto}</td>
+            <td>${v.cantidad} Bikkers</td>
+            <td>${v.metodo}</td>
+          </tr>
+        `);
+      }else{
+        $("#list_hw_idcliente").append(`
           <tr>
             <td>${v.id}</td>
             <td>${v.fecha}</td>
             <td>${v.tipo}</td>
-            <td>$ ${v.total}</td>
-            <td>${v.recarga} Bikers</td>
+            <td>$ ${v.monto}</td>
+            <td>${v.cantidad} Bikkers</td>
             <td>${v.metodo}</td>
           </tr>
         `);
+      }
+
       });
     }else{
       $("#list_hw_idcliente").append(`

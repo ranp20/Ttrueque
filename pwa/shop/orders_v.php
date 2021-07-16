@@ -40,6 +40,17 @@ date_default_timezone_set('America/Bogota');
 
         </div>
       </div>
+      <div class="bcontent-btns-top" id="contOrders-Btnstop">
+        <ul class="bcontent-btns-top--m">
+          <a href="#" class="bcontent-btns-top--m--link">
+            <li class="bcontent-btns-top--m--item">
+              <div class="bcontent-btns-top--m--item--cImg">
+                <img src="images/utilities/ordenes_y_pedidos.jpeg" alt="" loading="lazy">
+              </div>
+            </li>
+          </a>
+        </ul>
+      </div>
       <div class="cont-tablelist-orders-v">
         <table class="orders-table">
           <thead class="orders-thead">

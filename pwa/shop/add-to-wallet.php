@@ -41,8 +41,10 @@ $wall = $c->get_wallet();
             <?php 
                 $totalE = count($wall);  
                 foreach ($wall as $key => $value) { 
-                  echo $value['precio'];
-                  if($key < $totalE - 1) echo ", ";
+                  if($value['precio'] != 0.00 || $value['precio'] != 0){
+                    echo $value['precio'];
+                    if($key < $totalE - 1) echo ", ";
+                  }
                 }
               ?>.</p>
           <p class="cont-title-add-to-wallet__description" key="title-top-addwallet-cli-ad_cli-txt-2">En tu cuenta en Bikkers el monto se duplica automáticamente.</p>
@@ -51,31 +53,65 @@ $wall = $c->get_wallet();
       <div class="content-list-add-wallet">
         <ul class="options-wallet">
           <?php
+
+          $template = "";
+
           foreach ($wall as $value) {
 
-            $img = $value['image'];
+            if($value['id'] != 1){
 
-            $str_wallet = $img;
-            $str_wallet = mb_convert_encoding($str_wallet, "UTF-8");
-            
-            $img_path = "../admin/images/recargas/" . $str_wallet;
+              $img = $value['image'];
 
-            echo "
-              <li>
-                <h3><span>Monto real:</span>&nbsp;<span class='price-wallet_country'>$ {$value['precio']}</span></h3>
-                <!--<h1 class='tipe-wallet_recharge'>{$value['tipo']}</h1>
-                <div class='img-cont-list-add-wallet'>
-                    <div style='background-image:url($img_path);background-repeat:no-repeat;background-size: contain;background-position: center;'>
-                    </div>
-                </div>-->
-                <h2 class='real-price-wallet-usd'> $ {$value['precio']}</h2>
-                <p>Carga de Bikers: {$value['cap_carga']}</p>
-                <a href='check-payment-wallet.php?idwallet={$value['id']}'
-                    class='btn-chck-payment-paypal'>Tomar esto
-                </a>
-              </li>
-              ";
+              $str_wallet = $img;
+              $str_wallet = mb_convert_encoding($str_wallet, "UTF-8");
+              
+              $img_path = "../admin/images/recargas/" . $str_wallet;
+
+              $template .= "
+                <li>
+                  <h3><span>Monto real:</span>&nbsp;<span class='price-wallet_country'>$ {$value['precio']}</span></h3>
+                  <!--<h1 class='tipe-wallet_recharge'>{$value['tipo']}</h1>
+                  <div class='img-cont-list-add-wallet'>
+                      <div style='background-image:url($img_path);background-repeat:no-repeat;background-size: contain;background-position: center;'>
+                      </div>
+                  </div>-->
+                  <h2 class='real-price-wallet-usd'> $ {$value['precio']}</h2>
+                  <p>Carga de Bikkers: {$value['cap_carga']}</p>
+                  <a href='check-payment-wallet.php?idwallet={$value['id']}'
+                      class='btn-chck-payment-paypal'>Tomar esto
+                  </a>
+                </li>
+                ";
+            }
           }
+
+          foreach ($wall as $value) {
+
+            if($value['id'] == 1){
+              $img = $value['image'];
+
+              $str_wallet = $img;
+              $str_wallet = mb_convert_encoding($str_wallet, "UTF-8");
+              
+              $img_path = "../admin/images/recargas/" . $str_wallet;
+
+              $template .= "
+                <li class='c-addNewMountIntoWallet'>
+                  <a href='custom-payment.php?idwallet={$value['id']}' class='c-addNewMountIntoWallet--cLink'>
+                    <div class='c-addNewMountIntoWallet--cLink--cIcon'>
+                      <i class='lni lni-plus icon-hov'></i>
+                    </div>
+                    <div class='c-addNewMountIntoWallet--cLink--cTitle'>
+                      <h3>Otro Monto</h3>
+                    </div>
+                  </a>
+                </li>
+                ";
+            }
+          }
+
+          echo $template;
+
           ?>
         </ul>
       </div>

@@ -81,6 +81,7 @@
   height: 50px;
   box-shadow: 0 3px 10px 1px rgba(0,0,0,.2), 0 0 0 2px #fff inset;
   transition: all ease .3s;
+  margin-bottom: 1rem;
 }
 .user-image > .user-img-content{
   display: flex;

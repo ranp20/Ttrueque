@@ -2,7 +2,7 @@
 =            NUEVO CSS            =
 =================================*/
 .content-about-to-pay{
-	margin-top: 10px;
+	margin-top: 3rem;
 	background: #e5e5e5;
 	min-height: 90%;
 	padding: 0 20px 20px 20px;
@@ -51,8 +51,6 @@
 /*===================================
 =            ANTIGUO CSS            =
 ===================================*/
-
-
 .content-about-to-pay > .about-text-parr-two > span{
 	font-weight: bold;
 }
@@ -62,7 +60,6 @@
 .content-about-to-pay > .about-text-parr-four{
 	font-weight: bold;
 }
-
 
 /* CONTENIDO DE VERIFICACIÓN DE COMPRA DE PUNTOS */
 .content-verified-to-pay{
@@ -94,28 +91,11 @@
 /*======================================================
 =            MEDIA QUERIES INTO THIS STYLESHEET            =
 ======================================================*/
-@media (min-width: 300px){
-
-}
-
-@media (min-width: 320px){
-  
-}
-
-@media (min-width: 360px){
-  
-}
-
-@media (min-width: 480px){
-  
-}
-
 @media (min-width: 600px){
   .cont-btn-paypal-upd-wallet{
 		width: 250px;
 	}
 }
-
 @media (min-width: 768px){
 	.content-about-to-pay{
 		margin-top: 10px;
@@ -129,11 +109,6 @@
 		justify-content: center;
 	}
 }
-
-@media (min-width: 1024px){
-  
-}
-
 @media (min-width: 1280px){
 	.content-about-to-pay > h1{
 		font-size: 58px;
@@ -160,7 +135,87 @@
 		font-size: 20px;
 	}
 }
-
-@media (min-width: 1400px){
-  
+/*=======================================================
+=            STYLES INTO CUSTOM PAYMENT PAGE            =
+=======================================================*/
+.cCustom-PaymentBikkers{
+	margin-top: 3rem;
+  background: #e5e5e5;
+  min-height: 90%;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.cCustom-PaymentBikkers--c{
+	width: 100%;
+}
+.cCustom-PaymentBikkers--c--frm{
+	margin-top: 1rem;
+	max-width: 520px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+	border-radius: .5rem;
+	box-shadow: 0 10px 10px 1px rgba(0,0,0,.1);
+	padding: 1.5rem 1rem;
+}
+.cCustom-PaymentBikkers--c--frm--valIptrecharge{
+	width: 100%;
+	border-radius: .5rem;
+	border: thin solid #ccc;
+	padding: .8rem;
+	font-size: 1rem;
+	line-height: 1.5;
+}
+.cCustom-PaymentBikkers--c--frm--valIptrecharge[type=number]::-webkit-inner-spin-button, 
+.cCustom-PaymentBikkers--c--frm--valIptrecharge[type=number]::-webkit-outer-spin-button { 
+	-webkit-appearance: none;
+	margin: 0;
+}
+.cCustom-PaymentBikkers--c--frm--valIptrecharge[type=number]{ 
+	-moz-appearance:textfield;
+}
+.cCustom-PaymentBikkers--c--title{
+	font-size: 38px;
+  color: rgba(0,0,0,.6);
+  font-weight: 200;
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0,0,0,.12);
+  display: block;
+  width: 100%;
+}
+.cCustom-PaymentBikkers--c--frm--labelIptrecharge{
+  margin: 15px 0;
+  font-size: 18px;
+  color: rgba(0,0,0,.6);
+  font-weight: 200;
+}
+.cCustom-PaymentBikkers--c--frm--valreturnRecharge{
+	word-break: break-word;
+}
+.cCustom-PaymentBikkers--c--txtbottom2{
+	font-weight: bold;
+	padding-top: 1rem;
+}
+.cont-btn-paypal-custom-payment{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+@media (min-width: 768px){
+	.cCustom-PaymentBikkers{
+		padding: 0 40px 40px 40px;
+	}
+}
+@media (min-width: 1280px){
+	.cCustom-PaymentBikkers--c--frm--valreturnRecharge{
+		font-size: 46px;
+		font-weight: bold;
+	}
 }

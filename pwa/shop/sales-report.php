@@ -59,6 +59,17 @@ $_Secret = $data_cred[0]['key_secret'];
                     <h6 id="calculo"></h6>
                 </div>
             </div>
+            <div class="bcontent-btns-top" id="contSReport-Btnstop">
+                <ul class="bcontent-btns-top--m">
+                <a href="#" class="bcontent-btns-top--m--link">
+                    <li class="bcontent-btns-top--m--item">
+                    <div class="bcontent-btns-top--m--item--cImg">
+                        <img src="images/utilities/informe_ventas.jpeg" alt="" loading="lazy">
+                        </div>
+                    </li>
+                </a>
+                </ul>
+            </div>
             <div class="cont-msg-monthly-sales">
                 <h1><i class="lni lni-eye"></i>Si usted canceló este mes y aún recibe pedidos confirmados, sus aportes
                     se estarán acumulando para el siguiente mes...</h1>

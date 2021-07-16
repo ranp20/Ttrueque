@@ -33,9 +33,20 @@ if (!isset($tienda[1][0]["id_menbresia"])) {
       <div class="content-top">
         <div class="content-title">
           <h1 class="title-dashboard lang_ttrq" key="title-top-reviewproducts-cli-ad_cli">Comentarios de productos</h1>
+          <input type="hidden" name="id_tienda" id="store" value="<?php echo $d[0]["tienda"]; ?>">
         </div>
       </div>
-      <input type="hidden" name="id_tienda" id="store" value="<?php echo $d[0]["tienda"]; ?>">
+      <div class="bcontent-btns-top" id="contComments-Btnstop">
+        <ul class="bcontent-btns-top--m">
+          <a href="#" class="bcontent-btns-top--m--link">
+            <li class="bcontent-btns-top--m--item">
+              <div class="bcontent-btns-top--m--item--cImg">
+                <img src="images/utilities/comentarios_products.jpeg" alt="" loading="lazy">
+              </div>
+            </li>
+          </a>
+        </ul>
+      </div>
       <div class="cont-tablelist-list-comment">
         <table class="list-comments">
           <thead class="thead-comments">

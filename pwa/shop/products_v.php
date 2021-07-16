@@ -33,32 +33,36 @@ if (!isset($tienda[1][0]["id_menbresia"])) {
                     <h1 class="title-dashboard lang_ttrq" key="title-top-products-cli-ad_cli">Productos</h1>
                 </div>
             </div>
-            <div class="btns-top">
-                <ul class="btns-options-wallet">
-                    <a href="#" class="wallet-detail">
-                        <li>
-                            <div class="content-icons">
-                                <i class="lni lni-dropbox icon-hov"></i>
-                            </div>
-                            <div>
-                                <h4 id="totalList">
-                                </h4>
-                            </div>
-                            <p class="lang_ttrq" key="txt-down-btn-products-top-ad_cli-1">Productos</p>
-                        </li>
-                    </a>
-                    <a href="add-product_v.php" class="add-to-wallet">
-                        <li>
-                            <div class="content-icons">
-                                <i class="lni lni-plus icon-hov"></i>
-                            </div>
-                            <span class="lang_ttrq" key="txt-down-btn-products-top-ad_cli-2">Agregar nuevo
-                                producto</span>
-                        </li>
-                    </a>
-                </ul>
-                <input type="hidden" name="tienda" id="tienda" value="<?php echo $d[0]["tienda"]; ?>">
-                <input type="hidden" name="email" id="email" value="<?php echo $d[0]["email_cliente"]; ?>">
+            <div class="bcontent-btns-top" id="contProducts-Btnstop">
+              <ul class="bcontent-btns-top--m">
+                <a href="#" class="bcontent-btns-top--m--link">
+                  <li class="bcontent-btns-top--m--item">
+                    <div class="bcontent-btns-top--m--item--cImg">
+                      <img src="images/utilities/products_total_ttrueque.jpeg" alt="" loading="lazy">
+                    </div>
+                    <div class="bcontent-btns-top--m--item--cDesc">
+                      <h4 id="totalList" class="bcontent-btns-top--m--item--cDesc--conttotal">
+                      </h4>
+                      <span class="lang_ttrq bcontent-btns-top--m--item--cDesc--desc" key="txt-down-btn-products-top-ad_cli-1">Productos en mi tienda</span>
+                    </div>
+                  </li>
+                </a>
+                <a href="add-product_v.php" class="bcontent-btns-top--m--link">
+                  <li class="bcontent-btns-top--m--item">
+                    <div class="bcontent-btns-top--m--item--cImg">
+                      <img src="images/utilities/add_product_ttrueque.jpeg" alt="" loading="lazy">
+                    </div>
+                    <div class="bcontent-btns-top--m--item--cDesc">
+                      <div class="bcontent-btns-top--m--item--cDesc--cIcon">
+                        <i class="lni lni-plus icon-hov"></i>
+                      </div>
+                      <span class="lang_ttrq bcontent-btns-top--m--item--cDesc--desc" key="txt-down-btn-products-top-ad_cli-2">Agregar nuevo producto</span>
+                    </div>
+                  </li>
+                </a>
+              </ul>
+              <input type="hidden" name="tienda" id="tienda" value="<?php echo $d[0]["tienda"]; ?>">
+              <input type="hidden" name="email" id="email" value="<?php echo $d[0]["email_cliente"]; ?>">
             </div>
             <div class="content-list-products-ad_cli-ttrk" id="content-list-products-ad_cli-ttrk">
                 <table class="list-products">

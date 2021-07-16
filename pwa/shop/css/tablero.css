@@ -1,3 +1,92 @@
+/************************** NUEVOS ESTILOS (INICIO) **************************/
+#contDetailsTablero-Btnstop .bcontent-btns-top--m{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 100%;
+}
+#contDetailsTablero-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--link{
+  max-width: 340px;
+  width: 100%;
+  flex: 0 0 50%;
+  margin-bottom: 1rem;
+  border: thin solid transparent;
+  border-radius: .5rem;
+  transition: .15s ease-in-out;
+}
+#contDetailsTablero-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--link:hover{
+  border: thin solid var(--boton-saldo);
+}
+#contDetailsTablero-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--link:hover li .bcontent-btns-top--m--item--cDesc .bcontent-btns-top--m--item--cDesc--conttotal{
+  color: var(--boton-saldo);
+}
+#contDetailsTablero-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--item{
+  color: #222;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  background-color: #fff;
+  border-radius: .5rem;
+  overflow: hidden;
+  box-shadow: 0 12px 15px 1px rgb(0 0 0 / 10%);
+}
+#contDetailsTablero-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--item .bcontent-btns-top--m--item--cImg{
+  width: 140px;
+  height: 140px;  
+}
+#contDetailsTablero-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--link:first-child .bcontent-btns-top--m--item .bcontent-btns-top--m--item--cImg img{
+  object-position: center;
+}
+#contDetailsTablero-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--item .bcontent-btns-top--m--item--cImg img{
+  max-width: 100%;
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 10%;
+}
+#contDetailsTablero-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--item .bcontent-btns-top--m--item--cDesc{
+  padding: 1rem;
+}
+#contDetailsTablero-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--item .bcontent-btns-top--m--item--cDesc--cIcon{
+  background-color: #ccc;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto .3rem auto;
+}
+#contDetailsTablero-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--item .bcontent-btns-top--m--item--cDesc--cIcon i{
+  color: #fff;
+}
+#contDetailsTablero-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--item .bcontent-btns-top--m--item--cDesc--text{
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+@media (min-width: 768px){
+  #contDetailsTablero-Btnstop .bcontent-btns-top--m{
+    flex-direction: row;
+  }
+  #contDetailsTablero-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--link:first-child{
+    margin-right: 0.4rem;
+  }
+  #contDetailsTablero-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--link:nth-child(2){
+    margin-left: 0.4rem;
+  }
+}
+@media (min-width: 1024px){
+  #contDetailsTablero-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--link:first-child{
+    margin-right: 0.7rem;
+  }
+  #contDetailsTablero-Btnstop .bcontent-btns-top--m .bcontent-btns-top--m--link:nth-child(2){
+    margin-left: 0.7rem;
+  } 
+}
+/************************** NUEVOS ESTILOS (FIN) **************************/
 /*=================================
 =            NUEVO CSS            =
 =================================*/
@@ -6,6 +95,7 @@
   background: #e6e6e6;
   min-height: 100vh;
   height: 100%;
+  position: relative;
 }
 .content-bottom {
   display: grid;
@@ -21,8 +111,12 @@
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid rgba(0,0,0,.1);
-  padding: 0 0 .5rem 0;
-  position: relative;
+  padding: .5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--principal-color);
 }
 .content-btn-toggle-dashboard-dc .c-center-btn-tdc{
   margin: 0;
@@ -30,7 +124,6 @@
 }
 .content-btn-toggle-dashboard-dc .c-center-btn-tdc > a{
   text-decoration: none;
-  background: var(--boton-saldo);
   color: #fff;
   font-weight: bold;
   padding: .5rem 1rem;
@@ -41,11 +134,15 @@
   justify-content: center;
   flex-wrap: wrap;
 }
+.content-btn-toggle-dashboard-dc .c-center-btn-tdc > a:hover{
+  text-decoration: underline !important;
+}
 #btn-show-rigth-actions{
   cursor: pointer;  
 }
 #btn-show-rigth-actions > i{
   transform: rotate(90deg);
+  color: #fff;
 }
 .content-btn-toggle-dashboard-dc .c-right-btn-tdc{
   display: none;
@@ -57,8 +154,8 @@
   justify-content: center;
   position: absolute;
   right: 8px;
-  top: 32px;
-  background-color: #F5F5F5;
+  top: 45px;
+  background-color: var(--principal-color);
   padding: 1.5rem 2rem;
   border-radius: 5px 0 5px 5px;
   z-index: 9;
@@ -106,12 +203,8 @@
   cursor: pointer;
   transition: ease .3s;
   border-radius: 50%;
+  color: #fff;
 }
-.content-btn-toggle-dashboard-dc .c-center-btn-tdc > a:hover{
-  background: var(--boton-saldo_hover);
-  transform: scale(.95);
-}
-
 .content-btn-toggle-dashboard-dc .c-right-btn-tdc > a:hover{
   background: var(--boton-mercado_hover);
 }
@@ -142,7 +235,7 @@
 }
 .content-top{
   box-sizing: border-box;
-  margin: 10px 0 0 0;
+  margin: 57px 0 0 0;
 }
 
 .btns-action a {

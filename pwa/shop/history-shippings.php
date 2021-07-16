@@ -36,6 +36,17 @@ if (!isset($tienda[1][0]["id_menbresia"])) {
           <!--<div id="btn-reporte"> </div>-->
         </div>
       </div>
+      <div class="bcontent-btns-top" id="contHShippings-Btnstop">
+        <ul class="bcontent-btns-top--m">
+          <a href="#" class="bcontent-btns-top--m--link">
+            <li class="bcontent-btns-top--m--item">
+              <div class="bcontent-btns-top--m--item--cImg">
+                <img src="images/utilities/historial_compras.jpeg" alt="" loading="lazy">
+              </div>
+            </li>
+          </a>
+        </ul>
+      </div>
       <div class="cont-tablelist-result">
         <table class="history-table">
           <thead class="history-thead">

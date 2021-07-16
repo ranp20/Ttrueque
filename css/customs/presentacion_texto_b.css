@@ -255,6 +255,18 @@ section > .container-desc-txt-l > .content-text-desc-trk > a:hover{
   align-items: center;
 }
 
+.content-options-trk-tabs.valid-user a:first-child{
+  padding: .5rem 1rem !important;
+}
+.content-options-trk-tabs.valid-user a:first-child svg{
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+  margin-left: .5rem;  
+  position: relative;
+  top: 2px;
+}
+
 
 /* NEW STYLES INTO TABS */
 /* HEADER LOGIN Y ACCESS USER */

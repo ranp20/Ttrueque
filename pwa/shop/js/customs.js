@@ -93,7 +93,7 @@ if(filename.length == 0 || filename.length == ""){
     $("#options-user-d-cli a").eq(0).removeClass("active");
     $("#options-user-d-cli a").eq(4).removeClass("active");
     $("#options-user-d-cli a").eq(5).addClass("active");
-}else if(filename == "check-payment-wallet.php"){
+}else if(filename == "check-payment-wallet.php" || filename == "custom-payment.php"){
     $("#options-user-d-cli a").eq(0).removeClass("active");
     $("#options-user-d-cli a").eq(5).removeClass("active");
     $("#options-user-d-cli a").eq(4).addClass("active");

@@ -14,7 +14,7 @@
 		"btn-go-cart-delay_ttrq": "Go to Cart",
 		
 		"title_best-seller": "Best Sellers",
-		"title_official_markets": "Official Markets",
+		"title_official_markets": "Stores",
 		"title_all_official_markets": "All Stores",
 		"btn-all-stores_ttrq": "See all stores",
 		"btn-all-categories-stores_ttrq": "See all categories",
@@ -68,9 +68,11 @@
 
 
 
-		"txt-saldo-top-ad_cli": "Balance",
-		"txt-points-top-ad_cli": "Bikers",
-		"txt-go-to-home-top-ad_cli": "Go to site",
+		"txt-saldo-top-ad_cli": "Your Balance",
+		"txt-points-top-ad_cli": "Bikkers",
+		"txt-membership-top-ad_cli": "Membership",
+		"txt-go-to-home-top-ad_cli": "Ttrueque Stores",
+		"txt-frequent-questions-top-ad_cli": "Frecuent Questions",
 
 		"txt-products-btn-top-ad_cli-1": "Products",
 		"txt-products-btn-top-ad_cli-2": "Products",
@@ -93,10 +95,11 @@
 		"txt-th-form-2-down-link-ad_cli-4": "Delivery status",
 
 		"txt-menu-sdlf-ad_cli": "MENU",
-		"txt-list-link-page-sdlf-ad_cli-1": "Board",
+		"txt-list-link-page-sdlf-ad_cli-1": "Logistics",
 		"txt-list-link-page-sdlf-ad_cli-2": "Shopping history",
 		"txt-list-link-page-sdlf-ad_cli-3": "Manage Profile",
 		"txt-list-link-page-sdlf-ad_cli-4": "My Balance",
+		"txt-list-link-page-sdlf-ad_cli-recharge-balance": "Refill (Buy Bikkers)",
 		"txt-list-link-page-sdlf-ad_cli-5": "Seller Messaging",
 		"txt-list-link-page-sdlf-ad_cli-6": "My products",
 		"txt-list-link-page-sdlf-ad_cli-7": "My Categories",
@@ -128,7 +131,7 @@
 		"txt-form-3-cli-ad_cli-1": "Logo",
 		"btn-updt-cli-form-2-ad_cli": "To update",
 
-		"txt-wallet-btn-top-ad_cli-1": "Bikers",
+		"txt-wallet-btn-top-ad_cli-1": "Bikkers",
 		"txt-down-btn-wallet-top-ad_cli-1": "Balance amount",
 		"txt-down-btn-wallet-top-ad_cli-2": "Top up your balance",
 		"subtitle-table-wallet-ad_cli": "Balance top-up history",
@@ -142,7 +145,7 @@
 		"title-top-chat-ad_cli": "Conversations",
 
 		"title-top-products-cli-ad_cli": "Products",
-		"txt-down-btn-products-top-ad_cli-1": "Products",
+		"txt-down-btn-products-top-ad_cli-1": "Products in my store",
 		"txt-down-btn-products-top-ad_cli-2": "Add new product",
 		"title-th-products-ad_cli-1": "#",
 		"title-th-products-ad_cli-2": "Category",
@@ -197,12 +200,14 @@
 		"title-th-reviewproducts-ad_cli-5": "Commentary",
 		"title-th-reviewproducts-ad_cli-6": "Published",
 
-		"title-top-addwallet-cli-ad_cli": "Premium Customer Packages",
+		"title-top-addwallet-cli-ad_cli": "Bikker Bank",
+		"title-top-addwallet-cli-ad_cli-txt-1": "Buy with dollars:",
+		"title-top-addwallet-cli-ad_cli-txt-2": "In your Bikkers account the amount is automatically doubled.",
 
 		"title-checkwallet-cli-ad_cli-1": "¡ Final step !",
 		"title-checkwallet-cli-ad_cli-2": "You are about to pay with Paypal the amount of:",
 		"title-checkwallet-cli-ad_cli-3": "For recharging ",
-		"title-checkwallet-cli-ad_cli-4": " Bikers.",
+		"title-checkwallet-cli-ad_cli-4": " Bikkers.",
 		"title-checkwallet-cli-ad_cli-5": "Your wallet will automatically recharge once the payment is processed.",
 		"title-checkwallet-cli-ad_cli-6": "(For more information: megarejo777666@gmail.com)",
 
@@ -210,7 +215,7 @@
 		"subtitle-top-add-products-cli-ad_cli": "Basic information",
 		"txt-form-add_product-1": "Product name",
 		"txt-form-add_product-2": "Product Category",
-		"txt-form-add_product-3": "Trademarks",
+		"txt-form-add_product-3": "Trademark",
 		"txt-form-add_product-4": "Country",
 		"txt-form-add_product-5": "Stock",
 		"txt-form-add_product-6": "Price",

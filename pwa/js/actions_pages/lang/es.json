@@ -14,7 +14,7 @@
 		"btn-go-cart-delay_ttrq": "Ir al Carrito",
 
 		"title_best-seller": "Lo más Vendido",
-		"title_official_markets": "Tiendas Oficiales",
+		"title_official_markets": "Tiendas",
 		"title_all_official_markets": "Todas las tiendas",
 		"btn-all-stores_ttrq": "Ver todas las tiendas",
 		"btn-all-categories-stores_ttrq": "Ver todas las categorias",
@@ -68,9 +68,11 @@
 
 
 
-		"txt-saldo-top-ad_cli": "Saldo",
-		"txt-points-top-ad_cli": "Bikers",
-		"txt-go-to-home-top-ad_cli": "Ir al sitio",
+		"txt-saldo-top-ad_cli": "Tu Saldo",
+		"txt-points-top-ad_cli": "Bikkers",
+		"txt-membership-top-ad_cli": "Membresía",
+		"txt-go-to-home-top-ad_cli": "Tiendas Ttrueque",
+		"txt-frequent-questions-top-ad_cli": "Preguntas Frecuentes",
 
 		"txt-products-btn-top-ad_cli-1": "Productos",
 		"txt-products-btn-top-ad_cli-2": "Productos",
@@ -93,10 +95,11 @@
 		"txt-th-form-2-down-link-ad_cli-4": "Estado de entrega",
 
 		"txt-menu-sdlf-ad_cli": "MENÚ",
-		"txt-list-link-page-sdlf-ad_cli-1": "Tablero",
+		"txt-list-link-page-sdlf-ad_cli-1": "Logística",
 		"txt-list-link-page-sdlf-ad_cli-2": "Historial de Compras",
 		"txt-list-link-page-sdlf-ad_cli-3": "Administrar Perfil",
 		"txt-list-link-page-sdlf-ad_cli-4": "Mi Saldo",
+		"txt-list-link-page-sdlf-ad_cli-recharge-balance": "Recarga (Compra Bikkers)",
 		"txt-list-link-page-sdlf-ad_cli-5": "Mensajería con Vendedor",
 		"txt-list-link-page-sdlf-ad_cli-6": "Mis Productos",
 		"txt-list-link-page-sdlf-ad_cli-7": "Mis Categorías",
@@ -128,7 +131,7 @@
 		"txt-form-3-cli-ad_cli-1": "Logo",
 		"btn-updt-cli-form-2-ad_cli": "Actualizar",
 
-		"txt-wallet-btn-top-ad_cli-1": "Bikers",
+		"txt-wallet-btn-top-ad_cli-1": "Bikkers",
 		"txt-down-btn-wallet-top-ad_cli-1": "Monto de saldo",
 		"txt-down-btn-wallet-top-ad_cli-2": "Recargue su saldo",
 		"subtitle-table-wallet-ad_cli": "Historial de recarga de Saldo",
@@ -142,7 +145,7 @@
 		"title-top-chat-ad_cli": "Conversaciones",
 
 		"title-top-products-cli-ad_cli": "Productos",
-		"txt-down-btn-products-top-ad_cli-1": "Productos",
+		"txt-down-btn-products-top-ad_cli-1": "Productos en mi tienda",
 		"txt-down-btn-products-top-ad_cli-2": "Agregar nuevo producto",
 		"title-th-products-ad_cli-1": "#",
 		"title-th-products-ad_cli-2": "Categoría",
@@ -197,12 +200,14 @@
 		"title-th-reviewproducts-ad_cli-5": "Comentario",
 		"title-th-reviewproducts-ad_cli-6": "Publicado",
 
-		"title-top-addwallet-cli-ad_cli": "Paquetes Premium para Clientes",
+		"title-top-addwallet-cli-ad_cli": "Banco de Bikkers",
+		"title-top-addwallet-cli-ad_cli-txt-1": "Comprar con dólares:",
+		"title-top-addwallet-cli-ad_cli-txt-2": "En tu cuenta en Bikkers el monto se duplica automáticamente.",
 
 		"title-checkwallet-cli-ad_cli-1": "¡ Paso Final !",
 		"title-checkwallet-cli-ad_cli-2": "Estás a punto de pagar con Paypal la cantidad de:",
 		"title-checkwallet-cli-ad_cli-3": "Para la recarga de ",
-		"title-checkwallet-cli-ad_cli-4": " Bikers.",
+		"title-checkwallet-cli-ad_cli-4": " Bikkers.",
 		"title-checkwallet-cli-ad_cli-5": "Tu billetera se recargará automáticamente una vez se procese el pago.",
 		"title-checkwallet-cli-ad_cli-6": "(Para más información: megarejo777666@gmail.com)",
 
@@ -210,7 +215,7 @@
 		"subtitle-top-add-products-cli-ad_cli": "Información básica",
 		"txt-form-add_product-1": "Nombre del producto",
 		"txt-form-add_product-2": "Categoría del producto",
-		"txt-form-add_product-3": "Marcas",
+		"txt-form-add_product-3": "Marca",
 		"txt-form-add_product-4": "Pais",
 		"txt-form-add_product-5": "Stock",
 		"txt-form-add_product-6": "Precio",
