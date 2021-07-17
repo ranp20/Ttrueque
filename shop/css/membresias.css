@@ -67,26 +67,34 @@
   font-family: felix-titling;
   letter-spacing: .8rem;
 }
-.cont-cheaderMembership--c--m{
+.cont-cheaderMembership--c--m,
+.contValid-cheaderMembership--c--m{
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0;
   padding: 0;
 }
-.cont-cheaderMembership--c--m--item{
+.cont-cheaderMembership--c--m--item,
+.contValid-cheaderMembership--c--m--item{
   margin-right: auto; 
 }
 .cont-cheaderMembership--c--m--item:nth-child(2){
   margin-right: 1.5rem;
 }
-.cont-cheaderMembership--c--m--item a{
+.contValid-cheaderMembership--c--m--item:nth-child(2){
+  margin-right: auto;
+  padding-right: 3rem;
+}
+.cont-cheaderMembership--c--m--item a,
+.contValid-cheaderMembership--c--m--item a{
   display: table;
   max-width: 100px;
   width: auto;
   height: auto;
 }
-.cont-cheaderMembership--c--m--item:first-child a{
+.cont-cheaderMembership--c--m--item:first-child a,
+.contValid-cheaderMembership--c--m--item:first-child a{
   display: inline-block !important;
   width: 42px;
   height: 38px;
@@ -97,29 +105,35 @@
   text-align: center;
   transition: ease-in-out .2s !important;
 }
-.cont-cheaderMembership--c--m--item:first-child a svg{
+.cont-cheaderMembership--c--m--item:first-child a svg,
+.contValid-cheaderMembership--c--m--item:first-child a svg{
   fill: #fff;
   position: relative;
   top: -3px;
 }
-.cont-cheaderMembership--c--m--item:first-child a:hover{
+.cont-cheaderMembership--c--m--item:first-child a:hover,
+.contValid-cheaderMembership--c--m--item:first-child a:hover{
   background-color: #fff;
 }
-.cont-cheaderMembership--c--m--item:first-child a:hover svg{
+.cont-cheaderMembership--c--m--item:first-child a:hover svg,
+.contValid-cheaderMembership--c--m--item:first-child a:hover svg{
   fill: var(--principal-color);
 }
-.cont-cheaderMembership--c--m--item a img{
+.cont-cheaderMembership--c--m--item a img,
+.contValid-cheaderMembership--c--m--item a img{
   width: 100%;
   height: auto;
 }
-.cont-cheaderMembership--c--m--item:last-child{
+.cont-cheaderMembership--c--m--item:nth-child(3),
+.contValid-cheaderMembership--c--m--item:nth-child(3){
   margin-left: auto;
   margin-right: unset;
   display: flex;
   align-items: center;
   justify-content: flex-end;
 }
-.cont-cheaderMembership--c--m--item:last-child a{
+.cont-cheaderMembership--c--m--item:nth-child(3) a,
+.contValid-cheaderMembership--c--m--item:nth-child(3) a{
   display: flex !important;
   align-items: center;
   text-align: center;
@@ -127,22 +141,27 @@
   max-width: unset;
   width: auto;
 }
-.cont-cheaderMembership--c--m--item:last-child a div{
+.cont-cheaderMembership--c--m--item:nth-child(3) a div,
+.contValid-cheaderMembership--c--m--item:nth-child(3) a div{
   width: 38px;
   height: 38px;
   border-radius: 50%;
   margin-right: 0.5rem;
 }
-.cont-cheaderMembership--c--m--item:last-child a div svg{
+.cont-cheaderMembership--c--m--item:nth-child(3) a div svg,
+.contValid-cheaderMembership--c--m--item:nth-child(3) a div svg{
   fill: #fff;
 }
-.cont-cheaderMembership--c--m--item:last-child a span{
+.cont-cheaderMembership--c--m--item:nth-child(3) a span,
+.contValid-cheaderMembership--c--m--item:nth-child(3) a span{
   display: none;
 }
-.cont-cheaderMembership--c--m--item:last-child a:hover div{
+.cont-cheaderMembership--c--m--item:nth-child(3) a:hover div,
+.contValid-cheaderMembership--c--m--item:nth-child(3) a:hover div{
   box-shadow: 0 0 10px 1px rgb(255 255 255);
 }
-.cont-cheaderMembership--c--m--item:last-child a:hover span{
+.cont-cheaderMembership--c--m--item:nth-child(3) a:hover span,
+.contValid-cheaderMembership--c--m--item:nth-child(3) a:hover span{
   text-shadow: 0 0 15px #fff;
 }
 /*=================================
@@ -281,11 +300,13 @@
 }
 
 @media (min-width: 1280px){
-  .cont-cheaderMembership--c--m--item{
+  .cont-cheaderMembership--c--m--item,
+  .contValid-cheaderMembership--c--m--item{
     margin-right: unset;
     padding-left: 0.2rem;
   }
-  .cont-cheaderMembership--c--m--item:nth-child(2){
+  .cont-cheaderMembership--c--m--item:nth-child(2),
+  .contValid-cheaderMembership--c--m--item:nth-child(2){
     margin-left: .5rem;
     margin-right: auto;
     padding-right: 0;
@@ -358,7 +379,7 @@
   .cont-cheaderMembership :last-child{
     margin-left: unset;
   }
-  .cont-cheaderMembership--c--m--item:last-child a span{
+  .cont-cheaderMembership--c--m--item:nth-child(3) a span{
     display: block;
   }
 }
