@@ -379,7 +379,7 @@ dicho artículo a la dirección que especificaste con anterioridad al crear tu c
 									</p>
 								</div>
 							</li>
-							<li>
+							<li id="queesunbikker">
 								<h1>3. ¿Qué es un Bikker?</h1>
 								<div class="cont-response">
 									<p>Es la unidad monetaria digital que utiliza la plataforma Ttrueque. Una vez que te registras en <a href="account">www.ttrueque.com</a> puedes empezar a vender o comprar utilizando Bikkers.</p>

@@ -60,7 +60,8 @@ if (!isset($tienda[1][0]["id_menbresia"])) {
                     <span>Comprando Bikkers</span>
                   </p>
                 </a>
-                <a href="../home" class="bcontent-btns-top--m--itemgroup--cDesc--redirectlink">Qué es un bikker?</a>
+                <!--<a href="../home?goto=queesunbikker" class="bcontent-btns-top--m--itemgroup--cDesc--redirectlink">Qué es un bikker?</a> -->
+                <a href="../home#queesunbikker" class="bcontent-btns-top--m--itemgroup--cDesc--redirectlink">Qué es un bikker?</a>
               </div>
             </li>
           </div>

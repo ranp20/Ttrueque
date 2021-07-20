@@ -93,7 +93,35 @@ $path_b_p = "admin/images/banner_principal/";
         changesmall(smallBp);
 
     });
+
+  /************************** CAMBIAR DE ANCLA (SHOP) **************************/
+  var loc = window.location.href;
+  var arrlocation = loc.split('#');
+  var anclaenlace = arrlocation[arrlocation.length - 1];
+
+  if(anclaenlace == "queesunbikker"){
+
+    var detailbikker = items.eq(4).find("#queesunbikker");
+    links.add(items.eq(4)).addClass("active").siblings().removeClass("active");
+
+    if (links.length){
+      $("html, body").stop().animate({
+        scrollTop: detailbikker.offset().top - 90,
+      },100);
+    }
+
+  }else if(anclaenlace == "preguntas-frecuentes-ttrueque"){
+
+    var questionfrecuencies = items.eq(4);
+    links.add(items.eq(4)).addClass("active").siblings().removeClass("active");
+
+    if (links.length){
+      $("html, body").stop().animate({
+        scrollTop: questionfrecuencies.offset().top - 30,
+      },100);
+    }
+  }
+
     </script>
 </body>
-
 </html>

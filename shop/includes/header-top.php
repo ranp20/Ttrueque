@@ -35,7 +35,7 @@
       <!--<i class='lni lni-display'></i>-->
       <span class="lang_ttrq" key="txt-go-to-home-top-ad_cli">Tiendas Ttrueque</span>
     </a>
-    <a href="../home" id="cont-linkFrecuentQuestions--desktop" class="lang_ttrq" key="txt-frequent-questions-top-ad_cli">
+    <a href="../home#preguntas-frecuentes-ttrueque" id="cont-linkFrecuentQuestions--desktop" class="lang_ttrq" key="txt-frequent-questions-top-ad_cli">
       <span>Preguntas Frecuentes</span>
     </a>
   </div>
