@@ -71,7 +71,7 @@ $_Secret = $data_cred[0]['key_secret'];
                 </ul>
             </div>
             <div class="cont-msg-monthly-sales">
-                <h1><i class="lni lni-eye"></i>Si usted canceló este mes y aún recibe pedidos confirmados, sus aportes
+                <h1><i class="lni lni-eye"></i>Si usted no canceló este mes y aún recibe pedidos confirmados, sus aportes
                     se estarán acumulando para el siguiente mes...</h1>
             </div>
             <div class="cont-tablelist-sales-report">

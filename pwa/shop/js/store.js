@@ -117,7 +117,7 @@ function list_store_idtienda() {
             <p>${v.tienda}
               <span>(${v.cantidad})</span>
             </p>
-            <a href="../" class="goto-store-to-shop">
+            <a href="../productos?store=${v.tienda}" class="goto-store-to-shop">
               <i class="lni lni-restaurant"></i>
               <span>Ir a mi tienda</span>
             </a>
@@ -142,7 +142,7 @@ function list_store_idtienda() {
             <p>${v.tienda}
               <span>(${v.cantidad})</span>
             </p>
-            <a href="../" class="goto-store-to-shop">
+            <a href="../productos?store=${v.tienda}" class="goto-store-to-shop">
               <i class="lni lni-restaurant"></i>
               <span>Ir a mi tienda</span>
             </a>
