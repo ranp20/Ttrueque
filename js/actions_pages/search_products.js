@@ -27,7 +27,7 @@ function search(force) {
         $(".c-contentSearchTtrq--cont").append(`
           <ul>
             <li>
-              <a href="productos?categoria=${v.nombre_categoria}">${v.nombre_categoria}</a>
+              <a href="./tienda?tipos=${v.nombre_categoria}">${v.nombre_categoria}</a>
             </li>
           </ul>`);
       });
