@@ -1,3 +1,7 @@
+<?php 
+  $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";
+  $url =  $actual_link . "/" ."Ttrueque/";
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -14,6 +18,8 @@
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="0" />
+  <!-- JQUERY - DOWNLOADED PRODUCTION --->
+  <script src="<?= $url ?>js/jquery-3.6.0.min.js"></script>
   <!-- //GOOGLE WEB FONTS -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Oxygen:wght@300;400;700&family=Quicksand:wght@300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Sen:wght@400;700;800&family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <!-- //BOOTSTRAP-->
