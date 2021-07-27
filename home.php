@@ -67,7 +67,7 @@ $path_b_p = "admin/images/banner_principal/";
         if (target.length) {
             event.preventDefault();
             $("html, body").stop().animate({
-                    scrollTop: target.offset().top,
+                    scrollTop: target.offset().top - 55,
                 },
                 1000
             );
