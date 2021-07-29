@@ -29,7 +29,7 @@
 .footer-log-in-u > .content-f-log-in-u > .group-f-log-in-u > li > a{	color: #fff;	white-space: nowrap;	font-size: .95em;}
 .footer-log-in-u > .content-f-log-in-u > .group-f-log-in-u > li > a:hover{	text-decoration: underline;}
 .cont-headertop-login{  width: 100% !important;position: relative;background-color: var(--primary-clr);box-shadow: 0 0 20px 1px rgba(0,0,0,.4);height: 69px;}
-#c-headerTop-login-pwa{position: fixed !important;top: 0;left: 0;}
+#c-headerTop-login-pwa{position: fixed !important;top: 0;left: 0;z-index: 99999999;}
 .cont-headertop-login > div{padding: 0.2rem 0;}
 .cont-headertop-login > div > header > div > section{}
 

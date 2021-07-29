@@ -335,10 +335,6 @@ img{
 .body-account-pwa{
   min-height: 100vh;
   height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -359,6 +355,7 @@ img{
 /* UTILITIES CLASS */
 .margintb-2{margin-top: 2rem;margin-bottom: 2rem;}
 .margintb-3{margin-top: 3rem;margin-bottom: 3rem;}
+.paddingt-5{padding-top: 5rem;}
 
 /* COLOR BODY ALL PAGES */
 .body-p-txt-oneb-ttrueque,

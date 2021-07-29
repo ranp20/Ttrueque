@@ -17,20 +17,38 @@ $all = new All();
 $paises = $all->get_name_country();
 $rubros = $all->get_name_rubros();
 ?>
-
-<?php
-
-
-require_once 'header_index.php'; ?>
-
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <?php require_once 'includes/header_links.php'; ?>
+  <title>Ttrueque | Regístrate</title>
+</head>
 <body class="body-homepwa body-account-pwa">
-	<div class="loader-cli">
-      <img src="../shop/images/gifs/shopping-loader.gif" alt="Loading...">
+	<div class="cont-loaderInitialPWA" id="cont-loaderInitialPWA">
+    <img src="<?= $url ?>img/logo/logotipo-T-white.svg" alt="">
   </div>
-	<div id="page">
+  <div class="cont-headertop-login" id="c-headerTop-login-pwa">
+    <div class="container-texto-alls-b">
+      <header>
+        <div class="content-h-txt-b">
+          <section>
+            <div class="content-h-logo-txt-b">
+              <a href="home" class="h-logo-txt-b-link-trk">
+                <img src="<?= $url ?>img/logo/logotipo-T-white.svg" alt="logo_Ttrueque" class="img-fluid">
+              </a>
+            </div>
+            <div class="content-h-buttons-txt-b">
+              <a href="home" class="btn-reg-text-b">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inicio&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            </div>
+          </section>
+        </div>
+      </header>
+    </div>
+  </div>
+	<div id="page" class="paddingt-5">
 		<!-- /header -->
-		<main class="bg_gray" id="total-content-account">
-			<div class="container margin_30" style="display: flex;justify-content: center;flex-direction: column;align-items:center;">
+		<main id="total-content-account">
+			<div class="container" style="display: flex;justify-content: center;flex-direction: column;align-items:center;">
 				<?php
 				if (isset($_SESSION["error"])) {
 				?>
@@ -152,9 +170,6 @@ require_once 'header_index.php'; ?>
 	<script src="js/common_scripts.min.js"></script>
 	<script src="js/main.js"></script>
 	<script src="./js/actions_pages/account.js"></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 	<script src="./js/actions_pages/customs.js"></script>
 </body>
 </html>

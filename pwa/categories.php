@@ -1,6 +1,6 @@
-<?php 
+<!-- <?php 
 	
-	session_start();
+	/*session_start();
 	if(!isset($_SESSION['user'])){
 		header("location: index.php");
 	}
@@ -104,4 +104,4 @@
   <script src="../js/customs/custom.js"></script>
   <script src="js/actions-pages/track-order.js"></script>
 </body>
-</html>
+</html> -->
