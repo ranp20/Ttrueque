@@ -1,4 +1,9 @@
-///NAVBAR AND SIDEBARLEFT
+/************************** LOADER EN LA WEB **************************/
+window.addEventListener('load', function(){
+  const loadcli = document.querySelector('#cont-loaderInitialPWA');
+  loadcli.className += ' hidden';
+})
+/************************** NAVBAR AND SIDEBARLEFT **************************/
 $(document).ready(function() {
   var fixHeight = function() {
     $('.navbar-nav').css(

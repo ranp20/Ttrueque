@@ -37,3 +37,47 @@ a.butt_home i,.butt_home i {  font-weight: 600;}
 /* BOTONES DEL CAROUSEL DE  IMÁGENES */
 .owl-theme > .owl-dots > .owl-dot >  span{    width: 12px !important;    height: 1px !important;    border-radius: 50% !important;    padding: 3px 0 !important;}
 .owl-theme > .owl-dots > .owl-dot > span::before {    content: "";    background-color: #fff !important;    display: block !important;    width: 25px !important;    height: 1px !important;    border-radius: unset !important;    top: 0 !important;    left: 0 !important;    margin: auto !important;    position: absolute !important;    visibility: hidden !important;    transform: scale(0) !important;    transition: all 0.3s ease-in-out !important;    box-shadow: 0 2 10px 10px #fff;}
+
+/************************** AGREGAR LOADER AL CARGAR EL PWA **************************/
+#cont-loaderInitialPWA{
+	position: fixed;
+	width: 100%;
+	min-height: 100vh;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 999999999;
+	background-color: var(--primary-clr);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 1rem;
+	overflow: hidden;
+	opacity: 1;
+	transition: 1.4s ease-in-out;
+}
+#cont-loaderInitialPWA.hidden{
+	opacity: 0;
+	pointer-events: none;
+	min-height: unset;
+}
+#cont-loaderInitialPWA img{
+	max-width: 350px;
+	width: 70%;
+	transition: 1.2s ease-in-out;
+	animation-name: incrementAndDescrement;
+	animation-duration: 1.4s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+@keyframes incrementAndDescrement{
+	0%{
+		transform: scale(.9);
+	}
+	50%{
+		transform: scale(1);
+	}
+	100%{
+		transform: scale(.9);	
+	}
+}
