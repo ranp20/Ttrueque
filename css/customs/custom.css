@@ -89,7 +89,8 @@
   /* PANTALLA TOTAL DEL SITIO */
   --max-width           : 1220px;
   --max-width-home      : 1152px;
-  --max-width-navbar    : 1400px;    
+  --max-width-navbar    : 1400px;
+  --max-width-footer    : 1560px;
 }
 
 

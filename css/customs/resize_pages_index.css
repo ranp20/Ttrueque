@@ -250,7 +250,6 @@
   .container-banner-pub_ttrq .content-b-pub_ttrq .content-left-info-banner-publicity_ttrq{text-align: center;}
   .list-stores-officials-ttrk-c{width: 90%;margin-left: auto;margin-right: auto;}
   .list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into > .item-cont-str-off > .cont-logo-offi-mrkt-b-ttrk{height: 120px;}
-  #contain-foot-index .footer-pg-index .content-footer-policy-ttrk .content-footer-bottom .content-left-footer .content-top-footer-left a{font-size: 0.8rem !important;}
   #contain-foot-index .footer-pg-index .content-footer-policy-ttrk .content-footer-bottom .content-left-footer .content-bottom-footer-right p{font-size: 0.8rem;}
   #contain-foot-index .footer-pg-index .content-footer-policy-ttrk .content-footer-bottom .content-right-footer a{font-size: 0.8rem;}
   .cont-msg-any-products_sells svg{font-size: 2.5rem;}
@@ -263,7 +262,7 @@
   #cart-buy-list li .content-price-s-prods{justify-content: flex-end;}
   #cart-buy-list li .content-info-p-prods a{margin: 0;}
   .item-product-name_categ{width: 219.667px;}
-  #contain-foot-index .footer-pg-index .content-footer-policy-ttrk .content-footer-bottom .content-left-footer .content-top-footer-left a{margin-left: auto;margin-right: auto;}
+  #contain-foot-index .footer-pg-index .content-footer-policy-ttrk .content-footer-bottom .content-left-footer .content-top-footer-left a{margin-left: auto;margin-right: auto;font-size: 0.8rem !important;}
   /* CARRUSEL DE PRODUCTOS - BEST SELLER */
   #products-more-sells .owl-stage-outer .owl-stage .owl-item{width: 219.667px !important;}
   #products-more-sells .owl-stage-outer .owl-stage .owl-item .item .descriptions_products > div > .watermark{width: 211px;}

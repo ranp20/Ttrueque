@@ -59,15 +59,15 @@
 		      	</div>
 		      	<div class="cont-btns-download-apks">
 			        <a class="btn-download-apk" href="https://play.google.com/store/apps/details?id=app.ttruequeqr.com" target="_blank" >
-			        	<span class="content-icon-btn-download-apk">
-			        		<i class="far fa-qrcode"></i>
-			        	</span>
+			        	<div class="cont-btns-download-apks--cImg">
+			        		<img src="img/Utilities/ttrueque_negocios_sin_limites.png" alt="">
+			        	</div>
 			        	<span>Ttrueque - Lector QR!</span>
 			        </a>
 			        <a class="btn-download-apk" href="https://play.google.com/store/apps/details?id=app.ttruequetienda.com" target="_blank" >
-			        	<span class="content-icon-btn-download-apk">
-			        		<i class="fal fa-bags-shopping"></i>
-			        	</span>
+			        	<div class="cont-btns-download-apks--cImg">
+			        		<img src="img/Utilities/ttrueque_lector_qr.png" alt="">
+			        	</div>
 			        	<span>Ttrueque - Negocios sin límites</span>
 			        </a>
 		      	</div>
@@ -110,15 +110,15 @@ dicho artículo a la dirección que especificaste con anterioridad al crear tu c
 		      	</div>
 		      	<div class="cont-btns-download-apks">
 			        <a class="btn-download-apk" href="https://play.google.com/store/apps/details?id=app.ttruequeqr.com" target="_blank" >
-			        	<span class="content-icon-btn-download-apk">
-			        		<i class="far fa-qrcode"></i>
-			        	</span>
+			        	<div class="cont-btns-download-apks--cImg">
+			        		<img src="img/Utilities/ttrueque_negocios_sin_limites.png" alt="">
+			        	</div>
 			        	<span>Ttrueque - Lector QR!</span>
 			        </a>
 			        <a class="btn-download-apk" href="https://play.google.com/store/apps/details?id=app.ttruequetienda.com" target="_blank" >
-			        	<span class="content-icon-btn-download-apk">
-			        		<i class="fal fa-bags-shopping"></i>
-			        	</span>
+			        	<div class="cont-btns-download-apks--cImg">
+			        		<img src="img/Utilities/ttrueque_lector_qr.png" alt="">
+			        	</div>
 			        	<span>Ttrueque - Negocios sin límites</span>
 			        </a>
 		      	</div>
@@ -230,15 +230,15 @@ dicho artículo a la dirección que especificaste con anterioridad al crear tu c
 		      	</div>
 		      	<div class="cont-btns-download-apks">
 			        <a class="btn-download-apk" href="https://play.google.com/store/apps/details?id=app.ttruequeqr.com" target="_blank" >
-			        	<span class="content-icon-btn-download-apk">
-			        		<i class="far fa-qrcode"></i>
-			        	</span>
+			        	<div class="cont-btns-download-apks--cImg">
+			        		<img src="img/Utilities/ttrueque_negocios_sin_limites.png" alt="">
+			        	</div>
 			        	<span>Ttrueque - Lector QR!</span>
 			        </a>
 			        <a class="btn-download-apk" href="https://play.google.com/store/apps/details?id=app.ttruequetienda.com" target="_blank" >
-			        	<span class="content-icon-btn-download-apk">
-			        		<i class="fal fa-bags-shopping"></i>
-			        	</span>
+			        	<div class="cont-btns-download-apks--cImg">
+			        		<img src="img/Utilities/ttrueque_lector_qr.png" alt="">
+			        	</div>
 			        	<span>Ttrueque - Negocios sin límites</span>
 			        </a>
 		      	</div>
@@ -339,15 +339,15 @@ dicho artículo a la dirección que especificaste con anterioridad al crear tu c
 		      	</div>
 		      	<div class="cont-btns-download-apks">
 			        <a class="btn-download-apk" href="https://play.google.com/store/apps/details?id=app.ttruequeqr.com" target="_blank" >
-			        	<span class="content-icon-btn-download-apk">
-			        		<i class="far fa-qrcode"></i>
-			        	</span>
+			        	<div class="cont-btns-download-apks--cImg">
+			        		<img src="img/Utilities/ttrueque_negocios_sin_limites.png" alt="">
+			        	</div>
 			        	<span>Ttrueque - Lector QR!</span>
 			        </a>
 			        <a class="btn-download-apk" href="https://play.google.com/store/apps/details?id=app.ttruequetienda.com" target="_blank" >
-			        	<span class="content-icon-btn-download-apk">
-			        		<i class="fal fa-bags-shopping"></i>
-			        	</span>
+			        	<div class="cont-btns-download-apks--cImg">
+			        		<img src="img/Utilities/ttrueque_lector_qr.png" alt="">
+			        	</div>
 			        	<span>Ttrueque - Negocios sin límites</span>
 			        </a>
 		      	</div>
@@ -522,15 +522,15 @@ dicho artículo a la dirección que especificaste con anterioridad al crear tu c
 		      	</div>
 		      	<div class="cont-btns-download-apks">
 			        <a class="btn-download-apk" href="https://play.google.com/store/apps/details?id=app.ttruequeqr.com" target="_blank" >
-			        	<span class="content-icon-btn-download-apk">
-			        		<i class="far fa-qrcode"></i>
-			        	</span>
+			        	<div class="cont-btns-download-apks--cImg">
+			        		<img src="img/Utilities/ttrueque_negocios_sin_limites.png" alt="">
+			        	</div>
 			        	<span>Ttrueque - Lector QR!</span>
 			        </a>
 			        <a class="btn-download-apk" href="https://play.google.com/store/apps/details?id=app.ttruequetienda.com" target="_blank" >
-			        	<span class="content-icon-btn-download-apk">
-			        		<i class="fal fa-bags-shopping"></i>
-			        	</span>
+			        	<div class="cont-btns-download-apks--cImg">
+			        		<img src="img/Utilities/ttrueque_lector_qr.png" alt="">
+			        	</div>
 			        	<span>Ttrueque - Negocios sin límites</span>
 			        </a>
 		      	</div>
