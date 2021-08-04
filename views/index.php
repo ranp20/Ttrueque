@@ -26,7 +26,7 @@ if (!isset($_SESSION['user'])) {
 
 <body>
     <div class="contModalGuidettrk"></div>
-    <?php //require_once './api_whatsapp.php'; ?>
+    <?php require_once './api_whatsapp.php'; ?>
     <div id="page">
         <?php require_once '../php/process_header.php';	?>
 

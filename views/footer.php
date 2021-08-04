@@ -85,21 +85,6 @@
           </ul>
         </div>
       </div>
-      <!--------//CONTACTO WHATSAPP----------->
-      <div class="col-lg-3 col-md-4 container-list-opts-footer_ttrq--item">
-        <h3 data-target="#collapse_6" class="lang_ttrq" key="">Whatsapp</h3>
-        <div class="collapse dont-collapse-sm contact-whatsapp" id="collapse_6">
-          <ul class="list-items-footer-opts">
-            <li>
-              <div class="cont-img-contact-whatsapp">
-                <a href="https://api.whatsapp.com/send?phone=51951488317&text=Hola,%20quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20la%20plataforma." target="_blank" id="chat_wstp-icon">
-                  <img src="img/iconos_index/whatsapp_api.svg" alt="">
-                </a>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
       <!--------//MANTENERSE EN CONTACTO----------->
       <div class="col-lg-3 col-md-4 container-list-opts-footer_ttrq--item">
         <h3 data-target="#collapse_7" class="lang_ttrq" key="">Síguenos</h3>
