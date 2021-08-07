@@ -29,7 +29,7 @@
 /* IMÁGEN DEL PRODUCTO */
 .img-prod-div > .content-img-prod-updt{
   text-align: center;
-  display: inlin-block;
+  display: flex;
   align-items: center;
   justify-content: center;
 }

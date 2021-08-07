@@ -46,12 +46,12 @@ function list_cant_m_idtienda() {
     contentType: 'application/x-www-form-urlencoded;charset=UTF-8',
     data: { tienda: tienda },
   }).done(function (res) {
-    // console.log(res);
+    console.log(res);
     $(".content-memb-targets").html("");
 
     $.each(res, function (i, v) {
       var img_path = "../admin/images/menbresia/" + v.image;
-      var a = $("<div />").html(v.descripcion).text();
+      var a = $("<div />").html((v.descripcion).replace(/</g, '&lt;').replace(/>/g, '&gt;')).text();
 
       $(".content-memb-targets").append(`
           <div class='card-memb-item'>
@@ -62,8 +62,11 @@ function list_cant_m_idtienda() {
             <h1 class='price-country'>$ ${v.precio_eeuu}</h1>
             <div class='cont-list-benefits'>
               ${a}
-            </div>`+(v.precio_eeuu == '0' || v.precio_eeuu == '0.00' ? `<a href='../cliente/store/${v.cantidad}/${v.id}' >PLAN GRATUITO</a>` : `<a href='../cliente/store/${v.cantidad}/${v.id}' >SELECCIONAR PLAN</a>`)+`
-            
+            </div>`
+          +
+          (v.precio_eeuu == '0' || v.precio_eeuu == '0.00' ? `<a href='../cliente/store/${v.cantidad}/${v.id}' >PLAN GRATUITO</a>` : `<a href='../cliente/store/${v.cantidad}/${v.id}' >SELECCIONAR PLAN</a>`)
+          +
+          `            
         </div>
         `);
     });
