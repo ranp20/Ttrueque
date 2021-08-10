@@ -103,12 +103,16 @@ function list_store_idtienda() {
       $(".selidtienda").val(v.id);
       $(".tipo_m-store").val(v.cantidad);
 
+      var pathicondefaultstr = "./images/icons/default-store.png";
+      var pathlogostr = "./images/store/"+v.logo;
+
       if (v.logo == "") {
         $("#info_cli").append(
           `
-
           <div class="img-photo-content-user-v">
-            <div id="logo_store" style='background-image: url(./images/icons/default-store.png);background-repeat:no-repeat;background-size: contain;background-position: center;'></div>
+            <div>
+              <img src="${pathicondefaultstr}" alt="">
+            </div>
           </div>
           <div class="name-content-user-v">
             <p>` +
@@ -129,13 +133,17 @@ function list_store_idtienda() {
         `
         );
         $(".content-upd-logo-store_ttrq").html(`
-          <div style="background-image: url(./images/icons/default-store.png);background-repeat:no-repeat;background-size: contain;background-position: center;"></div>
+          <div>
+            <img src="${pathicondefaultstr}" alt="">
+          </div>
         `);
       } else {
         $("#info_cli").append(
           `
           <div class="img-photo-content-user-v">
-              <div id="logo_store" style='background-image: url(./images/store/${v.logo});background-repeat:no-repeat;background-size: contain;background-position: center;'></div>
+            <div>
+              <img id="logo_store" src="${pathlogostr}" alt="">
+            </div>
           </div>
           <div class="name-content-user-v">
             <p>` +

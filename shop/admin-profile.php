@@ -132,8 +132,8 @@ $country_byid = $c->get_countries_by_idcountry($d[0]['pais']);
                                         class="input-store-config-img logo-store">
                                     <div class="container-upd-logo-store_ttrq">
                                         <div class="content-upd-logo-store_ttrq">
-                                            <div
-                                                style="background-image: url(./images/store/<?php echo $d[0]['logo']; ?>);background-repeat:no-repeat;background-size: contain;background-position: center;">
+                                            <div>
+                                                <img src="./images/store/<?= $d[0]['logo'];?>" alt="">
                                             </div>
                                         </div>
                                     </div>

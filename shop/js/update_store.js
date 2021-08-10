@@ -20,18 +20,23 @@ $(document).on('click', "#btn_update-store" , function (e){
 		processData : false,
 	}).done((e) =>{
 		var res = JSON.parse(e);
-		//console.log(res);
+		var pathlogostr = "./images/store/"+res['logo'];
+
 		if (res != "") {
-    		$('.img-photo-content-user-v').html(`
-    			<div id="logo_store" style='background-image: url(./images/store/${res['logo']});background-repeat:no-repeat;background-size: contain;background-position: center;'></div>
-    		`);
+  		$('.img-photo-content-user-v').html(`
+  			<div>
+  				<img id="logo_store" src="${pathlogostr}" alt="">
+  			</div>
+  		`);
 
-    		$('.content-upd-logo-store_ttrq').html(`
-    			<div style="background-image: url(./images/store/${res['logo']});background-repeat:no-repeat;background-size: contain;background-position: center;"></div>
-    		`);
+  		$('.content-upd-logo-store_ttrq').html(`
+  			<div>
+  				<img src="${pathlogostr}" alt="">
+  			</div>
+  		`);
 
-	    } else {
-	      alert("error al actualizar");
-	    }
+    } else {
+      alert("error al actualizar");
+    }
 	});
 })

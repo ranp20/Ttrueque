@@ -141,10 +141,18 @@
   align-items: center;
   justify-content: center;
   background: rgba(0,0,0,.02);
+  overflow: hidden;
 } 
-.container-upd-logo-store_ttrq > .content-upd-logo-store_ttrq > div{
+.container-upd-logo-store_ttrq > .content-upd-logo-store_ttrq div{
   width: 100%;
   height: 100%;
+}
+.container-upd-logo-store_ttrq > .content-upd-logo-store_ttrq div img{
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 @media (min-width: 768px){
   .container-total_profile-config_ttrq{

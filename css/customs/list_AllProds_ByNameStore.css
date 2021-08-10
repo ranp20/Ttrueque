@@ -85,7 +85,7 @@
 .cont-allprods__menu--buy span:nth-child(2){position: relative;top: -1px;}
 .cont-allprods__menu--buy:hover,.cont-allprods__menu--buy:active{background-color: lightcoral;color: #fff !important;}
 .cont-allprods__menu--link--contimg{display: flex;align-items: center;justify-content: center;text-align: center;width: 100%;min-height: 100px;height: 195px;position: relative;}
-.cont-allprods__menu--link--contimg img{width: 100%;height: 100%;object-fit: contain;object-position: center;}
+.cont-allprods__menu--link--contimg img{width: 100%;height: 100%;object-fit: cover;object-position: center;}
 .cont-allprods__menu--link--contimgcountry{position: absolute;width: 34px;height: 23px;display: table;right: 5px;top: 5px;}
 .cont-allprods__menu--link--contimgcountry img{object-fit: contain;object-position: center;}
 .cont-allprods__menu--link--contdescript{width: 100%;padding: 1rem 0 .5rem 0;}
