@@ -17,7 +17,7 @@ $(document).on("submit", "#frm-loginUserTtrq", function(e){
 	}).done( (e) => {
 		var result = JSON.parse(e);
 		if(result.response == "true"){
-			$('body').append(`
+			$('#cont-AlertMssgTtrqUsr').html(`
 				<div class="c-contMssgResultUser" id="c-contMssgResultUser-login">
 			    <div class="c-contMssgResultUser--loader"></div>
 			  </div>

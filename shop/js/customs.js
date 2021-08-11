@@ -25,7 +25,7 @@ $(document).ready(function(){
                 <input type="checkbox" id="close-modal-guide">
                 <label for="close-modal-guide" id="close-icon-modal-guide">X</label>
                 <div class="contmodal-guide__content--tabtitles">
-                    <h2>Completa tu registro</h2>
+                    <h2>Estas a la mitad de completar tu registro</h2>
                     <div class="contmodal-guide__content--tabtitles__cont">
                         <div class="contmodal-guide__content--tabtitles__cont--item" id="step-one">
                             <span>PASO 1</span>
@@ -54,7 +54,7 @@ $(document).ready(function(){
                         <a id="close-step-two" class="contmodal-guide__content--tabcontent__cont--continue next-step-button">CONTINUAR</a>
                     </div>
                     <div class="contmodal-guide__content--tabcontent__cont" id="step-three">
-                        <p>A continuación podrás añadir tus productos o servicios a la tienda que <strong>Ttrueque</strong> te brinda gratuitamente(o puedes hacerlo después).</p>
+                        <p>A continuación podrás añadir tus productos o servicios a la tienda que <strong>Ttrueque</strong> te brinda gratuitamente (o puedes hacerlo después).</p>
                         <p>De modo que los usuarios de <strong>Ttrueque</strong> podrán acceder a lo que ofreces y podrán COMPRAR en tu tienda física o virtual.</p>
                         <a class="contmodal-guide__content--tabcontent__cont--continue">CONTINUAR</a>
                     </div>

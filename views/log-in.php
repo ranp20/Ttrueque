@@ -1,4 +1,7 @@
 <?php
+//COMPRIMIR ARCHIVOS DE TEXTO...
+(substr_count($_SERVER["HTTP_ACCEPT_ENCODING"], "gzip")) ? ob_start("ob_gzhandler") : ob_start();
+
 session_start();
 
 require_once '../php/class/all.php';
@@ -32,7 +35,7 @@ $paises = $all->get_name_country();
           <section>
             <div class="content-h-logo-txt-b">
               <a href="home" class="h-logo-txt-b-link-trk">
-                <img src="<?= $url ?>img/logo/logotipo-T-white.svg" alt="logo_Ttrueque" class="img-fluid">
+                <img src="<?= $url ?>img/logo/logotipo-T-white.svg" alt="logo_Ttrueque" class="img-fluid" width="145" height="40">
               </a>
             </div>
             <div class="content-h-buttons-txt-b">
@@ -64,7 +67,7 @@ $paises = $all->get_name_country();
       <section class="sec-log-in-u">
         <header class="head-log-in-u">
           <div class="logo-head-log-in-u">
-            <img src="img/logo/Login_Web-T-blue.svg" alt="logo_Ttrueque">
+            <img src="img/logo/Login_Web-T-blue.svg" alt="logo_Ttrueque" width="190" height="70">
           </div>
         </header>
         <div id="alert"></div>
@@ -75,8 +78,7 @@ $paises = $all->get_name_country();
             <div class="cont-icon-login">
               <img src="img/iconos_home/home-login-mail.svg" alt="">
             </div>
-            <input type="email" required maxlength="200" name="email" id="email"
-                placeholder="Correo electrónico o número de celular">
+            <input type="email" required maxlength="200" name="email" id="email" placeholder="Correo electrónico o número de celular">
           </div>
           <div class="cont-controls-login">
             <div class="cont-icon-login">

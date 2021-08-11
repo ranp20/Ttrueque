@@ -1,15 +1,12 @@
 <?php
-// 	error_reporting(0);
 require_once '../php/class/all.php';
 $all = new ALl();
 $mante = $all->get_mantenience();
 $mantenience =  $mante[0]['state_mantenience'];
 
-//print_r($mante[0]['state_mantenience']);
 if($mantenience == 'YES' || $mantenience == 'yes'){
-    header('Location: mantenience');
+  header('Location: mantenience');
 }
-
 
 session_start();
 require_once("../php/class/all.php");
@@ -18,23 +15,17 @@ $paises = $all->get_name_country();
 $rubros = $all->get_name_rubros();
 ?>
 
-<?php
-
-
-require_once 'header_index.php'; ?>
-
+<?php require_once 'header_index.php'; ?>
 <body>
-
 	<div id="page">
 		<div class="page_texto_b1" style="z-index:99999;">
-			<!-- /COTENIDO - TEXTO UNO DEL BANNER DE PRESENTACIÓN -->
 			<div class="container-texto-alls-b">
 				<header>
 					<div class="content-h-txt-b">
 						<section>
 							<div class="content-h-logo-txt-b">
 								<a href="home" class="h-logo-txt-b-link-trk">
-									<img src="./img/logo/logotipo-T-white.svg" alt="logo_Ttrueque">
+									<img src="./img/logo/logotipo-T-white.svg" alt="logo_Ttrueque" width="145" height="40">
 								</a>
 							</div>
 							<div class="content-h-buttons-txt-b">
@@ -45,7 +36,6 @@ require_once 'header_index.php'; ?>
 				</header>
 			</div>
 		</div>
-		<!-- /header -->
 		<main class="bg_gray" id="total-content-account">
 			<div class="container margin_30" style="display: flex;justify-content: center;flex-direction: column;align-items:center;">
 				<?php
@@ -66,11 +56,10 @@ require_once 'header_index.php'; ?>
 				}
 				?>
 				<div class="col-xl-6 col-lg-6 col-md-8" id="form-register-info-personal">
-					<!--NUEVO-->
 					<div class="box_account">
 						<div class="cont-infoicons-account">
 							<div class="cont-imgh3-accounttop">
-								<img src="./img/iconos_home/home-account-user.svg" alt="">
+								<img src="./img/iconos_home/home-account-user.svg" alt="" width="32" height="32">
 								<h3 class="new_client">Nuevo Usuario</h3> 
 							</div>
 							<small class="float-right pt-2">* Campos requeridos</small>
@@ -83,7 +72,6 @@ require_once 'header_index.php'; ?>
 								<input type="password" maxlength="40" required class="form-control form-register-input" name="pass" id="password_in_2" value="" placeholder="Password*">
 							</div>
 							<hr>
-							<!--inputs private / company-->
 							<div class="private box">
 								<div class="row no-gutters">
 									<div class="col-12 row no-gutters" id="input-change-register">
@@ -104,7 +92,6 @@ require_once 'header_index.php'; ?>
 										</div>
 									</div>
 								</div>
-								<!-- /row -->
 								<div class="row no-gutters">
 									<div class="col-6 pr-1">
 										<div class="form-group">
@@ -144,7 +131,6 @@ require_once 'header_index.php'; ?>
 										</div>
 									</div>
 								</div>
-								<!-- /row -->
 								<hr>
 								<div class="form-group" style="left:20px !important;">
 									<label class="form-check-label">
@@ -160,25 +146,13 @@ require_once 'header_index.php'; ?>
 								</div>
 							</div>
 						</form>
-						<!-- /form_container -->
 					</div>
-					<!-- /box_account -->
 				</div>
 			</div>
 	</div>
 	</main>
 	</div>
-	<!-- page -->
-	<div id="toTop"></div><!-- Back to top button -->
-	<!-- COMMON SCRIPTS -->
-	<script src="js/common_scripts.min.js"></script>
 	<script src="js/main.js"></script>
 	<script src="./js/actions_pages/account.js"></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-	<!-- //BOOTSTRAP-->
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-	<!-- SWEEET ALERT 2-->
-	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 </body>
-
 </html>

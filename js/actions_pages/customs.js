@@ -40,7 +40,7 @@ $(document).ready(function(){
                 <input type="checkbox" id="close-modal-guide">
                 <label for="close-modal-guide" id="close-icon-modal-guide">X</label>
                 <div class="contmodal-guide__content--tabtitles">
-                    <h2>Completa tu registro</h2>
+                    <h2>Completa tu registro con 3 pasos sencillos</h2>
                     <div class="contmodal-guide__content--tabtitles__cont">
                         <div class="contmodal-guide__content--tabtitles__cont--item" id="step-one">
                             <span>PASO 1</span>
@@ -61,7 +61,7 @@ $(document).ready(function(){
                 <div class="contmodal-guide__content--tabcontent">
                     <div class="contmodal-guide__content--tabcontent__cont" id="step-one">
                         <p>A continuación econtrarás los tipos de menbresía, puedes elegir la <strong>GRATUITA</strong> o la <strong>PAGADA.</strong></p>
-                        <p>Todas la menbresías te brindarán una tienda gratuita y una cantidad de Bikkers para que empieces a comprar en los establecimientos o tiendas físicas o virtuales de los usuarios de Ttrueque.</p>
+                        <p>Todas la menbresías te brindarán una tienda gratuita y una cantidad de Bikkers para que empieces a comprar en los establecimientos, tiendas físicas o virtuales de los usuarios de Ttrueque.</p>
                         <a href="./shop" class="contmodal-guide__content--tabcontent__cont--continue next-step-button">CONTINUAR</a>
                     </div>
                     <div class="contmodal-guide__content--tabcontent__cont" id="step-two">

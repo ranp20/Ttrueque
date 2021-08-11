@@ -310,7 +310,7 @@ function insertMenb() {
                         <a href="#" class="contmodal-guide__content--tabcontent__cont--continue next-step-button">CONTINUAR</a>
                     </div>
                     <div class="contmodal-guide__content--tabcontent__cont active" id="ultimate-step-three">
-                        <p>A continuación podrás añadir tus productos o servicios a la tienda que <strong>Ttrueque</strong> te brinda gratuitamente(o puedes hacerlo después).</p>
+                        <p>A continuación podrás añadir tus productos o servicios a la tienda que <strong>Ttrueque</strong> te brinda gratuitamente (o puedes hacerlo después).</p>
                         <p>Acude a tu cuenta, y en la opción <strong>MIS PRODUCTOS</strong>, empieza a organizar tu tienda.</p>
                         <p>De este modo, los usuarios de <strong>Ttrueque</strong> podrán COMPRAR en tu tienda FÍSICA o VIRTUAL.</p>
                         <a href="../../../shop" id="close-step-three" class="contmodal-guide__content--tabcontent__cont--continue">CONTINUAR</a>

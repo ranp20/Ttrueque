@@ -261,6 +261,20 @@ li {
   width: 20px;
   height: 20px;
   cursor: pointer;
+  position: relative;
+}
+.contmodal-guide__content--tablinks__link:before{
+  content: "";
+  width: 155%;
+  height: 2.5px;
+  background-color: #ddd;
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.contmodal-guide__content--tablinks__link:last-child:before{
+  content: unset;
 }
 .contmodal-guide__content--tablinks__link span{
   background-color: #ddd;
@@ -357,6 +371,7 @@ li {
   }
   .contmodal-guide__content--tabcontent__cont p{
     font-size: 1.05rem;
+    margin-bottom: 1.3rem
   }
 }
 
