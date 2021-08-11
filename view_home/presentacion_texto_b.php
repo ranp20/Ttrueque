@@ -5,7 +5,7 @@
 			<section>
 				<div class="container-desc-txt-r">
 					<div class="content-img-desc-trk">
-						<img src="./img/iconos_home/FLAT_handshake.svg" alt="Imagen-provicional">
+						<img src="./img/iconos_home/FLAT_handshake.svg" alt="Imagen-provicional" width="500" height="300">
 					</div>
 					<div class="content-text-desc-trk">
 						<h2>Únete a la nueva forma de hacer negocios sin usar dinero convencional.</h2>
@@ -17,7 +17,7 @@
 			<section>
 				<div class="container-desc-txt-l">
 					<div class="content-img-desc-trk">
-						<img src="./img/iconos_home/FLAT_shield.svg" alt="Imagen-provicional">
+						<img src="./img/iconos_home/FLAT_shield.svg" alt="Imagen-provicional" width="500" height="300">
 					</div>
 					<div class="content-text-desc-trk">
 						<h2>Seguridad al comprar sin afectar tus datos financieros.</h2>
@@ -29,7 +29,7 @@
 			<section>
 				<div class="container-desc-txt-r">
 					<div class="content-img-desc-trk">
-						<img src="./img/iconos_home/FLAT_dollar.svg" alt="Imagen-provicional">
+						<img src="./img/iconos_home/FLAT_dollar.svg" alt="Imagen-provicional" width="500" height="300">
 					</div>
 					<div class="content-text-desc-trk">
 						<h2>Comprar Bikkers.</h2>
