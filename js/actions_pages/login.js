@@ -1,5 +1,6 @@
 $(document).on("submit", "#frm-loginUserTtrq", function(e){
 	e.preventDefault();
+	$(this).find("button").find("span:last-child").html("<span></span>");
 
 	var frm = new FormData();
 
@@ -35,6 +36,8 @@ $(document).on("submit", "#frm-loginUserTtrq", function(e){
 		      </div>
 		    </div>
 			`);
+
+			$(this).find("button").find("span:last-child").html("");
 		
 			setTimeout(function(){
 				$('#msgAlertLoginErr').remove();

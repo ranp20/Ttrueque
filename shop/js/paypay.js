@@ -72,7 +72,7 @@ paypal.Button.render(
                 <input type="checkbox" id="close-modal-guide-stepthre">
                 <label for="close-modal-guide" id="close-icon-modal-guide-stepthree">X</label>
                 <div class="contmodal-guide__content--tabtitles">
-                    <h2>Completa tu registro</h2>
+                    <h2>Estás en último paso</h2>
                     <div class="contmodal-guide__content--tabtitles__cont">
                         <div class="contmodal-guide__content--tabtitles__cont--item" id="ultimate-step-one">
                             <span>PASO 1</span>

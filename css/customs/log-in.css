@@ -33,10 +33,32 @@
 .footer-log-in-u > .content-f-log-in-u > .group-f-log-in-u > li > a{	color: #fff;	white-space: nowrap;	font-size: .95em;}
 .footer-log-in-u > .content-f-log-in-u > .group-f-log-in-u > li > a:hover{	text-decoration: underline;}
 .cont-headertop-login{  width: 100% !important;position: relative;background-color: var(--primary-clr);box-shadow: 0 0 20px 1px rgba(0,0,0,.4);height: 69px;}
-/*.cont-headertop-login:before{  content: '';  display: block;  top: 0;  z-index: -1;  width: 100%;  position: absolute;  height: 90px;  background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,0) 100%);}*/
 .cont-headertop-login > div{padding: 0.2rem 0;}
-.cont-headertop-login > div > header > div > section{}
-
+/************************** LOADER DESPUÉS DE ENVIAR DESDE EL FORMULARIO DE LOGIN **************************/
+#frm-loginUserTtrq button[type=submit] span:last-child{
+  display: flex;
+}
+#frm-loginUserTtrq button[type=submit] span:last-child span{
+  margin-left: 0.5rem;
+  border: 4px solid rgba(0,0,0,.1);
+  width: 20px;
+  height: 20px;
+  transition: .3s ease-in-out;
+  border-radius: 50%;
+  border-left-color: #fff;
+  animation-name: girar;
+  animation-duration: .2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes girar {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);  
+  }
+}
 /* MEDIA QUERIES - LOGIN.PHP */
 @media (max-width: 1024px) {
   .content-log-in-u > .sec-log-in-u{    width: 440px;  }

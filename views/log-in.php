@@ -87,7 +87,11 @@ $paises = $all->get_name_country();
             <input type="password" required maxlength="40" name="pass" id="password_in" placeholder="Ingrese su contraseña">
           </div>
           <a href="recuperar-contrasena" class="link-recoverypass">¿Ha olvidado su contraseña?</a>
-          <button type="submit">Iniciar Sesión</button>
+          <button type="submit">
+            <span>Iniciar Sesión</span>
+            <span>
+            </span>
+          </button>
         </form>
         <div class="content-register-log-in-u">
           <div class="content-divisor-log-in-u">
