@@ -20,6 +20,9 @@
 #frm-loginUserTtrq button[type=submit]:active{text-decoration: underline;}
 #frm-loginUserTtrq button[type=submit]:hover{background-color: var(--hov-secondary-clr);}
 #frm-loginUserTtrq button[type=submit].active{background-color: var(--hov-secondary-clr);cursor: not-allowed;}
+/************************** BOTÓN - REGISTRARSE O RECUPERAR CONTRASEÑA **************************/
+#frm-loginUserTtrq a.disabledlogin{cursor: not-allowed;opacity: 0.5;pointer-events: none;}
+.btn-reg-log-in-u.disabledlogin{cursor: not-allowed;opacity: 0.5;pointer-events: none;}
 /************************** LOADER DESPUÉS DE ENVIAR DESDE EL FORMULARIO DE LOGIN **************************/
 #frm-loginUserTtrq button[type=submit] span:last-child{
   display: flex;

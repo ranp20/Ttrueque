@@ -3,6 +3,8 @@ $(document).on("submit", "#frm-loginUserTtrq", function(e){
 	$(this).find("button[type=submit]").addClass("active");
 	$(this).find("button[type=submit]").attr("disabled", true);
 	$(this).find("button[type=submit]").find("span:last-child").html("<span></span>");
+	$(this).find("a").addClass("disabledlogin");
+	$(".btn-reg-log-in-u").addClass("disabledlogin");
 
 	var frm = new FormData();
 
@@ -42,6 +44,8 @@ $(document).on("submit", "#frm-loginUserTtrq", function(e){
 			$(this).find("button[type=submit]").attr("disabled", false);
 			$(this).find("button[type=submit]").removeClass("active");
 			$(this).find("button[type=submit]").find("span:last-child").html("");
+			$(this).find("a").removeClass("disabledlogin");
+			$(".btn-reg-log-in-u").removeClass("disabledlogin");
 		
 			setTimeout(function(){
 				$('#msgAlertLoginErr').remove();

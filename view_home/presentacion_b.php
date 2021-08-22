@@ -85,21 +85,17 @@
             <section>
                 <div class="container-texto">
                     <div class="content-slogan-trk">
-                        <h2>La forma FÁCIL y segura de vender y comprar, sin arriesgar tu DINERO CONVENCIONAL</h2>
+                        <h2>Ttrueque te facilita comprar y vender en forma SEGURA, y sin arriesgar tu DINERO CONVENCIONAL</h2>
                     </div>
                     <div class="content-options-sus-trk">
                         <div class="content-left-o">
-                            <h2>Vende en tu propio negocio</h2>
-                            <p>Usando tu cuenta o tarjeta Ttrueque Al vender, tu ganancia se DUPLICA Ejemplo: Vendes un
-                                producto a 50 dólares. (o su equivalente en moneda nacional) Automáticamente tu cuenta
-                                en Ttrueque lo duplica: Obtienes 100 Bikkers. <a href="#">Mayores detalles</a></p>
+                            <h2>VENDE</h2>
+                            <p>Con Ttrueque tu ganancia CRECERÁ automáticamente. El monto de tu venta se registrará con un monto de 20% adicional en tu cuenta.</p>
                             <a href="account" class="btn-register">Regístrate sin costo</a>
                         </div>
                         <div class="content-right-o">
-                            <h2>Compras de forma segura</h2>
-                            <p>Tu saldo estará fijado en Bikkers Ejemplo: Vas a comprar un producto que cuesta 30 dólares
-                                (o su equivalente en moneda nacional)Con tu cuenta Ttrueque, pagarás con 30 Bikkers. Porque
-                                cada Bikker, es equivalente a un dólar. <a href="#">Mayores detalles</a></p>
+                            <h2>COMPRA</h2>
+                            <p>Ttrueque utiliza como moneda digital el Bikker, el que equivale a un Dólar. Ejm. Un artículo que vale 30 dólares se paga con 30 Bikkers.</p>
                             <a href="account" class="btn-register">Regístrate sin costo</a>
                         </div>
                     </div>
