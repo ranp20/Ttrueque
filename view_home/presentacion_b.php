@@ -38,11 +38,25 @@
                     <span>PREGUNTAS FRECUENTES</span>
                 </li>
             </a>
-            <a href="allstores">
-                <li class="nav-item dropdown">
-                    <span>TIENDAS TTRUEQUE</span>
-                </li>
-            </a>
+            <?php
+              if(isset($_SESSION["user"])){
+                echo "
+                  <a href='./'>
+                    <li class='nav-item dropdown'>
+                      <span>TIENDAS TTRUEQUE</span>
+                    </li>
+                  </a>
+                ";
+              }else{
+                echo "
+                  <a href='login'>
+                    <li class='nav-item dropdown'>
+                      <span>TIENDAS TTRUEQUE</span>
+                    </li>
+                  </a>
+                ";
+              }
+            ?>
           </ul>
         </div>
         

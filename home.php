@@ -1,10 +1,8 @@
 <?php
-
 //COMPRIMIR ARCHIVOS DE TEXTO...
 (substr_count($_SERVER["HTTP_ACCEPT_ENCODING"], "gzip")) ? ob_start("ob_gzhandler") : ob_start();
 
 require_once "./php/process_header_home.php";
-
 require_once 'php/class/all.php';
 $all = new ALl();
 $mante = $all->get_mantenience();
@@ -14,8 +12,6 @@ $mantenience =  $mante[0]['state_mantenience'];
 if($mantenience == 'YES' || $mantenience == 'yes'){
     header('Location: mantenience');
 }
-
-
 
 $banner_p = $data["banner_principal"];
 session_start();
@@ -35,8 +31,8 @@ $path_b_p = "admin/images/banner_principal/";
     </div>
   </div>
   <div id="toTopgobtn"></div>
-  <script src="js/main.js"></script>
-  <script src="js/customs/custom.js"></script>
+  <!--<script async src="js/main.js"></script>-->
+  <script async src="js/customs/custom.js"></script>
   <script type="text/javascript">
 
   /************************** IR HACIA ARRIBA JQUERY **************************/
