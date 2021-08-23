@@ -1,5 +1,9 @@
-<?php require_once 'header_home.php'; ?>
-
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Trueque | Page Three</title>
+  <?php require_once 'header_home.php'; ?>
+</head>
 <body class="body-p-txt-threeb-ttrueque">
 	<div id="page">
 		<!--  /HEADER DEL BANNER DE PRESENTACIÓN -->
@@ -29,12 +33,7 @@
 			</div>
 		</div>
 	</div>
-	<!-- page -->
-	<div id="toTop"></div>
-	<!-- Back to top button -->
-	<!-- COMMON SCRIPTS -->
-	<script src="js/common_scripts.min.js"></script>
+	<div id="toTopgobtn"></div>
 	<script src="js/main.js"></script>
-	<script src="./js/actions_pages/account.js"></script>
 </body>
 </html>

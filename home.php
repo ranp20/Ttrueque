@@ -8,7 +8,6 @@ $all = new ALl();
 $mante = $all->get_mantenience();
 $mantenience =  $mante[0]['state_mantenience'];
 
-//print_r($mante[0]['state_mantenience']);
 if($mantenience == 'YES' || $mantenience == 'yes'){
     header('Location: mantenience');
 }
@@ -18,8 +17,12 @@ session_start();
 $path_b_p = "admin/images/banner_principal/";
 
 ?>
-<?php require_once './view_home/header_home.php'; ?>
-
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Trueque | Home</title>
+  <?php require_once 'view_home/header_home.php'; ?>
+</head>
 <body>
   <div id="page" class="page_index-1">
     <?php	require_once "./view_home/presentacion_b.php";?>

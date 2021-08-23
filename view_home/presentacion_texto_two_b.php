@@ -1,5 +1,9 @@
-<?php require_once 'header_home.php'; ?>
-
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Trueque | Page Two</title>
+  <?php require_once 'header_home.php'; ?>
+</head>
 <body class="body-p-txt-twob-ttrueque">
 	<div id="page" class="page-two_b">
 		<!--  /HEADER DEL BANNER DE PRESENTACIÓN -->
@@ -40,14 +44,8 @@
 			</div>
 		</div>
 	</div>
-	<!-- page -->
-	<div id="toTop"></div>
-	<!-- Back to top button -->
-	<!-- COMMON SCRIPTS -->
-	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-	<script src="js/common_scripts.min.js"></script>
+	<div id="toTopgobtn"></div>
 	<script src="js/main.js"></script>
-	<script src="./js/actions_pages/account.js"></script>
 	<script src="./js/actions_pages/listmenbership.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {

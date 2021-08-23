@@ -58,6 +58,12 @@ section > .container-desc-txt-l > .content-text-desc-trk{
   text-align: center;
 }
 section > .container-desc-txt-r > .content-text-desc-trk > h2,
+section > .container-desc-txt-l > .content-text-desc-trk > h2{
+  text-transform: uppercase;
+  font-size: 1.6rem !important;
+  font-weight: 600;
+}
+section > .container-desc-txt-r > .content-text-desc-trk > h2,
 section > .container-desc-txt-r > .content-text-desc-trk > p,
 section > .container-desc-txt-l > .content-text-desc-trk > h2,
 section > .container-desc-txt-l > .content-text-desc-trk > p{
@@ -79,6 +85,7 @@ section > .container-desc-txt-l > .content-text-desc-trk > p{
 	font-size: 1.15rem;
 	margin-bottom: 2.8rem;
   color: var(--grey-line-clr);
+  text-align: left;
 }
 section > .container-desc-txt-r > .content-text-desc-trk > a,
 section > .container-desc-txt-l > .content-text-desc-trk > a{

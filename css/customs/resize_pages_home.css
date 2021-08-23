@@ -8,7 +8,6 @@
   .header-trk > section{padding-left: 15px;padding-right: 15px;}
   .header-trk > section > .content-logo-trueque > #cont-logo--trk > a{width: 130px;height: 50px;}
   .content-b-bar-options-h .cont-opts-h{max-width: 1024px;}
-  section > .container-desc-txt-r > .content-text-desc-trk > h2, section > .container-desc-txt-l > .content-text-desc-trk > h2{font-size: 2rem;}
   section > .container-desc-txt-r > .content-text-desc-trk > p, section > .container-desc-txt-l > .content-text-desc-trk > p{font-size: 1.1rem;}
   section > .container-desc-txt-r > .content-text-desc-trk > a, section > .container-desc-txt-l > .content-text-desc-trk > a{font-size: 1rem;}
   .content-footer-policy-ttrk > .content-footer-bottom > .content-left-footer > .content-bottom-footer-right > p{font-size: 0.9rem;}
@@ -23,7 +22,6 @@
   .header-trk > section{width: 95% !important;}
   .content-menu-trk{display: none !important;}
   .content-options-sus-trk > .content-left-o > h2, .content-options-sus-trk > .content-right-o > h2{font-size: 1.3rem !important;font-weight: 600;}
-  section > .container-desc-txt-r > .content-text-desc-trk > h2, section > .container-desc-txt-l > .content-text-desc-trk > h2{font-size: 1.8rem;}
   section > .container-desc-txt-r > .content-text-desc-trk > p, section > .container-desc-txt-l > .content-text-desc-trk > p{font-size: 1rem;}
   section > .container-desc-txt-r > .content-text-desc-trk > a, section > .container-desc-txt-l > .content-text-desc-trk > a{font-size: 0.9rem;}
   section > .container-desc-txt-r > .content-img-desc-trk, section > .container-desc-txt-l > .content-img-desc-trk{width: 40%;}
@@ -158,7 +156,6 @@
   .content-b-bar-options-h .cont-opts-h ul{flex-wrap: wrap;}
   .content-b-bar-options-h .cont-opts-h ul a{width: calc(100% * 1/2);}
   .content-options-sus-trk > .content-left-o > h2, .content-options-sus-trk > .content-right-o > h2{font-size: 1.3rem !important;line-height: 2rem;font-weight: bold;}
-  section > .container-desc-txt-r > .content-text-desc-trk > h2, section > .container-desc-txt-l > .content-text-desc-trk > h2{font-size: 1.7rem;}
   section > .container-desc-txt-r > .content-text-desc-trk, section > .container-desc-txt-l > .content-text-desc-trk{margin-top: 1rem !important;}
   section > .container-desc-txt-r > .content-img-desc-trk, section > .container-desc-txt-l > .content-img-desc-trk{margin-bottom: 1rem;}
 }
@@ -211,7 +208,6 @@
 @media (max-width: 300px){
   #contenedor-principal-home{height: 990px !important;}
   .content-options-sus-trk > .content-right-o, .content-options-sus-trk > .content-left-o{width: 100%;}
-  section > .container-desc-txt-r > .content-text-desc-trk > h2, section > .container-desc-txt-l > .content-text-desc-trk > h2{font-size: 1.6rem;}
   section > .container-desc-txt-r > .content-text-desc-trk > p, section > .container-desc-txt-l > .content-text-desc-trk > p{font-size: 0.9rem;}
 }
 @media (max-width: 280px){
@@ -238,7 +234,6 @@
   .header-trk > section > .content-logo-trueque > #cont-logo--trk > a{width: 100px;height: 40px;}
   .content-options-sus-trk > .content-left-o > h2, .content-options-sus-trk > .content-right-o > h2{font-size: 1rem !important;line-height: 1.4rem;font-weight: bold;}
   .content-options-sus-trk > .content-left-o > p, .content-options-sus-trk > .content-right-o > p{font-size: .9rem !important;line-height: 1.4rem;}
-  section > .container-desc-txt-r > .content-text-desc-trk > h2, section > .container-desc-txt-l > .content-text-desc-trk > h2{font-size: 1.5rem !important;}
   section > .container-desc-txt-r > .content-text-desc-trk > p, section > .container-desc-txt-l > .content-text-desc-trk > p{font-size: 1rem !important;}
   section > .container-desc-txt-r > .content-text-desc-trk > a, section > .container-desc-txt-l > .content-text-desc-trk > a{font-size: 1rem !important;}
   .header-trk > section{width: 100% !important;padding-left: 5px;padding-right: 5px;}
@@ -286,6 +281,7 @@
   #cont-total-tabs .container .mobileMenu.open{width: 50% !important;}
   .content-options-sus-trk > .content-left-o > h2,.content-options-sus-trk > .content-right-o > h2 {font-size: 1.75rem;}
   .content-options-sus-trk > .content-left-o > p, .content-options-sus-trk > .content-right-o > p{font-size: 1.1rem;}
+  section > .container-desc-txt-r > .content-text-desc-trk > h2, section > .container-desc-txt-l > .content-text-desc-trk > h2{font-size: 1.7rem !important;}
 }
 @media (min-width: 1025px){
   .contn-info-que-es h1, .contn-info-como-se-usa h1, .contn-info-tramites-que-hacer h1, .contn-info-preguntas-frecuentes h1{font-size: 2.15rem;}
@@ -298,10 +294,12 @@
   .content-options-trk-tabs.valid-user a:first-child svg{width: 35px;height: 35px;}
   .container-texto .content-slogan-trk h2 span{display: inline-block;text-align: justify;text-align-last: justify;}
   .container-texto .content-slogan-trk h2 span:nth-child(2){display: flex;align-items: center;justify-content: center;width: 100%;letter-spacing: .612rem;white-space: normal;margin-left: .36rem;}
+  section > .container-desc-txt-r > .content-text-desc-trk > h2, section > .container-desc-txt-l > .content-text-desc-trk > h2{font-size: 1.8rem !important;}
 }
 @media (min-width: 1200px){
   .content-options-sus-trk > .content-left-o > h2,.content-options-sus-trk > .content-right-o > h2 {font-size: 1.85rem;}
   .content-options-sus-trk > .content-left-o > p, .content-options-sus-trk > .content-right-o > p{font-size: 1.25rem;font-weight: 600;}
+  section > .container-desc-txt-r > .content-text-desc-trk > h2, section > .container-desc-txt-l > .content-text-desc-trk > h2{font-size: 1.95rem !important;}
 }
 @media (min-width: 1400px){
   .contn-info-que-es h1, .contn-info-como-se-usa h1, .contn-info-tramites-que-hacer h1, .contn-info-preguntas-frecuentes h1{font-size: 2.45rem;}

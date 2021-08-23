@@ -8,8 +8,8 @@
 						<img src="./img/iconos_home/FLAT_handshake.svg" alt="Imagen-provicional" width="500" height="300">
 					</div>
 					<div class="content-text-desc-trk">
-						<h2>Únete a la nueva forma de hacer negocios sin usar dinero convencional.</h2>
-						<p>Por cada dólar que vendas, usando tu cuenta Ttrueque, automáticamente, esa fracción se duplicará, en tu saldo en Bikkers.</p>
+						<h2>Únete a la nueva forma segura de hacer negocios sin usar dinero convencional.</h2>
+						<p>Regístrate gratuitamente como Personal Natural o Empresa, y aprovecha el intercambio fluido entre usuarios.</p>
 						<a href="./presentacion_texto_one_b">Mayores detalles</a>
 					</div>
 				</div>

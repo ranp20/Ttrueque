@@ -92,12 +92,12 @@
                     <div class="content-options-sus-trk">
                         <div class="content-left-o">
                             <h2>VENDE</h2>
-                            <p>Con Ttrueque tu ganancia CRECERÁ automáticamente. El monto de tu venta se registrará con un monto de 20% adicional en tu cuenta.</p>
+                            <p>Con Ttrueque tu ganancia CRECERÁ automáticamente. El monto de tu venta se registrará en tu cuenta con un 20% adicional en tu cuenta.</p>
                             <a href="account" class="btn-register">Regístrate sin costo</a>
                         </div>
                         <div class="content-right-o">
                             <h2>COMPRA</h2>
-                            <p>Ttrueque utiliza como moneda digital el Bikker, el que equivale a un Dólar. Ejm. Un artículo que vale 30 dólares se paga con 30 Bikkers.</p>
+                            <p>Bikker, es la moneda digital que utiliza la plataforma del sistema Ttrueque. 1 Bikker equivale a 1 Dólar Americano. <i>¡Regístrate! Vende y compra en Bikkers</i></p>
                             <a href="account" class="btn-register">Regístrate sin costo</a>
                         </div>
                     </div>
