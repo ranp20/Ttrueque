@@ -2,7 +2,6 @@
 
 
 <div class="content-total-banner" id="cont-b-init-home-ttrq">
-    <!-------------------------->
     <nav class="navbar navbar-expand-lg navbar-dark justify-content-sm-start fixed-top" id="cont-total-tabs">
       <div class="container" id="c--navbarcontainerHome">
         <a class="navbar-brand order-1 order-lg-0 ml-lg-0 ml-2 mr-auto cont-logo-ttrq-nav-tabs" href="./">
@@ -85,7 +84,10 @@
             <section>
                 <div class="container-texto">
                     <div class="content-slogan-trk">
-                        <h2>Ttrueque te facilita comprar y vender en forma SEGURA, y sin arriesgar tu DINERO CONVENCIONAL</h2>
+                        <h2>
+                          <span>Ttrueque te facilita comprar y vender en forma SEGURA, y sin arriesgar tu</span>
+                          <span>DINERO CONVENCIONAL</span>
+                        </h2>
                     </div>
                     <div class="content-options-sus-trk">
                         <div class="content-left-o">

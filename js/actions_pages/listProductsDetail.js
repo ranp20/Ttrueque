@@ -3,24 +3,19 @@ $(document).ready(function () {
 	var idcliente = $('#userid_cli').val();
   var idstore = $('#tiendaid_cli').val();
 
-
   $.ajax({
     url: "./php/class/list_product_detail.php",
     method: "POST",
     dataType: "JSON",
     data: { idprod: idprodu },
   }).done(function (res) {
-    console.log(res);
-    
+
     $.each(res, function (i, v) {
       var path = "../../Ttrueque/shop/folder/" + v.imagen;
       var path_store = "../../Ttrueque/shop/images/store/" + v.logo;
       var idtienda_cli = v.id_tienda;
-      console.log(idtienda_cli);
-      console.log(idstore);
 
       if(idtienda_cli == idstore){
-        console.log('la tienda es la misma');
 
         $("#detailprod_ttrq").html(`
           <div class="content-c-primary_d-p_ttrq">
@@ -175,10 +170,8 @@ $(document).on("click", ".button_add_cart_detail-prod", function (e) {
     id_store: $(this).attr("attr_store_id"),
     id_client: $(this).attr("attr_idclient"),
   };
-  console.log(data);
 
   $.post("./php/process_temp_cart.php", data, function (result) {
-      console.log(result);
 
       if (result["res"] == "agregado") {
         var text = "Producto Agregado al Carrito";

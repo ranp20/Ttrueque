@@ -1,3 +1,24 @@
+/************************** PRELOADER - ALL PAGES TTRUEQUE **************************/
+window.addEventListener("load", function(){
+  document.querySelector(".loader-ttrqstr").className += " hidden";
+});
+/************************** IR HACIA ARRIBA JQUERY **************************/
+  $(document).ready(function(){
+    $("#toTopgobtn").on("click", function(){
+      $('html, body').animate({
+        scrollTop: '0'
+      }, 500);
+    });
+    $(window).scroll(function(){
+      if($(this).scrollTop() > 0){
+        $("#toTopgobtn").addClass("show");
+        $("#toTopgobtn").slideDown(500);
+      }else{
+        $("#toTopgobtn").removeClass("show");
+        $("#toTopgobtn").slideDown(500);
+      }
+    });
+  });    
 (function ($) {
 
 	"use strict";

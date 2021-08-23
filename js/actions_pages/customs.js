@@ -1,8 +1,6 @@
 $(function(){
   changesFilterandTnfoProds();
 });
-
-
 $(document).ready(function(){
   //MOSTRAR Y OCULTAR CARRITO...
   var carContent = $("#view_cart_ttrq"),
@@ -18,12 +16,8 @@ $(document).ready(function(){
     cartOC.removeClass("active");
   });
 });
-
-
 $(document).ready(function(){
-  
   var idcliente = $('#userid_cli').val();
-  console.log(idcliente);
 
   $.ajax({
     url: "./php/process_list_idstore.php",

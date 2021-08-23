@@ -31,7 +31,6 @@ $path_b_p = "admin/images/banner_principal/";
     </div>
   </div>
   <div id="toTopgobtn"></div>
-  <!--<script async src="js/main.js"></script>-->
   <script async src="js/customs/custom.js"></script>
   <script type="text/javascript">
 
