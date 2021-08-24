@@ -36,7 +36,7 @@
 /* CONTENEDOR DE TODO EL TEXTO */
 .container-texto {  max-width: 1152px;  width: 80%;  margin: 3rem 0 0 0;}
 /* TÍTULO O SLOGAN PRINCIPAL DEL BANNER DE PRESENTACIÓN */
-.container-texto .content-slogan-trk{max-width: 575px;width: 95%;margin-left: auto;margin-right: auto;display: flex;align-items: center;justify-content: center;}
+.container-texto .content-slogan-trk{max-width: 640px;width: 95%;margin-left: auto;margin-right: auto;display: flex;align-items: center;justify-content: center;}
 .container-texto .content-slogan-trk h2{  font-size: 2rem;text-align: justify;text-align-last: center;margin-bottom: 7rem;  font-family: var(--fuente-categorias_1);  color: #fff;  font-weight: 500;word-break: break-word;}
 /* OPCIONES DEL CENTRO DEL BANNER */
 .container-texto > .content-options-sus-trk {  display: flex;  align-items: baseline;  justify-content: space-between;}

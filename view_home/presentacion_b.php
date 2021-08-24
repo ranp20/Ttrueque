@@ -85,7 +85,7 @@
                 <div class="container-texto">
                     <div class="content-slogan-trk">
                         <h2>
-                          <span>Ttrueque te facilita comprar y vender en forma SEGURA, y sin arriesgar tu</span>
+                          <span>Ttrueque te facilita para comprar y vender en forma SEGURA, y sin usar ni arriesgar tu</span>
                           <span>DINERO CONVENCIONAL</span>
                         </h2>
                     </div>

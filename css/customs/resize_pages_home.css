@@ -293,7 +293,7 @@
   .content-options-trk-tabs.valid-user a:first-child span{font-size: .9rem;font-weight: 500;}
   .content-options-trk-tabs.valid-user a:first-child svg{width: 35px;height: 35px;}
   .container-texto .content-slogan-trk h2 span{display: inline-block;text-align: justify;text-align-last: justify;}
-  .container-texto .content-slogan-trk h2 span:nth-child(2){display: flex;align-items: center;justify-content: center;width: 100%;letter-spacing: .612rem;white-space: normal;margin-left: .36rem;}
+  .container-texto .content-slogan-trk h2 span:nth-child(2){display: flex;align-items: center;justify-content: center;width: 100%;letter-spacing: .82rem;white-space: normal;margin-left: .36rem;}
   section > .container-desc-txt-r > .content-text-desc-trk > h2, section > .container-desc-txt-l > .content-text-desc-trk > h2{font-size: 1.8rem !important;}
 }
 @media (min-width: 1200px){
