@@ -92,7 +92,7 @@
                     <div class="content-options-sus-trk">
                         <div class="content-left-o">
                             <h2>VENDE</h2>
-                            <p>Con Ttrueque tu ganancia CRECERÁ automáticamente. El monto de tu venta se registrará en tu cuenta con un 20% adicional en tu cuenta.</p>
+                            <p>Con Ttrueque tu ganancia CRECERÁ automáticamente. El monto de tu venta se registrará en tu cuenta con el 20% adicional.</p>
                             <a href="account" class="btn-register">Regístrate sin costo</a>
                         </div>
                         <div class="content-right-o">
