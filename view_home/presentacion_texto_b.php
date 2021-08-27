@@ -20,8 +20,11 @@
 						<img src="./img/iconos_home/FLAT_shield.svg" alt="Imagen-provicional" width="500" height="300">
 					</div>
 					<div class="content-text-desc-trk">
-						<h2>Seguridad al comprar sin afectar tus datos financieros.</h2>
-						<p>Cuando quieras comprar, en los negocios asociados a Ttrueque, Podrás usar tus Bikkers, los que adquiriste vendiendo tus productos o servicios. Y lo beneficioso, es evidente, porque solo PAGARAS, 1 Bikker por un dólar.</p>
+						<h2>
+							<span>¿CÓMO SE ADQUIERE UN BIKKER?</span></br>
+							<span>AL VENDER USANDO LA PLATAFORMA DEL SISTEMA TTRUEQUE</span>
+						</h2>
+						<p>En los establecimientos físicos se vende o compra usando QR o Tárgeta Ttrueque; y en las tiendas virtuales Ttrueque, en Línea.</p>
 						<a href="./presentacion_texto_two_b">Mayores detalles</a>
 					</div>
 				</div>

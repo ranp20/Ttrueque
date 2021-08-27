@@ -61,7 +61,11 @@ section > .container-desc-txt-r > .content-text-desc-trk > h2,
 section > .container-desc-txt-l > .content-text-desc-trk > h2{
   text-transform: uppercase;
   font-size: 1.6rem !important;
-  font-weight: 600 !important;
+  font-weight: 500 !important;
+}
+section > .container-desc-txt-r > .content-text-desc-trk > h2 span:first-child,
+section > .container-desc-txt-l > .content-text-desc-trk > h2 span:first-child{
+  font-weight: 700;
 }
 section > .container-desc-txt-r > .content-text-desc-trk > h2,
 section > .container-desc-txt-r > .content-text-desc-trk > p,
