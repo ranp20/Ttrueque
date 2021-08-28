@@ -40,9 +40,10 @@ RewriteRule ^contacto?$ views/contacts.php
 
 
 ##########################################
-RewriteRule ^presentacion_texto_one_b?$  ./view_home/presentacion_texto_one_b.php
-RewriteRule ^presentacion_texto_two_b?$  ./view_home/presentacion_texto_two_b.php
-RewriteRule ^presentacion_texto_three_b?$  ./view_home/presentacion_texto_three_b.php
+RewriteRule ^page_one?$  ./view_home/presentacion_texto_one_b.php
+RewriteRule ^page_two?$  ./view_home/presentacion_texto_two_b.php
+RewriteRule ^page_three?$  ./view_home/presentacion_texto_three_b.php
+RewriteRule ^page_four?$  ./view_home/presentacion_texto_four_b.php
 RewriteRule ^recuperar-contrasena?$ views/recover-password.php
 RewriteRule ^reestablecer-contrasena?$ views/restore-password.php
 
