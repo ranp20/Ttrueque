@@ -8,21 +8,21 @@ $(function(){
 
     $.each(res, function (i, v) {
       var img_path = "./admin/images/menbresia/" + v.image;
-      var a = $("<div />").html(v.descripcion).text();
+      var a = $("<div />").html((v.descripcion).replace(/</g, '&lt;').replace(/>/g, '&gt;')).text();
 
       $("#targets-info-menbershi").append(`
-          <li>
-            <div class="t-m-img-b-trk">
-              <div loading="lazy" class="tm-image-b-trk img-fluid" style="background-image: url(${img_path});">
+          <li class="cont__tblpricetxttwo--info--mtable--item">
+            <div class="cont__tblpricetxttwo--info--mtable--item--cImg">
+              <img loading="lazy" class="cont__tblpricetxttwo--info--mtable--item--cImg--img img-fluid" src="${img_path}">
               </div>
             </div>
-            <div class="t-m-list-info-params">
+            <div class="cont__tblpricetxttwo--info--mtable--item--cBenefits">
               <h4>${v.tipo}</h4>
-              <div class="list-membership-t-p">
+              <div class="cont__tblpricetxttwo--info--mtable--item--cBenefits--cont">
                 ${a}
               </div>
             </div>
-            <a href="cliente/menbresia" class="btn-info-m-t">Conoce más</a>
+            <a href="cliente/menbresia" class="cont__tblpricetxttwo--info--mtable--item--cBenefits--link">Conoce más</a>
           </li>
         `);
     });
