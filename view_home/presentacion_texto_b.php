@@ -10,7 +10,7 @@
 					<div class="content-text-desc-trk">
 						<h2>ÚNETE A LA NUEVA FORMA SEGURA DE HACER NEGOCIOS SIN USAR DINERO CONVENCIONAL.</h2>
 						<p>Regístrate gratuitamente como Persona Natural o Empresa, y aprovecha el intercambio fluido entre usuarios.</p>
-						<a href="./presentacion_texto_one_b">Mayores detalles</a>
+						<a href="./page_one">Mayores detalles</a>
 					</div>
 				</div>
 			</section>
@@ -25,7 +25,7 @@
 							<span>AL VENDER USANDO LA PLATAFORMA DEL SISTEMA TTRUEQUE</span>
 						</h2>
 						<p>En los establecimientos físicos se vende o compra usando QR o Tárgeta Ttrueque; y en las tiendas virtuales Ttrueque, en Línea.</p>
-						<a href="./presentacion_texto_two_b">Mayores detalles</a>
+						<a href="./page_two">Mayores detalles</a>
 					</div>
 				</div>
 			</section>
@@ -35,9 +35,21 @@
 						<img src="./img/iconos_home/FLAT_dollar.svg" alt="Imagen-provicional" width="500" height="300">
 					</div>
 					<div class="content-text-desc-trk">
-						<h2>Comprar Bikkers.</h2>
-						<p>Un ejemplo: Si queremos comprar una plancha que cuenta 20 dólares en un negocio asociado a Ttrueque. Y no tenemos saldo en nuestra cuenta. La solución, comprar Bikkers. Compramos en Ttrueque, 20 Bikkers, con solo 10 dólares. Porque siempre que compramos con la cuenta Ttrueque, la fracción se duplica. EL BENEFICIO REAL Y CONCRETO, la plancha nos cuesta el 50% menos, usando nuestra cuenta Ttrueque.</p>
-						<a href="./presentacion_texto_three_b">Mayores detalles</a>
+						<h2>MEDIOS DE PAGO EN LA PLATAFORMA TTRUEQUE.</h2>
+						<p>Para comprar o vender, los usuarios utilizan el aplicativo QR(en celular), la Targeta Ttrueque y la opción en Línea.</p>
+						<a href="./page_three">Mayores detalles</a>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="container-desc-txt-l">
+					<div class="content-img-desc-trk">
+						<img src="./img/iconos_home/FLAT_lock.svg" alt="Imagen-provicional" width="500" height="300">
+					</div>
+					<div class="content-text-desc-trk">
+						<h2>ADMINISTRACIÓN DE CUENTA</h2>
+						<p>La administración de la Cuenta del usuario se fundamenta en la Seguridad y la Calidad del servicio.</p>
+						<a href="./page_four">Mayores detalles</a>
 					</div>
 				</div>
 			</section>

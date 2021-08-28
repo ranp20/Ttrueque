@@ -5,31 +5,23 @@
   <?php require_once 'header_home.php'; ?>
 </head>
 <body class="body-p-txt-threeb-ttrueque">
-	<div id="page">
-		<!--  /HEADER DEL BANNER DE PRESENTACIÓN -->
-		<?php require_once './presentacion_header_texto_b.php'; ?>
-		<!-- /BODY DE BANNER DE PRESENTACIÓN - TEXTO 1-->
-		<div class="container-body-txt-b-three">
-			<div class="content-info-txt-b-three">
-				<section>
-					<div class="content-cb-txt-b-three">
-						<h3>COMPRAR BIKERS</h3>
-						<div class="content-list-steps-txt-b-three">
-							<div class="content-img-info-page">
-								<p>En caso de no tener SALDO, en tu cuenta <strong>Ttrueque</strong>, puedes comprar Bikkers. Por cada dólar que compres, recibirás 2 Bikkers.</p>
-								<img loading="lazy" class="img-fluid" src="img/Utilities/double_ganance_2.png">
-							</div>
-							<div class="content-img-info-page">
-								<p>En todos los negocios asociodos a <strong>Ttrueque</strong>, podrás comprar con Bikkers, como se hace con cualquira targeta bancaria.</p>
-								<img loading="lazy" class="img-fluid" src="img/Utilities/card_ttrueque.png">
-							</div>
-							<div class="content-img-info-page">
-								<p>Y, cuando más vendrás tus productos o servicios, más Bikkers adquiridas en tu cuenta <strong>Ttrueque</strong>.</p>
-								<img loading="lazy" class="img-fluid" src="img/Utilities/double_welcome.png">
-							</div>
-						</div>
-					</div>
-				</section>
+	<?php require_once './presentacion_header_texto_b.php'; ?>
+	<div class="cont__txtthree">
+		<div class="cont__txtthree--cont">
+			<h3 class="cont__txtthree--cont--title">MEDIOS DE PAGO</h3>
+			<div class="cont__txtthree--cont--msteps">
+				<div class="cont__txtthree--cont--msteps--item">
+					<p class="cont__txtthree--cont--msteps--item--text"><b>LECTOR QR</b>: Para comprar o vender en los establecimientos físicos, el usuario dispondrá de un lector QR, el que podrá descargar de Play Store, aplicativo "Ttrueque - Lector QR".</p>
+					<img loading="lazy" class="cont__txtthree--cont--msteps--item--img img-fluid" src="img/Utilities/img_txt3_1.jpg">
+				</div>
+				<div class="cont__txtthree--cont--msteps--item">
+					<p class="cont__txtthree--cont--msteps--item--text"><b>TARGETA TTRUEQUE</b>: El usuario dispondrá de una targeta para comprar con facilidad en los negocios o tiendas físicas.</p>
+					<img loading="lazy" class="cont__txtthree--cont--msteps--item--img img-fluid" src="img/Utilities/img_txt3_2.jpg">
+				</div>
+				<div class="cont__txtthree--cont--msteps--item">
+					<p class="cont__txtthree--cont--msteps--item--text"><b>EN LÍNEA</b>: En Ttrueque sección Tiendas, el usuario podrá comprar y vender en línea; así como en el aplicativo "Ttrueque - Negocios sin Límites".</p>
+					<img loading="lazy" class="cont__txtthree--cont--msteps--item--img img-fluid" src="img/Utilities/img_txt3_3.jpg">
+				</div>
 			</div>
 		</div>
 	</div>
