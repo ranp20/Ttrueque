@@ -35,8 +35,8 @@
 						<img src="./img/iconos_home/FLAT_dollar.svg" alt="Imagen-provicional" width="500" height="300">
 					</div>
 					<div class="content-text-desc-trk">
-						<h2>MEDIOS DE PAGO EN LA PLATAFORMA TTRUEQUE.</h2>
-						<p>Para comprar o vender, los usuarios utilizan el aplicativo QR(en celular), la Targeta Ttrueque y la opción en Línea.</p>
+						<h2>MEDIOS DE PAGO EN LA PLATAFORMA TTRUEQUE</h2>
+						<p>Para comprar o vender, los usuarios utilizan el aplicativo QR (en celular), la Targeta Ttrueque y la opción en Línea.</p>
 						<a href="./page_three">Mayores detalles</a>
 					</div>
 				</div>

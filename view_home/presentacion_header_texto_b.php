@@ -1,5 +1,4 @@
 <div class="page_texto_b1">
-	<!-- /COTENIDO - TEXTO UNO DEL BANNER DE PRESENTACIÓN -->
 	<div class="container-texto-alls-b">
 		<header>
 			<div class="content-h-txt-b">
