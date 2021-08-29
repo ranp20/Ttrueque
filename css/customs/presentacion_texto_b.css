@@ -3,6 +3,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  font-family: fuente_txttrueque !important;
 }
 .cnt-total-info-side-lr{
   width: 100%;
@@ -39,12 +40,12 @@
 /* CONTENEDOR DE IMAGEN - LADO IZQUIERDO */
 section > .container-desc-txt-r > .content-img-desc-trk,
 section > .container-desc-txt-l > .content-img-desc-trk{
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    vertical-align: middle;
-    float: none;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  float: none;
 }
 section > .container-desc-txt-r > .content-img-desc-trk > img,
 section > .container-desc-txt-l > .content-img-desc-trk > img{
@@ -73,7 +74,6 @@ section > .container-desc-txt-r > .content-text-desc-trk > a,
 section > .container-desc-txt-l > .content-text-desc-trk > h2,
 section > .container-desc-txt-l > .content-text-desc-trk > p,
 section > .container-desc-txt-l > .content-text-desc-trk > a{
-	font-family: var(--fuente-categorias_1);
 	font-size: 2.4rem;
 	font-weight: 400;
   margin-bottom: 1.5rem;
@@ -82,7 +82,7 @@ section > .container-desc-txt-r > .content-text-desc-trk > p,
 section > .container-desc-txt-l > .content-text-desc-trk > p{
 	font-size: 1.15rem;
 	margin-bottom: 2.8rem;
-  color: #4a4a4a;
+  color: var(--color-paragraph-texts);
   text-align: justify;
 }
 section > .container-desc-txt-r > .content-text-desc-trk > a,
@@ -106,10 +106,6 @@ section > .container-desc-txt-l > .content-text-desc-trk > a:hover{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-}
-.content-tutorial-webapp-client .contain-webcli-tutorial
-.content-tutorial-webapp-client .contain-appcli-tutorial{
-
 }
 .content-tutorial-webapp-client .contain-webcli-tutorial h1,
 .content-tutorial-webapp-client .contain-appcli-tutorial h1{
@@ -177,17 +173,12 @@ section > .container-desc-txt-l > .content-text-desc-trk > a:hover{
 .content-tutorial-webapp-client .contain-webcli-tutorial .cont-steps-web ul li .cont-step p a{
   text-decoration: underline;
 }
-
 /***************** GRUÍA DEL VENDEDOR ******************/
 .content-tutorial-webapp-seller{
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-}
-.content-tutorial-webapp-seller .contain-websell-tutorial
-.content-tutorial-webapp-seller .contain-appsell-tutorial{
-
 }
 .content-tutorial-webapp-seller .contain-websell-tutorial h1,
 .content-tutorial-webapp-seller .contain-appsell-tutorial h1{
@@ -259,7 +250,6 @@ section > .container-desc-txt-l > .content-text-desc-trk > a:hover{
   display: flex;
   align-items: center;
 }
-
 .content-options-trk-tabs.valid-user a:first-child{
   padding: .5rem 1rem !important;
 }
@@ -271,10 +261,6 @@ section > .container-desc-txt-l > .content-text-desc-trk > a:hover{
   position: relative;
   top: 2px;
 }
-
-
-/* NEW STYLES INTO TABS */
-/* HEADER LOGIN Y ACCESS USER */
 #cont-b-init-home-ttrq{
   margin: 4.5rem 0 0 0 !important;    
 }
@@ -293,7 +279,6 @@ section > .container-desc-txt-l > .content-text-desc-trk > a:hover{
   font-size: .75rem;
   margin-left: 5px;
   transition: 0s;
-  font-family: var(--fuente-categorias_1);
 }
 .content-options-trk-tabs a:first-child{
   background: transparent;
@@ -310,14 +295,12 @@ section > .container-desc-txt-l > .content-text-desc-trk > a:hover{
 .content-options-trk-tabs a:first-child:hover{
   background: var(--secondary-clr);
 }
-/* RETORNAR AL HOME */
 .content-options-trk-tabs a.ico-user-valid{
   padding: .4rem 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 #cont-total-tabs{
   background: var(--primary-clr);
   color: #fff;
@@ -341,7 +324,6 @@ section > .container-desc-txt-l > .content-text-desc-trk > a:hover{
   padding: .1rem 0 .1rem 0;
   transition: .2s ease;
   border-right: 1px solid #fff;
-  font-family: var(--fuente-categorias_1);
   font-weight: bold;
   font-size: 0.84rem;
 }
@@ -418,16 +400,12 @@ section > .container-desc-txt-l > .content-text-desc-trk > a:hover{
   .cont-tabs-principal-home a:hover{
     border-right: none;
   }
-} 
-
-/* SOLUCIÓN DE BREAKPOINTS */
-/* TAMAÑO - CUSTOMS(993px) */
+}
 @media (min-width: 993px){
   .cont-tabs-principal-home a{
     font-size: 0.75rem;
   }
 }
-/* TAMAÑO - DESKTOP HD(1400px) */
 @media (min-width: 1400px){
   .cont-tabs-principal-home a{
     font-size: 0.8rem;

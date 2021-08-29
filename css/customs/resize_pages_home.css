@@ -295,7 +295,7 @@
 }
 @media (min-width: 1200px){
   .content-options-sus-trk > .content-left-o > h2,.content-options-sus-trk > .content-right-o > h2 {font-size: 1.85rem;}
-  .content-options-sus-trk > .content-left-o > p, .content-options-sus-trk > .content-right-o > p{font-size: 1.25rem;font-weight: 600;}
+  .content-options-sus-trk > .content-left-o > p, .content-options-sus-trk > .content-right-o > p{font-size: 1.25rem;font-weight: 500;}
   section > .container-desc-txt-r > .content-text-desc-trk > h2, section > .container-desc-txt-l > .content-text-desc-trk > h2{font-size: 1.95rem !important;}
 }
 @media (min-width: 1400px){

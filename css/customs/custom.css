@@ -62,15 +62,16 @@
 
   /* COLORES AGREGADOS*/
   /*--primary-clr         : #071573;*/
-  --primary-clr         : #003857;
-  --primary-clr-light   : #162EBD;
-  --secondary-clr       : #B80F0F;
-  --tertiary-clr        : #FFFFFF;
-  --grey-line-clr       : #6D7CB1;
-  --hov-secondary-clr   : #FF5151;
-  --blue-price-clr      : #036AFE;
-  --name-product-clr    : #000000;
-  --bgc-thead-car       : #243C66;
+  --primary-clr               : #003857;
+  --primary-clr-light         : #162EBD;
+  --secondary-clr             : #B80F0F;
+  --tertiary-clr              : #FFFFFF;
+  --grey-line-clr             : #6D7CB1;
+  --hov-secondary-clr         : #FF5151;
+  --blue-price-clr            : #036AFE;
+  --name-product-clr          : #000000;
+  --bgc-thead-car             : #243C66;
+  --color-paragraph-texts     : #808080;
 
   /* FONDOS */
   --bgc-login                 : #DFE9F2;
@@ -93,7 +94,13 @@
   --max-width-footer    : 1560px;
 }
 
-
+/************************** IMPORTAR LA FUENTE PARA LOS TEXTOS EN EL HOME - LUCIDA SANS **************************/
+@font-face{
+  font-family: fuente_txttrueque;
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/lucida-sans/LucidaSansRegular.ttf');
+}
 
 /*===============================================================
 =            OCULTAR EL SCROLLBAR DE LOS MODALES GUÍA            =
@@ -541,6 +548,7 @@ img{
 .body-p-txt-threeb-ttrueque,
 .body-confirm-mail-ttrueque {
   background: #fff !important;
+  font-family: fuente_txttrueque !important;
 }
 .cont-totalinfo-in-landingpage-tabs{
   min-height: 100vh;

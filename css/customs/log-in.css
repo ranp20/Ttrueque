@@ -16,7 +16,7 @@
 .content-log-in-u > section > form > .cont-controls-login *::placeholder{color: var(--placeholder-login);}
 .content-log-in-u > section > form > .cont-controls-login input:focus{	border: unset;}
 /************************** BOTÓN - INICIAR SESIÓN **************************/
-#frm-loginUserTtrq button[type=submit]{display: flex;  align-items: center;  justify-content: center;  background-color: var(--secondary-clr);  color: #fff;  min-height: 40px;  border-radius: .8rem;  font-weight: 800;  border: none;  outline: none;  box-sizing: border-box;  text-decoration: none;  transition: .1s;  font-size: .9rem;font-family: var(--fuente-categorias_1);padding: 0.68rem;}
+#frm-loginUserTtrq button[type=submit]{display: flex;  align-items: center;  justify-content: center;  background-color: var(--secondary-clr);  color: #fff;  min-height: 40px;  border-radius: .8rem;  font-weight: 800;  border: none;  outline: none;  box-sizing: border-box;  text-decoration: none;  transition: .1s;  font-size: .9rem;padding: 0.68rem;}
 #frm-loginUserTtrq button[type=submit]:active{text-decoration: underline;}
 #frm-loginUserTtrq button[type=submit]:hover{background-color: var(--hov-secondary-clr);}
 #frm-loginUserTtrq button[type=submit].active{background-color: var(--hov-secondary-clr);cursor: not-allowed;}
@@ -53,7 +53,7 @@
 .content-register-log-in-u{	text-align: center;}
 .content-divisor-log-in-u{	border-top: thin solid var(--primary-clr);	position: relative;	margin-top: 1.9rem;margin-bottom: 0;margin-left: auto;margin-right: auto;}
 .content-divisor-log-in-u > span{	background-color: var(--bgc-login);	position: relative;	padding: 0 .5em;	top: -.7em;font-size: 1.5rem;font-weight: lighter;color: var(--color-letter-o);}
-.btn-reg-log-in-u{	background-color: var(--bgc-button-login);  color: #fff;  padding: .68rem;  min-height: 40px;  width: 100%;  display: block;  box-sizing: border-box;  font-weight: 800;  font-size: .9rem;  transition: 0s;  border-radius: .8rem;font-family: var(--fuente-categorias_1);}
+.btn-reg-log-in-u{	background-color: var(--bgc-button-login);  color: #fff;  padding: .68rem;  min-height: 40px;  width: 100%;  display: block;  box-sizing: border-box;  font-weight: 800;  font-size: .9rem;  transition: 0s;  border-radius: .8rem;}
 .btn-reg-log-in-u:hover{opacity: .7;}
 /* FOOTER - LOG-IN */
 .footer-log-in-u{	  align-self: flex-end;  text-align: center;  padding: 0.87rem;  padding-top: 0.87rem;  width: 100%;  background: var(--principal-color) !important;}
