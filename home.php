@@ -27,7 +27,7 @@ $path_b_p = "admin/images/banner_principal/";
   <div id="page" class="page_index-1">
     <?php	require_once "./view_home/presentacion_b.php";?>
     <main id="contenedor-principal-home">
-      <div loading="lazy" class="img-fluid" id="img-b-p" style="background-image: url(<?php echo $path_b_p . $banner_p[0]["link_banner_p"]; ?>);"></div>
+      <img loading="lazy" class="img-fluid" src="<?php echo $path_b_p . $banner_p[0]["link_banner_p"]; ?>" alt="banner_p_ttrq">
     </main>
     <div class="cont-totalinfo-in-landingpage-tabs">
       <?php require_once './view_home/presentacion_texto_b.php'; ?>

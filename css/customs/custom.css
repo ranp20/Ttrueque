@@ -99,6 +99,7 @@
   font-family: fuente_txttrueque;
   font-style: normal;
   font-weight: normal;
+  font-display: swap;
   src: url('../fonts/lucida-sans/LucidaSansRegular.ttf');
 }
 

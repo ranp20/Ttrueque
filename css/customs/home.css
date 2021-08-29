@@ -1,11 +1,8 @@
 .content-icon-plus-payment > a{font-size:1.5em;}
 .content-icon-plus-payment > a > i{background:#3483FA;color:#fff;padding:.5em;border-radius:50%;}
-/* CONTENIDO PRODUCTOS MÁS VENDIDOS */
-/* CONTENIDO PRODUCTOS MÁS DESTACADOS */
 #content-destacados{background:#ebebeb;	padding-top: 0;}
 #content-destacados > #title-content-destacados{	margin-bottom: 1.2em;	position: unset;	display: flex;	align-items: center;	justify-content: flex-start;}
 #content-destacados > #title-content-destacados > #content-text-more-destacados > h3{	  font-family:var(--fuente-subtitles);}
-/* CONTENIDO TUS MARCAS PREFERIDAS */
 #content-marcas-p{	padding: 35px 0 0 0;}
 #content-marcas-p > #brands{	padding: 1em 0;	}
 #content-marcas-p > #brands > .owl-stage-outer{	height: 160px;	padding: 15px 0;}
@@ -14,14 +11,9 @@
 #content-marcas-p > #brands > .owl-stage-outer > .owl-stage > .owl-item > .item > a > img{	box-shadow: 0 0 0 2px #ccc;	border-radius: 50%;	padding: 25px 0;	transition: ease .4s;}
 #content-marcas-p > #title-content-marcas-p{	margin-bottom: 1.2em;	position: unset;	display: flex;	align-items: center;	justify-content: flex-start;}
 #content-marcas-p > #title-content-marcas-p > #content-text-marcas-p > h3{    font-family:var(--fuente-subtitles);}
-/* BANNER PRINCIPAL ESTÁTICO - HOME 1*/
 #contenedor-principal-home{	background-color: #fff;  width: 100%;  height: 720px;}
-/*#contenedor-principal-home:before{	content: "";	background: #000;	opacity: .4;	position: absolute;	width: 100%;	height: 100%;	z-index: 2;}
-#contenedor-principal-home:after{  content: "";  background: rgba(0,0,0,.3);  width: 100%;  height: 100%;  position: absolute;  top: 0;}*/
-#img-b-p{	width: 100%;	height: 100%;	background-size: cover;    background-repeat: no-repeat;    background-position: center;}
-/* BANNERS DEL CAROUSEL - HOME 2 */
+#contenedor-principal-home > img{width: 100%;	height: 100%;object-fit: cover;object-position: center;}
 #contenedor-principal-home_2{	background: #F5F5F5;margin-top: 4rem;}
-/* BOTÓN DEL BANNER EN EL CAROUSEL */
 a.butt_home,.butt_home { font-family: var(--fuente-categorias_1); border: none;  color: var(--tertiary-clr) !important;  background: var(--secondary-clr);  outline: none;  cursor: pointer;  display: inline-block;  text-decoration: none;  padding: .75rem 2rem;font-weight: bold;  text-align: center;  font-size: .9rem; -moz-transition: all 0.3s ease-in-out;  -o-transition: all 0.3s ease-in-out;  -webkit-transition: all 0.3s ease-in-out;  -ms-transition: all 0.3s ease-in-out;  transition: all 0.3s ease-in-out;  -webkit-border-radius: 1.5rem;  -moz-border-radius: 1.5rem;  -ms-border-radius: 1.5rem;  border-radius: 1.5rem;  line-height: normal;}
 a.butt_home:focus,.butt_home:focus {  outline: none;}
 a.butt_home:hover,.butt_home:hover {  background-color: var(--hov-secondary-clr);  color: var(--tertiary-clr) !important;}
@@ -33,7 +25,5 @@ a.butt_home.outline:focus,.butt_home.outline:focus {  outline: none;}
 a.butt_home.gray,.butt_home.gray {  background: #f0f0f0;  color: #111 !important;}
 a.butt_home.gray:hover,.butt_home.gray:hover {  background-color: #FFC107;  color: #111 !important;}
 a.butt_home i,.butt_home i {  font-weight: 600;}
-
-/* BOTONES DEL CAROUSEL DE  IMÁGENES */
 .owl-theme > .owl-dots > .owl-dot >  span{    width: 12px !important;    height: 1px !important;    border-radius: 50% !important;    padding: 3px 0 !important;}
 .owl-theme > .owl-dots > .owl-dot > span::before {    content: "";    background-color: #fff !important;    display: block !important;    width: 25px !important;    height: 1px !important;    border-radius: unset !important;    top: 0 !important;    left: 0 !important;    margin: auto !important;    position: absolute !important;    visibility: hidden !important;    transform: scale(0) !important;    transition: all 0.3s ease-in-out !important;    box-shadow: 0 2 10px 10px #fff;}
