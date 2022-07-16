@@ -487,19 +487,6 @@ $max-height-banner-desktop: 665px;
 				    &__cDesc{
   						text-align: center;
   						margin-top: 1rem;
-  						@media (min-width: 768px){
-				    		width: 50%;
-				    		margin-top: 0;
-				    		&__title{
-				    			font-size: 1.7rem;
-				    		}
-				    		&__desc{
-				    			font-size: 1.1rem;
-				    		}
-				    		&__link{
-				    			font-size: 1rem;
-				    		}
-  						}
   						&__title{
   							text-transform: uppercase;
 						    font-size: 1.6rem;
@@ -531,6 +518,19 @@ $max-height-banner-desktop: 665px;
   								color: $theme-clr-btns-txt;
   								background-color: $theme-clr-btns-hover;
   							}
+  						}
+  						@media (min-width: 768px){
+				    		width: 50%;
+				    		margin-top: 0;
+				    		&__title{
+				    			font-size: 1.7rem;
+				    		}
+				    		&__desc{
+				    			font-size: 1.1rem;
+				    		}
+				    		&__link{
+				    			font-size: 1rem;
+				    		}
   						}
 				    }
 			    }
