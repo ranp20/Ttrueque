@@ -41,7 +41,7 @@
 section > .container-desc-txt-r > .content-img-desc-trk,
 section > .container-desc-txt-l > .content-img-desc-trk{
   width: 50%;
-  display: flex;
+  display: table;
   align-items: center;
   justify-content: center;
   vertical-align: middle;
