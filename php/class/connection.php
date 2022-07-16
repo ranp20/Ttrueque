@@ -3,7 +3,7 @@ class Connection
 {
     protected $con = null;
     private $host = "localhost";
-    private $dbname = "trueque_test";
+    private $dbname = "db_ttrueque";
     private $user = "root";
     private $pass = "";
 
