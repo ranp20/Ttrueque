@@ -21,3 +21,5 @@
 <link href="./css/customs/custom.css" rel="stylesheet">
 <!-- //ICON-PAGES -->
 <link rel="icon" href="./img/icon-pages/drawable-xxxhdpi-icon.png" type="image/ico">
+<!-- STYLESSHEET -->
+<link rel="stylesheet" href="<?= $url;?>assets/css/styles.min.css"/>

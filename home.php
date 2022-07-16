@@ -15,8 +15,6 @@ if($mantenience == 'YES' || $mantenience == 'yes'){
 <head>
 <title>Trueque | Home</title>
 <?php require_once 'view_home/header_links-home.php';?>
-<!-- STYLESSHEET -->
-<link rel="stylesheet" href="<?= $url;?>assets/css/styles.min.css"/>
 </head>
 <body>
 <?php	require_once "view_home/presentacion_b.php";?>
