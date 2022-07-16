@@ -1,5 +1,5 @@
 <?php require_once "./php/process_header_home.php"; ?>
-<div class="content-total-banner c-bannerH" id="cont-b-init-home-ttrq">
+<div class="c-bannerH" id="cont-b-init-home-ttrq">
   <nav class="c-bannerH__nav navbar navbar-expand-lg navbar-dark justify-content-sm-start" id="cont-total-tabs">
     <div class="c-bannerH__nav__clinks box-wuot-pdd" id="c--navbarcontainerHome">
       <a class="c-bannerH__nav__clinks__cIconLogo navbar-brand order-1 order-lg-0 ml-lg-0 ml-2 mr-auto cont-logo-ttrq-nav-tabs" href="./">
@@ -74,30 +74,32 @@
     </div>
   </nav>
   <div class="overlay"></div>
-  <div class="content-banner-p-trk">
-      <div class="content-b-banner-trk">
-          <section>
-              <div class="container-texto">
-                  <div class="content-slogan-trk">
-                      <h2>
+  <div class="c-bannerH__heroI">
+      <div class="c-bannerH__heroI__c">
+          <ul class="c-bannerH__heroI__c__m">
+              <li class="c-bannerH__heroI__c__m__i">
+                <div class="c-bannerH__heroI__c__m__i__cont">
+                    <div class="c-bannerH__heroI__c__m__i__cont__cT">
+                      <h2 class="c-bannerH__heroI__c__m__i__cont__cT__title">
                         <span>Ttrueque te facilita para comprar y vender en forma SEGURA, y sin usar ni arriesgar tu</span>
                         <span>DINERO CONVENCIONAL</span>
                       </h2>
-                  </div>
-                  <div class="content-options-sus-trk">
-                      <div class="content-left-o">
-                          <h2>VENDE</h2>
-                          <p>Con Ttrueque tu ganancia CRECERÁ automáticamente. El monto de tu venta se registrará en tu cuenta con el 20% adicional.</p>
-                          <a href="account" class="btn-register">Regístrate sin costo</a>
+                    </div>
+                    <div class="c-bannerH__heroI__c__m__i__cont__cB">
+                      <div class="c-bannerH__heroI__c__m__i__cont__cB__cdesc">
+                        <h2 class="c-bannerH__heroI__c__m__i__cont__cB__cdesc__title">VENDE</h2>
+                        <p class="c-bannerH__heroI__c__m__i__cont__cB__cdesc__desc">Con Ttrueque tu ganancia CRECERÁ automáticamente. El monto de tu venta se registrará en tu cuenta con el 20% adicional.</p>
+                        <a href="account" class="c-bannerH__heroI__c__m__i__cont__cB__cdesc__link" title="Regístrate sin costo">Regístrate sin costo</a>
                       </div>
-                      <div class="content-right-o">
-                          <h2>COMPRA</h2>
-                          <p>Bikker, es la moneda digital que utiliza la plataforma del sistema Ttrueque. 1 Bikker equivale a 1 Dólar Americano. <i>¡Regístrate! Vende y compra en Bikkers</i></p>
-                          <a href="account" class="btn-register">Regístrate sin costo</a>
+                      <div class="c-bannerH__heroI__c__m__i__cont__cB__cdesc">
+                        <h2 class="c-bannerH__heroI__c__m__i__cont__cB__cdesc__title">COMPRA</h2>
+                        <p class="c-bannerH__heroI__c__m__i__cont__cB__cdesc__desc">Bikker, es la moneda digital que utiliza la plataforma del sistema Ttrueque. 1 Bikker equivale a 1 Dólar Americano. <i>¡Regístrate! Vende y compra en Bikkers</i></p>
+                        <a href="account" class="c-bannerH__heroI__c__m__i__cont__cB__cdesc__link" title="Regístrate sin costo">Regístrate sin costo</a>
                       </div>
-                  </div>
-              </div>
-          </section>
+                    </div>
+                </div>
+              </li>
+          </ul>
       </div>
   </div>
 </div>

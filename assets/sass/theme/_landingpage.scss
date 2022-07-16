@@ -2,7 +2,7 @@
 .c-bannerH{
 	position: absolute;
 	width: 100%;
-	height: 600px;
+	height: auto;
 	color: #fff;
 	z-index: 99;
 	text-align: center;
@@ -11,6 +11,7 @@
 	box-sizing: border-box;
 	padding: 0;
 	.overlay{
+    display: none;
 		position: fixed;
     top: 0;
     bottom: 0;
@@ -18,10 +19,15 @@
     right: 0;
     margin: auto;
     background-color: rgba(0, 0, 0, 0.5);
-    display: none;
     &.open{
     	display: block;
     	z-index: 1029;
+    }
+    @media (min-width: 991px){
+    	display: none;
+    	&.open{
+    		display: none;
+    	}
     }
 	}
 	/* HOME - NAVIGATION */
@@ -98,6 +104,9 @@
 			    flex-basis: auto;
     			-webkit-transform: translateX(0) !important;
 		    	transform: translateX(0) !important;
+		    	&.open{
+    				width: auto;
+    			}
     		}
     		&__m{
     			width: 100%;
@@ -161,6 +170,161 @@
 			    }
     		}
     	}
+		}
+	}
+	/* HOME - HEROIMAGE */
+	&__heroI{
+		margin-top: 90px;
+		width: 100%;
+		box-sizing: border-box;
+		&__c{
+			top: 0;
+			position: relative;
+			&__m{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				margin-left: auto;
+				margin-right: auto;
+				&__i{
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					&__cont{
+						max-width: 1152px;
+						width: 80%;
+						margin: 0;
+						@media (min-width: 1024px){
+							margin: 3rem 0 0 0;
+						}
+						&__cT{
+					    max-width: 680px;
+					    width: 100%;
+					    margin-left: auto;
+					    margin-right: auto;
+					    display: flex;
+					    align-items: center;
+					    justify-content: center;
+					    &__title{
+					    	text-align: justify;
+					    	text-align-last: center;
+			    	    color: #fff;
+				    	  font-weight: 500;
+				    	  word-break: break-word;
+				    	  font-size: 1.4rem;
+				    	  margin-bottom: 3rem;
+				    	  @media (min-width: 768px){
+				    	  	font-size: 1.7rem;
+				    	  	margin-bottom: 4rem;
+				    	  }
+				    	  @media (min-width: 1024px){
+					    		font-size: 2rem;
+					    		margin-bottom: 7rem;
+				    	  }
+				    	  span{
+				    	  	text-align: justify;
+				    	  	text-align-last: justify;
+				    	  	display: flex;
+									&:nth-child(2){
+										display: flex;
+										align-items: center;
+										justify-content: center;
+										width: 100%;
+										letter-spacing: 0;
+										white-space: normal;
+										margin-left: 0;
+									}
+									@media (min-width: 1024px){
+										&:nth-child(2){										
+											display: flex;
+											align-items: center;
+											justify-content: center;
+											width: 100%;
+											letter-spacing: .95rem;
+											white-space: normal;
+											margin-left: .36rem;
+										}
+									}
+				    	 	}
+					    }
+						}
+						/* VENTAJAS */
+						&__cB{
+							display: flex;
+							flex-flow: row wrap;
+					    justify-content: center;
+					    align-items: center;
+							@media (min-width: 768px){
+								align-items: baseline;
+								justify-content: space-between;
+							}
+							&__cdesc{
+								width: 95%;
+								display: flex;
+								flex-direction: column;
+								align-items: center;
+								margin-bottom: 3rem;
+								text-align-last: center;
+								@media (min-width: 768px){
+									width: 35%;
+									margin-bottom: 0;
+								}
+								@media (min-width: 1024px){
+									width: 43%;
+									min-height: 250px;
+								}
+								&__title{
+									font-weight: bold;
+									color: #fff;
+									font-size: 1.5rem;
+									margin-bottom: 1rem;
+									@media (min-width: 768px){
+										font-size: 1.75rem;
+									}
+									@media (min-width: 1024px){
+										font-size: 1.85rem;
+									}
+								}
+								&__desc{
+									font-size: 1.05rem;
+									font-weight: 600;
+									line-height: 1.4;
+									height: auto;
+									margin-bottom: 2rem !important;
+									text-align: justify;
+									@media (min-width: 768px){
+										font-size: 1.1rem;
+									}
+									@media (min-width: 1024px){
+										font-size: 1.25rem;
+										font-weight: 500;
+									}
+								}
+								&__link{
+									background-color: $theme-clr-btns-border;
+									color: $theme-clr-btns-txt;
+									border-radius: 1.5em;
+									padding: 0.7rem 2.5rem;
+									text-align: center !important;
+									display: flex;
+									font-weight: bold;
+									font-size: .9rem;
+									transition: .2s ease-in-out;
+									justify-content: center;
+									@media (min-width: 1024px){
+										position: absolute;
+										bottom: 0;
+									}
+									&:hover{
+										background-color: $theme-clr-btns-hover;
+										color: $theme-clr-btns-txt;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 }
