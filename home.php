@@ -19,14 +19,12 @@ $path_b_p = "admin/images/banner_principal/";
 <title>Trueque | Home</title>
 <?php require_once 'view_home/header_home.php'; ?>
 <!-- STYLESSHEET -->
-<link rel="stylesheet" href="<?= $url; ?>assets/css/styles.min.css"/>
+<link rel="stylesheet" href="<?= $url;?>assets/css/styles.min.css"/>
 </head>
 <body>
-<div id="page" class="page_index-1">
 <?php	require_once "./view_home/presentacion_b.php";?>
 <div class="cont-totalinfo-in-landingpage-tabs">
 <?php require_once './view_home/presentacion_texto_b.php'; ?>
-</div>
 </div>
 <div id="toTopgobtn"></div>
 <script type="text/javascript" src="js/home.js"></script>

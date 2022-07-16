@@ -2,7 +2,7 @@
 <div class="c-bannerH" id="cont-b-init-home-ttrq">
   <nav class="c-bannerH__nav navbar navbar-expand-lg navbar-dark justify-content-sm-start" id="cont-total-tabs">
     <div class="c-bannerH__nav__clinks box-wuot-pdd" id="c--navbarcontainerHome">
-      <a class="c-bannerH__nav__clinks__cIconLogo navbar-brand order-1 order-lg-0 ml-lg-0 ml-2 mr-auto cont-logo-ttrq-nav-tabs" href="./">
+      <a class="c-bannerH__nav__clinks__cIconLogo navbar-brand order-1 order-lg-0 ml-lg-0 ml-2 mr-auto cont-logo-ttrq-nav-tabs" href="./" title="Logo de Ttrueque">
         <img src="././img/logo/logotipo-T-white.svg" alt="Logo_Ttrueque" class="img-fluid" width="100" height="100">
       </a>
       <button type="button" class="navbar-toggler align-self-start menu-nav-burger" title="Menú">
