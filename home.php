@@ -16,22 +16,19 @@ $path_b_p = "admin/images/banner_principal/";
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <title>Trueque | Home</title>
-  <?php require_once 'view_home/header_home.php'; ?>
-  <!-- STYLESSHEET -->
-  <link rel="stylesheet" href="<?= $url; ?>assets/css/styles.min.css"/>
+<title>Trueque | Home</title>
+<?php require_once 'view_home/header_home.php'; ?>
+<!-- STYLESSHEET -->
+<link rel="stylesheet" href="<?= $url; ?>assets/css/styles.min.css"/>
 </head>
 <body>
-  <div id="page" class="page_index-1">
-    <?php	require_once "./view_home/presentacion_b.php";?>
-    <main id="contenedor-principal-home">
-      <img class="img-fluid" src="<?php echo $path_b_p . $banner_p[0]["link_banner_p"]; ?>" alt="banner_p_ttrq" width="100" height="100">
-    </main>
-    <div class="cont-totalinfo-in-landingpage-tabs">
-      <?php require_once './view_home/presentacion_texto_b.php'; ?>
-    </div>
-  </div>
-  <div id="toTopgobtn"></div>
-  <script type="text/javascript" src="js/home.js"></script>
+<div id="page" class="page_index-1">
+<?php	require_once "./view_home/presentacion_b.php";?>
+<div class="cont-totalinfo-in-landingpage-tabs">
+<?php require_once './view_home/presentacion_texto_b.php'; ?>
+</div>
+</div>
+<div id="toTopgobtn"></div>
+<script type="text/javascript" src="js/home.js"></script>
 </body>
 </html>
