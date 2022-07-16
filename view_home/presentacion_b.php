@@ -1,4 +1,8 @@
-<?php require_once "./php/process_header_home.php"; ?>
+<?php 
+require_once "./php/process_header_home.php"; 
+$banner_p = $data["banner_principal"];
+$path_b_p = "admin/images/banner_principal/";
+?>
 <div class="c-bannerH" id="cont-b-init-home-ttrq">
   <nav class="c-bannerH__nav navbar navbar-expand-lg navbar-dark justify-content-sm-start" id="cont-total-tabs">
     <div class="c-bannerH__nav__clinks box-wuot-pdd" id="c--navbarcontainerHome">

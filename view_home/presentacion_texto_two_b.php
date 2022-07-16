@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <title>Trueque | Page Two</title>
-  <?php require_once 'header_home.php'; ?>
+  <?php require_once 'header_links-home.php';?>
 </head>
 <body class="body-p-txt-twob-ttrueque">
 	<div id="page" class="page-two_b">

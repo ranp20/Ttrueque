@@ -18,9 +18,8 @@ $(() => {
     }
   });
   // ------------ IR HACIA ARRIBA JQUERY
-  $("#toTopgobtn").on("click", function(){
-    $('html, body').animate({scrollTop: '0'}, 500);
-  });
+  $("#toTopgobtn").on("click", function(){$('html, body').animate({scrollTop: '0'}, 500);});
+  
   const linksParent = $(".cont-links-pgs-info");
   const links = linksParent.find("a");
   const items = $(".oposition-info");

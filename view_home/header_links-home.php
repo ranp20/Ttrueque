@@ -21,5 +21,3 @@
 <link href="./css/customs/custom.css" rel="stylesheet">
 <!-- //ICON-PAGES -->
 <link rel="icon" href="./img/icon-pages/drawable-xxxhdpi-icon.png" type="image/ico">
-<!-- //CUSTOMS JS -->
-<script src="./js/customs.js"></script>
