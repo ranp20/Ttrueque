@@ -58,8 +58,12 @@ $max-height-banner-desktop: 665px;
 	    align-items: center;
 	    -ms-flex-pack: justify;
 	    justify-content: space-between;
-    	padding-right: 0;
-    	padding-left: 0;
+    	padding-right: .5rem;
+    	padding-left: .5rem;
+    	@media (min-width: 991px){
+				padding-left: 0;
+				padding-right: 0;
+			}
     	/* NAVIGATION - LOGO */
     	&__cIconLogo{
     		padding: 0 !important;
