@@ -1,0 +1,4 @@
+/* ANCHO MÁXIMO DE LA PÁGINAS */
+@mixin max-width($maxwidth){
+	max-width: $maxwidth;
+}

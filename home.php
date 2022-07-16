@@ -18,6 +18,8 @@ $path_b_p = "admin/images/banner_principal/";
 <head>
   <title>Trueque | Home</title>
   <?php require_once 'view_home/header_home.php'; ?>
+  <!-- STYLESSHEET -->
+  <link rel="stylesheet" href="<?= $url; ?>assets/css/styles.min.css"/>
 </head>
 <body>
   <div id="page" class="page_index-1">

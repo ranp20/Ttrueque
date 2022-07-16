@@ -245,10 +245,9 @@
   .contn-info-que-es p, .contn-info-como-se-usa p, .contn-info-tramites-que-hacer p, .contn-info-preguntas-frecuentes p{font-size: 0.95rem;text-align: justify;}
 	.cont-preg-frecuentes ul li h1{font-size: 1.35rem;}
 	.content-que-es-ttrq section, .content-como-se-usa-ttrq section, .content-tramites-que-hacer-ttrq section, .content-preguntas-frecuentes-ttrq section{width: 85%;}
-  #cont-b-init-home-ttrq #cont-total-tabs{padding: .67rem .3rem;}
-  #cont-b-init-home-ttrq #cont-total-tabs .container .cont-logo-ttrq-nav-tabs{margin: 0 !important;}
-  #cont-b-init-home-ttrq #cont-total-tabs .container .cont-logo-ttrq-nav-tabs img{width: 85px !important;}
-  #cont-b-init-home-ttrq #cont-total-tabs .container .content-options-trk-tabs a{font-size: 0.65rem;padding: 0.7rem 1rem;}
+  .c-bannerH__nav .container .cont-logo-ttrq-nav-tabs{margin: 0 !important;}
+  .c-bannerH__nav .container .cont-logo-ttrq-nav-tabs img{width: 85px !important;}
+  .c-bannerH__nav .container .content-options-trk-tabs a{font-size: 0.65rem;padding: 0.7rem 1rem;}
   #cont-total-tabs .container .mobileMenu.open{top: 10px !important;width: 100% !important;}
 }
 @media (min-width: 244px) and (max-width: 300px){
@@ -256,25 +255,23 @@
   .container-texto > .content-slogan-trk > h2{font-size: 1.4rem !important;margin-bottom: 2rem;}
   .content-options-sus-trk > .content-left-o > h2, .content-options-sus-trk > .content-right-o > h2{font-size: 0.95rem !important;line-height: 1;}
   .content-options-sus-trk > .content-left-o > p, .content-options-sus-trk > .content-right-o > p{font-size: 0.85rem !important;line-height: 1.4;}
-  #cont-b-init-home-ttrq #cont-total-tabs .container .content-options-trk-tabs a.ico-user-valid{padding: 0.7rem 0.65rem;}
-  #cont-b-init-home-ttrq #cont-total-tabs .container .content-options-trk-tabs a.ico-user-valid svg{width: 0.7rem;}
+  .c-bannerH__nav .container .content-options-trk-tabs a.ico-user-valid{padding: 0.7rem 0.65rem;}
+  .c-bannerH__nav .container .content-options-trk-tabs a.ico-user-valid svg{width: 0.7rem;}
 }
 @media (min-width: 300px){
   #cont-total-tabs .container .mobileMenu.open{width: 80% !important;top: 8px !important;}
-  #cont-b-init-home-ttrq #cont-total-tabs{padding: .5rem 1rem;}
-  #cont-b-init-home-ttrq #cont-total-tabs .container .cont-logo-ttrq-nav-tabs img{width: 100px !important;}
+  .c-bannerH__nav .container .cont-logo-ttrq-nav-tabs img{width: 100px !important;}
 }
 @media (min-width: 480px){
   .contn-info-que-es h1, .contn-info-como-se-usa h1, .contn-info-tramites-que-hacer h1, .contn-info-preguntas-frecuentes h1{font-size: 1.6rem;}
   .contn-info-que-es p, .contn-info-como-se-usa p, .contn-info-tramites-que-hacer p, .contn-info-preguntas-frecuentes p{font-size: 1rem;}
   #cont-total-tabs .container .mobileMenu.open{top: 18px !important;}
-  #cont-b-init-home-ttrq #cont-total-tabs{padding: .8rem 1rem;}
-  #cont-b-init-home-ttrq #cont-total-tabs .container .cont-logo-ttrq-nav-tabs img{width: 145px !important;}
+  .c-bannerH__nav .container .cont-logo-ttrq-nav-tabs img{width: 145px !important;}
 }
 @media (min-width: 768px){
   .contn-info-que-es h1, .contn-info-como-se-usa h1, .contn-info-tramites-que-hacer h1, .contn-info-preguntas-frecuentes h1{font-size: 1.85rem;}
   .contn-info-que-es p, .contn-info-como-se-usa p, .contn-info-tramites-que-hacer p, .contn-info-preguntas-frecuentes p{font-size: 1.05rem;}
-  #cont-b-init-home-ttrq #cont-total-tabs .container .content-options-trk-tabs a{font-size: 0.7rem;}
+  .c-bannerH__nav .container .content-options-trk-tabs a{font-size: 0.7rem;}
   #cont-total-tabs .container .mobileMenu.open{width: 50% !important;}
   .content-options-sus-trk > .content-left-o > h2,.content-options-sus-trk > .content-right-o > h2 {font-size: 1.75rem;}
   .content-options-sus-trk > .content-left-o > p, .content-options-sus-trk > .content-right-o > p{font-size: 1.1rem;}
@@ -285,7 +282,7 @@
   .contn-info-que-es p, .contn-info-como-se-usa p, .contn-info-tramites-que-hacer p, .contn-info-preguntas-frecuentes p{font-size: 1.2rem;}
   .content-que-es-ttrq section, .content-como-se-usa-ttrq section, .content-tramites-que-hacer-ttrq section, .content-preguntas-frecuentes-ttrq section{width: 90%;}
   .cont-preg-frecuentes ul li h1{font-size: 1.65rem;}
-  #cont-b-init-home-ttrq #cont-total-tabs .container .content-options-trk-tabs a{padding: 0.8rem 1.2rem;}
+  .c-bannerH__nav .container .content-options-trk-tabs a{padding: 0.8rem 1.2rem;}
   .content-options-trk-tabs.valid-user a:first-child{padding: .2rem 1.2rem !important;}
   .content-options-trk-tabs.valid-user a:first-child span{font-size: .9rem;font-weight: 500;}
   .content-options-trk-tabs.valid-user a:first-child svg{width: 35px;height: 35px;}
