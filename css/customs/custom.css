@@ -551,11 +551,6 @@ img{
   background: #fff !important;
   font-family: fuente_txttrueque !important;
 }
-.cont-totalinfo-in-landingpage-tabs{
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
 #total-content-account{margin: 0 !important;}
 /*PRELOADER TO ALL PAGES*/
 .loader {

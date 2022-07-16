@@ -23,9 +23,7 @@ $path_b_p = "admin/images/banner_principal/";
 </head>
 <body>
 <?php	require_once "./view_home/presentacion_b.php";?>
-<div class="cont-totalinfo-in-landingpage-tabs">
-<?php require_once './view_home/presentacion_texto_b.php'; ?>
-</div>
+<?php require_once './view_home/presentacion_texto_b.php';?>
 <div id="toTopgobtn"></div>
 <script type="text/javascript" src="js/home.js"></script>
 </body>

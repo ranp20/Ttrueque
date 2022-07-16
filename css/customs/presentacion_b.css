@@ -39,12 +39,7 @@
 .content-b-bar-options-h .cont-opts-h ul a:hover li{  color: #fff;  box-shadow: 0 -2px 0 0 #fff inset;  background: dodgerblue;}
 .content-b-bar-options-h .cont-opts-h ul a.active li{  color: #fff;  box-shadow: 0 -2px 0 0 #fff inset;  background: dodgerblue;}
 /* TEXTO INFORMATIVO DE PRESENTACIÓN */
-.cont-total-informacion-home{  background: #fff;  width: 100%;  height: 100vh;  position: relative;}
-.cont-total-informacion-home .oposition-info{  position: absolute;  background: #fff;  display: none;}
-.cont-total-informacion-home .oposition-info.active{  display: block;}
 /* CONTENIDOS DEL HOME - GUÍA AL USUARIO */
-.content-que-es-ttrq,.content-como-se-usa-ttrq,.content-tramites-que-hacer-ttrq,.content-preguntas-frecuentes-ttrq{  width: 100%;  }
-.content-que-es-ttrq section,.content-como-se-usa-ttrq section,.content-tramites-que-hacer-ttrq section,.content-preguntas-frecuentes-ttrq section{max-width: 1152px;  padding: 70px 0;  margin: auto;  min-height: 100vh;}
 .contn-info-que-es,.contn-info-como-se-usa,.contn-info-tramites-que-hacer,.contn-info-preguntas-frecuentes{  font-family: 'Raleway';}
 .contn-info-que-es h1,.contn-info-como-se-usa h1,.contn-info-tramites-que-hacer h1,.contn-info-preguntas-frecuentes h1{  color: steelblue;  text-align: center;  margin: 0 0 1.2rem 0;}
 .contn-info-preguntas-frecuentes > h1{  margin: 0 0 3rem 0;}
