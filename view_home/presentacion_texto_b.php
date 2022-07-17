@@ -6,7 +6,7 @@
 				<section class="c-infTbs__c__item__cont__itm">
 					<div class="c-infTbs__c__item__cont__itm__c c-align-l container-desc-txt-r">
 						<div class="c-infTbs__c__item__cont__itm__c__cIcon content-img-desc-trk">
-							<img src="./img/iconos_home/FLAT_handshake.svg" alt="Imagen-provicional" width="500" height="300">
+							<img src="./img/iconos_home/FLAT_handshake.svg" alt="icon-advantaje-1" width="100" height="100">
 						</div>
 						<div class="c-infTbs__c__item__cont__itm__c__cDesc content-text-desc-trk">
 							<h2 class="c-infTbs__c__item__cont__itm__c__cDesc__title">ÚNETE A LA NUEVA FORMA SEGURA DE HACER NEGOCIOS SIN USAR DINERO CONVENCIONAL.</h2>
@@ -18,7 +18,7 @@
 				<section class="c-infTbs__c__item__cont__itm">
 					<div class="c-infTbs__c__item__cont__itm__c c-align-r container-desc-txt-l">
 						<div class="c-infTbs__c__item__cont__itm__c__cIcon content-img-desc-trk">
-							<img src="./img/iconos_home/FLAT_shield.svg" alt="Imagen-provicional" width="500" height="300">
+							<img src="./img/iconos_home/FLAT_shield.svg" alt="icon-advantaje-2" width="100" height="100">
 						</div>
 						<div class="c-infTbs__c__item__cont__itm__c__cDesc content-text-desc-trk">
 							<h2 class="c-infTbs__c__item__cont__itm__c__cDesc__title">
@@ -33,7 +33,7 @@
 				<section class="c-infTbs__c__item__cont__itm">
 					<div class="c-infTbs__c__item__cont__itm__c c-align-l container-desc-txt-r">
 						<div class="c-infTbs__c__item__cont__itm__c__cIcon content-img-desc-trk">
-							<img src="./img/iconos_home/FLAT_dollar.svg" alt="Imagen-provicional" width="500" height="300">
+							<img src="./img/iconos_home/FLAT_dollar.svg" alt="icon-advantaje-3" width="100" height="100">
 						</div>
 						<div class="c-infTbs__c__item__cont__itm__c__cDesc content-text-desc-trk">
 							<h2 class="c-infTbs__c__item__cont__itm__c__cDesc__title">MEDIOS DE PAGO EN LA PLATAFORMA TTRUEQUE</h2>
@@ -45,7 +45,7 @@
 				<section class="c-infTbs__c__item__cont__itm">
 					<div class="c-infTbs__c__item__cont__itm__c c-align-r container-desc-txt-l">
 						<div class="c-infTbs__c__item__cont__itm__c__cIcon content-img-desc-trk">
-							<img src="./img/iconos_home/FLAT_lock.svg" alt="Imagen-provicional" width="500" height="300">
+							<img src="./img/iconos_home/FLAT_lock.svg" alt="icon-advantaje-4" width="100" height="100">
 						</div>
 						<div class="c-infTbs__c__item__cont__itm__c__cDesc content-text-desc-trk">
 							<h2 class="c-infTbs__c__item__cont__itm__c__cDesc__title">ADMINISTRACIÓN DE CUENTA</h2>
@@ -94,13 +94,13 @@
 		</div>
 		<!--///QUÉ ES TRUEQUE-->
 		<div class="c-infTbs__c__item content-que-es-ttrq oposition-info" id="que-es-ttrueque">
-			<section class="c-infTbs__c__item__cont__itm box-redx">
-				<div class="contn-info-que-es">
+			<section class="c-infTbs__c__item__cont__sect box-redx">
+				<div class="c-infTbs__c__item__cont__sect__c contn-info-que-es">
 					<h1>¿Qué es Ttrueque.com?</h1>
 					<p>Ttrueque.com es un club en línea creado para intercambiar productos por Bikkers, esto con la finalidad de no tener que usar tu dinero real.</p>
 					<p>Es muy sencillo, tan solo ingresa y/o registrate en la página web <a href="login">www.ttrueque.com</a> y de inmediato puedes comenzar a comprar con el bono de bienvenida, el cuál te brinda 100 Bikkers para comprar lo que quieras dentro del sitio.</p>
 					<p>Posterior a la compra el vendedor de dicha tienda te informará si tu pedido o compra ha sido recogido y dará pie al siguiente paso, que consiste en la entrega como tál de dicho artículo a la dirección que especificaste con anterioridad al crear tu cuenta.</p>
-					<div class="cont-img-referencial">
+					<div class="c-infTbs__c__item__cont__sect__c__cImgB cont-img-referencial">
 						<img src="img/svg/business_shop_ttrq.svg" alt="shoppng_in_ttrueque">
 					</div>
 				</div>
@@ -144,8 +144,8 @@
 		</div>
 		<!--///GUÍA AL COMPRADOR EN TRUEQUE-->
 		<div class="c-infTbs__c__item content-como-se-usa-ttrq oposition-info" id="guia-al-comprador-ttrueque">
-			<section class="c-infTbs__c__item__cont__itm box-redx">
-				<div class="contn-info-como-se-usa">
+			<section class="c-infTbs__c__item__cont__sect box-redx">
+				<div class="c-infTbs__c__item__cont__sect__c contn-info-como-se-usa">
 					<h1>GUÍA DE COMPRADOR</h1>
 					<div class="content-tutorial-webapp-client">
 						<div class="contain-webcli-tutorial">
@@ -264,8 +264,8 @@
 		</div>
 		<!--///GUÍA AL VENDEDOR EN TRUEQUE-->
 		<div class="c-infTbs__c__item content-tramites-que-hacer-ttrq oposition-info" id="guia-al-vendedor-ttrueque">
-			<section class="c-infTbs__c__item__cont__itm box-redx">
-				<div class="contn-info-tramites-que-hacer">
+			<section class="c-infTbs__c__item__cont__sect box-redx">
+				<div class="c-infTbs__c__item__cont__sect__c contn-info-tramites-que-hacer">
 					<h1>GUÍA DE VENDEDOR</h1>
 					<div class="content-tutorial-webapp-seller">
 						<div class="contain-websell-tutorial">
@@ -373,8 +373,8 @@
 		</div>
 		<!--///PREGUNTAS FRECUENTES TRUEQUE-->
 		<div class="c-infTbs__c__item content-preguntas-frecuentes-ttrq oposition-info" id="preguntas-frecuentes-ttrueque">
-			<section class="c-infTbs__c__item__cont__itm box-redx">
-				<div class="contn-info-preguntas-frecuentes">
+			<section class="c-infTbs__c__item__cont__sect box-redx">
+				<div class="c-infTbs__c__item__cont__sect__c contn-info-preguntas-frecuentes">
 					<h1>PREGUNTAS FRECUENTES</h1>
 						<div class="cont-preg-frecuentes">
 							<ul>

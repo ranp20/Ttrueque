@@ -40,13 +40,6 @@
 .content-b-bar-options-h .cont-opts-h ul a.active li{  color: #fff;  box-shadow: 0 -2px 0 0 #fff inset;  background: dodgerblue;}
 /* TEXTO INFORMATIVO DE PRESENTACIÓN */
 /* CONTENIDOS DEL HOME - GUÍA AL USUARIO */
-.contn-info-que-es,.contn-info-como-se-usa,.contn-info-tramites-que-hacer,.contn-info-preguntas-frecuentes{  font-family: 'Raleway';}
-.contn-info-que-es h1,.contn-info-como-se-usa h1,.contn-info-tramites-que-hacer h1,.contn-info-preguntas-frecuentes h1{  color: steelblue;  text-align: center;  margin: 0 0 1.2rem 0;}
-.contn-info-preguntas-frecuentes > h1{  margin: 0 0 3rem 0;}
-.contn-info-que-es p,.contn-info-como-se-usa p,.contn-info-tramites-que-hacer p,.contn-info-preguntas-frecuentes p{  font-size: 1.3rem;}
-.contn-info-que-es p a{  text-decoration: underline;}
-.contn-info-que-es .cont-img-referencial{  text-align: center;  display: flex;  align-items: center;  justify-content: center;  margin: 2.1rem 0;}
-.contn-info-que-es .cont-img-referencial img{  width: 240px;}
 /* PREGUNTAS FRECUENTES */
 .cont-preg-frecuentes ul{  display: block;  list-style: none;  padding: 0;  margin: 0;}
 .cont-preg-frecuentes ul li{  margin-bottom: 4rem;}

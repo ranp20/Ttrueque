@@ -175,7 +175,7 @@ $max-height-banner-desktop: 665px;
 			    font-weight: 400;
 			    font-size: .65rem;
 			    margin-left: 0;
-			    transition: 0s;
+			    transition: ease-in-out .2s;
 			    &.ico-user-valid{
 			    	padding: .4rem 1rem;
 					  display: flex;
@@ -187,12 +187,19 @@ $max-height-banner-desktop: 665px;
 				    border: thin solid $theme-clr-btns-border;
 				    color: $theme-clr-btns-txt;
 				    font-weight: bold;
+				    &:hover{
+				    	background-color: $theme-clr-btns-border;
+				    	color: $theme-clr-btns-txt;
+				    }
 			    }
 			    &:nth-child(2){
 		  	    background-color: #fff;
 				    color: #000;
 				    display: none;
 				    padding: 0.7rem 1.8rem;
+				    &:hover{
+				    	background-color: darken(#fff, 20%);
+				    }
 			    }
 			    @media (min-width: 991px){
 			    	font-size: .7rem;
@@ -506,6 +513,7 @@ $max-height-banner-desktop: 665px;
 				    justify-content: space-between;
 				    flex-flow: column wrap;
 			    	text-align: center;
+			    	margin: 1rem 0 2rem 0;
 				    &.c-align-l{
 				    	flex-flow: column wrap;
 				    }
@@ -591,6 +599,62 @@ $max-height-banner-desktop: 665px;
 				    }
 			    }
 		    }
+		    &__sect{
+		    	padding-top: 50px;
+			    margin: auto;
+			    display: flex;
+			    align-items: center;
+			    justify-content: center;
+			    flex-flow: column wrap;
+			    @media (min-width: 768px){
+			    	flex-flow: row nowrap;
+			    }
+			    &:last-child{
+			    	border-bottom: none;
+			    }
+			    &__c{
+			    	font-family: $font-family-2;
+			    	h1{
+			        color: steelblue;
+					    text-align: center;
+					    margin: 0 0 1.2rem 0;
+					    font-size: 1.35rem;
+					    @media (min-width: 768px){
+					    	font-size: 1.85rem;
+					    }
+					    @media (min-width: 991px){
+					    	font-size: 2.15rem;
+					    }
+					    @media (min-width: 1220px){
+					    	font-size: 2.45rem;
+					    }
+			    	}
+			    	p{
+			    		text-align: justify;
+					    font-size: .85rem;
+			    		@media (min-width: 768px){
+					    	font-size: 1.05rem;
+					    }
+					    @media (min-width: 991px){
+					    	font-size: 1.2rem;
+					    }
+			    	}
+			    	a{
+			    		text-decoration: underline !important;
+			    	}
+			    	&__cImgB{
+		    			text-align: center;
+					    display: flex;
+					    align-items: center;
+					    justify-content: center;
+					    margin: 2.1rem 0;
+			    		img{
+			    			max-width: 240px;
+			    			width: 90%;
+			    		}
+			    	}
+			    }
+			  }
     	}
     }
   }
