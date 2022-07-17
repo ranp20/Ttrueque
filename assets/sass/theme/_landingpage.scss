@@ -43,11 +43,14 @@ $max-height-banner-desktop: 665px;
     right: 0;
     left: 0;
     z-index: 1030;
-    min-height: $min-height-header;
-    max-height: $min-height-header;
-    height: $min-height-header;
+    // min-height: $min-height-header;
+    // max-height: $min-height-header;
+    // height: $min-height-header;
 		@media (min-width: 480px){
 			padding: 0.8rem 1rem;
+		}
+		@media (min-width: 991px){
+			padding: 0 !important;
 		}
 		&__clinks{
 		  display: -ms-flexbox;
@@ -146,8 +149,10 @@ $max-height-banner-desktop: 665px;
 				    	color: rgba(255,255,255,.5);
 				    }
 				    @media (min-width: 991px){
-				    	margin: .5rem 0rem .5rem 0rem;
-				    	padding: .1rem 0 .1rem 0;
+				    	// margin: .5rem 0rem .5rem 0rem;
+				    	// padding: .1rem 0 .1rem 0;
+				    	margin: 0;
+				    	padding: 1.4005rem 0 1.405rem 0;
 				    	border-top: none;
 				    	border-left: none;
 				    	border-right: thin solid grey;
