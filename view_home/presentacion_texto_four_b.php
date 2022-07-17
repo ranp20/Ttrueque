@@ -16,15 +16,15 @@ session_start();
 			<h3 class="c-sectMain__cgri__title">ADMINISTRACIÓN DE CUENTA</h3>
 			<div class="c-sectMain__cgri__cSteps">
 				<div class="c-sectMain__cgri__cSteps__itm">
-					<p class="cont__txtthree--cont--msteps--item--text"><strong>Mensualmente</strong> el Usuario tendrá acceso a su estado de cuenta; y pagará por la Administración de Cuenta el 8% del monto vendido en Bikkers.</p>
+					<p><strong>Mensualmente</strong> el Usuario tendrá acceso a su estado de cuenta; y pagará por la Administración de Cuenta el 8% del monto vendido en Bikkers.</p>
 					<img loading="lazy" src="img/Utilities/img_txt4_1.jpg" alt="icon_descriptive_page-four" class="img-fluid" width="100" height="100">
 				</div>
 				<div class="c-sectMain__cgri__cSteps__itm">
-					<p class="cont__txtthree--cont--msteps--item--text"><strong>El pago</strong> deberá realizarlo en dólares o su equivalente en moneda nacional a travéz de Paypal, Visa, Mastercart o depósito bancario.</p>
+					<p><strong>El pago</strong> deberá realizarlo en dólares o su equivalente en moneda nacional a travéz de Paypal, Visa, Mastercart o depósito bancario.</p>
 					<img loading="lazy" src="img/Utilities/img_txt4_2.jpg" alt="icon_descriptive_page-four" class="img-fluid" width="100" height="100">
 				</div>
 				<div class="c-sectMain__cgri__cSteps__itm">
-					<p class="cont__txtthree--cont--msteps--item--text"><strong>La puntualidad</strong> en el pago por Administración de Cuenta evitará el bloqueo automático y asegurará que no se pierdan ventas o compras.</p>
+					<p><strong>La puntualidad</strong> en el pago por Administración de Cuenta evitará el bloqueo automático y asegurará que no se pierdan ventas o compras.</p>
 					<img loading="lazy" src="img/Utilities/img_txt4_3.jpg" alt="icon_descriptive_page-four" class="img-fluid" width="100" height="100">
 				</div>
 			</div>
