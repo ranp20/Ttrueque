@@ -159,6 +159,11 @@ $max-height-banner-desktop: 665px;
 					    	border-bottom: none;
 				    	}
 				    }
+				    li{
+				    	flex: auto;
+						  margin: 0;
+						  text-align: center;
+				    }
 			    }
     		}
     	}
@@ -492,6 +497,7 @@ $max-height-banner-desktop: 665px;
 		    flex-flow: column nowrap;
 		    background-color: #fff;
 		    min-height: 100vh;
+		    /* CONTENIDO TAB - CONTENEDORES */
 		    &__itm{
 		    	padding-top: 50px;
 			    border-bottom: thin solid rgba(0,0,0,0.1);
@@ -599,6 +605,7 @@ $max-height-banner-desktop: 665px;
 				    }
 			    }
 		    }
+		    /* CONTENIDO TAB - SECTIONS */
 		    &__sect{
 		    	padding-top: 50px;
 			    margin: auto;
@@ -651,6 +658,107 @@ $max-height-banner-desktop: 665px;
 			    		img{
 			    			max-width: 240px;
 			    			width: 90%;
+			    		}
+			    	}
+			    	&__cSteps{
+			    		display: flex;
+					    align-items: center;
+					    justify-content: center;
+					    flex-flow: column nowrap;
+					    &__cont{
+					    	h1{
+					    		text-align: center;
+								  padding: .5rem 0 1.5rem 0;
+								  color: $theme-clr-btns;
+								  font-weight: bold;
+					    	}
+					    	&__stps{
+					    		width: 100%;
+					    		&__m{
+					    			padding: 0;
+									  margin: 0;
+									  list-style: none;
+									  display: flex;
+									  align-items: stretch;
+									  justify-content: center;
+									  flex-flow: row wrap;
+									  &__i{
+									  	width: calc(100% * 1/4 - 16px);
+										  box-shadow: 0 0 0 1px #ddd;
+										  margin: 0 .5rem 2.1rem .5rem;
+										  border-radius: .5rem;
+										  display: flex;
+										  align-items: center;
+										  justify-content: flex-start;
+										  flex-flow: column nowrap;
+										  &__cIcon{
+										  	width: 100%;
+											  height: 170px;
+											  border-radius: .5rem .5rem 0 0;
+											  overflow: hidden;
+											  display: flex;
+											  align-items: center;
+											  justify-content: center;
+											  text-align: center;
+											  img{
+											  	max-width: 263px;
+											  	width: 95%;
+												  height: 100%;
+												  object-position: center;
+												  object-fit: fill;
+												  padding: 1rem;
+											  }
+										  }
+										  &__cDesc{
+										  	padding: 1.2rem;
+											  font-size: 1.2rem;
+											  min-height: auto;
+											  height: auto;
+											  p{
+											  	span{
+											  		color: $theme-clr-btns;
+  													font-weight: bold;
+											  	}
+											  	a{
+											  		text-decoration: underline;
+											  	}
+											  	strong{
+											  		font-weight: bold;
+											  	}
+											  }
+										  }
+									  }
+					    		}
+					    	}
+					    }
+			    	}
+			    	&__cQstns{
+			    		&__m{
+				    		display: block;
+				    		list-style: none;
+				    		padding: 0;
+				    		margin: 0;
+				    		&__i{
+				    			margin-bottom: 4rem;
+				    			h1{
+				    				color: #555;
+				    				text-align: left;
+				    				font-size: 1.8rem;
+				    				font-weight: bold;
+				    			}
+				    			&__cDesc{
+				    				p{
+				    					a{
+				    						text-decoration: underline;
+				    					}
+				    				}
+				    				ul{
+				    					li{
+				    						margin-bottom: 1rem;
+				    					}
+				    				}
+				    			}
+				    		}
 			    		}
 			    	}
 			    }
