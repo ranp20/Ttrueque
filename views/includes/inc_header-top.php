@@ -7,8 +7,7 @@
 				</a>
 			</div>
 			<div class="c-hdTop__c__cont__cBtns content-h-buttons-txt-b">
-				<a href="login" title="Iniciar sesión">Iniciar Sesión</a>
-				<a href="account" title="Registrarse">Abrir cuenta</a>
+				<a href="home" title="Ir al home">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inicio&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
 			</div>
 		</div>
 	</div>

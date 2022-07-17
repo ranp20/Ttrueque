@@ -18,24 +18,7 @@ $rubros = $all->get_name_rubros();
 <?php require_once 'header_index.php'; ?>
 <body>
 	<div id="page">
-		<div class="page_texto_b1" style="z-index:99999;">
-			<div class="container-texto-alls-b">
-				<header>
-					<div class="content-h-txt-b">
-						<section>
-							<div class="content-h-logo-txt-b">
-								<a href="home" class="h-logo-txt-b-link-trk">
-									<img src="./img/logo/logotipo-T-white.svg" alt="logo_Ttrueque" width="145" height="40">
-								</a>
-							</div>
-							<div class="content-h-buttons-txt-b">
-								<a href="home" class="btn-reg-text-b">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inicio&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-							</div>
-						</section>
-					</div>
-				</header>
-			</div>
-		</div>
+		<?php require_once 'includes/inc_header-top.php';?>
 		<main class="bg_gray" id="total-content-account">
 			<div class="container margin_30" style="display: flex;justify-content: center;flex-direction: column;align-items:center;">
 				<?php
@@ -152,7 +135,6 @@ $rubros = $all->get_name_rubros();
 	</div>
 	</main>
 	</div>
-	<script src="js/main.js"></script>
 	<script src="./js/actions_pages/account.js"></script>
 </body>
 </html>

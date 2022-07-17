@@ -901,6 +901,17 @@ $max-height-banner-desktop: 665px;
 										font-weight: bold;
 										transition: ease-in-out .2s;
 								  }
+							    &:visited,
+							    &:focus,
+							    &:active{
+							    	color: #fff;
+								  	&__cIcon{
+								  		box-shadow: 0 0 10px #fff;
+								  	}
+								  	span{
+								  		text-shadow: 0 0 15px #fff;
+								  	}
+							    }
 								  &:hover{
 								  	color: #fff;
 								  	&__cIcon{

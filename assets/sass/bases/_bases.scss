@@ -61,12 +61,63 @@ img{
 	padding: 1rem;
 }
 /* HEADER - PÁGINAS DESCRIPTIVAS */
-.page_texto_b1{
+.c-hdTop{
 	position: relative;
 	height: 70px;
 	box-sizing: border-box;
-	background: $theme-clr-primary;
+	background-color: $theme-clr-primary;
 	box-shadow: 0 0 20px 1px rgba(0,0,0,.4);
+	&__c{
+		&__cont{
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			flex-flow: row nowrap;
+			margin: 0 auto;
+			&__cLogo{
+				display: inline-block;
+				a{
+					max-width: 145px;
+					display: table;
+					vertical-align: middle;
+					img{
+						max-width: 145px;
+						width: 95%;
+						height: auto;
+					}
+				}
+			}
+			&__cBtns{
+				display: inline-block;
+				a{
+					position: relative;
+			    padding: .95em 1.35em;
+			    border-radius: 1.7em;
+			    text-decoration: none;
+			    font-weight: 400;
+			    font-size: .7rem;
+			    margin-left: 5px;
+			    transition: 0s;
+			    &:first-child{
+			    	border: thin solid $theme-clr-btns-border;
+				    color: $theme-clr-btns-txt;
+				    font-weight: bold;
+			    }
+			    &:nth-child(2){
+			    	color: $theme-clr-btns-txt;
+			    	border:1px solid transparent;
+			    	background-color: $theme-clr-btns-border;
+			    	&:hover{
+			    		background-color: $theme-clr-btns-hover;
+			    	}
+			    }
+				}
+				@media (min-width: 768px){
+					font-size: 0.75rem;
+				}
+			}
+		}
+	}
 }
 /* BOTÓN - IR HACIA ARRBA */
 #toTopgobtn{

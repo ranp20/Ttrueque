@@ -21,6 +21,7 @@
 .box_account .form_container .private .row .col-12 .form-group .arrow-down-select{position: absolute;top: 0;right: 0;background-color: var(--primary-clr);height: 40px;width: 25px;border-radius: 0 .8rem .8rem 0;display: flex;align-items: center;justify-content: center;text-align: center;}
 .box_account .form_container .private .row .col-12 .form-group i{right: 10px;top: calc(50% - 7px);width: 8px;height: 8px;display: block;border-left:4px solid #fff;border-bottom:4px solid #fff;transform: rotate(-45deg); /* Giramos el cuadrado */transition: all 0.25s ease;}
 .box_account .form_container .private .row .col-12 .form-group select option{color: #495057;}
+.box_account .form_container hr{margin: 0 0 10px 0;border-color: #ededed;color: #fff;}
 /* OCULTAR LOS ICONOS DE SUBIR Y BAJAR DENTRO DEL INPUT(NUMBER) */
 input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none;margin: 0;}
 input[type=number]{ -moz-appearance:textfield;}
