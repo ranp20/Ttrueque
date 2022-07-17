@@ -24,28 +24,11 @@ $paises = $all->get_name_country();
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <?php require_once 'includes/header_links.php'; ?>
   <title>Ttrueque | Login</title>
+  <?php require_once 'includes/header_links.php'; ?>
 </head>
-<body class="body-log-in-ttrueque">
-  <div class="cont-headertop-login">
-    <div class="container-texto-alls-b">
-      <header>
-        <div class="content-h-txt-b">
-          <section>
-            <div class="content-h-logo-txt-b">
-              <a href="home" class="h-logo-txt-b-link-trk">
-                <img src="<?= $url ?>img/logo/logotipo-T-white.svg" alt="logo_Ttrueque" class="img-fluid" width="145" height="40">
-              </a>
-            </div>
-            <div class="content-h-buttons-txt-b">
-              <a href="home" class="btn-reg-text-b">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inicio&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-            </div>
-          </section>
-        </div>
-      </header>
-    </div>
-  </div>
+<body>
+  <?php require_once 'includes/inc_header-top.php';?>
 
     <?php
 	if (isset($_SESSION["error"])) {

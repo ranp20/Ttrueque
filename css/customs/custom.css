@@ -496,16 +496,6 @@ img{
 /* UTILITIES CLASS */
 .margintb-2{margin-top: 2rem;margin-bottom: 2rem;}
 .margintb-3{margin-top: 3rem;margin-bottom: 3rem;}
-
-/* COLOR BODY ALL PAGES */
-.body-log-in-ttrueque,
-.body-p-txt-oneb-ttrueque,
-.body-p-txt-twob-ttrueque,
-.body-p-txt-threeb-ttrueque,
-.body-confirm-mail-ttrueque {
-  background: #fff !important;
-  font-family: fuente_txttrueque !important;
-}
 #total-content-account{margin: 0 !important;}
 /*PRELOADER TO ALL PAGES*/
 .loader {
