@@ -53,3 +53,10 @@ img{
 	width: 100%;
 	padding: 1rem;
 }
+.box-f{
+	@include max-width($max-width-footer);
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	padding: 1rem;
+}

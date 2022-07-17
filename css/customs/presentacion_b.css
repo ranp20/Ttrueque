@@ -38,5 +38,3 @@
 .content-b-bar-options-h .cont-opts-h ul a li{  color: darkgrey;  display: block;  padding: .98rem 0;  transition: 0s !important;  scroll-behavior: smooth !important;}
 .content-b-bar-options-h .cont-opts-h ul a:hover li{  color: #fff;  box-shadow: 0 -2px 0 0 #fff inset;  background: dodgerblue;}
 .content-b-bar-options-h .cont-opts-h ul a.active li{  color: #fff;  box-shadow: 0 -2px 0 0 #fff inset;  background: dodgerblue;}
-/* TEXTO INFORMATIVO DE PRESENTACIÓN */
-.footer-all-tabs-home{  padding: 30px 0;  background: var(--primary-clr);  align-self: flex-end;  justify-self: flex-end;  width: 100%;}

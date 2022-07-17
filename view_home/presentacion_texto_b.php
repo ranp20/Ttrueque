@@ -55,34 +55,34 @@
 					</div>
 				</section>
 			</div>
-			<div class="footer-all-tabs-home">
-				<div class="container margin_60_35 content-footer-policy-ttrk">
-			    <div class="content-footer-bottom">
-			      <div class="content-left-footer">
-			        <div class="content-top-footer-left">
+			<div class="c-infTbs__c__item__foot">
+				<div class="c-infTbs__c__item__foot__c box-f">
+			    <div class="c-infTbs__c__item__foot__c__cB">
+			      <div class="c-infTbs__c__item__foot__c__cB__cL">
+			        <div class="c-infTbs__c__item__foot__c__cB__cL__cT">
 			          <!--<a href="#" class="trabajaconnosotros">Trabaja con nosotros</a>
 			          <a href="#" class="terminosycondiciones">Términos y condiciones</a>
 			          <a href="#" class="politicasdeprivacidad">Políticas de privacidad</a>-->
 			          <a href="#" class="ayuda">Ayuda</a>
 			        </div>
-			        <div class="content-bottom-footer-right">
+			        <div class="c-infTbs__c__item__foot__c__cB__cL__cB">
 			          <p>Copyright &copy; 2020 Trueque Perú S.R.L.</p>
 			        </div>
 			      </div>
-			      <div class="content-right-footer">
-			      	<div class="cont-title-right-footer">
-			      		<p><!---<i class="fab fa-google-play"></i>-->Descarga nuestras aplicaciones</p>
+			      <div class="c-infTbs__c__item__foot__c__cB__cR">
+			      	<div class="c-infTbs__c__item__foot__c__cB__cR__cTitle">
+			      		<p>Descarga nuestras aplicaciones</p>
 			      	</div>
-			      	<div class="cont-btns-download-apks">
-				        <a class="btn-download-apk" href="https://play.google.com/store/apps/details?id=app.ttruequeqr.com" target="_blank" >
-				        	<div class="cont-btns-download-apks--cImg">
-				        		<img src="img/Utilities/ttrueque_negocios_sin_limites.png" alt="">
+			      	<div class="c-infTbs__c__item__foot__c__cB__cR__cBtns">
+				        <a class="c-infTbs__c__item__foot__c__cB__cR__cBtns__link" href="https://play.google.com/store/apps/details?id=app.ttruequeqr.com" target="_blank" >
+				        	<div class="c-infTbs__c__item__foot__c__cB__cR__cBtns__link__cIcon">
+				        		<img src="img/Utilities/ttrueque_negocios_sin_limites.png" alt="icon_ttrueque-app_negocios_sin_limite" width="100" height="100">
 				        	</div>
 				        	<span>Ttrueque - Negocios sin límites</span>
 				        </a>
-				        <a class="btn-download-apk" href="https://play.google.com/store/apps/details?id=app.ttruequetienda.com" target="_blank" >
-				        	<div class="cont-btns-download-apks--cImg">
-				        		<img src="img/Utilities/ttrueque_lector_qr.png" alt="">
+				        <a class="c-infTbs__c__item__foot__c__cB__cR__cBtns__link" href="https://play.google.com/store/apps/details?id=app.ttruequetienda.com" target="_blank" >
+				        	<div class="c-infTbs__c__item__foot__c__cB__cR__cBtns__link__cIcon">
+				        		<img src="img/Utilities/ttrueque_lector_qr.png" alt="icon_ttrueque-app_lector_qr" width="100" height="100">
 				        	</div>
 				        	<span>Ttrueque - Lector QR</span>
 				        </a>
@@ -105,34 +105,34 @@
 					</div>
 				</div>
 			</section>
-			<div class="footer-all-tabs-home">
-				<div class="container margin_60_35 content-footer-policy-ttrk">
-			    <div class="content-footer-bottom">
-			      <div class="content-left-footer">
-			        <div class="content-top-footer-left">
+			<div class="c-infTbs__c__item__foot">
+				<div class="c-infTbs__c__item__foot__c box-f">
+			    <div class="c-infTbs__c__item__foot__c__cB">
+			      <div class="c-infTbs__c__item__foot__c__cB__cL">
+			        <div class="c-infTbs__c__item__foot__c__cB__cL__cT">
 			          <!--<a href="#" class="trabajaconnosotros">Trabaja con nosotros</a>
 			          <a href="#" class="terminosycondiciones">Términos y condiciones</a>
 			          <a href="#" class="politicasdeprivacidad">Políticas de privacidad</a>-->
 			          <a href="#" class="ayuda">Ayuda</a>
 			        </div>
-			        <div class="content-bottom-footer-right">
+			        <div class="c-infTbs__c__item__foot__c__cB__cL__cB">
 			          <p>Copyright &copy; 2020 Trueque Perú S.R.L.</p>
 			        </div>
 			      </div>
-			      <div class="content-right-footer">
-			      	<div class="cont-title-right-footer">
-			      		<p><!---<i class="fab fa-google-play"></i>-->Descarga nuestras aplicaciones</p>
+			      <div class="c-infTbs__c__item__foot__c__cB__cR">
+			      	<div class="c-infTbs__c__item__foot__c__cB__cR__cTitle">
+			      		<p>Descarga nuestras aplicaciones</p>
 			      	</div>
-			      	<div class="cont-btns-download-apks">
-				        <a class="btn-download-apk" href="https://play.google.com/store/apps/details?id=app.ttruequeqr.com" target="_blank" >
-				        	<div class="cont-btns-download-apks--cImg">
-				        		<img src="img/Utilities/ttrueque_negocios_sin_limites.png" alt="">
+			      	<div class="c-infTbs__c__item__foot__c__cB__cR__cBtns">
+				        <a class="c-infTbs__c__item__foot__c__cB__cR__cBtns__link" href="https://play.google.com/store/apps/details?id=app.ttruequeqr.com" target="_blank" >
+				        	<div class="c-infTbs__c__item__foot__c__cB__cR__cBtns__link__cIcon">
+				        		<img src="img/Utilities/ttrueque_negocios_sin_limites.png" alt="icon_ttrueque-app_negocios_sin_limite" width="100" height="100">
 				        	</div>
 				        	<span>Ttrueque - Negocios sin límites</span>
 				        </a>
-				        <a class="btn-download-apk" href="https://play.google.com/store/apps/details?id=app.ttruequetienda.com" target="_blank" >
-				        	<div class="cont-btns-download-apks--cImg">
-				        		<img src="img/Utilities/ttrueque_lector_qr.png" alt="">
+				        <a class="c-infTbs__c__item__foot__c__cB__cR__cBtns__link" href="https://play.google.com/store/apps/details?id=app.ttruequetienda.com" target="_blank" >
+				        	<div class="c-infTbs__c__item__foot__c__cB__cR__cBtns__link__cIcon">
+				        		<img src="img/Utilities/ttrueque_lector_qr.png" alt="icon_ttrueque-app_lector_qr" width="100" height="100">
 				        	</div>
 				        	<span>Ttrueque - Lector QR</span>
 				        </a>
@@ -229,34 +229,34 @@
 					</div>
 				</div>
 			</section>
-			<div class="footer-all-tabs-home">
-				<div class="container margin_60_35 content-footer-policy-ttrk">
-			    <div class="content-footer-bottom">
-			      <div class="content-left-footer">
-			        <div class="content-top-footer-left">
+			<div class="c-infTbs__c__item__foot">
+				<div class="c-infTbs__c__item__foot__c box-f">
+			    <div class="c-infTbs__c__item__foot__c__cB">
+			      <div class="c-infTbs__c__item__foot__c__cB__cL">
+			        <div class="c-infTbs__c__item__foot__c__cB__cL__cT">
 			          <!--<a href="#" class="trabajaconnosotros">Trabaja con nosotros</a>
 			          <a href="#" class="terminosycondiciones">Términos y condiciones</a>
 			          <a href="#" class="politicasdeprivacidad">Políticas de privacidad</a>-->
 			          <a href="#" class="ayuda">Ayuda</a>
 			        </div>
-			        <div class="content-bottom-footer-right">
+			        <div class="c-infTbs__c__item__foot__c__cB__cL__cB">
 			          <p>Copyright &copy; 2020 Trueque Perú S.R.L.</p>
 			        </div>
 			      </div>
-			      <div class="content-right-footer">
-			      	<div class="cont-title-right-footer">
-			      		<p><!---<i class="fab fa-google-play"></i>-->Descarga nuestras aplicaciones</p>
+			      <div class="c-infTbs__c__item__foot__c__cB__cR">
+			      	<div class="c-infTbs__c__item__foot__c__cB__cR__cTitle">
+			      		<p>Descarga nuestras aplicaciones</p>
 			      	</div>
-			      	<div class="cont-btns-download-apks">
-				        <a class="btn-download-apk" href="https://play.google.com/store/apps/details?id=app.ttruequeqr.com" target="_blank" >
-				        	<div class="cont-btns-download-apks--cImg">
-				        		<img src="img/Utilities/ttrueque_negocios_sin_limites.png" alt="">
+			      	<div class="c-infTbs__c__item__foot__c__cB__cR__cBtns">
+				        <a class="c-infTbs__c__item__foot__c__cB__cR__cBtns__link" href="https://play.google.com/store/apps/details?id=app.ttruequeqr.com" target="_blank" >
+				        	<div class="c-infTbs__c__item__foot__c__cB__cR__cBtns__link__cIcon">
+				        		<img src="img/Utilities/ttrueque_negocios_sin_limites.png" alt="icon_ttrueque-app_negocios_sin_limite" width="100" height="100">
 				        	</div>
 				        	<span>Ttrueque - Negocios sin límites</span>
 				        </a>
-				        <a class="btn-download-apk" href="https://play.google.com/store/apps/details?id=app.ttruequetienda.com" target="_blank" >
-				        	<div class="cont-btns-download-apks--cImg">
-				        		<img src="img/Utilities/ttrueque_lector_qr.png" alt="">
+				        <a class="c-infTbs__c__item__foot__c__cB__cR__cBtns__link" href="https://play.google.com/store/apps/details?id=app.ttruequetienda.com" target="_blank" >
+				        	<div class="c-infTbs__c__item__foot__c__cB__cR__cBtns__link__cIcon">
+				        		<img src="img/Utilities/ttrueque_lector_qr.png" alt="icon_ttrueque-app_lector_qr" width="100" height="100">
 				        	</div>
 				        	<span>Ttrueque - Lector QR</span>
 				        </a>
@@ -345,34 +345,34 @@
 					</div>
 				</div>
 			</section>
-			<div class="footer-all-tabs-home">
-				<div class="container margin_60_35 content-footer-policy-ttrk">
-			    <div class="content-footer-bottom">
-			      <div class="content-left-footer">
-			        <div class="content-top-footer-left">
+			<div class="c-infTbs__c__item__foot">
+				<div class="c-infTbs__c__item__foot__c box-f">
+			    <div class="c-infTbs__c__item__foot__c__cB">
+			      <div class="c-infTbs__c__item__foot__c__cB__cL">
+			        <div class="c-infTbs__c__item__foot__c__cB__cL__cT">
 			          <!--<a href="#" class="trabajaconnosotros">Trabaja con nosotros</a>
 			          <a href="#" class="terminosycondiciones">Términos y condiciones</a>
 			          <a href="#" class="politicasdeprivacidad">Políticas de privacidad</a>-->
 			          <a href="#" class="ayuda">Ayuda</a>
 			        </div>
-			        <div class="content-bottom-footer-right">
+			        <div class="c-infTbs__c__item__foot__c__cB__cL__cB">
 			          <p>Copyright &copy; 2020 Trueque Perú S.R.L.</p>
 			        </div>
 			      </div>
-			      <div class="content-right-footer">
-			      	<div class="cont-title-right-footer">
-			      		<p><!---<i class="fab fa-google-play"></i>-->Descarga nuestras aplicaciones</p>
+			      <div class="c-infTbs__c__item__foot__c__cB__cR">
+			      	<div class="c-infTbs__c__item__foot__c__cB__cR__cTitle">
+			      		<p>Descarga nuestras aplicaciones</p>
 			      	</div>
-			      	<div class="cont-btns-download-apks">
-				        <a class="btn-download-apk" href="https://play.google.com/store/apps/details?id=app.ttruequeqr.com" target="_blank" >
-				        	<div class="cont-btns-download-apks--cImg">
-				        		<img src="img/Utilities/ttrueque_negocios_sin_limites.png" alt="">
+			      	<div class="c-infTbs__c__item__foot__c__cB__cR__cBtns">
+				        <a class="c-infTbs__c__item__foot__c__cB__cR__cBtns__link" href="https://play.google.com/store/apps/details?id=app.ttruequeqr.com" target="_blank" >
+				        	<div class="c-infTbs__c__item__foot__c__cB__cR__cBtns__link__cIcon">
+				        		<img src="img/Utilities/ttrueque_negocios_sin_limites.png" alt="icon_ttrueque-app_negocios_sin_limite" width="100" height="100">
 				        	</div>
 				        	<span>Ttrueque - Negocios sin límites</span>
 				        </a>
-				        <a class="btn-download-apk" href="https://play.google.com/store/apps/details?id=app.ttruequetienda.com" target="_blank" >
-				        	<div class="cont-btns-download-apks--cImg">
-				        		<img src="img/Utilities/ttrueque_lector_qr.png" alt="">
+				        <a class="c-infTbs__c__item__foot__c__cB__cR__cBtns__link" href="https://play.google.com/store/apps/details?id=app.ttruequetienda.com" target="_blank" >
+				        	<div class="c-infTbs__c__item__foot__c__cB__cR__cBtns__link__cIcon">
+				        		<img src="img/Utilities/ttrueque_lector_qr.png" alt="icon_ttrueque-app_lector_qr" width="100" height="100">
 				        	</div>
 				        	<span>Ttrueque - Lector QR</span>
 				        </a>
@@ -528,34 +528,34 @@
 						</div>
 				</div>
 			</section>
-			<div class="footer-all-tabs-home">
-				<div class="container margin_60_35 content-footer-policy-ttrk">
-			    <div class="content-footer-bottom">
-			      <div class="content-left-footer">
-			        <div class="content-top-footer-left">
+			<div class="c-infTbs__c__item__foot">
+				<div class="c-infTbs__c__item__foot__c box-f">
+			    <div class="c-infTbs__c__item__foot__c__cB">
+			      <div class="c-infTbs__c__item__foot__c__cB__cL">
+			        <div class="c-infTbs__c__item__foot__c__cB__cL__cT">
 			          <!--<a href="#" class="trabajaconnosotros">Trabaja con nosotros</a>
 			          <a href="#" class="terminosycondiciones">Términos y condiciones</a>
 			          <a href="#" class="politicasdeprivacidad">Políticas de privacidad</a>-->
 			          <a href="#" class="ayuda">Ayuda</a>
 			        </div>
-			        <div class="content-bottom-footer-right">
+			        <div class="c-infTbs__c__item__foot__c__cB__cL__cB">
 			          <p>Copyright &copy; 2020 Trueque Perú S.R.L.</p>
 			        </div>
 			      </div>
-			      <div class="content-right-footer">
-			      	<div class="cont-title-right-footer">
-			      		<p><!---<i class="fab fa-google-play"></i>-->Descarga nuestras aplicaciones</p>
+			      <div class="c-infTbs__c__item__foot__c__cB__cR">
+			      	<div class="c-infTbs__c__item__foot__c__cB__cR__cTitle">
+			      		<p>Descarga nuestras aplicaciones</p>
 			      	</div>
-			      	<div class="cont-btns-download-apks">
-				        <a class="btn-download-apk" href="https://play.google.com/store/apps/details?id=app.ttruequeqr.com" target="_blank" >
-				        	<div class="cont-btns-download-apks--cImg">
-				        		<img src="img/Utilities/ttrueque_negocios_sin_limites.png" alt="">
+			      	<div class="c-infTbs__c__item__foot__c__cB__cR__cBtns">
+				        <a class="c-infTbs__c__item__foot__c__cB__cR__cBtns__link" href="https://play.google.com/store/apps/details?id=app.ttruequeqr.com" target="_blank" >
+				        	<div class="c-infTbs__c__item__foot__c__cB__cR__cBtns__link__cIcon">
+				        		<img src="img/Utilities/ttrueque_negocios_sin_limites.png" alt="icon_ttrueque-app_negocios_sin_limite" width="100" height="100">
 				        	</div>
 				        	<span>Ttrueque - Negocios sin límites</span>
 				        </a>
-				        <a class="btn-download-apk" href="https://play.google.com/store/apps/details?id=app.ttruequetienda.com" target="_blank" >
-				        	<div class="cont-btns-download-apks--cImg">
-				        		<img src="img/Utilities/ttrueque_lector_qr.png" alt="">
+				        <a class="c-infTbs__c__item__foot__c__cB__cR__cBtns__link" href="https://play.google.com/store/apps/details?id=app.ttruequetienda.com" target="_blank" >
+				        	<div class="c-infTbs__c__item__foot__c__cB__cR__cBtns__link__cIcon">
+				        		<img src="img/Utilities/ttrueque_lector_qr.png" alt="icon_ttrueque-app_lector_qr" width="100" height="100">
 				        	</div>
 				        	<span>Ttrueque - Lector QR</span>
 				        </a>
