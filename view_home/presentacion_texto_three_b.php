@@ -4,7 +4,7 @@
   <title>Trueque | Page Three</title>
   <?php require_once 'header_links-home.php';?>
 </head>
-<body class="body-p-txt-threeb-ttrueque">
+<body>
 	<?php require_once './presentacion_header_texto_b.php'; ?>
 	<div class="cont__txtthree">
 		<div class="cont__txtthree--cont">
