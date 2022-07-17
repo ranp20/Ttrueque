@@ -200,9 +200,6 @@
   .content-que-es-ttrq section, .content-como-se-usa-ttrq section, .content-tramites-que-hacer-ttrq section, .content-preguntas-frecuentes-ttrq section{width: 90%;}
   .cont-preg-frecuentes ul li h1{font-size: 1.65rem;}
   .c-bannerH__nav .container .content-options-trk-tabs a{padding: 0.8rem 1.2rem;}
-  .content-options-trk-tabs.valid-user a:first-child{padding: .2rem 1.2rem !important;}
-  .content-options-trk-tabs.valid-user a:first-child span{font-size: .9rem;font-weight: 500;}
-  .content-options-trk-tabs.valid-user a:first-child svg{width: 35px;height: 35px;}
   section > .container-desc-txt-r > .content-text-desc-trk > h2, section > .container-desc-txt-l > .content-text-desc-trk > h2{font-size: 1.8rem !important;}
 }
 @media (min-width: 1200px){

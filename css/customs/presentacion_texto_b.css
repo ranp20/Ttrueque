@@ -145,54 +145,8 @@
 .content-tutorial-webapp-seller .contain-websell-tutorial .cont-steps-web ul li .cont-step p a{
   text-decoration: underline;
 }
-.content-options-trk-tabs.valid-user a:first-child{
-  padding: .5rem 1rem !important;
-}
-.content-options-trk-tabs.valid-user a:first-child svg{
-  width: 24px;
-  height: 24px;
-  fill: #fff;
-  margin-left: .5rem;  
-  position: relative;
-  top: 2px;
-}
-.content-options-trk-tabs a{
-  padding: .75rem 1.1rem;
-  border-radius: 20px;
-  text-decoration: none;
-  font-weight: 400;
-  font-size: .75rem;
-  margin-left: 5px;
-  transition: 0s;
-}
-.content-options-trk-tabs a:first-child{
-  background: transparent;
-  border: 1px solid var(--secondary-clr);
-  color: var(--tertiary-clr);
-  font-weight: bold;
-}
-.content-options-trk-tabs a:nth-child(2){
-  background: #fff;
-  color: #000;
-  display: none !important;
-  padding: 0.7rem 1.8rem !important;
-}
-.content-options-trk-tabs a:first-child:hover{
-  background: var(--secondary-clr);
-}
-.content-options-trk-tabs a.ico-user-valid{
-  padding: .4rem 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 .cont-tabs-principal-home a li{
   flex: auto;
   margin: 0;
   text-align: center;
-}
-@media (min-width:  1152px){
-  .content-options-trk-tabs a:nth-child(2){
-    display: block !important;
-  }
 }

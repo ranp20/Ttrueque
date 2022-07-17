@@ -8,13 +8,9 @@
 <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="Ttrueque">
-<!-- //FONTAWESOWE -->
-<link href="./admin/css/font-awesome.min.css" rel="stylesheet">
-<!-- //YOUR CUSTOM CSS -->
 <link href="./css/style.css" rel="stylesheet">
 <link href="./css/estilos.css" rel="stylesheet">
 <link href="./css/customs/custom.css" rel="stylesheet">
-<!-- //ICON-PAGES -->
 <link rel="icon" href="./img/icon-pages/drawable-xxxhdpi-icon.png" type="image/ico">
 <!-- PRELOADER FILES -->
 <link rel="preload" href="<?= $url;?>assets/css/styles.min.css" as="style"/>
@@ -26,3 +22,5 @@
 <script type="text/javascript" src="<?php echo $url; ?>js/plugins/bootstrap/js/bootstrap.min.js"></script>
 <!-- STYLESSHEET -->
 <link rel="stylesheet" href="<?= $url; ?>assets/css/styles.min.css"/>
+<!-- FONTAWESOWE -->
+<link href="./admin/css/font-awesome.min.css" rel="stylesheet">

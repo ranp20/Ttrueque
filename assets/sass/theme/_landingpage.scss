@@ -176,11 +176,23 @@ $max-height-banner-desktop: 665px;
 			    font-size: .65rem;
 			    margin-left: 0;
 			    transition: 0s;
+			    &.ico-user-valid{
+			    	padding: .4rem 1rem;
+					  display: flex;
+					  align-items: center;
+					  justify-content: center;
+			    }
 			    &:first-child{
 			    	background: transparent;
 				    border: thin solid $theme-clr-btns-border;
 				    color: $theme-clr-btns-txt;
 				    font-weight: bold;
+			    }
+			    &:nth-child(2){
+		  	    background-color: #fff;
+				    color: #000;
+				    display: none;
+				    padding: 0.7rem 1.8rem;
 			    }
 			    @media (min-width: 991px){
 			    	font-size: .7rem;
@@ -192,6 +204,46 @@ $max-height-banner-desktop: 665px;
 			    		margin-bottom: 0;
 			    	}
 			    }
+			    @media (min-width: 1220px){
+			    	&:nth-child(2){
+			    		display: inline-block;
+			    	}
+			    }
+    		}
+    		&.valid-user{
+    			a{
+    				padding: .5rem 1rem;
+    				transition: ease-in-out .2s;
+    				svg{
+    					max-width: 24px;
+    					width: 24px;
+						  height: 24px;
+						  fill: #fff;
+						  margin-left: .5rem;  
+						  position: relative;
+						  top: 2px;
+    				}
+    				&:hover{
+    					background-color: $theme-clr-btns-border;
+				    	color: $theme-clr-btns-txt;
+    				}
+    			}
+    		}
+    		@media (min-width: 991px){
+    			&.valid-user{
+    				span{
+    					font-size: .9rem;
+    					font-weight: 500;
+    				}
+    				a{
+    					padding: .2rem 1.2rem;
+    					svg{
+    						max-width: 35px;
+	    					width: 35px;
+							  height: 35px;
+    					}
+    				}
+    			}
     		}
     	}
 		}
