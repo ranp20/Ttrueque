@@ -13,7 +13,7 @@ $path_b_p = "admin/images/banner_principal/";
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="c-bannerH__nav__clinks__cSideLeft collapse navbar-collapse p-lg-0 mt-5 mt-lg-0 d-flex flex-column flex-lg-row flex-xl-row justify-content-lg-between mobileMenu tabs-header nav-home-collapse" id="navbarSupportedContent">
-        <ul class="c-bannerH__nav__clinks__cSideLeft__m navbar-nav align-self-stretch d-flex justify-content-between cont-tabs-principal-home cont-links-pgs-info">
+        <ul class="c-bannerH__nav__clinks__cSideLeft__m navbar-nav align-self-stretch d-flex justify-content-between cont-tabs-principal-home">
           <a href="#textoinicioshome" class='c-bannerH__nav__clinks__cSideLeft__m__link' title="Inicio">
             <li class="nav-item dropdown">
               <span>INICIO</span>

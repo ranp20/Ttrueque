@@ -1,8 +1,8 @@
-<div class="c-infTbs cont-totalinfo-in-landingpage-tabs">
-	<div class="c-infTbs__c cont-total-informacion-home">
+<div class="c-infTbs">
+	<div class="c-infTbs__c">
 		<!--///HOME PRINCIPAL-->
-		<div class="c-infTbs__c__item cnt-total-info-side-lr oposition-info" id="textoinicioshome">
-			<div class="c-infTbs__c__item__cont content-total-text_b box-redx">
+		<div class="c-infTbs__c__item" id="textoinicioshome">
+			<div class="c-infTbs__c__item__cont box-redx">
 				<section class="c-infTbs__c__item__cont__itm">
 					<div class="c-infTbs__c__item__cont__itm__c c-align-l">
 						<div class="c-infTbs__c__item__cont__itm__c__cIcon">
@@ -93,7 +93,7 @@
 			</div>
 		</div>
 		<!--///QUÉ ES TRUEQUE-->
-		<div class="c-infTbs__c__item content-que-es-ttrq oposition-info" id="que-es-ttrueque">
+		<div class="c-infTbs__c__item content-que-es-ttrq" id="que-es-ttrueque">
 			<section class="c-infTbs__c__item__cont__sect box-redx">
 				<div class="c-infTbs__c__item__cont__sect__c contn-info-que-es">
 					<h1>¿Qué es Ttrueque.com?</h1>
@@ -143,7 +143,7 @@
 			</div>
 		</div>
 		<!--///GUÍA AL COMPRADOR EN TRUEQUE-->
-		<div class="c-infTbs__c__item content-como-se-usa-ttrq oposition-info" id="guia-al-comprador-ttrueque">
+		<div class="c-infTbs__c__item content-como-se-usa-ttrq" id="guia-al-comprador-ttrueque">
 			<section class="c-infTbs__c__item__cont__sect box-redx">
 				<div class="c-infTbs__c__item__cont__sect__c">
 					<h1>GUÍA DE COMPRADOR</h1>
@@ -267,7 +267,7 @@
 			</div>
 		</div>
 		<!--///GUÍA AL VENDEDOR EN TRUEQUE-->
-		<div class="c-infTbs__c__item content-tramites-que-hacer-ttrq oposition-info" id="guia-al-vendedor-ttrueque">
+		<div class="c-infTbs__c__item content-tramites-que-hacer-ttrq" id="guia-al-vendedor-ttrueque">
 			<section class="c-infTbs__c__item__cont__sect box-redx">
 				<div class="c-infTbs__c__item__cont__sect__c">
 					<h1>GUÍA DE VENDEDOR</h1>
@@ -383,7 +383,7 @@
 			</div>
 		</div>
 		<!--///PREGUNTAS FRECUENTES TRUEQUE-->
-		<div class="c-infTbs__c__item content-preguntas-frecuentes-ttrq oposition-info" id="preguntas-frecuentes-ttrueque">
+		<div class="c-infTbs__c__item content-preguntas-frecuentes-ttrq" id="preguntas-frecuentes-ttrueque">
 			<section class="c-infTbs__c__item__cont__sect box-redx">
 				<div class="c-infTbs__c__item__cont__sect__c">
 					<h1>PREGUNTAS FRECUENTES</h1>

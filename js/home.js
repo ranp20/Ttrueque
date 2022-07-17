@@ -20,9 +20,9 @@ $(() => {
   // ------------ IR HACIA ARRIBA JQUERY
   $("#toTopgobtn").on("click", function(){$('html, body').animate({scrollTop: '0'}, 500);});
   
-  const linksParent = $(".cont-links-pgs-info");
+  const linksParent = $(".c-bannerH__nav__clinks__cSideLeft__m");
   const links = linksParent.find("a");
-  const items = $(".oposition-info");
+  const items = $(".c-infTbs__c__item");
   links.eq(0).add(items.eq(0)).addClass("active");
   linksParent.on("click", "a", function(e) {
     let target = $(this.getAttribute("href"));
