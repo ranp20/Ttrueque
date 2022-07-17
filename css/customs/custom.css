@@ -126,52 +126,7 @@
 .contmodal-guide::-webkit-scrollbar-track:active, .contmodal-guide::-webkit-scrollbar-track:hover {background: #d4d4d4;}
 
 /************************** STYLES - BOTÓN DE IR HACIA ARRIBA **************************/
-#toTopgobtn{
-  position: fixed;
-  right: 0;
-  opacity: 0;
-  visibility: hidden;
-  bottom: 25px;
-  margin: 0 25px 0 0;
-  z-index: 999;
-  transition: 0.35s;
-  transform: scale(0.6);
-  width: 46px;
-  height: 46px;
-  background-color: #fff;
-  opacity: 1;
-  transition: all 0.25s;
-  border-radius: 5px;
-  text-align: center;
-  font-size: 24px;
-  font-size: 1.5rem;
-  color: #fff;
-  cursor: pointer;
-  border: 1px solid rgba(0,0,0,.3);
-  padding: 1.5rem 0 !important;
-}
-#toTopgobtn:hover{
-  background-color: var(--primary-clr);
-  color: #fff;
-}
-#toTopgobtn:hover:after{
-  color: #fff;
-} 
-#toTopgobtn:after{
-  font-family: "themify";
-  content: "\e648";
-  position: relative;
-  display: block;
-  top: 50%;
-  transform: translateY(-50%);
-  color: rgba(0,0,0,.4);
-  font-weight: bold;
-}
-#toTopgobtn.show{
-  opacity: 1;
-  visibility: visible;
-  transform: scale(1);
-}
+
 /************************** LOADER PRINCIPAL - SITIO WEB **************************/
 .loader-ttrqstr{
   position: fixed;

@@ -1,6 +1,5 @@
 /* HEADER DE LOS ENLACES DE LOS TEXTOS DE PRESENTACIÓN */
 .b-two-t-m-xd{overflow: auto;}
-.page_texto_b1{position: relative;	height: 70px;	box-sizing: border-box;background: var(--primary-clr);box-shadow: 0 0 20px 1px rgba(0,0,0,.4);}
 .container-texto-alls-b{margin: 0 auto;padding: 20px 0px;height: 100%;width: 100%;}
 .container-texto-alls-b > header{width: 100%;height: 100%;}
 .content-h-txt-b{height: 100%;display: flex;align-items: center;justify-content: center;width: 100%;margin: auto;}
