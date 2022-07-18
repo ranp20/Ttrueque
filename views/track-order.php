@@ -1,16 +1,13 @@
 <?php
+//COMPRIMIR ARCHIVOS DE TEXTO...
+(substr_count($_SERVER["HTTP_ACCEPT_ENCODING"], "gzip")) ? ob_start("ob_gzhandler") : ob_start();
 session_start();
-
 if (!isset($_SESSION['user'])) {
 	header("Location:home");
 }
-
 ?>
 <?php require_once 'header_index.php'; ?>
-
 <body>
-	<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>-->
 	<div id="page" class="content-total-page-ttrk">
 		<?php
 		require_once '../php/process_header.php';
@@ -22,8 +19,6 @@ if (!isset($_SESSION['user'])) {
 				<div class="container-track-order_ttrq">
 					<div class="content-track-order_ttrq">
 						<h1>Ordenes y Pedidos</h1>
-						<!---<input type="text" value="<?php //echo $_SESSION['idtiendanow'] = $d[0]['tienda'];?>">-->
-						<!--<input type="text" value="<?php //echo $_SESSION['user']; ?>">-->
 						<section>
 							<div id="alert-soli"></div>
 							<div id="alert-feed"></div>
@@ -33,14 +28,10 @@ if (!isset($_SESSION['user'])) {
 										<button type="button" class="btntrackord btn-sideleft" id="btn-sideleft">&#8249;</button>
 										<button type="button" class="btntrackord btn-sideright" id="btn-sideright">&#8250;</button>
 									</div>
-									<div class="cont-radio-stores" id="cont-radio-stores">
-										<!---------NUEVO LISTADO DE PRODUCTOS DENTRO DE LAS TIENDAS ------->
-									
-									</div>
+									<div class="cont-radio-stores" id="cont-radio-stores"></div>
 								</div>
 								<div class="cont-inf-prod-by-str-trackord"></div>
 							</div>
-
 						</section>
 					</div>
 				</div>
@@ -62,11 +53,6 @@ if (!isset($_SESSION['user'])) {
 	<script src="js/actions_pages/search_products.js"></script>
 	<script src="./js/actions_pages/language_currency.js"></script>
 	<script src="./js/actions_pages/track-order.js"></script>
-	<!--------- SWEEET ALERT 2  ---------->
-	
-	<script>
-  
-</script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
   <script src="js/customs/custom.js"></script>
 </body>

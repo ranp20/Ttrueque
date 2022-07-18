@@ -1,4 +1,7 @@
 <?php
+//COMPRIMIR ARCHIVOS DE TEXTO...
+(substr_count($_SERVER["HTTP_ACCEPT_ENCODING"], "gzip")) ? ob_start("ob_gzhandler") : ob_start();
+session_start();
 require_once "../php/process_detail_producto.php";
 require_once "../php/class/product.php";
 if(!isset($_GET['id']) || !is_numeric($_GET['id']) || $_GET['id'] == ""){
@@ -28,6 +31,7 @@ if($data == "" || count($data) <= 0){
     <?php require_once 'footer.php'; ?>
   </div>
   <div id="toTopgobtn"></div>
+  <script src="./js/common_scripts.min.js"></script>
   <script src="./js/main.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
   <script src="./js/customs/custom.js"></script>
