@@ -137,39 +137,39 @@
       </div>
     </div>-->
   </div>
-  <div class="cont-foot-two-p-ttrq footer-pg-index">
-    <div class="content-footer-policy-ttrk">
-      <div class="content-footer-bottom">
-        <div class="content-left-footer">
-          <div class="content-top-footer-left">
+  <div class="c-infTbs__c__item__foot">
+    <div class="c-infTbs__c__item__foot__c box-f">
+      <div class="c-infTbs__c__item__foot__c__cB">
+        <div class="c-infTbs__c__item__foot__c__cB__cL">
+          <div class="c-infTbs__c__item__foot__c__cB__cL__cT">
             <!--<a href="#" class="lang_ttrq" key="opt_f-policy-1">Trabaja con nosotros</a>-->
             <!--<a href="#" class="lang_ttrq" key="opt_f-policy-2">Términos y condiciones</a>-->
             <!--<a href="#" class="lang_ttrq" key="opt_f-policy-3">Políticas de privacidad</a>-->
             <a href="home" class="lang_ttrq" key="opt_f-policy-4">Ayuda</a>
           </div>
-          <div class="content-bottom-footer-right">
+          <div class="c-infTbs__c__item__foot__c__cB__cL__cB">
             <p>Copyright &copy; 2020 Ttrueque Perú S.R.L.</p>
           </div>
         </div>
-        <!--<div class="content-right-footer">
-          <div class="cont-title-right-footer">
+<!--         <div class="c-infTbs__c__item__foot__c__cB__cR">
+          <div class="c-infTbs__c__item__foot__c__cB__cR__cTitle">
             <p>Descarga nuestras aplicaciones</p>
           </div>
-          <div class="cont-btns-download-apks">
-            <a class="btn-download-apk" href="https://play.google.com/store/apps/details?id=app.ttruequeqr.com" target="_blank" >
-              <span class="content-icon-btn-download-apk">
-                <i class="far fa-qrcode"></i>
-              </span>
-              <span>Ttrueque - Lector QR!</span>
-            </a>
-            <a class="btn-download-apk" href="https://play.google.com/store/apps/details?id=app.ttruequetienda.com" target="_blank" >
-              <span class="content-icon-btn-download-apk">
-                <i class="fal fa-bags-shopping"></i>
-              </span>
+          <div class="c-infTbs__c__item__foot__c__cB__cR__cBtns">
+            <a class="c-infTbs__c__item__foot__c__cB__cR__cBtns__link" href="https://play.google.com/store/apps/details?id=app.ttruequeqr.com" target="_blank" >
+              <div class="c-infTbs__c__item__foot__c__cB__cR__cBtns__link__cIcon">
+                <img src="img/Utilities/ttrueque_negocios_sin_limites.png" alt="icon_ttrueque-app_negocios_sin_limite" width="100" height="100">
+              </div>
               <span>Ttrueque - Negocios sin límites</span>
             </a>
+            <a class="c-infTbs__c__item__foot__c__cB__cR__cBtns__link" href="https://play.google.com/store/apps/details?id=app.ttruequetienda.com" target="_blank" >
+              <div class="c-infTbs__c__item__foot__c__cB__cR__cBtns__link__cIcon">
+                <img src="img/Utilities/ttrueque_lector_qr.png" alt="icon_ttrueque-app_lector_qr" width="100" height="100">
+              </div>
+              <span>Ttrueque - Lector QR</span>
+            </a>
           </div>
-        </div>-->
+        </div> -->
       </div>
     </div>
   </div>
