@@ -1398,17 +1398,18 @@ $max-height-banner-desktop: 665px;
 	}
 	/* CONTENIDO INICIAL - LOGIN */
 	&__cLogg{
+		max-width: 432px;
 		width: auto;
 		border-radius: 1.5rem;
 		padding: 1.5rem;
 		background-color: $theme-clr-login-background;
+		margin-left: auto;
+		margin-right: auto;
 		@media (min-width: 768px){
 			border: 1px solid #eaeced;
 			border-radius: 1.5rem;
 			padding: 2rem;
 			width: 432px;
-			margin-left: auto;
-			margin-right: auto;
 		}
 		&__cLogo{
 			max-width: 190px;
