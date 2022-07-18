@@ -3,15 +3,11 @@ $(document).on("submit", "#frm-loginUserTtrq", function(e){
 	$(this).find("button[type=submit]").addClass("active");
 	$(this).find("button[type=submit]").attr("disabled", true);
 	$(this).find("button[type=submit]").find("span:last-child").html("<span></span>");
-	$(this).find("a").addClass("disabledlogin");
-	$(".btn-reg-log-in-u").addClass("disabledlogin");
-
+	$(this).parent().addClass("disabled");
 	var frm = new FormData();
-
 	frm.append("estado", $("#estado").val());
 	frm.append("email", $("#email").val());
 	frm.append("pass", $("#password_in").val());
-
 	$.ajax({
 		url: './php/process_login.php',
 		method: 'POST',
@@ -19,46 +15,70 @@ $(document).on("submit", "#frm-loginUserTtrq", function(e){
 		contentType: false,
     cache: false,
     processData: false
-	}).done( (e) => {
-		var result = JSON.parse(e);
-		if(result.response == "true"){
-			$('#cont-AlertMssgTtrqUsr').html(`
+	}).done((e) => {
+		if(e != "" && e != "[]"){
+			let r = JSON.parse(e);
+			if(r.res == "true"){
+				$('#cont-AlertMssgTtrqUsr').html(`
 				<div class="c-contMssgResultUser" id="c-contMssgResultUser-login">
 			    <div class="c-contMssgResultUser--loader"></div>
-			  </div>
-			`);
-			setTimeout(function(){
-				window.location.replace("./");
-			}, 500)
+			  </div>`);
+				setTimeout(function(){window.location.replace("./");}, 500);
+			}else{
+				$(this).find("button[type=submit]").attr("disabled", false);
+				$(this).find("button[type=submit]").removeClass("active");
+				$(this).find("button[type=submit]").find("span:last-child").html("");
+				$(this).parent().addClass("disabled");
+				Swal.fire({
+			    title: '',
+			    html: `<div class="alertSwal">
+			            <div class="alertSwal__cTitle">
+			              <h3>¡Error!</h3>
+			            </div>
+			            <div class="alertSwal__cText">
+			              <p>Los datos del usuario no coinciden o no existen.</p>
+			            </div>
+			            <button type="button" role="button" tabindex="0" class="SwalBtn1 customSwalBtn">Aceptar</button>
+			          </div>`,
+			    icon: 'error',
+			    showCancelButton: false,
+			    showConfirmButton: false,
+			    confirmButtonColor: '#3085d6',
+			    confirmButtonText: 'Aceptar',
+			    allowOutsideClick: false,
+			    allowEscapeKey:false,
+			    allowEnterKey:true
+			  });
+			  $(document).on('click', '.SwalBtn1', function(){
+			    swal.clickConfirm();
+			    $("#frm-loginUserTtrq").parent().removeClass("disabled");
+			  });
+			}
 		}else{
-			$("#cont-AlertMssgTtrqUsr").html(`
-				<div id="msgAlertLoginErr">
-		      <div class="msgAlertLoginErr--c">
-		        <span class="msgAlertLoginErr--c--close" id="btnCloseErr"></span>
-		        <h3 class="msgAlertLoginErr--c--title">¡Error!</h3>
-		        <p class="msgAlertLoginErr--c--desc">Lo sentimos, los datos no son correctos o no existen</p>
-		      </div>
-		    </div>
-			`);
-
-			$(this).find("button[type=submit]").attr("disabled", false);
-			$(this).find("button[type=submit]").removeClass("active");
-			$(this).find("button[type=submit]").find("span:last-child").html("");
-			$(this).find("a").removeClass("disabledlogin");
-			$(".btn-reg-log-in-u").removeClass("disabledlogin");
-		
-			setTimeout(function(){
-				$('#msgAlertLoginErr').remove();
-			}, 4500);
-
-			let contModalAlertLogin = document.querySelector('#msgAlertLoginErr');
-			contModalAlertLogin.addEventListener('click', e => {
-				if(e.target === contModalAlertLogin)	contModalAlertLogin.remove();
-			});
-
-			document.querySelector("#btnCloseErr").addEventListener("click", function(){
-				document.querySelector("#msgAlertLoginErr").remove();
-			});
+			Swal.fire({
+		    title: '',
+		    html: `<div class="alertSwal">
+		            <div class="alertSwal__cTitle">
+		              <h3>¡Error!</h3>
+		            </div>
+		            <div class="alertSwal__cText">
+		              <p>Lo sentimos, hubo un error al procesar la información.</p>
+		            </div>
+		            <button type="button" role="button" tabindex="0" class="SwalBtn1 customSwalBtn">Aceptar</button>
+		          </div>`,
+		    icon: 'error',
+		    showCancelButton: false,
+		    showConfirmButton: false,
+		    confirmButtonColor: '#3085d6',
+		    confirmButtonText: 'Aceptar',
+		    allowOutsideClick: false,
+		    allowEscapeKey:false,
+		    allowEnterKey:true
+		  });
+		  $(document).on('click', '.SwalBtn1', function(){
+		    swal.clickConfirm();
+		    $("#frm-loginUserTtrq").parent().removeClass("disabled");
+		  });
 		}
 	});
 });

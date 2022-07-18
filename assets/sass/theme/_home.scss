@@ -1588,6 +1588,22 @@ $max-height-banner-desktop: 665px;
 		    }
 			}
 		}
+		/* DESHABILITAR TODOS LOS CONTROLES */
+		&.disabled{
+			user-select: none;
+	    cursor: not-allowed;
+	    pointer-events: none;
+	    form, div{
+	    	opacity: 0.5;
+	    }
+	    button, input, select, a{
+	    	user-select: none;
+		    cursor: not-allowed;
+		    pointer-events: none;
+		    opacity: 0.5;
+		    appearance: none;
+	    }
+		}
 	}
 }
 /* LINK DE SLIDEUP */

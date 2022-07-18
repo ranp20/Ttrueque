@@ -21,7 +21,10 @@ $paises = $all->get_name_country();
 <html lang="es">
 <head>
   <title>Ttrueque | Login</title>
-  <?php require_once 'includes/header_links.php'; ?>
+  <?php require_once 'includes/header_links.php';?>
+  <!-- INCLUIR SWEET ALERT 2 -->
+  <link rel="stylesheet" href="node_modules/sweetalert2/dist/sweetalert2.min.css">
+  <script type="text/javascript" src="node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
 </head>
 <body>
   <?php require_once 'includes/inc_header-top.php';?>
