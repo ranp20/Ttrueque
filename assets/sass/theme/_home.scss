@@ -1415,7 +1415,10 @@ $max-height-banner-desktop: 665px;
 			border: 1px solid #eaeced;
 			border-radius: 1.5rem;
 			padding: 2rem;
-			width: 432px;
+			margin-top: 20px;
+		}
+		@media (min-width: 991px){
+			margin-top: 50px;
 		}
 		&__cLogo{
 			max-width: 190px;

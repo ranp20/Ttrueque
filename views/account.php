@@ -1,21 +1,28 @@
 <?php
+//COMPRIMIR ARCHIVOS DE TEXTO...
+(substr_count($_SERVER["HTTP_ACCEPT_ENCODING"], "gzip")) ? ob_start("ob_gzhandler") : ob_start();
+session_start();
 require_once '../php/class/all.php';
 $all = new ALl();
 $mante = $all->get_mantenience();
 $mantenience =  $mante[0]['state_mantenience'];
-
 if($mantenience == 'YES' || $mantenience == 'yes'){
   header('Location: mantenience');
 }
-
-session_start();
 require_once("../php/class/all.php");
 $all = new All();
 $paises = $all->get_name_country();
 $rubros = $all->get_name_rubros();
 ?>
-
-<?php require_once 'header_index.php'; ?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Ttrueque | Login</title>
+  <?php require_once 'includes/header_links.php';?>
+  <!-- INCLUIR SWEET ALERT 2 -->
+  <link rel="stylesheet" href="node_modules/sweetalert2/dist/sweetalert2.min.css">
+  <script type="text/javascript" src="node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+</head>
 <body>
 	<div id="page">
 		<?php require_once 'includes/inc_header-top.php';?>

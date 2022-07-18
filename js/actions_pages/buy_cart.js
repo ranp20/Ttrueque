@@ -1,4 +1,7 @@
-function msg_alert(i) {
+$(() => {
+  listProductsIntoCart();
+});
+function msg_alert(i){
   Swal.fire({
     position: "top-end",
     icon: "success",
@@ -44,51 +47,42 @@ $(document).on("click", ".button_add_cart_shop", function (e) {
     "json"
   );
 });
-function listProductsIntoCart() {
-  var client = $("#userid_cli").val();
- // console.log(client);
+function listProductsIntoCart(){
+  let client = $("#userid_cli").val();
   $.ajax({
     url: "./php/class/list_temp_cart.php",
     method: "POST",
     dataType: "JSON",
     data: { client: client },
-  }).done(function (res) {
-    $("#count-product-cart").html(res.length);
-    $("#cart-buy-list").html("");
-    
-    if(res == ""){
+  }).done((e) => {
+    $("#count-product-cart").html(e.length);
+    $("#cart-buy-list").html("");    
+    if(e == ""){
       $("#cart-buy-list").append(`
-        <div class='cont-msg-any-products-cart'>
-          <img src='./img/iconos_home/index-sidebar-car-sad-face.svg' alt=''>
-          <h5>No hay productos en el carrito</h5>  
-        </div>
-      `);
+      <div class='cont-msg-any-products-cart'>
+        <img src='./img/iconos_home/index-sidebar-car-sad-face.svg' alt=''>
+        <h5>No hay productos en el carrito</h5>  
+      </div>`);
     }else{
-      $.each(res, function (i, v) {
-        console.log(res);
-        var path = "./shop/folder/" + v.image;
+      $.each(e, function (i, v){
+        let path = "./shop/folder/" + v.image;
         $("#cart-buy-list").append(`
-          <li>
-            <div class="content-info-p-prods">
-              <div>
-                <div class="cont-img-p-prod">
-                  <div style="background-image: url(${path});"></div>
-                </div>
+        <li>
+          <div class="content-info-p-prods">
+            <div>
+              <div class="cont-img-p-prod">
+                <div style="background-image: url(${path});"></div>
               </div>
-              <a href="#">
-                <span>${v.cantidad} x </span><span>${v.producto}</span>
-              </a>
             </div>
-            <div class="content-price-s-prods">
-              <span>${v.sub_total}</span><span>Bikers</span>
-            </div>
-          </li>
-        `);
+            <a href="#">
+              <span>${v.cantidad} x </span><span>${v.producto}</span>
+            </a>
+          </div>
+          <div class="content-price-s-prods">
+            <span>${v.sub_total}</span><span>Bikers</span>
+          </div>
+        </li>`);
       });
     }
-
   });
 }
-$(document).ready(function () {
-  listProductsIntoCart();
-});
