@@ -1396,6 +1396,192 @@ $max-height-banner-desktop: 665px;
 			}
 		}
 	}
+	/* CONTENIDO INICIAL - LOGIN */
+	&__cLogg{
+		width: auto;
+		border-radius: 1.5rem;
+		padding: 1.5rem;
+		background-color: $theme-clr-login-background;
+		@media (min-width: 768px){
+			border: 1px solid #eaeced;
+			border-radius: 1.5rem;
+			padding: 2rem;
+			width: 432px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		&__cLogo{
+			max-width: 190px;
+			width: auto;
+			height: 70px;
+			margin: 0 auto 1rem auto;
+			img{
+				width: 100%;
+				height: 100%;
+				object-fit: contain;
+				object-position: center;
+			}
+		}
+		&__cFrm{
+			&__cCtrls{
+				width: 100%;
+				position: relative;
+				display: flex;
+				align-items: center;
+				margin-bottom: 1rem;
+				background-color: #fff;
+				padding-left: 0.7rem;
+				border-radius: .8rem;
+				&__cIcon{
+					max-width: 24px;
+					max-height: 24px;
+					width: 24px;
+					height: 24px;
+					img{
+						width: 100%;
+						height: 100%;
+						object-fit: contain;
+						object-position: center;
+					}
+				}
+				&__ipt{
+					width: 100%;
+					line-height: 3.3rem;
+					border: none;
+					outline: none;
+					padding-top: 0;
+					padding-bottom: 0;
+					padding-left: .6rem;
+					padding-right: 0.65rem;
+					margin-left: 0.6rem;
+					border-radius: 0 .6rem .6rem 0;
+					@media (min-width: 768px){
+						font-size: 0.9rem;
+					}
+					@media (min-width: 1024px){
+						min-height: 46px;
+						height: 46px;
+					}
+				}
+			}
+			&__linkrecovery{
+				position: relative;
+				top: -3px;
+				margin-bottom: .4rem;
+				font-size: .9rem;
+				font-weight: 400;
+				color: #0070ba;
+				@media (min-width: 768px){
+					top: 0;
+					margin-bottom: 0.5rem;
+					font-size: 1rem;
+				}
+			}
+			button[type=submit]{
+				display: flex;
+				width: 100%;
+			  align-items: center;
+			  justify-content: center;
+			  background-color: $theme-clr-btns;
+			  color: #fff;
+			  min-height: 40px;
+			  border-radius: .8rem;
+		    font-weight: 800;
+		    border: none;
+		    outline: none;
+		    box-sizing: border-box;
+		    text-decoration: none;
+		    transition: ease-in-out .1s;
+		    font-size: .9rem;
+		    padding: 0.68rem;
+		    cursor: pointer;
+	    	pointer-events: auto;
+	    	user-select: auto;
+		    &:active{
+		    	text-decoration: underline;
+		    }
+		    &:hover{
+		    	background-color: $theme-clr-btns-hover;
+		    }
+		    &.active{
+		    	background-color: $theme-clr-btns-hover;
+		    	cursor: not-allowed;
+		    	pointer-events: none;
+		    	user-select: none;	
+		    }
+		    span{
+		    	&:last-child{
+		    		display: flex;
+		    		span{
+		    			margin-left: 0.5rem;
+						  border: 4px solid rgba(0,0,0,.1);
+						  width: 20px;
+						  height: 20px;
+						  transition: .3s ease-in-out;
+						  border-radius: 50%;
+						  border-left-color: #fff;
+						  animation-name: girar;
+						  animation-duration: .2s;
+						  animation-timing-function: linear;
+						  animation-iteration-count: infinite;
+		    		}
+		    	}
+		    }
+		    @keyframes girar {
+				 	0%{
+				    transform: rotate(0deg);
+				  }
+				  100%{
+				    transform: rotate(360deg);  
+				  }
+				}
+			}
+		}
+		&__cReg{
+			text-align: center;
+			&__hr{
+				border-top: thin solid $theme-clr-primary;
+				position: relative;
+				margin-top: 1.9rem;
+				margin-bottom: 0;
+				margin-left: auto;
+				margin-right: auto;
+				span{
+					background-color: $theme-clr-login-background;
+					position: relative;
+					padding: 0 .5em;
+					top: -.7em;
+					font-size: 1.5rem;
+					font-weight: lighter;
+					color: $theme-clr-txt-o;
+				}
+			}
+			&__link{
+				background-color: $theme-clr-btn-register;
+			  color: #fff;
+			  padding: .68rem;
+			  min-height: 40px;
+			  width: 100%;
+			  display: block;
+			  box-sizing: border-box;
+			  font-weight: 800;
+		    font-size: .9rem;
+		    transition: ease-in-out .2s;  
+		    border-radius: .8rem;
+		    &:hover{
+		    	opacity: 0.7;
+		    }
+		    &.disabledlogin{
+		    	cursor: not-allowed;
+		    	opacity: 0.5;
+		    	pointer-events: none;
+		    }
+		    @media (min-width: 1024px){
+		    	font-size: 1rem;
+		    }
+			}
+		}
+	}
 }
 /* LINK DE SLIDEUP */
 .c-blck-linkSlideUp{
