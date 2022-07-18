@@ -56,6 +56,7 @@ $(() => {
   if(anclaenlace == "queesunbikker"){
 
     var detailbikker = items.eq(4).find("#queesunbikker");
+    detailbikker.css({"background-color":"yellow"});
     links.add(items.eq(4)).addClass("active").siblings().removeClass("active");
     if(links.length){
       $("html, body").stop().animate({ scrollTop: detailbikker.offset().top - 90 },100);
