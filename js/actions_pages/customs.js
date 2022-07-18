@@ -1,32 +1,16 @@
-$(function(){
+$(() => {
   changesFilterandTnfoProds();
 });
-$(document).ready(function(){
-  //MOSTRAR Y OCULTAR CARRITO...
-  var carContent = $("#view_cart_ttrq"),
-    cartOC = $(".containt_total_ttrq-cart"),
-    closeCart = $("#cerrar_carrito");
-
-  carContent.removeClass("dropdown-cart");
-  carContent.click(function () {
-    cartOC.toggleClass("active");
-  });
-
-  closeCart.click(function () {
-    cartOC.removeClass("active");
-  });
-});
+// ------------ VALIDAR SI EL USUARIO TIENE CREADO SU TIENDA
 $(document).ready(function(){
   var idcliente = $('#userid_cli').val();
-
   $.ajax({
     url: "./php/process_list_idstore.php",
     dataType: "JSON",
     method: 'POST',
     data: {cliente : idcliente},
-  }).done(function(res){
-    
-    if(res.length == 0){
+  }).done((e) => {
+    if(e != "" && e.length == 0){
       $('.contModalGuidettrk').append(
         `
           <div class="contmodal-guide">
@@ -72,11 +56,8 @@ $(document).ready(function(){
           </div>
         `
       );
-    }else{
-      
     }
-
-    /************************** SYSTEM TABS INTO GUIDE FOR PWA **************************/
+    // ------------  SYSTEM TABS INTO GUIDE FOR PWA
     let parentGuideLinks = $('.contmodal-guide__content--tablinks');
     let linksGuide = parentGuideLinks.find('a');
     let itemsGuide = $('.contmodal-guide__content--tabcontent__cont');
@@ -84,31 +65,24 @@ $(document).ready(function(){
     let closeGuideModal = $('#close-icon-modal-guide');
     let closeAfterComplete = $('#btn-aftercomplete');
     let nextStepButton = $('.next-step-button');
-''
-
     linksGuide.eq(0).add(itemsGuide.eq(0)).add(itemsTitles.eq(0)).addClass('active');
     closeGuideModal.on('click', e => {$('.contmodal-guide').css({"display": "none"});});
     closeAfterComplete.on('click', e => {$('.contmodal-guide').css({"display": "none"});});
   });
 });
-
-
+// ------------ SELECCIONAR UN ELEMENTO Y ACTIVAR LO SELECCIONADO - FILTRO DE PRODUCTOS
 function changesFilterandTnfoProds(){
   let parentLinkFilter = $(".contain__cont--info--btnsiconsadap");
   let LinksFilter = parentLinkFilter.find("a");
   let itemsFilter = $(".c-sidebarLeft__filtericons");
-
   parentLinkFilter.on("click", "a", function(){
     var t = $(this);
     var ind = t.index();
-
     t.add(itemsFilter.eq(ind)).addClass("active").siblings().removeClass("active");
   });
 }
-
 let filterprodbtn = document.querySelector("#ciconfilterprods");
 let infostorebtn = document.querySelector("#ciconinfostoreprods");
-
 filterprodbtn.addEventListener("click", e => {
   if(e.target === filterprodbtn) filterprodbtn.classList.remove("active");
 });
