@@ -25,17 +25,13 @@ $paises = $all->get_name_country();
 </head>
 <body>
   <?php require_once 'includes/inc_header-top.php';?>
-
-    <?php
-	if (isset($_SESSION["error"])) {
+  <?php
+	if(isset($_SESSION["error"])){
 		echo "<script>alert('{$_SESSION["error"]}')</script>";
 		unset($_SESSION["error"]);
-	} else if (isset($_SESSION["success"])) {
+	}else if(isset($_SESSION["success"])){
 		echo "<script>alert('{$_SESSION["success"]}')</script>";
 		unset($_SESSION["success"]);
-	}
-	if (isset($_SESSION["user"])) {
-		header("Location: ./");
 	}
 	$estado_cadena = explode("-", empty($_GET["link"]) ? "" : $_GET["link"]);
 	$id = end($estado_cadena);
