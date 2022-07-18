@@ -78,7 +78,7 @@
 @media (min-width: 600px){
 }
 @media (min-width: 768px){
-	.container-list-opts-footer_ttrq--item{margin-bottom: .5rem;}
+	.container-list-opts-footer_ttrq--item{margin-bottom: .5rem;flex: 0 0 auto;width: auto;}
 	.container-list-opts-footer_ttrq .payments ul li .cont-img-payment{margin: 0.5rem;}
 	.container-list-opts-footer_ttrq .contact-whatsapp ul li .cont-img-contact-whatsapp{align-items: center;justify-content: flex-start;}
 }
