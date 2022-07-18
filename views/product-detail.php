@@ -1,13 +1,14 @@
 <?php
 require_once "../php/process_detail_producto.php";
 require_once "../php/class/product.php";
-
 if(!isset($_GET['id']) || !is_numeric($_GET['id']) || $_GET['id'] == ""){
 	header("Location: ./");
 }
-
 $p = new Product();
 $data = $p->get_data($_GET["id"]);
+if($data == "" || count($data) <= 0){
+  header("Location: ./"); 
+}
 ?>
 <?php require_once 'header_index.php'; ?>
 
@@ -34,6 +35,5 @@ $data = $p->get_data($_GET["id"]);
   <script src="./js/actions_pages/customs.js"></script>
   <script src="./js/actions_pages/search_products.js"></script>
   <script src="./js/actions_pages/listProductsDetail.js"></script>
-  <script src="./js/actions_pages/track-order.js"></script>
 </body>
 </html>

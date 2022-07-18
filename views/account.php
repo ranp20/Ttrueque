@@ -17,7 +17,7 @@ $rubros = $all->get_name_rubros();
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <title>Ttrueque | Login</title>
+  <title>Ttrueque | Registrarse</title>
   <?php require_once 'includes/header_links.php';?>
   <!-- INCLUIR SWEET ALERT 2 -->
   <link rel="stylesheet" href="node_modules/sweetalert2/dist/sweetalert2.min.css">

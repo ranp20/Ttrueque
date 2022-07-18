@@ -24,6 +24,8 @@
 <script type="text/javascript" src="<?php echo $url;?>js/plugins/bootstrap/js/bootstrap.min.js"></script>
 <!-- GOOGLE FONTS -->
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Oxygen:wght@300;400;700&family=Quicksand:wght@300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Sen:wght@400;700;800&family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<!-- FONTAWESOME -->
+<link href="./admin/css/font-awesome.min.css" rel="stylesheet">
 <!-- YOUR CUSTOM CSS -->
 <link href="./css/style.css" rel="stylesheet">
 <link href="./css/cart.css" rel="stylesheet">
