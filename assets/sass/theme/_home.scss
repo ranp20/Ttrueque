@@ -50,7 +50,7 @@ $max-height-banner-desktop: 665px;
 			padding: 0.8rem 1rem;
 		}
 		@media (min-width: 991px){
-			padding: 0 !important;
+			padding: 0;
 		}
 		&__clinks{
 		  display: -ms-flexbox;
@@ -65,8 +65,11 @@ $max-height-banner-desktop: 665px;
     	padding-left: .5rem;
     	/* NAVIGATION - LOGO */
     	&__cIconLogo{
-    		padding: 0 !important;
-    		margin: 0 !important;
+    		padding: 0;
+    		margin: 0;
+    		@media (min-width: 1220px){
+    			padding: 1rem;
+    		}
     		img{
     			max-width: 115px;
     			width: 90%;
@@ -108,12 +111,12 @@ $max-height-banner-desktop: 665px;
     			right: auto;
     			bottom: auto;
     			margin: 0;
-    			display: -ms-flexbox !important;
-			    display: flex !important;
+    			display: -ms-flexbox;
+			    display: flex;
 			    -ms-flex-preferred-size: auto;
 			    flex-basis: auto;
-    			-webkit-transform: translateX(0) !important;
-		    	transform: translateX(0) !important;
+    			-webkit-transform: translateX(0);
+		    	transform: translateX(0);
 		    	&.open{
     				width: auto;
     			}
@@ -124,7 +127,7 @@ $max-height-banner-desktop: 665px;
 			    padding: 0;
 			    margin: 0;
 			    overflow-y: auto;
-			    max-height: unset !important;
+			    max-height: unset;
 			    &__link{
 			      flex: auto;
 				    text-align: center;
@@ -181,7 +184,10 @@ $max-height-banner-desktop: 665px;
     		align-items: center;
     		justify-content: flex-start;
     		flex-flow: row nowrap;
-    		a{  			
+    		@media (min-width: 1220px){
+    			padding: 0 0 0 .5rem;
+    		}
+    		a{
 	        padding: .75rem 1.1rem;
 			    border-radius: 20px;
 			    text-decoration: none;
@@ -407,7 +413,7 @@ $max-height-banner-desktop: 665px;
 									font-weight: 600;
 									line-height: 1.4;
 									height: auto;
-									margin-bottom: 2rem !important;
+									margin-bottom: 2rem;
 									text-align: justify;
 									text-align-last: left;
 									@media (min-width: 768px){
@@ -423,7 +429,7 @@ $max-height-banner-desktop: 665px;
 									color: $theme-clr-btns-txt;
 									border-radius: 1.5em;
 									padding: 0.7rem 2.5rem;
-									text-align: center !important;
+									text-align: center;
 									display: flex;
 									font-weight: bold;
 									font-size: .9rem;
@@ -656,7 +662,7 @@ $max-height-banner-desktop: 665px;
 					    }
 			    	}
 			    	a{
-			    		text-decoration: underline !important;
+			    		text-decoration: underline;
 			    	}
 			    	&__cImgB{
 		    			text-align: center;
@@ -1659,7 +1665,7 @@ $max-height-banner-desktop: 665px;
 		    	img{
 		    		max-width: 270px;
 		    		width: auto;
-		    		height: 100% !important;
+		    		height: 100%;
 		    		object-fit: contain;
 		    		object-position: center;
 		    	}
