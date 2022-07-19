@@ -1,15 +1,13 @@
 <?php
 session_start();
-
 if (!isset($_SESSION['user_admin'])) {
   header('location:index.php');
+}else{
+  if (isset($_SESSION['msg'])) {
+    echo "<script>alert('{$_SESSION["msg"]}')</script>";
+    unset($_SESSION["msg"]);
+  }
 }
-
-if (isset($_SESSION['msg'])) {
-  echo "<script>alert('{$_SESSION["msg"]}')</script>";
-  unset($_SESSION["msg"]);
-}
-
 ?>
 <!doctype html>
 <html lang="en" class="no-js">

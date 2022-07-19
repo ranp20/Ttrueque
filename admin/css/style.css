@@ -1295,7 +1295,9 @@ li {
 
   z-index: 2;
 
-  width: 100%;
+  max-width: 285px;
+
+  width: auto;
 
   bottom: 0;
 
@@ -1467,15 +1469,13 @@ li {
 
   .ts-main-content .ts-sidebar {
 
-    width: 180px;
-
     float: left;
 
   }
 
   .ts-main-content .content-wrapper {
 
-    margin-left: 180px;
+    margin-left: 250px;
 
   }
 
