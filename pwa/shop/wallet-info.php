@@ -42,7 +42,7 @@ if (!isset($tienda[1][0]["id_menbresia"])) {
           <a href="javascript:void(0);" class="bcontent-btns-top--m--link">
             <li class="bcontent-btns-top--m--item">
               <div class="bcontent-btns-top--m--item--cImg">
-                <img src="images/utilities/currency_ttrueque.jpeg" alt="" loading="lazy">
+                <img src="images/utilities/currency_ttrueque.jpeg" alt="" >
               </div>
               <div class="bcontent-btns-top--m--item--cDesc">
                 <p class="bcontent-btns-top--m--item--cDesc--text"><?php foreach ($d as $val){echo $val['puntos'];}?> <span class="lang_ttrq" key="txt-wallet-btn-top-ad_cli-1">Bikkers</span></p>
@@ -53,7 +53,7 @@ if (!isset($tienda[1][0]["id_menbresia"])) {
           <a href="add-to-wallet.php" class="bcontent-btns-top--m--link">
             <li class="bcontent-btns-top--m--itemgroup">
               <div class="bcontent-btns-top--m--itemgroup--cImg">
-                <img src="images/utilities/recharger_currency_ttrueque.jpeg" alt="" loading="lazy">
+                <img src="images/utilities/recharger_currency_ttrueque.jpeg" alt="" >
               </div>
               <div class="bcontent-btns-top--m--itemgroup--cDesc">
                 <div class="bcontent-btns-top--m--itemgroup--cDesc--cIcon">

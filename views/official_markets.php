@@ -18,7 +18,7 @@
 						<li class='item-str-off-into'>
 							<a href='productos?store={$val['nombre_tienda']}' class='item-cont-str-off btn_get_to_trademarks' >
 								<div class='cont-logo-offi-mrkt-b-ttrk' style='background: rgba(255,255,255,.3);'>
-									<div  loading='lazy' class='logo-off-mrkt-c-ttrk img-fluid' style='background-image: url(../Ttrueque/shop/images/store/{$val['logo']});'></div>
+									<div    class='logo-off-mrkt-c-ttrk img-fluid' style='background-image: url(../Ttrueque/shop/images/store/{$val['logo']});'></div>
 								</div>
 								<div class='cont-info-offi-mrkt-b-ttrk'>
 									<p>" . ucwords($val['nombre_tienda']) . "</p>
@@ -35,7 +35,7 @@
 						<li class='item-str-off-into'>
 							<a href='productos?store={$val['nombre_tienda']}' class='item-cont-str-off btn_get_to_trademarks' >
 								<div class='cont-logo-offi-mrkt-b-ttrk'>
-									<div loading='lazy' class='logo-off-mrkt-c-ttrk img-fluid' style='background-image: url(../Ttrueque/shop/images/store/{$val['logo']});'></div>
+									<div   class='logo-off-mrkt-c-ttrk img-fluid' style='background-image: url(../Ttrueque/shop/images/store/{$val['logo']});'></div>
 								</div>
 								<div class='cont-info-offi-mrkt-b-ttrk'>
 									<p>" . ucwords($val['nombre_tienda']) . "</p>

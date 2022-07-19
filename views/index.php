@@ -33,7 +33,7 @@ if (!isset($_SESSION['user'])) {
   <div class="contModalGuidettrk"></div>
   <?php require_once './api_whatsapp.php';?>
   <div id="page">
-    <?php require_once '../php/process_header.php';	?>
+    <?php require_once '../php/process_header.php';?>
     <div class="loader-ttrqstr">
       <span class="loader-ttrqstr--loader"></span>
     </div>
@@ -312,40 +312,18 @@ if (!isset($_SESSION['user'])) {
         </div>
         <div id="icon_drag_mobile"></div>
       </div>
-      <!--/carousel-->
-      <!-- BANNER -->
       <?php require_once './best_seller.php';?>
-      <!-- LO MÁS VENDIDO-->
       <?php require_once './banner_publicity.php';?>
-      <!-- BANNER DE PUBLICIDAD-->
       <?php require_once './official_markets.php';?>
-      <!-- TIENDAS OFICIALES-->
     </main>
-    <!-- FOOTER-->
     <?php require_once './footer.php';?>
     </div>
-    <div id="toTop"></div>
-    <!-- Back to top button -->
-    <script type="text/javascript" src="js/common_scripts.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-    <script type="text/javascript" src="js/actions_pages/index.js"></script>
-    <script type="text/javascript" src="js/actions_pages/all_pages_index.js"></script>
-    <script type="text/javascript" src="js/carousel-home.min.js"></script>
-    <script type="text/javascript">
-    var linksParent = $(".cont-links-products-banners");
-    var links = linksParent.find("a");
-    var items = $(".content-more-sells");
-
-    linksParent.on("click", "a", function(e){
-      let target = $(this.getAttribute("href"));
-      let t = $(this);
-      let ind = t.index();
-      if (target.length){
-        e.preventDefault();
-        $("html, body").stop().animate({ scrollTop: target.offset().top, }, 1000 );
-      }
-    });
-  </script>
+  <div id="toTop"></div>
+  <script type="text/javascript" src="js/common_scripts.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/actions_pages/index.js"></script>
+  <script type="text/javascript" src="js/actions_pages/all_pages_index.js"></script>
+  <script type="text/javascript" src="js/carousel-home.min.js"></script>
   <!---------CUSTOMS JAVASCRIPT--------->
   <script type="text/javascript" src="js/actions_pages/buy_cart.js"></script>
   <script type="text/javascript" src="js/actions_pages/remove.js"></script>

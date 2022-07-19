@@ -48,7 +48,7 @@ if ($d[0]['estado'] == "INACTIVO") {
             <a href="javascript:void(0);" class="bcontent-btns-top--m--link">
               <li class="bcontent-btns-top--m--item">
                 <div class="bcontent-btns-top--m--item--cImg">
-                  <img src="images/utilities/products_into_pedidos.jpeg" alt="" loading="lazy">
+                  <img src="images/utilities/products_into_pedidos.jpeg" alt="" >
                 </div>
                 <div class="bcontent-btns-top--m--item--cDesc">
                   <h4 id="cont-orders-numbs" class="bcontent-btns-top--m--item--cDesc--conttotal">0</h4>
@@ -60,7 +60,7 @@ if ($d[0]['estado'] == "INACTIVO") {
             <a href="javascript:void(0);" class="bcontent-btns-top--m--link">
               <li class="bcontent-btns-top--m--item">
                 <div class="bcontent-btns-top--m--item--cImg">
-                  <img src="images/utilities/products_into_compras.jpeg" alt="" loading="lazy">
+                  <img src="images/utilities/products_into_compras.jpeg" alt="" >
                 </div>
                 <div class="bcontent-btns-top--m--item--cDesc">
                   <h4 id="cont-salesreport-numbs" class="bcontent-btns-top--m--item--cDesc--conttotal">0</h4>

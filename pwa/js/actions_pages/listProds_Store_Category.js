@@ -40,9 +40,9 @@ $(document).ready(function () {
         <li class="item-product-stores-into">
           <div class="item-cont-products-store">
             <a href="product-detail?id=${v.id_producto}" class="cont-image-products-str-b-ttrk">
-              <img src='${path}' loading='lazy' class='img-fluid'>
+              <img src='${path}'   class='img-fluid'>
 
-              <!--<div  loading='lazy' class="image-product-str-c-ttrk img-fluid" style="background-image: url(${path});">
+              <!--<div    class="image-product-str-c-ttrk img-fluid" style="background-image: url(${path});">
               </div>-->
             </a>
             <div class="cont-info-product-stores-b-ttrk">
@@ -174,7 +174,7 @@ function listProductsIntoCart() {
           <div class="content-info-p-prods">
             <div>
               <div class="cont-img-p-prod">
-                <div  loading='lazy' class='img-fluid' style="background-image: url(${path});"></div>
+                <div    class='img-fluid' style="background-image: url(${path});"></div>
               </div>
             </div>
             <a href="javascript:void(0);">

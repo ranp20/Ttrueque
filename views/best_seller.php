@@ -75,7 +75,7 @@
 										$descuento
 										<a href='./product-detail?id={$key["id_producto"]}'>
 										<div class='content-img-best-sells-h'>
-											<img loading='lazy' class='owl-lazy image-card-product img-fluid' src='{$ruta_image}' data-src='{$ruta_image}' alt='' height='200'>	
+											<img   class='owl-lazy image-card-product img-fluid' src='{$ruta_image}' data-src='{$ruta_image}' alt='' height='200'>	
 											</div>
 										</a>
 										<div class='flag-by-country'> 
@@ -110,7 +110,7 @@
 										$descuento
 										<a href='./product-detail?id={$key["id_producto"]}'>
 										<div class='content-img-best-sells-h'>
-											<img loading='lazy' class='owl-lazy image-card-product img-fluid' src='{$ruta_image}' data-src='{$ruta_image}' alt='' height='200'>	
+											<img   class='owl-lazy image-card-product img-fluid' src='{$ruta_image}' data-src='{$ruta_image}' alt='' height='200'>	
 											</div>
 										</a>
 										<div class='flag-by-country'> 

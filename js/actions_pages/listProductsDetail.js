@@ -21,7 +21,7 @@ function list_detailsProd(){
           <div class="content-c-primary_d-p_ttrq">
             <div class="contain-l-to-prod-detail">
               <figure class="content-img-prod-detail">
-                <img loading='lazy' class='img-fluid' src='${path}' alt=''>
+                <img   class='img-fluid' src='${path}' alt=''>
               </figure>
             </div>
             <div class="contain-r-to-prod-detail">
@@ -65,7 +65,7 @@ function list_detailsProd(){
           <div class="content-c-primary_d-p_ttrq">
             <div class="contain-l-to-prod-detail">
               <figure class="content-img-prod-detail">
-                <img loading='lazy' class='img-fluid' src='${path}' alt=''>
+                <img   class='img-fluid' src='${path}' alt=''>
               </figure>
             </div>
             <div class="contain-r-to-prod-detail">

@@ -60,7 +60,7 @@ $_Secret = $data_cred[0]['key_secret'];
                 <a href="javascript:void(0);" class="bcontent-btns-top--m--link">
                     <li class="bcontent-btns-top--m--item">
                     <div class="bcontent-btns-top--m--item--cImg">
-                        <img src="images/utilities/informe_ventas.jpeg" alt="" loading="lazy">
+                        <img src="images/utilities/informe_ventas.jpeg" alt="" >
                         </div>
                     </li>
                 </a>

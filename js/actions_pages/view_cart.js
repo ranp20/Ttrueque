@@ -57,7 +57,7 @@ $(document).ready(function () {
           <tr class="products-${i}">
             <td class="cont-img-info-prod">
                 <div class="thumb_cart">
-                    <img src="${path}" data-src="${path}" class="lazy img-fluid"  loading='lazy' alt="Image">
+                    <img src="${path}" data-src="${path}" class="lazy img-fluid"    alt="Image">
                 </div>
                 <span class="item_cart">${v.producto}</span>
                 <input type="hidden" id="stck-prodreal-${i}" class="stock-prod" value="${v.stock_producto}">

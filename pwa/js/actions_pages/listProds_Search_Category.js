@@ -43,8 +43,8 @@ $(document).ready(function () {
             <li class="item-product-search_categ">
               <div class="item-cont-products-search-categ">
                 <a href="product-detail?id=${v.id_producto}" class="cont-image-products-search-categ">
-                  <img src='${path}' loading='lazy' class='img-fluid'>
-                  <!--<div loading='lazy' class="image-product-search-categ img-fluid" style="background-image: url(${path});">
+                  <img src='${path}'   class='img-fluid'>
+                  <!--<div   class="image-product-search-categ img-fluid" style="background-image: url(${path});">
                   </div>-->
                 </a>
                 <div>
@@ -69,8 +69,8 @@ $(document).ready(function () {
             <li class="item-product-search_categ">
               <div class="item-cont-products-search-categ">
                 <a href="product-detail?id=${v.id_producto}" class="cont-image-products-search-categ">
-                  <img src='${path}' loading='lazy' class='img-fluid'>
-                  <!--<div loading='lazy' class="image-product-search-categ img-fluid" style="background-image: url(${path});">
+                  <img src='${path}'   class='img-fluid'>
+                  <!--<div   class="image-product-search-categ img-fluid" style="background-image: url(${path});">
                   </div>-->
                 </a>
                 <div>
@@ -208,7 +208,7 @@ function listProductsIntoCart() {
           <div class="content-info-p-prods">
             <div>
               <div class="cont-img-p-prod">
-                <div  loading='lazy' class='img-fluid' style="background-image: url(${path});"></div>
+                <div    class='img-fluid' style="background-image: url(${path});"></div>
               </div>
             </div>
             <a href="javascript:void(0);">

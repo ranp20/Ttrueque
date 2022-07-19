@@ -95,7 +95,7 @@ function listProductsIntoCart() {
           <div class="content-info-p-prods">
             <div>
               <div class="cont-img-p-prod">
-                <div  loading='lazy' class='img-fluid' style="background-image: url(${path});"></div>
+                <div    class='img-fluid' style="background-image: url(${path});"></div>
               </div>
             </div>
             <a href="javascript:void(0);">

@@ -44,7 +44,7 @@ function listMemberships(){
         $("#targets-info-menbershi").append(`
           <li class="c-tblpriceSlideUp__c__m__i">
             <div class="c-tblpriceSlideUp__c__m__i__cIcon">
-              <img loading="lazy" class="img-fluid" src="${img_path}" alt="membresia_de_${v.image}" width="100" height="100">
+              <img  class="img-fluid" src="${img_path}" alt="membresia_de_${v.image}" width="100" height="100">
               </div>
             </div>
             <div class="c-tblpriceSlideUp__c__m__i__cDesc">

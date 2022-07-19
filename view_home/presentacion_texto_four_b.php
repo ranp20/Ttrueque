@@ -17,15 +17,15 @@ session_start();
 			<div class="c-sectMain__cgri__cSteps">
 				<div class="c-sectMain__cgri__cSteps__itm">
 					<p><strong>Mensualmente</strong> el Usuario tendrá acceso a su estado de cuenta; y pagará por la Administración de Cuenta el 8% del monto vendido en Bikkers.</p>
-					<img loading="lazy" src="img/Utilities/img_txt4_1.jpg" alt="icon_descriptive_page-four" class="img-fluid" width="100" height="100">
+					<img  src="img/Utilities/img_txt4_1.jpg" alt="icon_descriptive_page-four" class="img-fluid" width="100" height="100">
 				</div>
 				<div class="c-sectMain__cgri__cSteps__itm">
 					<p><strong>El pago</strong> deberá realizarlo en dólares o su equivalente en moneda nacional a travéz de Paypal, Visa, Mastercart o depósito bancario.</p>
-					<img loading="lazy" src="img/Utilities/img_txt4_2.jpg" alt="icon_descriptive_page-four" class="img-fluid" width="100" height="100">
+					<img  src="img/Utilities/img_txt4_2.jpg" alt="icon_descriptive_page-four" class="img-fluid" width="100" height="100">
 				</div>
 				<div class="c-sectMain__cgri__cSteps__itm">
 					<p><strong>La puntualidad</strong> en el pago por Administración de Cuenta evitará el bloqueo automático y asegurará que no se pierdan ventas o compras.</p>
-					<img loading="lazy" src="img/Utilities/img_txt4_3.jpg" alt="icon_descriptive_page-four" class="img-fluid" width="100" height="100">
+					<img  src="img/Utilities/img_txt4_3.jpg" alt="icon_descriptive_page-four" class="img-fluid" width="100" height="100">
 				</div>
 			</div>
 		</div>

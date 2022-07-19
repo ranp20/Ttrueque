@@ -96,11 +96,7 @@ if (!isset($_SESSION['user'])) {
 		<?php require_once 'footer.php'; ?>
 	</div>
   <div id="toTop"></div>
-  
-  
   <script type="text/javascript" src="./js/main.js"></script>
-  <!--------- SWEEET ALERT 2 ------------>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
   <!--------- CUSTOMS JAVASCRIPT--------->
   <script type="text/javascript" src="./js/actions_pages/language_currency.js"></script>
   <script type="text/javascript" src="./js/actions_pages/contact.js"></script>
@@ -110,7 +106,6 @@ if (!isset($_SESSION['user'])) {
   <script type="text/javascript" src="js/actions_pages/customs.js"></script>
   <script type="text/javascript" src="js/actions_pages/all_pages_index.js"></script>
   <script type="text/javascript" src="js/actions_pages/listCategories_ByStore.js"></script>
-  
   <script type="text/javascript" src="./js/actions_pages/track-order.js"></script>
 </body>
 </html>

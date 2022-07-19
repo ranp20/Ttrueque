@@ -41,7 +41,7 @@ if (!isset($tienda[1][0]["id_menbresia"])) {
           <a href="javascript:void(0);" class="bcontent-btns-top--m--link">
             <li class="bcontent-btns-top--m--item">
               <div class="bcontent-btns-top--m--item--cImg">
-                <img src="images/utilities/historial_compras.jpeg" alt="" loading="lazy">
+                <img src="images/utilities/historial_compras.jpeg" alt="" >
               </div>
             </li>
           </a>

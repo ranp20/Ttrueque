@@ -19,7 +19,7 @@
 					<li class='item-str-off-into item' style='height:150px;border: 1px solid var(--secondary-clr);height:auto;border-radius:32px;padding: 15px;display: flex;flex-direction: column;justify-content: center;text-align: center;'>
 						<a href='productos?store={$val['nombre_tienda']}' class='item-cont-str-off btn_get_to_trademarks' style='height:auto;'>
 							<div class='cont-logo-offi-mrkt-b-ttrk pwa-offmarkets-logos' style='background: rgba(255,255,255,.3);height:150px;margin-bottom: 18px;'>
-								<div  loading='lazy' class='logo-off-mrkt-c-ttrk img-fluid' style='background-image: url(../shop/images/store/{$val['logo']});background-size:contain;background-repeat: no-repeat;background-position:center;width: 100%;height:100%;'></div>
+								<div    class='logo-off-mrkt-c-ttrk img-fluid' style='background-image: url(../shop/images/store/{$val['logo']});background-size:contain;background-repeat: no-repeat;background-position:center;width: 100%;height:100%;'></div>
 							</div>
 							<div class='cont-info-offi-mrkt-b-ttrk'>
 								<p style='font-size: 1.25rem;color: #332927;'>" . ucwords($val['nombre_tienda']) . "</p>
@@ -36,7 +36,7 @@
 					<li class='item-str-off-into item' style='height:150px;border: 1px solid var(--secondary-clr);height:auto;border-radius:32px;padding: 15px;display: flex;flex-direction: column;justify-content: center;text-align: center;'>
 						<a href='productos?store={$val['nombre_tienda']}' class='item-cont-str-off btn_get_to_trademarks' style='height:auto;'>
 							<div class='cont-logo-offi-mrkt-b-ttrk pwa-offmarkets-logos' style='height:150px;margin-bottom: 18px;'>
-								<div loading='lazy' class='logo-off-mrkt-c-ttrk img-fluid' style='background-image: url(../shop/images/store/{$val['logo']});background-size:contain;background-repeat: no-repeat;background-position:center;width: 100%;height:100%;'></div>
+								<div   class='logo-off-mrkt-c-ttrk img-fluid' style='background-image: url(../shop/images/store/{$val['logo']});background-size:contain;background-repeat: no-repeat;background-position:center;width: 100%;height:100%;'></div>
 							</div>
 							<div class='cont-info-offi-mrkt-b-ttrk'>
 								<p style='font-size: 1.25rem;color: #332927;'>" . ucwords($val['nombre_tienda']) . "</p>

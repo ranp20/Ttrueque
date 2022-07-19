@@ -31,7 +31,7 @@ if (!isset($tienda[1][0]["id_menbresia"])) {
           <a href="javascript:void(0);" class="bcontent-btns-top--m--link">
             <li class="bcontent-btns-top--m--item">
               <div class="bcontent-btns-top--m--item--cImg">
-                <img src="images/utilities/products_total_ttrueque.jpeg" alt="" loading="lazy">
+                <img src="images/utilities/products_total_ttrueque.jpeg" alt="" >
               </div>
               <div class="bcontent-btns-top--m--item--cDesc">
                 <h4 id="totalList" class="bcontent-btns-top--m--item--cDesc--conttotal">
@@ -43,7 +43,7 @@ if (!isset($tienda[1][0]["id_menbresia"])) {
           <a href="sel-published.php" class="bcontent-btns-top--m--link">
             <li class="bcontent-btns-top--m--item">
               <div class="bcontent-btns-top--m--item--cImg">
-                <img src="images/utilities/add_product_ttrueque.jpeg" alt="" loading="lazy">
+                <img src="images/utilities/add_product_ttrueque.jpeg" alt="" >
               </div>
               <div class="bcontent-btns-top--m--item--cDesc">
                 <div class="bcontent-btns-top--m--item--cDesc--cIcon">

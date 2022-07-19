@@ -1,3 +1,16 @@
+var linksParent = $(".cont-links-products-banners");
+var links = linksParent.find("a");
+var items = $(".content-more-sells");
+
+linksParent.on("click", "a", function(e){
+  let target = $(this.getAttribute("href"));
+  let t = $(this);
+  let ind = t.index();
+  if (target.length){
+    e.preventDefault();
+    $("html, body").stop().animate({ scrollTop: target.offset().top, }, 1000 );
+  }
+});
 // ------------ CAROUSEL DE PRODUCTOS MÁS VENDIDOS - BEST SELLER
 $('#products-more-sells').owlCarousel({
 	autoplay:true,

@@ -33,7 +33,7 @@ $(document).ready(function () {
           <li class="item-categ-stores-into">
             <a href="productos?store=${v.tienda}&cat=${v.nombre_categoria}" class="item-cont-categ-stores"> 
               <div class="cont-logo-categories-str-b-ttrk">
-                <div loading='lazy' class="logo-categ-str-c-ttrk img-fluid" style="background-image: url(../../Ttrueque/admin/images/categoria/${v.imagen}"></div>
+                <div   class="logo-categ-str-c-ttrk img-fluid" style="background-image: url(../../Ttrueque/admin/images/categoria/${v.imagen}"></div>
               </div>
               <div class="cont-info-categ-stores-b-ttrk">
                 <div>

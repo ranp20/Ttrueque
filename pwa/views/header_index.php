@@ -35,7 +35,7 @@
   <link rel="icon" href="./img/icon-pages/drawable-xxxhdpi-icon.png" type="image/ico">
 
   <!-- //WHATSAPP API -->
-  <link href="./css/whatsapp.css" rel="stylesheet">
+  
   <!-- //CUSTOMS JS-->
   <script type="text/javascript" src="./js/customs.js"></script>
   <!----->

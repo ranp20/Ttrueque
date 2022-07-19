@@ -25,7 +25,7 @@ $(document).ready(function () {
           <div class="content-c-primary_d-p_ttrq">
             <div class="contain-l-to-prod-detail">
               <div class="content-img-prod-detail">
-                <div loading='lazy' class='img-fluid' style='background-image: url(${path});'></div>
+                <div   class='img-fluid' style='background-image: url(${path});'></div>
               </div>
             </div>
             <div class="contain-r-to-prod-detail">
@@ -70,7 +70,7 @@ $(document).ready(function () {
   				<div class="content-c-primary_d-p_ttrq">
   					<div class="contain-l-to-prod-detail">
   						<div class="content-img-prod-detail">
-  							<div loading='lazy' class='img-fluid' style='background-image: url(${path});'></div>
+  							<div   class='img-fluid' style='background-image: url(${path});'></div>
   						</div>
   					</div>
   					<div class="contain-r-to-prod-detail">
