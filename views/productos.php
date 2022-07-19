@@ -2,42 +2,29 @@
 //COMPRIMIR ARCHIVOS DE TEXTO...
 (substr_count($_SERVER["HTTP_ACCEPT_ENCODING"], "gzip")) ? ob_start("ob_gzhandler") : ob_start();
 session_start();
-
-/*if(!isset($_GET['store']) || !isset($_GET['categoria'])){
-	header("Location: ./");
-}*/
-
-
 if (!isset($_SESSION["user"])) {
 	header("Location: account");
 }
-require_once 'header_index.php';
 ?>
-
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Ttrueque | <?= (isset($_GET) && count($_GET) > 0 && $_GET != "") ? $_GET['store'] : "";?></title>
+  <?php require_once 'includes/header_links.php';?>
+  <!-- INCLUIR SWEET ALERT 2 -->
+  <link rel="stylesheet" href="node_modules/sweetalert2/dist/sweetalert2.min.css">
+  <script type="text/javascript" src="node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+</head>
 <body>
-    <?php require_once 'api_whatsapp.php' ?>
-    <!--- --- API WHATSAPP--- ---  --->
+    <?php require_once 'api_whatsapp.php';?>
     <div id="page">
-        <?php
-		require_once '../php/process_header.php';
-		require_once 'header_b.php';
-		?>
-        <!----//MOSTRAR PRODUCTOS DE ACUERDO A LA CONDICIÓN--->
-        <?php require_once 'products_most-popular.php';	?>
+      <?php require_once '../php/process_header.php';?>
+      <?php require_once 'header_b.php';?>
+      <?php require_once 'products_most-popular.php';	?>
     </div>
-    <!--/footer-->
-    <?php require_once 'footer.php' ?>
-    </div>
-    <!-- page -->
+    <?php require_once 'footer.php';?>
     <div id="toTop"></div>
-    <!-- Back to top button -->
-    
     <script src="./js/main.js"></script>
-    <script src="./js/carousel-home.min.js"></script>
-    
-    <script src="./js/actions_pages/modal_dialog.js"></script>
-    <!--------- SWEEET ALERT 2  ---------->
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <!---------CUSTOMS JAVASCRIPT--------->
     <script src="./js/actions_pages/customs.js"></script>
     <script src="./js/actions_pages/buy_cart.js"></script>
@@ -50,5 +37,4 @@ require_once 'header_index.php';
     <script src="js/customs/custom.js"></script>
     <script src="./js/actions_pages/track-order.js"></script>
 </body>
-
 </html>

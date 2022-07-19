@@ -329,6 +329,7 @@ if (!isset($_SESSION['user'])) {
     <!-- Back to top button -->
     <script src="js/common_scripts.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/actions_pages/index.js"></script>
     <script src="js/carousel-home.min.js"></script>
     <script type="text/javascript">
     var linksParent = $(".cont-links-products-banners");

@@ -1,13 +1,12 @@
-$(document).ready(function(){
+$(() => {
+  changesFilterandTnfoProds();
   load(1);
 });
-
 function load(page){
   var tipo = $("#tipo").val();
   var idcliente = $("#userid_cli").val();
   var idtienda_filter = $("#idtienda_current").val();
   var namestore = $("#tienda-cli_prod").val();
-  console.log(namestore);
   var parametros = {"store": namestore,"page":page};
   $("#loader").fadeIn('slow');
   $.ajax({
@@ -34,7 +33,6 @@ function msg_alert(i) {
     toast: true,
   });
 }
-
 $(document).on("click", ".btn_addcart_strproducts", function (e) {
   e.preventDefault();
   $("#cart-buy-list").html("");
@@ -112,3 +110,22 @@ function listProductsIntoCart() {
     });
   });
 }
+// ------------ SELECCIONAR UN ELEMENTO Y ACTIVAR LO SELECCIONADO - FILTRO DE PRODUCTOS
+function changesFilterandTnfoProds(){
+  let parentLinkFilter = $(".contain__cont--info--btnsiconsadap");
+  let LinksFilter = parentLinkFilter.find("a");
+  let itemsFilter = $(".c-sidebarLeft__filtericons");
+  parentLinkFilter.on("click", "a", function(){
+    var t = $(this);
+    var ind = t.index();
+    t.add(itemsFilter.eq(ind)).addClass("active").siblings().removeClass("active");
+  });
+}
+let filterprodbtn = document.querySelector("#ciconfilterprods");
+let infostorebtn = document.querySelector("#ciconinfostoreprods");
+filterprodbtn.addEventListener("click", e => {
+  if(e.target === filterprodbtn) filterprodbtn.classList.remove("active");
+});
+infostorebtn.addEventListener("click", e => {
+  if(e.target === infostorebtn) infostorebtn.classList.remove("active");
+});

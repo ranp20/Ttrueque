@@ -1,6 +1,3 @@
-$(() => {
-  changesFilterandTnfoProds();
-});
 // ------------ VALIDAR SI EL USUARIO TIENE CREADO SU TIENDA
 $(document).ready(function(){
   var idcliente = $('#userid_cli').val();
@@ -69,23 +66,4 @@ $(document).ready(function(){
     closeGuideModal.on('click', e => {$('.contmodal-guide').css({"display": "none"});});
     closeAfterComplete.on('click', e => {$('.contmodal-guide').css({"display": "none"});});
   });
-});
-// ------------ SELECCIONAR UN ELEMENTO Y ACTIVAR LO SELECCIONADO - FILTRO DE PRODUCTOS
-function changesFilterandTnfoProds(){
-  let parentLinkFilter = $(".contain__cont--info--btnsiconsadap");
-  let LinksFilter = parentLinkFilter.find("a");
-  let itemsFilter = $(".c-sidebarLeft__filtericons");
-  parentLinkFilter.on("click", "a", function(){
-    var t = $(this);
-    var ind = t.index();
-    t.add(itemsFilter.eq(ind)).addClass("active").siblings().removeClass("active");
-  });
-}
-let filterprodbtn = document.querySelector("#ciconfilterprods");
-let infostorebtn = document.querySelector("#ciconinfostoreprods");
-filterprodbtn.addEventListener("click", e => {
-  if(e.target === filterprodbtn) filterprodbtn.classList.remove("active");
-});
-infostorebtn.addEventListener("click", e => {
-  if(e.target === infostorebtn) infostorebtn.classList.remove("active");
 });

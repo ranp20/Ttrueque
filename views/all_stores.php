@@ -21,8 +21,11 @@ $dat = $c->select_tienda();
 <body>
   <?php require_once 'api_whatsapp.php';?>
   <div id="page">
-  <?php require_once '../php/process_header.php';?>
-  <?php require_once 'header_b.php';?>
+	  <?php require_once '../php/process_header.php';?>
+	  <?php require_once 'header_b.php';?>
+	  <div class="loader-ttrqstr">
+	    <span class="loader-ttrqstr--loader"></span>
+	  </div>
     <div class="content-ttrk-official-markets-c" id="cont-all-stores_in_ttrk">
       <div class="contenido-tiendas-off-header">
         <div class="content-title-tiendas">
