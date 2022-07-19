@@ -22,7 +22,7 @@ $('#products-more-sells').owlCarousel({
 	dots:true,
 	nav: true,
 	lazyLoad: true,
-	navText: ["<i class='ti-angle-left'></i>","<i class='ti-angle-right'></i>"],
+	navText: ["",""],
 	responsive: {
 		0: {
 			nav: false,
