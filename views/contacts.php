@@ -8,13 +8,22 @@ if (!isset($_SESSION['user'])) {
 }
 
 ?>
-<?php require_once 'header_index.php'; ?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Ttrueque | Contáctanos</title>
+  <?php require_once 'includes/header_links.php';?>
+  <!-- INCLUIR SWEET ALERT 2 -->
+  <link rel="stylesheet" href="node_modules/sweetalert2/dist/sweetalert2.min.css">
+  <script type="text/javascript" src="node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+</head>
 <body>
 	<div id="page">
-		<?php 
-			require_once '../php/process_header.php';
-    	require_once "header_b.php";
-		?>
+		<?php require_once '../php/process_header.php';?>
+		<?php require_once "header_b.php"; ?>
+		<div class="loader-ttrqstr">
+      <span class="loader-ttrqstr--loader"></span>
+    </div>
 		<main class="cContactsMain">
 			<div class="cContactsMain--c">
 				<div class="cContactsMain--c--cTop">

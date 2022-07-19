@@ -17,6 +17,9 @@ if (!isset($_SESSION["user"])) {
 </head>
 <body>
     <?php require_once 'api_whatsapp.php';?>
+    <div class="loader-ttrqstr">
+      <span class="loader-ttrqstr--loader"></span>
+    </div>
     <div id="page">
       <?php require_once '../php/process_header.php';?>
       <?php require_once 'header_b.php';?>
