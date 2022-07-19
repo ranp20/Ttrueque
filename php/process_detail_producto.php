@@ -1,5 +1,4 @@
 <?php
-session_start();
 if (isset($_GET["id"])) {
     require_once("class/images_p.php");
     $i = new Images();

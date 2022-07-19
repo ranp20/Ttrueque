@@ -13,8 +13,15 @@ if($data == "" || count($data) <= 0){
   header("Location: ./"); 
 }
 ?>
-<?php require_once 'header_index.php'; ?>
-
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Ttrueque | Detalle del producto</title>
+  <?php require_once 'includes/header_links.php';?>
+  <!-- INCLUIR SWEET ALERT 2 -->
+  <link rel="stylesheet" href="node_modules/sweetalert2/dist/sweetalert2.min.css">
+  <script type="text/javascript" src="node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+</head>
 <body>
   <?php require_once './api_whatsapp.php'; ?>
   <div id="page">
@@ -33,7 +40,6 @@ if($data == "" || count($data) <= 0){
   <div id="toTopgobtn"></div>
   <script src="./js/common_scripts.min.js"></script>
   <script src="./js/main.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
   <script src="./js/customs/custom.js"></script>
   <script src="./js/actions_pages/buy_cart.js"></script>
   <script src="./js/actions_pages/customs.js"></script>
