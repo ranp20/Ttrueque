@@ -41,7 +41,7 @@ session_start();
     <script src="./js/actions_pages/modal_dialog.js"></script>
     <!-- Agregar loader page a la página -->
     <script src="./js/actions_pages/customs.js"></script>
-    <script src="./js/jquery.cookiebar.js"></script>
+    
     <script>
     $(document).ready(function() {
         'use strict';
