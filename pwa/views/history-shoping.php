@@ -13,7 +13,7 @@ session_start();
         <!-- /header -->
         <?php
 		require_once '../php/process_header.php';
-		require_once 'header_b.php'; 
+		require_once 'includes/inc_header-top.php'; 
 		?>
         <!-- /HISTORY-SHOPPING-->
         <div class="container-history-shopping-ttrk">

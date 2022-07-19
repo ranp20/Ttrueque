@@ -22,7 +22,7 @@ if (!isset($_SESSION["user"])) {
     </div>
     <div id="page">
       <?php require_once '../php/process_header.php';?>
-      <?php require_once 'header_b.php';?>
+      <?php require_once 'includes/inc_header-top.php';?>
       <?php require_once 'products_most-popular.php';	?>
     </div>
     <?php require_once 'footer.php';?>

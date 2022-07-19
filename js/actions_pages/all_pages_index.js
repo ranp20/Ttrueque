@@ -1,6 +1,8 @@
 (() => {
   list_allNumberOrders();
 });
+// ABRIR/CERRAR SIDEBAR LEFT
+$(document).on("click",".menu-nav-burger-index",function(){$("#navbarSupportedContent").toggleClass("open");});
 // ------------ BUSCAR POR CATEGORÍAS
 function search_ByNameCategory(search){
   var prod = $("#caja_busqueda_primary").val();

@@ -15,7 +15,7 @@ if (!isset($_SESSION['user'])) {
     <!-- /HEADER-->
     <?php
     require_once '../php/process_header.php';
-    require_once 'header_b.php'; 
+    require_once 'includes/inc_header-top.php'; 
     ?>
     <main class="main-favorites-container">
       <div class="container margin_30" id="favorites-content-list">

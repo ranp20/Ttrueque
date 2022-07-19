@@ -10,7 +10,7 @@ session_start();
     <div id="page" class="content-total-page-ttrk">
         <?php
 		require_once '../php/process_header.php';
-		require_once 'header_b.php'; ?>
+		require_once 'includes/inc_header-top.php'; ?>
         <div class="contenido-ofertas-off-header">
             <section class="banner-oferts" style="background-image: url('img/banners/banner-ofertas-semanales.png')">
             </section>

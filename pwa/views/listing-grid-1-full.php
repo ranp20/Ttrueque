@@ -8,7 +8,7 @@ require_once 'php/process_list_products.php';
 <body>
     <div id="page">
         <!-----/header-------->
-        <?php require_once 'header_b.php'; ?>
+        <?php require_once 'includes/inc_header-top.php'; ?>
         <div class="top_banner">
             <div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.5)">
                 <div class="container">

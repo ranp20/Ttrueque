@@ -18,7 +18,7 @@ if (!isset($_SESSION['user'])) {
 <body>
 	<div id="page" class="content-total-page-ttrk">
 		<?php	require_once '../php/process_header.php';?>
-		<?php require_once 'header_b.php';?>
+		<?php require_once 'includes/inc_header-top.php';?>
 		<div class="loader-ttrqstr">
       <span class="loader-ttrqstr--loader"></span>
     </div>

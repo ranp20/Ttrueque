@@ -9,7 +9,7 @@ session_start();
 	<div id="page">
 		<?php
 		require_once '../php/process_header.php';
-		require_once 'header_b.php'; ?>
+		require_once 'includes/inc_header-top.php'; ?>
 		<!-- /header -->
 		<main class="bg_gray">
 			<div class="container margin_30">

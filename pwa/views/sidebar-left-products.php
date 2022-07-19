@@ -42,7 +42,7 @@ $data = $p->get_data();
 	<div id="page">
 
 		<!--============== /header.php =============-->
-		<?php require_once 'header_b.php';  ?>
+		<?php require_once 'includes/inc_header-top.php';  ?>
 
 		<!--============== /header-links.php =============-->
 		<?php require_once 'header-links.php'; ?>

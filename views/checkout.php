@@ -29,7 +29,7 @@ $country_byid = $c->get_countries_by_idcountry($cli_id[0]['pais']);
     <div id="page">
         <?php
 		require_once '../php/process_header.php';
-		require_once 'header_b.php';
+		require_once 'includes/inc_header-top.php';
 		?>
         <!-- /header -->
         <main class="main_checkout-container bg_gray">

@@ -10,7 +10,7 @@ if(!isset($_SESSION['user'])){
 <body>
   <div id="page">
   <?php	require_once '../php/process_header.php';?>
-  <?php require_once 'header_b.php';?>
+  <?php require_once 'includes/inc_header-top.php';?>
     <main class="bg_gray content-confirm-page_ttrk">
       <div class="container">
         <div class="row justify-content-center">
