@@ -74,7 +74,7 @@ $all_stores = $stores->select_tienda();
 </head>
 
 <body>
-    <?php require_once './api_whatsapp.php' ?>
+    <?php  require_once 'includes/inc_api-whatsapp.php' ?>
     <!--- API WHATSAPP---->
     <div id="page">
         <?php

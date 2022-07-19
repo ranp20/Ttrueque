@@ -31,7 +31,7 @@ if (!isset($_SESSION['user'])) {
 </head>
 <body>
   <div class="contModalGuidettrk"></div>
-  <?php require_once './api_whatsapp.php';?>
+  <?php  require_once 'includes/inc_api-whatsapp.php';?>
   <div id="page">
     <?php require_once '../php/process_header.php';?>
     <div class="loader-ttrqstr">
