@@ -1,11 +1,8 @@
-$(document).ready(function(){
+$(() => {
   load(1);
 });
-
 function load(page){
   var tipoCateg = $("#tipo").val();
-  console.log(tipoCateg);
-
   var parametros = {"namecategory": tipoCateg,"page":page};
   $("#loader").fadeIn('slow');
   $.ajax({

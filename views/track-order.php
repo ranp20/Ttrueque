@@ -6,14 +6,22 @@ if (!isset($_SESSION['user'])) {
 	header("Location:home");
 }
 ?>
-<?php require_once 'header_index.php'; ?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Ttrueque | Ordenes y pedidos</title>
+  <?php require_once 'includes/header_links.php';?>
+  <!-- INCLUIR SWEET ALERT 2 -->
+  <link rel="stylesheet" href="node_modules/sweetalert2/dist/sweetalert2.min.css">
+  <script type="text/javascript" src="node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+</head>
 <body>
 	<div id="page" class="content-total-page-ttrk">
-		<?php
-		require_once '../php/process_header.php';
-		require_once 'header_b.php';
-		?>
-		<!-- /header -->
+		<?php	require_once '../php/process_header.php';?>
+		<?php require_once 'header_b.php';?>
+		<div class="loader-ttrqstr">
+      <span class="loader-ttrqstr--loader"></span>
+    </div>
 		<main class="bg_gray">
 			<div id="track_order">
 				<div class="container-track-order_ttrq">
@@ -36,14 +44,10 @@ if (!isset($_SESSION['user'])) {
 					</div>
 				</div>
 			</div>
-			<!-- /track_order -->
 		</main>
-		<!--/main-->
-		<?php require_once 'footer.php'; ?>
-		<!--/footer-->
+		<?php require_once 'footer.php';?>
 	</div>
-	<!-- page -->
-	<div id="toTop"></div><!-- Back to top button -->
+	<div id="toTop"></div>
 	<!-- COMMON SCRIPTS -->
 	<script type="text/javascript" src="js/common_scripts.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
@@ -51,9 +55,7 @@ if (!isset($_SESSION['user'])) {
 	<script type="text/javascript" src="js/actions_pages/remove.js"></script>
 	<script type="text/javascript" src="js/actions_pages/customs.js"></script>
 	<script type="text/javascript" src="js/actions_pages/all_pages_index.js"></script>
-	<script type="text/javascript" src="./js/actions_pages/language_currency.js"></script>
-	<script type="text/javascript" src="./js/actions_pages/track-order.js"></script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-  
+	<script type="text/javascript" src="js/actions_pages/language_currency.js"></script>
+	<script type="text/javascript" src="js/actions_pages/track-order.js"></script>
 </body>
 </html>
