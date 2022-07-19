@@ -34,7 +34,7 @@ if (!isset($_SESSION["user"])) {
     <script src="./js/actions_pages/listProds_Store_Category.js"></script>
     <script src="./js/actions_pages/listProds_ByNameStore.js"></script>
     <script src="./js/actions_pages/language_currency.js"></script>
-    <script src="js/customs/custom.js"></script>
+    
     <script src="./js/actions_pages/track-order.js"></script>
 </body>
 </html>

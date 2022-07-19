@@ -116,7 +116,7 @@ $country_byid = $c->get_countries_by_idcountry($cli_id[0]['pais']);
     <script src="js/actions_pages/customs.js"></script>
     <script src="js/actions_pages/search_products.js"></script>
     <script src="js/actions_pages/listCategories_ByStore.js"></script>
-    <script src="js/customs/custom.js"></script>
+    
     <script src="./js/actions_pages/track-order.js"></script>
 </body>
 

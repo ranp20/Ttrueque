@@ -97,7 +97,7 @@ if(!isset($_SESSION['user'])){
     <script src="js/actions_pages/search_products.js"></script>
     <script src="js/actions_pages/language_currency.js"></script>
     <script src="./js/actions_pages/track-order.js"></script>
-    <script src="js/customs/custom.js"></script>
+    
     <script type="text/javascript">
       $(document).ready(function(){
         $('.myprofile-cont--dropdown-menu--nameuser').on('click', function() {

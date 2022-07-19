@@ -83,7 +83,6 @@ $dat = $c->select_tienda();
   <div id="toTop"></div>
   <!-- COMMON SCRIPTS -->
   <script src="./js/main.js"></script>
-  <script src="./js/carousel-home.min.js"></script>
   <script src="./js/actions_pages/buy_cart.js"></script>
   <script src="./js/actions_pages/view_cart.js"></script>
   <script src="./js/actions_pages/modal_dialog.js"></script>
@@ -94,7 +93,7 @@ $dat = $c->select_tienda();
   <script src="./js/actions_pages/listAllCategories.js"></script>
   <script src="./js/actions_pages/listCategories_ByStore.js"></script>
   <script src="./js/actions_pages/listProds_Store_Category.js"></script>
-  <script src="js/customs/custom.js"></script>
+  
   <script src="./js/actions_pages/track-order.js"></script>
 </body>
 </html>

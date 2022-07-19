@@ -352,6 +352,6 @@ if (!isset($_SESSION['user'])) {
   <script src="js/actions_pages/customs.js"></script>
   <script src="js/actions_pages/search_products.js"></script>
   <script src="js/actions_pages/language_currency.js"></script>
-  <script src="js/customs/custom.js"></script>
+  
 </body>
 </html>

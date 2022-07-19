@@ -136,7 +136,7 @@ $data = $p->get_data();
 	<script>
 		$('.ZoomImagen').elevateZoom();
 	</script>
-	<script src="js/customs/custom.js"></script>
+	
 </body>
 
 </html>

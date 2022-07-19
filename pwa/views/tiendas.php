@@ -78,6 +78,6 @@ if(!isset($_GET['tipos']) || $_GET['tipos'] == ""){
     <script src="./js/actions_pages/listProds_ByNameCategory.js"></script>
     <script src="./js/actions_pages/track-order.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-    <script src="js/customs/custom.js"></script>
+    
 </body>
 </html>

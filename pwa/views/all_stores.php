@@ -92,7 +92,7 @@ $dat = $c->select_tienda();
     <script src="./js/actions_pages/listAllCategories.js"></script>
     <script src="./js/actions_pages/listCategories_ByStore.js"></script>
     <script src="./js/actions_pages/listProds_Store_Category.js"></script>
-    <script src="js/customs/custom.js"></script>
+    
     <script src="./js/actions_pages/track-order.js"></script>
 </body>
 </html>
