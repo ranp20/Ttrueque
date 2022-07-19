@@ -15,7 +15,7 @@ $dat = $c->select_tienda();
 <body>
 	<?php  require_once 'includes/inc_api-whatsapp.php' ?>
 	<div id="page">
-		<?php require_once './header_b.php'; ?>
+		<?php require_once 'includes/inc_header-top.php'; ?>
 		<?php require_once './official_markets.php'; ?>
 	</div>
 	<?php require_once("./footer.php") ?>

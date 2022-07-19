@@ -27,7 +27,7 @@ if($data == "" || count($data) <= 0){
   <div id="page">
   <?php 
   require_once '../php/process_header.php';
-	require_once './header_b.php';
+	require_once 'includes/inc_header-top.php';
 	?>
     <div class="loader-ttrqstr">
       <span class="loader-ttrqstr--loader"></span>

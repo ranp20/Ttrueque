@@ -1,17 +1,18 @@
-$(document).ready(function () {
+$(() => {
+  list_AllCategories();
+});
+function list_AllCategories(){
   $.ajax({
+    url: "./php/class/list_categories.php",
     dataType: "JSON",
     contentType: 'application/x-www-form-urlencoded;charset=UTF-8',
-    url: "./php/class/list_categories.php",
-  }).done(function (res) {
-    $.each(res, function (i, v) {
-    
+  }).done((e) => {
+    $.each(e, function (i, v) {
     var cadena = v.nombre_categoria;
     url = cadena.replace(/" "/g, "-");
     //console.log(url);
     var path = "./admin/images/categoria/" + v.imagen_categoria;
-    $("#lista_categories").append(
-    `
+    $("#lista_categories").append(`
     <li class="item-categ-stores-into">
       <a href="./tienda?tipos=${url}" class="item-cont-categ-stores"> 
         <div class="cont-logo-categories-str-b-ttrk">
@@ -23,8 +24,7 @@ $(document).ready(function () {
           </div>
         </div>
       </a>
-    </li>
-    `);
+    </li>`);
     });
   });
-});
+};

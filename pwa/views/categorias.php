@@ -114,7 +114,7 @@ $all_stores = $stores->select_tienda();
         array_push($titles_header_home, $header);
 
 
-		// require_once './header_b.php';
+		// require_once 'includes/inc_header-top.php';
         	require_once "./headertop-pwa.php";   
 		?>
         <!-- /header -->

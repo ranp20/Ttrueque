@@ -102,7 +102,7 @@ $all_stores = $stores->select_tienda();
 
       $titles_header_home = [];
       array_push($titles_header_home, $header);
-	    require_once './header_b.php';
+	    require_once 'includes/inc_header-top.php';
 	  ?>
     <input type="hidden" id="store_cli" value="<?php echo $_GET['store'];?>">
     <?php
