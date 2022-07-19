@@ -118,8 +118,8 @@ $wall = $c->get_wallet();
     </section>
   </div>
   <?php require_once 'tabsbottom-pwa.php'; ?>
-  <script src="./js/dashboard.js"></script>
-  <script src="js/buy-cart.js"></script>
+  <script type="text/javascript" src="./js/dashboard.js"></script>
+  <script type="text/javascript" src="js/buy-cart.js"></script>
   <script type="text/javascript">
         ((d) => {
         

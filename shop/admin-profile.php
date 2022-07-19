@@ -151,10 +151,10 @@ $country_byid = $c->get_countries_by_idcountry($d[0]['pais']);
             </div>
         </div>
     </div>
-    <script src="js/customs.js"></script>
-    <script src="js/dashboard.js"></script>
-    <script src="js/update_store.js"></script>
-    <script src="js/profile-client.js"></script>
+    <script type="text/javascript" src="js/customs.js"></script>
+    <script type="text/javascript" src="js/dashboard.js"></script>
+    <script type="text/javascript" src="js/update_store.js"></script>
+    <script type="text/javascript" src="js/profile-client.js"></script>
 </body>
 
 </html>

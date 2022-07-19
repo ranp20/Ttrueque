@@ -52,8 +52,7 @@ if (!isset($_SESSION['user'])) {
           <div class="collapse navbar-collapse p-3 p-lg-0 mt-5 mt-lg-0 d-flex flex-column flex-lg-row flex-xl-row justify-content-lg-between mobileMenu nav-index-ttrq-collapse" id="navbarSupportedContent">
             <form class="form-inline my-2 my-lg-0 align-self-stretch search-input-customs-header">
                 <div class="c-contentSearchTtrq">
-                  <input type="text" class="search-input_home form-control mr-sm-2" placeholder="Buscar en Ttrueque"
-                      id="caja_busqueda_primary" name="product" autocomplete="off">
+                  <input type="text" class="search-input_home form-control mr-sm-2" placeholder="Buscar en Ttrueque" id="caja_busqueda_primary" name="" autocomplete="off">
                   <div class="c-contentSearchTtrq--cont"></div>
                 </div>
             </form>
@@ -327,10 +326,11 @@ if (!isset($_SESSION['user'])) {
     </div>
     <div id="toTop"></div>
     <!-- Back to top button -->
-    <script src="js/common_scripts.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/actions_pages/index.js"></script>
-    <script src="js/carousel-home.min.js"></script>
+    <script type="text/javascript" src="js/common_scripts.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/actions_pages/index.js"></script>
+    <script type="text/javascript" src="js/actions_pages/all_pages_index.js"></script>
+    <script type="text/javascript" src="js/carousel-home.min.js"></script>
     <script type="text/javascript">
     var linksParent = $(".cont-links-products-banners");
     var links = linksParent.find("a");
@@ -347,11 +347,9 @@ if (!isset($_SESSION['user'])) {
     });
   </script>
   <!---------CUSTOMS JAVASCRIPT--------->
-  <script src="js/actions_pages/buy_cart.js"></script>
-  <script src="js/actions_pages/remove.js"></script>
-  <script src="js/actions_pages/customs.js"></script>
-  <script src="js/actions_pages/search_products.js"></script>
-  <script src="js/actions_pages/language_currency.js"></script>
-  
+  <script type="text/javascript" src="js/actions_pages/buy_cart.js"></script>
+  <script type="text/javascript" src="js/actions_pages/remove.js"></script>
+  <script type="text/javascript" src="js/actions_pages/customs.js"></script>
+  <script type="text/javascript" src="js/actions_pages/language_currency.js"></script>
 </body>
 </html>

@@ -113,14 +113,14 @@ echo "<input id='clientID_paypal' type='hidden' value='$_ClientID'>";
   </div>
 </div>
 <!-- //SCRIPT FOR PAYPAL-->
-<script src="https://www.paypalobjects.com/api/checkout.js"></script>
-<script src="../../../shop/js/store.js"></script>
-<script src="../../../shop/js/membresia.js"></script>
-<script src="../../../shop/js/language_currency.js"></script>
+<script type="text/javascript" src="https://www.paypalobjects.com/api/checkout.js"></script>
+<script type="text/javascript" src="../../../shop/js/store.js"></script>
+<script type="text/javascript" src="../../../shop/js/membresia.js"></script>
+<script type="text/javascript" src="../../../shop/js/language_currency.js"></script>
 <!-- SWEEET ALERT 2-->
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-<script src="../../../shop/js/paypay.js"></script>
-<script src="../../../shop/js/customs.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<script type="text/javascript" src="../../../shop/js/paypay.js"></script>
+<script type="text/javascript" src="../../../shop/js/customs.js"></script>
 </body>
 
 </html>

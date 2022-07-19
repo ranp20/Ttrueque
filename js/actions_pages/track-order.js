@@ -261,18 +261,3 @@ function reembolsouser(tienda, cliente, orderid) {
     });
   }
 }
-
-
-/* CAROUSEL DE TIENDAS */
-var contenedor = document.querySelector(  "#cont-radio-stores");
-var arrowleft = document.querySelector("#btn-sideleft");
-var arrowright = document.querySelector(  "#btn-sideright");
-
-arrowright.addEventListener("click", function () {
-  //contenedor.scrollLeft += contenedor.scrollLeft + 10;  
-  contenedor.scrollLeft += contenedor.offsetWidth;
-});
-arrowleft.addEventListener("click", function () {
-  //contenedor.scrollLeft -= contenedor.scrollLeft - 10;
-  contenedor.scrollLeft -= contenedor.offsetWidth;
-});

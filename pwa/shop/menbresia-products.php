@@ -32,8 +32,8 @@ include "./head/head.php";
     </div>
 </div>
 <?php require_once 'tabsbottom-pwa.php'; ?>
-<script src="../shop/js/membresia.js"></script>
-<script src="js/buy-cart.js"></script>
+<script type="text/javascript" src="../shop/js/membresia.js"></script>
+<script type="text/javascript" src="js/buy-cart.js"></script>
   <script type="text/javascript">
       ((d) => {
       

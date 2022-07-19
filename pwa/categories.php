@@ -91,17 +91,17 @@
   </div>
   <?php require_once 'includes/tabsbottom-pwa.php'; ?>
   
-  <script src="../js/common_scripts.min.js"></script>
-  <script src="../js/main.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-  <script src="js/actions-pages/language-currency.js"></script>
-  <script src="js/actions-pages/buy-cart.js"></script>
-  <script src="js/actions-pages/view-cart.js"></script>
-  <script src="../js/actions_pages/remove.js"></script>
-  <script src="../js/actions_pages/customs.js"></script>
-  <script src="../js/actions_pages/search_products.js"></script>
-  <script src="js/actions-pages/list-categories-by-store.js"></script>
-  <script src="../js/customs/custom.js"></script>
-  <script src="js/actions-pages/track-order.js"></script>
+  <script type="text/javascript" src="../js/common_scripts.min.js"></script>
+  <script type="text/javascript" src="../js/main.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  <script type="text/javascript" src="js/actions-pages/language-currency.js"></script>
+  <script type="text/javascript" src="js/actions-pages/buy-cart.js"></script>
+  <script type="text/javascript" src="js/actions-pages/view-cart.js"></script>
+  <script type="text/javascript" src="../js/actions_pages/remove.js"></script>
+  <script type="text/javascript" src="../js/actions_pages/customs.js"></script>
+  <script type="text/javascript" src="../js/actions_pages/all_pages_index.js"></script>
+  <script type="text/javascript" src="js/actions-pages/list-categories-by-store.js"></script>
+  <script type="text/javascript" src="../js/customs/custom.js"></script>
+  <script type="text/javascript" src="js/actions-pages/track-order.js"></script>
 </body>
 </html> -->

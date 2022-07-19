@@ -39,6 +39,6 @@
 <link href="./css/customs/custom.css" rel="stylesheet">
 <link rel="icon" href="./img/icon-pages/drawable-xxxhdpi-icon.png" type="image/ico">
 <link href="./css/whatsapp.css" rel="stylesheet">
-<script src="./js/customs.js"></script>
+<script type="text/javascript" src="./js/customs.js"></script>
 <!-- STYLESSHEET -->
 <link rel="stylesheet" href="<?= $url;?>assets/css/styles.min.css"/>

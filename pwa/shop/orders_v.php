@@ -75,9 +75,9 @@ date_default_timezone_set('America/Bogota');
     </section>
   </div>
   <?php require_once 'tabsbottom-pwa.php'; ?>
-  <script src="./js/dashboard.js"></script>
-  <script src="./js/ordenes_pedidos.js"></script>
-  <script src="js/buy-cart.js"></script>
+  <script type="text/javascript" src="./js/dashboard.js"></script>
+  <script type="text/javascript" src="./js/ordenes_pedidos.js"></script>
+  <script type="text/javascript" src="js/buy-cart.js"></script>
   <script type="text/javascript">
       ((d) => {
       

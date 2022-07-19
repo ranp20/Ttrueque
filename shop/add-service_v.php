@@ -20,7 +20,7 @@ $categories = $cat->get_categorias();
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Agregar Producto</title>
   <?php require_once 'includes/head.php'; ?>
-  <script src="ckeditor/ckeditor.js"></script>
+  <script type="text/javascript" src="ckeditor/ckeditor.js"></script>
 </head>
 <body>
   <div class="container-total active">
@@ -126,8 +126,8 @@ $categories = $cat->get_categorias();
         </form>
       </div>
     </div>
-  <script src="./js/product.js"></script>
-  <script src="./js/categorias.js"></script>
-  <script src="js/dashboard.js"></script>
+  <script type="text/javascript" src="./js/product.js"></script>
+  <script type="text/javascript" src="./js/categorias.js"></script>
+  <script type="text/javascript" src="js/dashboard.js"></script>
 </body>
 </html>

@@ -83,6 +83,6 @@ include "./head/head.php";
     </div>
   </div>
 </div>
-<script src="../shop/js/membresia.js"></script>
+<script type="text/javascript" src="../shop/js/membresia.js"></script>
 </body>
 </html>

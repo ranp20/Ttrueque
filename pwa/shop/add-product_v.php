@@ -20,7 +20,7 @@ $categories = $cat->get_categorias();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agregar Producto</title>
     <?php require_once 'includes/head.php'; ?>
-    <script src="ckeditor/ckeditor.js"></script>
+    <script type="text/javascript" src="ckeditor/ckeditor.js"></script>
 </head>
 <body class="body-homepwa mrgtop-57" style="padding-bottom: 3rem;">
     <?php require_once '../php/process_header.php'; ?>
@@ -131,10 +131,10 @@ $categories = $cat->get_categorias();
             </div>
         </div>
         <?php require_once 'tabsbottom-pwa.php'; ?>
-        <script src="./js/product.js"></script>
-        <script src="./js/categorias.js"></script>
-        <script src="js/dashboard.js"></script>
-        <script src="js/buy-cart.js"></script>
+        <script type="text/javascript" src="./js/product.js"></script>
+        <script type="text/javascript" src="./js/categorias.js"></script>
+        <script type="text/javascript" src="js/dashboard.js"></script>
+        <script type="text/javascript" src="js/buy-cart.js"></script>
         <script type="text/javascript">
             ((d) => {
             

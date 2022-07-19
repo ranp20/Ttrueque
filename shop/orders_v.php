@@ -70,8 +70,8 @@ date_default_timezone_set('America/Bogota');
       </div>
     </section>
   </div>
-  <script src="./js/dashboard.js"></script>
-  <script src="./js/ordenes_pedidos.js"></script>
+  <script type="text/javascript" src="./js/dashboard.js"></script>
+  <script type="text/javascript" src="./js/ordenes_pedidos.js"></script>
 </body>
 
 </html>

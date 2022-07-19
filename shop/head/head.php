@@ -12,10 +12,10 @@
   <link rel="stylesheet" type="text/css" href="../../css/customs/custom.css">
   <link rel="stylesheet" href="../../shop/LineIcons-Package-2.0/WebFont/font-css/LineIcons.css">
   <link rel="stylesheet" href="../shop/css/style.css" type="text/css">
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <!--//LINEICONS CDN-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.css">
-  <script src="../js/actions_pages/language_currency.js"></script>
+  <script type="text/javascript" src="../js/actions_pages/language_currency.js"></script>
   <link rel="stylesheet" href="<?php echo $url ?>shop/css/style.css">
   <!-----//ICON-PAGES------>
   <link rel="icon" href="<?php echo $url ?>img/icon-pages/drawable-xxxhdpi-icon.png" type="image/ico">

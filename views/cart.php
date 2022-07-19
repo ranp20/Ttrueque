@@ -66,19 +66,19 @@ $d_by_id =  $c->select_points_default($_SESSION['user']);
     <!-- COMMON SCRIPTS -->
     
     
-    <script src="./js/main.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
     <!--------- SWEEET ALERT 2 ------------>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <!--------- CUSTOMS JAVASCRIPT--------->
-    <script src="./js/actions_pages/language_currency.js"></script>
-    <script src="js/actions_pages/buy_cart.js"></script>
-    <script src="./js/actions_pages/view_cart.js"></script>
-    <script src="./js/actions_pages/remove.js"></script>
-    <script src="js/actions_pages/customs.js"></script>
-    <script src="js/actions_pages/search_products.js"></script>
-    <script src="js/actions_pages/listCategories_ByStore.js"></script>
+    <script type="text/javascript" src="./js/actions_pages/language_currency.js"></script>
+    <script type="text/javascript" src="js/actions_pages/buy_cart.js"></script>
+    <script type="text/javascript" src="./js/actions_pages/view_cart.js"></script>
+    <script type="text/javascript" src="./js/actions_pages/remove.js"></script>
+    <script type="text/javascript" src="js/actions_pages/customs.js"></script>
+    <script type="text/javascript" src="js/actions_pages/all_pages_index.js"></script>
+    <script type="text/javascript" src="js/actions_pages/listCategories_ByStore.js"></script>
     
-    <script src="./js/actions_pages/track-order.js"></script>
+    <script type="text/javascript" src="./js/actions_pages/track-order.js"></script>
 </body>
 
 </html>

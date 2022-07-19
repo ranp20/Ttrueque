@@ -82,9 +82,9 @@ if(!isset($_GET['ord']) || !is_numeric($_GET['ord']) || $_GET['ord'] == ""){
     </section>
   </div>
   <?php require_once 'tabsbottom-pwa.php'; ?>
-  <script src="./js/dashboard.js"></script>
-  <script src="./js/carrito.js"></script>
-  <script src="js/buy-cart.js"></script>
+  <script type="text/javascript" src="./js/dashboard.js"></script>
+  <script type="text/javascript" src="./js/carrito.js"></script>
+  <script type="text/javascript" src="js/buy-cart.js"></script>
   <script type="text/javascript">
       ((d) => {
       

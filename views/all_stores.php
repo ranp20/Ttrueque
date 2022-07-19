@@ -82,18 +82,18 @@ $dat = $c->select_tienda();
   </div>
   <div id="toTop"></div>
   <!-- COMMON SCRIPTS -->
-  <script src="./js/main.js"></script>
-  <script src="./js/actions_pages/buy_cart.js"></script>
-  <script src="./js/actions_pages/view_cart.js"></script>
-  <script src="./js/actions_pages/modal_dialog.js"></script>
-  <script src="./js/actions_pages/customs.js"></script>
-  <script src="./js/actions_pages/search_products.js"></script>
-  <script src="./js/actions_pages/history-shoping.js"></script>
-  <script src="./js/actions_pages/language_currency.js"></script>
-  <script src="./js/actions_pages/listAllCategories.js"></script>
-  <script src="./js/actions_pages/listCategories_ByStore.js"></script>
-  <script src="./js/actions_pages/listProds_Store_Category.js"></script>
+  <script type="text/javascript" src="./js/main.js"></script>
+  <script type="text/javascript" src="./js/actions_pages/buy_cart.js"></script>
+  <script type="text/javascript" src="./js/actions_pages/view_cart.js"></script>
+  <script type="text/javascript" src="./js/actions_pages/modal_dialog.js"></script>
+  <script type="text/javascript" src="./js/actions_pages/customs.js"></script>
+  <script type="text/javascript" src="./js/actions_pages/all_pages_index.js"></script>
+  <script type="text/javascript" src="./js/actions_pages/history-shoping.js"></script>
+  <script type="text/javascript" src="./js/actions_pages/language_currency.js"></script>
+  <script type="text/javascript" src="./js/actions_pages/listAllCategories.js"></script>
+  <script type="text/javascript" src="./js/actions_pages/listCategories_ByStore.js"></script>
+  <script type="text/javascript" src="./js/actions_pages/listProds_Store_Category.js"></script>
   
-  <script src="./js/actions_pages/track-order.js"></script>
+  <script type="text/javascript" src="./js/actions_pages/track-order.js"></script>
 </body>
 </html>

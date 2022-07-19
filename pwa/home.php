@@ -34,9 +34,9 @@ $path_b_p = "admin/images/banner_principal/";
     </div>
   </div>
   <div id="toTop"></div>
-  <script src="<?= $url ?>js/common_scripts.min.js"></script>
-  <script src="<?= $url ?>js/main.js"></script>
-  <script src="<?= $url ?>js/customs/custom.js"></script>
+  <script type="text/javascript" src="<?= $url ?>js/common_scripts.min.js"></script>
+  <script type="text/javascript" src="<?= $url ?>js/main.js"></script>
+  <script type="text/javascript" src="<?= $url ?>js/customs/custom.js"></script>
   <script type="text/javascript">
     var linksParent = $(".cont-links-pgs-info");
     var links = linksParent.find("a");

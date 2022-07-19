@@ -28,7 +28,7 @@ $categIdprod = $cat->get_cat_idtienda_update($_GET['id']);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Update Producto</title>
     <?php require_once 'includes/head.php'; ?>
-    <script src="ckeditor/ckeditor.js"></script>
+    <script type="text/javascript" src="ckeditor/ckeditor.js"></script>
 </head>
 <body class="body-homepwa mrgtop-57" style="padding-bottom: 3rem;">
     <?php require_once '../php/process_header.php'; ?>
@@ -157,10 +157,10 @@ $categIdprod = $cat->get_cat_idtienda_update($_GET['id']);
             </div>
         </div>
         <?php require_once 'tabsbottom-pwa.php'; ?>
-        <!--<script src="./js/marca.js"></script>-->
-        <script src="./js/update_product.js"></script>
-        <script src="js/dashboard.js"></script>
-        <script src="js/buy-cart.js"></script>
+        <!--<script type="text/javascript" src="./js/marca.js"></script>-->
+        <script type="text/javascript" src="./js/update_product.js"></script>
+        <script type="text/javascript" src="js/dashboard.js"></script>
+        <script type="text/javascript" src="js/buy-cart.js"></script>
         <script type="text/javascript">
             ((d) => {
             

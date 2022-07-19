@@ -55,11 +55,11 @@ if (!isset($_SESSION['user'])) {
     </div>
     <?php require_once './tabsbottom-pwa.php'; ?>
     
-    <script src="./js/main.js"></script>
-    <script src="js/actions_pages/buy_cart.js"></script>
-    <script src="js/actions_pages/remove.js"></script>
-    <script src="js/actions_pages/customs.js"></script>
-    <script src="./js/actions_pages/search_products.js"></script>
-    <script src="./js/actions_pages/track-order.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+    <script type="text/javascript" src="js/actions_pages/buy_cart.js"></script>
+    <script type="text/javascript" src="js/actions_pages/remove.js"></script>
+    <script type="text/javascript" src="js/actions_pages/customs.js"></script>
+    <script type="text/javascript" src="./js/actions_pages/all_pages_index.js"></script>
+    <script type="text/javascript" src="./js/actions_pages/track-order.js"></script>
 </body>
 </html>

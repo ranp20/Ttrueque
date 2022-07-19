@@ -75,6 +75,6 @@ session_start();
 		</div>
 	</div>
 	<div id="toTopgobtn"></div>
-	<script src="./js/actions_pages/listmenbership.js"></script>
+	<script type="text/javascript" src="./js/actions_pages/listmenbership.js"></script>
 </body>
 </html>

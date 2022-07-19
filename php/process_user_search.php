@@ -1,26 +1,26 @@
-
 <?php
 require_once "class/connection.php";
-class List_Solicitudes extends Connection
-{
-    function listar_solicitudes()
-    {
-        $product = $_POST['product'];
+class List_SearchByCategories extends Connection{
+  function list(){
+    $que = (isset($_POST['product']) && $_POST['product'] != "") ? $_POST['product'] : "";
+    try{
+      $sql = "SELECT nombre_categoria FROM categoria ORDER BY id_categoria DESC LIMIT 6";
 
-        try {
-            $sql = "CALL sp_search_product(:product)";
-            $stm = $this->con->prepare($sql);
-            $stm->bindValue(":product", $product);
-            $stm->execute();
-
-            $var = $stm->fetchAll(PDO::FETCH_ASSOC);
-            // $res = json_encode($var);
-            $res = json_encode($var);
-            echo $res;
-        } catch (PDOException $e) {
-            return $e->getMessage();
-        }
+      if($que != ""){
+          $search = addslashes($que);
+          $sql = "SELECT * FROM categoria 
+                  WHERE nombre_categoria LIKE '%$search%'
+                  ORDER BY id_categoria DESC LIMIT 6";
+      }
+      $stm = $this->con->prepare($sql);
+      $stm->execute();
+      $var = $stm->fetchAll(PDO::FETCH_ASSOC);
+      $res = json_encode($var);
+      echo $res;
+    }catch (PDOException $e){
+      return $e->getMessage();
     }
+  }
 }
-$cualquiera = new List_Solicitudes();
-echo $cualquiera->listar_solicitudes();
+$list = new List_SearchByCategories();
+echo $list->list();

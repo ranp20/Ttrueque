@@ -14,7 +14,7 @@
           <form class="form-inline my-2 my-lg-0 align-self-stretch search-input-customs-header">
               <div class="c-contentSearchTtrq">
                 <input type="text" class="search-input_home form-control mr-sm-2" placeholder="Buscar en Ttrueque"
-                    id="caja_busqueda_primary" name="product" autocomplete="off">
+                    id="caja_busqueda_primary" name="tienda?tipos" autocomplete="off">
                 <div class="c-contentSearchTtrq--cont"></div>
               </div>
           </form>

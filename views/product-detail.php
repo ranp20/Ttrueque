@@ -39,11 +39,11 @@ if($data == "" || count($data) <= 0){
   </div>
   <div id="toTopgobtn"></div>
   
-  <script src="./js/main.js"></script>
-  <script src="./js/customs/custom.js"></script>
-  <script src="./js/actions_pages/buy_cart.js"></script>
-  <script src="./js/actions_pages/customs.js"></script>
-  <script src="./js/actions_pages/search_products.js"></script>
-  <script src="./js/actions_pages/listProductsDetail.js"></script>
+  <script type="text/javascript" src="./js/main.js"></script>
+  <script type="text/javascript" src="./js/customs/custom.js"></script>
+  <script type="text/javascript" src="./js/actions_pages/buy_cart.js"></script>
+  <script type="text/javascript" src="./js/actions_pages/customs.js"></script>
+  <script type="text/javascript" src="./js/actions_pages/all_pages_index.js"></script>
+  <script type="text/javascript" src="./js/actions_pages/listProductsDetail.js"></script>
 </body>
 </html>

@@ -39,9 +39,9 @@
         <!--<div id="countdown" class="cont-crono-under-const"></div>-->
       </div>
     </div>
-    <script src="<?php echo $url ?>views/mantenience/js/jquery-3.1.1.min.js"></script>
-    <script src="<?php echo $url ?>views/mantenience/js/bootstrap.min.js"></script>
-    <script src="<?php echo $url ?>views/mantenience/js/jquery.countdown.js"></script>
-    <!--<script src="<?php //echo $url ?>views/mantenience/js/active.js"></script>-->
+    <script type="text/javascript" src="<?php echo $url ?>views/mantenience/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="<?php echo $url ?>views/mantenience/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="<?php echo $url ?>views/mantenience/js/jquery.countdown.js"></script>
+    <!--<script type="text/javascript" src="<?php //echo $url ?>views/mantenience/js/active.js"></script>-->
 </body>
 </html>

@@ -113,7 +113,7 @@ $wall = $c->get_wallet();
       </div>
     </section>
   </div>
-  <script src="./js/dashboard.js"></script>
-  <!--<script src="./js/language_currency.js"></script>-->
+  <script type="text/javascript" src="./js/dashboard.js"></script>
+  <!--<script type="text/javascript" src="./js/language_currency.js"></script>-->
 </body>
 </html>

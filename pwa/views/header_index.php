@@ -37,7 +37,7 @@
   <!-- //WHATSAPP API -->
   <link href="./css/whatsapp.css" rel="stylesheet">
   <!-- //CUSTOMS JS-->
-  <script src="./js/customs.js"></script>
+  <script type="text/javascript" src="./js/customs.js"></script>
   <!----->
   <!--  OWL CAROUSEL-->
   <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">

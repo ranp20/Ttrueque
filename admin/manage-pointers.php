@@ -83,15 +83,15 @@ $pointers = $a->get_pointers();
     </div>
   </div>
   <!-- Loading Scripts -->
-  <script src="js/jquery.min.js"></script>
-  <script src="js/bootstrap-select.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.dataTables.min.js"></script>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap-select.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
   <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
-  <script src="js/Chart.min.js"></script>
-  <script src="js/fileinput.js"></script>
-  <script src="js/chartData.js"></script>
-  <script src="js/main.js"></script>
+  <script type="text/javascript" src="js/Chart.min.js"></script>
+  <script type="text/javascript" src="js/fileinput.js"></script>
+  <script type="text/javascript" src="js/chartData.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
   <script type="text/javascript">  
     $(document).ready(function() {
       setTimeout(function() {

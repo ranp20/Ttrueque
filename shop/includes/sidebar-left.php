@@ -48,6 +48,6 @@ $d = $c->get_data_by_id($_SESSION['user']);
         ?>
     </div>
 </section>
-<script src="js/store.js"></script>
-<script src="js/customs.js"></script>
-<script src="js/language_currency.js"></script>
+<script type="text/javascript" src="js/store.js"></script>
+<script type="text/javascript" src="js/customs.js"></script>
+<script type="text/javascript" src="js/language_currency.js"></script>

@@ -55,19 +55,19 @@ $all_stores = $stores->select_tienda();
     <!-- //WHATSAPP API -->
     <link href="<?php echo $url ?>css/whatsapp.css" rel="stylesheet">
     <!-- //CUSTOMS JS-->
-    <script src="<?php echo $url ?>js/customs.js"></script>
+    <script type="text/javascript" src="<?php echo $url ?>js/customs.js"></script>
     <!----->
     <!-- COMMON SCRIPTS -->
-    <script src="<?php echo $url ?>js/common_scripts.min.js"></script>
-    <script src="<?php echo $url ?>js/actions_pages/buy_cart.js"></script>
-    <script src="<?php echo $url ?>js/actions_pages/view_cart.js"></script>
-    <script src="<?php echo $url ?>js/actions_pages/customs.js"></script>
-    <script src="<?php echo $url ?>js/actions_pages/search_products.js"></script>
-    <script src="<?php echo $url ?>js/actions_pages/language_currency.js"></script>
-    <script src="<?php echo $url ?>js/actions_pages/listCategories_ByStore.js"></script>
-    <script src="<?php echo $url ?>js/actions_pages/listProds_Store_Category.js"></script>
-    <script src="<?php echo $url ?>js/customs/custom.js"></script>
-    <script src="<?php echo $url ?>js/actions_pages/track-order.js"></script>
+    <script type="text/javascript" src="<?php echo $url ?>js/common_scripts.min.js"></script>
+    <script type="text/javascript" src="<?php echo $url ?>js/actions_pages/buy_cart.js"></script>
+    <script type="text/javascript" src="<?php echo $url ?>js/actions_pages/view_cart.js"></script>
+    <script type="text/javascript" src="<?php echo $url ?>js/actions_pages/customs.js"></script>
+    <script type="text/javascript" src="<?php echo $url ?>js/actions_pages/all_pages_index.js"></script>
+    <script type="text/javascript" src="<?php echo $url ?>js/actions_pages/language_currency.js"></script>
+    <script type="text/javascript" src="<?php echo $url ?>js/actions_pages/listCategories_ByStore.js"></script>
+    <script type="text/javascript" src="<?php echo $url ?>js/actions_pages/listProds_Store_Category.js"></script>
+    <script type="text/javascript" src="<?php echo $url ?>js/customs/custom.js"></script>
+    <script type="text/javascript" src="<?php echo $url ?>js/actions_pages/track-order.js"></script>
 </head>
 <body class="body-homepwa" style="padding-bottom: 3rem;padding-top: 1rem;">
     <div class="loader-cli">

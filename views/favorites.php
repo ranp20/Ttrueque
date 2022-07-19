@@ -168,16 +168,16 @@ if (!isset($_SESSION['user'])) {
   <!-- page -->
   <div id="toTop"></div><!-- Back to top button -->
   <!-- COMMON SCRIPTS -->
-  <script src="js/common_scripts.min.js"></script>
-  <script src="js/main.js"></script>
+  <script type="text/javascript" src="js/common_scripts.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
   <!-- SPECIFIC SCRIPTS -->
-  <script src="js/sticky_sidebar.min.js"></script>
-  <script src="js/specific_listing.js"></script>
-  <script src="view_favorites.js"></script>
-  <script src="./js/actions_pages/view_cart.js"></script>
-  <script src="js/actions_pages/customs.js"></script>
+  <script type="text/javascript" src="js/sticky_sidebar.min.js"></script>
+  <script type="text/javascript" src="js/specific_listing.js"></script>
+  <script type="text/javascript" src="view_favorites.js"></script>
+  <script type="text/javascript" src="./js/actions_pages/view_cart.js"></script>
+  <script type="text/javascript" src="js/actions_pages/customs.js"></script>
   <!-- CUSTOM JQUERY -->
-  <script src="js/actions_pages/favorites.js"></script>
-  <script src="./js/actions_pages/language_currency.js"></script>
+  <script type="text/javascript" src="js/actions_pages/favorites.js"></script>
+  <script type="text/javascript" src="./js/actions_pages/language_currency.js"></script>
 </body>
 </html>

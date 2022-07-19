@@ -34,7 +34,7 @@ $data = $p->get_data();
 	<!-- Estilos.css -->
 	<link href="css/estilos.css" rel="stylesheet">
 	<!-- FontAwesome customs -->
-	<script src="js/customs.js"></script>
+	<script type="text/javascript" src="js/customs.js"></script>
 </head>
 
 <body>
@@ -126,11 +126,11 @@ $data = $p->get_data();
 	<!-- JQuery -->
 	
 	<!-- COMMON SCRIPTS -->
-	<script src="js/common_scripts.min.js"></script>
-	<script src="js/main.js"></script>
+	<script type="text/javascript" src="js/common_scripts.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 
 	<!-- SPECIFIC SCRIPTS -->
-	<script src="js/carousel_with_thumbs.js"></script>
+	<script type="text/javascript" src="js/carousel_with_thumbs.js"></script>
 	<!-- Plugin EffectZoom -->
 	<link rel="stylesheet" href="js/jquery.elevateZoom-3.0.8.min.js">
 	<script>

@@ -91,9 +91,9 @@ $_Secret = $data_cred[0]['key_secret'];
     </section>
   </div>
   <!-- //SCRIPT FOR PAYPAL-->
-  <script src="https://www.paypalobjects.com/api/checkout.js"></script>
-  <script src="./js/dashboard.js"></script>
-  <script src="./js/custom-payment.js"></script>
+  <script type="text/javascript" src="https://www.paypalobjects.com/api/checkout.js"></script>
+  <script type="text/javascript" src="./js/dashboard.js"></script>
+  <script type="text/javascript" src="./js/custom-payment.js"></script>
   <script type="text/javascript">
         ((d) => {
         

@@ -94,8 +94,8 @@ if (!isset($tienda[1][0]["id_menbresia"])) {
       </div>
     </section>
   </div>
-  <script src="./js/dashboard.js"></script>
-  <script src="./js/historial_billetera.js"></script>
+  <script type="text/javascript" src="./js/dashboard.js"></script>
+  <script type="text/javascript" src="./js/historial_billetera.js"></script>
   <script type="text/javascript">
     $(".bcontent-btns-top--m--itemgroup--cDesc--addlink").hover(function(){
       $(".bcontent-btns-top--m--linkgroup").css({"border": "thin solid red"});

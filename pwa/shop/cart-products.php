@@ -143,8 +143,8 @@ if (!isset($tienda[1][0]["id_menbresia"])) {
         </div>
         </section>
     </div> 
-    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-    <script src="js/cart-products.js"></script>
-    <script src="js/dashboard.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="js/cart-products.js"></script>
+    <script type="text/javascript" src="js/dashboard.js"></script>
 </body>
 </html>

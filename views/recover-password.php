@@ -31,6 +31,6 @@ if (isset($_SESSION["user"])){
 			</form>
 		</div>
 	</div>
-	<script src="./js/actions_pages/recover_pass.js"></script>
+	<script type="text/javascript" src="./js/actions_pages/recover_pass.js"></script>
 </body>
 </html>

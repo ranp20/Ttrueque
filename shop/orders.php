@@ -77,8 +77,8 @@ if(!isset($_GET['ord']) || !is_numeric($_GET['ord']) || $_GET['ord'] == ""){
       <h2 id="resultTabla"></h2>
     </section>
   </div>
-  <script src="./js/dashboard.js"></script>
-  <script src="./js/carrito.js"></script>
+  <script type="text/javascript" src="./js/dashboard.js"></script>
+  <script type="text/javascript" src="./js/carrito.js"></script>
 </body>
 
 </html>

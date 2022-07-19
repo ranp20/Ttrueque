@@ -131,12 +131,12 @@ if ($d[0]['estado'] == "INACTIVO") {
     </section>
   </div>
   <?php require_once 'tabsbottom-pwa.php'; ?>
-  <script src="js/sidebar-left.js"></script>
-  <script src="js/customs.js"></script>
-  <script src="js/dashboard.js"></script>
-  <script src="js/ordenes_pedidos.js"></script>
-  <script src="js/informe_ventas.js"></script>
-  <script src="js/buy-cart.js"></script>
+  <script type="text/javascript" src="js/sidebar-left.js"></script>
+  <script type="text/javascript" src="js/customs.js"></script>
+  <script type="text/javascript" src="js/dashboard.js"></script>
+  <script type="text/javascript" src="js/ordenes_pedidos.js"></script>
+  <script type="text/javascript" src="js/informe_ventas.js"></script>
+  <script type="text/javascript" src="js/buy-cart.js"></script>
   <script type="text/javascript">
       ((d) => {
       

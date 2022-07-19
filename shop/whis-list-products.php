@@ -66,7 +66,7 @@ error_reporting(0);
             </div>
         </section>
     </div>
-    <script src="js/customs.js"></script>
-    <script src="js/dashboard.js"></script>
+    <script type="text/javascript" src="js/customs.js"></script>
+    <script type="text/javascript" src="js/dashboard.js"></script>
 </body>
 </html>

@@ -34,8 +34,8 @@ if($mantenience == 'NO' || $mantenience == 'no'){
       <input type="hidden" id='count-remove-mant' value="<?= $mante[0]['day'];?>">
     </div>
   </div>
-  <script src="<?= $url;?>views/mantenience/js/jquery-3.1.1.min.js"></script>
-  <script src="<?= $url;?>views/mantenience/js/bootstrap.min.js"></script>
-  <script src="<?= $url;?>views/mantenience/js/jquery.countdown.js"></script>
+  <script type="text/javascript" src="<?= $url;?>views/mantenience/js/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="<?= $url;?>views/mantenience/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="<?= $url;?>views/mantenience/js/jquery.countdown.js"></script>
 </body>
 </html>

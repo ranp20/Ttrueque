@@ -114,10 +114,10 @@ $_Secret = $data_cred[0]['key_secret'];
     </div>
     <!-- //SCRIPT FOR PAYPAL-->
     <?php require_once 'tabsbottom-pwa.php'; ?>
-    <script src="https://www.paypalobjects.com/api/checkout.js"></script>
-    <script src="./js/dashboard.js"></script>
-    <script src="./js/informe_ventas.js"></script>
-    <script src="js/buy-cart.js"></script>
+    <script type="text/javascript" src="https://www.paypalobjects.com/api/checkout.js"></script>
+    <script type="text/javascript" src="./js/dashboard.js"></script>
+    <script type="text/javascript" src="./js/informe_ventas.js"></script>
+    <script type="text/javascript" src="js/buy-cart.js"></script>
     <script type="text/javascript">
       ((d) => {
       

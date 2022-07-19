@@ -113,8 +113,8 @@ $categories = $c->get_categorias();
       </div>
     </section>
   </div>
-  <!--<script src="./js/marca.js"></script>-->
-  <script src="./js/categorias.js"></script>
-  <script src="./js/dashboard.js"></script>
+  <!--<script type="text/javascript" src="./js/marca.js"></script>-->
+  <script type="text/javascript" src="./js/categorias.js"></script>
+  <script type="text/javascript" src="./js/dashboard.js"></script>
 </body>
 </html>

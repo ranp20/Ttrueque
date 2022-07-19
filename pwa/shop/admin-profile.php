@@ -154,11 +154,11 @@ $country_byid = $c->get_countries_by_idcountry($d[0]['pais']);
         </div>
     </div>
     <?php require_once 'tabsbottom-pwa.php'; ?>
-    <script src="js/customs.js"></script>
-    <script src="js/dashboard.js"></script>
-    <script src="js/update_store.js"></script>
-    <script src="js/profile-client.js"></script>
-    <script src="js/buy-cart.js"></script>
+    <script type="text/javascript" src="js/customs.js"></script>
+    <script type="text/javascript" src="js/dashboard.js"></script>
+    <script type="text/javascript" src="js/update_store.js"></script>
+    <script type="text/javascript" src="js/profile-client.js"></script>
+    <script type="text/javascript" src="js/buy-cart.js"></script>
     <script type="text/javascript">
         ((d) => {
         

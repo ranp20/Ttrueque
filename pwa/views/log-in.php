@@ -102,7 +102,7 @@ $paises = $all->get_name_country();
     </div>
   </div>
   <div id="cont-AlertMssgTtrqUsrPWA"></div>
-  <script src="<?= $url ?>js/actions_pages/login.js"></script>
-  <script src="<?= $url ?>js/actions_pages/account.js"></script>
+  <script type="text/javascript" src="<?= $url ?>js/actions_pages/login.js"></script>
+  <script type="text/javascript" src="<?= $url ?>js/actions_pages/account.js"></script>
 </body>
 </html>
