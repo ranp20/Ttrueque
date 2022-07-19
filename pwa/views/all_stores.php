@@ -78,10 +78,10 @@ $dat = $c->select_tienda();
         </div>
         <?php require_once './tabsbottom-pwa.php'; ?>
     </div>
-    <script src="./js/common_scripts.min.js"></script>
+    
     <script src="./js/main.js"></script>
     <script src="./js/carousel-home.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    
     <script src="./js/actions_pages/buy_cart.js"></script>
     <script src="./js/actions_pages/view_cart.js"></script>
     <script src="./js/actions_pages/modal_dialog.js"></script>

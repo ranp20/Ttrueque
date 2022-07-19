@@ -25,8 +25,8 @@ $data = $p->get_data($_GET["id"]);
     <div class="container-detalle-producto" id="detailprod_ttrq"></div>
     <?php require_once './tabsbottom-pwa.php'; ?>
     </div>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="./js/common_scripts.min.js"></script>
+    
+    
     <script src="./js/main.js"></script>
     <script src="./js/carousel_with_thumbs.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>

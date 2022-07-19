@@ -68,7 +68,7 @@ if(!isset($_GET['tipos']) || $_GET['tipos'] == ""){
         </div>
         <?php require_once "./footer.php" ?>
     </div>
-    <script src="./js/common_scripts.min.js"></script>
+    
     <script src="./js/main.js"></script>
     <script src="./js/actions_pages/buy_cart.js"></script>
     <script src="./js/actions_pages/modal_dialog.js"></script>

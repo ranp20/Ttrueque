@@ -32,7 +32,7 @@ $dat = $c->select_tienda();
 	<script src="js/common_scripts.min.js"></script>
 	<script src="js/main.js"></script>
 	<script src="js/carousel-home.min.js"></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	
 	<script src="js/actions_pages/buy_cart.js"></script>
 	<script src="js/actions_pages/modal_dialog.js"></script>
 	<script src="js/actions_pages/customs.js"></script>

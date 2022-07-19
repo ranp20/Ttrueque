@@ -38,7 +38,7 @@ if($data == "" || count($data) <= 0){
     <?php require_once 'footer.php'; ?>
   </div>
   <div id="toTopgobtn"></div>
-  <script src="./js/common_scripts.min.js"></script>
+  
   <script src="./js/main.js"></script>
   <script src="./js/customs/custom.js"></script>
   <script src="./js/actions_pages/buy_cart.js"></script>

@@ -99,8 +99,8 @@ $country_byid = $c->get_countries_by_idcountry($cli_id[0]['pais']);
         </main>
     </div>
     <?php require_once './tabsbottom-pwa.php'; ?>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="./js/common_scripts.min.js"></script>
+    
+    
     <script src="./js/main.js"></script>
     <script src="./js/actions_pages/checkout-product.js"></script>
     <!--------- SWEEET ALERT 2  ---------->

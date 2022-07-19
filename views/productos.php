@@ -31,10 +31,10 @@ require_once 'header_index.php';
     <!-- page -->
     <div id="toTop"></div>
     <!-- Back to top button -->
-    <script src="./js/common_scripts.min.js"></script>
+    
     <script src="./js/main.js"></script>
     <script src="./js/carousel-home.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    
     <script src="./js/actions_pages/modal_dialog.js"></script>
     <!--------- SWEEET ALERT 2  ---------->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>

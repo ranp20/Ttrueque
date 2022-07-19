@@ -124,7 +124,7 @@ $data = $p->get_data();
 	<div id="toTop"></div>
 
 	<!-- JQuery -->
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	
 	<!-- COMMON SCRIPTS -->
 	<script src="js/common_scripts.min.js"></script>
 	<script src="js/main.js"></script>

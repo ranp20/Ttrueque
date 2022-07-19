@@ -10,9 +10,15 @@ require_once '../php/class/store.php';
 $c = new Store();
 $dat = $c->select_tienda();
 ?>
-
-<?php require_once 'header_index.php'; ?>
-
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Ttrueque | Vender y comprar sin dinero convencional</title>
+  <?php require_once 'includes/header_links.php';?>
+  <!-- INCLUIR SWEET ALERT 2 -->
+  <link rel="stylesheet" href="node_modules/sweetalert2/dist/sweetalert2.min.css">
+  <script type="text/javascript" src="node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+</head>
 <body>
     <?php require_once 'api_whatsapp.php' ?>
     <!--- API WHATSAPP---->
@@ -86,10 +92,10 @@ $dat = $c->select_tienda();
     <div id="toTop"></div>
     <!-- Back to top button -->
     <!-- COMMON SCRIPTS -->
-    <script src="./js/common_scripts.min.js"></script>
+    
     <script src="./js/main.js"></script>
     <script src="./js/carousel-home.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    
     <script src="./js/actions_pages/buy_cart.js"></script>
     <script src="./js/actions_pages/view_cart.js"></script>
     <script src="./js/actions_pages/modal_dialog.js"></script>

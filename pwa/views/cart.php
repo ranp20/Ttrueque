@@ -55,8 +55,8 @@ $d_by_id =  $c->select_points_default($_SESSION['user']);
         </main>
     </div>
     <?php require_once './tabsbottom-pwa.php'; ?>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="./js/common_scripts.min.js"></script>
+    
+    
     <script src="./js/main.js"></script>
     <!--------- SWEEET ALERT 2 ------------>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>

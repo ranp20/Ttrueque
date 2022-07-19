@@ -87,8 +87,8 @@ if (!isset($_SESSION['user'])) {
 		<?php require_once 'footer.php'; ?>
 	</div>
   <div id="toTop"></div>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <script src="./js/common_scripts.min.js"></script>
+  
+  
   <script src="./js/main.js"></script>
   <!--------- SWEEET ALERT 2 ------------>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>

@@ -31,11 +31,11 @@ session_start();
     <!-- Back to top button -->
     <!-- COMMON SCRIPTS -->
     <script src="./js/actions_pages/track-order.js"></script>
-    <script src="./js/common_scripts.min.js"></script>
+    
     <script src="./js/main.js"></script>
     <!-- SPECIFIC SCRIPTS -->
     <script src="./js/carousel-home.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    
     <script src="./js/actions_pages/buy_cart.js"></script>
     <!-- Agregar la ventana modal a la página -->
     <script src="./js/actions_pages/modal_dialog.js"></script>

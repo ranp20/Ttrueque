@@ -23,10 +23,10 @@ require_once 'header_index.php';
     </div>
     <?php require_once './tabsbottom-pwa.php'; ?>
     </div>
-    <script src="./js/common_scripts.min.js"></script>
+    
     <script src="./js/main.js"></script>
     <script src="./js/carousel-home.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    
     <script src="./js/actions_pages/modal_dialog.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <script src="./js/actions_pages/customs.js"></script>

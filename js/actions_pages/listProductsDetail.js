@@ -12,7 +12,7 @@ function list_detailsProd(){
     dataType: "JSON",
     data: { idprod: idprodu },
   }).done((e) => {
-    $.each(e, function (i, v) {
+    $.each(e, function (i, v){
       var path = "../../Ttrueque/shop/folder/" + v.imagen;
       var path_store = "../../Ttrueque/shop/images/store/" + v.logo;
       var idtienda_cli = v.id_tienda;
@@ -50,7 +50,6 @@ function list_detailsProd(){
                     </ul>
                   </div>  
                 </div>
-
               </div>
             </div>
           </div>

@@ -35,7 +35,7 @@ if(!isset($_SESSION['user'])){
   </div>
   <div id="toTop"></div>
   <!-- COMMON SCRIPTS -->
-  <script src="./js/common_scripts.min.js"></script>
+  
   <script src="./js/main.js"></script>
   <script src="js/actions_pages/buy_cart.js"></script>
   <script src="js/actions_pages/remove.js"></script>
