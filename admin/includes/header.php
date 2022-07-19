@@ -15,7 +15,7 @@
 			<div class="content-user-options">
 				<ul class="ts-profile-nav" class="user-s-sidebar-left">
 					<li class="ts-account">
-						<a href="#"><i class="fa fa-user"></i>Cuenta<i class="fa fa-angle-down hidden-side"></i></a>
+						<a href="javascript:void(0);"><i class="fa fa-user"></i>Cuenta<i class="fa fa-angle-down hidden-side"></i></a>
 						<ul>
 							<li><a href="manage-admin.php"><i class="fa fa-pencil"></i>Perfil</a></li>
 							<li><a href="logout.php"><i class="fa fa-remove"></i>Cerrar Sesión</a></li>

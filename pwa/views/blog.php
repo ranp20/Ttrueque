@@ -10,7 +10,7 @@
 					<div class="breadcrumbs">
 						<ul>
 							<li><a href="/">Inicio</a></li>
-							<li><a href="#">Categorías</a></li>
+							<li><a href="javascript:void(0);">Categorías</a></li>
 							<li>Page active</li>
 						</ul>
 					</div>
@@ -227,10 +227,10 @@
 								<h4>Categories</h4>
 							</div>
 							<ul class="cats">
-								<li><a href="#">Food <span>(12)</span></a></li>
-								<li><a href="#">Places to visit <span>(21)</span></a></li>
-								<li><a href="#">New Places <span>(44)</span></a></li>
-								<li><a href="#">Suggestions and guides <span>(31)</span></a></li>
+								<li><a href="javascript:void(0);">Food <span>(12)</span></a></li>
+								<li><a href="javascript:void(0);">Places to visit <span>(21)</span></a></li>
+								<li><a href="javascript:void(0);">New Places <span>(44)</span></a></li>
+								<li><a href="javascript:void(0);">Suggestions and guides <span>(31)</span></a></li>
 							</ul>
 						</div>
 						<!-- /widget -->
@@ -239,13 +239,13 @@
 								<h4>Popular Tags</h4>
 							</div>
 							<div class="tags">
-								<a href="#">Food</a>
-								<a href="#">Bars</a>
-								<a href="#">Cooktails</a>
-								<a href="#">Shops</a>
-								<a href="#">Best Offers</a>
-								<a href="#">Transports</a>
-								<a href="#">Restaurants</a>
+								<a href="javascript:void(0);">Food</a>
+								<a href="javascript:void(0);">Bars</a>
+								<a href="javascript:void(0);">Cooktails</a>
+								<a href="javascript:void(0);">Shops</a>
+								<a href="javascript:void(0);">Best Offers</a>
+								<a href="javascript:void(0);">Transports</a>
+								<a href="javascript:void(0);">Restaurants</a>
 							</div>
 						</div>
 						<!-- /widget -->

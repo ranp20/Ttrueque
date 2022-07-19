@@ -16,7 +16,7 @@ session_start();
 					<div class="breadcrumbs">
 						<ul>
 							<li><a href="/">Inicio</a></li>
-							<li><a href="#">Categoría</a></li>
+							<li><a href="javascript:void(0);">Categoría</a></li>
 							<li>Página activa</li>
 						</ul>
 					</div>

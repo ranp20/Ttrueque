@@ -70,14 +70,14 @@
                             <h2>Vende en tu propio negocio</h2>
                             <p>Usando tu cuenta o tarjeta Trueke Al vender, tu ganancia se DUPLICA Ejemplo: Vendes un
                                 producto a 50 dólares. (o su equivalente en moneda nacional) Automáticamente tu cuenta
-                                en Trueke lo duplica: Obtienes 100 Bikers. <a href="#">Mayores detalles</a></p>
+                                en Trueke lo duplica: Obtienes 100 Bikers. <a href="javascript:void(0);">Mayores detalles</a></p>
                             <a href="account" class="btn-register">Regístrate sin costo</a>
                         </div>
                         <div class="content-right-o">
                             <h2>Compras de forma segura</h2>
                             <p>Tu saldo estará fijado en Bikers Ejemplo: Vas a comprar un producto que cuesta 30 dólares
                                 (o su equivalente en moneda nacional)Con tu cuenta Trueke, pagarás con 30 Bikers. Porque
-                                cada Biker, es equivalente a un dólar. <a href="#">Mayores detalles</a></p>
+                                cada Biker, es equivalente a un dólar. <a href="javascript:void(0);">Mayores detalles</a></p>
                             <a href="account" class="btn-register">Regístrate sin costo</a>
                         </div>
                     </div>

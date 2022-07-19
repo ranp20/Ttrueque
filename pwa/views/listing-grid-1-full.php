@@ -15,7 +15,7 @@ require_once 'php/process_list_products.php';
                     <div class="breadcrumbs">
                         <ul>
                             <li><a href="index.php">Inicio</a></li>
-                            <li><a href="#"><?php echo $data_page_list["nombre_categoria"] ?></a></li>
+                            <li><a href="javascript:void(0);"><?php echo $data_page_list["nombre_categoria"] ?></a></li>
                             <li><?php echo $data_page_list["nombre_subcategoria"] ?></li>
                         </ul>
                     </div>
@@ -63,7 +63,7 @@ require_once 'php/process_list_products.php';
                             </div>
                             <div id="list-tiendas-sidebar-left">
                                 <ul>
-                                    <a href="#">
+                                    <a href="javascript:void(0);">
                                         <li>Solo tiendas oficiales (58)</li>
                                     </a>
                                 </ul>
@@ -93,13 +93,13 @@ require_once 'php/process_list_products.php';
                             </div>
                             <div id="list-condicion">
                                 <ul>
-                                    <a href="#">
+                                    <a href="javascript:void(0);">
                                         <li>Nuevo (1.006)</li>
                                     </a>
-                                    <a href="#">
+                                    <a href="javascript:void(0);">
                                         <li>Usado (168)</li>
                                     </a>
-                                    <a href="#">
+                                    <a href="javascript:void(0);">
                                         <li>Reacondicionado (2)</li>
                                     </a>
                                 </ul>
@@ -112,7 +112,7 @@ require_once 'php/process_list_products.php';
                             <div id="list-ubicaciones">
                                 <ul>
                                     <?php for ($i = 0; $i <= 8; $i++)
-										echo  '<a href="#">
+										echo  '<a href="javascript:void(0);">
 									 	<li>Lima(1.028)</li> 
 									  </a>'
 									?>
@@ -125,13 +125,13 @@ require_once 'php/process_list_products.php';
                             </div>
                             <div id="list-precio">
                                 <ul>
-                                    <a href="#">
+                                    <a href="javascript:void(0);">
                                         <li>Hasta S/500 (381)</li>
                                     </a>
-                                    <a href="#">
+                                    <a href="javascript:void(0);">
                                         <li>S/500 a S/2.000 (388)</li>
                                     </a>
-                                    <a href="#">
+                                    <a href="javascript:void(0);">
                                         <li>Más de S/2.000 (429)</li>
                                     </a>
                                 </ul>
@@ -148,10 +148,10 @@ require_once 'php/process_list_products.php';
                             </div>
                             <div id="list-descuentos">
                                 <ul>
-                                    <a href="#">
+                                    <a href="javascript:void(0);">
                                         <li>Desde 10% off (35)</li>
                                     </a>
-                                    <a href="#">
+                                    <a href="javascript:void(0);">
                                         <li>Desde 20% off (32)</li>
                                     </a>
                                 </ul>
@@ -163,7 +163,7 @@ require_once 'php/process_list_products.php';
                             </div>
                             <div id="list-detalles">
                                 <ul>
-                                    <a href="#">
+                                    <a href="javascript:void(0);">
                                         <li>Mejores Vendedores (309)</li>
                                     </a>
                                 </ul>

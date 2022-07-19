@@ -7,7 +7,7 @@
         </li>
         <!-- OPCIONES DE PRODUCTOS -->
         <!-- <li class="sub_menu_items">
-      <a href="#"><i class="fa fa-cart-arrow-down"></i>Productos</a>
+      <a href="javascript:void(0);"><i class="fa fa-cart-arrow-down"></i>Productos</a>
       <ul>
         <li>
           <a href="add-items.php"><i class="fa fa-plus-square"></i>Añadir Productos</a>
@@ -16,13 +16,13 @@
           <a href="manage-items.php"><i class="fa fa-list-alt"></i>Listar Productos</a>
         </li>
         <li>
-          <a href="#"><i class="fa fa-bitcoin"></i>Marcas</a>
+          <a href="javascript:void(0);"><i class="fa fa-bitcoin"></i>Marcas</a>
         </li>
       </ul>
     </li> -->
         <!-- OPCIONES DE CATEGORÍA -->
         <li class="sub_menu_items">
-            <a href="#"><i class="fa fa-files-o"></i>Categorías</a>
+            <a href="javascript:void(0);"><i class="fa fa-files-o"></i>Categorías</a>
             <ul>
                 <li>
                     <a href="add-category.php"><i class="fa fa-plus-square"></i>Añadir Categoría</a>
@@ -34,7 +34,7 @@
         </li>
         <!-- OPCIONES DE MEMBRESÍA -->
         <li class="sub_menu_items">
-            <a href="#"><i class="fa fa-money"></i>Menbresías</a>
+            <a href="javascript:void(0);"><i class="fa fa-money"></i>Menbresías</a>
             <ul>
                 <li>
                     <a href="add-menbresia.php"><i class="fa fa-plus-square"></i>Añadir Menbresía</a>
@@ -46,7 +46,7 @@
         </li>
         <!-- OPCIONES DE RECARGA DE PUNTOS -->
         <li class="sub_menu_items">
-            <a href="#"><i class="fa fa-refresh"></i>Recargas</a>
+            <a href="javascript:void(0);"><i class="fa fa-refresh"></i>Recargas</a>
             <ul>
                 <li>
                     <a href="add-recarga.php"><i class="fa fa-plus-square"></i>Añadir Recarga</a>
@@ -84,13 +84,13 @@
     </li>-->
         <!-- OPCIONES DE SUBCATEGORÍA -->
         <!--  <li class="sub_menu_items">
-      <a href="#"><i class="fa fa-desktop"></i>Ajustes de Pantallas</a>
+      <a href="javascript:void(0);"><i class="fa fa-desktop"></i>Ajustes de Pantallas</a>
       <ul>
         <li>
           <a href="display-setup.php"><i class="fa fa-desktop"></i>Ajustes de Pantallas</a>
         </li>
         <li>
-          <a href="#"><i class="fa fa-wrench"></i>Ajustes del Sitio</a>
+          <a href="javascript:void(0);"><i class="fa fa-wrench"></i>Ajustes del Sitio</a>
         </li>
       </ul>
     </li> -->

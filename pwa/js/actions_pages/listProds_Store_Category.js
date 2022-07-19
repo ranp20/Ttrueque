@@ -177,7 +177,7 @@ function listProductsIntoCart() {
                 <div  loading='lazy' class='img-fluid' style="background-image: url(${path});"></div>
               </div>
             </div>
-            <a href="#">
+            <a href="javascript:void(0);">
               <span>${v.cantidad} x </span><span>${v.producto}</span>
             </a>
           </div>

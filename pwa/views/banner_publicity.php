@@ -5,7 +5,7 @@
                 <h1><?php echo $banner_pub[0]['titulo_banner']; ?></h1>
                 <h4><?php echo $banner_pub[0]['descripcion_banner']; ?></h4>
             </div>
-            <!--<a href="#">
+            <!--<a href="javascript:void(0);">
 				<span>CONOCER MÁS</span><i class="fas fa-arrow-right"></i>
 			</a>-->
         </div>

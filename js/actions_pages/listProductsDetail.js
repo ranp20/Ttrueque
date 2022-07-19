@@ -41,7 +41,7 @@ $(document).ready(function () {
                   <div class="cont-list-images-product">
                     <ul>
                       <li>
-                        <a href="#">
+                        <a href="javascript:void(0);">
                           <div>
                             <div style="background-image: url(${path});"></div>
                           </div>
@@ -86,7 +86,7 @@ $(document).ready(function () {
   								<div class="cont-list-images-product">
   									<ul>
   										<li>
-  											<a href="#">
+  											<a href="javascript:void(0);">
   												<div>
   													<div style="background-image: url(${path});"></div>
   												</div>
@@ -219,7 +219,7 @@ function listProductsIntoCart() {
                 <div class='img-fluid' style="background-image: url(${path});"></div>
               </div>
             </div>
-            <a href="#">
+            <a href="javascript:void(0);">
               <span>${v.cantidad} x </span><span>${v.producto}</span>
             </a>
           </div>

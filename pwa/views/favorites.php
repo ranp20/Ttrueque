@@ -43,12 +43,12 @@ if (!isset($_SESSION['user'])) {
                 <div class="content-dupla-detail">
                   <div class="content-producto-img-detail">
                     <div class="content-producto-image-lista">
-                      <a href="#">
+                      <a href="javascript:void(0);">
                           <img src="admin/images/products/samsung-galaxy-s20-plus-5g-dual-sim-g9860-12gb-ram-128gb.png" alt="Imagen del producto" width="100" height="100">
                       </a>
                     </div>
                     <div class="content-producto-detalle-lista">
-                      <a href="#">
+                      <a href="javascript:void(0);">
                           <h5>Polo Avenger</h5>
                       </a>
                       <p><s>$199.99</s></p>
@@ -73,12 +73,12 @@ if (!isset($_SESSION['user'])) {
                 <div class="content-dupla-detail">
                   <div class="content-producto-img-detail">
                     <div class="content-producto-image-lista">
-                      <a href="#">
+                      <a href="javascript:void(0);">
                           <img src="admin/images/products/samsung-galaxy-s20-plus-5g-dual-sim-g9860-12gb-ram-128gb.png" alt="Imagen del producto" width="100" height="100">
                       </a>
                     </div>
                     <div class="content-producto-detalle-lista">
-                      <a href="#">
+                      <a href="javascript:void(0);">
                           <h5>Polo Avenger</h5>
                       </a>
                       <p><s>$199.99</s></p>
@@ -103,12 +103,12 @@ if (!isset($_SESSION['user'])) {
                 <div class="content-dupla-detail">
                   <div class="content-producto-img-detail">
                     <div class="content-producto-image-lista">
-                      <a href="#">
+                      <a href="javascript:void(0);">
                           <img src="admin/images/products/samsung-galaxy-s20-plus-5g-dual-sim-g9860-12gb-ram-128gb.png" alt="Imagen del producto" width="100" height="100">
                       </a>
                     </div>
                     <div class="content-producto-detalle-lista">
-                      <a href="#">
+                      <a href="javascript:void(0);">
                           <h5>Polo Avenger</h5>
                       </a>
                       <p><s>$199.99</s></p>
@@ -133,12 +133,12 @@ if (!isset($_SESSION['user'])) {
                 <div class="content-dupla-detail">
                   <div class="content-producto-img-detail">
                     <div class="content-producto-image-lista">
-                      <a href="#">
+                      <a href="javascript:void(0);">
                           <img src="admin/images/products/samsung-galaxy-s20-plus-5g-dual-sim-g9860-12gb-ram-128gb.png" alt="Imagen del producto" width="100" height="100">
                       </a>
                     </div>
                     <div class="content-producto-detalle-lista">
-                      <a href="#">
+                      <a href="javascript:void(0);">
                           <h5>Polo Avenger</h5>
                       </a>
                       <p><s>$199.99</s></p>

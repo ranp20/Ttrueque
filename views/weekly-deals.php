@@ -34,14 +34,6 @@ session_start();
   <script src="js/actions_pages/modal_dialog.js"></script>
   <script src="js/actions_pages/customs.js"></script>
   <script src="js/jquery.cookiebar.js"></script>
-  <script>
-  $(document).ready(function() {
-      'use strict';
-      $.cookieBar({
-          fixed: true
-      });
-  });
-  </script>
   <script src="js/actions_pages/search_products.js"></script>
   <script src="css/font-awesome/5.13.1/js/fontawesome.min.js"></script>
   <script src="js/actions_pages/history-shoping.js"></script>

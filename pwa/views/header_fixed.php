@@ -139,7 +139,7 @@
                   <nav class="categories">
                       <ul class="clearfix">
                           <li><span>
-                                  <a href="#">
+                                  <a href="javascript:void(0);">
                                       <span class="hamburger hamburger--spin">
                                           <span class="hamburger-box">
                                               <span class="hamburger-inner"></span>

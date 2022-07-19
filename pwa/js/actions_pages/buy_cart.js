@@ -85,7 +85,7 @@ function listProductsIntoCart() {
                   <div style="background-image: url(${path});"></div>
                 </div>
               </div>
-              <a href="#">
+              <a href="javascript:void(0);">
                 <span>${v.cantidad} x </span><span>${v.producto}</span>
               </a>
             </div>

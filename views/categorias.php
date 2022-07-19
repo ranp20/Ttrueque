@@ -2,18 +2,15 @@
 //COMPRIMIR ARCHIVOS DE TEXTO...
 (substr_count($_SERVER["HTTP_ACCEPT_ENCODING"], "gzip")) ? ob_start("ob_gzhandler") : ob_start();
 session_start();
-
 $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";
 $url =  $actual_link . "/" ."Ttrueque/";
-if (!isset($_SESSION["user"])) {
-	header("Location: account");
+if(!isset($_SESSION["user"])){
+  header("Location: account");
 }
-
 require_once '../php/class/store.php';
 $stores = new Store();
 $all_stores = $stores->select_tienda();
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -68,129 +65,106 @@ $all_stores = $stores->select_tienda();
   <script src="<?php echo $url ?>js/actions_pages/listProds_Store_Category.js"></script>
   <script src="<?php echo $url ?>js/customs/custom.js"></script>
   <script src="<?php echo $url ?>js/actions_pages/track-order.js"></script>
-  
 </head>
-
 <body>
-    <?php require_once './api_whatsapp.php' ?>
-    <!--- API WHATSAPP---->
-    <div id="page">
-        <?php
-		
-        //LISTADO DE CATEGORÍAS DE LA CABECERA DEL HOME...
-        require_once '../php/class/categoria.php';
-        require_once '../php/class/client.php';
-        require_once '../php/class/all.php';
+  <?php require_once './api_whatsapp.php';?>
+  <!--- API WHATSAPP---->
+  <div id="page">
+    <?php
+      //LISTADO DE CATEGORÍAS DE LA CABECERA DEL HOME...
+      require_once '../php/class/categoria.php';
+      require_once '../php/class/client.php';
+      require_once '../php/class/all.php';
 
-        $user = !isset($_SESSION["user"])  ? "" : $_SESSION["user"];
-        //LISTAR CATEGORIA...
-        $c = new Categoria();
-        $categoria = $c->get_categoria();
-        $cat_limit = $c->get_categoria_limit();
-        //LISTAR TIENDA...
-        $tienda = $c->get_data_tienda($user);
-        $c = new Client();
-        $d = $c->get_data_by_id($user);
-        //LISTAR TODO...
-        $ctr = new All();
-        $flags = $ctr->get_countries();
-        //LISTAR TODAS LAS CATEGORÍAS...
-        $all_categs = $ctr->get_categorias();
+      $user = !isset($_SESSION["user"])  ? "" : $_SESSION["user"];
+      //LISTAR CATEGORIA...
+      $c = new Categoria();
+      $categoria = $c->get_categoria();
+      $cat_limit = $c->get_categoria_limit();
+      //LISTAR TIENDA...
+      $tienda = $c->get_data_tienda($user);
+      $c = new Client();
+      $d = $c->get_data_by_id($user);
+      //LISTAR TODO...
+      $ctr = new All();
+      $flags = $ctr->get_countries();
+      //LISTAR TODAS LAS CATEGORÍAS...
+      $all_categs = $ctr->get_categorias();
+      $c->close_connection();
+      $all_categorias = [];
+      $categoria_actual = "";
+      unset($categoria_actual);
+      //TÍTULO DE LA CABECERA DEL HOME...
+      require_once '../php/class/header_titles.php';
+      $h = new Header_Titles();
+      $header = $h->get_header_titles();
+      $c->close_connection();
 
-        $c->close_connection();
-
-        $all_categorias = [];
-        $categoria_actual = "";
-
-        unset($categoria_actual);
-
-
-        //TÍTULO DE LA CABECERA DEL HOME...
-        require_once '../php/class/header_titles.php';
-        $h = new Header_Titles();
-        $header = $h->get_header_titles();
-        $c->close_connection();
-
-        $titles_header_home = [];
-        array_push($titles_header_home, $header);
-
-
-
-		require_once './header_b.php';
-		?>
-        <!-- /header -->
-        <input type="hidden" id="store_cli" value="<?php echo $_GET['store']; ?>">
-
-        <?php 
-
-        if(isset($_GET['store'])){
+      $titles_header_home = [];
+      array_push($titles_header_home, $header);
+	    require_once './header_b.php';
+	  ?>
+    <input type="hidden" id="store_cli" value="<?php echo $_GET['store'];?>">
+    <?php
+      if(isset($_GET['store'])){
         echo '
-            <div class="content-ttrk-official-markets-c" id="container_all_categories_in_store">
-                <div class="contenido-categorias_ttrk-off-header">
-                    <div class="content-title-categorias_ttrk">
-                        <h3>Categorías en '.$_GET['store'].'</h3>
-                    </div>
+        <div class="content-ttrk-official-markets-c" id="container_all_categories_in_store">
+            <div class="contenido-categorias_ttrk-off-header">
+                <div class="content-title-categorias_ttrk">
+                    <h3>Categorías en '.$_GET['store'].'</h3>
                 </div>
-                <div class="container-content-off-mrkts">
-                <section class="list-categories-stores-ttrk-c">
-                    <ul class="items-categ-stores-ttrk" id="list_cat_cli_store">
-                    </ul>
-                </section>
-                <div class="content-btn-more-brands-ttrk">
-                    <a href="allcategories" class="btn-brands-alls-ttrk">
-                        <button type="button" class="btn-into-alls-ttrk lang_ttrq" key="btn-all-categories-stores_ttrq">Ver todas las Categorías</button>
-                    </a>
+            </div>
+            <div class="container-content-off-mrkts">
+            <section class="list-categories-stores-ttrk-c">
+                <ul class="items-categ-stores-ttrk" id="list_cat_cli_store">
+                </ul>
+            </section>
+            <div class="content-btn-more-brands-ttrk">
+                <a href="allcategories" class="btn-brands-alls-ttrk">
+                    <button type="button" class="btn-into-alls-ttrk lang_ttrq" key="btn-all-categories-stores_ttrq">Ver todas las Categorías</button>
+                </a>
+            </div>
+        </div>';
+      }else{
+        echo '
+        <div class="content-ttrk-official-markets-c">
+        <div class="contenido-categorias_ttrk-off-header">
+            <div class="content-title-categorias_ttrk">
+                <h3 class="lang_ttrq" key="title-cat-list-s_ttrq">Categorías</h3>
+            </div>
+        </div>
+        <div class="container-content-off-mrkts">
+        <section class="list-categories-stores-ttrk-c">
+            <ul class="items-categ-stores-ttrk" id="lista_categories">';
+            
+            foreach ($all_categs as $value) {
+                $url = './admin/images/categoria/'.$value['imagen_categoria'];
+                $name_category = $value['nombre_categoria'];
+                $url_name = str_replace(" ", "-", $name_category);
+
+
+                echo 
+                '<li class="item-categ-stores-into">
+              <a href="./tienda?tipos='.$url_name.'" class="item-cont-categ-stores"> 
+                <div class="cont-logo-categories-str-b-ttrk">
+                  <div class="logo-categ-str-c-ttrk" style="background-image: url('.$url.');"></div>
                 </div>
-            </div>';
-        }else{
-
-            echo '
-                <div class="content-ttrk-official-markets-c">
-                <div class="contenido-categorias_ttrk-off-header">
-                    <div class="content-title-categorias_ttrk">
-                        <h3 class="lang_ttrq" key="title-cat-list-s_ttrq">Categorías</h3>
-                    </div>
+                <div class="cont-info-categ-stores-b-ttrk">
+                  <div>
+                    <p>'.$name_category.'</p>
+                  </div>
                 </div>
-                <div class="container-content-off-mrkts">
-                <section class="list-categories-stores-ttrk-c">
-                    <ul class="items-categ-stores-ttrk" id="lista_categories">';
-                    
-                    foreach ($all_categs as $value) {
-                        $url = './admin/images/categoria/'.$value['imagen_categoria'];
-                        $name_category = $value['nombre_categoria'];
-                        $url_name = str_replace(" ", "-", $name_category);
+              </a>
+            </li>';
+            }
 
-
-                        echo 
-                        '<li class="item-categ-stores-into">
-                      <a href="./tienda?tipos='.$url_name.'" class="item-cont-categ-stores"> 
-                        <div class="cont-logo-categories-str-b-ttrk">
-                          <div class="logo-categ-str-c-ttrk" style="background-image: url('.$url.');"></div>
-                        </div>
-                        <div class="cont-info-categ-stores-b-ttrk">
-                          <div>
-                            <p>'.$name_category.'</p>
-                          </div>
-                        </div>
-                      </a>
-                    </li>';
-                    }
-
-                    echo '</ul>
-                    </section>
-                </div>
-                ';
-        }?>
-    </div>
-    <!--/footer-->
-
-    <?php require_once './footer.php' ?>
-    </div>
-    <!-- page -->
-    <div id="toTop"></div>
-    <!-- Back to top button -->
-
-
+            echo '</ul>
+            </section>
+        </div>';
+      }
+    ?>
+  </div>
+  <?php require_once './footer.php';?>
+<div id="toTop"></div>
 </body>
-
 </html>

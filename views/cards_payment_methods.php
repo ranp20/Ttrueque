@@ -16,7 +16,7 @@
 			</div>
 			<div class="content-more-payments">
 				<p class="title-more-payments">Más medios de pago</p>
-				<a href="#">Ver todos</a>
+				<a href="javascript:void(0);">Ver todos</a>
 			</div>
 		</div>
 	</div>
