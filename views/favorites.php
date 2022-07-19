@@ -59,7 +59,7 @@ if (!isset($_SESSION['user'])) {
                     </div>
                   </div>
                   <div class="content-producto-delete-options">
-                    <a href="#" class="lang_ttrq" key="btn-buy-p_favorites_ttrq">Comprar</a>
+                    <a href="javascript:void(0);" class="lang_ttrq" key="btn-buy-p_favorites_ttrq">Comprar</a>
                     <div class="content-producto-options">
                       <label class="menu-slide-dropdown-options icon-menu-favorites"></label>
                     </div>
@@ -89,7 +89,7 @@ if (!isset($_SESSION['user'])) {
                     </div>
                   </div>
                   <div class="content-producto-delete-options">
-                    <a href="#" class="lang_ttrq" key="btn-buy-p_favorites_ttrq">Comprar</a>
+                    <a href="javascript:void(0);" class="lang_ttrq" key="btn-buy-p_favorites_ttrq">Comprar</a>
                     <div class="content-producto-options">
                       <label class="menu-slide-dropdown-options icon-menu-favorites"></label>
                     </div>
@@ -119,7 +119,7 @@ if (!isset($_SESSION['user'])) {
                     </div>
                   </div>
                   <div class="content-producto-delete-options">
-                    <a href="#" class="lang_ttrq" key="btn-buy-p_favorites_ttrq">Comprar</a>
+                    <a href="javascript:void(0);" class="lang_ttrq" key="btn-buy-p_favorites_ttrq">Comprar</a>
                     <div class="content-producto-options">
                       <label class="menu-slide-dropdown-options icon-menu-favorites"></label>
                     </div>
@@ -149,7 +149,7 @@ if (!isset($_SESSION['user'])) {
                     </div>
                   </div>
                   <div class="content-producto-delete-options">
-                    <a href="#" class="lang_ttrq" key="btn-buy-p_favorites_ttrq">Comprar</a>
+                    <a href="javascript:void(0);" class="lang_ttrq" key="btn-buy-p_favorites_ttrq">Comprar</a>
                     <div class="content-producto-options">
                       <label class="menu-slide-dropdown-options icon-menu-favorites"></label>
                     </div>

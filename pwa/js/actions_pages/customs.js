@@ -72,12 +72,12 @@ $(document).ready(function(){
                     </div>
                     <div class="contmodal-guide__content--tabcontent__cont" id="step-two">
                         <p>Para que puedas ofrecer tus productos o servicios al amplio mercado de usuarios de Ttrueque, con absoluta seguridad y confianza, debes registrarte como <strong>Persona natural, Persona natural con negocio</strong> o <strong>Empresa.</strong></p>
-                        <a href="#" class="contmodal-guide__content--tabcontent__cont--continue next-step-button">CONTINUAR</a>
+                        <a href="javascript:void(0);" class="contmodal-guide__content--tabcontent__cont--continue next-step-button">CONTINUAR</a>
                     </div>
                     <div class="contmodal-guide__content--tabcontent__cont" id="step-three">
                         <p>A continuación podrás añadir tus productos o servicios a la tienda que <strong>Ttrueque</strong> te brinda gratuitamente(o puedes hacerlo después).</p>
                         <p>De modo que los usuarios de <strong>Ttrueque</strong> podrán acceder a lo que ofreces y podrán COMPRAR en tu tienda física o virtual.</p>
-                        <a href="#" class="contmodal-guide__content--tabcontent__cont--continue">CONTINUAR</a>
+                        <a href="javascript:void(0);" class="contmodal-guide__content--tabcontent__cont--continue">CONTINUAR</a>
                     </div>
                 </div>
             </div>

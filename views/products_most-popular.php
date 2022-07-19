@@ -92,7 +92,7 @@
 		}
 		?>
 		<!--<div class="content-btn-more-brands-ttrk">
-			<a href="#" class="btn-brands-alls-ttrk">
+			<a href="javascript:void(0);" class="btn-brands-alls-ttrk">
 				<button type="button" class="btn-into-alls-ttrk lang_ttrq" key="btn-all-products_ttrq">Ver todos los productos</button>
 			</a>
 		</div>-->

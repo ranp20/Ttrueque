@@ -29,7 +29,7 @@
                   <div class="main-menu">
                       <div id="header_menu">
                           <a href="/"><img src="img/logo_black.svg" alt="" width="100" height="35"></a>
-                          <a href="#" class="open_close" id="close_in"><i class="ti-close"></i></a>
+                          <a href="javascript:void(0);" class="open_close" id="close_in"><i class="ti-close"></i></a>
                       </div>
                       <ul>
                           <li class="submenu">

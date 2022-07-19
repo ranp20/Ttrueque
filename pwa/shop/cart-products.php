@@ -38,7 +38,7 @@ if (!isset($tienda[1][0]["id_menbresia"])) {
                                 <div style='background-image:url(../admin/images/products/samsung-galaxy-s20-plus-5g-dual-sim-g9860-12gb-ram-128gb.png);background-repeat:no-repeat;background-size: contain;background-position: center;'></div>
                             </div>
                             <div class="content-info-cart">
-                                <a href="#" class="content-name-cart">Polo Avenger Last Collection para niños</a>
+                                <a href="javascript:void(0);" class="content-name-cart">Polo Avenger Last Collection para niños</a>
                                 <div class="content-detail-cart">
                                     <p class="title-info-cart">Color:&nbsp;<span> Blanco/Azul</span></p>
                                     <p class="title-info-cart">Tamaño:&nbsp;<span> XL</span></p>
@@ -56,7 +56,7 @@ if (!isset($tienda[1][0]["id_menbresia"])) {
                         </div>
                     </div>
                     <div class="content-delete-cart">
-                        <a href="#" class="delete-cart">Eliminar</a>
+                        <a href="javascript:void(0);" class="delete-cart">Eliminar</a>
                     </div>
                 </li>
                 <!----------------->
@@ -68,7 +68,7 @@ if (!isset($tienda[1][0]["id_menbresia"])) {
                                 <div style='background-image:url(../admin/images/products/samsung-galaxy-s20-plus-5g-dual-sim-g9860-12gb-ram-128gb.png);background-repeat:no-repeat;background-size: contain;background-position: center;'></div>
                             </div>
                             <div class="content-info-cart">
-                                <a href="#" class="content-name-cart">Polo Avenger Last Collection para niños</a>
+                                <a href="javascript:void(0);" class="content-name-cart">Polo Avenger Last Collection para niños</a>
                                 <div class="content-detail-cart">
                                     <p class="title-info-cart">Color:&nbsp;<span> Blanco/Azul</span></p>
                                     <p class="title-info-cart">Tamaño:&nbsp;<span> XL</span></p>
@@ -86,7 +86,7 @@ if (!isset($tienda[1][0]["id_menbresia"])) {
                         </div>
                     </div>
                     <div class="content-delete-cart">
-                        <a href="#" class="delete-cart">Eliminar</a>
+                        <a href="javascript:void(0);" class="delete-cart">Eliminar</a>
                     </div>
                 </li>
                 <!----------------->
@@ -98,7 +98,7 @@ if (!isset($tienda[1][0]["id_menbresia"])) {
                                 <div style='background-image:url(../admin/images/products/samsung-galaxy-s20-plus-5g-dual-sim-g9860-12gb-ram-128gb.png);background-repeat:no-repeat;background-size: contain;background-position: center;'></div>
                             </div>
                             <div class="content-info-cart">
-                                <a href="#" class="content-name-cart">Polo Avenger Last Collection para niños</a>
+                                <a href="javascript:void(0);" class="content-name-cart">Polo Avenger Last Collection para niños</a>
                                 <div class="content-detail-cart">
                                     <p class="title-info-cart">Color:&nbsp;<span> Blanco/Azul</span></p>
                                     <p class="title-info-cart">Tamaño:&nbsp;<span> XL</span></p>
@@ -116,7 +116,7 @@ if (!isset($tienda[1][0]["id_menbresia"])) {
                         </div>
                     </div>
                     <div class="content-delete-cart">
-                        <a href="#" class="delete-cart">Eliminar</a>
+                        <a href="javascript:void(0);" class="delete-cart">Eliminar</a>
                     </div>
                 </li>
                 <!----------------->
@@ -137,7 +137,7 @@ if (!isset($tienda[1][0]["id_menbresia"])) {
                         <p>Total</p>
                         <p>$300.00</p>
                     </div>
-                    <a href="#" class="btn-comprar-cart">COMPRAR(3)</a>
+                    <a href="javascript:void(0);" class="btn-comprar-cart">COMPRAR(3)</a>
                 </div>
             </div>
         </div>

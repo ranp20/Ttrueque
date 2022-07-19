@@ -60,10 +60,10 @@
 			    <div class="c-infTbs__c__item__foot__c__cB">
 			      <div class="c-infTbs__c__item__foot__c__cB__cL">
 			        <div class="c-infTbs__c__item__foot__c__cB__cL__cT">
-			          <!--<a href="#" class="trabajaconnosotros">Trabaja con nosotros</a>
-			          <a href="#" class="terminosycondiciones">Términos y condiciones</a>
-			          <a href="#" class="politicasdeprivacidad">Políticas de privacidad</a>-->
-			          <a href="#" class="ayuda">Ayuda</a>
+			          <!--<a href="javascript:void(0);" class="trabajaconnosotros">Trabaja con nosotros</a>
+			          <a href="javascript:void(0);" class="terminosycondiciones">Términos y condiciones</a>
+			          <a href="javascript:void(0);" class="politicasdeprivacidad">Políticas de privacidad</a>-->
+			          <a href="javascript:void(0);" class="ayuda">Ayuda</a>
 			        </div>
 			        <div class="c-infTbs__c__item__foot__c__cB__cL__cB">
 			          <p>Copyright &copy; 2020 Trueque Perú S.R.L.</p>
@@ -110,10 +110,10 @@
 			    <div class="c-infTbs__c__item__foot__c__cB">
 			      <div class="c-infTbs__c__item__foot__c__cB__cL">
 			        <div class="c-infTbs__c__item__foot__c__cB__cL__cT">
-			          <!--<a href="#" class="trabajaconnosotros">Trabaja con nosotros</a>
-			          <a href="#" class="terminosycondiciones">Términos y condiciones</a>
-			          <a href="#" class="politicasdeprivacidad">Políticas de privacidad</a>-->
-			          <a href="#" class="ayuda">Ayuda</a>
+			          <!--<a href="javascript:void(0);" class="trabajaconnosotros">Trabaja con nosotros</a>
+			          <a href="javascript:void(0);" class="terminosycondiciones">Términos y condiciones</a>
+			          <a href="javascript:void(0);" class="politicasdeprivacidad">Políticas de privacidad</a>-->
+			          <a href="javascript:void(0);" class="ayuda">Ayuda</a>
 			        </div>
 			        <div class="c-infTbs__c__item__foot__c__cB__cL__cB">
 			          <p>Copyright &copy; 2020 Trueque Perú S.R.L.</p>
@@ -234,10 +234,10 @@
 			    <div class="c-infTbs__c__item__foot__c__cB">
 			      <div class="c-infTbs__c__item__foot__c__cB__cL">
 			        <div class="c-infTbs__c__item__foot__c__cB__cL__cT">
-			          <!--<a href="#" class="trabajaconnosotros">Trabaja con nosotros</a>
-			          <a href="#" class="terminosycondiciones">Términos y condiciones</a>
-			          <a href="#" class="politicasdeprivacidad">Políticas de privacidad</a>-->
-			          <a href="#" class="ayuda">Ayuda</a>
+			          <!--<a href="javascript:void(0);" class="trabajaconnosotros">Trabaja con nosotros</a>
+			          <a href="javascript:void(0);" class="terminosycondiciones">Términos y condiciones</a>
+			          <a href="javascript:void(0);" class="politicasdeprivacidad">Políticas de privacidad</a>-->
+			          <a href="javascript:void(0);" class="ayuda">Ayuda</a>
 			        </div>
 			        <div class="c-infTbs__c__item__foot__c__cB__cL__cB">
 			          <p>Copyright &copy; 2020 Trueque Perú S.R.L.</p>
@@ -350,10 +350,10 @@
 			    <div class="c-infTbs__c__item__foot__c__cB">
 			      <div class="c-infTbs__c__item__foot__c__cB__cL">
 			        <div class="c-infTbs__c__item__foot__c__cB__cL__cT">
-			          <!--<a href="#" class="trabajaconnosotros">Trabaja con nosotros</a>
-			          <a href="#" class="terminosycondiciones">Términos y condiciones</a>
-			          <a href="#" class="politicasdeprivacidad">Políticas de privacidad</a>-->
-			          <a href="#" class="ayuda">Ayuda</a>
+			          <!--<a href="javascript:void(0);" class="trabajaconnosotros">Trabaja con nosotros</a>
+			          <a href="javascript:void(0);" class="terminosycondiciones">Términos y condiciones</a>
+			          <a href="javascript:void(0);" class="politicasdeprivacidad">Políticas de privacidad</a>-->
+			          <a href="javascript:void(0);" class="ayuda">Ayuda</a>
 			        </div>
 			        <div class="c-infTbs__c__item__foot__c__cB__cL__cB">
 			          <p>Copyright &copy; 2020 Trueque Perú S.R.L.</p>
@@ -533,10 +533,10 @@
 			    <div class="c-infTbs__c__item__foot__c__cB">
 			      <div class="c-infTbs__c__item__foot__c__cB__cL">
 			        <div class="c-infTbs__c__item__foot__c__cB__cL__cT">
-			          <!--<a href="#" class="trabajaconnosotros">Trabaja con nosotros</a>
-			          <a href="#" class="terminosycondiciones">Términos y condiciones</a>
-			          <a href="#" class="politicasdeprivacidad">Políticas de privacidad</a>-->
-			          <a href="#" class="ayuda">Ayuda</a>
+			          <!--<a href="javascript:void(0);" class="trabajaconnosotros">Trabaja con nosotros</a>
+			          <a href="javascript:void(0);" class="terminosycondiciones">Términos y condiciones</a>
+			          <a href="javascript:void(0);" class="politicasdeprivacidad">Políticas de privacidad</a>-->
+			          <a href="javascript:void(0);" class="ayuda">Ayuda</a>
 			        </div>
 			        <div class="c-infTbs__c__item__foot__c__cB__cL__cB">
 			          <p>Copyright &copy; 2020 Trueque Perú S.R.L.</p>

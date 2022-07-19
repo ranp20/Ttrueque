@@ -44,10 +44,10 @@
 		    <div class="content-footer-bottom">
 		      <div class="content-left-footer">
 		        <div class="content-top-footer-left">
-		          <!--<a href="#" class="trabajaconnosotros">Trabaja con nosotros</a>
-		          <a href="#" class="terminosycondiciones">Términos y condiciones</a>
-		          <a href="#" class="politicasdeprivacidad">Políticas de privacidad</a>-->
-		          <a href="#" class="ayuda">Ayuda</a>
+		          <!--<a href="javascript:void(0);" class="trabajaconnosotros">Trabaja con nosotros</a>
+		          <a href="javascript:void(0);" class="terminosycondiciones">Términos y condiciones</a>
+		          <a href="javascript:void(0);" class="politicasdeprivacidad">Políticas de privacidad</a>-->
+		          <a href="javascript:void(0);" class="ayuda">Ayuda</a>
 		        </div>
 		        <div class="content-bottom-footer-right">
 		          <p>Copyright &copy; 2020 Trueque Perú S.R.L.</p>
@@ -79,10 +79,10 @@ dicho artículo a la dirección que especificaste con anterioridad al crear tu c
 		    <div class="content-footer-bottom">
 		      <div class="content-left-footer">
 		        <div class="content-top-footer-left">
-		          <!--<a href="#" class="trabajaconnosotros">Trabaja con nosotros</a>
-		          <a href="#" class="terminosycondiciones">Términos y condiciones</a>
-		          <a href="#" class="politicasdeprivacidad">Políticas de privacidad</a>-->
-		          <a href="#" class="ayuda">Ayuda</a>
+		          <!--<a href="javascript:void(0);" class="trabajaconnosotros">Trabaja con nosotros</a>
+		          <a href="javascript:void(0);" class="terminosycondiciones">Términos y condiciones</a>
+		          <a href="javascript:void(0);" class="politicasdeprivacidad">Políticas de privacidad</a>-->
+		          <a href="javascript:void(0);" class="ayuda">Ayuda</a>
 		        </div>
 		        <div class="content-bottom-footer-right">
 		          <p>Copyright &copy; 2020 Trueque Perú S.R.L.</p>
@@ -183,10 +183,10 @@ dicho artículo a la dirección que especificaste con anterioridad al crear tu c
 		    <div class="content-footer-bottom">
 		      <div class="content-left-footer">
 		        <div class="content-top-footer-left">
-		          <!--<a href="#" class="trabajaconnosotros">Trabaja con nosotros</a>
-		          <a href="#" class="terminosycondiciones">Términos y condiciones</a>
-		          <a href="#" class="politicasdeprivacidad">Políticas de privacidad</a>-->
-		          <a href="#" class="ayuda">Ayuda</a>
+		          <!--<a href="javascript:void(0);" class="trabajaconnosotros">Trabaja con nosotros</a>
+		          <a href="javascript:void(0);" class="terminosycondiciones">Términos y condiciones</a>
+		          <a href="javascript:void(0);" class="politicasdeprivacidad">Políticas de privacidad</a>-->
+		          <a href="javascript:void(0);" class="ayuda">Ayuda</a>
 		        </div>
 		        <div class="content-bottom-footer-right">
 		          <p>Copyright &copy; 2020 Trueque Perú S.R.L.</p>
@@ -276,10 +276,10 @@ dicho artículo a la dirección que especificaste con anterioridad al crear tu c
 		    <div class="content-footer-bottom">
 		      <div class="content-left-footer">
 		        <div class="content-top-footer-left">
-		          <!--<a href="#" class="trabajaconnosotros">Trabaja con nosotros</a>
-		          <a href="#" class="terminosycondiciones">Términos y condiciones</a>
-		          <a href="#" class="politicasdeprivacidad">Políticas de privacidad</a>-->
-		          <a href="#" class="ayuda">Ayuda</a>
+		          <!--<a href="javascript:void(0);" class="trabajaconnosotros">Trabaja con nosotros</a>
+		          <a href="javascript:void(0);" class="terminosycondiciones">Términos y condiciones</a>
+		          <a href="javascript:void(0);" class="politicasdeprivacidad">Políticas de privacidad</a>-->
+		          <a href="javascript:void(0);" class="ayuda">Ayuda</a>
 		        </div>
 		        <div class="content-bottom-footer-right">
 		          <p>Copyright &copy; 2020 Trueque Perú S.R.L.</p>
@@ -443,10 +443,10 @@ dicho artículo a la dirección que especificaste con anterioridad al crear tu c
 		    <div class="content-footer-bottom">
 		      <div class="content-left-footer">
 		        <div class="content-top-footer-left">
-		          <!--<a href="#" class="trabajaconnosotros">Trabaja con nosotros</a>
-		          <a href="#" class="terminosycondiciones">Términos y condiciones</a>
-		          <a href="#" class="politicasdeprivacidad">Políticas de privacidad</a>-->
-		          <a href="#" class="ayuda">Ayuda</a>
+		          <!--<a href="javascript:void(0);" class="trabajaconnosotros">Trabaja con nosotros</a>
+		          <a href="javascript:void(0);" class="terminosycondiciones">Términos y condiciones</a>
+		          <a href="javascript:void(0);" class="politicasdeprivacidad">Políticas de privacidad</a>-->
+		          <a href="javascript:void(0);" class="ayuda">Ayuda</a>
 		        </div>
 		        <div class="content-bottom-footer-right">
 		          <p>Copyright &copy; 2020 Trueque Perú S.R.L.</p>

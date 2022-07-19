@@ -91,7 +91,7 @@ if (isset($_SESSION['user']))
 						<div class="breadcrumbs">
 							<ul>
 								<li><a href="/" class="linea-enlace">Inicio</a></li>
-								<li><a href="#" class="linea-enlace">Categoría</a></li>
+								<li><a href="javascript:void(0);" class="linea-enlace">Categoría</a></li>
 								<li>Página Activa</li>
 							</ul>
 						</div>

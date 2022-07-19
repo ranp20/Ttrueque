@@ -12,7 +12,7 @@
 		</div>
 		<div class="more-medios-payment">
 			<div class="content-icon-plus-payment">
-				<a href="#" class="enlace-icon-more-payments"><i class="lni lni-plus"></i></a>
+				<a href="javascript:void(0);" class="enlace-icon-more-payments"><i class="lni lni-plus"></i></a>
 			</div>
 			<div class="content-more-payments">
 				<p class="title-more-payments">Más medios de pago</p>

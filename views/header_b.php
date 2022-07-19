@@ -109,7 +109,7 @@
           </ul>
       </div>
       <div class="cont-cartandcontact_Icons">
-        <a href="#" class="cart_icon_header_b-ttrq order-1" id="view_cart_ttrq">
+        <a href="javascript:void(0);" class="cart_icon_header_b-ttrq order-1" id="view_cart_ttrq">
             <span id="count-product-cart"></span>
         </a>
         <a href="contacto" class="icon-callvisiblenoun" id="icon-callvisiblenoun">

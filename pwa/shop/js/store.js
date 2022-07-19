@@ -290,11 +290,11 @@ function insertMenb() {
                     <div class="contmodal-guide__content--tabcontent__cont" id="ultimate-step-one">
                         <p>A continuación econtrarás los tipos de menbresía, puedes elegir la <strong>GRATUITA</strong> o la <strong>PAGADA.</strong></p>
                         <p>Todas la menbresías te brindarán una tienda gratuita y una cantidad de Bikkers para que empieces a comprar en los establecimientos o tiendas físicas o virtuales de los usuarios de Ttrueque.</p>
-                        <a href="#" class="contmodal-guide__content--tabcontent__cont--continue next-step-button">CONTINUAR</a>
+                        <a href="javascript:void(0);" class="contmodal-guide__content--tabcontent__cont--continue next-step-button">CONTINUAR</a>
                     </div>
                     <div class="contmodal-guide__content--tabcontent__cont" id="ultimate-step-two">
                         <p>Para que puedas ofrecer tus productos o servicios al amplio mercado de usuarios de Ttrueque, con absoluta seguridad y confianza, debes registrarte como <strong>Persona natural, Persona natural con negocio</strong> o <strong>Empresa.</strong></p>
-                        <a href="#" class="contmodal-guide__content--tabcontent__cont--continue next-step-button">CONTINUAR</a>
+                        <a href="javascript:void(0);" class="contmodal-guide__content--tabcontent__cont--continue next-step-button">CONTINUAR</a>
                     </div>
                     <div class="contmodal-guide__content--tabcontent__cont active" id="ultimate-step-three">
                         <p>A continuación podrás añadir tus productos o servicios a la tienda que <strong>Ttrueque</strong> te brinda gratuitamente(o puedes hacerlo después).</p>

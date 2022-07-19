@@ -61,7 +61,7 @@ $_Secret = $data_cred[0]['key_secret'];
             </div>
             <div class="bcontent-btns-top" id="contSReport-Btnstop">
                 <ul class="bcontent-btns-top--m">
-                <a href="#" class="bcontent-btns-top--m--link">
+                <a href="javascript:void(0);" class="bcontent-btns-top--m--link">
                     <li class="bcontent-btns-top--m--item">
                     <div class="bcontent-btns-top--m--item--cImg">
                         <img src="images/utilities/informe_ventas.jpeg" alt="" loading="lazy">

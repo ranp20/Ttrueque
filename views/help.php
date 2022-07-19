@@ -96,25 +96,25 @@ session_start();
 			<!---
 			<div class="content-list-help-you">
 				<ul class="list-help-you">
-					<a href="#" class="items-help-you">
+					<a href="javascript:void(0);" class="items-help-you">
 						<li>
 							<i class="fal fa-shopping-bag fa-2x"></i>
 							<p>Comprando</p>
 						</li>
 					</a>
-					<a href="#" class="items-help-you">
+					<a href="javascript:void(0);" class="items-help-you">
 						<li>
 							<i class="fal fa-tags fa-2x"></i>
 							<p>Vendiendo</p>
 						</li>
 					</a>
-					<a href="#" class="items-help-you">
+					<a href="javascript:void(0);" class="items-help-you">
 						<li>
 							<i class="fal fa-user fa-2x"></i>
 							<p>Configuración de tu cuenta</p>
 						</li>
 					</a>
-					<a href="#" class="items-help-you">
+					<a href="javascript:void(0);" class="items-help-you">
 						<li>
 							<i class="fal fa-key fa-2x"></i>
 							<p>Seguridad</p>

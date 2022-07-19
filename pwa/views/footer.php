@@ -106,9 +106,9 @@
       <div class="content-footer-bottom">
         <div class="content-left-footer">
           <div class="content-top-footer-left">
-            <!--<a href="#" class="lang_ttrq" key="opt_f-policy-1">Trabaja con nosotros</a>-->
-            <!--<a href="#" class="lang_ttrq" key="opt_f-policy-2">Términos y condiciones</a>-->
-            <!--<a href="#" class="lang_ttrq" key="opt_f-policy-3">Políticas de privacidad</a>-->
+            <!--<a href="javascript:void(0);" class="lang_ttrq" key="opt_f-policy-1">Trabaja con nosotros</a>-->
+            <!--<a href="javascript:void(0);" class="lang_ttrq" key="opt_f-policy-2">Términos y condiciones</a>-->
+            <!--<a href="javascript:void(0);" class="lang_ttrq" key="opt_f-policy-3">Políticas de privacidad</a>-->
             <a href="home" class="lang_ttrq" key="opt_f-policy-4">Ayuda</a>
           </div>
           <div class="content-bottom-footer-right">

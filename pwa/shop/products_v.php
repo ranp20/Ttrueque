@@ -35,7 +35,7 @@ if (!isset($tienda[1][0]["id_menbresia"])) {
             </div>
             <div class="bcontent-btns-top" id="contProducts-Btnstop">
               <ul class="bcontent-btns-top--m">
-                <a href="#" class="bcontent-btns-top--m--link">
+                <a href="javascript:void(0);" class="bcontent-btns-top--m--link">
                   <li class="bcontent-btns-top--m--item">
                     <div class="bcontent-btns-top--m--item--cImg">
                       <img src="images/utilities/products_total_ttrueque.jpeg" alt="" loading="lazy">

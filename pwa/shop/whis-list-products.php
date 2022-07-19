@@ -43,15 +43,15 @@ error_reporting(0);
                             <img src="../admin/images/products/samsung-galaxy-s20-plus-5g-dual-sim-g9860-12gb-ram-128gb.png" alt="" width="70" height="70">
                         </div>
                         <div class="info-whislist-product">
-                            <a href="#" class="whislist-name-product">Polo Avengers Colections para niños</a>
+                            <a href="javascript:void(0);" class="whislist-name-product">Polo Avengers Colections para niños</a>
                             <p class="whislist-talla-product">Talla: XL, Color: Blanco/Azul</p>
                             <p class="whislist-price-product">$200.00</p>
-                            <a href="#" class="whislist-contac-vendor"><i class="lni lni-envelope"></i>&nbsp;&nbsp;Contactar con el vendedor</a>
-                            <a href="#" class="whislist-add-cart"><i class="lni lni-cart"></i>&nbsp;&nbsp;Añadir al carrito</a>
+                            <a href="javascript:void(0);" class="whislist-contac-vendor"><i class="lni lni-envelope"></i>&nbsp;&nbsp;Contactar con el vendedor</a>
+                            <a href="javascript:void(0);" class="whislist-add-cart"><i class="lni lni-cart"></i>&nbsp;&nbsp;Añadir al carrito</a>
                         </div>
                         <div class="right-whislist-value">
                             <p class="whislist-date-add">Añadido el 12 Mayo 2020</p>
-                            <a href="#" class="whislist-delete-product">Eliminar</a>
+                            <a href="javascript:void(0);" class="whislist-delete-product">Eliminar</a>
                         </div>
                     </li>
                 </ul>

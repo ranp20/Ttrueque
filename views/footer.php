@@ -101,9 +101,9 @@
       <div class="c-infTbs__c__item__foot__c__cB">
         <div class="c-infTbs__c__item__foot__c__cB__cL">
           <div class="c-infTbs__c__item__foot__c__cB__cL__cT">
-            <!--<a href="#" class="lang_ttrq" key="opt_f-policy-1">Trabaja con nosotros</a>-->
-            <!--<a href="#" class="lang_ttrq" key="opt_f-policy-2">Términos y condiciones</a>-->
-            <!--<a href="#" class="lang_ttrq" key="opt_f-policy-3">Políticas de privacidad</a>-->
+            <!--<a href="javascript:void(0);" class="lang_ttrq" key="opt_f-policy-1">Trabaja con nosotros</a>-->
+            <!--<a href="javascript:void(0);" class="lang_ttrq" key="opt_f-policy-2">Términos y condiciones</a>-->
+            <!--<a href="javascript:void(0);" class="lang_ttrq" key="opt_f-policy-3">Políticas de privacidad</a>-->
             <a href="home" class="lang_ttrq" key="opt_f-policy-4">Ayuda</a>
           </div>
           <div class="c-infTbs__c__item__foot__c__cB__cL__cB">
