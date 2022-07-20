@@ -27,7 +27,7 @@ $paises = $all->get_name_country();
   <script type="text/javascript" src="node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
 </head>
 <body>
-  <?php require_once 'includes/inc_header-top.php';?>
+  <?php require_once 'includes/inc_header-top-home.php';?>
   <?php
 	if(isset($_SESSION["error"])){
 		echo "<script>alert('{$_SESSION["error"]}')</script>";

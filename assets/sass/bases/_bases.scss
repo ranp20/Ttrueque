@@ -61,6 +61,7 @@ img{
 	padding: 1rem;
 }
 /* HEADER - PÁGINAS DESCRIPTIVAS */
+$min-height-header_pagesinfo : 70px;
 .c-hdTop{
 	position: relative;
 	box-sizing: border-box;
@@ -73,6 +74,9 @@ img{
 			justify-content: space-between;
 			flex-flow: row nowrap;
 			margin: 0 auto;
+			min-height: $min-height-header_pagesinfo;
+	    max-height: $min-height-header_pagesinfo;
+	    height: $min-height-header_pagesinfo;
 			&__cLogo{
 				display: inline-block;
 				a{
@@ -101,6 +105,10 @@ img{
 			    	border: thin solid $theme-clr-btns-border;
 				    color: $theme-clr-btns-txt;
 				    font-weight: bold;
+				    &:hover{
+				    	background-color: $theme-clr-btns-border;
+				    	color: $theme-clr-btns-txt;
+				    }
 			    }
 			    &:nth-child(2){
 			    	display: none;
@@ -121,6 +129,7 @@ img{
 				}
 	    	@media (min-width: 991px){
 	    		a{
+	    			display: inline-block;
 	    			&:nth-child(2){  				
 			    		display: inline-block;
 				    	opacity: 1;
@@ -130,6 +139,13 @@ img{
 	    			}
 	    		}
 	    	}
+	    	@media (min-width: 1220px){
+		    	a{
+		    		text-align: center;
+			    	min-width: 112px;
+			    	max-width: 116px;
+		    	}
+		    }
 			}
 		}
 	}

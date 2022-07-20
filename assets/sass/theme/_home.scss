@@ -231,6 +231,8 @@ $max-height-banner-desktop: 665px;
 			    	}
 			    }
 			    @media (min-width: 1220px){
+			    	min-width: 112px;
+			    	max-width: 116px;
 			    	&:nth-child(2){
 			    		display: inline-block;
 			    	}

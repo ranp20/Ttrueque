@@ -25,7 +25,7 @@ $rubros = $all->get_name_rubros();
 </head>
 <body>
 	<div id="page">
-		<?php require_once 'includes/inc_header-top.php';?>
+		<?php require_once 'includes/inc_header-top-home.php';?>
 		<main class="bg_gray" id="total-content-account">
 			<div class="container margin_30" style="display: flex;justify-content: center;flex-direction: column;align-items:center;">
 				<?php
