@@ -13,7 +13,7 @@
 #content-marcas-p > #title-content-marcas-p > #content-text-marcas-p > h3{    font-family:var(--fuente-subtitles);}
 #contenedor-principal-home{	background-color: #fff;  width: 100%;  height: 720px;}
 #contenedor-principal-home > img{width: 100%;	height: 100%;object-fit: cover;object-position: center;}
-#contenedor-principal-home_2{	background: #F5F5F5;margin-top: 4rem;}
+#contenedor-principal-home_2{	background: #ebebeb;margin-top: 4rem;}
 a.butt_home,.butt_home { font-family: var(--fuente-categorias_1); border: none;  color: var(--tertiary-clr) !important;  background: var(--secondary-clr);  outline: none;  cursor: pointer;  display: inline-block;  text-decoration: none;  padding: .75rem 2rem;font-weight: bold;  text-align: center;  font-size: .9rem; -moz-transition: all 0.3s ease-in-out;  -o-transition: all 0.3s ease-in-out;  -webkit-transition: all 0.3s ease-in-out;  -ms-transition: all 0.3s ease-in-out;  transition: all 0.3s ease-in-out;  -webkit-border-radius: 1.5rem;  -moz-border-radius: 1.5rem;  -ms-border-radius: 1.5rem;  border-radius: 1.5rem;  line-height: normal;}
 a.butt_home:focus,.butt_home:focus {  outline: none;}
 a.butt_home:hover,.butt_home:hover {  background-color: var(--hov-secondary-clr);  color: var(--tertiary-clr) !important;}
