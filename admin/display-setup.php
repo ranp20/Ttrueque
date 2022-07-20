@@ -72,7 +72,7 @@
                           </div>
                         </div>
                       </div>
-                      <a title="Títulos y Subtítulos" href="#" class="block-anchor panel-footer text-center btn_dashboard">Detalle completo &nbsp; 
+                      <a title="Títulos y Subtítulos" href="javascript:void(0);" class="block-anchor panel-footer text-center btn_dashboard">Detalle completo &nbsp; 
                         <i class="fa fa-arrow-right">
                         </i>
                       </a>
@@ -90,7 +90,7 @@
                           </div>
                         </div>
                       </div>
-                      <a title="Marcas" href="#" class="block-anchor panel-footer text-center btn_dashboard">Detalle completo &nbsp; 
+                      <a title="Marcas" href="javascript:void(0);" class="block-anchor panel-footer text-center btn_dashboard">Detalle completo &nbsp; 
                         <i class="fa fa-arrow-right">
                         </i>
                       </a>
@@ -108,7 +108,7 @@
                           </div>
                         </div>
                       </div>
-                      <a title="Marcas" href="#" class="block-anchor panel-footer text-center btn_dashboard">Detalle completo &nbsp; 
+                      <a title="Marcas" href="javascript:void(0);" class="block-anchor panel-footer text-center btn_dashboard">Detalle completo &nbsp; 
                         <i class="fa fa-arrow-right">
                         </i>
                       </a>

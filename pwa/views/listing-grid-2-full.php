@@ -66,7 +66,7 @@
 						<div class="row small-gutters filters_listing_1">
 							<div class="col-lg-3 col-md-6 col-sm-6">
 								<div class="dropdown">
-									<a href="#" data-toggle="dropdown" class="drop">Categories</a>
+									<a href="javascript:void(0);" data-toggle="dropdown" class="drop">Categories</a>
 									<div class="dropdown-menu">
 										<div class="filter_type">
 											<ul>
@@ -103,7 +103,7 @@
 							</div>
 							<div class="col-lg-3 col-md-6 col-sm-6">
 								<div class="dropdown">
-									<a href="#" data-toggle="dropdown" class="drop">Color</a>
+									<a href="javascript:void(0);" data-toggle="dropdown" class="drop">Color</a>
 									<div class="dropdown-menu">
 										<div class="filter_type">
 											<ul>
@@ -140,7 +140,7 @@
 							</div>
 							<div class="col-lg-3 col-md-6 col-sm-6">
 								<div class="dropdown">
-									<a href="#" data-toggle="dropdown" class="drop">Brand</a>
+									<a href="javascript:void(0);" data-toggle="dropdown" class="drop">Brand</a>
 									<div class="dropdown-menu">
 										<div class="filter_type">
 											<ul>
@@ -177,7 +177,7 @@
 							</div>
 							<div class="col-lg-3 col-md-6 col-sm-6">
 								<div class="dropdown">
-									<a href="#" data-toggle="dropdown" class="drop">Price</a>
+									<a href="javascript:void(0);" data-toggle="dropdown" class="drop">Price</a>
 									<div class="dropdown-menu">
 										<div class="filter_type">
 											<ul>

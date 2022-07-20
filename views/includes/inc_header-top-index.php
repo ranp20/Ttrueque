@@ -18,7 +18,7 @@
         </form>
         <ul class="navbar-nav align-self-stretch">
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle con-t-profile-opts-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle con-t-profile-opts-link" href="javascript:void(0);" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <span class="lang_ttrq" key="name_user">¡Hola,</span><span>&nbsp;<?php echo ucfirst($d[0][3]);?>!</span>
               <input type="hidden" name="paisclient" id="paisclient" value="<?php echo $_SESSION['idcountries'] = $d[0]['pais'];?>">
               <input type="hidden" id="userid_cli" value="<?php echo $_SESSION['user'];?>">
@@ -59,7 +59,7 @@
             </div>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle con-t-categories-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle con-t-categories-link" href="javascript:void(0);" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <span>Categorías</span>
             </a>
             <div class="dropdown-menu content-list-categories-naside" aria-labelledby="navbarDropdown">
@@ -75,7 +75,7 @@
             </div>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle con-t-countries-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle con-t-countries-link" href="javascript:void(0);" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <span>Idiomas</span>
             </a>
             <div class="dropdown-menu content-all-countries-naside" aria-labelledby="navbarDropdown">

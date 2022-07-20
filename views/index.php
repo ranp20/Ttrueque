@@ -44,7 +44,7 @@ if (!isset($_SESSION['user'])) {
         <div class="content-list_cart_hb_ttrq">
           <div class="contain-title-cart-sdleft_ttrq">
             <h4 class='lang_ttrq' key='title-cart-delay_ttrq'>Listado de Compras<i class="fas fa-cart-arrow-down"></i></h4>
-            <a href="#" id="cerrar_carrito"> X </a>
+            <a href="javascript:void(0);" id="cerrar_carrito"> X </a>
           </div>
           <div class="contain-cart-info_header-ttrq">
             <div id="list-products-sdleft" class="lista-prods-sdleft_header_ttrq">

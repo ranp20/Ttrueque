@@ -28,7 +28,7 @@
 				</section>
 			</div>
 		</div>
-		<a href="#" id="btn-slide-info" class="btn-slide-info">Mayores detalles sobre Membresía</a>
+		<a href="javascript:void(0);" id="btn-slide-info" class="btn-slide-info">Mayores detalles sobre Membresía</a>
 		<div class="container-table-membership-txt-b-two" id="main-membership-info">
 			<div class="content-info-table-membership-b-two">
 				<section>

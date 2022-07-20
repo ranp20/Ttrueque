@@ -60,7 +60,7 @@ error_reporting(0);
                         <div class="title-whislists">
                             <h4>Lista de Deseos</h4>
                         </div>
-                        <a onclick="add_whislist();" href="#" class="add-whislist-products">+ Crear Lista de Deseos</a>
+                        <a onclick="add_whislist();" href="javascript:void(0);" class="add-whislist-products">+ Crear Lista de Deseos</a>
                     </div>
                 </div>
             </div>

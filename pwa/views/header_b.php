@@ -23,7 +23,7 @@
               </form>
               <ul class="navbar-nav align-self-stretch">
                   <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle con-t-profile-opts-link" href="#" id="navbarDropdown"
+                      <a class="nav-link dropdown-toggle con-t-profile-opts-link" href="javascript:void(0);" id="navbarDropdown"
                           role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           <span class="lang_ttrq"
                               key="name_user">¡Hola,</span><span>&nbsp;<?php echo ucfirst($d[0][3]);?>!</span>
@@ -68,7 +68,7 @@
                       </div>
                   </li>
                   <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle con-t-categories-link" href="#" id="navbarDropdown"
+                      <a class="nav-link dropdown-toggle con-t-categories-link" href="javascript:void(0);" id="navbarDropdown"
                           role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           <span>Categorías</span>
                       </a>
@@ -88,7 +88,7 @@
                       </div>
                   </li>
                   <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle con-t-countries-link" href="#" id="navbarDropdown"
+                      <a class="nav-link dropdown-toggle con-t-countries-link" href="javascript:void(0);" id="navbarDropdown"
                           role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           <span>Idiomas</span>
                       </a>
@@ -125,7 +125,7 @@
               <div class="contain-title-cart-sdleft_ttrq">
                   <h4 class='lang_ttrq' key='title-cart-delay_ttrq'>Listado de Compras<i
                           class="fas fa-cart-arrow-down"></i></h4>
-                  <a href="#" id="cerrar_carrito"> X </a>
+                  <a href="javascript:void(0);" id="cerrar_carrito"> X </a>
               </div>
               <!-- //CONTENEDOR PRINCIPAL DE LAS TIENDAS-->
               <div class="contain-cart-info_header-ttrq">

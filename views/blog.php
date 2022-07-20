@@ -203,21 +203,21 @@
 										<a href="#0"><img src="img/blog-5.jpg" alt=""></a>
 									</div>
 									<small>Category - 11.08.2016</small>
-									<h3><a href="#" title="">Verear qualisque ex minimum...</a></h3>
+									<h3><a href="javascript:void(0);" title="">Verear qualisque ex minimum...</a></h3>
 								</li>
 								<li>
 									<div class="alignleft">
 										<a href="#0"><img src="img/blog-6.jpg" alt=""></a>
 									</div>
 									<small>Category - 11.08.2016</small>
-									<h3><a href="#" title="">Verear qualisque ex minimum...</a></h3>
+									<h3><a href="javascript:void(0);" title="">Verear qualisque ex minimum...</a></h3>
 								</li>
 								<li>
 									<div class="alignleft">
 										<a href="#0"><img src="img/blog-4.jpg" alt=""></a>
 									</div>
 									<small>Category - 11.08.2016</small>
-									<h3><a href="#" title="">Verear qualisque ex minimum...</a></h3>
+									<h3><a href="javascript:void(0);" title="">Verear qualisque ex minimum...</a></h3>
 								</li>
 							</ul>
 						</div>

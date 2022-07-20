@@ -15,7 +15,7 @@
   $(window)
     .resize(function () {
       if ($(window).width() >= 768) {
-        $('a[href="#"]').on("click", function (e) {
+        $('a[href="javascript:void(0);"]').on("click", function (e) {
           e.preventDefault();
         });
         $(".categories").addClass("menu");
