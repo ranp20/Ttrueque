@@ -36,4 +36,6 @@
 .img-prod-div > .content-img-prod-updt > img{
   border: 1px solid #ddd;
   margin: 1em;
+  max-width: 440px;
+  height: auto !important;
 }
