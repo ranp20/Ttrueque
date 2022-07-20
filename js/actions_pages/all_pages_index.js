@@ -41,6 +41,8 @@ $(document).on("keyup keypress","#caja_busqueda_primary", (e) => {
     }
   }
 });
+// ------------ HACER FOCO EN EL BUSCADOR
+$(document).on("focus","#caja_busqueda_primary",function(){search_ByNameCategory();});
 // ------------ LISTAR EL NÚMERO DE ORDENES
 function list_allNumberOrders(){
   let idclient = $("#userid_cli").val();
