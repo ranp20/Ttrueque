@@ -20,7 +20,7 @@ $categIdprod = $cat->get_cat_idtienda_update($_GET['id']);
 
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">

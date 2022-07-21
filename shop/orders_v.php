@@ -12,7 +12,7 @@ setlocale(LC_TIME, 'es_ES.UTF-8');
 date_default_timezone_set('America/Bogota');
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">

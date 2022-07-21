@@ -18,7 +18,7 @@ $country_byid = $c->get_countries_by_idcountry($d[0]['pais']);
 
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">

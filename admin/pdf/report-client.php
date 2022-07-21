@@ -4,7 +4,7 @@ include  '../../php/class/list_cart_report_admin.php';
 
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="utf-8">
   <title>Example 1</title>

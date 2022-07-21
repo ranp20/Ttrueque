@@ -10,7 +10,7 @@ if(!isset($_GET['store']) || !isset($_GET['month']) || !isset($_GET['year']) || 
 
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="utf-8">

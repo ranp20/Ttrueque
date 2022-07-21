@@ -14,7 +14,7 @@ $c = new All();
 $wall = $c->get_wallet();
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">

@@ -12,7 +12,7 @@ $stores = new Store();
 $all_stores = $stores->select_tienda();
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <title>Trueque | Carrito de compras</title>
   <!-- //METAS-->
