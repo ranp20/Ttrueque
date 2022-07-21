@@ -46,6 +46,6 @@ $dat = $c->select_tienda();
 	</script>
 	<script type="text/javascript" src="js/actions_pages/all_pages_index.js"></script>
 	<script type="text/javascript" src="css/font-awesome/5.13.1/js/fontawesome.min.js"></script>
-	<script type="text/javascript" src="js/actions_pages/history-shoping.js"></script>
+	 
 </body>
 </html>

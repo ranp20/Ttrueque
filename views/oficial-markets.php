@@ -20,21 +20,9 @@ $dat = $c->select_tienda();
   </div>
   <div id="toTop"></div>
   <!-- COMMON SCRIPTS -->
-  <script type="text/javascript" src="../js/common_scripts.min.js"></script>
   <script type="text/javascript" src="../js/main.js"></script>
-  <!-- SPECIFIC SCRIPTS -->
-  <script type="text/javascript" src="../js/carousel-home.min.js"></script>
   <script type="text/javascript" src="../js/actions_pages/buy_cart.js"></script>
-  <!-- Agregar la ventana modal a la página -->
-  <script type="text/javascript" src="../js/actions_pages/modal_dialog.js"></script>
-  <!-- Agregar loader page a la página -->
   <script type="text/javascript" src="../js/actions_pages/customs.js"></script>
-  <!-- CUSTOM JAVASCRIPT -->
   <script type="text/javascript" src="../js/actions_pages/all_pages_index.js"></script>
-  <!-- FONTAWESOME -->
-  <script type="text/javascript" src="css/font-awesome/5.13.1/js/fontawesome.min.js"></script>
-  <!-- FILES .js CUSTOMS OF THIS PAGE -->
-  <script type="text/javascript" src="../js/actions_pages/history-shoping.js"></script>
-   
 </body>
 </html>

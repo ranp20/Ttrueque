@@ -88,7 +88,7 @@ $dat = $c->select_tienda();
    
   <script type="text/javascript" src="./js/actions_pages/customs.js"></script>
   <script type="text/javascript" src="./js/actions_pages/all_pages_index.js"></script>
-  <script type="text/javascript" src="./js/actions_pages/history-shoping.js"></script>
+   
   <script type="text/javascript" src="./js/actions_pages/language_currency.js"></script>
   <script type="text/javascript" src="./js/actions_pages/listAllCategories.js"></script>
   <script type="text/javascript" src="./js/actions_pages/listCategories_ByStore.js"></script>

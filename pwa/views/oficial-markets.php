@@ -54,7 +54,7 @@ $dat = $c->select_tienda();
     <!-- FONTAWESOME -->
     <script type="text/javascript" src="css/font-awesome/5.13.1/js/fontawesome.min.js"></script>
     <!-- FILES .js CUSTOMS OF THIS PAGE -->
-    <script type="text/javascript" src="../js/actions_pages/history-shoping.js"></script>
+     
      
 </body>
 

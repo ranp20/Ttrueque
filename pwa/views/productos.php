@@ -32,7 +32,7 @@ require_once 'header_index.php';
     <script type="text/javascript" src="./js/actions_pages/customs.js"></script>
     <script type="text/javascript" src="./js/actions_pages/buy_cart.js"></script>
     <script type="text/javascript" src="./js/actions_pages/all_pages_index.js"></script>
-    <script type="text/javascript" src="./js/actions_pages/history-shoping.js"></script>
+     
     <script type="text/javascript" src="./js/actions_pages/listProds_Search_Category.js"></script>
     <script type="text/javascript" src="./js/actions_pages/listProds_Store_Category.js"></script>
     <script type="text/javascript" src="./js/actions_pages/listProds_ByNameStore.js"></script>

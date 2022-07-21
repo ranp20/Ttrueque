@@ -74,7 +74,7 @@ if(!isset($_GET['tipos']) || $_GET['tipos'] == ""){
      
     <script type="text/javascript" src="./js/actions_pages/customs.js"></script>
     <script type="text/javascript" src="./js/actions_pages/all_pages_index.js"></script>
-    <script type="text/javascript" src="./js/actions_pages/history-shoping.js"></script>
+     
     <script type="text/javascript" src="./js/actions_pages/listProds_ByNameCategory.js"></script>
      
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
