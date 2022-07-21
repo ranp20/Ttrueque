@@ -3,31 +3,24 @@ session_start();
 require_once "../php/class/categoria.php";
 $c = new Categoria();
 $tienda = $c->get_data_tienda($_SESSION['user']);
-if (!isset($tienda[1][0]["id_menbresia"])) {
-    header('location: ../cliente/menbresia');
-}
-
-require_once '../php/class/client.php';
-$c = new Client();
-$d = $c->get_data_by_id($_SESSION['user']);
-
-if ($d[0]['estado'] == "INACTIVO") {
+if(!isset($tienda[1][0]["id_menbresia"])){
+  header('location: ../cliente/menbresia');
+}else{
+  require_once '../php/class/client.php';
+  $c = new Client();
+  $d = $c->get_data_by_id($_SESSION['user']);
+  if($d[0]['estado'] == "INACTIVO"){
     header('location: sales-report.php');
+  }
 }
-
-// if(!isset($d[0]['tienda']) || $d[0]['tienda'] == "" || !is_numeric($d[0]['tienda'])){
-//     header('location: ../');
-// }
-
 ?>
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dashboard - Cliente</title>
-  <?php require_once 'includes/head.php'; ?>
+  <?php require_once 'includes/head.php';?>
 </head>
 <body>
   <div class="loader-cli">
@@ -35,10 +28,10 @@ if ($d[0]['estado'] == "INACTIVO") {
   </div>
   <div class="container-total active">
     <!-- LEFT SIDEBAR NAV -------->
-    <?php require_once 'includes/sidebar-left.php'; ?>
+    <?php require_once 'includes/sidebar-left.php';?>
     <!-- CONTENT FULL DASHBOARD -->
     <section class="content-dash">
-      <?php require_once 'includes/header-top.php'; ?>
+      <?php require_once 'includes/header-top.php';?>
       <div class="content-top">
         <div class="content-title">
           <h1 class="title-dashboard lang_ttrq" key="txt-list-link-page-sdlf-ad_cli-1">Logística</h1>

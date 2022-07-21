@@ -1,32 +1,25 @@
 <?php
 session_start();
 error_reporting(0);
-
 require_once "../php/class/categoria.php";
 $c = new Categoria();
 $tienda = $c->get_data_tienda($_SESSION['user']);
-if (!isset($tienda[1][0]["id_menbresia"])) {
-   header('location: ../cliente/menbresia');
+if(!isset($tienda[1][0]["id_menbresia"])){
+  header('location: ../cliente/menbresia');
 }
-
-
 require_once '../php/class/client.php';
 $c = new Client();
 $d = $c->get_data_by_id($_SESSION['user']);
 $country_byid = $c->get_countries_by_idcountry($d[0]['pais']);
-
-
 ?>
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi perfil</title>
-    <?php require_once 'includes/head.php'; ?>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi perfil</title>
+  <?php require_once 'includes/head.php'; ?>
 </head>
-
 <body>
     <div class="container-total active">
         <?php require_once 'includes/sidebar-left.php'; ?>
@@ -156,5 +149,4 @@ $country_byid = $c->get_countries_by_idcountry($d[0]['pais']);
     <script type="text/javascript" src="js/update_store.js"></script>
     <script type="text/javascript" src="js/profile-client.js"></script>
 </body>
-
 </html>
