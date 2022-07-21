@@ -26,15 +26,15 @@ $url =  $actual_link . "/" ."Ttrueque/";
 <link rel="apple-touch-icon" href="./views/assets/img/favicon/favicon-camel.png"/> -->
 <link rel="canonical" href="https://localhost/Ttrueque"/>
 <!-- PRELOADER FILES -->
-<!-- <link rel="preload" href="<?= $url;?>assets/css/styles.min.css" as="style"/>
-<link rel="preload" href="<?= $url;?>js/plugins/jquery/jquery-3.6.0.min.js" as="script"/> -->
+<link rel="preload" href="<?= $url;?>assets/css/styles.min.css" as="style"/>
+<link rel="preload" href="<?= $url;?>js/plugins/jquery/jquery-3.6.0.min.js" as="script"/>
 <!-- JQUERY COMPRESSED -->
-<!-- <script type="text/javascript" src="<?= $url; ?>js/plugins/jquery/jquery-3.6.0.min.js"></script> -->
+<script type="text/javascript" src="<?= $url; ?>js/plugins/jquery/jquery-3.6.0.min.js"></script>
 <!-- BOOTSTRAP UNCOMPRESSED -->
-<!-- <link rel="stylesheet" href="<?php echo $url; ?>js/plugins/bootstrap/css/bootstrap.min.css">
-<script type="text/javascript" src="<?php echo $url; ?>js/plugins/bootstrap/js/bootstrap.min.js"></script> -->
+<link rel="stylesheet" href="<?php echo $url; ?>js/plugins/bootstrap/css/bootstrap.min.css">
+<script type="text/javascript" src="<?php echo $url; ?>js/plugins/bootstrap/js/bootstrap.min.js"></script>
 <!-- STYLESSHEET -->
-<!-- <link rel="stylesheet" href="<?= $url; ?>assets/css/styles.min.css"/> -->
+<link rel="stylesheet" href="<?= $url; ?>assets/css/styles.min.css"/>
 
 
 <!-- ADD CSS -->
