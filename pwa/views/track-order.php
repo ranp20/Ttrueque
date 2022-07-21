@@ -45,7 +45,7 @@ if (!isset($_SESSION['user'])) {
 		</main>
 	</div>
 	<?php require_once './tabsbottom-pwa.php'; ?>
-	<script type="text/javascript" src="js/common_scripts.min.js"></script>
+	  
 	<script type="text/javascript" src="js/main.js"></script>
 	<script type="text/javascript" src="js/actions_pages/buy_cart.js"></script>
 	<script type="text/javascript" src="js/actions_pages/remove.js"></script>

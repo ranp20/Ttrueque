@@ -2,11 +2,9 @@
 //COMPRIMIR ARCHIVOS DE TEXTO...
 (substr_count($_SERVER["HTTP_ACCEPT_ENCODING"], "gzip")) ? ob_start("ob_gzhandler") : ob_start();
 session_start();
-
 if (!isset($_SESSION['user'])) {
 	header("Location:home");
 }
-
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -20,7 +18,7 @@ if (!isset($_SESSION['user'])) {
 <body>
 	<div id="page">
 		<?php require_once '../php/process_header.php';?>
-		<?php require_once "header_b.php"; ?>
+		<?php require_once 'includes/inc_header-top.php';?>
 		<div class="loader-ttrqstr">
       <span class="loader-ttrqstr--loader"></span>
     </div>
@@ -93,7 +91,7 @@ if (!isset($_SESSION['user'])) {
 				</div>
 			</div>
 		</main>
-		<?php require_once 'footer.php'; ?>
+		<?php require_once 'footer.php';?>
 	</div>
   <div id="toTop"></div>
   <script type="text/javascript" src="./js/main.js"></script>

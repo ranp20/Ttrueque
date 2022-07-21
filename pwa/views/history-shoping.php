@@ -38,7 +38,7 @@ session_start();
     
     <script type="text/javascript" src="./js/actions_pages/buy_cart.js"></script>
     <!-- Agregar la ventana modal a la página -->
-    <script type="text/javascript" src="./js/actions_pages/modal_dialog.js"></script>
+     
     <!-- Agregar loader page a la página -->
     <script type="text/javascript" src="./js/actions_pages/customs.js"></script>
     

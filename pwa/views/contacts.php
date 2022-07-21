@@ -87,7 +87,7 @@ if (!isset($_SESSION['user'])) {
 	<div id="toTop"></div>
 	<!-- Back to top button -->
 	<!-- COMMON SCRIPTS -->
-	<script type="text/javascript" src="js/common_scripts.min.js"></script>
+	  
 	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

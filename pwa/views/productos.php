@@ -27,7 +27,7 @@ require_once 'header_index.php';
     <script type="text/javascript" src="./js/main.js"></script>
     <script type="text/javascript" src="./js/carousel-home.min.js"></script>
     
-    <script type="text/javascript" src="./js/actions_pages/modal_dialog.js"></script>
+     
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <script type="text/javascript" src="./js/actions_pages/customs.js"></script>
     <script type="text/javascript" src="./js/actions_pages/buy_cart.js"></script>

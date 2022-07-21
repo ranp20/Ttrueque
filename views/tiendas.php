@@ -5,16 +5,20 @@ session_start();
 require_once '../php/class/store.php';
 $c = new Store();
 $dat = $c->select_tienda();
-if(!isset($_GET['tipos']) || empty($_GET["tipos"]) || $_GET['tipos'] == ""){
-  header('Location: ./');
+if (!isset($_SESSION['user'])) {
+  header("Location:home");
 }else{
-  $var =  str_replace("-", " ", $_GET["tipos"]);
+  if(!isset($_GET['tipos']) || empty($_GET["tipos"]) || $_GET['tipos'] == ""){
+    header('Location: ./');
+  }else{
+    $var =  str_replace("-", " ", $_GET["tipos"]);
+  }
 }
 ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <title>Ttrueque | <?= (isset($_GET) && count($_GET) > 0 && $_GET != "") ? $_GET['tipos'] : "";?></title>
+  <title><?= (isset($_GET) && count($_GET) > 0 && $_GET != "") ? $_GET['tipos'] : "";?> | Ttrueque</title>
   <?php require_once 'includes/header_links.php';?>
   <!-- INCLUIR SWEET ALERT 2 -->
   <link rel="stylesheet" href="node_modules/sweetalert2/dist/sweetalert2.min.css">
@@ -67,12 +71,12 @@ if(!isset($_GET['tipos']) || empty($_GET["tipos"]) || $_GET['tipos'] == ""){
     </div>
     <?php require_once "./footer.php" ?>
   </div>
-  <script type="text/javascript" src="./js/main.js"></script>
-  <script type="text/javascript" src="./js/actions_pages/buy_cart.js"></script>
-  <script type="text/javascript" src="./js/actions_pages/modal_dialog.js"></script>
-  <script type="text/javascript" src="./js/actions_pages/customs.js"></script>
-  <script type="text/javascript" src="./js/actions_pages/all_pages_index.js"></script>
-  <script type="text/javascript" src="./js/actions_pages/listProds_ByNameCategory.js"></script>
-  <script type="text/javascript" src="./js/actions_pages/track-order.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/actions_pages/buy_cart.js"></script>
+  <script type="text/javascript" src="js/actions_pages/remove.js"></script>
+  <script type="text/javascript" src="js/actions_pages/customs.js"></script>
+  <script type="text/javascript" src="js/actions_pages/all_pages_index.js"></script>
+  <script type="text/javascript" src="js/actions_pages/listProds_ByNameCategory.js"></script>
+  <script type="text/javascript" src="js/actions_pages/track-order.js"></script>
 </body>
 </html>

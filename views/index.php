@@ -28,6 +28,9 @@ if (!isset($_SESSION['user'])) {
   <!-- INCLUIR SWEET ALERT 2 -->
   <link rel="stylesheet" href="node_modules/sweetalert2/dist/sweetalert2.min.css">
   <script type="text/javascript" src="node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+  <!-- INCLUIR OWL CAROUSEL 2 -->
+  <link rel="stylesheet" href="node_modules/owl.carousel/dist/assets/owl.carousel.min.css"/>
+  <script type="text/javascript" src="node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
 </head>
 <body>
   <div class="contModalGuidettrk"></div>
@@ -78,11 +81,11 @@ if (!isset($_SESSION['user'])) {
                         <div class="row justify-content-center justify-content-md-start">
                             <div class="col-lg-6 static">
                                 <div class="slide-text white content-info-banner-top">
-                                    <h2 class="owl-slide-animated owl-slide-title">
+                                    <h2>
                                         <?php echo $banners[0]["titulo_banner"];?></h2>
-                                    <p class="owl-slide-animated owl-slide-subtitle">
+                                    <p>
                                         <?php echo $banners[0]["descripcion_banner"];?></p>
-                                    <div class="owl-slide-animated owl-slide-cta">
+                                    <div>
                                         <a class="butt_home lang_ttrq" key="btn-banners-h_ttrq"
                                             href="#content-index-ttrq" role="button">Comprar ahora</a>
                                     </div>
@@ -100,11 +103,11 @@ if (!isset($_SESSION['user'])) {
                         <div class="row justify-content-center justify-content-md-end">
                             <div class="col-lg-6 static">
                                 <div class="slide-text text-right white content-info-banner-top">
-                                    <h2 class="owl-slide-animated owl-slide-title">
+                                    <h2>
                                         <?php echo $banners[1]["titulo_banner"];?></h2>
-                                    <p class="owl-slide-animated owl-slide-subtitle">
+                                    <p>
                                         <?php echo $banners[1]["descripcion_banner"];?></p>
-                                    <div class="owl-slide-animated owl-slide-cta">
+                                    <div>
                                         <a class="butt_home lang_ttrq" key="btn-banners-h_ttrq"
                                             href="#content-index-ttrq" role="button">Comprar ahora</a>
                                     </div>
@@ -122,11 +125,11 @@ if (!isset($_SESSION['user'])) {
                         <div class="row justify-content-center justify-content-md-start">
                             <div class="col-lg-12 static">
                                 <div class="slide-text text-center white content-info-banner-top">
-                                    <h2 class="owl-slide-animated owl-slide-title">
+                                    <h2>
                                         <?php echo $banners[2]["titulo_banner"];?></h2>
-                                    <p class="owl-slide-animated owl-slide-subtitle">
+                                    <p>
                                         <?php echo $banners[2]["descripcion_banner"];?></p>
-                                    <div class="owl-slide-animated owl-slide-cta">
+                                    <div>
                                         <a class="butt_home lang_ttrq" key="btn-banners-h_ttrq"
                                             href="#content-index-ttrq" role="button">Comprar ahora</a>
                                     </div>
@@ -144,11 +147,11 @@ if (!isset($_SESSION['user'])) {
                         <div class="row justify-content-center justify-content-md-start">
                             <div class="col-lg-12 static">
                                 <div class="slide-text text-center white content-info-banner-top">
-                                    <h2 class="owl-slide-animated owl-slide-title">
+                                    <h2>
                                         <?php echo $banners[3]["titulo_banner"];?></h2>
-                                    <p class="owl-slide-animated owl-slide-subtitle">
+                                    <p>
                                         <?php echo $banners[3]["descripcion_banner"];?></p>
-                                    <div class="owl-slide-animated owl-slide-cta">
+                                    <div>
                                         <a class="butt_home lang_ttrq" key="btn-banners-h_ttrq"
                                             href="#content-index-ttrq" role="button">Comprar ahora</a>
                                     </div>
@@ -166,11 +169,11 @@ if (!isset($_SESSION['user'])) {
                         <div class="row justify-content-center justify-content-md-start">
                             <div class="col-lg-6 static">
                                 <div class="slide-text white content-info-banner-top">
-                                    <h2 class="owl-slide-animated owl-slide-title">
+                                    <h2>
                                         <?php echo $banners[4]["titulo_banner"];?></h2>
-                                    <p class="owl-slide-animated owl-slide-subtitle">
+                                    <p>
                                         <?php echo $banners[4]["descripcion_banner"];?></p>
-                                    <div class="owl-slide-animated owl-slide-cta">
+                                    <div>
                                         <a class="butt_home lang_ttrq" key="btn-banners-h_ttrq"
                                             href="#content-index-ttrq" role="button">Comprar ahora</a>
                                     </div>
@@ -188,11 +191,11 @@ if (!isset($_SESSION['user'])) {
                         <div class="row justify-content-center justify-content-md-start">
                             <div class="col-lg-12 static">
                                 <div class="slide-text text-center white content-info-banner-top">
-                                    <h2 class="owl-slide-animated owl-slide-title">
+                                    <h2>
                                         <?php echo $banners[5]["titulo_banner"];?></h2>
-                                    <p class="owl-slide-animated owl-slide-subtitle">
+                                    <p>
                                         <?php echo $banners[5]["descripcion_banner"];?></p>
-                                    <div class="owl-slide-animated owl-slide-cta">
+                                    <div>
                                         <a class="butt_home lang_ttrq" key="btn-banners-h_ttrq"
                                             href="#content-index-ttrq" role="button">Comprar ahora</a>
                                     </div>
@@ -213,11 +216,9 @@ if (!isset($_SESSION['user'])) {
     <?php require_once './footer.php';?>
     </div>
   <div id="toTop"></div>
-  <script type="text/javascript" src="js/common_scripts.min.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
   <script type="text/javascript" src="js/actions_pages/index.js"></script>
-  <script type="text/javascript" src="js/actions_pages/all_pages_index.js"></script>
-  <script type="text/javascript" src="js/carousel-home.min.js"></script>
+  <!-- <script type="text/javascript" src="js/carousel-home.min.js"></script> -->
   <!---------CUSTOMS JAVASCRIPT--------->
   <script type="text/javascript" src="js/actions_pages/buy_cart.js"></script>
   <script type="text/javascript" src="js/actions_pages/remove.js"></script>

@@ -22,11 +22,11 @@ $dat = $c->select_tienda();
 	</div>
 	<div id="toTop"></div>
 	<!-- COMMON SCRIPTS -->
-	<script type="text/javascript" src="js/common_scripts.min.js"></script>
+	  
 	<script type="text/javascript" src="js/main.js"></script>
 	<script type="text/javascript" src="js/carousel-home.min.js"></script>
 	<script type="text/javascript" src="js/actions_pages/buy_cart.js"></script>
-	<script type="text/javascript" src="js/actions_pages/modal_dialog.js"></script>
+	 
 	<script type="text/javascript" src="js/actions_pages/customs.js"></script>
 	<script type="text/javascript" src="js/actions_pages/all_pages_index.js"></script>
 	<script type="text/javascript" src="css/font-awesome/5.13.1/js/fontawesome.min.js"></script>

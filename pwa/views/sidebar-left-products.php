@@ -126,7 +126,7 @@ $data = $p->get_data();
 	<!-- JQuery -->
 	
 	<!-- COMMON SCRIPTS -->
-	<script type="text/javascript" src="js/common_scripts.min.js"></script>
+	  
 	<script type="text/javascript" src="js/main.js"></script>
 
 	<!-- SPECIFIC SCRIPTS -->

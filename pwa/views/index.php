@@ -191,7 +191,7 @@ if (!isset($_SESSION['user'])) {
   </main>
   <?php require_once './tabsbottom-pwa.php'; ?>
   </div>
-  <script type="text/javascript" src="js/common_scripts.min.js"></script>
+    
   <script type="text/javascript" src="js/main.js"></script>
   <script type="text/javascript" src="js/carousel-home.min.js"></script>
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>

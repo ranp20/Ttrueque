@@ -2,7 +2,11 @@
   list_allNumberOrders();
 });
 // ABRIR/CERRAR SIDEBAR LEFT
-$(document).on("click",".menu-nav-burger-index",function(){$("#navbarSupportedContent").toggleClass("open");});
+$(document).on("click",".menu-nav-burger-index",() => {$("#navbarSupportedContent").toggleClass("open");});
+// ABRIR EL MENÚ DE CATEGORÍAS
+$(document).ready(function(){
+  $(".dropdown-toggle").dropdown();
+});
 // ------------ BUSCAR POR CATEGORÍAS
 function search_ByNameCategory(search){
   var prod = $("#caja_busqueda_primary").val();
