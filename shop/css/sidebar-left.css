@@ -68,13 +68,27 @@
   color: #fff;
   background-color: var(--boton-saldo);
 }
+.goto-store-to-shop:hover svg{
+  fill: #fff;
+}
 .goto-store-to-shop i{
   font-size: 17px;
+}
+.goto-store-to-shop svg{
+  max-width: 17px;
+  width: 17px;
+  height: 17px;
+  fill: var(--boton-saldo);
 }
 .goto-store-to-shop span{
   margin-left: 0.5rem;
 }
 @media (min-width: 1280px){
+ .goto-store-to-shop svg{
+    max-width: 22px;
+    width: 22px;
+    height: 22px;
+  } 
  .goto-store-to-shop i{
     font-size: 22px;
   } 

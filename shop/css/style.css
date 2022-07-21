@@ -418,6 +418,35 @@ li {
   color: rgba(0,0,0,.3) !important;
   margin-bottom: 0.5rem;
 }
+.content-any-data-wallet__cIcon,
+.content-any-data-hs__cIcon,
+.content-any-data-sr__cIcon,
+.content-any-data-rrfund__cIcon,
+.content-any-data-orders__cIcon,
+.content-any-data-reviewprods__cIcon,
+.content-any-data-products__cIcon,
+.content-any-data-marcas__cIcon,
+.content-any-data-categorias__cIcon,
+.content-any-data-sales-report__cIcon{
+  max-width: 40px;
+  width: 40px;
+  height: 40px;
+}
+.content-any-data-wallet__cIcon > svg,
+.content-any-data-hs__cIcon > svg,
+.content-any-data-sr__cIcon > svg,
+.content-any-data-rrfund__cIcon > svg,
+.content-any-data-orders__cIcon > svg,
+.content-any-data-reviewprods__cIcon > svg,
+.content-any-data-products__cIcon > svg,
+.content-any-data-marcas__cIcon > svg,
+.content-any-data-categorias__cIcon > svg,
+.content-any-data-sales-report__cIcon > svg{
+  fill: rgba(0,0,0,.3) !important;
+  max-width: 40px;
+  width: 40px;
+  height: 40px;
+}
 .content-any-data-wallet > h1,
 .content-any-data-hs > h1,
 .content-any-data-sr > h1,
