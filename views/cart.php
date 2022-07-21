@@ -21,7 +21,7 @@ $d_by_id =  $c->select_points_default($_SESSION['user']);
 <body>
     <div id="page">
     <?php require_once '../php/process_header.php';?>
-    <?php require_once "header_b.php";?>
+    <?php require_once 'includes/inc_header-top.php';?>
     <div class="loader-ttrqstr">
       <span class="loader-ttrqstr--loader"></span>
     </div>
@@ -68,6 +68,6 @@ $d_by_id =  $c->select_points_default($_SESSION['user']);
     <script type="text/javascript" src="js/actions_pages/customs.js"></script>
     <script type="text/javascript" src="js/actions_pages/all_pages_index.js"></script>
     <script type="text/javascript" src="js/actions_pages/listCategories_ByStore.js"></script>
-    <script type="text/javascript" src="./js/actions_pages/track-order.js"></script>
+     
 </body>
 </html>

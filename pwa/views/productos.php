@@ -38,6 +38,6 @@ require_once 'header_index.php';
     <script type="text/javascript" src="./js/actions_pages/listProds_ByNameStore.js"></script>
     <script type="text/javascript" src="./js/actions_pages/language_currency.js"></script>
     
-    <script type="text/javascript" src="./js/actions_pages/track-order.js"></script>
+     
 </body>
 </html>

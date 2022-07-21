@@ -28,7 +28,7 @@ if (!isset($_SESSION['user'])) {
     <?php  require_once 'includes/inc_api-whatsapp.php' ?>
     <div id="page">
     <?php require_once '../php/process_header.php';?>
-    <?php require_once 'includes/inc_header-top.php'; ?>
+    <?php require_once 'includes/inc_header-top.php';?>
     <div class="loader-ttrqstr">
       <span class="loader-ttrqstr--loader"></span>
     </div>
@@ -37,7 +37,7 @@ if (!isset($_SESSION['user'])) {
       <div class="contenido-tiendas-off-header">
         <div class="content-title-tiendas">
           <h3 id="lista_stores">Categorías <?php echo  empty($var) ? "" : $var;  ?></h3>
-          <input type="hidden" id="idtienda_current" value="<?php echo $d[0]['tienda']; ?>">
+          <input type="hidden" id="idtienda_current" value="<?php echo $d[0]['tienda'];?>">
         </div>
       </div>
       <div class="container-content-off-mrkts">
@@ -77,6 +77,6 @@ if (!isset($_SESSION['user'])) {
   <script type="text/javascript" src="js/actions_pages/customs.js"></script>
   <script type="text/javascript" src="js/actions_pages/all_pages_index.js"></script>
   <script type="text/javascript" src="js/actions_pages/listProds_ByNameCategory.js"></script>
-  <script type="text/javascript" src="js/actions_pages/track-order.js"></script>
+   
 </body>
 </html>

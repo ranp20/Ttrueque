@@ -37,6 +37,6 @@ if (!isset($_SESSION["user"])) {
     <script type="text/javascript" src="./js/actions_pages/listProds_Store_Category.js"></script>
     <script type="text/javascript" src="./js/actions_pages/listProds_ByNameStore.js"></script>
     <script type="text/javascript" src="./js/actions_pages/language_currency.js"></script>
-    <script type="text/javascript" src="./js/actions_pages/track-order.js"></script>
+     
 </body>
 </html>

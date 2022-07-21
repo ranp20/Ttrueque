@@ -101,5 +101,6 @@ $all_stores = $stores->select_tienda();
   <?php require_once './footer.php';?>
   </div>
   <div id="toTop"></div>
+  <script type="text/javascript" src="./js/actions_pages/all_pages_index.js"></script>
 </body>
 </html>

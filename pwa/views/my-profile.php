@@ -96,7 +96,7 @@ if(!isset($_SESSION['user'])){
     <script type="text/javascript" src="js/actions_pages/customs.js"></script>
     <script type="text/javascript" src="js/actions_pages/all_pages_index.js"></script>
     <script type="text/javascript" src="js/actions_pages/language_currency.js"></script>
-    <script type="text/javascript" src="./js/actions_pages/track-order.js"></script>
+     
     
     <script type="text/javascript">
       $(document).ready(function(){

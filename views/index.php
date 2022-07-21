@@ -217,8 +217,8 @@ if (!isset($_SESSION['user'])) {
     </div>
   <div id="toTop"></div>
   <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/actions_pages/all_pages_index.js"></script>
   <script type="text/javascript" src="js/actions_pages/index.js"></script>
-  <!-- <script type="text/javascript" src="js/carousel-home.min.js"></script> -->
   <!---------CUSTOMS JAVASCRIPT--------->
   <script type="text/javascript" src="js/actions_pages/buy_cart.js"></script>
   <script type="text/javascript" src="js/actions_pages/remove.js"></script>

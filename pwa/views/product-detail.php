@@ -30,11 +30,11 @@ $data = $p->get_data($_GET["id"]);
     <script type="text/javascript" src="./js/main.js"></script>
     <script type="text/javascript" src="./js/carousel_with_thumbs.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-    <script type="text/javascript" src="./js/customs/custom.js"></script>
+     
     <script type="text/javascript" src="./js/actions_pages/buy_cart.js"></script>
     <script type="text/javascript" src="./js/actions_pages/customs.js"></script>
     <script type="text/javascript" src="./js/actions_pages/all_pages_index.js"></script>
     <script type="text/javascript" src="./js/actions_pages/listProductsDetail.js"></script>
-    <script type="text/javascript" src="./js/actions_pages/track-order.js"></script>
+     
 </body>
 </html>
