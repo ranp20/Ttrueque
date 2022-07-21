@@ -34,7 +34,7 @@ $dat = $c->select_tienda();
 	
 	<script type="text/javascript" src="js/actions_pages/buy_cart.js"></script>
 	 
-	<script type="text/javascript" src="js/actions_pages/customs.js"></script>
+	 
 	<script type="text/javascript" src="js/jquery.cookiebar.js"></script>
 	<script>
 		$(document).ready(function() {

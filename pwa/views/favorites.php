@@ -173,7 +173,7 @@ if (!isset($_SESSION['user'])) {
   <script type="text/javascript" src="js/specific_listing.js"></script>
   <script type="text/javascript" src="view_favorites.js"></script>
   <script type="text/javascript" src="./js/actions_pages/view_cart.js"></script>
-  <script type="text/javascript" src="js/actions_pages/customs.js"></script>
+   
   <!-- CUSTOM JQUERY -->
   <script type="text/javascript" src="js/actions_pages/favorites.js"></script>
   <script type="text/javascript" src="./js/actions_pages/language_currency.js"></script>

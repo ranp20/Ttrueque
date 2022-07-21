@@ -65,7 +65,7 @@ $d_by_id =  $c->select_points_default($_SESSION['user']);
     <script type="text/javascript" src="js/actions_pages/buy_cart.js"></script>
     <script type="text/javascript" src="./js/actions_pages/view_cart.js"></script>
     <script type="text/javascript" src="./js/actions_pages/remove.js"></script>
-    <script type="text/javascript" src="js/actions_pages/customs.js"></script>
+     
     <script type="text/javascript" src="js/actions_pages/all_pages_index.js"></script>
     <script type="text/javascript" src="js/actions_pages/listCategories_ByStore.js"></script>
     
