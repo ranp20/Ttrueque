@@ -32,100 +32,72 @@ $rubros = $all->get_name_rubros();
 	<div class="c-sectMain box-redx">
 		<div class="c-sectMain__cAcco box_account">
 			<?php
-			if(isset($_SESSION["error"])){
-				echo $_SESSION["error"];
-				unset($_SESSION["error"]);
-			}else if(isset($_SESSION["success"])){
-				echo $_SESSION["success"];
-				unset($_SESSION["success"]);
-			}
+				if(isset($_SESSION["error"])){
+					echo $_SESSION["error"];
+					unset($_SESSION["error"]);
+				}else if(isset($_SESSION["success"])){
+					echo $_SESSION["success"];
+					unset($_SESSION["success"]);
+				}
 			?>
-			<div class="cont-infoicons-account">
-				<div class="cont-imgh3-accounttop">
-					<img src="./img/iconos_home/home-account-user.svg" alt="" width="32" height="32">
-					<h3 class="new_client">Nuevo Usuario</h3> 
-				</div>
-				<small class="float-right pt-2">* Campos requeridos</small>
+			<div class="c-sectMain__cAcco__cTitle">
+				<h3>Regístrate</h3> 
+				<small>* Campos requeridos</small>
 			</div>
-			<form class="form_container" method="POST" action="php/process_account.php?register" id="form-register">
-				<div class="form-group">
-					<input type="email" maxlength="200" required class="form-control form-register-input" name="mail" id="email_2" placeholder="Email*">
+			<form class="c-sectMain__cAcco__cFrm form_container" method="POST" action="php/process_account.php?register" id="form-register">
+				<div class="c-sectMain__cAcco__cFrm__cCtrls">
+					<input type="email" class="c-sectMain__cAcco__cFrm__cCtrls__ipt" name="mail" id="email_2" placeholder="Email" required>
 				</div>
-				<div class="form-group">
-					<input type="password" maxlength="40" required class="form-control form-register-input" name="pass" id="password_in_2" value="" placeholder="Password*">
+				<div class="c-sectMain__cAcco__cFrm__cCtrls">
+					<input type="password" class="c-sectMain__cAcco__cFrm__cCtrls__ipt" name="pass" id="password_in_2" placeholder="Password" required>
 				</div>
 				<hr>
-				<div class="private box">
-					<div class="row no-gutters">
-						<div class="col-12 row no-gutters" id="input-change-register">
-							<div class="col-6 pr-1">
-								<div class="form-group">
-									<input type="text" required name="name" class="form-control" id="nombre" placeholder="Nombres*">
-								</div>
-							</div>
-							<div class="col-6 pl-1">
-								<div class="form-group">
-									<input type="text" required name="lastname" class="form-control" id="apellido" placeholder="Apellidos*">
-								</div>
-							</div>
-						</div>
-						<div class="col-12">
-							<div class="form-group">
-								<input type="text" required name="direction" class="form-control" placeholder="Dirección*">
-							</div>
-						</div>
+				<div class="c-sectMain__cAcco__cFrm__cGrpCtrls">
+					<div class="c-sectMain__cAcco__cFrm__cGrpCtrls__cCtrl w-5">
+						<input type="text" name="name" class="c-sectMain__cAcco__cFrm__cGrpCtrls__cCtrl__ipt" id="nombre" placeholder="Nombres" required>
 					</div>
-					<div class="row no-gutters">
-						<div class="col-6 pr-1">
-							<div class="form-group">
-								<select required class="form-control select-onehidden" name="country" id="country">
-									<option value="0">País*</option>
-									<?php
-									foreach ($paises as $val) {
-										echo "<option value='{$val["id_pais"]}'>{$val["nombre_pais"]}</option>";
-									}
-									?>
-								</select>
-								<div class="arrow-down-select">
-									<i></i>
-								</div>
-							</div>
-						</div>
-						<div class="col-6 pl-1">
-							<div class="form-group">
-								<input type="number" minlength="9" maxlength="11" required name="phone" class="form-control" placeholder="Teléfono *">
-							</div>
-						</div>
-					</div>
-					<div class="row no-gutters">
-						<div class="col-12 pr-1">
-							<div class="form-group">
-								<select required class="form-control select-onehidden" name="rubro" id="rubro">
-									<option value="0">Rubro*</option>
-									<?php
-									foreach ($rubros as $val) {
-										echo "<option value='{$val["id"]}'>{$val["name"]}</option>";
-									}
-									?>
-								</select>
-								<div class="arrow-down-select">
-									<i></i>
-								</div>
-							</div>
-						</div>
-					</div>
-					<hr>
-					<div class="form-group" style="left:20px !important;">
-						<label class="form-check-label">
-							<input type="checkbox" required id="check-terms" class="form-check-input" value=""> Términos y Condiciones
-							<span class="checkmark"></span>
-						</label>
+					<div class="c-sectMain__cAcco__cFrm__cGrpCtrls__cCtrl w-5">
+						<input type="text" name="lastname" class="c-sectMain__cAcco__cFrm__cGrpCtrls__cCtrl__ipt" id="apellido" placeholder="Apellidos" required>
 					</div>
 				</div>
-				<div class="text-center">
-					<input type="submit" value="Registrarme" class="btn_1 full-width banner_btn btn-register-user-new">
-					<div class="cont-session-exist-login">
-						<p>¿Ya tienes una cuenta?&nbsp;&nbsp;<a href="login">Iniciar sesión</a></p>
+				<div class="c-sectMain__cAcco__cFrm__cCtrls">
+					<input type="text" name="direction" class="c-sectMain__cAcco__cFrm__cCtrls__ipt" placeholder="Dirección" required>
+				</div>
+				<div class="c-sectMain__cAcco__cFrm__cGrpCtrls">
+					<div class="c-sectMain__cAcco__cFrm__cGrpCtrls__cCtrl w-5">
+						<select required class="one-hidd" name="country" id="country">
+							<option value="0">País</option>
+							<?php
+								foreach($paises as $val){
+									echo "<option value='{$val["id_pais"]}'>{$val["nombre_pais"]}</option>";
+								}
+							?>
+						</select>
+					</div>
+					<div class="c-sectMain__cAcco__cFrm__cGrpCtrls__cCtrl w-5">
+						<input type="number" name="phone" class="c-sectMain__cAcco__cFrm__cGrpCtrls__cCtrl__ipt" placeholder="Teléfono" required>
+					</div>
+				</div>
+				<div class="c-sectMain__cAcco__cFrm__cCtrls">
+					<select required class="one-hidd" name="rubro" id="rubro">
+						<option value="0">Rubro*</option>
+						<?php
+						foreach ($rubros as $val) {
+							echo "<option value='{$val["id"]}'>{$val["name"]}</option>";
+						}
+						?>
+					</select>
+				</div>
+				<div class="c-sectMain__cAcco__cFrm__cChckCtrl">
+					<label class="c-sectMain__cAcco__cFrm__cChckCtrl__c">
+						<input type="checkbox" id="check-terms" class="c-sectMain__cAcco__cFrm__cChckCtrl__c__ipt" value="" required> Términos y Condiciones
+						<span class="c-sectMain__cAcco__cFrm__cChckCtrl__c__chck"></span>
+					</label>
+				</div>
+				<div class="c-sectMain__cAcco__cFrm__cBtns">
+					<button type="submit" title="Registrarme">Registrarme</button>
+					<div class="c-sectMain__cAcco__cFrm__cBtns__cLinks">
+						<p>¿Ya tienes una cuenta?<a href="login" title="Iniciar sesión">Iniciar sesión</a></p>
 					</div>
 				</div>
 			</form>

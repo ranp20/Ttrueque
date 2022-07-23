@@ -1482,11 +1482,17 @@ $max-height-banner-desktop: 665px;
 				margin-bottom: .4rem;
 				font-size: .9rem;
 				font-weight: 400;
-				color: #0070ba;
+				color: $theme-clr-primary;
 				@media (min-width: 768px){
 					top: 0;
 					margin-bottom: 0.5rem;
 					font-size: 1rem;
+				}
+				&:active{
+					color: $theme-clr-primary;
+				}
+				&:hover{
+					text-decoration: underline !important;
 				}
 			}
 			button[type=submit]{
@@ -1509,6 +1515,7 @@ $max-height-banner-desktop: 665px;
 		    cursor: pointer;
 	    	pointer-events: auto;
 	    	user-select: auto;
+	    	margin-top: 0.65rem;
 		    &:active{
 		    	text-decoration: underline;
 		    }
@@ -1614,6 +1621,256 @@ $max-height-banner-desktop: 665px;
 	&__cAcco{
 		max-width: 580px;
 		margin: 0 auto;
+		&__cTitle{
+			width: 100%;
+			display: flex;
+			flex-flow: row wrap;
+			align-items: center;
+			justify-content: space-between;
+			margin-bottom: 0.5rem;
+			h1,h2,h3,h4,h5,h6,p, small{
+				font-weight: bold;
+				color: $theme-clr-primary;
+				margin: 0;
+			}
+			small{
+				float: right;
+				text-align: right;
+			}
+		}
+		&__cFrm{
+			background-color: $theme-clr-login-background;
+			border-radius: 1.5rem;
+			padding: 1.5rem;
+			@media (min-width: 768px){
+				padding: 2rem;
+			}
+			&__cCtrls{
+				width: 100%;
+				position: relative;
+				display: flex;
+				align-items: center;
+				margin-bottom: 0.625rem;
+				background-color: #fff;
+				padding-left: 0.7rem;
+				border-radius: .8rem;
+				flex: 100%;
+				input, &__ipt{
+					width: 100%;
+					line-height: 3.3rem;
+					border: none;
+					outline: none;
+					padding-top: 0;
+					padding-bottom: 0;
+					padding-left: .6rem;
+					padding-right: 0.65rem;
+					border-radius: 0 .6rem .6rem 0;
+					@media (min-width: 768px){
+						font-size: 0.9rem;
+					}
+					@media (min-width: 1024px){
+						min-height: 46px;
+						height: 46px;
+					}
+					&[type="number"],
+					&[type="number"]::-webkit-inner-spin-button,
+					&[type="number"]::-webkit-outer-spin-button{
+						-moz-appearance:textfield;
+						-webkit-appearance: none;
+					}
+				}
+				select{
+					width: 100%;
+					line-height: 2.875rem;
+					border: none;
+					outline: none;
+					padding-top: 0;
+					padding-bottom: 0;
+					padding-left: .6rem;
+					padding-right: 0.65rem;
+					border-radius: 0 .6rem .6rem 0;
+					min-height: 45.99px;
+					max-height: 45.99px;
+  				height: auto;
+  				&.one-hidd{
+  					option{
+  						&:first-child{
+  							display: none;
+  						}
+  					}
+  				}
+				}
+			}
+			&__cGrpCtrls{
+				width: 100%;
+				position: relative;
+				display: flex;
+				align-items: center;
+				margin-bottom: 0.625rem;
+				border-radius: .8rem;
+				flex: 100%;
+				&__cCtrl{
+					width: 100%;
+					position: relative;
+					display: flex;
+					align-items: center;
+					// margin-bottom: 0.625rem;
+					background-color: #fff;
+					padding-left: 0.7rem;
+					border-radius: .8rem;
+					&.w-5{
+						flex: 50%;
+						margin-left: 0.5rem;
+						&:first-child{
+							margin-left: 0;
+							margin-right: 0;
+							margin-top: 0;
+						}
+					}
+					input, &__ipt{
+						width: 100%;
+						line-height: 3.3rem;
+						border: none;
+						outline: none;
+						padding-top: 0;
+						padding-bottom: 0;
+						padding-left: .6rem;
+						padding-right: 0.65rem;
+						border-radius: 0 .6rem .6rem 0;
+						@media (min-width: 768px){
+							font-size: 0.9rem;
+						}
+						@media (min-width: 1024px){
+							min-height: 46px;
+							height: 46px;
+						}
+						&[type="number"],
+						&[type="number"]::-webkit-inner-spin-button,
+						&[type="number"]::-webkit-outer-spin-button{
+							-moz-appearance:textfield;
+							-webkit-appearance: none;
+						}
+					}
+					select{
+						width: 100%;
+						line-height: 2.875rem;
+						border: none;
+						outline: none;
+						padding-top: 0;
+						padding-bottom: 0;
+						padding-left: .6rem;
+						padding-right: 0.65rem;
+						border-radius: 0 .6rem .6rem 0;
+						min-height: 45.99px;
+						max-height: 45.99px;
+    				height: auto;
+    				&.one-hidd{
+	  					option{
+	  						&:first-child{
+	  							display: none;
+	  						}
+	  					}
+	  				}
+					}
+				}
+			}
+			&__cChckCtrl{
+				position: relative;
+				left: 20px;
+				&__c{
+					display: block;
+				  position: relative;
+				  padding-left: 12px;
+				  margin-bottom: 12px;
+				  cursor: pointer;
+				  -webkit-user-select: none;
+				  -moz-user-select: none;
+				  -ms-user-select: none;
+				  user-select: none;
+					&__ipt{
+						position: absolute;
+					  opacity: 0;
+					  cursor: pointer;
+					  height: 0;
+					  width: 0;
+					  display: none;
+					}
+					&__chck{
+						position: absolute;
+					  top: 2px;
+					  left: -15px;
+					  height: 18px;
+					  width: 18px;
+					  background-color: #fff;
+					  border-radius: 5px;
+					  border: thin solid $theme-clr-txt-o;
+					  &:after{
+					  	content: "";
+						  position: absolute;
+						  display: none;
+						  left: 5px;
+						  top: 3px;
+						  width: 5px;
+						  height: 10px;
+						  border: solid white;
+						  border-width: 0 3px 3px 0;
+						  -webkit-transform: rotate(45deg);
+						  -ms-transform: rotate(45deg);transform: rotate(45deg);
+						  @media (min-width: 1200px){
+						  	left: 5px;
+						  	top: 1px;
+						  }
+					  }
+					}
+					input:checked ~ span{
+						background-color: $theme-clr-primary;
+					}
+					input:checked ~ span:after{
+						display: block;
+					}
+				}
+			}
+			&__cBtns{
+				text-align: center;
+				button[type="submit"],input[type="submit"]{
+					cursor: pointer;
+					display: block;
+					border: none;
+					outline: none;
+					text-decoration: none;
+					width: 100%;
+					text-align: center;
+					background-color: $theme-clr-btns;
+					color: $theme-clr-btns-txt;
+					border-radius: .8rem;
+					min-height: 40px;
+					padding: 0.68rem;
+					font-weight: 800;
+					&:active{
+						background-color: $theme-clr-btns-hover;
+						color: $theme-clr-btns-txt;
+					}
+					&:hover{
+						background-color: $theme-clr-btns-hover;
+						color: $theme-clr-btns-txt;
+					}
+				}
+				&__cLinks{
+					padding: .8rem 0;
+					a{
+						margin-left: 0.5rem;
+						font-weight: bold;
+						color: $theme-clr-primary;
+						&:active{
+							color: $theme-clr-primary;
+						}
+						&:hover{
+							text-decoration: underline !important;
+						}
+					}
+				}
+			}
+		}
 	}
 }
 /* LINK DE SLIDEUP */
