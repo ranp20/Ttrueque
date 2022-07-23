@@ -1,7 +1,7 @@
-#form-register-info-personal .box_account .cont-infoicons-account{display: flex;align-items: center;justify-content: space-between;margin-bottom: 0.5rem;flex-wrap: wrap;}
-#form-register-info-personal .box_account .cont-infoicons-account .cont-imgh3-accounttop img{width: 33px;height: 33px;}
-#form-register-info-personal .box_account .cont-infoicons-account .cont-imgh3-accounttop .new_client{padding: 0;margin: 0;font-weight: bold;color: var(--primary-clr);}
-#form-register-info-personal .box_account .cont-infoicons-account > small{color: var(--primary-clr);font-weight: bold;padding-top: 0 !important;}
+.box_account .cont-infoicons-account{display: flex;align-items: center;justify-content: space-between;margin-bottom: 0.5rem;flex-wrap: wrap;}
+.box_account .cont-infoicons-account .cont-imgh3-accounttop img{width: 33px;height: 33px;}
+.box_account .cont-infoicons-account .cont-imgh3-accounttop .new_client{padding: 0;margin: 0;font-weight: bold;color: var(--primary-clr);}
+.box_account .cont-infoicons-account > small{color: var(--primary-clr);font-weight: bold;padding-top: 0 !important;}
 /* CONTENEDOR DEL REGSTRO DE USUARIOS */
 .box_account .form_container{background-color: var(--bgc-login) !important;border-radius: 1.5rem;}
 .box_account .form_container .form-group *::placeholder{color: var(--placeholder-login);}
@@ -93,8 +93,8 @@ input[type=number]{ -moz-appearance:textfield;}
 }
 @media (min-width: 1024px){
   .box_account .form_container .form-group .form-control{font-size: 1rem;}
-  #form-register-info-personal .box_account .cont-infoicons-account .cont-imgh3-accounttop .new_client{font-size: 1.4rem;}
-  #form-register-info-personal .box_account .cont-infoicons-account > small{font-size: 0.9rem;}
+  .box_account .cont-infoicons-account .cont-imgh3-accounttop .new_client{font-size: 1.4rem;}
+  .box_account .cont-infoicons-account > small{font-size: 0.9rem;}
 }
 @media (min-width: 1400px){
   .form-check-label .checkmark:after{left: 6px;top: 2px;}
