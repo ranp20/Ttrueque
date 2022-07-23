@@ -1508,14 +1508,6 @@ a.btn_1 i,
 .btn_1 i {
   font-weight: 600;
 }
-main {
-  background-color: #fff;
-  z-index: 2;
-  position: relative;
-}
-main.freeze {
-  z-index: inherit;
-}
 .container {
   max-width: 1220px;
 }
@@ -4175,9 +4167,6 @@ input.qty2:focus {
 }
 .bg_white {
   background-color: #fff;
-}
-.bg_gray {
-  background-color: #f8f8f8;
 }
 .container_check {
   display: block;

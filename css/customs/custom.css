@@ -496,7 +496,6 @@ img{
 /* UTILITIES CLASS */
 .margintb-2{margin-top: 2rem;margin-bottom: 2rem;}
 .margintb-3{margin-top: 3rem;margin-bottom: 3rem;}
-#total-content-account{margin: 0 !important;}
 /*PRELOADER TO ALL PAGES*/
 .loader {
   z-index: 999;
@@ -1211,11 +1210,6 @@ img{
 @media (max-width: 320px){
   .cont-sms-confirm{width: 90%;}
 }
-/* MARGIN TOP CONTENIDO */
-.bg_gray{
-  margin-top: 3.4rem !important;
-}
-
 
 /* SOLUCIÓN DE BREAKPOINTS */
 /* TAMAÑO - TABLET(768px) */

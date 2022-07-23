@@ -1,5 +1,3 @@
-/* TOP FORM ACCCOUNT */
-#total-content-account{font-family: var(--fuente-categorias_2);}
 #form-register-info-personal .box_account .cont-infoicons-account{display: flex;align-items: center;justify-content: space-between;margin-bottom: 0.5rem;flex-wrap: wrap;}
 #form-register-info-personal .box_account .cont-infoicons-account .cont-imgh3-accounttop img{width: 33px;height: 33px;}
 #form-register-info-personal .box_account .cont-infoicons-account .cont-imgh3-accounttop .new_client{padding: 0;margin: 0;font-weight: bold;color: var(--primary-clr);}
