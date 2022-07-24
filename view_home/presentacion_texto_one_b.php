@@ -10,7 +10,7 @@ session_start();
   <?php require_once 'header_links-home.php';?>
 </head>
 <body>
-	<?php require_once './presentacion_header_texto_b.php'; ?>
+	<?php require_once './presentacion_header_texto_b.php';?>
 	<div class="c-sectMain box-redx">
 		<section class="c-sectMain__c">
 			<h2 class="c-sectMain__c__title">Es gratuito abrir una cuenta en Ttrueque</h5>

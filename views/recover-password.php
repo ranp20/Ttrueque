@@ -13,7 +13,7 @@ if (isset($_SESSION["user"])){
   <?php require_once 'includes/header_links.php'; ?>
 </head>
 <body>
-	<?php require_once 'includes/inc_header-top.php';?>
+	<?php require_once '../view_home/presentacion_header_texto_b.php';?>
 	<div class="cont-recover-password">
 		<div class="cont-form-rec">
 			<form class="cont-form-rec--form" method="POST" id="recover-pass">

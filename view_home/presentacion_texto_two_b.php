@@ -11,7 +11,7 @@ session_start();
 </head>
 <body>
 	<div>
-		<?php require_once 'presentacion_header_texto_b.php'; ?>
+		<?php require_once 'presentacion_header_texto_b.php';?>
 		<div class="c-sectMain box-redx">
 			<section class="c-sectMain__cMobDesk">
 				<div class="c-sectMain__cMobDesk__cMob">
