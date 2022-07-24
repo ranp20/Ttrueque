@@ -140,16 +140,16 @@
 }
 .contmodal-guide{
   position: fixed !important;
-  z-index: 999 !important;
+  z-index: 9999 !important;
   background-color: rgba(0,0,0,.6) !important;
-  top: 60px !important;
+  top: 0 !important;
   left: 0 !important;
   bottom: 0 !important;
   right: 0 !important;
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  padding-top: 1rem;
+  padding-top: 75px;
   padding-bottom: 5rem;
   animation-name: modalguidettrk;
   animation-duration: 1s;

@@ -307,7 +307,7 @@ li .language_icon_header_b-ttrq .icon-language_ttrq ul li button div {  backgrou
 .con-t-profile-opts-link > span.lang_ttrq{margin-left: .5rem;position: relative;}
 .con-t-profile-opts-link > span svg{position: relative;fill: #fff;top: 3px;}
 /*ICONO DEL CARRITO*/
-.cart_icon_header_b-ttrq{color: #fff;text-decoration: none;position: relative;}
+.cart_icon_header_b-ttrq{color: #fff;text-decoration: none;position: relative;padding-right: 0.5rem;}
 .cart_icon_header_b-ttrq:hover{color: #fff !important;text-decoration: none;}
 .cart_icon_header_b-ttrq:active{color: #fff !important;}
 .cart_icon_header_b-ttrq:hover:before{color: #fff !important;}
