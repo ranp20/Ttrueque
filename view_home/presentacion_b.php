@@ -82,7 +82,7 @@ $path_b_p = "admin/images/banner_principal/";
     <div class="c-bannerH__heroI__c">
       <ul class="c-bannerH__heroI__c__m">
         <li class="c-bannerH__heroI__c__m__i">
-          <div class="c-bannerH__heroI__c__m__i__cBckgImg">
+          <div class="c-bannerH__heroI__c__m__i__cBckgImg shadow-mask">
             <img class="img-fluid" src="<?php echo $path_b_p . $banner_p[0]["link_banner_p"]; ?>" alt="banner_p_ttrq" width="100" height="100">
           </div>
           <div class="c-bannerH__heroI__c__m__i__cont">

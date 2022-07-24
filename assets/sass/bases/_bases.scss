@@ -91,6 +91,17 @@ body{
 	width: 100%;
 	padding: 1rem;
 }
+.shadow-mask{
+	&:before{
+		content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.2);
+    top: 0;
+    left: 0;
+	}
+}
 .box-wuot-pdd{
 	@include max-width($max-width);
 	margin-left: auto;
