@@ -182,9 +182,10 @@ if($store == $_POST['store']){
 		<?php
 	} else {
 		?>
-	<div class="alert alert-warning alert-dismissable">
-    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-    <h4>Aviso!!!</h4> No hay datos para mostrar
+	<div class="alert alert-warning alert-dismissible fade show" role="alert">
+  	<p style="margin-bottom:.5rem;font-size: 1.3rem;"><strong>Aviso!!</strong></p>
+  	<span>No hay datos para mostrar</span>
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
   </div>
 		<?php
 	}
