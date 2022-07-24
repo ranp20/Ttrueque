@@ -40,5 +40,6 @@ if(!isset($_GET['id']) || !is_numeric($_GET['id']) || $_GET['id'] == ""){
   <script type="text/javascript" src="./js/actions_pages/customs.js"></script>
   <script type="text/javascript" src="./js/actions_pages/all_pages_index.js"></script>
   <script type="text/javascript" src="./js/actions_pages/listProductsDetail.js"></script>
+  <script type="text/javascript" src="js/actions_pages/language_currency.js"></script>
 </body>
 </html>

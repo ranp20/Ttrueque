@@ -11,17 +11,14 @@ $min-height-header_main : 60px;
   right: 0;
   left: 0;
   z-index: 1030;
-  min-height: auto;
-  max-height: auto;
-  height: auto;
+  min-height: $min-height-header_main;
+  max-height: $min-height-header_main;
+  height: $min-height-header_main;
 	@media (min-width: 480px){
 		padding: 0.8rem 1rem;
 	}
 	@media (min-width: 991px){
 		padding: 0;
-	  min-height: $min-height-header_main;
-	  max-height: $min-height-header_main;
-	  height: $min-height-header_main;
 	}
 	&__clinks{
 	  display: -ms-flexbox;

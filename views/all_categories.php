@@ -103,5 +103,6 @@ $all_stores = $stores->select_tienda();
   <div  id="toTopgobtn"></div>
   <script type="text/javascript" src="js/actions_pages/buy_cart.js"></script>
   <script type="text/javascript" src="./js/actions_pages/all_pages_index.js"></script>
+  <script type="text/javascript" src="js/actions_pages/language_currency.js"></script>
 </body>
 </html>

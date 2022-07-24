@@ -300,12 +300,12 @@ li .language_icon_header_b-ttrq .icon-language_ttrq ul li button div {  backgrou
 .content-all-countries-naside > button.dropdown-item:last-child{margin: 0;}
 .content-all-countries-naside > button.dropdown-item img{width: 53px;}
 .con-t-countries-link{display: flex !important;align-items: center !important;padding-top: 0.7rem !important;}
-.con-t-countries-link:before{content: "\e665";font-family: "themify";right: 1.5rem;top: 0;font-size: 1.58rem;padding: 0 0 0 0.5em;}
-.con-t-countries-link > span{margin-left: .5rem;}
+.con-t-countries-link > span.lang_ttrq{margin-left: .5rem;position: relative;}
+.con-t-countries-link > span svg{position: relative;fill: #fff;top: 3px;}
 /* PERFIL DEL CLIENTE */
 .con-t-profile-opts-link{display: flex !important;align-items: center !important;padding-top: 0.7rem !important;}
-.con-t-profile-opts-link > span.lang_ttrq{margin-left: .5rem;}
-.con-t-profile-opts-link:before{content: "\0043";font-family: "header_icons";font-size: 26px;font-size: 1.625rem;font-weight: 500;}
+.con-t-profile-opts-link > span.lang_ttrq{margin-left: .5rem;position: relative;}
+.con-t-profile-opts-link > span svg{position: relative;fill: #fff;top: 3px;}
 /*ICONO DEL CARRITO*/
 .cart_icon_header_b-ttrq{color: #fff;text-decoration: none;position: relative;}
 .cart_icon_header_b-ttrq:hover{color: #fff !important;text-decoration: none;}

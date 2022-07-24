@@ -75,5 +75,6 @@ if (!isset($_SESSION['user'])) {
   <script type="text/javascript" src="js/actions_pages/remove.js"></script>
   <script type="text/javascript" src="js/actions_pages/all_pages_index.js"></script>
   <script type="text/javascript" src="js/actions_pages/listProds_ByNameCategory.js"></script>
+  <script type="text/javascript" src="js/actions_pages/language_currency.js"></script>
 </body>
 </html>
