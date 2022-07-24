@@ -1857,6 +1857,9 @@ $max-height-banner-desktop: 665px;
 				}
 				&__cLinks{
 					padding: .8rem 0;
+					p{
+						margin: 0;
+					}
 					a{
 						margin-left: 0.5rem;
 						font-weight: bold;
