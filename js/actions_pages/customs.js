@@ -7,7 +7,7 @@ $(document).ready(function(){
     method: 'POST',
     data: {cliente : idcliente},
   }).done((e) => {
-    if(e != "" || e != "[]" || e.length == 0){
+    if(e == "" || e == "[]" || e.length == 0){
       $('.contModalGuidettrk').append(`
         <div class="contmodal-guide">
           <div class="contmodal-guide__content">
