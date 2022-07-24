@@ -11,12 +11,9 @@ $url =  $actual_link . "/" ."Ttrueque/";
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="Ansonika">
-  <title>Trueque | Error 404</title>
+  <title>Error 404 | Ttrueque</title>
   <!-- ICON-PAGES -->
   <link rel="icon" href="<?= $url;?>/img/icon-pages/drawable-xxxhdpi-icon.png" type="image/ico">
-  <!-- BASE CSS -->
-  <link href="<?= $url;?>css/bootstrap.custom.min.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
   <!-- SPECIFIC CSS -->
   <link href="<?= $url;?>css/customs/custom.css" rel="stylesheet">
 </head>

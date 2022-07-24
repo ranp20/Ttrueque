@@ -1,4 +1,4 @@
-.err-c_404{max-width: 1200px;margin:auto;display: flex;align-items: center;justify-content: center;min-height: 100vh;width: 95%}
+.err-c_404{font-family: sans-serif;max-width: 1200px;margin:auto;display: flex;align-items: center;justify-content: center;min-height: 100vh;width: 95%}
 .err-c_404 .cont-info-404{display: flex;align-items: center;justify-content: center;text-align: center;margin: auto;padding: 0;flex-flow: column wrap;}
 .err-c_404 .cont-info-404 .cont-img-info-404{text-align: center;margin: 0 0 1rem 0;margin-right: 2.5rem;}
 .err-c_404 .cont-info-404 .cont-img-info-404 img{width: 500px;height: 240px;}
