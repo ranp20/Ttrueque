@@ -12,70 +12,69 @@
     <div class="nav-main__index__clinks__cSideLeft collapse navbar-collapse p-3 p-lg-0 mt-5 mt-lg-0 d-flex flex-column flex-lg-row flex-xl-row justify-content-lg-between mobileMenu nav-index-ttrq-collapse" id="navbarSupportedContent">
       <form class="form-inline my-2 my-lg-0 align-self-stretch search-input-customs-header">
           <div class="c-contentSearchTtrq">
-            <input type="text" class="search-input_home form-control mr-sm-2" placeholder="Buscar en Ttrueque"
-                id="caja_busqueda_primary" name="tienda?tipos" autocomplete="off">
+            <input type="text" class="search-input_home form-control mr-sm-2" placeholder="Buscar en Ttrueque" id="caja_busqueda_primary" name="" autocomplete="off">
             <div class="c-contentSearchTtrq--cont"></div>
           </div>
       </form>
       <ul class="navbar-nav align-self-stretch">
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle con-t-profile-opts-link" href="javascript:void(0);" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <span>
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35px" height="35px" version="1.1" viewBox="0 0 700 700"><g xmlns="http://www.w3.org/2000/svg"><path d="m371.7 537.22c-1.3906 0.11719-2.7812 0.21875-4.1719 0.3125-0.75391 0.050781-1.5078 0.097656-2.2617 0.14062-1.1328 0.066406-2.2656 0.13281-3.4023 0.18359-1.1094 0.050781-2.2188 0.085937-3.332 0.12109-0.84375 0.027344-1.6875 0.0625-2.5312 0.082032-2 0.042968-4 0.070312-6.0039 0.070312-2.0078 0-4.0117-0.027344-6.0117-0.070312-0.84766-0.019532-1.6914-0.054688-2.5352-0.082032-1.1172-0.035156-2.2305-0.074218-3.3477-0.125-1.1328-0.050781-2.2617-0.11328-3.3945-0.17969-0.76172-0.046875-1.5273-0.089844-2.2891-0.14062-1.3867-0.09375-2.7734-0.19922-4.1523-0.31641-0.41797-0.03125-0.83203-0.066406-1.25-0.10547-51.711-4.5859-100.67-24.582-140.87-57.656 21.574-12.965 45.984-25.199 67.945-36.203 21.965-11.008 39.316-19.703 48.824-26.605 9.4531-6.8633 14.617-14.855 15.34-23.754 1.3047-16.082-11.652-29.16-25.371-43.012-6.9961-7.0586-14.227-14.359-18.859-21.531-13.836-21.41-25.48-48.227-16.117-139.97 3.2422-31.781 19.223-54.398 47.5-67.227 22.121-10.031 43.852-10.242 44.02-10.242 0.21484 0 21.945 0.21094 44.066 10.242 28.277 12.828 44.258 35.445 47.5 67.227 9.3633 91.746-2.2812 118.57-16.117 139.98-4.6328 7.168-11.867 14.469-18.859 21.527-13.719 13.852-26.68 26.93-25.371 43.012 0.72266 8.8984 5.8828 16.891 15.34 23.754 9.5078 6.9023 26.859 15.598 48.824 26.605 21.117 10.582 46.562 23.332 68.574 36.586-40.137 32.863-88.961 52.727-140.5 57.281-0.39453 0.035156-0.78906 0.070312-1.1836 0.10156m-279.83-257.22c0-68.949 26.848-133.77 75.602-182.53s113.58-75.602 182.53-75.602 133.77 26.848 182.53 75.602c48.754 48.754 75.602 113.58 75.602 182.53s-26.848 133.77-75.602 182.53c-0.70703 0.70703-1.4297 1.3906-2.1406 2.0898-24.035-14.98-52.48-29.246-75.777-40.922-20.238-10.141-37.715-18.898-45.773-24.75-2.7891-2.0234-6.1641-5.0234-6.3906-7.8281-0.49219-6.0586 10.375-17.031 19.109-25.844 7.7812-7.8555 15.828-15.977 21.691-25.055 19.27-29.816 28.637-64.586 19.508-154.06-5.1328-50.301-35.992-74.129-60.98-85.262-26.312-11.723-51.27-11.855-52.32-11.855s-26.008 0.13281-52.32 11.855c-24.988 11.133-55.848 34.961-60.98 85.262-9.1289 89.477 0.23828 124.25 19.508 154.06 5.8633 9.0781 13.91 17.199 21.691 25.055 8.7305 8.8125 19.602 19.785 19.109 25.844-0.23047 2.8047-3.6016 5.8047-6.3867 7.8281-8.0625 5.8516-25.543 14.609-45.777 24.754-23.062 11.559-51.215 25.676-75.105 40.504-0.57031-0.5625-1.1523-1.1094-1.7188-1.6758-48.754-48.754-75.602-113.58-75.602-182.53m271.45 279.68c1.8086-0.082032 3.6133-0.19531 5.4141-0.31641 0.34766-0.023438 0.69922-0.039063 1.0469-0.0625 67.34-4.668 130.01-33.121 178.2-81.316 52.887-52.883 82.012-123.2 82.012-197.99 0-74.793-29.125-145.11-82.012-197.99-52.887-52.883-123.2-82.008-197.99-82.008s-145.11 29.125-197.99 82.008c-52.887 52.887-82.012 123.2-82.012 197.99 0 74.789 29.125 145.11 82.012 197.99 48.18 48.184 110.83 76.633 178.15 81.312 0.34766 0.027344 0.69531 0.039063 1.043 0.066407 1.8125 0.11719 3.6211 0.23047 5.4375 0.31641 0.92188 0.042968 1.8516 0.066406 2.7734 0.10156 1.2812 0.046875 2.5586 0.10156 3.8398 0.13281 2.2461 0.054687 4.4922 0.082031 6.7461 0.082031 2.2461 0 4.4922-0.027344 6.7305-0.082031 1.2812-0.03125 2.5547-0.085938 3.832-0.13281 0.92188-0.035156 1.8438-0.058594 2.7617-0.10156" fill-rule="evenodd"/></g></svg>
-              </span>
-              <span class="lang_ttrq" key="name_user">¡Hola,</span><span>&nbsp;<?php echo ucfirst($d[0][3]);?>!</span>
-              <input type="hidden" name="paisclient" id="paisclient" value="<?php echo $_SESSION['idcountries'] = $d[0]['pais']; ?>">
-              <input type="hidden" id="userid_cli" value="<?php echo $_SESSION['user']; ?>">
-            </a>
+          <a class="nav-link dropdown-toggle con-t-profile-opts-link" href="javascript:void(0);" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35px" height="35px" version="1.1" viewBox="0 0 700 700"><g xmlns="http://www.w3.org/2000/svg"><path d="m371.7 537.22c-1.3906 0.11719-2.7812 0.21875-4.1719 0.3125-0.75391 0.050781-1.5078 0.097656-2.2617 0.14062-1.1328 0.066406-2.2656 0.13281-3.4023 0.18359-1.1094 0.050781-2.2188 0.085937-3.332 0.12109-0.84375 0.027344-1.6875 0.0625-2.5312 0.082032-2 0.042968-4 0.070312-6.0039 0.070312-2.0078 0-4.0117-0.027344-6.0117-0.070312-0.84766-0.019532-1.6914-0.054688-2.5352-0.082032-1.1172-0.035156-2.2305-0.074218-3.3477-0.125-1.1328-0.050781-2.2617-0.11328-3.3945-0.17969-0.76172-0.046875-1.5273-0.089844-2.2891-0.14062-1.3867-0.09375-2.7734-0.19922-4.1523-0.31641-0.41797-0.03125-0.83203-0.066406-1.25-0.10547-51.711-4.5859-100.67-24.582-140.87-57.656 21.574-12.965 45.984-25.199 67.945-36.203 21.965-11.008 39.316-19.703 48.824-26.605 9.4531-6.8633 14.617-14.855 15.34-23.754 1.3047-16.082-11.652-29.16-25.371-43.012-6.9961-7.0586-14.227-14.359-18.859-21.531-13.836-21.41-25.48-48.227-16.117-139.97 3.2422-31.781 19.223-54.398 47.5-67.227 22.121-10.031 43.852-10.242 44.02-10.242 0.21484 0 21.945 0.21094 44.066 10.242 28.277 12.828 44.258 35.445 47.5 67.227 9.3633 91.746-2.2812 118.57-16.117 139.98-4.6328 7.168-11.867 14.469-18.859 21.527-13.719 13.852-26.68 26.93-25.371 43.012 0.72266 8.8984 5.8828 16.891 15.34 23.754 9.5078 6.9023 26.859 15.598 48.824 26.605 21.117 10.582 46.562 23.332 68.574 36.586-40.137 32.863-88.961 52.727-140.5 57.281-0.39453 0.035156-0.78906 0.070312-1.1836 0.10156m-279.83-257.22c0-68.949 26.848-133.77 75.602-182.53s113.58-75.602 182.53-75.602 133.77 26.848 182.53 75.602c48.754 48.754 75.602 113.58 75.602 182.53s-26.848 133.77-75.602 182.53c-0.70703 0.70703-1.4297 1.3906-2.1406 2.0898-24.035-14.98-52.48-29.246-75.777-40.922-20.238-10.141-37.715-18.898-45.773-24.75-2.7891-2.0234-6.1641-5.0234-6.3906-7.8281-0.49219-6.0586 10.375-17.031 19.109-25.844 7.7812-7.8555 15.828-15.977 21.691-25.055 19.27-29.816 28.637-64.586 19.508-154.06-5.1328-50.301-35.992-74.129-60.98-85.262-26.312-11.723-51.27-11.855-52.32-11.855s-26.008 0.13281-52.32 11.855c-24.988 11.133-55.848 34.961-60.98 85.262-9.1289 89.477 0.23828 124.25 19.508 154.06 5.8633 9.0781 13.91 17.199 21.691 25.055 8.7305 8.8125 19.602 19.785 19.109 25.844-0.23047 2.8047-3.6016 5.8047-6.3867 7.8281-8.0625 5.8516-25.543 14.609-45.777 24.754-23.062 11.559-51.215 25.676-75.105 40.504-0.57031-0.5625-1.1523-1.1094-1.7188-1.6758-48.754-48.754-75.602-113.58-75.602-182.53m271.45 279.68c1.8086-0.082032 3.6133-0.19531 5.4141-0.31641 0.34766-0.023438 0.69922-0.039063 1.0469-0.0625 67.34-4.668 130.01-33.121 178.2-81.316 52.887-52.883 82.012-123.2 82.012-197.99 0-74.793-29.125-145.11-82.012-197.99-52.887-52.883-123.2-82.008-197.99-82.008s-145.11 29.125-197.99 82.008c-52.887 52.887-82.012 123.2-82.012 197.99 0 74.789 29.125 145.11 82.012 197.99 48.18 48.184 110.83 76.633 178.15 81.312 0.34766 0.027344 0.69531 0.039063 1.043 0.066407 1.8125 0.11719 3.6211 0.23047 5.4375 0.31641 0.92188 0.042968 1.8516 0.066406 2.7734 0.10156 1.2812 0.046875 2.5586 0.10156 3.8398 0.13281 2.2461 0.054687 4.4922 0.082031 6.7461 0.082031 2.2461 0 4.4922-0.027344 6.7305-0.082031 1.2812-0.03125 2.5547-0.085938 3.832-0.13281 0.92188-0.035156 1.8438-0.058594 2.7617-0.10156" fill-rule="evenodd"/></g></svg>
+            </span>
+            <span class="lang_ttrq" key="name_user">¡Hola,</span><span>&nbsp;<?php echo ucfirst($d[0][3]);?>!</span>
+            <input type="hidden" name="paisclient" id="paisclient" value="<?php echo $_SESSION['idcountries'] = $d[0]['pais']; ?>">
+            <input type="hidden" id="userid_cli" value="<?php echo $_SESSION['user']; ?>">
+          </a>
+          <?php
+            $links = [];
+            if(isset($_SESSION["user"])){
+              $links[0] = "./cart";
+              $links[1] = "./cart";
+            }else{
+              $links[0] = "./account";
+              $links[1] = "./account";
+            }
+          ?>
+          <div class="dropdown-menu cont-list-opts-profile" aria-labelledby="navbarDropdown">
             <?php
-              $links = [];
-              if(isset($_SESSION["user"])){
-                $links[0] = "./cart";
-                $links[1] = "./cart";
+              if(!isset($_SESSION["user"])){
+                echo "<a href='./account' class='btn_1' title=''>Inicia sesi&oacute;n o reg&iacute;strate</a>";
               }else{
-                $links[0] = "./account";
-                $links[1] = "./account";
-              }
-            ?>
-            <div class="dropdown-menu cont-list-opts-profile" aria-labelledby="navbarDropdown">
-              <?php
-                if(!isset($_SESSION["user"])){
-                  echo "<a href='./account' class='btn_1' title=''>Inicia sesi&oacute;n o reg&iacute;strate</a>";
+                if(!isset($tienda[1][0]["id_menbresia"])){
+                  echo "<a class='dropdown-item' href='home' title='Home'><i class='ti-home'></i><span>Ir a inicio</span></a>
+                        <a class='dropdown-item' href='cliente/menbresia' title='Mi perfil'><i class='ti-user'></i><span class='lang_ttrq' key='list_user-opt-h-1'>Administrar mi cuenta</span></a>
+                        <a class='dropdown-item' href='./track-order' title='Ratrea tu pedido'><i class='ti-truck'></i><span class='lang_ttrq' key='list_user-opt-h-2'>Rastrea tu pedido</span></a>
+                        <a class='dropdown-item' href='home#preguntas-frecuentes-ttrueque' title='Ayuda'><i class='ti-help-alt'></i><span class='lang_ttrq' key='list_user-opt-h-3'>Ayuda y preguntas frecuentes</span></a>
+                        <a class='dropdown-item' href='././php/process_account_logout.php' title='Salir'><i class='ti-power-off'></i><span  class='lang_ttrq' key='list_user-opt-h-4'>Cerrar sesi&oacute;n</span></a>";
                 }else{
-                  if(!isset($tienda[1][0]["id_menbresia"])){
-                    echo "<a class='dropdown-item' href='home' title='Home'><i class='ti-home'></i><span>Ir a inicio</span></a>
-                          <a class='dropdown-item' href='cliente/menbresia' title='Mi perfil'><i class='ti-user'></i><span class='lang_ttrq' key='list_user-opt-h-1'>Administrar mi cuenta</span></a>
-                          <a class='dropdown-item' href='./track-order' title='Ratrea tu pedido'><i class='ti-truck'></i><span class='lang_ttrq' key='list_user-opt-h-2'>Rastrea tu pedido</span></a>
-                          <a class='dropdown-item' href='home#preguntas-frecuentes-ttrueque' title='Ayuda'><i class='ti-help-alt'></i><span class='lang_ttrq' key='list_user-opt-h-3'>Ayuda y preguntas frecuentes</span></a>
-                          <a class='dropdown-item' href='././php/process_account_logout.php' title='Salir'><i class='ti-power-off'></i><span  class='lang_ttrq' key='list_user-opt-h-4'>Cerrar sesi&oacute;n</span></a>";
-                  }else{
-                    echo "<a class='dropdown-item' href='home' title='Home'><i class='ti-home'></i><span>Ir a inicio</span></a>
-                          <a class='dropdown-item' href='shop' title='Mi perfil'><i class='ti-user'></i><span class='lang_ttrq' key='list_user-opt-h-1'>Administrar mi cuenta</span></a>
-                          <a class='dropdown-item' href='./track-order
-                          ' title='Ratrea tu pedido'><i class='ti-truck'></i><span class='lang_ttrq' key='list_user-opt-h-2'>Rastrea tu pedido</span><span id='count-trackorder'>0</span></a>
-                          <a class='dropdown-item' href='home#preguntas-frecuentes-ttrueque' title='Ayuda'><i class='ti-help-alt'></i><span class='lang_ttrq' key='list_user-opt-h-3'>Ayuda y preguntas frecuentes</span></a>
-                          <a class='dropdown-item' href='././php/process_account_logout.php' title='Salir'><i class='ti-power-off'></i><span  class='lang_ttrq' key='list_user-opt-h-4'>Cerrar sesi&oacute;n</span></a>";
-                  }
+                  echo "<a class='dropdown-item' href='home' title='Home'><i class='ti-home'></i><span>Ir a inicio</span></a>
+                        <a class='dropdown-item' href='shop' title='Mi perfil'><i class='ti-user'></i><span class='lang_ttrq' key='list_user-opt-h-1'>Administrar mi cuenta</span></a>
+                        <a class='dropdown-item' href='./track-order
+                        ' title='Ratrea tu pedido'><i class='ti-truck'></i><span class='lang_ttrq' key='list_user-opt-h-2'>Rastrea tu pedido</span><span id='count-trackorder'>0</span></a>
+                        <a class='dropdown-item' href='home#preguntas-frecuentes-ttrueque' title='Ayuda'><i class='ti-help-alt'></i><span class='lang_ttrq' key='list_user-opt-h-3'>Ayuda y preguntas frecuentes</span></a>
+                        <a class='dropdown-item' href='././php/process_account_logout.php' title='Salir'><i class='ti-power-off'></i><span  class='lang_ttrq' key='list_user-opt-h-4'>Cerrar sesi&oacute;n</span></a>";
                 }
-                ?>
-            </div>
+              }
+              ?>
+          </div>
         </li>
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle con-t-categories-link" href="javascript:void(0);" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <span>Categorías</span>
-            </a>
-            <div class="dropdown-menu content-list-categories-naside" aria-labelledby="navbarDropdown">
-              <?php
-                foreach($categoria as $key => $val){
-                  $e = $val["nombre_categoria"];
-                  $url = str_replace(" ", "-", $e);
-                  echo "
-                    <a class='dropdown-item' href='tienda?tipos={$url}'>
-                      <span>{$val["nombre_categoria"]}</span>                      
-                    </a>";
-                }
-              ?>
-            </div>
+          <a class="nav-link dropdown-toggle con-t-categories-link" href="javascript:void(0);" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span>Categorías</span>
+          </a>
+          <div class="dropdown-menu content-list-categories-naside" aria-labelledby="navbarDropdown">
+            <?php
+              foreach($categoria as $key => $val){
+                $e = $val["nombre_categoria"];
+                $url = str_replace(" ", "-", $e);
+                echo "
+                  <a class='dropdown-item' href='tienda?tipos={$url}'>
+                    <span>{$val["nombre_categoria"]}</span>                      
+                  </a>";
+              }
+            ?>
+          </div>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle con-t-countries-link" href="javascript:void(0);" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -104,8 +103,8 @@
     <div class="cont-cartandcontact_Icons">
       <a href="javascript:void(0);" class="cart_icon_header_b-ttrq order-1" id="view_cart_ttrq">
         <span>
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35px" height="35px" version="1.1" viewBox="0 0 700 700"><g xmlns="http://www.w3.org/2000/svg"><path d="m213.62 530.83h272.88c17.734 0 34.883-7.4648 47.016-20.535 12.133-13.066 18.316-30.684 17.035-48.418l-19.602-264.83c-0.69922-9.1016-8.2852-16.215-17.5-16.215h-40.832v-29.164c0-67.551-54.949-122.5-122.5-122.5-67.551 0-122.62 54.949-122.62 122.5v29.168l-40.832-0.003907c-9.2148 0-16.801 7.1172-17.5 16.215l-19.602 264.83c-1.2852 17.734 4.8984 35.352 17.035 48.418 12.133 13.07 29.164 20.535 47.016 20.535zm48.883-379.16c0-48.301 39.199-87.5 87.5-87.5s87.5 39.199 87.5 87.5v29.168h-175z"/></g></svg>
-          </span>
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35px" height="35px" version="1.1" viewBox="0 0 700 700"><g xmlns="http://www.w3.org/2000/svg"><path d="m213.62 530.83h272.88c17.734 0 34.883-7.4648 47.016-20.535 12.133-13.066 18.316-30.684 17.035-48.418l-19.602-264.83c-0.69922-9.1016-8.2852-16.215-17.5-16.215h-40.832v-29.164c0-67.551-54.949-122.5-122.5-122.5-67.551 0-122.62 54.949-122.62 122.5v29.168l-40.832-0.003907c-9.2148 0-16.801 7.1172-17.5 16.215l-19.602 264.83c-1.2852 17.734 4.8984 35.352 17.035 48.418 12.133 13.07 29.164 20.535 47.016 20.535zm48.883-379.16c0-48.301 39.199-87.5 87.5-87.5s87.5 39.199 87.5 87.5v29.168h-175z"/></g></svg>
+        </span>
         <span id="count-product-cart"></span>
       </a>
       <a href="contacto" class="icon-callvisiblenoun" id="icon-callvisiblenoun">
