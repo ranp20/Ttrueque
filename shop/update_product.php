@@ -28,6 +28,9 @@ $categIdprod = $cat->get_cat_idtienda_update($_GET['id']);
     <title>Update Producto</title>
     <?php require_once 'includes/head.php'; ?>
     <script type="text/javascript" src="ckeditor/ckeditor.js"></script>
+    <!-- INCLUIR SWEET ALERT 2 -->
+  <link rel="stylesheet" href="../node_modules/sweetalert2/dist/sweetalert2.min.css">
+  <script type="text/javascript" src="../node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
 </head>
 
 <body>

@@ -25,6 +25,7 @@ $url =  $actual_link . "/" ."Ttrueque/";
 <link rel="icon" type="image/x-icon" href="./views/assets/img/favicon/favicon-camel.png"/>
 <link rel="apple-touch-icon" href="./views/assets/img/favicon/favicon-camel.png"/> -->
 <link rel="canonical" href="https://localhost/Ttrueque"/>
+<link rel="icon" href="<?= $url;?>img/icon-pages/drawable-xxxhdpi-icon.png" type="image/ico">
 <!-- PRELOADER FILES -->
 <link rel="preload" href="<?= $url;?>assets/css/styles.min.css" as="style"/>
 <link rel="preload" href="<?= $url;?>js/plugins/jquery/jquery-3.6.0.min.js" as="script"/>
@@ -35,20 +36,8 @@ $url =  $actual_link . "/" ."Ttrueque/";
 <script type="text/javascript" src="<?php echo $url; ?>js/plugins/bootstrap/js/bootstrap.min.js"></script>
 <!-- STYLESSHEET -->
 <link rel="stylesheet" href="<?= $url; ?>assets/css/styles.min.css"/>
-
-
 <!-- ADD CSS -->
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/add-to-product.css">
 <link rel="stylesheet" href="css/products_v.css">
 <link rel="stylesheet" href="css/add-store.css">
-<!-- ADD LINEICONS CDN-->
-<link rel="stylesheet" href="https://cdn.lineicons.com/2.0/LineIcons.css">
-<!-- ADD JQUERY COMPRESSED -->
-<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
-<!-- SWEEET ALERT 2-->
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-<!-----//ICON-PAGES------>
-<link rel="icon" href="<?php echo $url ?>img/icon-pages/drawable-xxxhdpi-icon.png" type="image/ico">

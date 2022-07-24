@@ -90,7 +90,7 @@ $rubros = $all->get_name_rubros();
 				</div>
 				<div class="c-sectMain__cAcco__cFrm__cChckCtrl">
 					<label class="c-sectMain__cAcco__cFrm__cChckCtrl__c">
-						<input type="checkbox" id="check-terms" class="c-sectMain__cAcco__cFrm__cChckCtrl__c__ipt" value="" required> Términos y Condiciones
+						<input type="checkbox" id="check-terms" class="c-sectMain__cAcco__cFrm__cChckCtrl__c__ipt" value="" required>Acepto los términos y condiciones
 						<span class="c-sectMain__cAcco__cFrm__cChckCtrl__c__chck"></span>
 					</label>
 				</div>

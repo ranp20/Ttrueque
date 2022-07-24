@@ -97,6 +97,15 @@
   height: 100%;
   position: relative;
 }
+#btn-tdc-toggle{
+  position: relative;
+  cursor: pointer;
+}
+#btn-tdc-toggle svg{
+  fill: #fff;
+  position: relative;
+  top: 4px;
+}
 .content-bottom {
   display: grid;
   grid-template-columns: 1fr;

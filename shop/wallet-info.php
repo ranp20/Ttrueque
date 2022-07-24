@@ -17,6 +17,9 @@ if (!isset($tienda[1][0]["id_menbresia"])) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mi Billetera</title>
   <?php require_once 'includes/head.php'; ?>
+  <!-- INCLUIR SWEET ALERT 2 -->
+  <link rel="stylesheet" href="../node_modules/sweetalert2/dist/sweetalert2.min.css">
+  <script type="text/javascript" src="../node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
 </head>
 <body>
   <div class="container-total active">
