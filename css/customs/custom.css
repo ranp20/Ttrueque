@@ -2,7 +2,6 @@
 /*     IMPORTS OF OTHERS .css    */
 /*********************************/
 @import url(detail-products.css);
-@import url(help-you.css);
 @import url(sidebar-left-products.css);
 @import url(sliders.css);
 @import url(home.css);
@@ -13,14 +12,9 @@
 @import url(recently_purchased.css);
 @import url(presentacion_b.css);
 @import url(presentacion_u.css);
-@import url(log-in.css);
-@import url(presentacion_texto_b.css);
-@import url(presentacion_textos_alls_b.css);
 @import url(banners_products_footer.css);
 @import url(footers.css);
 @import url(oficial-markets.css);
-@import url(history-shopping.css);
-@import url(weekly-deals.css);
 @import url(cart.css);
 @import url(header_b.css);
 @import url(product_detail.css);
@@ -28,14 +22,12 @@
 @import url(checkout.css);
 @import url(more_payments.css);
 @import url(categorias_store.css);
-@import url(products_into_cart.css);
 @import url(track-order.css);
 @import url(banner_publicity.css);
 @import url(products_store.css);
 @import url(products_search_categories.css);
 @import url(products_name_categories.css);
 @import url(temp_listcart.css);
-@import url(resize_pages_home.css);
 @import url(resize_pages_index.css);
 @import url(recover-password.css);
 @import url(list_AllProds_ByNameStore.css);
@@ -94,15 +86,6 @@
   --max-width-footer    : 1560px;
 }
 
-/************************** IMPORTAR LA FUENTE PARA LOS TEXTOS EN EL HOME - LUCIDA SANS **************************/
-@font-face{
-  font-family: fuente_txttrueque;
-  font-style: normal;
-  font-weight: normal;
-  font-display: swap;
-  src: url('../fonts/lucida-sans/LucidaSansRegular.ttf');
-}
-
 /*===============================================================
 =            OCULTAR EL SCROLLBAR DE LOS MODALES GUÍA            =
 ================================================================*/
@@ -124,54 +107,6 @@
 .contmodal-guide::-webkit-scrollbar-thumb:hover {background: #b3b3b3;box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);}
 .contmodal-guide::-webkit-scrollbar-track {background: #e1e1e1;}
 .contmodal-guide::-webkit-scrollbar-track:active, .contmodal-guide::-webkit-scrollbar-track:hover {background: #d4d4d4;}
-
-/************************** STYLES - BOTÓN DE IR HACIA ARRIBA **************************/
-
-/************************** LOADER PRINCIPAL - SITIO WEB **************************/
-.loader-ttrqstr{
-  position: fixed;
-  z-index: 999;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(255,255,255,255);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.loader-ttrqstr.hidden{
-  animation-name: fadeOutLoaderTtrq;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-}
-@keyframes fadeOutLoaderTtrq{
-  100%{
-    opacity: 0;
-    visibility: visible;
-    pointer-events: none;
-  }
-}
-.loader-ttrqstr--loader{
-  border: 4px solid rgba(0,0,0,.1);
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  border-left-color: var(--primary-clr);
-  animation-name: girar;
-  animation-duration: .35s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  z-index: 999999;
-}
-@keyframes girar {
-  0%{
-    transform: rotate(0deg);
-  }
-  100%{
-    transform: rotate(360deg);  
-  }
-}
 /*===========================================
 =            CONTENIDO DEL MODAL            =
 ===========================================*/
@@ -392,76 +327,6 @@
     font-size: 1.05rem;
   }
 }
-
-
-/**
- * Disable smooth scrolling when users have prefers-reduced-motion enabled
- */
-@media screen and (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: auto;
-  }
-}
-
-
-/*BODY - ALL PAGES*/
-body {
-  overflow-x: hidden;
-  scroll-behavior: smooth !important;
-}
-/* Tamaño del scroll */
-body::-webkit-scrollbar {
-  width: 8px;
-}
-/* Estilos barra (thumb) de scroll */
-body::-webkit-scrollbar-thumb {
-  background: #ccc;
-  border-radius: 4px;
-}
-body::-webkit-scrollbar-thumb:active {
-  background-color: #999999;
-}
-body::-webkit-scrollbar-thumb:hover {
-  background: #b3b3b3;
-  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
-}
-/* Estilos track de scroll */
-body::-webkit-scrollbar-track {
-  background: #e1e1e1;
-  border-radius: 4px;
-}
-body::-webkit-scrollbar-track:hover,
-body::-webkit-scrollbar-track:active {
-  background: #d4d4d4;
-}
-/* scrollling */
-body::-webkit-scrollbar {
-  width: 8px;
-}
-body::-webkit-scrollbar-thumb {
-  background: #cccc;
-  border-radius: 4px;
-}
-body::-webkit-scrollbar-thumb:active {
-  background: #999999;
-}
-body::-webkit-scrollbar-thumb:hover {
-  background: #b3b3b3;
-  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
-}
-body::-webkit-scrollbar-track {
-  background: #e1e1e1;
-}
-body::-webkit-scrollbar-track:active,
-body::-webkit-scrollbar-track:hover {
-  background: #d4d4d4;
-}
-/* RESETS BÁSICOS */
-img{
-  max-width: 100%;
-  height: auto;
-}
-
 /* CONTAINER CATEGORIES INTO SIDEBARLEFT BOOTSTRAP */
 #contain-index-nav-ttrk .container .mobileMenu.open .navbar-nav .dropdown-menu{    
   overflow-y: auto !important;

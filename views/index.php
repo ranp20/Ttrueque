@@ -16,7 +16,7 @@ $path_cli = "shop/folder/";
 $path_store = "shop/images/store/";
 $path_flag = "admin/images/banderas/";
 //PRODUCTOS DEL ADMIN...
-if (!isset($_SESSION['user'])) {
+if(!isset($_SESSION['user'])){
 	header("Location:home");
 }
 ?>

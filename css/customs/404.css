@@ -1,44 +1,23 @@
-.cont-404-error{max-width: 1200px;margin:auto;display: flex;align-items: center;justify-content: center;min-height: 100vh;}
-.cont-404-error .cont-info-404{display: flex;align-items: center;justify-content: center;text-align: center;margin: auto;padding: 0 2rem;}
-.cont-404-error .cont-info-404 .cont-txt-info-404{text-align: left;}
-.cont-404-error .cont-info-404 .cont-txt-info-404 h1{font-size: 3.8rem;color: #1A7DDD;}
-.cont-404-error .cont-info-404 .cont-txt-info-404 h3{color: #1E90FF;}
-.cont-404-error .cont-info-404 .cont-txt-info-404 p{margin: 0 0 2.2rem 0;font-size: 1.1rem;}
-.cont-404-error .cont-info-404 .cont-txt-info-404 .cont-btn-before{display: flex;align-items: center;justify-content: center;text-align: center;}
-.cont-404-error .cont-info-404 .cont-txt-info-404 .cont-btn-before a{text-decoration: none;background: #1E90FF;color: #fff;font-weight: bold;padding: .5rem 3rem;border-radius: 1.5rem;}
-.cont-404-error .cont-info-404 .cont-txt-info-404 .cont-btn-before a:hover{background:#1A7DDD; }
-.cont-404-error .cont-info-404 .cont-img-info-404{margin-right: 2.5rem;}
-.cont-404-error .cont-info-404 .cont-img-info-404 img{min-width: 530px;height: 380px;}
-/* MEDIA QUERIES */
-@media (max-width: 1200px){	
-	.cont-404-error{width: 95%}
-	.cont-404-error .cont-info-404 .cont-img-info-404 img{width: 500px;height: 240px;}
-	.cont-404-error .cont-info-404{padding: 0;}	
+.err-c_404{max-width: 1200px;margin:auto;display: flex;align-items: center;justify-content: center;min-height: 100vh;width: 95%}
+.err-c_404 .cont-info-404{display: flex;align-items: center;justify-content: center;text-align: center;margin: auto;padding: 0;flex-flow: column wrap;}
+.err-c_404 .cont-info-404 .cont-img-info-404{text-align: center;margin: 0 0 1rem 0;margin-right: 2.5rem;}
+.err-c_404 .cont-info-404 .cont-img-info-404 img{width: 500px;height: 240px;}
+.err-c_404 .cont-info-404 .cont-txt-info-404 h1{font-size: 2.5rem;color: #1A7DDD;}
+.err-c_404 .cont-info-404 .cont-txt-info-404 h3{font-size: 1.16rem;color: #1E90FF;}
+.err-c_404 .cont-info-404 .cont-txt-info-404 p{font-size: 0.9rem;margin: 0 0 2.2rem 0;}
+.err-c_404 .cont-info-404 .cont-txt-info-404 .cont-btn-before{display: flex;align-items: center;justify-content: center;text-align: center;}
+.err-c_404 .cont-info-404 .cont-txt-info-404 .cont-btn-before a{font-size: 0.9rem;text-decoration: none;background: #1E90FF;color: #fff;font-weight: bold;padding: .5rem 3rem;border-radius: 1.5rem;}
+.err-c_404 .cont-info-404 .cont-txt-info-404 .cont-btn-before a:hover{background:#1A7DDD; }
+@media (min-width: 768px){
+	.err-c_404 .cont-info-404{padding: 0 2rem;}
+	.err-c_404 .cont-info-404 .cont-img-info-404 img{min-width: 530px;height: 380px;}
 }
-@media (max-width: 1024px){
-	.cont-404-error .cont-info-404{flex-direction: column;}
-  .cont-404-error .cont-info-404 .cont-img-info-404{margin: 0 0 2.5rem 0;}
-	.cont-404-error .cont-info-404 .cont-txt-info-404{text-align: center;width: 87%;margin: auto;}
-}
-@media (max-width: 800px){
-	.cont-404-error .cont-info-404 .cont-img-info-404 img{width: 380px;height: 180px;}
-	.cont-404-error .cont-info-404 .cont-txt-info-404 h1{font-size: 2.8rem;}
-	.cont-404-error .cont-info-404 .cont-txt-info-404 h3{font-size: 1.3rem;}
-	.cont-404-error .cont-info-404 .cont-txt-info-404 p{font-size: 1rem;}
-}
-@media (max-width: 768px){
-.cont-404-error .cont-info-404 .cont-img-info-404 img{min-width: 40%;height: 180px;}
-}
-@media (max-width: 425px){
-	.cont-404-error .cont-info-404 .cont-txt-info-404{width: 90%;}
-}
-@media (max-width: 375px){
-	.cont-404-error .cont-info-404 .cont-img-info-404{margin: 0 0 1rem 0;}
-	.cont-404-error .cont-info-404 .cont-txt-info-404 h1{font-size: 2.5rem;}
-	.cont-404-error .cont-info-404 .cont-txt-info-404 h3{font-size: 1.16rem;}
-	.cont-404-error .cont-info-404 .cont-txt-info-404 p{font-size: 0.9rem;}
-	.cont-404-error .cont-info-404 .cont-txt-info-404 .cont-btn-before a{font-size: 0.9rem;}
-}
-@media (max-width: 320px){
-	
+@media (min-width: 1024px){
+	.err-c_404 .cont-info-404{flex-flow: row nowrap;}
+	.err-c_404 .cont-info-404 .cont-txt-info-404{text-align: left;}
+	.err-c_404 .cont-info-404 .cont-txt-info-404 h1{font-size: 4rem;font-weight: 800;}
+	.err-c_404 .cont-info-404 .cont-txt-info-404 h3{font-size: 1.4rem;}
+	.err-c_404 .cont-info-404 .cont-txt-info-404 p{font-size: 1rem;}
+	.err-c_404 .cont-info-404 .cont-txt-info-404 .cont-btn-before{justify-content: flex-start;}
+	.err-c_404 .cont-info-404 .cont-txt-info-404 .cont-btn-before a{font-size: 1rem;}
 }

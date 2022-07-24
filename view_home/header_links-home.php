@@ -25,10 +25,6 @@
 <link rel="icon" type="image/x-icon" href="./views/assets/img/favicon/favicon-camel.png"/>
 <link rel="apple-touch-icon" href="./views/assets/img/favicon/favicon-camel.png"/> -->
 <link rel="canonical" href="https://localhost/Ttrueque"/>
-<!-- CUSTOMS CSS -->
-<link href="./css/style.css" rel="stylesheet">
-<link href="./css/estilos.css" rel="stylesheet">
-<link href="./css/customs/custom.css" rel="stylesheet">
 <link rel="icon" href="./img/icon-pages/drawable-xxxhdpi-icon.png" type="image/ico">
 <!-- PRELOADER FILES -->
 <link rel="preload" href="<?= $url;?>assets/css/styles.min.css" as="style"/>

@@ -32,6 +32,57 @@ img{
 	width: auto;
 	height: auto;
 }
+body{
+	overflow-x: hidden;
+  scroll-behavior: smooth;
+  /* Tamaño del scroll */
+	&::-webkit-scrollbar{
+	  width: 8px;
+	}
+	/* Estilos barra (thumb) de scroll */
+	&::-webkit-scrollbar-thumb{
+	  background: #ccc;
+	  border-radius: 4px;
+	}
+	&::-webkit-scrollbar-thumb:active{
+	  background-color: #999999;
+	}
+	&::-webkit-scrollbar-thumb:hover{
+	  background: #b3b3b3;
+	  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+	}
+	/* Estilos track de scroll */
+	&::-webkit-scrollbar-track{
+	  background: #e1e1e1;
+	  border-radius: 4px;
+	}
+	&::-webkit-scrollbar-track:hover,
+	&::-webkit-scrollbar-track:active{
+	  background: #d4d4d4;
+	}
+	/* scrollling */
+	&::-webkit-scrollbar{
+	  width: 8px;
+	}
+	&::-webkit-scrollbar-thumb{
+	  background: #cccc;
+	  border-radius: 4px;
+	}
+	&::-webkit-scrollbar-thumb:active{
+	  background: #999999;
+	}
+	&::-webkit-scrollbar-thumb:hover{
+	  background: #b3b3b3;
+	  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+	}
+	&::-webkit-scrollbar-track{
+	  background: #e1e1e1;
+	}
+	&::-webkit-scrollbar-track:active,
+	&::-webkit-scrollbar-track:hover{
+	  background: #d4d4d4;
+	}
+}
 /* CLASS UTILITIES */
 .box{
 	@include max-width($max-width);
@@ -490,4 +541,55 @@ $min-height-header_pagesinfo : 70px;
 		  top: 4px;
 	  }
 	}
+}
+/* LOADER PRINCIPAL */
+.loader-ttrqstr{
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255,255,255,255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+	&.hidden{
+	  animation-name: fadeOutLoaderTtrq;
+	  animation-duration: 1s;
+	  animation-fill-mode: forwards;
+	}
+	&--loader{
+	  border: 4px solid rgba(0,0,0,.1);
+	  width: 50px;
+	  height: 50px;
+	  border-radius: 50%;
+	  border-left-color: var(--primary-clr);
+	  animation-name: girar;
+	  animation-duration: .35s;
+	  animation-timing-function: linear;
+	  animation-iteration-count: infinite;
+	  z-index: 999999;
+	}
+}
+@keyframes fadeOutLoaderTtrq{
+  100%{
+    opacity: 0;
+    visibility: visible;
+    pointer-events: none;
+  }
+}
+@keyframes girar {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);  
+  }
+}
+/* Deshabilite el desplazamiento suave cuando los usuarios tengan habilitado el movimiento reducido preferido */
+@media screen and (prefers-reduced-motion: reduce) {
+  html{
+    scroll-behavior: auto;
+  }
 }
