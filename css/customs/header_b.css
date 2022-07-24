@@ -311,8 +311,9 @@ li .language_icon_header_b-ttrq .icon-language_ttrq ul li button div {  backgrou
 .cart_icon_header_b-ttrq:hover{color: #fff !important;text-decoration: none;}
 .cart_icon_header_b-ttrq:active{color: #fff !important;}
 .cart_icon_header_b-ttrq:hover:before{color: #fff !important;}
-.cart_icon_header_b-ttrq:before {font-family: "header_icons";font-size: 26px;font-size: 1.625rem;font-weight: 500 !important;content: "\0042";color: #fff;}
-.cart_icon_header_b-ttrq > span{left: 1rem;position: absolute;background: red;border-radius: 50%;padding: 0 .4rem;font-size: .74rem;display: flex;align-items: center;justify-content: center;text-align: center;bottom: 0;box-shadow: 0 0 0 1px #fff;}
+.cart_icon_header_b-ttrq > span:first-child{position: relative;top: 2px;}
+.cart_icon_header_b-ttrq > span:first-child svg{fill: #fff;}
+.cart_icon_header_b-ttrq > span:nth-child(2){left: 1rem;position: absolute;background: red;border-radius: 50%;padding: 0 .4rem;font-size: .74rem;display: flex;align-items: center;justify-content: center;text-align: center;bottom: 0;box-shadow: 0 0 0 1px #fff;}
 /* LISTA DE CATEGORÍAS */
 .con-t-categories-link{display: flex !important;align-items: center !important;padding-top: 0.7rem !important;}
 .con-t-categories-link > span{margin-left: .5rem;}
