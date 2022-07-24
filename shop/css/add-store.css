@@ -118,7 +118,6 @@
   border-radius: 5px;
   color: #fff;
   box-shadow: 0 0 10px 2px rgb(0 0 0 / 30%);
-  text-shadow: 1px 1px grey;
   outline: none;
   background: var(--boton-saldo);
 }

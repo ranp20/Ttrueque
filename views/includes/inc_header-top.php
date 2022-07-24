@@ -103,6 +103,9 @@
     </div>
     <div class="cont-cartandcontact_Icons">
       <a href="javascript:void(0);" class="cart_icon_header_b-ttrq order-1" id="view_cart_ttrq">
+        <span>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35px" height="35px" version="1.1" viewBox="0 0 700 700"><g xmlns="http://www.w3.org/2000/svg"><path d="m213.62 530.83h272.88c17.734 0 34.883-7.4648 47.016-20.535 12.133-13.066 18.316-30.684 17.035-48.418l-19.602-264.83c-0.69922-9.1016-8.2852-16.215-17.5-16.215h-40.832v-29.164c0-67.551-54.949-122.5-122.5-122.5-67.551 0-122.62 54.949-122.62 122.5v29.168l-40.832-0.003907c-9.2148 0-16.801 7.1172-17.5 16.215l-19.602 264.83c-1.2852 17.734 4.8984 35.352 17.035 48.418 12.133 13.07 29.164 20.535 47.016 20.535zm48.883-379.16c0-48.301 39.199-87.5 87.5-87.5s87.5 39.199 87.5 87.5v29.168h-175z"/></g></svg>
+          </span>
         <span id="count-product-cart"></span>
       </a>
       <a href="contacto" class="icon-callvisiblenoun" id="icon-callvisiblenoun">

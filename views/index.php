@@ -35,186 +35,152 @@ if(!isset($_SESSION['user'])){
 <body>
   <div class="contModalGuidettrk"></div>
   <?php  require_once 'includes/inc_api-whatsapp.php';?>
-  <div id="page">
-    <?php require_once '../php/process_header.php';?>
-    <div class="loader-ttrqstr">
-      <span class="loader-ttrqstr--loader"></span>
-    </div>
-    <?php require_once 'includes/inc_header-top-index.php';?>
-    <div class="overlay"></div>
-    <div class="containt_total_ttrq-cart">
-      <div class="container_cart_lis-ttrq">
-        <div class="content-list_cart_hb_ttrq">
-          <div class="contain-title-cart-sdleft_ttrq">
-            <h4 class='lang_ttrq' key='title-cart-delay_ttrq'>Listado de Compras<i class="fas fa-cart-arrow-down"></i></h4>
-            <a href="javascript:void(0);" id="cerrar_carrito"> X </a>
+  <?php require_once '../php/process_header.php';?>
+  <div class="loader-ttrqstr">
+    <span class="loader-ttrqstr--loader"></span>
+  </div>
+  <?php require_once 'includes/inc_header-top-index.php';?>
+  <div class="overlay"></div>
+  <div class="containt_total_ttrq-cart">
+    <div class="container_cart_lis-ttrq">
+      <div class="content-list_cart_hb_ttrq">
+        <div class="contain-title-cart-sdleft_ttrq">
+          <h4 class='lang_ttrq' key='title-cart-delay_ttrq'>Listado de Compras<i class="fas fa-cart-arrow-down"></i></h4>
+          <a href="javascript:void(0);" id="cerrar_carrito"> X </a>
+        </div>
+        <div class="contain-cart-info_header-ttrq">
+          <div id="list-products-sdleft" class="lista-prods-sdleft_header_ttrq">
+            <ul id="cart-buy-list"></ul>
           </div>
-          <div class="contain-cart-info_header-ttrq">
-            <div id="list-products-sdleft" class="lista-prods-sdleft_header_ttrq">
-              <ul id="cart-buy-list"></ul>
-            </div>
-            <div id="total-points" class="cont-btn-check_ttrq"></div>
-          </div>
-          <div class="contain-btn-go-to-cart_ttrq">
-            <a href="./cart" id="addtempcart">
-              <img src="./img/iconos_home/index-sidebar-car-car.svg" alt="">
-              <span class='lang_ttrq' key='btn-go-cart-delay_ttrq'>Ir al Carrito</span>
-            </a>
-          </div>
+          <div id="total-points" class="cont-btn-check_ttrq"></div>
+        </div>
+        <div class="contain-btn-go-to-cart_ttrq">
+          <a href="./cart" id="addtempcart">
+            <img src="./img/iconos_home/index-sidebar-car-car.svg" alt="">
+            <span class='lang_ttrq' key='btn-go-cart-delay_ttrq'>Ir al Carrito</span>
+          </a>
         </div>
       </div>
     </div>
-    <?php
-  	  $p = new Product();
-  	  $top_sells = $p->top_sell($d[0]['pais']);
-    ?>
-    <div id="datos_search"></div>
-    <!-- MAIN -->
-    <main class="mrg-htop" id="contenedor-principal-home_2">
-      <div id="carousel-home" style="height: 338px">
-        <div class="owl-carousel owl-theme cont-links-products-banners">
-            <!--/owl-slide-->
-            <div class="owl-slide cover"
-                style="height: 338px;background-image: url(<?php echo $path . $banners[0]["link_banner"];?>);">
-                <div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.4)">
-                    <div class="container contain-total-slider-banners">
-                        <div class="row justify-content-center justify-content-md-start">
-                            <div class="col-lg-6 static">
-                                <div class="slide-text white content-info-banner-top">
-                                    <h2>
-                                        <?php echo $banners[0]["titulo_banner"];?></h2>
-                                    <p>
-                                        <?php echo $banners[0]["descripcion_banner"];?></p>
-                                    <div>
-                                        <a class="butt_home lang_ttrq" key="btn-banners-h_ttrq"
-                                            href="#content-index-ttrq" role="button">Comprar ahora</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+  </div>
+  <?php
+	  $p = new Product();
+	  $top_sells = $p->top_sell($d[0]['pais']);
+  ?>
+  <div id="datos_search"></div>
+  <main class="mrg-htop" id="contenedor-principal-home_2">
+    <div id="carousel-home" style="height: 338px">
+      <div class="owl-carousel owl-theme cont-links-products-banners">
+        <div class="owl-slide cover" style="height: 338px;background-image: url(<?php echo $path . $banners[0]["link_banner"];?>);">
+          <div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.4)">
+            <div class="container contain-total-slider-banners">
+              <div class="row justify-content-center justify-content-md-start">
+                <div class="col-lg-6 static">
+                  <div class="slide-text white content-info-banner-top">
+                    <h2><?php echo $banners[0]["titulo_banner"];?></h2>
+                    <p><?php echo $banners[0]["descripcion_banner"];?></p>
+                    <div>
+                      <a class="butt_home lang_ttrq" key="btn-banners-h_ttrq" href="#content-index-ttrq" role="button">Comprar ahora</a>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
-            <!--/owl-slide-->
-            <div class="owl-slide cover"
-                style="height: 338px;background-image: url(<?php echo $path . $banners[1]["link_banner"];?>);">
-                <div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.4)">
-                    <div class="container contain-total-slider-banners">
-                        <div class="row justify-content-center justify-content-md-end">
-                            <div class="col-lg-6 static">
-                                <div class="slide-text text-right white content-info-banner-top">
-                                    <h2>
-                                        <?php echo $banners[1]["titulo_banner"];?></h2>
-                                    <p>
-                                        <?php echo $banners[1]["descripcion_banner"];?></p>
-                                    <div>
-                                        <a class="butt_home lang_ttrq" key="btn-banners-h_ttrq"
-                                            href="#content-index-ttrq" role="button">Comprar ahora</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--/owl-slide-->
-            <div class="owl-slide cover"
-                style="height: 338px;background-image: url(<?php echo $path . $banners[2]["link_banner"];?>);">
-                <div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.4)">
-                    <div class="container contain-total-slider-banners">
-                        <div class="row justify-content-center justify-content-md-start">
-                            <div class="col-lg-12 static">
-                                <div class="slide-text text-center white content-info-banner-top">
-                                    <h2>
-                                        <?php echo $banners[2]["titulo_banner"];?></h2>
-                                    <p>
-                                        <?php echo $banners[2]["descripcion_banner"];?></p>
-                                    <div>
-                                        <a class="butt_home lang_ttrq" key="btn-banners-h_ttrq"
-                                            href="#content-index-ttrq" role="button">Comprar ahora</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--/owl-slide-->
-            <div class="owl-slide cover"
-                style="height: 338px;background-image: url(<?php echo $path . $banners[3]["link_banner"];?>);">
-                <div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.4)">
-                    <div class="container contain-total-slider-banners">
-                        <div class="row justify-content-center justify-content-md-start">
-                            <div class="col-lg-12 static">
-                                <div class="slide-text text-center white content-info-banner-top">
-                                    <h2>
-                                        <?php echo $banners[3]["titulo_banner"];?></h2>
-                                    <p>
-                                        <?php echo $banners[3]["descripcion_banner"];?></p>
-                                    <div>
-                                        <a class="butt_home lang_ttrq" key="btn-banners-h_ttrq"
-                                            href="#content-index-ttrq" role="button">Comprar ahora</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--/owl-slide-->
-            <div class="owl-slide cover"
-                style="height: 338px;background-image: url(<?php echo $path . $banners[4]["link_banner"];?>);">
-                <div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.4)">
-                    <div class="container contain-total-slider-banners">
-                        <div class="row justify-content-center justify-content-md-start">
-                            <div class="col-lg-6 static">
-                                <div class="slide-text white content-info-banner-top">
-                                    <h2>
-                                        <?php echo $banners[4]["titulo_banner"];?></h2>
-                                    <p>
-                                        <?php echo $banners[4]["descripcion_banner"];?></p>
-                                    <div>
-                                        <a class="butt_home lang_ttrq" key="btn-banners-h_ttrq"
-                                            href="#content-index-ttrq" role="button">Comprar ahora</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--/owl-slide-->
-            <div class="owl-slide cover"
-                style="height: 338px;background-image: url(<?php echo $path . $banners[5]["link_banner"];?>);">
-                <div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.4)">
-                    <div class="container contain-total-slider-banners">
-                        <div class="row justify-content-center justify-content-md-start">
-                            <div class="col-lg-12 static">
-                                <div class="slide-text text-center white content-info-banner-top">
-                                    <h2>
-                                        <?php echo $banners[5]["titulo_banner"];?></h2>
-                                    <p>
-                                        <?php echo $banners[5]["descripcion_banner"];?></p>
-                                    <div>
-                                        <a class="butt_home lang_ttrq" key="btn-banners-h_ttrq"
-                                            href="#content-index-ttrq" role="button">Comprar ahora</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--/owl-slide-->
+          </div>
         </div>
-        <div id="icon_drag_mobile"></div>
+        <div class="owl-slide cover" style="height: 338px;background-image: url(<?php echo $path . $banners[1]["link_banner"];?>);">
+          <div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.4)">
+            <div class="container contain-total-slider-banners">
+              <div class="row justify-content-center justify-content-md-end">
+                <div class="col-lg-6 static">
+                  <div class="slide-text text-right white content-info-banner-top">
+                    <h2><?php echo $banners[1]["titulo_banner"];?></h2>
+                    <p><?php echo $banners[1]["descripcion_banner"];?></p>
+                    <div>
+                      <a class="butt_home lang_ttrq" key="btn-banners-h_ttrq" href="#content-index-ttrq" role="button">Comprar ahora</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="owl-slide cover" style="height: 338px;background-image: url(<?php echo $path . $banners[2]["link_banner"];?>);">
+          <div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.4)">
+            <div class="container contain-total-slider-banners">
+              <div class="row justify-content-center justify-content-md-start">
+                <div class="col-lg-12 static">
+                  <div class="slide-text text-center white content-info-banner-top">
+                    <h2><?php echo $banners[2]["titulo_banner"];?></h2>
+                    <p><?php echo $banners[2]["descripcion_banner"];?></p>
+                    <div>
+                      <a class="butt_home lang_ttrq" key="btn-banners-h_ttrq" href="#content-index-ttrq" role="button">Comprar ahora</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="owl-slide cover" style="height: 338px;background-image: url(<?php echo $path . $banners[3]["link_banner"];?>);">
+          <div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.4)">
+            <div class="container contain-total-slider-banners">
+              <div class="row justify-content-center justify-content-md-start">
+                <div class="col-lg-12 static">
+                  <div class="slide-text text-center white content-info-banner-top">
+                    <h2><?php echo $banners[3]["titulo_banner"];?></h2>
+                    <p><?php echo $banners[3]["descripcion_banner"];?></p>
+                    <div>
+                      <a class="butt_home lang_ttrq" key="btn-banners-h_ttrq" href="#content-index-ttrq" role="button">Comprar ahora</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="owl-slide cover" style="height: 338px;background-image: url(<?php echo $path . $banners[4]["link_banner"];?>);">
+          <div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.4)">
+            <div class="container contain-total-slider-banners">
+              <div class="row justify-content-center justify-content-md-start">
+                <div class="col-lg-6 static">
+                  <div class="slide-text white content-info-banner-top">
+                    <h2><?php echo $banners[4]["titulo_banner"];?></h2>
+                    <p><?php echo $banners[4]["descripcion_banner"];?></p>
+                    <div>
+                      <a class="butt_home lang_ttrq" key="btn-banners-h_ttrq" href="#content-index-ttrq" role="button">Comprar ahora</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="owl-slide cover" style="height: 338px;background-image: url(<?php echo $path . $banners[5]["link_banner"];?>);">
+          <div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.4)">
+            <div class="container contain-total-slider-banners">
+              <div class="row justify-content-center justify-content-md-start">
+                <div class="col-lg-12 static">
+                  <div class="slide-text text-center white content-info-banner-top">
+                    <h2><?php echo $banners[5]["titulo_banner"];?></h2>
+                    <p><?php echo $banners[5]["descripcion_banner"];?></p>
+                    <div>
+                      <a class="butt_home lang_ttrq" key="btn-banners-h_ttrq" href="#content-index-ttrq" role="button">Comprar ahora</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <?php require_once './best_seller.php';?>
-      <?php require_once './banner_publicity.php';?>
-      <?php require_once './official_markets.php';?>
-    </main>
-    <?php require_once './footer.php';?>
+      <div id="icon_drag_mobile"></div>
     </div>
+    <?php require_once './best_seller.php';?>
+    <?php require_once './banner_publicity.php';?>
+    <?php require_once './official_markets.php';?>
+  </main>
+  <?php require_once './footer.php';?>
   <div  id="toTopgobtn"></div>
   <script type="text/javascript" src="js/main.js"></script>
   <script type="text/javascript" src="js/actions_pages/all_pages_index.js"></script>

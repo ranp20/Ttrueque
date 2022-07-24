@@ -142,7 +142,7 @@
   position: fixed !important;
   z-index: 999 !important;
   background-color: rgba(0,0,0,.6) !important;
-  top: 55px !important;
+  top: 60px !important;
   left: 0 !important;
   bottom: 0 !important;
   right: 0 !important;
@@ -208,9 +208,12 @@
   margin-bottom: 1rem;
 }
 .contmodal-guide__content--tablinks__link{
-  display: table;
-  width: 20px;
-  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 35px;
+  width: 35px;
+  height: 35px;
   cursor: pointer;
   position: relative;
 }
@@ -229,9 +232,10 @@
 }
 .contmodal-guide__content--tablinks__link span{
   background-color: #ddd;
-  padding: 0.5rem .8rem;
-  width: 20px;
-  height: 20px;
+  padding: 0;
+  min-width: 35px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
   text-decoration: none;
   color: #fff;
@@ -311,11 +315,6 @@
   }
   .contmodal-guide__content--tabcontent__cont p{
     font-size: 1rem;
-  }
-}
-@media (min-width: 992px){
-  .contmodal-guide{
-    top: 53px !important;
   }
 }
 @media (min-width: 1200px){
