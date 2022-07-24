@@ -129,7 +129,7 @@ session_start();
 	</div>
 	<!-- page -->
 	<!-- Back to top button -->
-	<div id="toTop"></div>
+	<div  id="toTopgobtn"></div>
 	<!-- COMMON SCRIPTS -->
 	  
 	<script type="text/javascript" src="js/main.js"></script>

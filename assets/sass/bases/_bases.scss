@@ -413,18 +413,18 @@ $min-height-header_pagesinfo : 70px;
 }
 .wtps_btn{
 	position:fixed;
-	bottom: 80px;
+	bottom: 140px;
 	right: 25px;
 	text-align:center;
   font-size:30px;
   z-index:100;
   @media (min-width: 1024px){
-  	bottom: 40px;
+  	bottom: 90px;
   	.wtps_btn__c__contText{
+			transform: translateX(100%);
   		animation-name: slideLeft;
   		animation-duration: .3s;
   		animation-timing-function: ease-in-out;
-			transform: translateX(100%);
   	}
 	  &:hover{
   		.wtps_btn__c__contText{

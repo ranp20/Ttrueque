@@ -664,7 +664,7 @@ $max-height-banner-desktop: 665px;
 					    }
 			    	}
 			    	a{
-			    		text-decoration: underline;
+			    		text-decoration: underline !important;
 			    	}
 			    	&__cImgB{
 		    			text-align: center;
@@ -746,7 +746,7 @@ $max-height-banner-desktop: 665px;
   													font-weight: bold;
 											  	}
 											  	a{
-											  		text-decoration: underline;
+											  		text-decoration: underline !important;
 											  	}
 											  	strong{
 											  		font-weight: bold;
@@ -781,7 +781,7 @@ $max-height-banner-desktop: 665px;
 				    			&__cDesc{
 				    				p{
 				    					a{
-				    						text-decoration: underline;
+				    						text-decoration: underline !important;
 				    					}
 				    				}
 				    				ul{
@@ -1517,7 +1517,7 @@ $max-height-banner-desktop: 665px;
 	    	user-select: auto;
 	    	margin-top: 0.65rem;
 		    &:active{
-		    	text-decoration: underline;
+		    	text-decoration: underline !important;
 		    }
 		    &:hover{
 		    	background-color: $theme-clr-btns-hover;

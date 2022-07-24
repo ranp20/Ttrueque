@@ -121,7 +121,7 @@ $data = $p->get_data();
 	<!-- page -->
 
 	<!--=== /Back to top button ===-->
-	<div id="toTop"></div>
+	<div  id="toTopgobtn"></div>
 
 	<!-- JQuery -->
 	

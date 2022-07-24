@@ -1,4 +1,7 @@
 $min-height-header_main : 60px;
+.mrg-htop{
+	margin-top: $min-height-header_main;
+}
 /* PAGES INTO VIEWS - NAVIGATION */
 .nav-main__index{
 	background: $theme-clr-primary;

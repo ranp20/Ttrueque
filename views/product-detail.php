@@ -25,19 +25,15 @@ if(!isset($_GET['id']) || !is_numeric($_GET['id']) || $_GET['id'] == ""){
 </head>
 <body>
   <?php  require_once 'includes/inc_api-whatsapp.php';?>
-  <div id="page">
-  <?php 
-  require_once '../php/process_header.php';
-	require_once 'includes/inc_header-top.php';
-	?>
-    <div class="loader-ttrqstr">
-      <span class="loader-ttrqstr--loader"></span>
-    </div>
-    <input type="hidden" id="tiendaid_cli" value="<?php echo $d[0]['tienda'];?>">
-    <input type="hidden" id="idproductdet" name="idproductdet" value="<?php echo $_GET['id'];?>">
-    <div class="container-detalle-producto" id="detailprod_ttrq"></div>
-    <?php require_once 'footer.php';?>
+  <?php require_once '../php/process_header.php';?>
+  <?php require_once 'includes/inc_header-top.php';?>
+  <div class="loader-ttrqstr">
+    <span class="loader-ttrqstr--loader"></span>
   </div>
+  <input type="hidden" id="tiendaid_cli" value="<?php echo $d[0]['tienda'];?>">
+  <input type="hidden" id="idproductdet" name="idproductdet" value="<?php echo $_GET['id'];?>">
+  <div class="container-detalle-producto" id="detailprod_ttrq"></div>
+  <?php require_once 'footer.php';?>
   <div id="toTopgobtn"></div>
   <script type="text/javascript" src="./js/main.js"></script>
   <script type="text/javascript" src="./js/actions_pages/buy_cart.js"></script>

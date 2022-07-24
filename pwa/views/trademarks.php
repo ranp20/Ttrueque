@@ -25,7 +25,7 @@ $dat = $c->select_tienda();
 	<?php require_once("./footer.php") ?>
 	</div>
 	<!-- page -->
-	<div id="toTop"></div>
+	<div  id="toTopgobtn"></div>
 	<!-- Back to top button -->
 	<!-- COMMON SCRIPTS -->
 	  

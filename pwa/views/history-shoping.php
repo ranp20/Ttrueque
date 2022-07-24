@@ -27,7 +27,7 @@ session_start();
         <?php require_once 'footer-policy.php'; ?>
     </div>
     <!-- /PAGE-->
-    <div id="toTop"></div>
+    <div  id="toTopgobtn"></div>
     <!-- Back to top button -->
     <!-- COMMON SCRIPTS -->
      

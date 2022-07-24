@@ -100,7 +100,7 @@ $country_byid = $c->get_countries_by_idcountry($cli_id[0]['pais']);
         <!--/footer-->
     </div>
     <!-- page -->
-    <div id="toTop"></div>
+    <div  id="toTopgobtn"></div>
     <!-- Back to top button -->
     <!-- COMMON SCRIPTS -->
     

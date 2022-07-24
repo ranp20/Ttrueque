@@ -70,7 +70,7 @@ if (!isset($_SESSION['user'])) {
     ?>
     <div id="datos_search"></div>
     <!-- MAIN -->
-    <main id="contenedor-principal-home_2">
+    <main class="mrg-htop" id="contenedor-principal-home_2">
       <div id="carousel-home" style="height: 338px">
         <div class="owl-carousel owl-theme cont-links-products-banners">
             <!--/owl-slide-->
@@ -215,7 +215,7 @@ if (!isset($_SESSION['user'])) {
     </main>
     <?php require_once './footer.php';?>
     </div>
-  <div id="toTop"></div>
+  <div  id="toTopgobtn"></div>
   <script type="text/javascript" src="js/main.js"></script>
   <script type="text/javascript" src="js/actions_pages/all_pages_index.js"></script>
   <script type="text/javascript" src="js/actions_pages/index.js"></script>

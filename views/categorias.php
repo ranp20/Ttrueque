@@ -165,6 +165,6 @@ $all_stores = $stores->select_tienda();
     ?>
   </div>
   <?php require_once './footer.php';?>
-<div id="toTop"></div>
+<div  id="toTopgobtn"></div>
 </body>
 </html>

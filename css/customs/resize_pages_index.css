@@ -211,7 +211,6 @@
   .list-stores-officials-ttrk-c > .items-str-off-ttrk > .item-str-off-into > .item-cont-str-off > .cont-info-offi-mrkt-b-ttrk > p:first-child{font-size: 1.05rem;}
   #contain-index-nav-ttrk .container .cont-logo-ttrq-nav img{width: 115px;}
   #contain-index-nav-ttrk .container .mobileMenu.open{padding: 0 0 0 0 !important;top: 7px !important;width: 100% !important;}
-  #contenedor-principal-home_2{margin-top: 3.45rem;}
   .content-more-sells{width: 90%;}
   ul.footer-selector li:last-child img{width: 100px;}
   .container-list-opts-footer_ttrq > div div .list-items-footer-opts li{font-size: 0.75rem;color: #fff;opacity: 1 !important;}
@@ -343,7 +342,6 @@
   #cart-buy-list li .content-info-p-prods{grid-template-columns: 17% 81%;}
   /* SIDEBARLEFT PARA LOS PRODUCTOS EN EL CARRITO */
   .container_cart_lis-ttrq{width: 55% !important;}
-  #contenedor-principal-home_2{margin-top: 3.4rem;}
 }
 /* TAMAÑO - CUSTOM SLIDER PRODUCTS */
 @media (min-width: 1024px){

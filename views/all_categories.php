@@ -100,7 +100,7 @@ $all_stores = $stores->select_tienda();
   </div>
   <?php require_once './footer.php';?>
   </div>
-  <div id="toTop"></div>
+  <div  id="toTopgobtn"></div>
   <script type="text/javascript" src="js/actions_pages/buy_cart.js"></script>
   <script type="text/javascript" src="./js/actions_pages/all_pages_index.js"></script>
 </body>

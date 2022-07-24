@@ -33,7 +33,7 @@ $path_b_p = "admin/images/banner_principal/";
       <?php require_once './view_home/presentacion_texto_b.php'; ?>
     </div>
   </div>
-  <div id="toTop"></div>
+  <div  id="toTopgobtn"></div>
   <script type="text/javascript" src="<?= $url ?>js/common_scripts.min.js"></script>
   <script type="text/javascript" src="<?= $url ?>js/main.js"></script>
   <script type="text/javascript" src="<?= $url ?>js/customs/custom.js"></script>

@@ -3,7 +3,7 @@ window.addEventListener("load", function(){
   document.querySelector(".loader-ttrqstr").className += " hidden";
 });
 $(() => {
-	// ------------ MOSTRAR Y OCULTAR CARRITO...
+	// ------------ MOSTRAR Y OCULTAR LISTADO DE PRODUCTOS EN EL CARRITO...
 	let btnOpenCart = $("#view_cart_ttrq"), contCart = $(".containt_total_ttrq-cart"), closeCart = $("#cerrar_carrito");
   btnOpenCart.removeClass("dropdown-cart");
   btnOpenCart.click(function (){contCart.addClass("active");});

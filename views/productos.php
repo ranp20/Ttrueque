@@ -16,27 +16,23 @@ if (!isset($_SESSION["user"])) {
   <script type="text/javascript" src="node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
 </head>
 <body>
-    <?php require_once 'api_whatsapp.php';?>
-    <div class="loader-ttrqstr">
-      <span class="loader-ttrqstr--loader"></span>
-    </div>
-    <div id="page">
-      <?php require_once '../php/process_header.php';?>
-      <?php require_once 'includes/inc_header-top.php';?>
-      <?php require_once 'products_most-popular.php';	?>
-    </div>
-    <?php require_once 'footer.php';?>
-    <div id="toTop"></div>
-    <script type="text/javascript" src="./js/main.js"></script>
-    <!---------CUSTOMS JAVASCRIPT--------->
-    <script type="text/javascript" src="./js/actions_pages/customs.js"></script>
-    <script type="text/javascript" src="./js/actions_pages/buy_cart.js"></script>
-    <script type="text/javascript" src="./js/actions_pages/all_pages_index.js"></script>
-     
-    <script type="text/javascript" src="./js/actions_pages/listProds_Search_Category.js"></script>
-    <script type="text/javascript" src="./js/actions_pages/listProds_Store_Category.js"></script>
-    <script type="text/javascript" src="./js/actions_pages/listProds_ByNameStore.js"></script>
-    <script type="text/javascript" src="./js/actions_pages/language_currency.js"></script>
-     
+  <?php require_once 'api_whatsapp.php';?>
+  <div class="loader-ttrqstr">
+    <span class="loader-ttrqstr--loader"></span>
+  </div>
+  <?php require_once '../php/process_header.php';?>
+  <?php require_once 'includes/inc_header-top.php';?>
+  <?php require_once 'products_most-popular.php';	?>
+  <?php require_once 'footer.php';?>
+  <div  id="toTopgobtn"></div>
+  <script type="text/javascript" src="./js/main.js"></script>
+  <!---------CUSTOMS JAVASCRIPT--------->
+  <script type="text/javascript" src="./js/actions_pages/customs.js"></script>
+  <script type="text/javascript" src="./js/actions_pages/buy_cart.js"></script>
+  <script type="text/javascript" src="./js/actions_pages/all_pages_index.js"></script>
+  <script type="text/javascript" src="./js/actions_pages/listProds_Search_Category.js"></script>
+  <script type="text/javascript" src="./js/actions_pages/listProds_Store_Category.js"></script>
+  <script type="text/javascript" src="./js/actions_pages/listProds_ByNameStore.js"></script>
+  <script type="text/javascript" src="./js/actions_pages/language_currency.js"></script>
 </body>
 </html>

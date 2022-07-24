@@ -93,7 +93,7 @@ if (!isset($_SESSION['user'])) {
 		</main>
 		<?php require_once 'footer.php';?>
 	</div>
-  <div id="toTop"></div>
+  <div  id="toTopgobtn"></div>
   <script type="text/javascript" src="./js/main.js"></script>
   <!--------- CUSTOMS JAVASCRIPT--------->
   <script type="text/javascript" src="./js/actions_pages/language_currency.js"></script>

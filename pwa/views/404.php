@@ -61,7 +61,7 @@ $url =  $actual_link . "/" ."Ttrueque/";
     </div>
     <!-- page -->
     <!-- Back to top button -->
-    <div id="toTop"></div>
+    <div  id="toTopgobtn"></div>
     <!-- COMMON SCRIPTS -->
     <script type="text/javascript" src="<?php echo $url ?>js/common_scripts.min.js"></script>
     <script type="text/javascript" src="<?php echo $url ?>js/main.js"></script>

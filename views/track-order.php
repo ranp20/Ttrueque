@@ -22,7 +22,7 @@ if (!isset($_SESSION['user'])) {
 		<div class="loader-ttrqstr">
       <span class="loader-ttrqstr--loader"></span>
     </div>
-		<main class="bg_gray">
+		<main class="mrg-htop">
 			<div id="track_order">
 				<div class="container-track-order_ttrq">
 					<div class="content-track-order_ttrq">
@@ -47,7 +47,7 @@ if (!isset($_SESSION['user'])) {
 		</main>
 		<?php require_once 'footer.php';?>
 	</div>
-	<div id="toTop"></div>
+	<div  id="toTopgobtn"></div>
 	<!-- COMMON SCRIPTS -->
 	<script type="text/javascript" src="js/main.js"></script>
 	<script type="text/javascript" src="js/actions_pages/buy_cart.js"></script>

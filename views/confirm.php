@@ -33,7 +33,7 @@ if(!isset($_SESSION['user'])){
     </main>
     <?php require_once('footer.php');?>
   </div>
-  <div id="toTop"></div>
+  <div  id="toTopgobtn"></div>
   <!-- COMMON SCRIPTS -->
   
   <script type="text/javascript" src="./js/main.js"></script>

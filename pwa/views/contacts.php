@@ -84,7 +84,7 @@ if (!isset($_SESSION['user'])) {
 		<!--/footer-->
 	</div>
 	<!-- page -->
-	<div id="toTop"></div>
+	<div  id="toTopgobtn"></div>
 	<!-- Back to top button -->
 	<!-- COMMON SCRIPTS -->
 	  
