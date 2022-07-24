@@ -47,7 +47,7 @@
 #table-list-product tr td .contain-img-total-list_c-ttrq .container-img-store_list_c-ttrq {display: flex !important;align-items: center;justify-content: flex-start;width: 57%;flex-direction: column;text-align: center;}
 #table-list-product tr td .contain-img-total-list_c-ttrq .container-img-store_list_c-ttrq .content-img-s-list_c-ttrq {width: 65px;height: 65px;margin-bottom: 1.2rem;}
 #table-list-product tr td .contain-img-total-list_c-ttrq .container-img-store_list_c-ttrq .content-img-s-list_c-ttrq > div {width: 100%;height: 100%;box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 0px 4px;border-radius: 10px;background: rgba(0, 0, 0, 0.05);}
-#table-list-product tr td .contain-img-total-list_c-ttrq .container-img-store_list_c-ttrq > h3 {margin: 0 !important;text-shadow: 0 2px rgba(0, 0, 0, 0.2);font-size: 1.2rem;color: var(--primary-clr);}
+#table-list-product tr td .contain-img-total-list_c-ttrq .container-img-store_list_c-ttrq > h3 {margin: 0 !important;font-size: 1.2rem;color: var(--primary-clr);}
 #table-list-product tr td .container-total-store_list_c-ttrq {display: flex;align-items: center;justify-content: flex-end;}
 #table-list-product tr td .container-total-store_list_c-ttrq > button {margin: 0 !important;color: rgba(0, 0, 0, 0.7);font-size: 1.5em;background: #004dda;border: none;color: #fff;border-radius: 20px;padding: 0.3em 1em;box-shadow: 0 -5px 5px 2px rgba(0, 0, 0, 0.3) inset;outline: none;}
 #table-list-product tr td .container-total-store_list_c-ttrq > button:hover {opacity: 0.9;}

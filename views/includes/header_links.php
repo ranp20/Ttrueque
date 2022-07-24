@@ -43,9 +43,6 @@
 <!-- YOUR CUSTOM CSS -->
 <link href="./css/style.css" rel="stylesheet">
 <link href="./css/cart.css" rel="stylesheet">
-<link href="./css/contact.css" rel="stylesheet">
-<link href="./css/error_track.css" rel="stylesheet">
-<link href="./css/faq.css" rel="stylesheet">
 <link href="./css/blog.css" rel="stylesheet">
 <link href="./css/checkout.css" rel="stylesheet">
 <link href="./css/estilos.css" rel="stylesheet">
