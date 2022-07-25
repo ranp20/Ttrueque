@@ -485,6 +485,12 @@ $min-height-header_pagesinfo : 70px;
   z-index:100;
   @media (min-width: 1024px){
   	bottom: 90px;
+  	.wtps_btn__c{
+  		animation-name: widthauto;
+  		animation-duration: .3s;
+  		animation-timing-function: ease-in-out;
+  		transition: width .3s ease-in-out;
+  	}
   	.wtps_btn__c__contText{
 			transform: translateX(100%);
   		animation-name: slideLeft;
@@ -492,6 +498,9 @@ $min-height-header_pagesinfo : 70px;
   		animation-timing-function: ease-in-out;
   	}
 	  &:hover{
+	  	.wtps_btn__c{
+	  		width: auto;
+	  	}
   		.wtps_btn__c__contText{
 	  		transform: translateX(0%);
   		}
@@ -502,6 +511,14 @@ $min-height-header_pagesinfo : 70px;
   		transform: translateX(0%);
   	}
   }
+  @keyframes widthauto{
+  	from{
+  		width: 60px;
+  	}
+  	to{
+  		width: auto;
+  	}
+  }
   &__c{
   	display: none;
   	pointer-events: none;
@@ -510,7 +527,8 @@ $min-height-header_pagesinfo : 70px;
   	visibility: hidden;
 	  overflow: hidden;
   	position: relative;
-  	border-radius:50px;
+  	border-radius: 50px;
+  	transition: width .3s ease-in-out;
 	  &__contText{
 			border-radius:50px;
 			background-color: #25d366;
@@ -533,6 +551,8 @@ $min-height-header_pagesinfo : 70px;
 	  	user-select: auto;
 	  	opacity: 1;
 	  	visibility: visible;
+	  	transition: width .3s ease-in-out;
+  		width: 60px;
 	  }
   }
 	&__contIconWps{

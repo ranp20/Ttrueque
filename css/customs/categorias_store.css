@@ -1,5 +1,4 @@
 .content-total-page-ttrk{	min-height: 100vh;	display: flex;	flex-direction: column;}
-.contenido-categorias_ttrk-off-header > .content-title-categorias_ttrk {    margin: 25px auto 25px auto;    height: 60px;    display: flex;    align-items: center;}
 .contenido-categorias_ttrk-off-header > .content-title-categorias_ttrk > h3{	font-family: var(--fuente-subtitles);}
 /* CONTENIDO PRICIPAL DEL LANDING PAGE*/
 /*BOTÓN PARA VER TODAS LOS PRODUCTOS*/

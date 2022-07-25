@@ -36,10 +36,14 @@ if(!isset($_SESSION['user'])){
   <div class="contModalGuidettrk"></div>
   <?php  require_once 'includes/inc_api-whatsapp.php';?>
   <?php require_once '../php/process_header.php';?>
+  <?php 
+    $p = new Product();
+    $top_sells = $p->top_sell($d[0]['pais']);
+  ?>
   <div class="loader-ttrqstr">
     <span class="loader-ttrqstr--loader"></span>
   </div>
-  <?php require_once 'includes/inc_header-top-index.php';?>
+  <?php require_once 'includes/inc_header-top.php';?>
   <div class="overlay"></div>
   <div class="containt_total_ttrq-cart">
     <div class="container_cart_lis-ttrq">
@@ -63,10 +67,6 @@ if(!isset($_SESSION['user'])){
       </div>
     </div>
   </div>
-  <?php
-	  $p = new Product();
-	  $top_sells = $p->top_sell($d[0]['pais']);
-  ?>
   <div id="datos_search"></div>
   <main class="mrg-htop" id="contenedor-principal-home_2">
     <div id="carousel-home" style="height: 338px">

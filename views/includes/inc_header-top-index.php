@@ -163,3 +163,27 @@
     </div>
   </div>
 </nav>
+<div class="overlay"></div>
+<div class="containt_total_ttrq-cart">
+  <div class="container_cart_lis-ttrq">
+    <div class="content-list_cart_hb_ttrq">
+      <div class="contain-title-cart-sdleft_ttrq">
+        <h4 class='lang_ttrq' key='title-cart-delay_ttrq'>Listado de Compras<i class="fas fa-cart-arrow-down"></i></h4>
+        <a href="javascript:void(0);" id="cerrar_carrito"> X </a>
+      </div>
+      <!-- //CONTENEDOR PRINCIPAL DE LAS TIENDAS-->
+      <div class="contain-cart-info_header-ttrq">
+          <div id="list-products-sdleft" class="lista-prods-sdleft_header_ttrq">
+            <ul id="cart-buy-list"></ul>
+          </div>
+          <div id="total-points" class="cont-btn-check_ttrq"></div>
+      </div>
+      <div class="contain-btn-go-to-cart_ttrq">
+        <a href="./cart" id="addtempcart">
+          <img src="./img/iconos_home/index-sidebar-car-car.svg" alt="">
+          <span class='lang_ttrq' key='btn-go-cart-delay_ttrq'>Ir al Carrito</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

@@ -7,7 +7,10 @@ $(() => {
 	let btnOpenCart = $("#view_cart_ttrq"), contCart = $(".containt_total_ttrq-cart"), closeCart = $("#cerrar_carrito");
   btnOpenCart.removeClass("dropdown-cart");
   btnOpenCart.click(function (){contCart.addClass("active");});
-  closeCart.click(function (){contCart.removeClass("active");});
+  closeCart.click(function (){
+    console.log('GAAAAA');
+    contCart.removeClass("active");
+  });
   let containCartAll = document.querySelector(".containt_total_ttrq-cart");
 	containCartAll.addEventListener('click', e => {if(e.target === containCartAll){containCartAll.classList.remove('active')};});
 	// ------------ BOTÓN IR HACIA ARRIBA
