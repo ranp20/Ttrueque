@@ -32,9 +32,9 @@
 .cart-list > tbody > tr > td:nth-child(2) {text-align: center;}
 .cart-list > tbody > tr > td:nth-child(3) {text-align: center;}
 .cart-list > tbody > tr > td:nth-child(4) {text-align: center;}
-.cart-list > tbody > tr > td.options > button {background: var(--secondary-clr);  border: none;  border-radius: 5px;  padding: 8px 10px 5px 10px;  font-size: 15px;}
+.cart-list > tbody > tr > td.options > button {background: var(--secondary-clr);  border: none;  border-radius: 5px;  padding: 6px;  font-size: 15px;}
 .cart-list > tbody > tr > td.options > button:hover {background: #c80000;}
-.cart-list > tbody > tr > td.options > button > svg {color: #fff;}
+.cart-list > tbody > tr > td.options > button > span svg {position: relative;top: 1px;fill: #fff;}
 /*ESTILOS PARA EL LISTADO DE PRODUCTOS EN CART.PHP*/
 .cont-img-info-store{box-shadow: 0 0 0 2px lightsteelblue inset;  padding: 0.75rem !important;}
 .cont-img-info-store:before{display: none !important;}

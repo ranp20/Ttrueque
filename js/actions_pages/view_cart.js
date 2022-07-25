@@ -90,7 +90,11 @@ $(document).ready(function () {
                 <strong class="price-${i}">${total_price} Bikers </strong>
                 </td>
                 <td class="options">
-                <button class="btn btn-danger icon-trash-product" data-tienda="${v.store_id}" data-producto="${v.id_p}"><i class="fas fa-trash-alt"></i></button>
+                <button type="button" class="btn btn-danger icon-trash-product" data-tienda="${v.store_id}" data-producto="${v.id_p}" title="Eliminar este producto">
+                  <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28px" height="28px" version="1.1" viewBox="0 0 700 700"><g xmlns="http://www.w3.org/2000/svg"><path d="m568.86 107.43h-140.57v-62.285h-162.29v62.285h-134.86v34.285h40l28.57 373.71h294.86l28.57-373.71h45.715zm-268.57-28h94.285v28h-94.285zm162.29 401.14h-230.86l-25.715-339.43h282.86z"/><path d="m330 189.14h34.285v245.14h-34.285z"/><path d="m426.21 435.5-34.234-1.8516 13.277-245.35 34.234 1.8516z"/><path d="m268.14 435.55-13.289-245.35 34.234-1.8555 13.289 245.35z"/></g></svg>
+                  </span>
+                </button>
             </td>
          </tr>`);
         });
