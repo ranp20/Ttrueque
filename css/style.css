@@ -5131,23 +5131,48 @@ footer .links ul li a {
   opacity: 0.8;
   display: inline-block;
 }
+footer .links ul li a:before{
+  opacity: 0;
+  background-color: #fff;
+  bottom: 7px;
+  content: "";
+  height: 13px;
+  position: absolute;
+  right: -20px;
+  transform-origin: bottom;
+  width: 1px;
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+footer .links ul li a:after {
+  opacity: 0;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-right-style: solid;
+  border-right-width: 1px;
+  content: "";
+  display: inline-block;
+  height: 10px;
+  left: auto;
+  right: -18px;
+  position: absolute;
+  top: 5px;
+  width: 10px;
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
 footer .links ul li a:hover {
   transform: translate(5px, 0);
   color: #fff;
   opacity: 1;
 }
+footer .links ul li a:hover:before,
 footer .links ul li a:hover:after {
   opacity: 1;
-  color: #fff;
-}
-footer .links ul li a:after {
-  font-family: "themify";
-  content: "\e628";
-  position: relative;
-  margin-left: 5px;
-  top: 2px;
-  opacity: 0;
-  transition: all 0.5s ease;
 }
 @media (max-width: 767px) {
   #newsletter {
