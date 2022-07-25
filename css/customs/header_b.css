@@ -290,6 +290,7 @@ li .language_icon_header_b-ttrq .icon-language_ttrq ul li button div {  backgrou
 /* NEW STYLES INTO HEADER_B */
 .cont-list-opts-profile > a.dropdown-item{padding: .5rem 1rem !important;}
 .cont-list-opts-profile > a.dropdown-item i{font-size: 1.2rem;} 
+.cont-list-opts-profile > a.dropdown-item span:first-child{margin-left: 0;margin-right: 0;margin-top: 0;margin-bottom: 0;}
 .cont-list-opts-profile > a.dropdown-item span{margin-left: 0.8rem;}
 /* LOGO DE TTRUEQUE */
 .cont-logo-ttrq-nav{padding: 0;margin: 0 2rem 0 0 !important;}
