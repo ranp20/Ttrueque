@@ -32,7 +32,7 @@
 .cont-msg-any-products_sells p{margin: 0;font-size: 1.3rem;color: rgba(0,0,0,.3);}
 /* TOOLTIPS BEST SELLER */
 #products-more-sells .owl-stage-outer .owl-stage .owl-item .item .targets_products .tooltips_products-for-select-ttrq li > .button-favorites:hover{background: var(--color-tooltip-favorites) !important; color: #fff;}
-#products-more-sells .owl-stage-outer .owl-stage .owl-item .item .targets_products .tooltips_products-for-select-ttrq li > .button_add_cart_shop:hover{background: var(--color-tooltip-cart) !important; color: #fff;}
+#products-more-sells .owl-stage-outer .owl-stage .owl-item .item .targets_products .tooltips_products-for-select-ttrq li > .button_add_cart_shop:hover{color: var(--color-tooltip-cart) !important;}
 
 /* MEDIA QUERIES */
 @media (max-width: 1200px){ 
