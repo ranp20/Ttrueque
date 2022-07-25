@@ -67,7 +67,7 @@ $all_stores = $stores->select_tienda();
   <script type="text/javascript" src="<?php echo $url ?>js/actions_pages/track-order.js"></script>
 </head>
 <body>
-  <?php  require_once 'includes/inc_api-whatsapp.php';?>
+  <?php require_once 'includes/inc_api-whatsapp.php';?>
   <!--- API WHATSAPP---->
   <div id="page">
     <?php

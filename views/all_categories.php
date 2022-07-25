@@ -19,7 +19,7 @@ $all_stores = $stores->select_tienda();
   <script type="text/javascript" src="node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
 </head>
 <body>
-  <?php  require_once 'includes/inc_api-whatsapp.php';?>
+  <?php require_once 'includes/inc_api-whatsapp.php';?>
   <div id="page">
       <?php
       

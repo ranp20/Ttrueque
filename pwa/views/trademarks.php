@@ -10,7 +10,7 @@ $dat = $c->select_tienda();
 <?php require_once 'header_index.php'; ?>
 
 <body>
-	<?php  require_once 'includes/inc_api-whatsapp.php' ?>
+	<?php require_once 'includes/inc_api-whatsapp.php' ?>
 	<!--- --- API WHATSAPP--- ---  --->
 	<div class="loader">
 		<img src="img/gifs/money-loader.gif" alt="Loading...">

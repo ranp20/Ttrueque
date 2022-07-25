@@ -25,7 +25,7 @@ if (!isset($_SESSION['user'])) {
   <script type="text/javascript" src="node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
 </head>
 <body>
-  <?php  require_once 'includes/inc_api-whatsapp.php';?>
+  <?php require_once 'includes/inc_api-whatsapp.php';?>
   <?php require_once '../php/process_header.php';?>
   <?php require_once 'includes/inc_header-top.php';?>
   <div class="loader-ttrqstr">
