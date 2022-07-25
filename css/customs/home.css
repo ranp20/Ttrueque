@@ -24,5 +24,4 @@ a.butt_home.outline:focus,.butt_home.outline:focus {  outline: none;}
 a.butt_home.gray,.butt_home.gray {  background: #f0f0f0;  color: #111 !important;}
 a.butt_home.gray:hover,.butt_home.gray:hover {  background-color: #FFC107;  color: #111 !important;}
 a.butt_home i,.butt_home i {  font-weight: 600;}
-.owl-theme > .owl-dots > .owl-dot >  span{    width: 12px !important;    height: 1px !important;    border-radius: 50% !important;    padding: 3px 0 !important;}
 .owl-theme > .owl-dots > .owl-dot > span::before {    content: "";    background-color: #fff !important;    display: block !important;    width: 25px !important;    height: 1px !important;    border-radius: unset !important;    top: 0 !important;    left: 0 !important;    margin: auto !important;    position: absolute !important;    visibility: hidden !important;    transform: scale(0) !important;    transition: all 0.3s ease-in-out !important;    box-shadow: 0 2 10px 10px #fff;}

@@ -1,12 +1,15 @@
 $min-height-header_main : 60px;
 .mrg-htop{
-	margin-top: $min-height-header_main;
+	// margin-top: $min-height-header_main;
+	margin-top: 0;
 }
 /* PAGES INTO VIEWS - NAVIGATION */
 .nav-main__index{
 	background: $theme-clr-primary;
 	color: #fff;
-	position: fixed;
+	// position: fixed;
+	// position: sticky;
+	position: static;
 	top: 0;
   right: 0;
   left: 0;
