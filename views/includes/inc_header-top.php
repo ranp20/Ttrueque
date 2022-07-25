@@ -37,6 +37,7 @@
             }
           ?>
           <div class="dropdown-menu cont-list-opts-profile" aria-labelledby="navbarDropdown">
+            <div class="nav_arrow"></div>
             <?php
               if(!isset($_SESSION["user"])){
                 echo "<a href='./account' class='btn_1' title=''>Inicia sesi&oacute;n o reg&iacute;strate</a>";
@@ -116,16 +117,19 @@
             <span>Categorías</span>
           </a>
           <div class="dropdown-menu content-list-categories-naside" aria-labelledby="navbarDropdown">
-            <?php
-              foreach($categoria as $key => $val){
-                $e = $val["nombre_categoria"];
-                $url = str_replace(" ", "-", $e);
-                echo "
-                  <a class='dropdown-item' href='tienda?tipos={$url}'>
-                    <span>{$val["nombre_categoria"]}</span>                      
-                  </a>";
-              }
-            ?>
+            <div class="nav_arrow"></div>
+            <div class="l-categories">
+              <?php
+                foreach($categoria as $key => $val){
+                  $e = $val["nombre_categoria"];
+                  $url = str_replace(" ", "-", $e);
+                  echo "
+                    <a class='dropdown-item' href='tienda?tipos={$url}'>
+                      <span>{$val["nombre_categoria"]}</span>                      
+                    </a>";
+                }
+              ?>
+            </div>
           </div>
         </li>
         <li class="nav-item dropdown">
@@ -136,6 +140,7 @@
             <span class="lang_ttrq" key="htop_link_languages">Idiomas</span>
           </a>
           <div class="dropdown-menu content-all-countries-naside" aria-labelledby="navbarDropdown">
+            <div class="nav_arrow"></div>
             <?php
               foreach ($flags as $key => $value) {
                 echo "<button 

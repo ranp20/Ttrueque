@@ -296,12 +296,12 @@ li .language_icon_header_b-ttrq .icon-language_ttrq ul li button div {  backgrou
 .cont-logo-ttrq-nav{padding: 0;margin: 0 2rem 0 0 !important;}
 .cont-logo-ttrq-nav img{width: 115px;}
 /* PAISES */
-.content-all-countries-naside{min-width: 69px !important;left: 2rem !important;}
-.content-all-countries-naside > button.dropdown-item{padding: 0 .2rem;margin: 0 0 .5rem 0;text-align: center;display: flex;align-items: center;justify-content: center;}
+.content-all-countries-naside{min-width: 55px !important;left: 2rem !important;}
+.content-all-countries-naside > button.dropdown-item{padding: 0.5rem .2rem;margin: 0 0 0 0;text-align: center;display: flex;align-items: center;justify-content: center;}
 .content-all-countries-naside > button.dropdown-item:last-child{margin: 0;}
-.content-all-countries-naside > button.dropdown-item img{width: 53px;}
+.content-all-countries-naside > button.dropdown-item img{max-width: 45px;width: 45px;}
 .con-t-countries-link{display: flex !important;align-items: center !important;padding-top: 0.7rem !important;}
-.con-t-countries-link > span.lang_ttrq{margin-left: .5rem;position: relative;}
+.con-t-countries-link > span.lang_ttrq{margin-left: .2rem;position: relative;}
 .con-t-countries-link > span svg{position: relative;fill: #fff;top: 3px;}
 /* PERFIL DEL CLIENTE */
 .con-t-profile-opts-link{display: flex !important;align-items: center !important;padding-top: 0.7rem !important;}
