@@ -26,8 +26,13 @@
 			require_once '../php/class/store.php';
 			$dStore = new Store();
 			$listinfoByName = $dStore->list_storeinfo_byName($storename);
-			$pathstrphoto = "./shop/images/store/".$listinfoByName[0]['logo'];
-
+			$pathstrphoto = "";
+			$path_valid = $_SERVER['DOCUMENT_ROOT']."/Ttrueque/shop/images/store/".$listinfoByName[0]['logo'];
+			if(!file_exists($path_valid)){
+				$pathstrphoto = "./shop/images/store/default-store.png";
+			}else{
+				$pathstrphoto = "./shop/images/store/".$listinfoByName[0]['logo'];
+			}
 			echo "
 				<div class='contain__cont'>
 					<div class='contain__cont--info'>

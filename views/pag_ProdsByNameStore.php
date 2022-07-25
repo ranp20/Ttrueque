@@ -136,7 +136,6 @@ if($store == $_POST['store']){
 					</li>
 				";
 			}else{
-
 				echo "
 					<li class='cont-allprods__menu--item'>
 						<a href='product-detail?id={$value['id_producto']}' class='cont-allprods__menu--link'>
