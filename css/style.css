@@ -5058,7 +5058,7 @@ footer .contacts ul li {
   justify-content: flex-start;
 }
 footer .contacts ul li span:first-child{
-  margin-right: 0.5rem;
+  margin-right: 0.65rem;
 }
 footer .contacts ul li span:first-child svg{
   fill: #fff;
