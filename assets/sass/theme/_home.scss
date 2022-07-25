@@ -619,6 +619,11 @@ $max-height-banner-desktop: 665px;
 				    			font-size: 1rem;
 				    		}
   						}
+  						@media (min-width: 768px){
+  							&__title{
+  								font-size: 1.8rem;
+  							}
+  						}
 				    }
 			    }
 		    }
