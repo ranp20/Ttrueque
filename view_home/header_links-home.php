@@ -20,21 +20,19 @@
 <meta property="og:site_name" content="Ttrueque"/>
 <meta property="og:url" name="twitter.url" content="https://localhost/Ttrueque"/>
 <meta property="og:title" name="twitter.title" content="Ttrueque"/>
-<meta property="og:description" name="twitter.description" content="Ttrueque te facilita para comprar y vender en forma SEGURA, y sin usar ni arriesgar tu DINERO CONVENCIONAL."/>
-<!-- <meta property="og:image" name="twitter.image" content="./views/assets/img/logos/logotipo-camel.png"/>
-<link rel="icon" type="image/x-icon" href="./views/assets/img/favicon/favicon-camel.png"/>
-<link rel="apple-touch-icon" href="./views/assets/img/favicon/favicon-camel.png"/> -->
+<meta property="og:description" name="twitter.description" content="Ttrueque te facilita para comprar y vender en forma SEGURA, sin usar ni arriesgar tu DINERO CONVENCIONAL."/>
+<meta property="og:image" name="twitter.image" content="./img/icon-pages/drawable-xxxhdpi-icon.png"/>
+<link rel="icon" type="image/x-icon" href="./img/icon-pages/drawable-xxxhdpi-icon.png"/>
+<link rel="apple-touch-icon" href="./img/icon-pages/drawable-xxxhdpi-icon.png"/>
 <link rel="canonical" href="https://localhost/Ttrueque"/>
-<link rel="icon" href="./img/icon-pages/drawable-xxxhdpi-icon.png" type="image/ico">
+<link rel="icon" href="./img/icon-pages/drawable-xxxhdpi-icon.png" type="image/ico"/>
 <!-- PRELOADER FILES -->
 <link rel="preload" href="<?= $url;?>assets/css/styles.min.css" as="style"/>
 <link rel="preload" href="<?= $url;?>js/plugins/jquery/jquery-3.6.0.min.js" as="script"/>
 <!-- JQUERY COMPRESSED -->
-<script type="text/javascript" src="<?= $url; ?>js/plugins/jquery/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="<?= $url;?>js/plugins/jquery/jquery-3.6.0.min.js"></script>
 <!-- BOOTSTRAP UNCOMPRESSED -->
-<link rel="stylesheet" href="<?php echo $url; ?>js/plugins/bootstrap/css/bootstrap.min.css">
-<script type="text/javascript" src="<?php echo $url; ?>js/plugins/bootstrap/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="<?= $url;?>js/plugins/bootstrap/css/bootstrap.min.css">
+<script type="text/javascript" src="<?= $url;?>js/plugins/bootstrap/js/bootstrap.min.js"></script>
 <!-- STYLESSHEET -->
-<link rel="stylesheet" href="<?= $url; ?>assets/css/styles.min.css"/>
-<!-- FONTAWESOWE -->
-<link href="./admin/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="<?= $url;?>assets/css/styles.min.css"/>
