@@ -92,7 +92,7 @@ $country_byid = $c->get_countries_by_idcountry($cli_id[0]['pais']);
                   </div>
                 </h1>
               </div>
-              <button class="btn-checkout">Confirmar y Pagar</button>
+              <button type="button" class="btn-checkout" title="Confirmar y Pagar">Confirmar y Pagar</button>
             </div>
           </form>
         </div>

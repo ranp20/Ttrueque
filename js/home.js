@@ -1,5 +1,5 @@
 $(() => {
-  ///NAVBAR AND SIDEBARLEFT - MOBILE
+  // ------------ NAVBAR AND SIDEBARLEFT - MOBILE
   var fixHeight = function(){
     $('.navbar-nav').css( 'max-height', document.documentElement.clientHeight - 150 );
   };

@@ -42,6 +42,11 @@
 .content-total_checkout_ttrk .content-right-check-page .content-detail-payment h1{  font-size: 1.75rem;  font-weight: bold; }
 .content-total_checkout_ttrk .content-right-check-page .content-detail-payment{padding-bottom: 2rem;}
 .content-total_checkout_ttrk .content-right-check-page .content-detail-payment form{width: 90%;margin-left: auto;margin-right: auto;}
+.content-total_checkout_ttrk .content-right-check-page .content-detail-payment form.fr-disabled{opacity: 0.5;cursor: not-allowed;user-select: none;pointer-events: none;}
+.content-total_checkout_ttrk .content-right-check-page .content-detail-payment form.fr-disabled input,
+.content-total_checkout_ttrk .content-right-check-page .content-detail-payment form.fr-disabled select,
+.content-total_checkout_ttrk .content-right-check-page .content-detail-payment form.fr-disabled a,
+.content-total_checkout_ttrk .content-right-check-page .content-detail-payment form.fr-disabled button{cursor: not-allowed;user-select: none;appearance: none;pointer-events: none;}
 .content-total_checkout_ttrk .content-right-check-page .content-detail-payment form .cont-info-store{  padding: .5rem 0;  border-bottom: 1px solid #eee;}
 .content-total_checkout_ttrk .content-right-check-page .content-detail-payment form .cont-info-store > h1 #name-store{line-break: anywhere;}
 .content-total_checkout_ttrk .content-right-check-page .content-detail-payment form .cont-info-store h1{  display: flex;  align-items: center;  justify-content: space-between;  font-size: 1.05rem;  margin: 0 !important;color: var(--color-paragraph-checkout);}
