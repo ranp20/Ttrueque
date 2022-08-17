@@ -1,13 +1,15 @@
 <div class="content-more-sells margintb-3" id="content-index-ttrq">
 	<div class="main_title" id="title-content-more-sells">
 		<div id="content-text-more-sells">
-			<h3 class="lang_ttrq" key="title_best-seller">Lo más Vendido</h3>
-			
+			<h3 class="lang_ttrq" key="title_best-seller">Lo más Vendido</h3>	
 		</div>
 	</div>
 	<?php 
-
-		//print_r($top_sells);
+		/*
+		echo "<pre>";
+		print_r($top_sells);
+		echo "</pre>";
+		*/
 		if($top_sells == []){
 			echo "<div class='cont-msg-any-products_sells'>
 				<i class='fal fa-frown-open'></i>

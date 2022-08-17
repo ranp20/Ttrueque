@@ -84,7 +84,7 @@
 .cont-allprods__menu--buy span{font-weight: 500;}
 .cont-allprods__menu--buy span:nth-child(2){position: relative;top: -1px;}
 .cont-allprods__menu--buy:hover,.cont-allprods__menu--buy:active{background-color: lightcoral;color: #fff !important;}
-.cont-allprods__menu--link--contimg{display: flex;align-items: center;justify-content: center;text-align: center;width: 100%;min-height: 100px;position: relative;}
+.cont-allprods__menu--link--contimg{display: flex;align-items: center;justify-content: center;text-align: center;width: 100%;min-height: 240px;position: relative;}
 .cont-allprods__menu--link--contimg img{max-width: 240px;width: 100%;max-height: 300px;object-fit: contain;object-position: center;}
 .cont-allprods__menu--link--contimgcountry{position: absolute;width: 34px;height: 23px;display: table;right: 5px;top: 5px;}
 .cont-allprods__menu--link--contimgcountry img{object-fit: contain;object-position: center;}

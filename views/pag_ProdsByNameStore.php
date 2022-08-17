@@ -108,7 +108,7 @@ if($store == $_POST['store']){
 			$idtiendacurrent = $value['id_tienda'];
 
 			$marca = "";
-			if($value['marca_producto'] == "" || $value['marca_producto'] == null){
+			if($value['marca_producto'] == "" || $value['marca_producto'] == null || $value['marca_producto'] == "undefined"){
 				$marca = "<p class='cont-allprods__menu--link--contdescript--trademark not-specified'>No especificado</p>";
 			}else{
 				$marca = "<p class='cont-allprods__menu--link--contdescript--trademark'>{$value['marca_producto']}</p>";
