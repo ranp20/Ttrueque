@@ -1,6 +1,5 @@
 $(document).on('click' , '.linkgenerate_code', function(e) {
   e.preventDefault();
-  console.log('Hola mundo');
 
   var btn = $(this).parent().parent();
   var idcliente = btn.find("td").eq(0).text();

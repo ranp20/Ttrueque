@@ -107,12 +107,6 @@ $data = $c->get_client();
   <script type="text/javascript" src="js/chartData.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
   <script type="text/javascript" src="js/generate-qrcode.js"></script>
-  <script type="text/javascript">  
-    $(document).ready(function() {
-      setTimeout(function() {
-        $('.succWrap').slideUp("slow");
-      }, 3000);
-    });
-  </script>
+  
 </body>
 </html>

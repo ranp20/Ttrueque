@@ -117,12 +117,6 @@ $data = $p->get_data_admin();
   <script type="text/javascript" src="js/fileinput.js"></script>
   <script type="text/javascript" src="js/chartData.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
-  <script type="text/javascript">  
-    $(document).ready(function() {
-      setTimeout(function() {
-        $('.succWrap').slideUp("slow");
-      }, 3000);
-    });
-  </script>
+  
 </body>
 </html>

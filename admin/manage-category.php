@@ -115,13 +115,7 @@ $cat = $c->get_categoria();
   <script type="text/javascript" src="js/fileinput.js"></script>
   <script type="text/javascript" src="js/chartData.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
-  <script type="text/javascript">  
-    $(document).ready(function() {
-      setTimeout(function() {
-        $('.succWrap').slideUp("slow");
-      }, 3000);
-    });
-  </script>
+  
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 </body>
 </html>

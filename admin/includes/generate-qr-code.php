@@ -8,7 +8,7 @@ $nameqr = $_POST['name'];//Recibo la variable pasada por post
 $lastnameqr = $_POST['lastname'];//Recibo la variable pasada por post
 $pointsqr = $_POST['puntos'];//Recibo la variable pasada por post
 
-include('../../vendor/autoload.php');//Llamare el autoload de la clase que genera el QR
+require '../../vendor/autoload.php';//Llamare el autoload de la clase que genera el QR
 use Endroid\QrCode\QrCode;
  
 $qrCode = new QrCode($idclientqr.'/'.$nameqr.','.$lastnameqr.'/'.$pointsqr);//Creo una nueva instancia de la clase
