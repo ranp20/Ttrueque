@@ -57,6 +57,9 @@ RewriteRule ^home_texto?$  ./views_home/presentacion_texto_b.php
 #RewriteRule ^mayores_detalles_two?$  ./views_home/presentacion_texto_two_b.php
 #RewriteRule ^mayores_detalles_three?$  ./views_home/presentacion_texto_three_b.php
 
+############PAGES ADMIN
+RewriteRule logout-adm?$ admin/controllers/prcss_logout-adm.php
+
 #########Deshabilitar la cache para los navegadores
 <IfModule mod_headers.c>
   Header set Cache-Control "no-cache, no-store, must-revalidate"

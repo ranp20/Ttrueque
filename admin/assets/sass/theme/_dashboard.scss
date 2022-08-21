@@ -240,17 +240,28 @@
 		    overflow: hidden;
 		    z-index: 9999;
 				@media (min-width: 1024px){
+					width: 200px;
+    			min-height: 75px;
 					&:hover{
 						display: block;
 					}
+				}
+				&--item{
+					line-height: 2;
 				}
 				&--link{
 					display: block;
 					color: #fff;
 					padding: 0.5rem 1rem;
+					font-size: 0.8rem;
 					&:hover{
 						color: #fff;
 						background-color: darken($theme-clr-bg-dashboard, 10%);
+					}
+					@media (min-width: 1024px){
+						font-size: 0.95rem;
+						font-weight: 500;
+						padding: 0.5rem 1rem;
 					}
 				}
 			}
