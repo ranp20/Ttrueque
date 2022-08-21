@@ -1,26 +1,26 @@
 <?php
 session_start();
-
-if (!isset($_SESSION['user_admin'])) {
-    header('location:index.php');
-}
-
-if (isset($_SESSION['msg'])) {
+if(isset($_SESSION['user_admin'])){
+  if(isset($_SESSION['msg'])){
     echo "<script>alert('{$_SESSION["msg"]}')</script>";
     unset($_SESSION["msg"]);
+  }
+}else{
+  header('location:index.php');
 }
-
 ?>
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-    <?php require_once 'includes/header_links.php'?>
-    <title>Trueque | Agregar Recargas</title>
+  <?php require_once 'includes/header_links.php'?>
+  <title>Trueque | Agregar Recargas</title>
 </head>
 <body>
-    <?php include('includes/header.php'); ?>
-    <div class="ts-main-content">
-      <?php require_once 'includes/adm_sidebar-left.php';?>
+  <div id="dash-contT">
+    <?php require_once 'includes/adm_sidebar-left.php';?>
+    <main id="main-dashCamel">
+      <?php require_once 'includes/adm_header-top.php';?>
+
       <div class="content-wrapper">
         <div class="container-fluid">
           <div class="row fila-contenedor-add-items_all">
@@ -80,8 +80,9 @@ if (isset($_SESSION['msg'])) {
           </div>
         </div>
       </div>
-    </div>
-  <!-- Loading Scripts -->
+
+    </main>
+  </div>
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/bootstrap-select.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>

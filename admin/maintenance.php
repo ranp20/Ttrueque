@@ -4,7 +4,7 @@
   $all = new ALl();
   $mante = $all->get_mantenience();
 ?>
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <?php require_once 'includes/header_links.php'?>

@@ -410,6 +410,9 @@
 					&--desc{
 						font-size: 0.8rem;
 						margin: 0;
+						@media (min-width: 1024px){
+							font-size: 0.9rem;
+						}
 					}
 				}
 			}

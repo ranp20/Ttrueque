@@ -12,7 +12,7 @@ $a = new All();
 $feedback = $a->get_feedback();
 
 ?>
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=gb18030">

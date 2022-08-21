@@ -19,7 +19,7 @@ $all = new Admin();
 $admin = $all->get_admin();
 
 ?>
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <?php require_once 'includes/header_links.php'?>

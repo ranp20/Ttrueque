@@ -1,32 +1,31 @@
 <?php
 session_start();
-
-if (!isset($_SESSION["user_admin"])) {
-    header("Location: index.php");
-}
-
-if (isset($_GET['id'])) {
-  require_once '../php/class/menbresia.php';
-  $c = new Menbresia();
-  $cat = $c->get_menbresia_by_id($_GET['id']);
-  if (count($cat) == 0) {
+if(isset($_SESSION["user_admin"])){
+  if(isset($_GET['id'])){
+    require_once '../php/class/menbresia.php';
+    $c = new Menbresia();
+    $cat = $c->get_menbresia_by_id($_GET['id']);
+    if(count($cat) == 0){
       header('Location: manage-menbresia.php');
+    }
   }
+}else{
+  header("Location: index.php");
 }
 ?>
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-
 <head>
-    <?php require_once 'includes/header_links.php' ?>
-    <title>Trueque | Editar Menbresía</title>
+  <?php require_once 'includes/header_links.php';?>
+  <title>Trueque | Editar Menbresía</title>
 </head>
-
 <body>
-    <?php include('includes/header.php'); ?>
-    <div class="ts-main-content">
-        <?php require_once 'includes/adm_sidebar-left.php';?>
-        <div class="content-wrapper">
+  <div id="dash-contT">
+    <?php require_once 'includes/adm_sidebar-left.php';?>
+    <main id="main-dashCamel">
+      <?php require_once 'includes/adm_header-top.php';?>
+
+      <div class="content-wrapper">
             <div class="container-fluid">
                 <div class="row  fila-contenedor-add-items_all">
                     <div class="col-12 my-4 col-md-7 content-add-items_all">
@@ -113,19 +112,19 @@ if (isset($_GET['id'])) {
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Loading Scripts -->
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap-select.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
-    <script type="text/javascript" src="js/dataTables.bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/Chart.min.js"></script>
-    <script type="text/javascript" src="js/fileinput.js"></script>
-    <script type="text/javascript" src="js/chartData.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-    <script type="text/javascript" src="js/customs.js"></script>
-    <script type="text/javascript" src="js/currency.js"></script>
-</body>
 
+    </main>
+  </div>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap-select.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
+  <script type="text/javascript" src="js/dataTables.bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/Chart.min.js"></script>
+  <script type="text/javascript" src="js/fileinput.js"></script>
+  <script type="text/javascript" src="js/chartData.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/customs.js"></script>
+  <script type="text/javascript" src="js/currency.js"></script>
+</body>
 </html>
