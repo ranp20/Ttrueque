@@ -13,7 +13,7 @@ $feedback = $a->get_feedback();
 
 ?>
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="es">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=gb18030">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -35,9 +35,9 @@ $feedback = $a->get_feedback();
   <link rel="stylesheet" href="css/customs/customs.css">
 </head>
 <body>
-  <?php include('includes/header.php');?>
+  <?php require_once 'includes/adm_header-top.php';?>
   <div class="ts-main-content">
-    <?php include('includes/leftbar.php');?>
+    <?php require_once 'includes/adm_sidebar-left.php';?>
     <div class="content-wrapper">
       <div class="container-fluid">
         <div class="row">

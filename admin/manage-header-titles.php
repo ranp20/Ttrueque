@@ -12,7 +12,7 @@ $h_titles = $h->get_header_titles();
 
 ?>
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="es">
 
 <head>
   <?php require_once 'includes/header_links.php' ?>

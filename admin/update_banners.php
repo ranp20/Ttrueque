@@ -23,15 +23,15 @@
   $path_banners = "images/banner/";
 ?>
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="es">
 <head>
   <?php require_once 'includes/header_links.php'?>
   <title>Trueque | Actualizar Banners</title>
 </head>
 <body>
-  <?php include('includes/header.php');?>
+  <?php require_once 'includes/adm_header-top.php';?>
   <div class="ts-main-content">
-    <?php include('includes/leftbar.php');?>
+    <?php require_once 'includes/adm_sidebar-left.php';?>
     <div class="content-wrapper">
       <div class="container-fluid">
         <div class="row" style="display:flex; justify-content:center;">

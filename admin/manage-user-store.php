@@ -16,7 +16,7 @@ $data = $c->get_client_store();
 ?>
 
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="es">
 <head>
   <?php require_once 'includes/header_links.php' ?>
   <title>Trueque | Administrar Usuarios</title>
@@ -24,7 +24,7 @@ $data = $c->get_client_store();
 <body>
   <?php include('includes/header.php'); ?>
   <div class="ts-main-content">
-    <?php include('includes/leftbar.php'); ?>
+    <?php require_once 'includes/adm_sidebar-left.php';?>
     <div class="content-wrapper">
       <div class="container-fluid">
         <div class="row">

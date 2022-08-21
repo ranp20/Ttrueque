@@ -14,7 +14,7 @@ $sub = $a->get_subcategorias();
 
 ?>
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="es">
 <head>
   <?php require_once 'includes/header_links.php'?>
   <title>Trueque | Administrar Subcategorías</title>
@@ -31,9 +31,9 @@ $sub = $a->get_subcategorias();
 </script>
 <!-- --- Delete category script  --- -->
 <body>
-  <?php include('includes/header.php');?>
+  <?php require_once 'includes/adm_header-top.php';?>
   <div class="ts-main-content">
-    <?php include('includes/leftbar.php');?>
+    <?php require_once 'includes/adm_sidebar-left.php';?>
     <div class="content-wrapper">
       <div class="container-fluid">
         <div class="row">

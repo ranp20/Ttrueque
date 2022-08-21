@@ -15,7 +15,7 @@ $a = new All();
 $cat = $a->get_categorias();
 ?>
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="es">
 <head>
   <?php require_once 'includes/header_links.php'?>
   <title>Trueque | Agregar Productos</title>
@@ -23,7 +23,7 @@ $cat = $a->get_categorias();
 <body>
   <?php include('includes/header.php'); ?>
   <div class="ts-main-content">
-    <?php include('includes/leftbar.php'); ?>
+    <?php require_once 'includes/adm_sidebar-left.php';?>
     <div class="content-wrapper">
       <div class="container-fluid">
         <div class="row fila-contenedor-add-items_all">

@@ -9,15 +9,15 @@ header('location:index.php');
 require_once "../php/class/all.php";
 ?>
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="es">
 <head>
   <?php require_once 'includes/header_links.php'?>
   <title>Trueque | Administrar Pedidos</title>
 </head>
 <body>
-  <?php include('includes/header.php');?>
+  <?php require_once 'includes/adm_header-top.php';?>
   <div class="ts-main-content">
-    <?php include('includes/leftbar.php');?>
+    <?php require_once 'includes/adm_sidebar-left.php';?>
     <div class="content-wrapper">
       <div class="container-fluid">
         <div class="row">

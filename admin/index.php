@@ -8,7 +8,7 @@ if (isset($_SESSION["user_admin"])) {
 ?>
 
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="es">
 <head>
   <?php require_once 'includes/header_links.php' ?>
   <title>Trueque | Login Admin</title>
