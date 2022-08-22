@@ -1,6 +1,6 @@
 <?php
 session_start();
-if(isset($_SESSION["user_admin"])){
+if(isset($_SESSION["adm-logg_ttrueque"])){
   header("Location: dashboard.php");
 }
 ?>
@@ -110,7 +110,7 @@ if(isset($_SESSION["user_admin"])){
       </div>
       <div class="cLoginAdm__cont--imgbanner">
         <div class="img-backdrop-dark"></div>
-        <img src="<?= $url; ?>assets/img/logos/Logo_TTRK.png" alt="banner_login-adm" width="100" height="100">
+        <img src="<?= $url; ?>assets/img/utilities/wallpaper_ttrueque-login.jpg" alt="banner_login-adm" width="100" height="100">
       </div>
     </div>
   </div>

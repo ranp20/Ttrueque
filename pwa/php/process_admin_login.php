@@ -19,7 +19,7 @@ if (isset($_POST["login"])) {
 
         switch ($response) {
             case "ok":
-                $_SESSION["user_admin"] = $user;
+                $_SESSION["adm-logg_ttrueque"] = $user;
 
                 header("Location: ../admin/dashboard.php");
 

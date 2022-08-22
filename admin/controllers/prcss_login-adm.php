@@ -17,7 +17,7 @@ if(isset($_POST) && count($_POST) > 0){
       // $pass_save = substr($_COOKIE['ttrueque_adm-password'], 1, -1);
       if($arr_logiadm['password'] == $getbyU[0]['password_admin']){
         session_start();
-        $_SESSION['user_admin'] = $getbyU[0];
+        $_SESSION["adm-logg_ttrueque"] = $getbyU[0];
         $r = array(
           'r' => 'true',
           'rdata' => $getbyU[0],
@@ -32,7 +32,7 @@ if(isset($_POST) && count($_POST) > 0){
         if($arr_logiadm['chkrempass'] == "on"){
           if(password_verify($arr_logiadm['password'], $getbyU[0]['password_admin'])){
             session_start();
-            $_SESSION['user_admin'] = $getbyU[0];
+            $_SESSION["adm-logg_ttrueque"] = $getbyU[0];
 
             $resadm_email = $getbyU[0]['u_username'];
             $resadm_pass  = $getbyU[0]['password_admin'];
@@ -58,7 +58,7 @@ if(isset($_POST) && count($_POST) > 0){
         }else{
           if(password_verify($arr_logiadm['password'], $getbyU[0]['password_admin'])){
             session_start();
-            $_SESSION['user_admin'] = $getbyU[0];
+            $_SESSION["adm-logg_ttrueque"] = $getbyU[0];
             $r = array(
               'r' => 'true',
               'rdata' => $getbyU[0],

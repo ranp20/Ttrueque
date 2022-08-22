@@ -1,6 +1,6 @@
 <?php
 session_start();
-if(isset($_SESSION["user_admin"])){
+if(isset($_SESSION["adm-logg_ttrueque"])){
   if(isset($_GET['id'])){
     require_once '../php/class/menbresia.php';
     $c = new Menbresia();

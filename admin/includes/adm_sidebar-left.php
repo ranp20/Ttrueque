@@ -1,5 +1,5 @@
 <?php
-$admname = $_SESSION['user_admin']['username_admin'];
+$admname = $_SESSION["adm-logg_ttrueque"]['username_admin'];
 ?>
 <div class="cSideBarLeft">
   

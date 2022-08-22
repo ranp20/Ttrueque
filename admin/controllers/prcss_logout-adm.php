@@ -1,6 +1,6 @@
 <?php 
 	session_start();
-	unset($_SESSION['user_admin']);
+	unset($_SESSION["adm-logg_ttrueque"]);
 	/*
 	$cookie_expiration_time = time() - (10 * 365 * 24 * 60 * 60);
 	setcookie("adm-email", json_encode($resadm_email), $cookie_expiration_time, '/', '', true, true);

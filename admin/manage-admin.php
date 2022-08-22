@@ -1,6 +1,6 @@
 <?php
   session_start();
-  if(isset($_SESSION['user_admin'])){
+  if(isset($_SESSION["adm-logg_ttrueque"])){
     require_once '../php/class/admin.php';
     $a = new Admin();
     $ad = $a->get_admin();

@@ -2,7 +2,7 @@
 session_start();
 error_reporting(0);
 
-if(!isset($_SESSION['user_admin']))
+if(!isset($_SESSION["adm-logg_ttrueque"]))
 {	
 header('location:index.php');
 }
