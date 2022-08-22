@@ -10,7 +10,7 @@ if(isset($_SESSION["adm-logg_ttrueque"])){
   <?php require_once 'includes/header_links.php';?>
   <title>Trueque | Login Admin</title>
 </head>
-<body>
+<body class="c_body-loginAdm">
 
   <div class="cLoginAdm">
     <div id="cMessage-user"></div>
