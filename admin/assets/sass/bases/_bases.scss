@@ -22,7 +22,7 @@ div{
 		opacity: 0;
 	}
 }
-ul{
+ul, li{
 	list-style: none;
 	padding: 0;
 	margin: 0;
@@ -31,6 +31,10 @@ img{
 	max-width: 100%;
 	width: auto;
 	height: auto;
+}
+input::-ms-reveal,
+input::-ms-clear {
+  display: none;
 }
 /* CLASS UTILITIES */
 .box{
@@ -59,4 +63,36 @@ img{
 	margin-right: auto;
 	width: 100%;
 	padding: 1rem;
+}
+.box-small{
+	max-width: $max-width-m;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.one-hidden > option:first-child{
+	display: none !important;
+}
+.img-backdrop-dark{
+	position: absolute;
+	background-color: rgba(0, 0, 0, .5);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	display: block;
+}
+// JUSTIFY-CONTENTS - FLEX
+.flx-justify-center{display: flex !important;justify-content: center !important;}
+.flx-justify-start{display: flex !important;justify-content: flex-start !important;}
+.flx-justify-end{display: flex !important;justify-content: flex-end !important;}
+/* MENSAJE DE ÉXITO O LOADER DE ACCESO */
+#msgAlertLoginSuccess{
+	opacity: .8;
+	@include loaderPoints($theme-clr-btns, #fff);
+}
+/* MENSAJE DE ERROR O ALERTA */
+#msgAlertLoginErr{
+	@include error-message(#fff, red);
 }

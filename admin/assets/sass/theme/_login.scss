@@ -1,0 +1,275 @@
+.c_body-loginAdm{
+	overflow-x: hidden;
+	overflow-y: hidden;
+	/*
+	@media (min-width: 960px) {
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+	*/
+}
+.cLoginAdm{
+	min-height: 100vh;
+	height: 100%;
+	&__cont{
+		display: flex;
+    flex-flow: nowrap row;
+    align-items: center;
+    justify-content: space-between;
+    flex: 0 0 100%;
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    @media (min-width: 960px){
+			position: relative;
+		}
+		&--imgbanner{
+			position: relative;
+			display: none;
+			width: 100%;
+			min-height: 100vh;
+			height: 100%;
+			@media (min-width: 960px){
+				display: block;
+			}
+			img{
+				width: 100%;
+				min-height: 100vh;
+		    height: 100%;
+		    object-fit: cover;
+		    object-position: center;
+			}
+		}
+		&--fLogin{
+			display: flex;
+			flex-flow: column wrap;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+			padding: 1rem;
+			height: 100%;
+			overflow-x: hidden;
+			overflow-y: auto;
+			@media (min-width: 960px){
+		    padding: 0 3.93rem;
+    		max-width: 425px;
+			}
+			/* LOGOTIPO */
+			&--cLogo{
+				min-width: 160px;
+				max-width: 280px;
+				width: auto;
+				margin-left: auto;
+				margin-right: auto;
+				margin-bottom: 1rem;
+				@media (min-width: 960px){
+					min-width: 190px;
+					margin-bottom: 2rem;
+				}
+				img{
+					width: 90%;
+				}
+			}
+			// TITLE - LOGIN
+			&--cTitle{
+				margin-bottom: 1rem;
+				&--title{
+					font-size: 1.65rem;
+					font-weight: 600;
+					color: $theme-clr-titles;
+				}
+			}
+			// FORM - LOGIN
+			&--form{
+				width: 100%;
+				&--cControl{
+					width: 100%;
+			    display: flex;
+			    align-items: center;
+			    justify-content: flex-start;
+					position: relative;
+					margin-bottom: 2rem;
+					&--cIcon{
+						cursor: pointer;
+						position: absolute;
+						right: .5rem;
+						top: 50%;
+						transform: translateY(-50%);
+						width: 33px;
+						height: 33px;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						text-align: center;
+						&--email{
+							fill: #ccc;
+							display: table;
+						}
+						&--pass{
+							fill: #ccc;
+							display: table;
+						}
+					}
+					&--label{
+					}
+					&--input{
+						padding: 0.7rem 2.35rem 0.7rem .5rem;
+						border-top: none;
+						border-bottom: thin solid #ccc;
+						border-left: none;
+						border-right: none;
+						font-size: 1rem;
+						width: 100%;
+						&.focus{
+							border-bottom: thin solid $theme-clr-paragraph;
+						}
+						&.alert{
+							border-bottom: thin solid red;
+						}
+						&.complete{
+							border-bottom: thin solid green;
+						}
+					}
+					&--input_chkset{
+						padding: 0.7rem 2.35rem 0.7rem .5rem;
+						border-top: none;
+						border-bottom: thin solid #ccc;
+						border-left: none;
+						border-right: none;
+						font-size: 1rem;
+						width: 100%;
+				    outline: none;
+				    appearance: menulist-button;
+				    background-image: none !important;
+				    background-color: #e8f0fe !important;
+				    color: #000 !important;
+						&.focus{
+							border-bottom: thin solid $theme-clr-paragraph;
+						}
+						&.alert{
+							border-bottom: thin solid red;
+						}
+						&.complete{
+							border-bottom: thin solid green;
+						}
+					}
+					&--cIptChk{
+						position: relative;
+						display: inline-block;
+						&--input[type="checkbox"]{
+							outline: none;
+							padding: 0;
+							line-height: initial;
+							margin: 0 0.2rem;
+							position: absolute;
+					    left: 0;
+					    top: 0;
+					    width: 100%;
+					    height: 100%;
+					    z-index: 5;
+					    opacity: 0;
+					    cursor: pointer;
+						}
+						&--cLabeltext{
+							margin-bottom: 0;
+							cursor: pointer;
+							width: 45px;
+					    height: 18px;
+					    background: #bbb;
+					    position: relative;
+					    display: table;
+							vertical-align: middle;
+					    border-radius: 46px;
+					    transition: 0.3s;
+					    &:after{
+					    	content: '';
+						    position: absolute;
+						    border-radius: 100%;
+						    left: -2px;
+						    top: -3px;
+						    width: 24px;
+						    height: 24px;
+						    z-index: 2;
+						    background: #fff;
+						    box-shadow: 0 0 5px rgb(0 0 0 / 20%);
+						    transition: 0.3s;
+						    background: #fff;
+					    }
+						}
+						&--input:hover + label:after{
+							box-shadow: 0 1px 9px 0 rgba(0, 0, 0, 0.2), 0 3px 8px 0 rgba(0, 0, 0, 0.15);
+						}
+						&--input:checked + label{
+							background-color: #4BD865;
+						}
+						&--input:checked + label:after{
+  						left: 24px;
+						}
+					}
+					&--cSpanText{
+						position: relative;
+						span{
+							position: relative;
+							top: 1px;
+							margin-right: 0.65rem;
+							vertical-align: middle;
+						}
+					}
+				}
+				&--cBtnsActions{
+					display: block;
+					&--recovPass{
+						display: block;
+						text-align: left;
+						padding-top: 0.8rem;
+						margin-bottom: 1rem;
+						text-decoration: underline;
+						color: $theme-clr-titles;
+					}
+					&--btnLogin{
+						cursor: pointer;
+						display: block;
+						width: 100%;
+						background-color: $theme-clr-btns;
+						border: none;
+						color: $theme-clr-titles-header;
+						padding: 0.8rem .5rem;
+						border-radius: 5px;
+						margin-bottom: 1rem;
+						font-size: .95rem;
+						transition: ease-out .2s;  
+						line-height: 1.5;
+						&:hover{
+							background-color: darken($theme-clr-btns, 10%);
+						}
+					}
+					&--btnAccount{
+						padding-top: 0.5rem;
+						&--link{
+							margin-left: 0.4rem;
+							text-decoration: underline;
+							color: steelblue;
+						}
+					}
+				}
+			}
+			// FOOTER - LOGIN
+			&--cBottInfo{
+				display: none;
+				position: absolute;
+		    bottom: 1.2rem;
+		    margin: 0 auto;
+				@media (min-width: 960px){
+					display: block;
+				}
+				small{
+					font-size: 0.75rem;
+				}
+			}
+		}
+	}
+}

@@ -1,6 +1,5 @@
 <?php
-// $admname = $_SESSION['user_admin']['u_username'];
-$admname = $_SESSION['user_admin'];
+$admname = $_SESSION['user_admin']['username_admin'];
 ?>
 <div class="cSideBarLeft">
   

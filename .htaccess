@@ -58,6 +58,8 @@ RewriteRule ^home_texto?$  ./views_home/presentacion_texto_b.php
 #RewriteRule ^mayores_detalles_three?$  ./views_home/presentacion_texto_three_b.php
 
 ############PAGES ADMIN
+RewriteRule admin?$ admin/index.php
+RewriteRule dashboard?$ admin/dashboard.php
 RewriteRule logout-adm?$ admin/controllers/prcss_logout-adm.php
 
 #########Deshabilitar la cache para los navegadores
