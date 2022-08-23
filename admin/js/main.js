@@ -18,7 +18,10 @@ if(filename == "ajustes" || filename == "banner-principal"){
 	$('.cSideBarLeft--sidenav--c--cList--m--item a[href="' + filename + '"]').addClass("active");
 }
 
-
+$(document).on("click", "li.cSideBarLeft--sidenav--c--cList--m--item.grp-items", function(){	
+	$(this).toggleClass('active');
+	$(this).find('ul.cSideBarLeft--sidenav--c--cList--subm').slideToggle();
+});
 
 
 
