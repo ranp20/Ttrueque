@@ -580,3 +580,75 @@
 		}
 	}
 }
+/* DASHBOARD - CONTENIDO */
+.cContainInfo{
+	&__c{
+		padding: .5rem .5rem .5rem .5rem;
+		@media (min-width: 1024px){
+			padding: .5rem .5rem .5rem 1.5rem;
+		}
+		&__cTitle{
+			display: flex;
+	    align-items: center;
+	    justify-content: space-between;
+	    padding-top: .5rem;
+	    padding-bottom: .5rem;
+	    padding-left: 0;
+	    padding-right: 0;
+	    flex-wrap: wrap;
+	    box-shadow: 0 -2px 0 0px #1797be inset;
+    	margin-bottom: 1rem;
+    	padding-top: .85rem;
+    	padding-bottom: .85rem;
+    	&--title{
+    		font-weight: 600;
+		    font-size: 1.5rem !important;
+		    word-break: break-word;
+		    color: #909fa7;
+		    margin: 0;
+    	}
+		}
+		&__cBody{
+			/* GRUPO DE BOTONES DE ACCIONES DENTRO DEL PANEL */
+			&__cGroupBtnResume{
+				display: flex;
+		    flex-flow: wrap row;
+		    flex: 0 0 100%;
+		    align-items: center;
+		    justify-content: flex-start;
+		    margin-bottom: 1rem;
+
+		    @include grid-fit(287px);
+
+				&__btn{
+					@include btns_group_dashboard(map-keys($button-colors)...);
+		    	@media (min-width: 768px){
+		    		flex: auto;
+		    		flex-flow: nowrap row;
+		    		margin-left: .65rem;
+		    		min-height: 6rem;
+		    		margin-bottom: 0;
+		    	}
+
+		    	&__cIcon{
+		    		display: inline-block;
+				    text-align: left;
+				    color: #fff;
+				    font-size: .9rem;
+		    		svg{
+		    	    vertical-align: middle;
+					    width: 22px;
+					    height: 22px;
+					    margin-right: .5rem;
+					    fill: #fff;
+		    		}
+		    	}
+		    	&__cText{
+		    		color: #fff;
+		    		font-weight: 600;
+		    	}
+				}
+			}
+		}
+	}
+}

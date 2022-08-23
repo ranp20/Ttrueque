@@ -195,3 +195,45 @@
     top: 0;
   }
 }
+/* COLORES PARA LOS BOTONES */
+@mixin btns_group_dashboard($colors...){
+  & {
+    flex: 100%;
+    line-height: 2rem;
+    padding: 0.65rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    min-height: 3.85rem;
+    margin-bottom: 0.5rem;
+    transition: all ease-in-out .15s;
+    background-color: map-get($button-colors, nth($colors, 1));
+    &:hover{
+      background-color: darken(map-get($button-colors, nth($colors, 1)), 10%);
+    }
+    @if length($colors) > 1 {      
+      @for $i from 2 through length($colors) {
+        &.#{nth($colors, $i)} {
+          background-color: map-get($button-colors, nth($colors, $i));
+          &:hover{
+            background-color: darken(map-get($button-colors, nth($colors, $i)), 10%);
+          }
+        }
+      }
+    }
+  }
+}
+/* GRID-CONTAINER - FIT */
+@mixin grid-fit($min-width){
+  & {
+    display: grid;
+    grid-row-gap: 0.5rem;
+    grid-column-gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax($min-width, 1fr));
+    @media (min-width: 960px){
+      grid-column-gap: 0;
+    }
+  }
+}
