@@ -28,23 +28,65 @@ $admname = $_SESSION["adm-logg_ttrueque"]['username_admin'];
               <span>Dashboard</span>
             </a>
           </li>
-          <li class="cSideBarLeft--sidenav--c--cList--m--item">
+          <li class="cSideBarLeft--sidenav--c--cList--m--item grp-items">
             <a href="javascript:void(0);" class="cSideBarLeft--sidenav--c--cList--m--link">
               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" version="1.1" viewBox="0 0 700 700"><g xmlns="http://www.w3.org/2000/svg"><path d="m143.46 33.602c-21.895 0-39.867 18.043-39.867 39.949v145.27c0 21.906 17.969 39.949 39.867 39.949h144.84c21.898 0 39.867-18.043 39.867-39.949v-145.27c0-21.906-17.969-39.949-39.867-39.949z" fill-rule="evenodd"/><path d="m411.7 33.602c-21.863 0-39.863 18.016-39.863 39.949v145.27c0 21.934 18.004 39.949 39.863 39.949h144.89c21.863 0 39.809-18.043 39.809-39.949v-145.27c0-21.906-17.949-39.949-39.809-39.949z" fill-rule="evenodd"/><path d="m143.46 301.18c-21.922 0-39.867 18.078-39.867 39.949v145.32c0 21.871 17.941 39.949 39.867 39.949h144.84c21.922 0 39.867-18.078 39.867-39.949v-145.32c0-21.871-17.941-39.949-39.867-39.949z" fill-rule="evenodd"/><path d="m411.7 301.18c-21.891 0-39.863 18.051-39.863 39.949v145.32c0 21.898 17.977 39.949 39.863 39.949h144.89c21.891 0 39.809-18.078 39.809-39.949v-145.32c0-21.871-17.922-39.949-39.809-39.949z" fill-rule="evenodd"/></g></svg>
               <span>Categorías</span>
             </a>
+            <ul class="cSideBarLeft--sidenav--c--cList--subm">
+              <li class="cSideBarLeft--sidenav--c--cList--subm--item">
+                <a href="add-category.php" class="cSideBarLeft--sidenav--c--cList--subm--link">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" version="1.1" viewBox="0 0 700 700"><g xmlns="http://www.w3.org/2000/svg"><path d="m316.4 67.203v179.2h-179.2v67.199h179.2v179.2h67.199v-179.2h179.2v-67.199h-179.2v-179.2z"/></g></svg>
+                  <span>Agregar categoría</span>
+                </a>
+              </li>
+              <li class="cSideBarLeft--sidenav--c--cList--subm--item">
+                <a href="manage-category.php" class="cSideBarLeft--sidenav--c--cList--subm--link">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="width:18px" width="18px" height="18px" version="1.1" viewBox="0 0 700 700"><g xmlns="http://www.w3.org/2000/svg"><path d="m14 0h112v112h-112z"/><path d="m14 224h112v112h-112z"/><path d="m14 448h112v112h-112z"/><path d="m462 224h-224v112h448v-112z"/><path d="m462 448h-224v112h448v-112z"/><path d="m574 0h-336v112h448v-112z"/></g></svg>
+                  <span>Listar categoría</span>
+                </a>
+              </li>
+            </ul>
           </li>
-          <li class="cSideBarLeft--sidenav--c--cList--m--item">
+          <li class="cSideBarLeft--sidenav--c--cList--m--item grp-items">
             <a href="javascript:void(0);" class="cSideBarLeft--sidenav--c--cList--m--link">
               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25px" height="25px" version="1.1" viewBox="0 0 700 700"><g xmlns="http://www.w3.org/2000/svg"><path d="m334.88 248.08-45.359-3.9219c-3.9219-0.55859-7.8398-2.8008-9.5195-6.7188l-17.359-42c-3.9219-8.9609-16.801-8.9609-20.719 0l-17.359 42c-1.6797 3.9219-5.0391 6.7188-9.5195 6.7188l-45.359 3.9219c-10.078 0.55859-14 12.879-6.1602 19.602l34.719 29.68c3.3594 2.8008 4.4805 6.7188 3.3594 11.199l-11.203 44.242c-2.2383 9.5195 8.3984 17.359 16.801 12.32l39.199-23.52c3.3594-2.2383 7.8398-2.2383 11.762 0l39.199 23.52c8.3984 5.0391 19.039-2.2383 16.801-12.32l-10.641-44.238c-1.1211-3.9219 0.55859-8.3984 3.3594-11.199l34.719-29.68c6.7227-6.1641 2.8008-18.484-6.7188-19.605z"/><path d="m562.8 103.6h-425.6c-29.68 0-53.199 24.078-53.199 53.199v245.28c0 29.68 24.078 53.199 53.199 53.199h425.6c29.68 0 53.199-24.078 53.199-53.199v-244.72c0-29.68-24.078-53.758-53.199-53.758zm18.48 299.04c0 10.641-8.3984 19.039-19.039 19.039h-425.04c-10.641 0-19.039-8.3984-19.039-19.039v-245.28c0-10.641 8.3984-19.039 19.039-19.039h425.6c10.641 0 19.039 8.3984 19.039 19.039v245.28z"/><path d="m520.24 183.12h-126c-9.5195 0-17.359 7.8398-17.359 17.359s7.8398 17.359 17.359 17.359h126.56c9.5195 0 17.359-7.8398 17.359-17.359-0.55469-9.5195-8.3945-17.359-17.918-17.359z"/><path d="m520.24 262.64h-126c-9.5195 0-17.359 7.8398-17.359 17.359s7.8398 17.359 17.359 17.359h126.56c9.5195 0 17.359-7.8398 17.359-17.359 0.003906-9.5195-8.3945-17.359-17.918-17.359z"/><path d="m520.24 342.16h-126c-9.5195 0-17.359 7.8398-17.359 17.359s7.8398 17.359 17.359 17.359h126.56c9.5195 0 17.359-7.8398 17.359-17.359-0.55469-9.5195-8.3945-17.359-17.918-17.359z"/></g></svg>
               <span>Membresías</span>
             </a>
+            <ul class="cSideBarLeft--sidenav--c--cList--subm">
+              <li class="cSideBarLeft--sidenav--c--cList--subm--item">
+                <a href="add-menbresia.php" class="cSideBarLeft--sidenav--c--cList--subm--link">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" version="1.1" viewBox="0 0 700 700"><g xmlns="http://www.w3.org/2000/svg"><path d="m316.4 67.203v179.2h-179.2v67.199h179.2v179.2h67.199v-179.2h179.2v-67.199h-179.2v-179.2z"/></g></svg>
+                  <span>Agregar membresía</span>
+                </a>
+              </li>
+              <li class="cSideBarLeft--sidenav--c--cList--subm--item">
+                <a href="manage-menbresia.php" class="cSideBarLeft--sidenav--c--cList--subm--link">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="width:18px" width="18px" height="18px" version="1.1" viewBox="0 0 700 700"><g xmlns="http://www.w3.org/2000/svg"><path d="m14 0h112v112h-112z"/><path d="m14 224h112v112h-112z"/><path d="m14 448h112v112h-112z"/><path d="m462 224h-224v112h448v-112z"/><path d="m462 448h-224v112h448v-112z"/><path d="m574 0h-336v112h448v-112z"/></g></svg>
+                  <span>Listar membresía</span>
+                </a>
+              </li>
+            </ul>
           </li>
-          <li class="cSideBarLeft--sidenav--c--cList--m--item">
+          <li class="cSideBarLeft--sidenav--c--cList--m--item grp-items">
             <a href="javascript:void(0);" class="cSideBarLeft--sidenav--c--cList--m--link">
               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25px" height="25px" version="1.1" viewBox="0 0 700 700"><g xmlns="http://www.w3.org/2000/svg"><path d="m549.53 316.86c1.9766 1.5938 2.9805 4.1016 2.6523 6.6172v2.6602c-10.703 46.324-36.656 87.715-73.695 117.53-36.527 29.871-79.004 45.148-130.13 45.148-26.266-0.44531-52.281-5.1562-77.031-13.953-24.391-10.262-46.844-24.629-66.383-42.473l-34.539 35.172c-3.5117 3-7.9805 4.6523-12.602 4.6523-4.582-0.23828-8.9844-1.8594-12.625-4.6523-3.0703-3.4844-4.7266-7.9922-4.6445-12.633v-122.82c-0.078125-4.6289 1.5781-9.1211 4.6445-12.594 3.6445-2.7891 8.043-4.4102 12.625-4.6562h122.84c4.168 0.25781 8.1328 1.8984 11.266 4.6562 3.5039 3.2383 5.4414 7.8281 5.3125 12.594 0.38672 4.8242-1.5938 9.5352-5.3125 12.637l-36.5 36.504c12.457 12.312 27.398 21.824 43.824 27.902 15.258 7.9688 33.191 9.9531 50.461 9.9531l-0.003906-0.003906c23.863-0.042969 47.348-5.9727 68.367-17.266 21.09-11.332 38.574-28.359 50.461-49.141 2.6797-2.6484 7.3203-12.602 15.285-31.863v0.003906c0.75781-3.4375 3.7734-5.9102 7.293-5.9766h53.109c1.8789 0.36328 3.6797 1.043 5.332 2.0078zm4.6406-223.09 0.003906-0.003906c-2.9375-4.0664-7.6094-6.5234-12.629-6.6406-4.9258 0.41797-9.4688 2.8164-12.602 6.6406l-35.203 33.855c-19.625-17.73-42.355-31.691-67.043-41.18-24.371-10.262-50.574-15.453-77.016-15.254-47.539-0.71484-93.828 15.262-130.81 45.148-36.832 29.992-62.738 71.297-73.699 117.52v2.668c0 2.6523 1.3242 3.3164 2.6523 5.9688v-0.003906c1.8281 1.6523 4.1875 2.5938 6.6523 2.6484h53.777c3.6562-0.082031 6.8516-2.4805 7.957-5.9648 7.3203-17.926 12.629-29.203 15.277-31.879 11.719-20.914 29.246-37.98 50.469-49.133 20.746-11.48 44.016-17.637 67.723-17.918 35.41-0.48047 69.559 13.129 94.926 37.84l-36.504 36.527c-3.8242 3.1328-6.2148 7.6797-6.6367 12.602 0.12109 5.0156 2.5742 9.6836 6.6367 12.625 2.4453 3.7656 6.8164 5.8203 11.273 5.3008h122.17c4.8203 0.39063 9.5312-1.5859 12.629-5.3008 3.1953-3.4531 5.0742-7.9219 5.3008-12.625v-122.16c-0.37109-4.2695-2.25-8.2695-5.3008-11.277z" fill-rule="evenodd"/></g></svg>
               <span>Recargas</span>
             </a>
+            <ul class="cSideBarLeft--sidenav--c--cList--subm">
+              <li class="cSideBarLeft--sidenav--c--cList--subm--item">
+                <a href="add-recarga.php" class="cSideBarLeft--sidenav--c--cList--subm--link">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" version="1.1" viewBox="0 0 700 700"><g xmlns="http://www.w3.org/2000/svg"><path d="m316.4 67.203v179.2h-179.2v67.199h179.2v179.2h67.199v-179.2h179.2v-67.199h-179.2v-179.2z"/></g></svg>
+                  <span>Agregar recarga</span>
+                </a>
+              </li>
+              <li class="cSideBarLeft--sidenav--c--cList--subm--item">
+                <a href="manage_recargas.php" class="cSideBarLeft--sidenav--c--cList--subm--link">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="width:18px" width="18px" height="18px" version="1.1" viewBox="0 0 700 700"><g xmlns="http://www.w3.org/2000/svg"><path d="m14 0h112v112h-112z"/><path d="m14 224h112v112h-112z"/><path d="m14 448h112v112h-112z"/><path d="m462 224h-224v112h448v-112z"/><path d="m462 448h-224v112h448v-112z"/><path d="m574 0h-336v112h448v-112z"/></g></svg>
+                  <span>Listar recarga</span>
+                </a>
+              </li>
+            </ul>
           </li>
           <li class="cSideBarLeft--sidenav--c--cList--m--item">
             <a href="user-setup.php" class="cSideBarLeft--sidenav--c--cList--m--link">

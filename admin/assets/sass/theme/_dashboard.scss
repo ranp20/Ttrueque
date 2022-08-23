@@ -427,6 +427,35 @@
 				/* PRIMER LISTA DE OPCIONES */
 				&--m{
 					&--item{
+						position: relative;
+						&.grp-items{
+							&:after{
+								content: "";
+						    position: absolute;
+						    top: 15px;
+						    right: 15px;
+						    width: 0;
+						    height: 0;
+						    border-width: 8px;
+						    border-style: solid;
+						    border-color: #fff rgba(0,0,0,0) rgba(0,0,0,0) rgba(0,0,0,0);
+						    display: block;
+							}
+							&.active{
+								&:after{
+									content: "";
+							    position: absolute;
+							    top: 15px;
+							    right: 15px;
+							    width: 0;
+							    height: 0;
+							    border-width: 8px;
+							    border-style: solid;
+							    border-color: rgba(0,0,0,0) rgba(0,0,0,0) #fff rgba(0,0,0,0);
+							    display: block;
+								}	
+							}
+						}
 					}
 					&--link{
 						color: #fff;
@@ -443,6 +472,45 @@
 						}
 						&.active{
 							background-color: darken($theme-clr-bg-dashboard, 10%);
+							box-shadow: 4px 0 0 0 $theme-clr-bg-sidebar-shadow inset;
+							color: $theme-clr-bg-header;
+						}
+						svg{
+							vertical-align: middle;
+							color: #fff;
+							width: 22px;
+							height: 22px;
+							margin-right: 0.5rem;
+							fill: #fff;
+						}
+						span{
+							vertical-align: middle;
+						}
+
+						
+					}
+				}
+				/* PRIMER LISTA DE OPCIONES */
+				&--subm{
+					background-color: darken($theme-clr-bg-dashboard, 10%);
+					&--item{
+						position: relative;
+					}
+					&--link{
+						color: #fff;
+						display: block;
+						padding: 0.65rem 0.5rem 0.65rem 2.5rem;
+	    			font-size: .8rem;
+	    			@media (min-width: 768px){
+							font-size: .95rem;
+						}
+						&:hover{
+							color: #fff;
+							background-color: darken($theme-clr-bg-dashboard, 25%);
+							box-shadow: 4px 0 0 0 $theme-clr-bg-sidebar-shadow inset;
+						}
+						&.active{
+							background-color: darken($theme-clr-bg-dashboard, 25%);
 							box-shadow: 4px 0 0 0 $theme-clr-bg-sidebar-shadow inset;
 							color: $theme-clr-bg-header;
 						}
