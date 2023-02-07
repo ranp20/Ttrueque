@@ -51,13 +51,13 @@ $paises = $all->get_name_country();
         <input type="hidden" name="estado" id="estado" value="<?php echo empty($estado) ? "" : $estado;?>">
         <div class="c-sectMain__cLogg__cFrm__cCtrls">
           <div class="c-sectMain__cLogg__cFrm__cCtrls__cIcon">
-            <img src="img/iconos_home/home-login-mail.svg" alt="">
+            <img src="img/iconos_home/home-login-mail.svg" alt="email_svg" width="100" height="100">
           </div>
           <input type="email" class="c-sectMain__cLogg__cFrm__cCtrls__ipt" required maxlength="200" name="email" id="email" placeholder="Correo electrónico o número de celular">
         </div>
         <div class="c-sectMain__cLogg__cFrm__cCtrls">
           <div class="c-sectMain__cLogg__cFrm__cCtrls__cIcon">
-            <img src="img/iconos_home/home-login-lock.svg" alt="">
+            <img src="img/iconos_home/home-login-lock.svg" alt="password_svg" width="100" height="100">
           </div>
           <input type="password" class="c-sectMain__cLogg__cFrm__cCtrls__ipt" required maxlength="40" name="pass" id="password_in" placeholder="Ingrese su contraseña">
         </div>

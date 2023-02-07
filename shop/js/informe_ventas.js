@@ -1,25 +1,18 @@
 var store = $("#tienda").val();
-//var clientIDsales_paypal = $('#clientIDsales_paypal').val();
 
-
-
-$("#select-mes").on("change", function () {
+$("#select-mes").on("change", () => {
   var nombyear = $(this).val();
-
   $("#list_cartstore_idtienda").html("");
   list_sr_by_year(nombyear);
 });
 
 $(document).ready(function () {
-  
   $.ajax({
     url: "../shop/ajax/list_year_idtienda.php",
     method: "POST",
     dataType: "JSON",
     data: { tienda : store },
-  }).done((e) =>{
-    console.log(e);
-    
+  }).done((e) =>{    
     $.each(e, function(i,v){
       $('#select-mes').append(`
         <option value="${v.id_tienda}}">${v.año}</option>
@@ -31,8 +24,6 @@ $(document).ready(function () {
   var year = today.getFullYear();
   list_sr_by_year(year);
 });
-
-
 
 function list_sr_by_year(i) {
   // console.log(i);
@@ -50,8 +41,6 @@ function list_sr_by_year(i) {
     dataType: "JSON",
     data: { tienda: store, year: i },
   }).done((e) => {
-    console.log(e);
-
 
     var cont_sales = 0;
 

@@ -4,7 +4,7 @@ $(document).ready(function () {
     localStorage.setItem("lang", "es");
   }
   $.getJSON(
-    "./js/actions_pages/lang/" + localStorage.getItem("lang") + ".json",
+    "../js/actions_pages/lang/" + localStorage.getItem("lang") + ".json",
     function (json) {
       //   console.log(json);
       let get = localStorage.getItem("lang");
@@ -18,7 +18,7 @@ $(document).ready(function () {
     // console.log(lang);
     localStorage.setItem("lang", lang);
     $.getJSON(
-      "./js/actions_pages/lang/" + localStorage.getItem("lang") + ".json",
+      "../js/actions_pages/lang/" + localStorage.getItem("lang") + ".json",
       function (json) {
         //RECORRER EL JSON Y REEMPLAZAR EL IDIOMA...
         $(".lang_ttrq").each(function (i, value) {

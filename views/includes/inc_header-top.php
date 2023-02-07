@@ -122,9 +122,9 @@
               <?php
                 foreach($categoria as $key => $val){
                   $e = $val["nombre_categoria"];
-                  $url = str_replace(" ", "-", $e);
+                  $categ_name = str_replace(" ", "-", $e);
                   echo "
-                    <a class='dropdown-item' href='tienda?tipos={$url}'>
+                    <a class='dropdown-item' href='tienda?tipos={$categ_name}'>
                       <span>{$val["nombre_categoria"]}</span>                      
                     </a>";
                 }

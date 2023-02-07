@@ -7,7 +7,7 @@
         <div class="collapse dont-collapse-sm links" id="collapse_1">
           <ul class="list-items-footer-opts">
             <li><a href="shop" class="lang_ttrq" key="opt-l-f_one-4">Mi cuenta</a></li>
-            <li><a href="home" class="lang_ttrq" key="opt-l-f_one-2">Preguntas más frecuentes</a></li>
+            <li><a href="home#preguntas-frecuentes-ttrueque" class="lang_ttrq" key="opt-l-f_one-2">Preguntas más frecuentes</a></li>
             <li><a href="contacto" class="lang_ttrq" key="opt-l-f_one-6">Contacto</a></li>
           </ul>
         </div>
@@ -21,9 +21,9 @@
               $only_six = array_slice($cat_limit, 0, 6);
               foreach($only_six as $key => $val){
                 $e =    $val["nombre_categoria"];
-                $url =    str_replace(" ", "-", $e);
+                $categ_name_foot =    str_replace(" ", "-", $e);
                 echo "<li>
-                  <a class='' href='tienda?tipos={$url}'>
+                  <a class='' href='tienda?tipos={$categ_name_foot}'>
                     <span>{$val["nombre_categoria"]}</span>          
                   </a>
                 </li>";
