@@ -639,11 +639,19 @@ $min-height-header_pagesinfo : 70px;
 }
 
 /* LOGIN */
-#bd_logg-in{
+#bd_sign-in{
 	min-height: 100vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	background: rgb(121,251,191);
 	background: linear-gradient(90deg, rgba(121,251,191,1) 0%, rgba(0,212,255,1) 27%, rgba(103,210,245,1) 51%, rgba(107,167,250,1) 73%, rgba(131,129,245,1) 90%);
+}
+#bd_sign-up{
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	// background: rgb(121,251,191);
+	// background: linear-gradient(90deg, rgba(121,251,191,1) 0%, rgba(0,212,255,1) 27%, rgba(103,210,245,1) 51%, rgba(107,167,250,1) 73%, rgba(131,129,245,1) 90%);
 }

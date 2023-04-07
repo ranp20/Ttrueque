@@ -26,7 +26,7 @@ $paises = $all->get_name_country();
   <link rel="stylesheet" href="node_modules/sweetalert2/dist/sweetalert2.min.css">
   <script type="text/javascript" src="node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
 </head>
-<body id="bd_logg-in">
+<body id="bd_sign-in">
   <?php //require_once 'includes/inc_header-top-home.php';?>
   <?php
 	if(isset($_SESSION["error"])){
