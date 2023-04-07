@@ -217,7 +217,8 @@ $max-height-banner-desktop: 665px;
 				    color: $theme-clr-btns-txt;
 				    display: none;
 				    &:hover{
-				    	background-color: darken($theme-clr-btns-border, 20%);
+				    	// background-color: darken($theme-clr-btns-border, 20%);
+				    	background-color: lighten($theme-clr-btns-border, 20%);
 				    }
 			    }
 			    @media (min-width: 991px){
@@ -443,7 +444,8 @@ $max-height-banner-desktop: 665px;
 										bottom: 0;
 									}
 									&:hover{
-										background-color: $theme-clr-btns-hover;
+										// background-color: $theme-clr-btns-hover;
+										background-color: lighten($theme-clr-btns-border, 20%);
 										color: $theme-clr-btns-txt;
 									}
 								}
@@ -1302,7 +1304,7 @@ $max-height-banner-desktop: 665px;
 						color: #fff;
 						font-weight: 700;
 						padding: 0.75rem 2rem;
-						border-radius: 1.5rem;
+						border-radius: 4px;
 						font-size: 0.9rem;
 						transition: ease-in-out .2s;
 						&:hover{
@@ -1435,10 +1437,11 @@ $max-height-banner-desktop: 665px;
 			height: 70px;
 			margin: 0 auto 1rem auto;
 			@media (min-width: 991px){
-				margin: 0 auto 2rem auto;
+				margin: 0.5rem auto 1.5rem auto;
 			}
 			&--link{
 				text-decoration: none;
+				display: table;
 			}
 			img{
 				width: 100%;
