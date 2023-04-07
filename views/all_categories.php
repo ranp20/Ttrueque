@@ -80,7 +80,7 @@ $all_stores = $stores->select_tienda();
               '<li class="item-categ-stores-into">
                 <a href="./tienda?tipos='.$url_name.'" class="item-cont-categ-stores"> 
                   <div class="cont-logo-categories-str-b-ttrk">
-                    <div class="logo-categ-str-c-ttrk" style="background-image: url('.$url.');"></div>
+                    <img class="img-fluid" src="'.$url.'" alt="'.$url_name.'" width="100" height="100">
                   </div>
                   <div class="cont-info-categ-stores-b-ttrk">
                     <div>

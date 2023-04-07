@@ -19,6 +19,7 @@ $(document).on("submit", "#frm-loginUserTtrq", function(e){
 		if(e != "" && e != "[]"){
 			let r = JSON.parse(e);
 			if(r.res == "true"){
+				$(this).find("button[type=submit]").attr("disabled", true);
 				$('#cont-AlertMssgTtrqUsr').html(`
 				<div class="c-contMssgResultUser" id="c-contMssgResultUser-login">
 			    <div class="c-contMssgResultUser--loader"></div>

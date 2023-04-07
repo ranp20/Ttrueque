@@ -26,8 +26,8 @@ $paises = $all->get_name_country();
   <link rel="stylesheet" href="node_modules/sweetalert2/dist/sweetalert2.min.css">
   <script type="text/javascript" src="node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
 </head>
-<body>
-  <?php require_once 'includes/inc_header-top-home.php';?>
+<body id="bd_logg-in">
+  <?php //require_once 'includes/inc_header-top-home.php';?>
   <?php
 	if(isset($_SESSION["error"])){
 		echo "<script>alert('{$_SESSION["error"]}')</script>";
@@ -43,7 +43,9 @@ $paises = $all->get_name_country();
   <div class="c-sectMain box-redx">
     <section class="c-sectMain__cLogg">
       <div class="c-sectMain__cLogg__cLogo">
-        <img src="img/logo/Login_Web-T-blue.svg" alt="logo_Ttrueque" class="img-fluid" width="100" height="100">
+        <a href="./" class="c-sectMain__cLogg__cLogo--link">
+          <img src="img/logo/Login_Web-T-blue.svg" alt="logo_Ttrueque" class="img-fluid" width="100" height="100">
+        </a>
       </div>
       <div id="alert"></div>
       <form class="c-sectMain__cLogg__cFrm" method="POST" id="frm-loginUserTtrq">
