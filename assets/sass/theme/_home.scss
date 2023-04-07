@@ -1522,7 +1522,7 @@ $max-height-banner-desktop: 665px;
 			  color: #fff;
 			  min-height: 40px;
 			  border-radius: 4px;
-		    font-weight: 800;
+		    font-weight: 600;
 		    border: none;
 		    outline: none;
 		    box-sizing: border-box;
@@ -1601,7 +1601,7 @@ $max-height-banner-desktop: 665px;
 			  width: 100%;
 			  display: block;
 			  box-sizing: border-box;
-			  font-weight: 800;
+			  font-weight: 600;
 		    font-size: .9rem;
 		    transition: ease-in-out .2s;  
 		    border-radius: 4px;
@@ -1685,7 +1685,7 @@ $max-height-banner-desktop: 665px;
 					padding-bottom: 0;
 					padding-left: .6rem;
 					padding-right: 0.65rem;
-					border-radius: 0 4px 4px 0;
+					border-radius: 4px;
 					// background-color: #dfe9f2;
 					@media (min-width: 768px){
 						font-size: 0.9rem;
@@ -1710,7 +1710,7 @@ $max-height-banner-desktop: 665px;
 					padding-bottom: 0;
 					padding-left: .6rem;
 					padding-right: 0.65rem;
-					border-radius: 0 .6rem .6rem 0;
+					border-radius: 4px;
 					min-height: 45.99px;
 					max-height: 45.99px;
   				height: auto;
@@ -1893,11 +1893,9 @@ $max-height-banner-desktop: 665px;
 						margin-left: 0.5rem;
 						font-weight: bold;
 						color: $theme-clr-primary;
+						text-decoration: underline !important;
 						&:active{
 							color: $theme-clr-primary;
-						}
-						&:hover{
-							text-decoration: underline !important;
 						}
 					}
 				}

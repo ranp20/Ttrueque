@@ -61,7 +61,7 @@ $paises = $all->get_name_country();
           <div class="c-sectMain__cLogg__cFrm__cCtrls__cIcon">
             <img src="img/iconos_home/home-login-lock.svg" alt="password_svg" width="100" height="100">
           </div>
-          <input type="password" class="c-sectMain__cLogg__cFrm__cCtrls__ipt" required maxlength="40" name="pass" id="password_in" placeholder="Ingrese su contraseña">
+          <input type="password" autocomplete="true" class="c-sectMain__cLogg__cFrm__cCtrls__ipt" required maxlength="40" name="pass" id="password_in" placeholder="Ingrese su contraseña">
         </div>
         <a href="recuperar-contrasena" class="c-sectMain__cLogg__cFrm__linkrecovery">¿Ha olvidado su contraseña?</a>
         <button type="submit">
