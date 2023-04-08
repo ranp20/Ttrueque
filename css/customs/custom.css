@@ -128,6 +128,7 @@
   opacity: 0;
   visibility: hidden;
   user-select: none;
+  left: -3px;
 }
 .cdetList__inProf.active{
   display: block !important;
@@ -391,12 +392,12 @@
   .navbar-expand-lg .navbar-nav .cont-list-opts-profile.show,
   .navbar-expand-lg .navbar-nav .content-list-categories-naside.show,
   .navbar-expand-lg .navbar-nav .content-all-countries-naside.show{
-      box-shadow: 0 0 7px 2px rgb(0 0 0 / 25%);
+    box-shadow: 0 0 7px 2px rgb(0 0 0 / 25%);
   }
   .content-list-categories-naside{
     background-color: #fff;
     top: 43px;
-    left: -300px !important;
+    left: -311px !important;
   }
   .cont-list-opts-profile .nav_arrow{
     content: "";
@@ -436,7 +437,7 @@
     grid-template-columns: 1fr 1fr;
   }
   .content-all-countries-naside{
-    left: 80px !important;
+    left: 60px !important;
   }
   .content-all-countries-naside .nav_arrow{
     content: "";
@@ -578,6 +579,7 @@
 /************************** COLOR LINKS HEADER **************************/
 .navbar-dark .navbar-nav .nav-link{
   color: #fff !important;
+  font-size: 14px;
 }
 /*CIRCULOS DE CANTIDAD DE PRODUCTOS*/
 #products-more-sells > .owl-dots {

@@ -28,14 +28,13 @@ $(() => {
   var backdropHome = document.querySelector("#backdrop");
   namehoverAll.forEach(function(i,e){
     var namehover = i;
-    namehover.addEventListener("mouseenter",function(){
+    namehover.addEventListener("mouseenter",function(e){
       var attrnamehov = this.getAttribute("data-dropdown-custommenu");
 
       if(attrnamehov == "lst_AllOptsProfile-menu"){
         $("#backdrop").removeClass('hide');
         $(this).addClass('active');
         $(this).next().addClass('active');
-        // console.log($(this).parent().siblings().find("*[data-dropdown-custommenu]").attr('data-dropdown-custommenu'));
         $(this).parent().siblings().find("*[data-dropdown-custommenu]").removeClass('active');
         $(this).parent().siblings().find("*[data-dropdown-custommenu]").next().removeClass('active');
       }else if(attrnamehov == "lst_AllCateg-menu"){
@@ -51,7 +50,7 @@ $(() => {
         $(this).parent().siblings().find("*[data-dropdown-custommenu]").removeClass('active');
         $(this).parent().siblings().find("*[data-dropdown-custommenu]").next().removeClass('active');
       }else{
-        console.log('No es un menu hover')
+        console.log('No es un menu hover');
       }
     });
   });
@@ -59,6 +58,7 @@ $(() => {
   backdropHome.addEventListener("mouseenter", function(){
     namehoverAll.forEach(function(i,e){
       var namehover = i;
+
       if(namehover.classList.contains("active")){
         backdropHome.classList.add("hide");
         namehover.classList.remove('active');
