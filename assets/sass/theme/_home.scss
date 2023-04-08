@@ -1497,6 +1497,23 @@ $max-height-banner-desktop: 665px;
 						height: 46px;
 					}
 				}
+				&__cIconSecond{
+					position: absolute;
+			    right: 0;
+			    top: 50%;
+			    transform: translateY(-50%);
+			    height: 100%;
+			    max-width: 42px;
+			    width: 42px;
+			    padding: 0 .6rem;
+			    display: flex;
+			    align-items: center;
+			    justify-content: center;
+			    svg{
+			    	display: table;
+    				fill: #666;
+			    }
+				}
 			}
 			&__linkrecovery{
 				position: relative;

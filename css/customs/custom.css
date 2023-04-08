@@ -107,6 +107,61 @@
 .contmodal-guide::-webkit-scrollbar-thumb:hover {background: #b3b3b3;box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);}
 .contmodal-guide::-webkit-scrollbar-track {background: #e1e1e1;}
 .contmodal-guide::-webkit-scrollbar-track:active, .contmodal-guide::-webkit-scrollbar-track:hover {background: #d4d4d4;}
+/* BACKDROP PARA LOS DROPDOWN */
+.backdrop, .dark-backdrop{
+  background-color: #212121;
+  bottom: 0;
+  height: 100%;
+  opacity: .7;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1010;
+}
+.hide{
+  display: none;
+}
+/* LISTAS QUE SE MUESTRAN AL HACER HOVER */
+.cdetList__inProf{
+  display: none !important;
+  opacity: 0;
+  visibility: hidden;
+  user-select: none;
+}
+.cdetList__inProf.active{
+  display: block !important;
+  opacity: 1;
+  visibility: visible;
+  user-select: auto;
+}
+
+.cdetList__inCategs{
+  display: none !important;
+  opacity: 0;
+  visibility: hidden;
+  user-select: none;
+}
+.cdetList__inCategs.active{
+  display: block !important;
+  opacity: 1;
+  visibility: visible;
+  user-select: auto;
+}
+
+.cdetList__inCountries{
+  display: none !important;
+  opacity: 0;
+  visibility: hidden;
+  user-select: none;
+}
+.cdetList__inCountries.active{
+  display: block !important;
+  opacity: 1;
+  visibility: visible;
+  user-select: auto;
+}
+
 /*===========================================
 =            CONTENIDO DEL MODAL            =
 ===========================================*/
@@ -373,7 +428,7 @@
     top: -9px;
     right: 78px;
   }
-  .navbar-expand-lg .navbar-nav .content-list-categories-naside.show .l-categories{
+  .navbar-expand-lg .navbar-nav .content-list-categories-naside .l-categories{
     min-width: 485px;
     max-height: 424px;
     overflow-y: auto !important;

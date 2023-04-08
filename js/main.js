@@ -22,4 +22,49 @@ $(() => {
       $("#toTopgobtn").slideDown(500);
     }
   });
+
+  // ----------- HACER HOVER EN UN ELEMENTO CON DROPDOWN
+  var namehoverAll = document.querySelectorAll("*[data-dropdown-custommenu]");
+  var backdropHome = document.querySelector("#backdrop");
+  namehoverAll.forEach(function(i,e){
+    var namehover = i;
+    namehover.addEventListener("mouseenter",function(){
+      var attrnamehov = this.getAttribute("data-dropdown-custommenu");
+
+      if(attrnamehov == "lst_AllOptsProfile-menu"){
+        $("#backdrop").removeClass('hide');
+        $(this).addClass('active');
+        $(this).next().addClass('active');
+        // console.log($(this).parent().siblings().find("*[data-dropdown-custommenu]").attr('data-dropdown-custommenu'));
+        $(this).parent().siblings().find("*[data-dropdown-custommenu]").removeClass('active');
+        $(this).parent().siblings().find("*[data-dropdown-custommenu]").next().removeClass('active');
+      }else if(attrnamehov == "lst_AllCateg-menu"){
+        $("#backdrop").removeClass('hide');
+        $(this).addClass('active');
+        $(this).next().addClass('active');
+        $(this).parent().siblings().find("*[data-dropdown-custommenu]").removeClass('active');
+        $(this).parent().siblings().find("*[data-dropdown-custommenu]").next().removeClass('active');
+      }else if(attrnamehov == "lst_AllCountries-menu"){
+        $("#backdrop").removeClass('hide');
+        $(this).addClass('active');
+        $(this).next().addClass('active');
+        $(this).parent().siblings().find("*[data-dropdown-custommenu]").removeClass('active');
+        $(this).parent().siblings().find("*[data-dropdown-custommenu]").next().removeClass('active');
+      }else{
+        console.log('No es un menu hover')
+      }
+    });
+  });
+  // ----------- REMOVER ELEMENTO DROPDOWN AL HACER HOVER EN EL BACKDROP
+  backdropHome.addEventListener("mouseenter", function(){
+    namehoverAll.forEach(function(i,e){
+      var namehover = i;
+      if(namehover.classList.contains("active")){
+        backdropHome.classList.add("hide");
+        namehover.classList.remove('active');
+        namehover.nextElementSibling.classList.remove('active');
+      }
+    });
+  });
+  
 });
