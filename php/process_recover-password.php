@@ -1,6 +1,7 @@
 <?php 
 
 use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
 require '../email/PHPMailer/Exception.php';
@@ -19,16 +20,13 @@ if(isset($_POST["mail-recover"]) || isset($_POST)){
 	require_once 'class/all.php';
 	$all = new All();
 	$recover_cli = $all->generate_uniqid($recover_pass);
-
 	$get_byemail = $all->get_client_by_email($_POST['mail-recover']);
 
 	if(!empty($recover_cli) && !empty($get_byemail)){
-
 		    
 		$email = $_POST['mail-recover'];
 		$token = $recover_pass['token'];
 		$name_cli = $get_byemail[0]['nombre_cliente'];
-
 		$mail = new PHPMailer(true);
 		 
     try {
@@ -38,13 +36,20 @@ if(isset($_POST["mail-recover"]) || isset($_POST)){
 	    //   $mail->isSMTP();                                                    // Set mailer to use SMTP
 	    $mail->Host       = 'smtp.gmail.com';                                                    // Specify main and backup SMTP servers
 	    $mail->SMTPAuth   = true;                                                       // Enable SMTP authentication
+	    
 	    $mail->Username   = 'melgarejo777666@gmail.com';                 // SMTP username
 	    $mail->Password   = 'melgarejo123';                                                    // SMTP password
+	    
+	    /*
+	    $mail->Username   = 'ranppuntos20@gmail.com';                 
+	    $mail->Password   = 'tqhierakzqraqlhj';                              
+			*/
 	    $mail->SMTPSecure = 'tls';                                                      // Enable TLS encryption, `ssl` also accepted
 	    $mail->Port       =     587; //587;                                          // TCP port to connect to
 
 	    //Recipients
 	    $mail->setFrom('csalazar@csscreativos.com', 'Ttrueque');
+	    // $mail->setFrom('ranppuntos20@gmail.com', 'Ttrueque');
 	    //foreach($correo as $val){
 	    $mail->addAddress($email);                                        // Add a recipient a quien se le enviara el corre
 	    //}
@@ -83,29 +88,23 @@ if(isset($_POST["mail-recover"]) || isset($_POST)){
 	   	</html>';
 
 	    $mail->send();
-
 	    $response = array(
 				'response' => 'true'
 			);
-
-    } catch (Exception $e) {
+    }catch(Exception $e){
       echo "Ocurrio un error al enviar el correo. Error: {$mail->ErrorInfo}";
-
       $response = array(
 				'response' => 'false'
 			);
     }
-
 	}else{
 		$response = array(
 			'response' => 'false'
 		);
 	}
-
 }else{
 	$response = array(
 		'response' => 'false'
 	);
 }
-
 die(json_encode($response));

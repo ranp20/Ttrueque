@@ -51,10 +51,10 @@ $rubros = $all->get_name_rubros();
 						<h3>Crear tu cuenta</h3>
 					</div>
 					<div class="c-sectMain__cAcco__cAcct__cFrm__cCtrls">
-						<input type="email" class="c-sectMain__cAcco__cAcct__cFrm__cCtrls__ipt" name="mail" id="email_2" placeholder="Email" required>
+						<input type="email" class="c-sectMain__cAcco__cAcct__cFrm__cCtrls__ipt" name="mail" id="email_2" placeholder="Correo electrónico" required>
 					</div>
 					<div class="c-sectMain__cAcco__cAcct__cFrm__cCtrls">
-						<input type="password" autocomplete="false" class="c-sectMain__cAcco__cAcct__cFrm__cCtrls__ipt" name="pass" id="password_in_2" placeholder="Password" required>
+						<input type="password" autocomplete="false" class="c-sectMain__cAcco__cAcct__cFrm__cCtrls__ipt" name="pass" id="password_in_2" placeholder="Contraseña" required>
 					</div>
 					<div class="c-sectMain__cAcco__cAcct__cFrm__cGrpCtrls">
 						<div class="c-sectMain__cAcco__cAcct__cFrm__cGrpCtrls__cCtrl w-5">

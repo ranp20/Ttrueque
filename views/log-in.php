@@ -55,7 +55,7 @@ $paises = $all->get_name_country();
           <div class="c-sectMain__cLogg__cFrm__cCtrls__cIcon">
             <img src="img/iconos_home/home-login-mail.svg" class="img-fluid" alt="email_svg" width="100" height="100">
           </div>
-          <input type="email" class="c-sectMain__cLogg__cFrm__cCtrls__ipt" required maxlength="200" name="email" id="email" placeholder="Correo electrónico o número de celular">
+          <input type="email" class="c-sectMain__cLogg__cFrm__cCtrls__ipt" required maxlength="200" name="email" id="email" placeholder="Ingrese su correo electrónico">
         </div>
         <div class="c-sectMain__cLogg__cFrm__cCtrls">
           <div class="c-sectMain__cLogg__cFrm__cCtrls__cIcon">

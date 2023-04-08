@@ -13,9 +13,14 @@ if (isset($_SESSION["user"])){
   <?php require_once 'includes/header_links.php'; ?>
 </head>
 <body>
-	<?php require_once 'includes/inc_header-top.php';?>
+	<?php // require_once 'includes/inc_header-top.php';?>
 	<div class="cont-recover-password">
 		<div class="cont-form-restore">
+			<div class="c-sectMain__cAcco__cAcct--cLogo">
+				<a href="./" class="c-sectMain__cAcco__cAcct--cLogo--link">
+          <img src="img/logo/Login_Web-T-blue.svg" alt="logo_Ttrueque" class="img-fluid" width="100" height="100">
+        </a>
+			</div>
       <input type="hidden" id="tokenbygetclient" value="<?php echo $_GET['token'];?>">
 			<form class="cont-form-restore--form" method="POST" id="restore-pass">
 			  <h3 class="cont-form-restore--form--title">REESTABLEZCA SU CONTRASEÑA</h3>
@@ -29,13 +34,13 @@ if (isset($_SESSION["user"])){
         </div>
 				<div class="cont-form-restore--form--control">
 					<div class="cont-form-restore--form--control--conticon">
-            <img src="img/iconos_home/home-login-lock.svg" alt="">
+            <img src="img/iconos_home/home-login-lock.svg" class="img-fluid" alt="password_svg" width="100" height="100">
           </div>
 					<input type="password" name="mail-recover" class="cont-form-restore--form--control--input" required maxlength="200" placeholder="Nueva contraseña" id="password-one">
 				</div>
         <div class="cont-form-restore--form--control">
           <div class="cont-form-restore--form--control--conticon">
-            <img src="img/iconos_home/home-login-lock.svg" alt="">
+            <img src="img/iconos_home/home-login-lock.svg" class="img-fluid" alt="password_svg" width="100" height="100">
           </div>
           <input type="password" name="mail-recover" class="cont-form-restore--form--control--input" required maxlength="200" placeholder="Confirmar nueva contraseña" id="password-two">
         </div>

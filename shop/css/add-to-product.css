@@ -56,6 +56,7 @@
   width: 100%;
   border: 1px solid var(--divisor);
   padding: 0.5em 0.6em;
+  border-radius: 4px;
 }
 .product-content:nth-child(3) > .form-content{
   border-radius: 20px;
@@ -108,9 +109,6 @@
   border-radius: 1.5rem;
   color: #fff;
 }
-/*=================================
-=            NUEVO CSS            =
-=================================*/
 /*===================================
 =            ANTIGUO CSS            =
 ===================================*/
@@ -119,15 +117,19 @@
   padding: 0 0 0 0;
   margin-bottom: 1em;
   border: 1px solid rgba(0,0,0,.05);
-  border-radius: 20px;
+  border-radius: 8px;
   box-shadow: 5px 15px 20px 0 rgba(0,0,0,.2);
   width: 100%;
+  overflow: hidden;
+  background-color: #fff;
+  border: thin solid #e6e6e6;
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,.1);
 }
 .product-head {
   background: var(--head_contenedor);
   padding: 0.6em 1em;
   border-bottom: 1px solid var(--fondo);
-  border-radius: 20px 20px 0 0;
+/*  border-radius: 20px 20px 0 0;*/
 }
 .product-content:first-child > .form-content,
 .product-content:nth-child(2) > .form-content,
@@ -136,10 +138,10 @@
   background: #fff;
 }
 .product-content:first-child > .form-content{
-  border-radius: 0 0 20px 20px;
+/*  border-radius: 0 0 20px 20px;*/
 }
 .product-content:nth-child(2) > .form-content{
-  border-radius: 20px;
+/*  border-radius: 20px;*/
 }
 .input-product.unidad {
   width: 20%;
@@ -234,6 +236,8 @@
   float: right;
   text-decoration: none !important;
   outline: none;
+  border-radius: 4px;
+  box-shadow: 0px 2px 5px 1px rgba(0,0,0,.1);
 }
 .btn-add-product:hover,
 .btn-update-product:hover,

@@ -11,6 +11,9 @@ $(function(){
 	    $(".cont-form-restore--form--control--icon-check").addClass('disabled');
 	    $("#msgrestore-pass2").text('Los campos no deben quedar vacíos');
 	    $("#msgrestore-pass2").addClass("danger");
+	    if($("#btnupdatepass").hasClass('active')){
+	    	$("#btnupdatepass").removeClass('active');
+	    }
 	  }else if($(this).val() != $("#password-one").val()){
 	  	$("#btnupdatepass").attr('disabled', 'disabled');
 			$("#btnupdatepass").css({"background-color": "#ccc"});
@@ -19,6 +22,9 @@ $(function(){
 	    $(".cont-form-restore--form--control--icon-check").addClass('disabled');
 	    $("#msgrestore-pass2").text('Las contraseñas no coinciden');
 	    $("#msgrestore-pass2").addClass("danger");
+	    if($("#btnupdatepass").hasClass('active')){
+	    	$("#btnupdatepass").removeClass('active');
+	    }
 	  }else{
 	  	$("#btnupdatepass").removeAttr('disabled');
 			$("#btnupdatepass").css({"background-color": "#b80f0f"});
@@ -27,6 +33,9 @@ $(function(){
 	    $(".cont-form-restore--form--control--icon-check").removeClass('disabled');
 	    $("#msgrestore-pass2").text('Las contraseñas son correctas');
 	    $("#msgrestore-pass2").addClass("success");
+	    if(!$("#btnupdatepass").hasClass('active')){
+	    	$("#btnupdatepass").addClass('active');
+	    }
 	  }
 	});
 	/************************** ACTUALIZAR EL TOKEN DEL USUARIO **************************/
