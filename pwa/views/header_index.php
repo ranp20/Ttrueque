@@ -1,3 +1,7 @@
+<?php 
+  $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";
+  $url =  $actual_link . "/" ."Ttrueque/pwa/";
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -12,11 +16,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- //GOOGLE WEB FONTS -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Oxygen:wght@300;400;700&family=Quicksand:wght@300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Sen:wght@400;700;800&family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- BOOTSTRAP DOWNLOADED -->
+  <link rel="stylesheet" href="<?= $url; ?>js/bootstrap/css/bootstrap.min.css">
+  <script type="text/javascript" src="<?= $url; ?>js/bootstrap/js/bootstrap.min.js"></script>
   <!-- //BOOTSTRAP-->
+  <!--
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha256-L/W5Wfqfa0sdBNIKN9cG6QA5F2qx4qICmU2VgLruv9Y="
     crossorigin="anonymous"
   />
+  -->
   <!-- //FONTAWESOWE -->
   <link href="./admin/css/font-awesome.min.css" rel="stylesheet">
   <link href="./css/bootstrap.custom.min.css" rel="stylesheet">

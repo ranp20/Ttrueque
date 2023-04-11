@@ -17,7 +17,7 @@ if($mantenience == 'YES' || $mantenience == 'yes'){
 <?php require_once 'view_home/header_links-home.php';?>
 </head>
 <body>
-<?php	require_once "view_home/presentacion_b.php";?>
+<?php require_once "view_home/presentacion_b.php";?>
 <?php require_once 'view_home/presentacion_texto_b.php';?>
 <div id="toTopgobtn"></div>
 <script type="text/javascript" src="js/home.js"></script>
