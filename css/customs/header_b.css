@@ -110,7 +110,6 @@ li .language_icon_header_b-ttrq .icon-language_ttrq ul li button div {  backgrou
 .custom-search-input_buscador div label span.foco {  position: absolute;  z-index: 9;  top: 0.67rem;  left: 1.2rem;  color: grey;  display: none;}
 /* CONTADOR DE ORDENES Y PEDIDOS */
 .cont-list-opts-profile > a.dropdown-item > #count-trackorder{padding: .2rem .5rem;border-radius: 50%;display: inline;align-items: center;justify-content: center;text-align: center;color: #fff;background-color: var(--primary-clr);}
-
 /* MEDIA QUERIES - INDEX.PHP */
 @media (max-width: 1220px){ 
   .header_b_second-div > .container > #principal-home1{grid-template-columns: 5% 20% 45% auto !important;width: 95%;margin: auto;}
@@ -119,16 +118,13 @@ li .language_icon_header_b-ttrq .icon-language_ttrq ul li button div {  backgrou
 @media (max-width: 1200px){ 
   .header_b_second-div > .container > #principal-home1{grid-template-columns: 5% 20% 45% auto !important;width: 95%;margin: auto;}
 }
-
 @media (max-width: 1152px){
   .header_b_second-div > .container > #principal-home1{grid-template-columns: 5% 20% 45% auto !important;}
 }
-
 @media (max-width: 1024px){
   .header_b_second-div > .container > #principal-home1{grid-template-columns: 5% 20% 45% auto !important;}
   .link-logo_official_ttrueque{}
 }
-
 @media (max-width: 991px){
   .header_b_second-div > .container > #principal-home1{grid-template-columns: 20% auto !important;grid-template-areas: 'logo buscador' 'categorias iconos';grid-template-rows: 64px 64px !important;gap: .2em;}
   .header_b_second-div > .container > #principal-home1 > div:first-child{grid-area: categorias;}
@@ -139,68 +135,50 @@ li .language_icon_header_b-ttrq .icon-language_ttrq ul li button div {  backgrou
   .link-logo_official_ttrueque{width: 115px;}
   .link-logo_official_ttrueque > img{width: auto !important;height: 100%;}
 }
-
-@media (max-width: 960px){
-
-}
-
 @media (max-width: 900px){
   .header_b_second-div > .container > #principal-home1{grid-template-columns: 20% auto !important;grid-template-areas: 'logo buscador' 'categorias iconos';grid-template-rows: 64px 64px !important;gap: .2em;}
   .header-cont-opts-primary{padding-left: 1.3rem;padding-right: 1.3rem;}
   .link-logo_official_ttrueque{width: 115px;}
 }
-
 @media (max-width: 850px){
   .header-cont-opts-primary{padding-left: 1.3rem;padding-right: 1.3rem;}
 }
-
 @media (max-width: 800px){
   .header-cont-opts-primary{padding-left: 1.3rem;padding-right: 1.3rem;}
 }
-
 @media (max-width: 768px){
   .header-cont-opts-primary{padding-left: 1.3rem;padding-right: 1.3rem;}
 }
-
 @media (max-width: 767px) {
   header ul.top_tools {float: none;width: 100%;}
   header ul.top_tools > li:nth-child(4) {display: inline-block;}
   header ul.top_tools > li:last-child {float: left;margin-left: 0;}
   header ul.top_tools > li a {height: 28px;line-height: 28px;}
 }
-
 @media (max-width: 752px){
   .header-cont-opts-primary{padding-left: 1.3rem;padding-right: 1.3rem;}
 }
-
 @media (max-width: 720px){
   .header-cont-opts-primary{padding-left: 1.3rem;padding-right: 1.3rem;}
 }
-
 @media (max-width: 700px){
   .header-cont-opts-primary{padding-left: 1rem;padding-right: 1rem;} 
 }
-
 @media (max-width: 640px){
   .header-cont-opts-primary{padding-left: 1rem;padding-right: 1rem;} 
 }
-
 @media (max-width: 600px){
   .header-cont-opts-primary{padding-left: 1rem;padding-right: 1rem;} 
 }
-
 @media (max-width: 576px){
   .header-cont-opts-primary{  padding-left: 1rem;  padding-right: 1rem;} 
 }
-
 @media (max-width: 550px){
   .header-cont-opts-primary{  padding-left: .5rem;  padding-right: .5rem;} 
 }
-
 @media (max-width: 500px){
   .header-cont-opts-primary{  padding-left: .5rem;  padding-right: .5rem;} 
 }
-
 @media (max-width: 478px){
   .header-cont-opts-primary{  padding-left: .5rem;  padding-right: .5rem;}
   .header_b_second-div > .container > #principal-home1{grid-template-columns: 12% auto !important;grid-template-areas:'logo buscador' 'categorias iconos';grid-template-rows: 55px 43px !important;padding: 0;}
@@ -213,11 +191,9 @@ li .language_icon_header_b-ttrq .icon-language_ttrq ul li button div {  backgrou
   header .main_nav{padding: 0 !important;}
   .header_b_second-div > .container > #principal-home1 > div:last-child{margin-left: 1rem;margin-right: .5rem;}
 }
-
 @media (max-width: 425px){
   .header-cont-opts-primary{  padding-left: .2rem;  padding-right: .2rem;}
 }
-
 @media (max-width: 414px){
   #caja_busqueda_primary{height: 35px;}
   .custom-search-input_buscador button[type="submit"]{top: .17rem;font-size: 1.05rem;right: .3rem;}
@@ -225,28 +201,23 @@ li .language_icon_header_b-ttrq .icon-language_ttrq ul li button div {  backgrou
   .link-logo_official_ttrueque{width: 90px;height: 55px;}
   .header-cont-opts-primary{padding-left: 1rem;padding-right: 1rem;}
 }
-
 @media (max-width: 384px){
   .header-cont-opts-primary{padding-left: .2rem;padding-right: .2rem}
   .link-logo_official_ttrueque{width: 90px;height: 55px;}
 }
-
 @media (max-width: 375px){
   .header-cont-opts-primary{padding-left: .5rem;padding-right: .5rem}
   .link-logo_official_ttrueque{width: 90px;height: 55px;}
   .header-cont-opts-primary{max-width: 860px !important;padding-left: 1rem;padding-right: 1rem;}
 }
-
 @media (max-width: 360px){
   .link-logo_official_ttrueque{  width: 90px;  height: 55px; }
   .header-cont-opts-primary{padding-left: 1rem;  padding-right: 1rem;}
 }
-
 @media (max-width: 350px){
   .link-logo_official_ttrueque{  width: 90px;  height: 55px; }
   .header-cont-opts-primary{padding-left: .2rem;  padding-right: .2rem;}
 }
-
 @media (max-width: 320px){
   .header_b_second-div > .container > #principal-home1 > div:nth-child(2) > a > .ttrq_provider_logo{  top: -12px;  right: 4px;}
   header ul.top_tools{  height: 100%;}
@@ -267,7 +238,6 @@ li .language_icon_header_b-ttrq .icon-language_ttrq ul li button div {  backgrou
   header ul.top_tools li:nth-child(4) > a:before{font-size: 1.2rem;}
   header ul.top_tools li:nth-child(4) > a > span{width: 1rem;height: 1rem;left: .8rem;}
 }
-
 @media (max-width: 280px){
   .header_b_second-div > .container > #principal-home1{  padding: 0 !important;}
   #caja_busqueda_primary{  height: 30px;}
@@ -276,7 +246,6 @@ li .language_icon_header_b-ttrq .icon-language_ttrq ul li button div {  backgrou
   .link-logo_official_ttrueque{  width: 90px;  height: 55px; }
   .header-cont-opts-primary{padding-left: 0 !important;  padding-right: 0 !important;}
 }
-
 @media (max-width: 240px){
   .header_b_second-div > .container > #principal-home1{  padding: 0 !important;}
   #caja_busqueda_primary{  height: 35px;}
@@ -285,13 +254,19 @@ li .language_icon_header_b-ttrq .icon-language_ttrq ul li button div {  backgrou
   .link-logo_official_ttrueque{  width: 90px;  height: 55px; }
   .header-cont-opts-primary{padding-left: 0 !important;padding-right: 0 !important;}
 }
-
-
 /* NEW STYLES INTO HEADER_B */
-.cont-list-opts-profile > a.dropdown-item{padding: .5rem 1rem !important;}
+/* OPTIONS - PROFILE */
+.cont-list-opts-profile > a.dropdown-item{padding: .5rem 1rem;transition: none;}
+.cont-list-opts-profile > a.dropdown-item:hover{background-color: #99a0a8;}
 .cont-list-opts-profile > a.dropdown-item i{font-size: 1.2rem;} 
 .cont-list-opts-profile > a.dropdown-item span:first-child{margin-left: 0;margin-right: 0;margin-top: 0;margin-bottom: 0;}
 .cont-list-opts-profile > a.dropdown-item span{margin-left: 0.8rem;}
+/* OPTIONS - CATEGORIES */
+.content-list-categories-naside .l-categories a.dropdown-item{transition: none;}
+.content-list-categories-naside .l-categories a.dropdown-item:hover{background-color: #99a0a8;}
+/* OPTIONS - COUNTRIES */
+.content-all-countries-naside > button.dropdown-item{transition: none;}
+.content-all-countries-naside > button.dropdown-item:hover{background-color: #99a0a8;}
 /* LOGO DE TTRUEQUE */
 .cont-logo-ttrq-nav{padding: 0;margin: 0 2rem 0 0 !important;}
 .cont-logo-ttrq-nav img{width: 115px;}
@@ -327,7 +302,6 @@ li .language_icon_header_b-ttrq .icon-language_ttrq ul li button div {  backgrou
 .search-input-customs-header .c-contentSearchTtrq--cont ul{list-style: none !important;width: 100% !important;margin: 0 !important;padding: 0;}
 .search-input-customs-header .c-contentSearchTtrq--cont > ul > li > a{display: block;padding: .4rem 0 .4rem 1rem !important;color: #000;text-decoration: none !important;}
 .search-input-customs-header .c-contentSearchTtrq--cont > ul > li > a:hover{background: #dddd;}
-
 @media (max-width: 992px) {
   .con-t-countries-link:before,
   .con-t-profile-opts-link:before{

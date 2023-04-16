@@ -1314,11 +1314,11 @@
 }
 .cContactsMain--c--cF--cTitle--title{
   padding-bottom: 3px;
-  width: max-content;
   margin-left: auto;
   margin-right: auto;
   position: relative;
   color: #003857;
+  word-break: break-word;
 }
 .cContactsMain--c--cF--cTitle--title:after{
   content: "";
@@ -1326,7 +1326,7 @@
   bottom: -3px;
   left: 50%;
   transform: translateX(-50%);
-  width: 40%;
+  width: 13%;
   height: 3px;
   background-color: #09A98F;
 }
@@ -1335,6 +1335,26 @@
   width: 95%;
   margin-left: auto;
   margin-right: auto;
+}
+.cContactsMain--c--cF--form input{
+  border-radius: 4px;
+  width: 100%;
+  outline: none;
+  border: thin solid #004D74;
+  padding: 0.6rem 1rem .6rem 3rem;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+.cContactsMain--c--cF--form textarea{
+  width: 100%;
+  outline: none;
+  border: thin solid #004D74;
+  padding: 0.6rem 1rem .6rem 3rem;
+  border-radius: 4px;
+  line-height: 1.5;
+  font-size: 1rem;
+  min-height: 8.5rem;
+  max-height: 8.5rem;
 }
 .cContactsMain--c--cF--form--control{
   width: 100%;
@@ -1351,28 +1371,8 @@
   transform: translateY(-42%);
   left: 12px;
 }
-.cContactsMain--c--cF--form--control input{
-  width: 100%;
-  outline: none;
-  border: thin solid #004D74;
-  padding: 0.6rem 1rem .6rem 3rem;
-  border-radius: 1rem;
-  line-height: 1.5;
-  font-size: 1rem;
-}
 .cContactsMain--c--cF--form--controltextarea{
   position: relative;
-}
-.cContactsMain--c--cF--form--controltextarea textarea{
-  width: 100%;
-  outline: none;
-  border: thin solid #004D74;
-  padding: 0.6rem 1rem .6rem 3rem;
-  border-radius: 1rem;
-  line-height: 1.5;
-  font-size: 1rem;
-  min-height: 8.5rem;
-  max-height: 8.5rem;
 }
 .cContactsMain--c--cF--form--controltextarea--icon{
   position: absolute;
@@ -1426,15 +1426,13 @@
   margin-top: 1rem;
   margin-left: auto;
   margin-right: auto;
-  overflow: none;
   background-color: transparent;
   border: thin solid #004D74;
   padding: .6rem 3rem;
-  border-radius: 1.5rem;
   line-height: 1.5;
-  font-size: 1rem;
   color: #004D74;
-  transition: .2s ease-in-out;
+  border-radius: 6px;
+  box-shadow: 0px 2px 5px 1px rgb(0 0 0 / 10%);
 }
 .cContactsMain--c--cF--form--btnsendMessage:hover{
   color: #fff;

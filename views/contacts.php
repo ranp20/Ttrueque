@@ -95,15 +95,12 @@ if (!isset($_SESSION['user'])) {
 	</div>
   <div  id="toTopgobtn"></div>
   <script type="text/javascript" src="./js/main.js"></script>
-  <!--------- CUSTOMS JAVASCRIPT--------->
   <script type="text/javascript" src="./js/actions_pages/language_currency.js"></script>
   <script type="text/javascript" src="./js/actions_pages/contact.js"></script>
   <script type="text/javascript" src="js/actions_pages/buy_cart.js"></script>
   <script type="text/javascript" src="./js/actions_pages/view_cart.js"></script>
   <script type="text/javascript" src="./js/actions_pages/remove.js"></script>
-   
   <script type="text/javascript" src="js/actions_pages/all_pages_index.js"></script>
   <script type="text/javascript" src="js/actions_pages/listCategories_ByStore.js"></script>
-   
 </body>
 </html>

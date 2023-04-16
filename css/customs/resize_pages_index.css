@@ -336,7 +336,6 @@
 @media (min-width: 993px){
   .search-input-customs-header{margin: 0 .5rem;}
   .search-input-customs-header > .container-search{width: 93.7%;}
-  .cont-list-opts-profile > a.dropdown-item{font-size: 0.9rem;padding: 0.4rem 1rem !important;}
   .content-list-categories-naside > a.dropdown-item{font-size: 0.9rem;}
   .content-list-categories-naside > a.dropdown-item{color: #000;padding: 0.4rem 1.5rem;}
   #cart-buy-list li .content-info-p-prods{grid-template-columns: 17% 81%;}
@@ -365,7 +364,6 @@
 }
 /* TAMAÑO - DESKTOP */
 @media (min-width: 1025px){
-  .cont-list-opts-profile > a.dropdown-item{padding: 0.5rem 1rem !important;}
   .content-list-categories-naside > a.dropdown-item{padding: 0.5rem 1.5rem;}
 }
 /* CUSTOMS MEDIA QUERIES */
@@ -378,7 +376,6 @@
 @media (min-width: 1300px){.search-input-customs-header > .container-search{width: 96.1%;}}
 /* TAMAÑO - DESKTOP HD */
 @media (min-width: 1400px){
-  .cont-list-opts-profile > a.dropdown-item{font-size: 0.95rem;}
   #carousel-home .owl-carousel .owl-stage-outer .owl-stage .owl-item .owl-slide div .container div div .slide-text h2{font-size: 2.4rem !important;}
   .container-banner-pub_ttrq .content-b-pub_ttrq .content-left-info-banner-publicity_ttrq .content-description-banner-publicity h1{font-size: 2.5rem;}
   .container-banner-pub_ttrq .content-b-pub_ttrq .content-left-info-banner-publicity_ttrq .content-description-banner-publicity h4{font-size: 1.4rem;}
