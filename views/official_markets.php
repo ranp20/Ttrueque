@@ -72,8 +72,10 @@
 			</ul>
 		</section>
 		<div class="content-btn-more-brands-ttrk" id="btn-filter-stores-index">
-			<a href="allstores" class="btn-brands-alls-ttrk">
-				<button type="button" class="btn-into-alls-ttrk lang_ttrq" key="btn-all-stores_ttrq">Ver todas las tiendas</button>
-			</a>
+			<h3>			
+				<a href="allstores" class="btn-brands-alls-ttrk">
+					<button type="button" class="btn-into-alls-ttrk lang_ttrq" key="btn-all-stores_ttrq">Ver todas las tiendas</button>
+				</a>
+			</h3>
 		</div>
 	</div>

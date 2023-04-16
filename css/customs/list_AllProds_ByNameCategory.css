@@ -1,8 +1,8 @@
 #classlist_ProdsByNameCategories .contain__cont--info--btnsiconsadap .contain__cont--info--btnsiconsadap--icon{flex: 0 0 100%;}
 #classlist_ProdsByNameCategories .contain__cont--info--btnsiconsadap{margin-bottom: 1.5rem;}
 #classlist_ProdsByNameCategories .contain__cont--products #filter_byNameCategory .alert-warning{margin: 1rem 0;}
-.btn-allCategoriesLinkShow{ border: none;  background: var(--secondary-clr);  color: #fff;  border-radius: 20px;  line-height: 1;  padding: .9rem 1.5rem;  text-align: center;  transition: unset;  text-decoration: none;  font-size: 0.9rem;  font-weight: bold;  font-family: var(--fuente-categorias_3);  display: block;  width: max-content;  margin: 2rem auto 1rem auto;}
-.btn-allCategoriesLinkShow:hover{color: #fff;}
+.btn-allCategoriesLinkShow{ border: none;  background: var(--secondary-clr);  color: #fff;line-height: 1;  padding: .9rem 1.5rem;  text-align: center;  transition: unset;  text-decoration: none;  font-size: 0.9rem;  font-weight: bold;  font-family: var(--fuente-categorias_3);  display: block;  width: max-content;  margin: 2rem auto 1rem auto;border-radius: 4px;box-shadow: 0px 2px 5px 1px rgba(0,0,0,.1);}
+.btn-allCategoriesLinkShow:hover{color: #fff;background-color: var(--hov-secondary-clr);}
 @media (min-width: 480px){
 	.btn-allCategoriesLinkShow{font-size: 1rem;}
 }
@@ -10,5 +10,5 @@
 	#classlist_ProdsByNameCategories{display: grid;grid-template-columns: auto 1fr;grid-column-gap: 1.2rem;}
 	#classlist_ProdsByNameCategories .c-sidebarLeft__filtericons .contain__cont--info--filter{border: none;}
 	#classlist_ProdsByNameCategories .contain__cont--products #filter_byNameCategory .alert-warning{margin: 0;}
-	.btn-allCategoriesLinkShow{grid-column: span 2;padding: 1rem 2rem;border-radius: 1.5rem;}
+	.btn-allCategoriesLinkShow{grid-column: span 2;padding: 1rem 2rem;}
 }

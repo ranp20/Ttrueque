@@ -81,7 +81,6 @@
 .total-cant-pay-store-cart_ttrq > button > span:nth-child(2) {margin: 0 0.2rem;  font-size: 1.15rem;}
 .content-total-points-cart_ttrq {margin: 1.1rem 0;  text-align: center;  display: flex;  align-items: center;  justify-content: center;}
 .content-total-points-cart_ttrq h4 {background: var(--secondary-clr) !important;  padding: 0.45rem 1rem;  border-radius: 5px;  text-decoration: none;  color: #fff;  transition: all 0.4s;  display: flex;  align-items: center;  margin: 0 !important;  justify-content: center;flex-wrap: wrap;font-size: .95rem;}
-.content-total-points-cart_ttrq h4:hover {transform: translateY(-10px);  box-shadow: 0 6px 10px 1px rgba(0, 0, 0, 0.25);}
 .content-total-points-cart_ttrq h4 p {margin: 0 !important;}
 .content-total-points-cart_ttrq h4 span:nth-child(2), .content-total-points-cart_ttrq h4 span:nth-child(3) {font-weight: bold;}
 /*  CONTENEDOR DEL BOTÓN ELIMINAR */

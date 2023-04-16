@@ -944,9 +944,6 @@
 .contain-btn-go-to-cart_ttrq > a:hover{
   background-color: var(--hov-secondary-clr);
 }
-.contain-btn-go-to-cart_ttrq > a:active{
-  transform: scale(.95);
-}
 /* BOTÓN SUBIR */
 #toTop{
   position: fixed;
@@ -1208,7 +1205,6 @@
   .container_cart_lis-ttrq > .content-list_cart_hb_ttrq > .contain-title-cart-sdleft_ttrq > a{font-weight: 900;font-size: 1.1rem;padding: 0.3rem 0.75rem;}
   .cont-msg-any-products-cart > img{width: 70px;height: 70px;}
   .contain-btn-go-to-cart_ttrq > a span{font-size: 1.15rem;}
-  .contain-btn-go-to-cart_ttrq > a{padding: 0.8rem 0;}
 }
 
 

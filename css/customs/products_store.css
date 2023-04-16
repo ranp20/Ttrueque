@@ -6,7 +6,7 @@
 /*BOTÓN PARA VER TODAS LOS PRODUCTOS*/
 .content-btn-more-brands-ttrk{    margin: 100px auto 60px auto;    width: 100%;    text-align: center;}
 .content-btn-more-brands-ttrk > .btn-brands-alls-ttrk{	min-width: 235px;}
-.content-btn-more-brands-ttrk > .btn-brands-alls-ttrk > .btn-into-alls-ttrk{	font-size: 20px;    border: none;    background: var(--secondary-clr);    color: var(--tertiary-clr);    border-radius: 4px;    line-height: 1;    padding: .875rem 2.5rem;    text-align: center;    transition: ease .3s;font-family: var(--fuente-categorias_3);font-weight: bold;outline: none;box-shadow: 0px 2px 5px 1px rgba(0,0,0,.1);}
+.content-btn-more-brands-ttrk > .btn-brands-alls-ttrk > .btn-into-alls-ttrk{	font-size: 20px;    border: none;background: var(--secondary-clr);    color: var(--tertiary-clr);    border-radius: 4px;    line-height: 1;    padding: .875rem 2.5rem;    text-align: center;font-weight: bold;outline: none;box-shadow: 0px 2px 5px 1px rgba(0,0,0,.1);}
 .content-btn-more-brands-ttrk > .btn-brands-alls-ttrk > .btn-into-alls-ttrk:hover{	background: var(--hov-secondary-clr);color: var(--tertiary-clr);}
 /* RESULTADOS DE PRODUCTOS POR CATEGORIÍA -> TIENDA*/
 .item-product-stores-into{    width: 222px;    border: 1px solid #dddd;    border-radius: 12px;    background: #fff;    position: relative;    overflow: hidden;    margin: 1rem 0.625rem 1rem 0;    text-decoration: none;    transition: all ease .4s;min-height: 360px;max-height: 360px;height: 100%;}

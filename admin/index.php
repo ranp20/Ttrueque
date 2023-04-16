@@ -11,7 +11,6 @@ if(isset($_SESSION["adm-logg_ttrueque"])){
   <title>Trueque | Login Admin</title>
 </head>
 <body class="c_body-loginAdm">
-
   <div class="cLoginAdm">
     <div id="cMessage-user"></div>
     <div class="cLoginAdm__cont">
@@ -31,12 +30,12 @@ if(isset($_SESSION["adm-logg_ttrueque"])){
               $tmp_email = "";
               if(count($_COOKIE) > 0){
                 if(isset($_COOKIE['ttrueque_adm-email'])){
-                  $tmp_email = "<input type='email' name='email-adm' id='email-adm' class='cLoginAdm__cont--fLogin--form--cControl--input_chkset' placeholder='Correo electrónico' maxlength='200' required autocomplete='off' spellcheck='false' value='". json_decode($_COOKIE['ttrueque_adm-email'], true) ."'>";
+                  $tmp_email = "<input type='email' name='email-adm' id='email-adm' class='cLoginAdm__cont--fLogin--form--cControl--input_chkset' placeholder='Correo electrónico' maxlength='200' required autocomplete='on' spellcheck='false' value='". json_decode($_COOKIE['ttrueque_adm-email'], true) ."'>";
                 }else{
-                  $tmp_email = "<input type='email' name='email-adm' id='email-adm' class='cLoginAdm__cont--fLogin--form--cControl--input' placeholder='Correo electrónico' maxlength='200' required autocomplete='off' spellcheck='false'>";
+                  $tmp_email = "<input type='email' name='email-adm' id='email-adm' class='cLoginAdm__cont--fLogin--form--cControl--input' placeholder='Correo electrónico' maxlength='200' required autocomplete='on' spellcheck='false'>";
                 }
               }else{
-                $tmp_email = "<input type='email' name='email-adm' id='email-adm' class='cLoginAdm__cont--fLogin--form--cControl--input' placeholder='Correo electrónico' maxlength='200' required autocomplete='off' spellcheck='false'>";
+                $tmp_email = "<input type='email' name='email-adm' id='email-adm' class='cLoginAdm__cont--fLogin--form--cControl--input' placeholder='Correo electrónico' maxlength='200' required autocomplete='on' spellcheck='false'>";
               }
               echo $tmp_email;
             ?>
