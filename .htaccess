@@ -16,9 +16,7 @@ RewriteRule ^cliente/store/([0-9]+)/([0-9]+)  shop/add-store.php?prod=$1&memb=$2
 
 ########Rename files into index
 RewriteRule ^cliente/menbresia?$  shop/menbresia-products.php
-
 RewriteRule ^/?$  views/index.php
-
 RewriteRule ^login?$  views/log-in.php
 RewriteRule ^account?$  views/account.php
 RewriteRule ^product-detail?$  views/product-detail.php
@@ -37,7 +35,6 @@ RewriteRule ^confirm?$ views/confirm.php
 RewriteRule ^allstores?$ views/all_stores.php
 RewriteRule ^allcategories?$ views/all_categories.php
 RewriteRule ^contacto?$ views/contacts.php
-
 
 ##########################################
 RewriteRule ^page_one?$  ./view_home/presentacion_texto_one_b.php
@@ -62,21 +59,30 @@ RewriteRule admin?$ admin/index.php
 RewriteRule dashboard?$ admin/dashboard.php
 RewriteRule logout-adm?$ admin/controllers/prcss_logout-adm.php
 
-#########Deshabilitar la cache para los navegadores
-<IfModule mod_headers.c>
-  Header set Cache-Control "no-cache, no-store, must-revalidate"
-  Header set Pragma "no-cache"
-  Header set Expires 0
-</IfModule>
-
-
 #############COMPRESIÓN GZIP
 <IfModule mod_deflate.c>
-  # force compression for clients that mangle 'Accept-Encoding' request headers
   <IfModule mod_setenvif.c>
   <IfModule mod_headers.c>
     SetEnvIfNoCase ^(Accept-EncodXng|X-cept-Encoding|X{15}|~{15}|-{15})$ ^((gzip|deflate)\s*,?\s*)+|[X~-]{4,13}$ HAVE_Accept-Encoding
     RequestHeader append Accept-Encoding "gzip,deflate" env=HAVE_Accept-Encoding
+
+    #########Deshabilitar la cache para los navegadores
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+    Header set Pragma "no-cache"
+    Header set Expires 0
+
+    RewriteCond "%{HTTP:Accept-encoding}" "br"
+    RewriteCond "%{REQUEST_FILENAME}\.br" "-s"
+
+    RewriteRule "^(.*)\.(js|css)"              "$1\.$2\.br" [QSA]
+    RewriteRule "\.css\.br$" "-" [T=text/css,E=no-gzip:1]
+    RewriteRule "\.js\.br$"  "-" [T=text/javascript,E=no-gzip:1]
+
+    <FilesMatch "(\.js\.br|\.css\.br)$">
+        Header append Content-Encoding br
+        Header append Vary Accept-Encoding
+    </FilesMatch>
+
   </IfModule>
   </IfModule>
 

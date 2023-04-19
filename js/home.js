@@ -23,13 +23,16 @@ $(() => {
   const linksParent = $(".c-bannerH__nav__clinks__cSideLeft__m");
   const links = linksParent.find("a");
   const items = $(".c-infTbs__c__item");
-  links.eq(0).add(items.eq(0)).addClass("active");
-  linksParent.on("click", "a", function(e) {
+  // links.eq(0).add(items.eq(0)).addClass("active");
+  links.parent().eq(0).add(items.eq(0)).addClass("active");
+  linksParent.on("click", "a", function(e){
     let target = $(this.getAttribute("href"));
     let t = $(this);
-    let ind = t.index();
-    t.add(items.eq(ind)).addClass("active").siblings().removeClass("active");
-    if (target.length) {
+    // let ind = t.index();
+    let ind = t.parent().index();
+    // t.add(items.eq(ind)).addClass("active").siblings().removeClass("active");
+    t.parent().add(items.eq(ind)).addClass("active").siblings().removeClass("active");
+    if(target.length){
       e.preventDefault();
       $("html, body").stop().animate({ scrollTop: target.offset().top - 55 }, 1000 );
     }

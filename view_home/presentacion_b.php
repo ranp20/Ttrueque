@@ -14,47 +14,47 @@ $path_b_p = "admin/images/banner_principal/";
       </button>
       <div class="c-bannerH__nav__clinks__cSideLeft collapse navbar-collapse p-lg-0 mt-5 mt-lg-0 d-flex flex-column flex-lg-row flex-xl-row justify-content-lg-between mobileMenu tabs-header nav-home-collapse" id="navbarSupportedContent">
         <ul class="c-bannerH__nav__clinks__cSideLeft__m navbar-nav align-self-stretch d-flex justify-content-between cont-tabs-principal-home">
-          <a href="#textoinicioshome" class='c-bannerH__nav__clinks__cSideLeft__m__link' title="Inicio">
-            <li class="nav-item dropdown">
+          <li class="c-bannerH__nav__clinks__cSideLeft__m__i nav-item dropdown">
+            <a href="#textoinicioshome" class='c-bannerH__nav__clinks__cSideLeft__m__link' title="Inicio">
               <span>INICIO</span>
-            </li>
-          </a>
-          <a href="#que-es-ttrueque" class='c-bannerH__nav__clinks__cSideLeft__m__link' title="¿Qué es?">
-            <li class="nav-item dropdown">
+            </a>
+          </li>
+          <li class="c-bannerH__nav__clinks__cSideLeft__m__i nav-item dropdown">
+            <a href="#que-es-ttrueque" class='c-bannerH__nav__clinks__cSideLeft__m__link' title="¿Qué es?">
               <span>¿QUÉ ES?</span>
-            </li>
-          </a>
-          <a href="#guia-al-comprador-ttrueque" class='c-bannerH__nav__clinks__cSideLeft__m__link' title="Guía al comprador">
-            <li class="nav-item dropdown">
+            </a>
+          </li>
+          <li class="c-bannerH__nav__clinks__cSideLeft__m__i nav-item dropdown">
+            <a href="#guia-al-comprador-ttrueque" class='c-bannerH__nav__clinks__cSideLeft__m__link' title="Guía al comprador">
               <span>GUÍA AL COMPRADOR</span>
-            </li>
-          </a>
-          <a href="#guia-al-vendedor-ttrueque" class='c-bannerH__nav__clinks__cSideLeft__m__link' title="Guía al vendedor">
-            <li class="nav-item dropdown">
+            </a>
+          </li>
+          <li class="c-bannerH__nav__clinks__cSideLeft__m__i nav-item dropdown">
+            <a href="#guia-al-vendedor-ttrueque" class='c-bannerH__nav__clinks__cSideLeft__m__link' title="Guía al vendedor">
               <span>GUÍA AL VENDEDOR</span>
-            </li>
-          </a>
-          <a href="#preguntas-frecuentes-ttrueque" class='c-bannerH__nav__clinks__cSideLeft__m__link' title="Preguntas frecuentes">
-            <li class="nav-item dropdown">
+            </a>
+          </li>
+          <li class="c-bannerH__nav__clinks__cSideLeft__m__i nav-item dropdown">
+            <a href="#preguntas-frecuentes-ttrueque" class='c-bannerH__nav__clinks__cSideLeft__m__link' title="Preguntas frecuentes">
               <span>PREGUNTAS FRECUENTES</span>
-            </li>
-          </a>
+            </a>
+          </li>
           <?php
             if(isset($_SESSION["user"])){
               echo "
+              <li class='c-bannerH__nav__clinks__cSideLeft__m__i nav-item dropdown'>
                 <a href='./' class='c-bannerH__nav__clinks__cSideLeft__m__link' title='Tiendas Ttrueque'>
-                  <li class='nav-item dropdown'>
-                    <span>TIENDAS TTRUEQUE</span>
-                  </li>
+                  <span>TIENDAS TTRUEQUE</span>
                 </a>
+              </li>
               ";
             }else{
               echo "
+              <li class='c-bannerH__nav__clinks__cSideLeft__m__i nav-item dropdown'>
                 <a href='login' class='c-bannerH__nav__clinks__cSideLeft__m__link' title='Tiendas Ttrueque'>
-                  <li class='nav-item dropdown'>
-                    <span>TIENDAS TTRUEQUE</span>
-                  </li>
+                  <span>TIENDAS TTRUEQUE</span>
                 </a>
+              </li>
               ";
             }
           ?>

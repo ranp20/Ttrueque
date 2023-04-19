@@ -129,6 +129,40 @@ $max-height-banner-desktop: 665px;
 			    margin: 0;
 			    overflow-y: auto;
 			    max-height: unset;
+			    &__i{
+			    	flex: auto;
+				    text-align: center;
+				    color: #fff;
+				    transition: .2s ease;
+				    font-weight: bold;
+				    font-size: 0.84rem;
+				    display: block;
+				    border-right: unset;
+				    padding: 0;
+				    margin: 0;
+				    border-radius: 0;
+				    &.active{
+				    	background-color: darken($theme-clr-primary, 10%);
+				    }
+				    &:hover{
+				    	color: #fff;
+				    	background-color: darken($theme-clr-primary, 10%);
+				    }
+				    @media (min-width: 991px){
+				    	margin: 0;
+				    	padding: 0;
+				    	border-top: none;
+				    	border-left: none;
+				    	border-right: thin solid #80808057;
+				    	border-bottom: none;
+				    	&:last-child{
+				    		border-top: none;
+					    	border-left: none;
+					    	border-right: none;
+					    	border-bottom: none;
+				    	}
+				    }
+			    }
 			    &__link{
 			      flex: auto;
 				    text-align: center;
@@ -156,8 +190,6 @@ $max-height-banner-desktop: 665px;
 				    	background-color: darken($theme-clr-primary, 10%);
 				    }
 				    @media (min-width: 991px){
-				    	// margin: .5rem 0rem .5rem 0rem;
-				    	// padding: .1rem 0 .1rem 0;
 				    	margin: 0;
 				    	padding: 1.557rem 0 1.56rem 0;
 				    	border-top: none;
