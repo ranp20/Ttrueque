@@ -1791,7 +1791,6 @@ $max-height-banner-desktop: 665px;
 						min-height: 45.99px;
 						max-height: 45.99px;
 	  				height: auto;
-	  				// background-color: #dfe9f2;
 	  				&.one-hidd{
 	  					option{
 	  						&:first-child{
@@ -1799,6 +1798,23 @@ $max-height-banner-desktop: 665px;
 	  						}
 	  					}
 	  				}
+					}
+					&__cIconSecond{
+						position: absolute;
+				    right: 0;
+				    top: 50%;
+				    transform: translateY(-50%);
+				    height: 100%;
+				    max-width: 42px;
+				    width: 42px;
+				    padding: 0 .6rem;
+				    display: flex;
+				    align-items: center;
+				    justify-content: center;
+				    svg{
+				    	display: table;
+	    				fill: #666;
+				    }
 					}
 				}
 				&__cGrpCtrls{

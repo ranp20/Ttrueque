@@ -602,8 +602,13 @@ $min-height-header_pagesinfo : 70px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: rgb(121,251,191);
-	background: linear-gradient(90deg, rgba(121,251,191,1) 0%, rgba(0,212,255,1) 27%, rgba(103,210,245,1) 51%, rgba(107,167,250,1) 73%, rgba(131,129,245,1) 90%);
+	// background: rgb(121,251,191);
+	// background: linear-gradient(90deg, rgba(121,251,191,1) 0%, rgba(0,212,255,1) 27%, rgba(103,210,245,1) 51%, rgba(107,167,250,1) 73%, rgba(131,129,245,1) 90%);
+  background-image: url(../../img/svg/background_circles_002.svg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
 }
 #ic-passCtrlLogg{
 	cursor: pointer;
@@ -616,9 +621,15 @@ $min-height-header_pagesinfo : 70px;
 	justify-content: center;
 	// background: rgb(121,251,191);
 	// background: linear-gradient(90deg, rgba(121,251,191,1) 0%, rgba(0,212,255,1) 27%, rgba(103,210,245,1) 51%, rgba(107,167,250,1) 73%, rgba(131,129,245,1) 90%);
+	background-image: url(../../img/svg/background_waves_003.svg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
 }
-
-
+#ic-passCtrlAcct{
+	cursor: pointer;
+}
 /* BOTÓN DE IR HACIA ABAJO - BANNER */
 #section10{
 	position: absolute;
