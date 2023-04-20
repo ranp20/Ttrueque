@@ -377,7 +377,7 @@ $max-height-banner-desktop: 665px;
 				    	  }
 				    	  @media (min-width: 1024px){
 					    		font-size: 2rem;
-					    		margin-bottom: 6rem;
+					    		margin-bottom: 5rem;
 				    	  }
 				    	  span{
 				    	  	text-align: justify;
@@ -435,17 +435,19 @@ $max-height-banner-desktop: 665px;
 								&__title{
 									font-weight: bold;
 									color: #fff;
-									font-size: 1.5rem;
+									font-size: 24px;
 									margin-bottom: 1rem;
+									letter-spacing: 10px;
+							    font-weight: 700;
+							    text-shadow: 2px 2px #000;
 									@media (min-width: 768px){
-										font-size: 1.75rem;
+										font-size: 28px;
 									}
 									@media (min-width: 1024px){
-										font-size: 1.85rem;
+										font-size: 32px;
 									}
 								}
 								&__desc{
-									font-size: 1.05rem;
 									font-weight: 600;
 									line-height: 1.4;
 									height: auto;
@@ -453,10 +455,10 @@ $max-height-banner-desktop: 665px;
 									text-align: justify;
 									text-align-last: left;
 									@media (min-width: 768px){
-										font-size: 1.1rem;
+										font-size: 17px;
 									}
-									@media (min-width: 1024px){
-										font-size: 1.25rem;
+									@media (min-width: 1150px){
+										font-size: 20px;
 										font-weight: 500;
 									}
 								}
@@ -622,7 +624,6 @@ $max-height-banner-desktop: 665px;
 						    }
   						}
   						&__desc{
-  							font-size: 1rem;
   							color: $theme-clr-paragraph;
   							margin-bottom: 2.5rem;
   							text-align: justify;
@@ -647,19 +648,19 @@ $max-height-banner-desktop: 665px;
 				    		width: 50%;
 				    		margin-top: 0;
 				    		&__title{
-				    			font-size: 1.7rem;
+				    			font-size: 27px;
 				    		}
 				    		&__desc{
-				    			font-size: 1.1rem;
-				    		}
-				    		&__link{
-				    			font-size: 1rem;
+				    			font-size: 17px;
 				    		}
   						}
-  						@media (min-width: 768px){
+  						@media (min-width: 1150px){
   							&__title{
-  								font-size: 1.8rem;
-  							}
+				    			font-size: 30px;
+				    		}
+				    		&__desc{
+				    			font-size: 20px;
+				    		}
   						}
 				    }
 			    }
@@ -684,29 +685,26 @@ $max-height-banner-desktop: 665px;
 			        color: steelblue;
 					    text-align: center;
 					    margin: 0 0 1.2rem 0;
-					    font-size: 1.35rem;
+					    font-size: 24px;
 					    @media (min-width: 768px){
-					    	font-size: 1.85rem;
+					    	font-size: 34px;
 					    }
-					    @media (min-width: 991px){
-					    	font-size: 2.15rem;
-					    }
-					    @media (min-width: 1220px){
-					    	font-size: 2.45rem;
+					    @media (min-width: 1150px){
+					    	font-size: 40px;
 					    }
 			    	}
 			    	p{
 			    		text-align: justify;
-					    font-size: .85rem;
+			    		font-weight: 400;
 			    		@media (min-width: 768px){
-					    	font-size: 1.05rem;
+					    	font-size: 17px;
 					    }
-					    @media (min-width: 991px){
-					    	font-size: 1.2rem;
+					    @media (min-width: 1150px){
+					    	font-size: 19px;
 					    }
 			    	}
 			    	a{
-			    		text-decoration: underline !important;
+			    		// text-decoration: underline !important;
 			    	}
 			    	&__cImgB{
 		    			text-align: center;
@@ -806,21 +804,63 @@ $max-height-banner-desktop: 665px;
 				    		list-style: none;
 				    		padding: 0;
 				    		margin: 0;
+				    		max-width: 990px;
+				    		border: thin solid rgba(0,0,0,.14);
+    						border-radius: 10px;
 				    		&__i{
-				    			margin-bottom: 4rem;
+				    			overflow: hidden;
+				    			// box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.14), 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+				    			box-shadow: 0 0 2px 0 rgba(0,0,0,.14), 0 0px 1px 0 rgba(0,0,0,.12), 0 0px 1px 0 rgba(0,0,0,.12);
+    							&:first-child{
+					    			border-top-left-radius: 10px;
+	    							border-top-right-radius: 10px;
+    							}
+    							&:last-child{
+					    			border-bottom-left-radius: 10px;
+	    							border-bottom-right-radius: 10px;
+    							}
 				    			h1{
 				    				color: #555;
 				    				text-align: left;
-				    				font-size: 1.3rem;
 				    				font-weight: bold;
 				    				@media (min-width: 768px){
-				    					font-size: 1.5rem;
+				    					font-size: 17px;
 				    				}
 				    				@media (min-width: 1024px){
-				    					font-size: 1.7rem;
+				    					font-size: 30px;
 				    				}
 				    			}
+				    			&--cLinkCollapse{
+				    				align-items: center;
+								    color: inherit;
+								    display: flex;
+								    justify-content: space-between;
+								    min-height: 3rem;
+								    padding: 0.830356875rem 1.5rem;
+								    text-align: inherit;
+								    width: 100%;
+								    font-size: 19px;
+								    text-decoration: none !important;
+								    color: #444;
+								    cursor: pointer;
+								    &.show,
+								    &:hover{
+								    	color: #444;
+								    	background-color: #ddd;
+								    }
+				    			}
 				    			&__cDesc{
+				    				padding: 1rem 1.5rem;
+				    				display: none;
+				    				opacity: 0;
+				    				visibility: hidden;
+				    				user-select: none;
+				    				&.show{
+				    					display: block;
+				    					opacity: 1;
+				    					visibility: visible;
+				    					user-select: auto;
+				    				}
 				    				p{
 				    					a{
 				    						text-decoration: underline !important;
@@ -1273,7 +1313,17 @@ $max-height-banner-desktop: 665px;
 			}
 			@media (min-width: 1220px){
 				font-size: 2.2rem;
+				margin-bottom: 1rem;
 			}
+		}
+		&__subtitle{
+    	font-weight: 400;
+    	@media (min-width: 768px){
+    		font-size: 17px;
+    	}
+    	@media (min-width: 1150px){
+				font-size: 20px;
+    	}
 		}
 		&__cCards{
 			display: flex;
@@ -1283,6 +1333,9 @@ $max-height-banner-desktop: 665px;
 			gap: 1rem;
 			@media (min-width: 768px){
 				flex-flow: row nowrap;
+			}
+			@media (min-width: 1150px){
+				gap: 3rem;
 			}
 			&__i{
 				max-width: 485px;

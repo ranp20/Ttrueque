@@ -384,19 +384,29 @@
 		</div>
 		<!--///PREGUNTAS FRECUENTES TRUEQUE-->
 		<div class="c-infTbs__c__item content-preguntas-frecuentes-ttrq" id="preguntas-frecuentes-ttrueque">
-			<section class="c-infTbs__c__item__cont__sect box-redx">
+			<section class="c-infTbs__c__item__cont__sect box-redx mb-5">
 				<div class="c-infTbs__c__item__cont__sect__c">
 					<h1>PREGUNTAS FRECUENTES</h1>
 						<div class="c-infTbs__c__item__cont__sect__c__cQstns">
 							<ul class="c-infTbs__c__item__cont__sect__c__cQstns__m">
 								<li class="c-infTbs__c__item__cont__sect__c__cQstns__m__i">
-									<h1>1. ¿Qué es Ttrueque?</h1>
+									<div class="c-infTbs__c__item__cont__sect__c__cQstns__m__i--cLinkCollapse collapsed" data-toggle="collapse">
+										<span>1. ¿Qué es Ttrueque?</span>
+										<span class="arrow-icon">
+										  <span class="arrow-icon__down"></span>
+										</span>
+									</div>
 									<div class="c-infTbs__c__item__cont__sect__c__cQstns__m__i__cDesc">
 										<p>Es una cuenta de Intercambio. Una vez que te registras gratuitamente en <a href="account">www.ttrueque.com</a> podrás comprar y vender, SIN UTILIZAR EL DINERO convencional, porque dispondrás de una <strong>Tarjeta</strong> o un <strong>Aplicativo</strong> digital (QR en tu celular) en donde reposará tu SALDO de intercambio.</p>
 									</div>
 								</li>
 								<li class="c-infTbs__c__item__cont__sect__c__cQstns__m__i">
-									<h1>2. ¿Qué significa Saldo de Intercambio?</h1>
+									<div class="c-infTbs__c__item__cont__sect__c__cQstns__m__i--cLinkCollapse collapsed" data-toggle="collapse">
+										<span>2. ¿Qué significa Saldo de Intercambio?</span>
+										<span class="arrow-icon">
+										  <span class="arrow-icon__down"></span>
+										</span>
+									</div>
 									<div class="c-infTbs__c__item__cont__sect__c__cQstns__m__i__cDesc">
 										<p>Utilizaremos dos ejemplos para ilustrar:
 										<p><strong>Ejemplo A.-</strong> Cuando VENDES un producto o servicio que vale 50 dólares (o su equivalente en tu moneda nacional) en el mercado, en tu cuenta Ttrueque se registra 100 Bikkers.</p>
@@ -406,63 +416,113 @@
 									</div>
 								</li>
 								<li class="c-infTbs__c__item__cont__sect__c__cQstns__m__i" id="queesunbikker">
-									<h1>3. ¿Qué es un Bikker?</h1>
+									<div class="c-infTbs__c__item__cont__sect__c__cQstns__m__i--cLinkCollapse collapsed" data-toggle="collapse">
+										<span>3. ¿Qué es un Bikker?</span>
+										<span class="arrow-icon">
+										  <span class="arrow-icon__down"></span>
+										</span>
+									</div>
 									<div class="c-infTbs__c__item__cont__sect__c__cQstns__m__i__cDesc">
 										<p>Es la unidad monetaria digital que utiliza la plataforma Ttrueque. Una vez que te registras en <a href="account">www.ttrueque.com</a> puedes empezar a vender o comprar utilizando Bikkers.</p>
 									</div>
 								</li>
 								<li class="c-infTbs__c__item__cont__sect__c__cQstns__m__i">
-									<h1>4. ¿A cuánto equivale un Bikker?</h1>
+									<div class="c-infTbs__c__item__cont__sect__c__cQstns__m__i--cLinkCollapse collapsed" data-toggle="collapse">
+										<span>4. ¿A cuánto equivale un Bikker?</span>
+										<span class="arrow-icon">
+										  <span class="arrow-icon__down"></span>
+										</span>
+									</div>
 									<div class="c-infTbs__c__item__cont__sect__c__cQstns__m__i__cDesc">
 										<p>Un Bikker equivale a un Dólar.</p>
 									</div>
 								</li>
 								<li class="c-infTbs__c__item__cont__sect__c__cQstns__m__i">
-									<h1>5. ¿Cómo se adquieren los Bikkers?</h1>
+									<div class="c-infTbs__c__item__cont__sect__c__cQstns__m__i--cLinkCollapse collapsed" data-toggle="collapse">
+										<span>5. ¿Cómo se adquieren los Bikkers?</span>
+										<span class="arrow-icon">
+										  <span class="arrow-icon__down"></span>
+										</span>
+									</div>
 									<div class="c-infTbs__c__item__cont__sect__c__cQstns__m__i__cDesc">
 										<p>Una vez registrado en <a href="account">www.ttrueque.com</a>, podrás empezar a vender tus productos o servicios a otros usuarios de Ttrueque, y en tu cuenta se irá registrando en Bikkers. Por cada Dólar (o su equivalente en moneda nacional) que vendes, se registrarán dos Bikkers.</p>
 									</div>
 								</li>
 								<li class="c-infTbs__c__item__cont__sect__c__cQstns__m__i">
-									<h1>6. ¿Significa que, si vendo con mi cuenta Ttrueque el valor de 400 dólares, en mi saldo se registra 800 Bikkers?</h1>
+									<div class="c-infTbs__c__item__cont__sect__c__cQstns__m__i--cLinkCollapse collapsed" data-toggle="collapse">
+										<span>6. ¿Significa que, si vendo con mi cuenta Ttrueque el valor de 400 dólares, en mi saldo se registra 800 Bikkers?</span>
+										<span class="arrow-icon">
+										  <span class="arrow-icon__down"></span>
+										</span>
+									</div>
 									<div class="c-infTbs__c__item__cont__sect__c__cQstns__m__i__cDesc">
 										<p>Sí, así funciona, se duplica. 
 										</p>
 									</div>
 								</li>
 								<li class="c-infTbs__c__item__cont__sect__c__cQstns__m__i">
-									<h1>7. ¿Registrarse en Ttrueque es gratuito?</h1>
+									<div class="c-infTbs__c__item__cont__sect__c__cQstns__m__i--cLinkCollapse collapsed" data-toggle="collapse">
+										<span>7. ¿Registrarse en Ttrueque es gratuito?</span>
+										<span class="arrow-icon">
+										  <span class="arrow-icon__down"></span>
+										</span>
+									</div>
 									<div class="c-infTbs__c__item__cont__sect__c__cQstns__m__i__cDesc">
 										<p>Sí, es gratuito. Y también para los que desea adquirir mayores beneficios, hay membresías.</p>
 									</div>
 								</li>
 								<li class="c-infTbs__c__item__cont__sect__c__cQstns__m__i">
-									<h1>8. ¿Es verdad que al registrarse se nos otorga gratuitamente 100 Bikkers?</h1>
+									<div class="c-infTbs__c__item__cont__sect__c__cQstns__m__i--cLinkCollapse collapsed" data-toggle="collapse">
+										<span>8. ¿Es verdad que al registrarse se nos otorga gratuitamente 100 Bikkers?</span>
+										<span class="arrow-icon">
+										  <span class="arrow-icon__down"></span>
+										</span>
+									</div>
 									<div class="c-infTbs__c__item__cont__sect__c__cQstns__m__i__cDesc">
 										<p>Sí, para que empiecen a utilizar su tarjeta o aplicativo en los comercios o empresas de los demás usuarios de Ttrueque.</p>
 									</div>
 								</li>
 								<li class="c-infTbs__c__item__cont__sect__c__cQstns__m__i">
-									<h1>9. ¿Dónde puedo ofrecer mis productos o servicios a los usuarios de Ttrueque?</h1>
+									<div class="c-infTbs__c__item__cont__sect__c__cQstns__m__i--cLinkCollapse collapsed" data-toggle="collapse">
+										<span>9. ¿Dónde puedo ofrecer mis productos o servicios a los usuarios de Ttrueque?</span>
+										<span class="arrow-icon">
+										  <span class="arrow-icon__down"></span>
+										</span>
+									</div>
 									<div class="c-infTbs__c__item__cont__sect__c__cQstns__m__i__cDesc">
 										<p>Una vez registrado en <a href="account">www.ttrueque.com</a>, obtendrás automáticamente una tienda en donde podrás colocar tus productos o servicios que ofreces.</p>
 									</div>
 								</li>
 								<li class="c-infTbs__c__item__cont__sect__c__cQstns__m__i">
-									<h1>10. ¿El pago por administración de cuenta se paga en Bikker o Dólares?</h1>
+									<div class="c-infTbs__c__item__cont__sect__c__cQstns__m__i--cLinkCollapse collapsed" data-toggle="collapse">
+										<span>10. ¿El pago por administración de cuenta se paga en Bikker o Dólares?</span>
+										<span class="arrow-icon">
+										  <span class="arrow-icon__down"></span>
+										</span>
+									</div>
 									<div class="c-infTbs__c__item__cont__sect__c__cQstns__m__i__cDesc">
 										<p>Mensualmente el usuario de Ttrueque recibirá su estado de cuenta en donde se detallará las ventas que ha realizado en Bikkers; y pagará <strong>por administración de cuenta</strong> el 8% del monto vendido. El pago lo realizará en dólares o equivalente en moneda nacional. 
 										</p>
 									</div>
 								</li>
 								<li class="c-infTbs__c__item__cont__sect__c__cQstns__m__i">
-									<h1>11. El pago por administración de cuenta se puede realizar a través de Paypal?</h1>
+									<div class="c-infTbs__c__item__cont__sect__c__cQstns__m__i--cLinkCollapse collapsed" data-toggle="collapse">
+										<span>11. El pago por administración de cuenta se puede realizar a través de Paypal?</span>
+										<span class="arrow-icon">
+										  <span class="arrow-icon__down"></span>
+										</span>
+									</div>
 									<div class="c-infTbs__c__item__cont__sect__c__cQstns__m__i__cDesc">
 										<p>Sí, además de paypal, visa, mastercart y depósitos bancarios.</p>
 									</div>
 								</li>
 								<li class="c-infTbs__c__item__cont__sect__c__cQstns__m__i">
-									<h1>12. ¿Qué recibo al registrarme en Ttrueque?</h1>
+									<div class="c-infTbs__c__item__cont__sect__c__cQstns__m__i--cLinkCollapse collapsed" data-toggle="collapse">
+										<span>12. ¿Qué recibo al registrarme en Ttrueque?</span>
+										<span class="arrow-icon">
+										  <span class="arrow-icon__down"></span>
+										</span>
+									</div>
 									<div class="c-infTbs__c__item__cont__sect__c__cQstns__m__i__cDesc">
 										<p>Al registrase gratuitamente, recibes automáticamente:
 										<p><strong>a.</strong>	Bikkers 100.</p>
@@ -472,7 +532,12 @@
 									</div>
 								</li>
 								<li class="c-infTbs__c__item__cont__sect__c__cQstns__m__i">
-									<h1>13. Cómo adquirir la Tarjeta Ttrueque </h1>
+									<div class="c-infTbs__c__item__cont__sect__c__cQstns__m__i--cLinkCollapse collapsed" data-toggle="collapse">
+										<span>13. Cómo adquirir la Tarjeta Ttrueque</span>
+										<span class="arrow-icon">
+										  <span class="arrow-icon__down"></span>
+										</span>
+									</div>
 									<div class="c-infTbs__c__item__cont__sect__c__cQstns__m__i__cDesc">
 										<p>Para comprar o vender como usuario de Ttrueque puede utilizar el aplicativo digital con tu QR en su celular o con la Tarjeta física. 
 										Para los registrados gratuitamente, la tarjeta tiene un costo de 5 dólares. A los usuarios con membresía se les entrega en forma gratuita.
@@ -480,26 +545,46 @@
 									</div>
 								</li>
 								<li class="c-infTbs__c__item__cont__sect__c__cQstns__m__i">
-									<h1>14. ¿Se puede comprar Bikkers?</h1>
+									<div class="c-infTbs__c__item__cont__sect__c__cQstns__m__i--cLinkCollapse collapsed" data-toggle="collapse">
+										<span>14. ¿Se puede comprar Bikkers?</span>
+										<span class="arrow-icon">
+										  <span class="arrow-icon__down"></span>
+										</span>
+									</div>
 									<div class="c-infTbs__c__item__cont__sect__c__cQstns__m__i__cDesc">
 										<p>Sí, los usuarios de Ttrueque pueden comprar Bikkers. Por ejemplo, si se desea adquirir 100 Bikkers, el costo será de 50 dólares. 
 										</p>
 									</div>
 								</li>
 								<li class="c-infTbs__c__item__cont__sect__c__cQstns__m__i">
-									<h1>15. ¿Hay un mínimo para comprar de Bikkers?</h1>
+									<div class="c-infTbs__c__item__cont__sect__c__cQstns__m__i--cLinkCollapse collapsed" data-toggle="collapse">
+										<span>15. ¿Hay un mínimo para comprar de Bikkers?</span>
+										<span class="arrow-icon">
+										  <span class="arrow-icon__down"></span>
+										</span>
+									</div>
 									<div class="c-infTbs__c__item__cont__sect__c__cQstns__m__i__cDesc">
 										<p>Veinte Bikkers es el mínimo de compra; es decir le costará 10 dólares.</p>
 									</div>
 								</li>
 								<li class="c-infTbs__c__item__cont__sect__c__cQstns__m__i">
-									<h1>16. ¿Qué sucede si un usuario se atrasa con el pago de su administración de cuenta?</h1>
+									<div class="c-infTbs__c__item__cont__sect__c__cQstns__m__i--cLinkCollapse collapsed" data-toggle="collapse">
+										<span>16. ¿Qué sucede si un usuario se atrasa con el pago de su administración de cuenta?</span>
+										<span class="arrow-icon">
+										  <span class="arrow-icon__down"></span>
+										</span>
+									</div>
 									<div class="c-infTbs__c__item__cont__sect__c__cQstns__m__i__cDesc">
 										<p>Tendrá 3 días para realizar el pago después de emitido su estado de cuenta. En caso de atraso o después de los 3 días señalados, se bloqueará su cuenta hasta que se ponga al día.</p>
 									</div>
 								</li>
 								<li class="c-infTbs__c__item__cont__sect__c__cQstns__m__i">
-									<h1>17. ¿Cuáles son los pasos que debemos seguir en mi negocio cuando va a pagar un usuario de Ttrueque?</h1>
+									<div class="c-infTbs__c__item__cont__sect__c__cQstns__m__i--cLinkCollapse collapsed" data-toggle="collapse">
+										<span>17. ¿Cuáles son los pasos que debemos seguir en mi negocio cuando va a pagar un usuario de Ttrueque?</span>
+										<span class="arrow-icon">
+										  <span class="arrow-icon__down"></span>
+										</span>
+									</div>
 									<div class="c-infTbs__c__item__cont__sect__c__cQstns__m__i__cDesc">
 										<p>Entre los pasos a seguir se encuentran:</p>
 										<ul>
@@ -513,7 +598,12 @@
 									</div>
 								</li>
 								<li class="c-infTbs__c__item__cont__sect__c__cQstns__m__i">
-									<h1>18. ¿Qué pasos debo seguir cuando voy a PAGAR con el aplicativo Ttrueque?</h1>
+									<div class="c-infTbs__c__item__cont__sect__c__cQstns__m__i--cLinkCollapse collapsed" data-toggle="collapse">
+										<span>18. ¿Qué pasos debo seguir cuando voy a PAGAR con el aplicativo Ttrueque?</span>
+										<span class="arrow-icon">
+										  <span class="arrow-icon__down"></span>
+										</span>
+									</div>
 									<div class="c-infTbs__c__item__cont__sect__c__cQstns__m__i__cDesc">
 										<p>Los pasos a seguir son los siguentes:</p>
 										<ul>
