@@ -36,6 +36,35 @@ $(document).on("submit", "#frm-loginUserTtrq", function(e){
 			    <div class="c-contMssgResultUser--loader"></div>
 			  </div>`);
 				setTimeout(function(){window.location.replace("./");}, 500);
+			}else if(r.res == "cli_disable"){
+				$(this).find("button[type=submit]").attr("disabled", false);
+				$(this).find("button[type=submit]").removeClass("active");
+				$(this).find("button[type=submit]").find("span:last-child").html("");
+				$(this).parent().addClass("disabled");
+				Swal.fire({
+			    title: '',
+			    html: `<div class="alertSwal">
+			            <div class="alertSwal__cTitle">
+			              <h3>¡Error de activación!</h3>
+			            </div>
+			            <div class="alertSwal__cText">
+			              <p>La cuenta aún no ha sido activada. Por favor revise su bandeja de correo electrónico.</p>
+			            </div>
+			            <button type="button" role="button" tabindex="0" class="SwalBtn1 customSwalBtn">Aceptar</button>
+			          </div>`,
+			    icon: 'info',
+			    showCancelButton: false,
+			    showConfirmButton: false,
+			    confirmButtonColor: '#3085d6',
+			    confirmButtonText: 'Aceptar',
+			    allowOutsideClick: false,
+			    allowEscapeKey:false,
+			    allowEnterKey:true
+			  });
+			  $(document).on('click', '.SwalBtn1', function(){
+			    swal.clickConfirm();
+			    $("#frm-loginUserTtrq").parent().removeClass("disabled");
+			  });
 			}else{
 				$(this).find("button[type=submit]").attr("disabled", false);
 				$(this).find("button[type=submit]").removeClass("active");
