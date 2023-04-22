@@ -34,6 +34,13 @@ input::-ms-reveal,
 input::-ms-clear {
   display: none;
 }
+input[type="number"],
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button{
+	-moz-appearance:textfield;
+	-webkit-appearance: none;
+	appearance: textfield;
+}
 img{
 	max-width: 100%;
 	width: auto;
