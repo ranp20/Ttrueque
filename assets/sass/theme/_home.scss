@@ -1039,6 +1039,59 @@ $max-height-banner-desktop: 665px;
     			}
     		}
     	}
+    	&__foot2{
+    		background: darken($theme-clr-primary, 10%);
+    		align-self: flex-end;
+    		justify-self: flex-end;
+    		width: 100%;
+    		&__c{  			
+	    		&__cB2{
+	  				display: flex;
+	  				justify-content: space-between;
+	  				align-items: center;
+	  				flex-flow: column wrap;
+	  				@media (min-width: 768px){
+	  					flex-flow: row nowrap;
+					    justify-content: space-between;
+					    padding: 0 8px;
+	  				}
+	  				&__c{
+	  					display: flex;
+	  					width: 100%;
+	  					&__ct2{
+	  						display: flex;
+	  						align-items: center;
+	  						justify-content: space-between;
+	  						flex-flow: row wrap;
+	  						flex: 0 0 100%;
+	  						& > *{
+	  							max-width: 100%;
+	  						}
+	  						&__i{
+	  							flex: 0 0 auto;
+	  							width: 50%;
+	  							font-size: 14px;
+							    font-weight: 300;
+							    line-height: 20px;
+							    color: #7f88a6;
+	  							&.talg-l{
+	  								text-align: left;
+	  							}
+	  							&.talg-r{
+	  								text-align: right;
+	  							}
+	  							&.mgl-auto{
+	  								margin-left: auto;
+	  							}
+	  							p{
+	  								margin: 0;
+	  							}
+	  						}
+	  					}
+	  				}
+	  			}
+    		}
+    	}
     }
   }
 }

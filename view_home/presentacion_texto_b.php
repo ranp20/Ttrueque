@@ -91,6 +91,22 @@
 			    </div>
 		  	</div>
 			</div>
+			<div class="c-infTbs__c__item__foot2">
+				<div class="c-infTbs__c__item__foot2__c box-f">				
+					<div class="c-infTbs__c__item__foot2__c__cB2">
+						<div class="c-infTbs__c__item__foot2__c__cB2__c">
+							<div class="c-infTbs__c__item__foot2__c__cB2__c__ct2">
+								<div class="c-infTbs__c__item__foot2__c__cB2__c__ct2__i talg-l">
+									<p>© Trueque S.A.C. 2021 Todos los derechos reservados.</p>
+								</div>
+								<div class="c-infTbs__c__item__foot2__c__cB2__c__ct2__i mgl-auto talg-r">
+									<p>	Desarrollado por <i class="icon_heart"></i> <a href="https://csscreativos.com/" target="_blank">CSSCreativos</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 		<!--///QUÉ ES TRUEQUE-->
 		<div class="c-infTbs__c__item content-que-es-ttrq" id="que-es-ttrueque">
@@ -140,6 +156,22 @@
 			      </div>
 			    </div>
 		  	</div>
+			</div>
+			<div class="c-infTbs__c__item__foot2">
+				<div class="c-infTbs__c__item__foot2__c box-f">				
+					<div class="c-infTbs__c__item__foot2__c__cB2">
+						<div class="c-infTbs__c__item__foot2__c__cB2__c">
+							<div class="c-infTbs__c__item__foot2__c__cB2__c__ct2">
+								<div class="c-infTbs__c__item__foot2__c__cB2__c__ct2__i talg-l">
+									<p>© Trueque S.A.C. 2021 Todos los derechos reservados.</p>
+								</div>
+								<div class="c-infTbs__c__item__foot2__c__cB2__c__ct2__i mgl-auto talg-r">
+									<p>	Desarrollado por <i class="icon_heart"></i> <a href="https://csscreativos.com/" target="_blank">CSSCreativos</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 		<!--///GUÍA AL COMPRADOR EN TRUEQUE-->
@@ -265,6 +297,22 @@
 			    </div>
 		  	</div>
 			</div>
+			<div class="c-infTbs__c__item__foot2">
+				<div class="c-infTbs__c__item__foot2__c box-f">				
+					<div class="c-infTbs__c__item__foot2__c__cB2">
+						<div class="c-infTbs__c__item__foot2__c__cB2__c">
+							<div class="c-infTbs__c__item__foot2__c__cB2__c__ct2">
+								<div class="c-infTbs__c__item__foot2__c__cB2__c__ct2__i talg-l">
+									<p>© Trueque S.A.C. 2021 Todos los derechos reservados.</p>
+								</div>
+								<div class="c-infTbs__c__item__foot2__c__cB2__c__ct2__i mgl-auto talg-r">
+									<p>	Desarrollado por <i class="icon_heart"></i> <a href="https://csscreativos.com/" target="_blank">CSSCreativos</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 		<!--///GUÍA AL VENDEDOR EN TRUEQUE-->
 		<div class="c-infTbs__c__item content-tramites-que-hacer-ttrq" id="guia-al-vendedor-ttrueque">
@@ -380,6 +428,22 @@
 			      </div>
 			    </div>
 		  	</div>
+			</div>
+			<div class="c-infTbs__c__item__foot2">
+				<div class="c-infTbs__c__item__foot2__c box-f">				
+					<div class="c-infTbs__c__item__foot2__c__cB2">
+						<div class="c-infTbs__c__item__foot2__c__cB2__c">
+							<div class="c-infTbs__c__item__foot2__c__cB2__c__ct2">
+								<div class="c-infTbs__c__item__foot2__c__cB2__c__ct2__i talg-l">
+									<p>© Trueque S.A.C. 2021 Todos los derechos reservados.</p>
+								</div>
+								<div class="c-infTbs__c__item__foot2__c__cB2__c__ct2__i mgl-auto talg-r">
+									<p>	Desarrollado por <i class="icon_heart"></i> <a href="https://csscreativos.com/" target="_blank">CSSCreativos</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 		<!--///PREGUNTAS FRECUENTES TRUEQUE-->
@@ -653,6 +717,22 @@
 			      </div>
 			    </div>
 		  	</div>
+			</div>
+			<div class="c-infTbs__c__item__foot2">
+				<div class="c-infTbs__c__item__foot2__c box-f">				
+					<div class="c-infTbs__c__item__foot2__c__cB2">
+						<div class="c-infTbs__c__item__foot2__c__cB2__c">
+							<div class="c-infTbs__c__item__foot2__c__cB2__c__ct2">
+								<div class="c-infTbs__c__item__foot2__c__cB2__c__ct2__i talg-l">
+									<p>© Trueque S.A.C. 2021 Todos los derechos reservados.</p>
+								</div>
+								<div class="c-infTbs__c__item__foot2__c__cB2__c__ct2__i mgl-auto talg-r">
+									<p>	Desarrollado por <i class="icon_heart"></i> <a href="https://csscreativos.com/" target="_blank">CSSCreativos</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
