@@ -1040,7 +1040,7 @@ $max-height-banner-desktop: 665px;
     		}
     	}
     	&__foot2{
-    		background: darken($theme-clr-primary, 10%);
+    		background: darken($theme-clr-primary, 100%);
     		align-self: flex-end;
     		justify-self: flex-end;
     		width: 100%;
@@ -1073,7 +1073,7 @@ $max-height-banner-desktop: 665px;
 	  							font-size: 14px;
 							    font-weight: 300;
 							    line-height: 20px;
-							    color: #7f88a6;
+							    color: #fff;
 	  							&.talg-l{
 	  								text-align: left;
 	  							}
