@@ -33,9 +33,9 @@ if (!isset($_SESSION['user'])) {
   </div>
   <input type="hidden" readonly name="tipo" id="tipo" value="<?php echo empty($var) ? "" : $var;?>" />
   <div class="content-ttrk-official-markets-c"  id="cont-all-products_namecategories-in-ttrk">
-    <div class="contenido-tiendas-off-header">
-      <div class="content-title-tiendas">
-        <h3 id="lista_stores">Categoría <?php echo  empty($var) ? "" : $var;?></h3>
+    <div class="cMIndx__c__sec__cTtitle contenido-tiendas-off-header">
+      <div class="cMIndx__c__sec__cTtitle__c content-title-tiendas">
+        <h3 class="cMIndx__c__sec__cTtitle__c--title" id="lista_stores">Categoría <?php echo  empty($var) ? "" : $var;?></h3>
         <input type="hidden" id="idtienda_current" value="<?php echo $d[0]['tienda'];?>">
       </div>
     </div>

@@ -1,7 +1,7 @@
 <div class="content-ttrk-official-markets-c" id="cont-all-products_in_stores-categories">
-	<div class="contenido-categorias_ttrk-off-header">
-		<div class="content-title-categorias_ttrk">
-			<h3 class="lang_ttrq" key="title-prods-list-cat_ttrq">Productos</h3>
+	<div class="cMIndx__c__sec__cTtitle contenido-categorias_ttrk-off-header">
+		<div class="cMIndx__c__sec__cTtitle__c content-title-categorias_ttrk">
+			<h3 class="cMIndx__c__sec__cTtitle__c--title lang_ttrq" key="title-prods-list-cat_ttrq">Productos</h3>
 			<input type="hidden" id="tienda-cli_prod" name='idtienda' value="<?php echo $_GET['store'];?>">
 			<input type="hidden" id="categoria-cli_prod" name='idcategoria' value='<?php echo $_GET['cat'];?>'>
 			<input type="hidden" id="name-categoria" name='categoria' value="<?php echo $_GET['categoria'];?>">

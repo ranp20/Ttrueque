@@ -109,9 +109,9 @@ $all_stores = $stores->select_tienda();
       if(isset($_GET['store'])){
         echo '
         <div class="content-ttrk-official-markets-c" id="container_all_categories_in_store">
-            <div class="contenido-categorias_ttrk-off-header">
-                <div class="content-title-categorias_ttrk">
-                    <h3>Categorías en '.$_GET['store'].'</h3>
+            <div class="cMIndx__c__sec__cTtitle contenido-categorias_ttrk-off-header">
+                <div class="cMIndx__c__sec__cTtitle__c content-title-categorias_ttrk">
+                    <h3 class="cMIndx__c__sec__cTtitle__c--title">Categorías en '.$_GET['store'].'</h3>
                 </div>
             </div>
             <div class="container-content-off-mrkts">

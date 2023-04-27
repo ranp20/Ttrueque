@@ -1,7 +1,7 @@
 <div class="content-more-sells margintb-3" id="content-index-ttrq">
-	<div class="main_title" id="title-content-more-sells">
-		<div id="content-text-more-sells">
-			<h3 class="lang_ttrq" key="title_best-seller">Lo más Vendido</h3>	
+	<div class="cMIndx__c__sec__cTtitle main_title" id="title-content-more-sells">
+		<div class="cMIndx__c__sec__cTtitle__c" id="content-text-more-sells">
+			<h3 class="cMIndx__c__sec__cTtitle__c--title lang_ttrq" key="title_best-seller">Lo más Vendido</h3>	
 		</div>
 	</div>
 	<?php 
@@ -12,7 +12,7 @@
 		*/
 		if($top_sells == []){
 			echo "<div class='cont-msg-any-products_sells'>
-				<i class='fal fa-frown-open'></i>
+				<img src='img/Utilities/icon-sad-face.svg' alt='icon_sad_face' class='img-fluid' width='100' height='100'>
 				<p>Ups! No hay productos disponibles.</p>
 			</div>";
 		}else{

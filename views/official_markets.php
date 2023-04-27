@@ -1,7 +1,7 @@
 <div class="content-ttrk-official-markets-c margintb-3" id="cont-all-stores-in-ttrk">
-	<div class="contenido-tiendas-off-header">
-		<div class="content-title-tiendas">
-			<h3 class="lang_ttrq" key="title_official_markets">Nuestras tiendas</h3>
+	<div class="cMIndx__c__sec__cTtitle contenido-tiendas-off-header">
+		<div class="cMIndx__c__sec__cTtitle__c content-title-tiendas">
+			<h3 class="cMIndx__c__sec__cTtitle__c--title lang_ttrq" key="title_official_markets">Nuestras tiendas</h3>
 		</div>
 	</div>
 	<div class="container-content-off-mrkts" id="cont-filter-off-markets">

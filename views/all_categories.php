@@ -62,9 +62,9 @@ $all_stores = $stores->select_tienda();
       <span class="loader-ttrqstr--loader"></span>
     </div>
     <div class="content-ttrk-official-markets-c" id="cont-all-categories_in_ttrk">
-      <div class="contenido-categorias_ttrk-off-header">
-        <div class="content-title-categorias_ttrk">
-          <h3 class="lang_ttrq" key="title-cat-list-s_ttrq">Categorías</h3>
+      <div class="cMIndx__c__sec__cTtitle contenido-categorias_ttrk-off-header">
+        <div class="cMIndx__c__sec__cTtitle__c content-title-categorias_ttrk">
+          <h3 class="cMIndx__c__sec__cTtitle__c--title lang_ttrq" key="title-cat-list-s_ttrq">Categorías</h3>
         </div>
       </div>
       <div class="container-content-off-mrkts">
