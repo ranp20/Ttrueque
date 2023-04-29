@@ -39,8 +39,8 @@ $(document).ready(function () {
                  <form action="./checkout" class="total-cant-pay-store-cart_ttrq"  method="POST"  > 
                     <input type="hidden" name="check-arr" class="cls-check-arr" value=""  >   
                     <button class="checkout">
-                    <p>Total a Pagar: </p>
-                    <span class="points-${i}"></span>
+                      <span>Total a Pagar: </span>
+                      <span class="points-${i}"></span>
                     </button>
                   </form>
               </div>
