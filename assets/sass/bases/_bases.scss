@@ -64,7 +64,7 @@ body{
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: transparentize($theme-clr-primary, 0.5);
+    background-color: transparentize($theme-clr-primary, 0.45);
     top: 0;
     left: 0;
 	}
@@ -97,6 +97,10 @@ body{
 	margin-right: auto;
 	width: 100%;
 	padding: 1rem;
+}
+/* TOOLTIPS */
+.custom-tooltip {
+  --bs-tooltip-bg: $theme-clr-primary;
 }
 /* HEADER - PÁGINAS DESCRIPTIVAS */
 $min-height-header_pagesinfo : 70px;

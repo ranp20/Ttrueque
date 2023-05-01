@@ -5,21 +5,18 @@
 			<div class="c-infTbs__c__item__cont box-redx">
 				<section class="c-infTbs__c__item__cont__itm">
 					<div class="c-infTbs__c__item__cont__itm__c c-align-l">
-						<div class="c-infTbs__c__item__cont__itm__c__cIcon">
-							<img src="./img/iconos_home/FLAT_handshake.svg" alt="icon-advantaje-1" width="100" height="100">
-						</div>
 						<div class="c-infTbs__c__item__cont__itm__c__cDesc">
 							<h2 class="c-infTbs__c__item__cont__itm__c__cDesc__title">ÚNETE A LA NUEVA FORMA SEGURA DE HACER NEGOCIOS SIN USAR DINERO CONVENCIONAL.</h2>
 							<p class="c-infTbs__c__item__cont__itm__c__cDesc__desc">Regístrate gratuitamente como Persona Natural o Empresa, y aprovecha el intercambio fluido entre usuarios.</p>
 							<a href="./page_one" class="c-infTbs__c__item__cont__itm__c__cDesc__link">Mayores detalles</a>
 						</div>
+						<div class="c-infTbs__c__item__cont__itm__c__cIcon">
+							<img src="./img/iconos_home/FLAT_handshake.svg" alt="icon-advantaje-1" width="100" height="100">
+						</div>
 					</div>
 				</section>
 				<section class="c-infTbs__c__item__cont__itm">
 					<div class="c-infTbs__c__item__cont__itm__c c-align-r container-desc-txt-l">
-						<div class="c-infTbs__c__item__cont__itm__c__cIcon">
-							<img src="./img/iconos_home/FLAT_shield.svg" alt="icon-advantaje-2" width="100" height="100">
-						</div>
 						<div class="c-infTbs__c__item__cont__itm__c__cDesc">
 							<h2 class="c-infTbs__c__item__cont__itm__c__cDesc__title">
 								<span>¿CÓMO SE ADQUIERE UN BIKKER?</span></br>
@@ -28,29 +25,32 @@
 							<p class="c-infTbs__c__item__cont__itm__c__cDesc__desc">En los establecimientos físicos se vende o compra usando QR o Tárgeta Ttrueque; y en las tiendas virtuales Ttrueque, en Línea.</p>
 							<a href="./page_two" class="c-infTbs__c__item__cont__itm__c__cDesc__link" title="Mayores detalles">Mayores detalles</a>
 						</div>
+						<div class="c-infTbs__c__item__cont__itm__c__cIcon">
+							<img src="./img/iconos_home/FLAT_shield.svg" alt="icon-advantaje-2" width="100" height="100">
+						</div>
 					</div>
 				</section>
 				<section class="c-infTbs__c__item__cont__itm">
 					<div class="c-infTbs__c__item__cont__itm__c c-align-l">
-						<div class="c-infTbs__c__item__cont__itm__c__cIcon">
-							<img src="./img/iconos_home/FLAT_dollar.svg" alt="icon-advantaje-3" width="100" height="100">
-						</div>
 						<div class="c-infTbs__c__item__cont__itm__c__cDesc">
 							<h2 class="c-infTbs__c__item__cont__itm__c__cDesc__title">MEDIOS DE PAGO EN LA PLATAFORMA TTRUEQUE</h2>
 							<p class="c-infTbs__c__item__cont__itm__c__cDesc__desc">Para comprar o vender, los usuarios utilizan el aplicativo QR (en celular), la Targeta Ttrueque y la opción en Línea.</p>
 							<a href="./page_three" class="c-infTbs__c__item__cont__itm__c__cDesc__link" title="Mayores detalles">Mayores detalles</a>
 						</div>
+						<div class="c-infTbs__c__item__cont__itm__c__cIcon">
+							<img src="./img/iconos_home/FLAT_dollar.svg" alt="icon-advantaje-3" width="100" height="100">
+						</div>
 					</div>
 				</section>
 				<section class="c-infTbs__c__item__cont__itm">
 					<div class="c-infTbs__c__item__cont__itm__c c-align-r container-desc-txt-l">
-						<div class="c-infTbs__c__item__cont__itm__c__cIcon">
-							<img src="./img/iconos_home/FLAT_lock.svg" alt="icon-advantaje-4" width="100" height="100">
-						</div>
 						<div class="c-infTbs__c__item__cont__itm__c__cDesc">
 							<h2 class="c-infTbs__c__item__cont__itm__c__cDesc__title">ADMINISTRACIÓN DE CUENTA</h2>
 							<p class="c-infTbs__c__item__cont__itm__c__cDesc__desc">La administración de la Cuenta del usuario se fundamenta en la Seguridad y la Calidad del servicio.</p>
 							<a href="./page_four" class="c-infTbs__c__item__cont__itm__c__cDesc__link" title="Mayores detalles">Mayores detalles</a>
+						</div>
+						<div class="c-infTbs__c__item__cont__itm__c__cIcon">
+							<img src="./img/iconos_home/FLAT_lock.svg" alt="icon-advantaje-4" width="100" height="100">
 						</div>
 					</div>
 				</section>
