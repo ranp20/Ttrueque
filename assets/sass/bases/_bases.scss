@@ -8,6 +8,8 @@
 *::before{
 	margin: 0;
 	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	font-family: $font-family-1 !important;
 }
@@ -53,8 +55,7 @@ body{
 /* CLASS UTILITIES */
 .box{
 	@include max-width($max-width);
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto;
 	width: 100%;
 	padding: 1rem;
 }
@@ -80,21 +81,18 @@ body{
 }
 .box-wuot-pdd{
 	@include max-width($max-width);
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto;
 	width: 100%;
 }
 .box-redx{
 	@include max-width($max-width-redx);
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto;
 	width: 100%;
 	padding: 1rem;
 }
 .box-f{
 	@include max-width($max-width-footer);
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto;
 	width: 100%;
 	padding: 1rem;
 }

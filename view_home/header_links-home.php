@@ -29,6 +29,7 @@
 <!-- PRELOADER FILES -->
 <link rel="preload" href="<?= $url;?>assets/css/styles.min.css" as="style"/>
 <link rel="preload" href="<?= $url;?>js/plugins/jquery/jquery-3.6.0.min.js" as="script"/>
+<link rel="preload" href="<?= $url;?>js/plugins/bootstrap/js/bootstrap.min.js" as="script"/>
 <!-- JQUERY COMPRESSED -->
 <script type="text/javascript" src="<?= $url;?>js/plugins/jquery/jquery-3.6.0.min.js"></script>
 <!-- STYLESSHEET -->

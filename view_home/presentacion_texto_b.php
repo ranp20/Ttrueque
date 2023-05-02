@@ -8,10 +8,10 @@
 						<div class="c-infTbs__c__item__cont__itm__c__cDesc">
 							<h2 class="c-infTbs__c__item__cont__itm__c__cDesc__title">ÚNETE A LA NUEVA FORMA SEGURA DE HACER NEGOCIOS SIN USAR DINERO CONVENCIONAL.</h2>
 							<p class="c-infTbs__c__item__cont__itm__c__cDesc__desc">Regístrate gratuitamente como Persona Natural o Empresa, y aprovecha el intercambio fluido entre usuarios.</p>
-							<a href="./page_one" class="c-infTbs__c__item__cont__itm__c__cDesc__link">Mayores detalles</a>
+							<a href="./page_one" class="c-infTbs__c__item__cont__itm__c__cDesc__link" title="Mayores detalles">Mayores detalles</a>
 						</div>
 						<div class="c-infTbs__c__item__cont__itm__c__cIcon">
-							<img src="./img/iconos_home/FLAT_handshake.svg" alt="icon-advantaje-1" width="100" height="100">
+							<img src="./img/iconos_home/FLAT_handshake.svg" alt="icon-advantaje-1" width="100" height="100" decoding="sync">
 						</div>
 					</div>
 				</section>
@@ -26,7 +26,7 @@
 							<a href="./page_two" class="c-infTbs__c__item__cont__itm__c__cDesc__link" title="Mayores detalles">Mayores detalles</a>
 						</div>
 						<div class="c-infTbs__c__item__cont__itm__c__cIcon">
-							<img src="./img/iconos_home/FLAT_shield.svg" alt="icon-advantaje-2" width="100" height="100">
+							<img src="./img/iconos_home/FLAT_shield.svg" alt="icon-advantaje-2" width="100" height="100" decoding="sync">
 						</div>
 					</div>
 				</section>
@@ -38,7 +38,7 @@
 							<a href="./page_three" class="c-infTbs__c__item__cont__itm__c__cDesc__link" title="Mayores detalles">Mayores detalles</a>
 						</div>
 						<div class="c-infTbs__c__item__cont__itm__c__cIcon">
-							<img src="./img/iconos_home/FLAT_dollar.svg" alt="icon-advantaje-3" width="100" height="100">
+							<img src="./img/iconos_home/FLAT_dollar.svg" alt="icon-advantaje-3" width="100" height="100" decoding="sync">
 						</div>
 					</div>
 				</section>
@@ -50,7 +50,7 @@
 							<a href="./page_four" class="c-infTbs__c__item__cont__itm__c__cDesc__link" title="Mayores detalles">Mayores detalles</a>
 						</div>
 						<div class="c-infTbs__c__item__cont__itm__c__cIcon">
-							<img src="./img/iconos_home/FLAT_lock.svg" alt="icon-advantaje-4" width="100" height="100">
+							<img src="./img/iconos_home/FLAT_lock.svg" alt="icon-advantaje-4" width="100" height="100" decoding="sync">
 						</div>
 					</div>
 				</section>
@@ -76,13 +76,13 @@
 			      	<div class="c-infTbs__c__item__foot__c__cB__cR__cBtns">
 				        <a class="c-infTbs__c__item__foot__c__cB__cR__cBtns__link" href="https://play.google.com/store/apps/details?id=app.ttruequeqr.com" target="_blank" >
 				        	<div class="c-infTbs__c__item__foot__c__cB__cR__cBtns__link__cIcon">
-				        		<img src="img/Utilities/ttrueque_negocios_sin_limites.png" alt="icon_ttrueque-app_negocios_sin_limite" width="100" height="100">
+				        		<img src="img/Utilities/ttrueque_negocios_sin_limites.png" alt="icon_ttrueque-app_negocios_sin_limite" width="100" height="100" decoding="sync">
 				        	</div>
 				        	<span>Ttrueque - Negocios sin límites</span>
 				        </a>
 				        <a class="c-infTbs__c__item__foot__c__cB__cR__cBtns__link" href="https://play.google.com/store/apps/details?id=app.ttruequetienda.com" target="_blank" >
 				        	<div class="c-infTbs__c__item__foot__c__cB__cR__cBtns__link__cIcon">
-				        		<img src="img/Utilities/ttrueque_lector_qr.png" alt="icon_ttrueque-app_lector_qr" width="100" height="100">
+				        		<img src="img/Utilities/ttrueque_lector_qr.png" alt="icon_ttrueque-app_lector_qr" width="100" height="100" decoding="sync">
 				        	</div>
 				        	<span>Ttrueque - Lector QR</span>
 				        </a>
@@ -117,7 +117,7 @@
 					<p>Es muy sencillo, tan solo ingresa y/o registrate en la página web <a href="login" title="Iniciar sesión">www.ttrueque.com</a> y de inmediato puedes comenzar a comprar con el bono de bienvenida, el cuál te brinda 100 Bikkers para comprar lo que quieras dentro del sitio.</p>
 					<p>Posterior a la compra el vendedor de dicha tienda te informará si tu pedido o compra ha sido recogido y dará pie al siguiente paso, que consiste en la entrega como tál de dicho artículo a la dirección que especificaste con anterioridad al crear tu cuenta.</p>
 					<div class="c-infTbs__c__item__cont__sect__c__cImgB">
-						<img src="img/svg/business_shop_ttrq.svg" alt="shoppng_in_ttrueque">
+						<img src="img/svg/business_shop_ttrq.svg" alt="shoppng_in_ttrueque" width="100" height="100" decoding="sync">
 					</div>
 				</div>
 			</section>
@@ -142,13 +142,13 @@
 			      	<div class="c-infTbs__c__item__foot__c__cB__cR__cBtns">
 				        <a class="c-infTbs__c__item__foot__c__cB__cR__cBtns__link" href="https://play.google.com/store/apps/details?id=app.ttruequeqr.com" target="_blank" >
 				        	<div class="c-infTbs__c__item__foot__c__cB__cR__cBtns__link__cIcon">
-				        		<img src="img/Utilities/ttrueque_negocios_sin_limites.png" alt="icon_ttrueque-app_negocios_sin_limite" width="100" height="100">
+				        		<img src="img/Utilities/ttrueque_negocios_sin_limites.png" alt="icon_ttrueque-app_negocios_sin_limite" width="100" height="100" decoding="sync">
 				        	</div>
 				        	<span>Ttrueque - Negocios sin límites</span>
 				        </a>
 				        <a class="c-infTbs__c__item__foot__c__cB__cR__cBtns__link" href="https://play.google.com/store/apps/details?id=app.ttruequetienda.com" target="_blank" >
 				        	<div class="c-infTbs__c__item__foot__c__cB__cR__cBtns__link__cIcon">
-				        		<img src="img/Utilities/ttrueque_lector_qr.png" alt="icon_ttrueque-app_lector_qr" width="100" height="100">
+				        		<img src="img/Utilities/ttrueque_lector_qr.png" alt="icon_ttrueque-app_lector_qr" width="100" height="100" decoding="sync">
 				        	</div>
 				        	<span>Ttrueque - Lector QR</span>
 				        </a>
@@ -186,7 +186,7 @@
 								<ul class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m">
 									<li class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m__i">
 										<div class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m__i__cIcon">
-											<img src="img/iconos_home/web-001.svg" alt="Paso_1_client_web" width="100" height="100">
+											<img src="img/iconos_home/web-001.svg" alt="Paso_1_client_web" width="100" height="100" decoding="sync">
 										</div>
 										<div class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m__i__cDesc">
 											<p><span>Paso 1:</span> Ingresar tu usuario y contraseña. Si aún no tienes cuenta regístrate <a href="account" title="Registrarse">aquí.</a></p>
@@ -194,7 +194,7 @@
 									</li>
 									<li class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m__i">
 										<div class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m__i__cIcon">
-											<img src="img/iconos_home/web-002.svg" alt="Paso_2_client_web" width="100" height="100">
+											<img src="img/iconos_home/web-002.svg" alt="Paso_2_client_web" width="100" height="100" decoding="sync">
 										</div>
 										<div class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m__i__cDesc">
 											<p><span>Paso 2:</span> Buscar y seleccionar el producto que desea y añádelo al carrito.</p>
@@ -202,7 +202,7 @@
 									</li>
 									<li class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m__i">
 										<div class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m__i__cIcon">
-											<img src="img/iconos_home/web-003.svg" alt="Paso_3_client_web" width="100" height="100">
+											<img src="img/iconos_home/web-003.svg" alt="Paso_3_client_web" width="100" height="100" decoding="sync">
 										</div>
 										<div class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m__i__cDesc">
 											<p><span>Paso 3:</span> Paga con tus Bikkers los productos que seleccionaste.</p>
@@ -210,7 +210,7 @@
 									</li>
 									<li class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m__i">
 										<div class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m__i__cIcon">
-											<img src="img/iconos_home/web-004.svg" alt="Paso_4_client_web" width="100" height="100">
+											<img src="img/iconos_home/web-004.svg" alt="Paso_4_client_web" width="100" height="100" decoding="sync">
 										</div>
 										<div class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m__i__cDesc">
 											<p><span>Paso 4:</span> Confirma los productos o envíos con un comentario o solicitud.</p>
@@ -225,7 +225,7 @@
 								<ul class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m">
 									<li class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m__i">
 										<div class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m__i__cIcon">
-											<img src="img/iconos_home/app_001.svg" alt="Paso_1_client_app" width="100" height="100">
+											<img src="img/iconos_home/app_001.svg" alt="Paso_1_client_app" width="100" height="100" decoding="sync">
 										</div>
 										<div class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m__i__cDesc">
 											<p><span>Paso 1:</span> Registrarse mediante la web o en el aplicativo <strong>Ttrueque - Negocios sin límites(Lo encuentras en Play Store).</strong></p>
@@ -233,7 +233,7 @@
 									</li>
 									<li class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m__i">
 										<div class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m__i__cIcon">
-											<img src="img/iconos_home/app_002.svg" alt="Paso_2_client_app" width="100" height="100">
+											<img src="img/iconos_home/app_002.svg" alt="Paso_2_client_app" width="100" height="100" decoding="sync">
 										</div>
 										<div class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m__i__cDesc">
 											<p><span>Paso 2:</span> Inicia Sesión mediante el aplicativo <strong>Ttrueque - Lector QR(Lo encuentras en Play Store).</strong></p>
@@ -241,7 +241,7 @@
 									</li>
 									<li class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m__i">
 										<div class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m__i__cIcon">
-											<img src="img/iconos_home/app_003.svg" alt="Paso_3_client_app" width="100" height="100">
+											<img src="img/iconos_home/app_003.svg" alt="Paso_3_client_app" width="100" height="100" decoding="sync">
 										</div>
 										<div class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m__i__cDesc">
 											<p><span>Paso 3:</span> Solicita tu código QR al administrador y/o Visualízalo desde la app.</p>
@@ -249,7 +249,7 @@
 									</li>
 									<li class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m__i">
 										<div class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m__i__cIcon">
-											<img src="img/iconos_home/app_004.svg" alt="Paso_4_client_app" width="100" height="100">
+											<img src="img/iconos_home/app_004.svg" alt="Paso_4_client_app" width="100" height="100" decoding="sync">
 										</div>
 										<div class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m__i__cDesc">
 											<p><span>Paso 4:</span> Finalmente, pásalo por el lector del vendedor de la tienda.</p>
@@ -282,13 +282,13 @@
 			      	<div class="c-infTbs__c__item__foot__c__cB__cR__cBtns">
 				        <a class="c-infTbs__c__item__foot__c__cB__cR__cBtns__link" href="https://play.google.com/store/apps/details?id=app.ttruequeqr.com" target="_blank" >
 				        	<div class="c-infTbs__c__item__foot__c__cB__cR__cBtns__link__cIcon">
-				        		<img src="img/Utilities/ttrueque_negocios_sin_limites.png" alt="icon_ttrueque-app_negocios_sin_limite" width="100" height="100">
+				        		<img src="img/Utilities/ttrueque_negocios_sin_limites.png" alt="icon_ttrueque-app_negocios_sin_limite" width="100" height="100" decoding="sync">
 				        	</div>
 				        	<span>Ttrueque - Negocios sin límites</span>
 				        </a>
 				        <a class="c-infTbs__c__item__foot__c__cB__cR__cBtns__link" href="https://play.google.com/store/apps/details?id=app.ttruequetienda.com" target="_blank" >
 				        	<div class="c-infTbs__c__item__foot__c__cB__cR__cBtns__link__cIcon">
-				        		<img src="img/Utilities/ttrueque_lector_qr.png" alt="icon_ttrueque-app_lector_qr" width="100" height="100">
+				        		<img src="img/Utilities/ttrueque_lector_qr.png" alt="icon_ttrueque-app_lector_qr" width="100" height="100" decoding="sync">
 				        	</div>
 				        	<span>Ttrueque - Lector QR</span>
 				        </a>
@@ -326,7 +326,7 @@
 								<ul class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m">
 									<li class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m__i">
 										<div class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m__i__cIcon">
-											<img src="img/iconos_home/web-001.svg" alt="Paso_1_sell_web" width="100" height="100">
+											<img src="img/iconos_home/web-001.svg" alt="Paso_1_sell_web" width="100" height="100" decoding="sync">
 										</div>
 										<div class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m__i__cDesc">
 											<p><span>Paso 1:</span> Ingresar tu usuario y contraseña. Si aún no tienes cuenta regístrate <a href="account" title="Registrarse">aquí.</a></p>
@@ -334,7 +334,7 @@
 									</li>
 									<li class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m__i">
 										<div class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m__i__cIcon">
-											<img src="img/iconos_home/070-webpage-2.svg" alt="Paso_2_sell_web" width="100" height="100">
+											<img src="img/iconos_home/070-webpage-2.svg" alt="Paso_2_sell_web" width="100" height="100" decoding="sync">
 										</div>
 										<div class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m__i__cDesc">
 											<p><span>Paso 2:</span> Ir a <strong>"Administrar mi cuenta".</strong></p>
@@ -342,7 +342,7 @@
 									</li>
 									<li class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m__i">
 										<div class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m__i__cIcon">
-											<img src="img/iconos_home/029-warranty.svg" alt="Paso_3_sell_web" width="100" height="100">
+											<img src="img/iconos_home/029-warranty.svg" alt="Paso_3_sell_web" width="100" height="100" decoding="sync">
 										</div>
 										<div class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m__i__cDesc">
 											<p><span>Paso 3:</span> Seleccionar el tipo de menbresía y rellene los datos según usuario seleccionado.</p>
@@ -350,7 +350,7 @@
 									</li>
 									<li class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m__i">
 										<div class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m__i__cIcon">
-											<img src="img/iconos_home/paypal.svg" alt="Paso_4_sell_web" width="100" height="100">
+											<img src="img/iconos_home/paypal.svg" alt="Paso_4_sell_web" width="100" height="100" decoding="sync">
 										</div>
 										<div class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m__i__cDesc">
 											<p><span>Paso 4:</span> Realizar pago mediante Paypal y obtenga su nueva tienda.</p>
@@ -365,7 +365,7 @@
 								<ul class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m">
 									<li class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m__i">
 										<div class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m__i__cIcon">
-											<img src="img/iconos_home/034-hand.svg" alt="Paso_1_client_web" width="100" height="100">
+											<img src="img/iconos_home/034-hand.svg" alt="Paso_1_client_web" width="100" height="100" decoding="sync">
 										</div>
 										<div class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m__i__cDesc">
 											<p><span>Paso 1:</span>Inicia sesión mediante el aplicativo <strong>Ttrueque - Lector QR</strong> Click en "Scanear QR".</p>
@@ -373,7 +373,7 @@
 									</li>
 									<li class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m__i">
 										<div class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m__i__cIcon">
-											<img src="img/iconos_home/app_004.svg" alt="Paso_2_client_web" width="100" height="100">
+											<img src="img/iconos_home/app_004.svg" alt="Paso_2_client_web" width="100" height="100" decoding="sync">
 										</div>
 										<div class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m__i__cDesc">
 											<p><span>Paso 2:</span> Pasa el lector por el QR.</p>
@@ -381,7 +381,7 @@
 									</li>
 									<li class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m__i">
 										<div class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m__i__cIcon">
-											<img src="img/iconos_home/014-check-list.svg" alt="Paso_3_client_web" width="100" height="100">
+											<img src="img/iconos_home/014-check-list.svg" alt="Paso_3_client_web" width="100" height="100" decoding="sync">
 										</div>
 										<div class="c-infTbs__c__item__cont__sect__c__cSteps__cont__stps__m__i__cDesc">
 											<p><span>Paso 3:</span> Verificar el nombre del cliente a cobrar los Bikkers.</p>
@@ -414,13 +414,13 @@
 			      	<div class="c-infTbs__c__item__foot__c__cB__cR__cBtns">
 				        <a class="c-infTbs__c__item__foot__c__cB__cR__cBtns__link" href="https://play.google.com/store/apps/details?id=app.ttruequeqr.com" target="_blank" >
 				        	<div class="c-infTbs__c__item__foot__c__cB__cR__cBtns__link__cIcon">
-				        		<img src="img/Utilities/ttrueque_negocios_sin_limites.png" alt="icon_ttrueque-app_negocios_sin_limite" width="100" height="100">
+				        		<img src="img/Utilities/ttrueque_negocios_sin_limites.png" alt="icon_ttrueque-app_negocios_sin_limite" width="100" height="100" decoding="sync">
 				        	</div>
 				        	<span>Ttrueque - Negocios sin límites</span>
 				        </a>
 				        <a class="c-infTbs__c__item__foot__c__cB__cR__cBtns__link" href="https://play.google.com/store/apps/details?id=app.ttruequetienda.com" target="_blank" >
 				        	<div class="c-infTbs__c__item__foot__c__cB__cR__cBtns__link__cIcon">
-				        		<img src="img/Utilities/ttrueque_lector_qr.png" alt="icon_ttrueque-app_lector_qr" width="100" height="100">
+				        		<img src="img/Utilities/ttrueque_lector_qr.png" alt="icon_ttrueque-app_lector_qr" width="100" height="100" decoding="sync">
 				        	</div>
 				        	<span>Ttrueque - Lector QR</span>
 				        </a>
@@ -703,13 +703,13 @@
 			      	<div class="c-infTbs__c__item__foot__c__cB__cR__cBtns">
 				        <a class="c-infTbs__c__item__foot__c__cB__cR__cBtns__link" href="https://play.google.com/store/apps/details?id=app.ttruequeqr.com" target="_blank" >
 				        	<div class="c-infTbs__c__item__foot__c__cB__cR__cBtns__link__cIcon">
-				        		<img src="img/Utilities/ttrueque_negocios_sin_limites.png" alt="icon_ttrueque-app_negocios_sin_limite" width="100" height="100">
+				        		<img src="img/Utilities/ttrueque_negocios_sin_limites.png" alt="icon_ttrueque-app_negocios_sin_limite" width="100" height="100" decoding="sync">
 				        	</div>
 				        	<span>Ttrueque - Negocios sin límites</span>
 				        </a>
 				        <a class="c-infTbs__c__item__foot__c__cB__cR__cBtns__link" href="https://play.google.com/store/apps/details?id=app.ttruequetienda.com" target="_blank" >
 				        	<div class="c-infTbs__c__item__foot__c__cB__cR__cBtns__link__cIcon">
-				        		<img src="img/Utilities/ttrueque_lector_qr.png" alt="icon_ttrueque-app_lector_qr" width="100" height="100">
+				        		<img src="img/Utilities/ttrueque_lector_qr.png" alt="icon_ttrueque-app_lector_qr" width="100" height="100" decoding="sync">
 				        	</div>
 				        	<span>Ttrueque - Lector QR</span>
 				        </a>

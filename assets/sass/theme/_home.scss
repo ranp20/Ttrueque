@@ -607,9 +607,11 @@ $max-height-banner-desktop: 665px;
 					    float: none;
 					    margin-bottom: 1rem;
 					    width: 45%;
+					    order: 0;
 					    @media (min-width: 768px){
 				    		width: 40%;
 				    		margin-bottom: 2rem;
+				    		order: initial;
 					    }
 					    @media (min-width: 991px){
 				    		width: 50%;
@@ -621,8 +623,9 @@ $max-height-banner-desktop: 665px;
 				    	}
 				    }
 				    &__cDesc{
-  						text-align: left;
+  						text-align: center;
   						margin-top: 1rem;
+  						order: 1;
   						&__title{
   							text-transform: uppercase;
 						    font-size: 1.6rem;
@@ -639,7 +642,6 @@ $max-height-banner-desktop: 665px;
   						&__desc{
   							color: $theme-clr-paragraph;
   							margin-bottom: 1.5rem;
-  							text-align: justify;
   						}
   						&__link{
   							font-size: .9rem;
@@ -651,8 +653,7 @@ $max-height-banner-desktop: 665px;
   							display: table;
 						    border-radius: 6px;
   							box-shadow: 0px 2px 5px 1px rgba(0,0,0,.1);
-  							// margin: 0 auto;
-  							margin: 0 auto 0 0;
+  							margin: 0 auto;
   							&:hover{
   								color: $theme-clr-btns-txt;
   								background-color: $theme-clr-btns-hover;
@@ -661,11 +662,16 @@ $max-height-banner-desktop: 665px;
   						@media (min-width: 768px){
 				    		width: 50%;
 				    		margin-top: 0;
+				    		order: initial;
+				    		text-align: left;
 				    		&__title{
 				    			font-size: 27px;
 				    		}
 				    		&__desc{
 				    			font-size: 17px;
+				    		}
+				    		&__link{
+				    			margin: 0 auto 0 0;
 				    		}
   						}
   						@media (min-width: 1150px){
@@ -719,6 +725,9 @@ $max-height-banner-desktop: 665px;
 			    	}
 			    	a{
 			    		// text-decoration: underline !important;
+			    		&:hover{
+			    			text-decoration: underline !important;
+			    		}
 			    	}
 			    	&__cImgB{
 		    			text-align: center;
@@ -1025,21 +1034,9 @@ $max-height-banner-desktop: 665px;
 							    &:focus,
 							    &:active{
 							    	color: #fff;
-								  	&__cIcon{
-								  		box-shadow: 0 0 10px #fff;
-								  	}
-								  	span{
-								  		text-shadow: 0 0 15px #fff;
-								  	}
 							    }
 								  &:hover{
 								  	color: #fff;
-								  	&__cIcon{
-								  		box-shadow: 0 0 10px #fff;
-								  	}
-								  	span{
-								  		text-shadow: 0 0 15px #fff;
-								  	}
 								  }
 								}
 							}
