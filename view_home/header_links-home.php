@@ -35,5 +35,4 @@
 <!-- STYLESSHEET -->
 <link rel="stylesheet" href="<?= $url;?>assets/css/styles.min.css"/>
 <!-- BOOTSTRAP UNCOMPRESSED -->
-<!-- <link rel="stylesheet" href="<?php /* echo $url;*/?>js/plugins/bootstrap/css/bootstrap.min.css"> -->
 <script type="text/javascript" src="<?= $url;?>js/plugins/bootstrap/js/bootstrap.min.js"></script>
