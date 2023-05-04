@@ -35,9 +35,8 @@ $url =  $actual_link . "/" ."Ttrueque/";
 <link rel="stylesheet" href="<?php echo $url; ?>js/plugins/bootstrap/css/bootstrap.min.css">
 <script type="text/javascript" src="<?php echo $url; ?>js/plugins/bootstrap/js/bootstrap.min.js"></script>
 <!-- STYLESSHEET -->
-<link rel="stylesheet" href="<?= $url; ?>assets/css/styles.min.css"/>
+<!-- <link rel="stylesheet" href="<?= $url; ?>assets/css/styles.min.css"/> -->
 <!-- ADD CSS -->
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/add-to-product.css">
-<link rel="stylesheet" href="css/products_v.css">
-<link rel="stylesheet" href="css/add-store.css">
+<link rel="stylesheet" href="assets/css/styles.min.css">
+<!-- CDN FONTS -->
+<!-- <link href="https://fonts.cdnfonts.com/css/felix-titling" rel="stylesheet"> -->

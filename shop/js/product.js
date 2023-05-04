@@ -11,15 +11,12 @@ $(document).ready(function(){
     }
   });
 });
-
-$(document).on("click", "#btn-product", function (e) {
+$(document).on("submit", "#form-product", function (e){
   e.preventDefault();
 
   $(this).attr("disabled", "disabled");
   $(this).addClass("disabled");
-
   var namevaluesinputs = {};
-
   $('#form-product').each(function(){
     $(this).find('input').each(function(){
       
@@ -28,9 +25,7 @@ $(document).on("click", "#btn-product", function (e) {
       /*for(var i = 0;i < inputs.length; i++){
         var namesinputs = inputs[i].name;
         console.log(namesinputs);
-
       }
-
       
       if(inputs.val().length <= 0){
         Swal.fire({
@@ -49,7 +44,6 @@ $(document).on("click", "#btn-product", function (e) {
     });
     console.log(namevaluesinputs);
   });
-
 
 
   var formData = new FormData();
@@ -78,10 +72,10 @@ $(document).on("click", "#btn-product", function (e) {
     cache: false,
     processData: false,
   }).done((e) => {
-     console.log(e);
+    console.log(e);
+    /*
     var resul = JSON.parse(e);
-    // console.log(resul);
-    if (resul["res"] == "inserto") {
+    if(resul["res"] == "inserto"){
       $("#form-product")[0].reset();
       //console.log(resul[0]);
       Swal.fire({
@@ -95,7 +89,7 @@ $(document).on("click", "#btn-product", function (e) {
       window.location.replace("../shop/products_v.php");
       $(this).removeAttr("disabled");
       $(this).removeClass("disabled");
-    } else if (resul["res"] == "agotado") {
+    }else if(resul["res"] == "agotado"){
       Swal.fire({
         title: "Error",
         text: "Membresía acabada, vuelva a recargar",
@@ -104,12 +98,13 @@ $(document).on("click", "#btn-product", function (e) {
       });
       $(this).removeAttr("disabled");
       $(this).removeClass("disabled");
-    } else {
+    }else{
       //console.log(formData);
       alert("No insertó");
       $(this).removeAttr("disabled");
       $(this).removeClass("disabled");
     }
+    */
   });
 });
 
