@@ -15,12 +15,10 @@
     <?php require_once 'includes/adm_sidebar-left.php';?>
     <main id="main-dashCamel">
       <?php require_once 'includes/adm_header-top.php';?>
-
       <div class="content-wrapper">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-md-12"> 
-              <!-- TÍTULO DEL ITEM Y BOTON DE AGREGADO -->
+            <div class="col-md-12">
               <div id="content-title-list-user">
                 <h2 class="page-title">Credenciales de Paypal&nbsp;&nbsp;<i class="fa fa-credit-card"></i>
                 </h2>
@@ -28,7 +26,6 @@
                   <a href="dashboard.php" id="button-back-dash-left-header">Volver a Dashboard<i class="fa fa-arrow-right" id="icon-btn-back-dash"></i></a>
                 </div>
               </div>
-              <!-- Zero Configuration Table -->
               <div class="panel panel-default">
                 <div class="panel-heading">Lista de Credenciales
                 </div>
@@ -60,19 +57,16 @@
                           }
                         ?>
                       </tbody>
-                    </table>                    
+                    </table>
                   </div>
-
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      
     </main>
   </div>
-  <!-- Loading Scripts -->
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/bootstrap-select.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
