@@ -28,73 +28,76 @@ if (!isset($tienda[1][0]["id_menbresia"])) {
     <!-- CONTENT FULL HISTORY SHIPPINGS  -->
     <section class="content-dash">
       <?php require_once 'includes/header-top.php'; ?>
-      <div class="content-top">
-        <div class="content-title">
-          <h1 class="title-dashboard lang_ttrq" key="txt-list-link-page-sdlf-ad_cli-4">Mi Saldo</h1>
-          <input type="hidden" id="idcliente" value="<?php echo $d[0]['id_cliente']; ?>">
-        </div>
-      </div>
-      
-      <div class="bcontent-btns-top" id="contWallet-Btnstop">
-        <ul class="bcontent-btns-top--m">
-          <a href="javascript:void(0);" class="bcontent-btns-top--m--link">
-            <li class="bcontent-btns-top--m--item">
-              <div class="bcontent-btns-top--m--item--cImg">
-                <img src="images/utilities/currency_ttrueque.jpeg" alt="" >
-              </div>
-              <div class="bcontent-btns-top--m--item--cDesc">
-                <p class="bcontent-btns-top--m--item--cDesc--text"><?php foreach ($d as $val){echo $val['puntos'];}?> <span class="lang_ttrq" key="txt-wallet-btn-top-ad_cli-1">Bikkers</span></p>
-                <span class="lang_ttrq bcontent-btns-top--m--item--cDesc--desc" key="txt-down-btn-wallet-top-ad_cli-1">Monto de saldo</span>
-              </div>
-            </li>
-          </a>
-          <div class="bcontent-btns-top--m--linkgroup">
-            <li class="bcontent-btns-top--m--itemgroup">
-              <div class="bcontent-btns-top--m--itemgroup--cImg">
-                <img src="images/utilities/recharger_currency_ttrueque.jpeg" alt="" >
-              </div>
-              <div class="bcontent-btns-top--m--itemgroup--cDesc">
-                <a href="add-to-wallet.php" class="bcontent-btns-top--m--itemgroup--cDesc--addlink">
-                  <div class="bcontent-btns-top--m--itemgroup--cDesc--cIcon">
-                    <i class="lni lni-plus icon-hov"></i>
+      <main>
+        <div class="box">
+          <div class="content-top">
+            <div class="content-title">
+              <h1 class="title-dashboard lang_ttrq" key="txt-list-link-page-sdlf-ad_cli-4">Mi Saldo</h1>
+              <input type="hidden" id="idcliente" value="<?php echo $d[0]['id_cliente']; ?>">
+            </div>
+          </div>
+          <div class="bcontent-btns-top" id="contWallet-Btnstop">
+            <ul class="bcontent-btns-top--m">
+              <a href="javascript:void(0);" class="bcontent-btns-top--m--link">
+                <li class="bcontent-btns-top--m--item">
+                  <div class="bcontent-btns-top--m--item--cImg">
+                    <img src="images/utilities/currency_ttrueque.jpeg" alt="" >
                   </div>
-                  <p class="bcontent-btns-top--m--itemgroup--cDesc--addlink--desc">
-                    <span class="lang_ttrq" key="txt-down-btn-wallet-top-ad_cli-2">Recargue su saldo</span>
-                    <span>Comprando Bikkers</span>
-                  </p>
-                </a>
-                <!--<a href="../home?goto=queesunbikker" class="bcontent-btns-top--m--itemgroup--cDesc--redirectlink">Qué es un bikker?</a> -->
-                <a href="../home#queesunbikker" class="bcontent-btns-top--m--itemgroup--cDesc--redirectlink">Qué es un bikker?</a>
+                  <div class="bcontent-btns-top--m--item--cDesc">
+                    <p class="bcontent-btns-top--m--item--cDesc--text"><?php foreach ($d as $val){echo $val['puntos'];}?> <span class="lang_ttrq" key="txt-wallet-btn-top-ad_cli-1">Bikkers</span></p>
+                    <span class="lang_ttrq bcontent-btns-top--m--item--cDesc--desc" key="txt-down-btn-wallet-top-ad_cli-1">Monto de saldo</span>
+                  </div>
+                </li>
+              </a>
+              <div class="bcontent-btns-top--m--linkgroup">
+                <li class="bcontent-btns-top--m--itemgroup">
+                  <div class="bcontent-btns-top--m--itemgroup--cImg">
+                    <img src="images/utilities/recharger_currency_ttrueque.jpeg" alt="" >
+                  </div>
+                  <div class="bcontent-btns-top--m--itemgroup--cDesc">
+                    <a href="add-to-wallet.php" class="bcontent-btns-top--m--itemgroup--cDesc--addlink">
+                      <div class="bcontent-btns-top--m--itemgroup--cDesc--cIcon">
+                        <span>
+                          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28px" height="28px" version="1.1" viewBox="0 0 700 700"><g xmlns="http://www.w3.org/2000/svg"><path d="m350 72.801c-12.371 0-22.398 10.027-22.398 22.398v162.4h-162.4c-12.371 0-22.398 10.027-22.398 22.398s10.027 22.398 22.398 22.398h162.4v162.4c0 12.371 10.027 22.398 22.398 22.398s22.398-10.027 22.398-22.398v-162.4h162.4c12.371 0 22.398-10.027 22.398-22.398s-10.027-22.398-22.398-22.398h-162.4v-162.4c0-12.371-10.027-22.398-22.398-22.398z"/></g></svg>
+                        </span>
+                      </div>
+                      <p class="bcontent-btns-top--m--itemgroup--cDesc--addlink--desc">
+                        <span class="lang_ttrq" key="txt-down-btn-wallet-top-ad_cli-2">Recargue su saldo</span>
+                        <span>Comprando Bikkers</span>
+                      </p>
+                    </a>
+                    <!--<a href="../home?goto=queesunbikker" class="bcontent-btns-top--m--itemgroup--cDesc--redirectlink">Qué es un bikker?</a> -->
+                    <a href="../home#queesunbikker" class="bcontent-btns-top--m--itemgroup--cDesc--redirectlink">Qué es un bikker?</a>
+                  </div>
+                </li>
               </div>
-            </li>
+            </ul>
           </div>
-        </ul>
-      </div>
-
-
-      <div class="content-list-history-wallet-ad_cli-ttrk">
-        <div class="content-wallet">
-          <div class="content-history-wallet">
-            <div class="cabecera-wallet lang_ttrq" key="subtitle-table-wallet-ad_cli">Historial de recarga de Saldo</div>
+          <div class="content-list-history-wallet-ad_cli-ttrk">
+            <div class="content-wallet">
+              <div class="content-history-wallet">
+                <div class="cabecera-wallet lang_ttrq" key="subtitle-table-wallet-ad_cli">Historial de recarga de Saldo</div>
+              </div>
+            </div>
+            <div class="cont-tablelist-wallet">
+              <table class="wallet-table">
+                <thead>
+                  <tr>
+                    <th class="lang_ttrq" key="title-th-wallet-ad_cli-1">#</th>
+                    <th class="lang_ttrq" key="title-th-wallet-ad_cli-2">Fecha Transacción</th>
+                    <th class="lang_ttrq" key="title-th-wallet-ad_cli-3">T.Recarga</th>
+                    <th class="lang_ttrq" key="title-th-wallet-ad_cli-4">Monto</th>
+                    <th class="lang_ttrq" key="title-th-wallet-ad_cli-5">Cant.Recarga</th>
+                    <th class="lang_ttrq" key="title-th-wallet-ad_cli-6">Método de Pago</th>
+                  </tr>
+                </thead>
+                <tbody id="list_hw_idcliente">
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
-        <div class="cont-tablelist-wallet">
-          <table class="wallet-table">
-            <thead>
-              <tr>
-                <th class="lang_ttrq" key="title-th-wallet-ad_cli-1">#</th>
-                <th class="lang_ttrq" key="title-th-wallet-ad_cli-2">Fecha Transacción</th>
-                <th class="lang_ttrq" key="title-th-wallet-ad_cli-3">T.Recarga</th>
-                <th class="lang_ttrq" key="title-th-wallet-ad_cli-4">Monto</th>
-                <th class="lang_ttrq" key="title-th-wallet-ad_cli-5">Cant.Recarga</th>
-                <th class="lang_ttrq" key="title-th-wallet-ad_cli-6">Método de Pago</th>
-              </tr>
-            </thead>
-            <tbody id="list_hw_idcliente">
-            </tbody>
-          </table>
-        </div>
-      </div>
+      </main>
     </section>
   </div>
   <script type="text/javascript" src="./js/dashboard.js"></script>

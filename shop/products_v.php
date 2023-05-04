@@ -24,61 +24,67 @@ if (!isset($tienda[1][0]["id_menbresia"])) {
     <?php require_once 'includes/sidebar-left.php'; ?>
     <section class="content-dash">
       <?php require_once 'includes/header-top.php'; ?>
-      <div class="content-top">
-        <div class="content-title">
-          <h1 class="title-dashboard lang_ttrq" key="title-top-products-cli-ad_cli">Productos</h1>
+      <main>
+        <div class="box">
+          <div class="content-top">
+            <div class="content-title">
+              <h1 class="title-dashboard lang_ttrq" key="title-top-products-cli-ad_cli">Productos</h1>
+            </div>
+          </div>
+          <div class="bcontent-btns-top" id="contProducts-Btnstop">
+            <ul class="bcontent-btns-top--m">
+              <a href="javascript:void(0);" class="bcontent-btns-top--m--link">
+                <li class="bcontent-btns-top--m--item">
+                  <div class="bcontent-btns-top--m--item--cImg">
+                    <img src="images/utilities/products_total_ttrueque.jpeg" alt="" >
+                  </div>
+                  <div class="bcontent-btns-top--m--item--cDesc">
+                    <h4 id="totalList" class="bcontent-btns-top--m--item--cDesc--conttotal">
+                    </h4>
+                    <span class="lang_ttrq bcontent-btns-top--m--item--cDesc--desc" key="txt-down-btn-products-top-ad_cli-1">Productos en mi tienda</span>
+                  </div>
+                </li>
+              </a>
+              <a href="sel-published.php" class="bcontent-btns-top--m--link">
+                <li class="bcontent-btns-top--m--item">
+                  <div class="bcontent-btns-top--m--item--cImg">
+                    <img src="images/utilities/add_product_ttrueque.jpeg" alt="" >
+                  </div>
+                  <div class="bcontent-btns-top--m--item--cDesc">
+                    <div class="bcontent-btns-top--m--item--cDesc--cIcon">
+                      <span>
+                        <svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='28px' height='28px' version='1.1' viewBox='0 0 700 700'><g xmlns='http://www.w3.org/2000/svg'><path d='m350 72.801c-12.371 0-22.398 10.027-22.398 22.398v162.4h-162.4c-12.371 0-22.398 10.027-22.398 22.398s10.027 22.398 22.398 22.398h162.4v162.4c0 12.371 10.027 22.398 22.398 22.398s22.398-10.027 22.398-22.398v-162.4h162.4c12.371 0 22.398-10.027 22.398-22.398s-10.027-22.398-22.398-22.398h-162.4v-162.4c0-12.371-10.027-22.398-22.398-22.398z'/></g></svg>
+                      </span>
+                    </div>
+                    <span class="lang_ttrq bcontent-btns-top--m--item--cDesc--desc" key="txt-down-btn-products-top-ad_cli-2">Agregar nuevo producto</span>
+                  </div>
+                </li>
+              </a>
+            </ul>
+            <input type="hidden" name="tienda" id="tienda" value="<?php echo $d[0]["tienda"]; ?>">
+            <input type="hidden" name="email" id="email" value="<?php echo $d[0]["email_cliente"]; ?>">
+          </div>
+          <div class="content-list-products-ad_cli-ttrk" id="content-list-products-ad_cli-ttrk">
+            <table class="list-products">
+              <thead class="thead-products">
+                <tr>
+                  <th class="lang_ttrq" key="title-th-products-ad_cli-1">#</th>
+                  <th class="lang_ttrq" key="title-th-products-ad_cli-2">Categoría</th>
+                  <th class="lang_ttrq" key="title-th-products-ad_cli-3">Marca</th>
+                  <th class="lang_ttrq" key="title-th-products-ad_cli-4">Nombre producto</th>
+                  <th class="lang_ttrq" key="title-th-products-ad_cli-5">Descripción</th>
+                  <th class="lang_ttrq" key="title-th-products-ad_cli-6">Precio</th>
+                  <th class="lang_ttrq" key="title-th-products-ad_cli-7">Stock</th>
+                  <th class="lang_ttrq" key="title-th-products-ad_cli-8">Imagen</th>
+                  <th class="lang_ttrq" key="title-th-products-ad_cli-9" colspan="2">Opciones</th>
+                </tr>
+              </thead>
+              <tbody class="tbody-products" id="list">
+              </tbody>
+            </table>
+          </div>
         </div>
-      </div>
-      <div class="bcontent-btns-top" id="contProducts-Btnstop">
-        <ul class="bcontent-btns-top--m">
-          <a href="javascript:void(0);" class="bcontent-btns-top--m--link">
-            <li class="bcontent-btns-top--m--item">
-              <div class="bcontent-btns-top--m--item--cImg">
-                <img src="images/utilities/products_total_ttrueque.jpeg" alt="" >
-              </div>
-              <div class="bcontent-btns-top--m--item--cDesc">
-                <h4 id="totalList" class="bcontent-btns-top--m--item--cDesc--conttotal">
-                </h4>
-                <span class="lang_ttrq bcontent-btns-top--m--item--cDesc--desc" key="txt-down-btn-products-top-ad_cli-1">Productos en mi tienda</span>
-              </div>
-            </li>
-          </a>
-          <a href="sel-published.php" class="bcontent-btns-top--m--link">
-            <li class="bcontent-btns-top--m--item">
-              <div class="bcontent-btns-top--m--item--cImg">
-                <img src="images/utilities/add_product_ttrueque.jpeg" alt="" >
-              </div>
-              <div class="bcontent-btns-top--m--item--cDesc">
-                <div class="bcontent-btns-top--m--item--cDesc--cIcon">
-                  <i class="lni lni-plus icon-hov"></i>
-                </div>
-                <span class="lang_ttrq bcontent-btns-top--m--item--cDesc--desc" key="txt-down-btn-products-top-ad_cli-2">Agregar nuevo producto</span>
-              </div>
-            </li>
-          </a>
-        </ul>
-        <input type="hidden" name="tienda" id="tienda" value="<?php echo $d[0]["tienda"]; ?>">
-        <input type="hidden" name="email" id="email" value="<?php echo $d[0]["email_cliente"]; ?>">
-      </div>
-      <div class="content-list-products-ad_cli-ttrk" id="content-list-products-ad_cli-ttrk">
-        <table class="list-products">
-          <thead class="thead-products">
-            <tr>
-              <th class="lang_ttrq" key="title-th-products-ad_cli-1">#</th>
-              <th class="lang_ttrq" key="title-th-products-ad_cli-2">Categoría</th>
-              <th class="lang_ttrq" key="title-th-products-ad_cli-3">Marca</th>
-              <th class="lang_ttrq" key="title-th-products-ad_cli-4">Nombre producto</th>
-              <th class="lang_ttrq" key="title-th-products-ad_cli-5">Descripción</th>
-              <th class="lang_ttrq" key="title-th-products-ad_cli-6">Precio</th>
-              <th class="lang_ttrq" key="title-th-products-ad_cli-7">Stock</th>
-              <th class="lang_ttrq" key="title-th-products-ad_cli-8">Imagen</th>
-              <th class="lang_ttrq" key="title-th-products-ad_cli-9" colspan="2">Opciones</th>
-            </tr>
-          </thead>
-          <tbody class="tbody-products" id="list">
-          </tbody>
-        </table>
-      </div>
+      </main>
     </section>
   </div>
   <script type="text/javascript" src="./js/product.js"></script>

@@ -3721,8 +3721,6 @@ li .language_icon_header_b-ttrq .icon-language_ttrq ul li button div {  backgrou
 .container-list-opts-footer_ttrq .our-apps ul li .cont-img-our-apps{max-width: 60px;width: 90%;border-radius: .6rem;overflow: hidden;margin-right: .5rem;border: thin solid rgba(255,255,255, .5);}
 .container-list-opts-footer_ttrq .our-apps ul li .cont-img-our-apps img{width: 100%;height: 100%;}
 .container-list-opts-footer_ttrq .our-apps ul li span{font-weight: 600;}
-.container-list-opts-footer_ttrq .our-apps ul li a:hover .cont-img-our-apps{box-shadow: 0 0 10px #fff;}
-.container-list-opts-footer_ttrq .our-apps ul li a:hover span{text-shadow: 0 0 15px #fff;}
 /* CONTACTO WHATSAPP */
 .container-list-opts-footer_ttrq .contact-whatsapp{}
 .container-list-opts-footer_ttrq .contact-whatsapp ul{list-style: none;padding-left: 0;padding-top: 0.5rem;}

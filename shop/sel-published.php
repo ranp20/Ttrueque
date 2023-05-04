@@ -20,51 +20,6 @@ if (!isset($tienda[1][0]["id_menbresia"])) {
   <link rel="stylesheet" href="../node_modules/sweetalert2/dist/sweetalert2.min.css">
   <script type="text/javascript" src="../node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
 </head>
-<style type="text/css">
-  .content-dash__cSelPublised{
-    height: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .content-dash__cSelPublised--cT{
-    text-align: center;
-  }
-  .content-dash__cSelPublised--cT--title{
-    color: red;
-    margin-bottom: 2rem;
-  }
-  .content-dash__cSelPublised--cT--m{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .content-dash__cSelPublised--cT--m--link{
-    background-color: #fff;
-    display: inline-block;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    color: #444;
-    padding: 1rem 2.8rem;
-    margin: 10px 20px;
-    border-radius: .6rem;
-    transition: .25s ease-in-out;
-  }
-  .content-dash__cSelPublised--cT--m--link svg{
-    width: 7.5rem;
-    fill: #ccc;
-    transition: .25s ease-in-out;
-  }
-  .content-dash__cSelPublised--cT--m--link:hover{
-    box-shadow: 0 6px 20px 1px rgba(0,0,0,.12);
-    color: #444;
-  }
-  .content-dash__cSelPublised--cT--m--link:hover svg{
-    fill: red;
-  }
-</style>
 <body>
   <div class="container-total active">
     <?php require_once 'includes/sidebar-left.php'; ?>

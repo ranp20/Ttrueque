@@ -3,7 +3,12 @@ require_once '../php/class/client.php';
 $c = new Client();
 $d = $c->get_data_by_id($_SESSION['user']);
 ?>
-<section class="sidebar-nav">
+<section class="sidebar-nav cSdNav">
+  <div class="cSdNav__c--cClose">
+    <button type="button" id="btn-show-rigth-actions">
+      <span></span>
+    </button>
+  </div>
   <div class="user-image">
     <input type="hidden" id="tienda" name="tienda" value="<?php echo $d[0]['tienda'];?>">
     <input type="hidden" id="cantidad" name="cantidad" value="<?php echo $d[0]['cantidad'];?>">
