@@ -3,6 +3,15 @@ require_once '../php/class/client.php';
 $c = new Client();
 $d = $c->get_data_by_id($_SESSION['user']);
 ?>
+<div class="loader-cli">
+  <div class="shopAnimaLoader-2">
+    <div class="shopAnimaLoader-2__dot"></div>
+    <div class="shopAnimaLoader-2__dot"></div>
+    <div class="shopAnimaLoader-2__dot"></div>
+    <div class="shopAnimaLoader-2__dot"></div>
+    <div class="shopAnimaLoader-2__dot"></div>
+  </div>
+</div>
 <section class="sidebar-nav cSdNav">
   <div class="cSdNav__c--cClose">
     <button type="button" id="btn-show-rigth-actions">

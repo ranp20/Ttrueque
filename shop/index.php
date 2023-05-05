@@ -17,15 +17,10 @@ if(!isset($tienda[1][0]["id_menbresia"])){
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dashboard - Cliente</title>
   <?php require_once 'includes/head.php';?>
 </head>
 <body>
-  <div class="loader-cli">
-    <img src="images/gifs/shopping-loader.gif" alt="Loading...">
-  </div>
   <div class="container-total active">
     <?php require_once 'includes/sidebar-left.php';?>
     <section class="content-dash">

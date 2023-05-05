@@ -1,8 +1,4 @@
-// AGREGAR PRELOADER...
-window.addEventListener('load', function(){
-  const loadcli = document.querySelector('.loader-cli');
-  loadcli.className += ' hidden';
-});
+window.addEventListener('load', function(){document.querySelector('.loader-cli').className += ' hidden';});
 
 $(document).ready(function(){
   
@@ -87,16 +83,16 @@ $(document).ready(function(){
 var url = window.location.pathname;
 var filename = url.substring(url.lastIndexOf('/')+1);
 if(filename.length == 0 || filename.length == ""){
-    $("#options-user-d-cli a").eq(0).addClass("active");
+  $("#options-user-d-cli a").eq(0).addClass("active");
 }else if(filename == "sel-published.php" || filename == "add-service_v.php" || filename == "add-product_v.php"){
-    $("#options-user-d-cli a").eq(0).removeClass("active");
-    $("#options-user-d-cli a").eq(4).removeClass("active");
-    $("#options-user-d-cli a").eq(5).addClass("active");
+  $("#options-user-d-cli a").eq(0).removeClass("active");
+  $("#options-user-d-cli a").eq(4).removeClass("active");
+  $("#options-user-d-cli a").eq(5).addClass("active");
 }else if(filename == "check-payment-wallet.php"){
-    $("#options-user-d-cli a").eq(0).removeClass("active");
-    $("#options-user-d-cli a").eq(5).removeClass("active");
-    $("#options-user-d-cli a").eq(4).addClass("active");
+  $("#options-user-d-cli a").eq(0).removeClass("active");
+  $("#options-user-d-cli a").eq(5).removeClass("active");
+  $("#options-user-d-cli a").eq(4).addClass("active");
 }else{
-    $("#options-user-d-cli a").removeClass("active");
-    $('#options-user-d-cli a[href="' + filename + '"]').addClass("active");
+  $("#options-user-d-cli a").removeClass("active");
+  $('#options-user-d-cli a[href="' + filename + '"]').addClass("active");
 }

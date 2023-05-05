@@ -22,9 +22,6 @@ $country_byid = $c->get_countries_by_idcountry($d[0]['pais']);
   <script type="text/javascript" src="../node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
 </head>
 <body>
-  <div class="loader-cli">
-    <img src="images/gifs/shopping-loader.gif" alt="Loading...">
-  </div>
   <div class="container-total active">
     <?php require_once 'includes/sidebar-left.php';?>
     <div class="content-dash">
