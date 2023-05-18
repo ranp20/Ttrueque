@@ -744,6 +744,10 @@ li {
   border-radius: $shop_card-border-radius-1;
   max-width: 165px;
 }
+.profile-controls-submit > .btn-submit-profile:hover,
+.store-config-controls-submit > .btn-submit-store-config:hover{
+  background-color: darken($shop_btn-clr-1, 8%);
+}
 .content-store-config{
   width: 100%;
   margin: 0;
@@ -2088,7 +2092,6 @@ li {
 .sidebar-nav > .user-options > a.active {
   background: #e5e5e5;
   box-shadow: 4px 0px 0 0px $shop_btn-clr-1 inset;
-  font-weight: 500;
 }
 .sidebar-nav > .user-options > a:hover > .lni{
   color: #ff0000;
@@ -3535,9 +3538,12 @@ min-width: 160px;
   font-size: 13px;
   border-radius: 20px 20px 0 0;
 }
-.cabecera-content .update-directions {
+.cabecera-content .update-directions{
   text-decoration: none;
   color: #507bff;
+}
+.cabecera-content .update-directions:hover{
+  text-decoration: underline !important;
 }
 .table-content-left {
   line-height: 1.8em;
@@ -4197,10 +4203,11 @@ min-width: 160px;
   overflow: hidden;
   margin-bottom: 1rem;
   border: $shop_card-clr-border-1;
+  border-radius: 6px;
 }
 .content-list-history-wallet-ad_cli-ttrk > .content-wallet{
   background: $shop_card-header-clr-1;
-  border-radius: 20px 20px 0 0;
+  border-radius: 15px 15px 0 0;
 }
 .content-list-history-wallet-ad_cli-ttrk > .content-wallet > .content-history-wallet > .cabecera-wallet{
   padding: 1em 1.5em;     
@@ -4210,7 +4217,6 @@ min-width: 160px;
   background-color: #fff;
   overflow-x: auto;
   box-shadow: 5px 12px 20px 0 rgba(0,0,0,.2);
-  border-radius: 0 0 20px 20px;
 }
 .wallet-table{
   background: #fff;
@@ -5287,10 +5293,6 @@ min-width: 160px;
     max-width: 22px;
     width: 22px;
     height: 22px;
-  }
-  .container-total.active > .sidebar-nav > .user-options > a{
-    padding: .65rem .5rem .65rem 1.5rem;
-    font-size: .9rem;
   }
   .container-total.active > .sidebar-nav > .user-options > a > .lni{
     margin-right: 30px;

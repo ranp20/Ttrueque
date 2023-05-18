@@ -84,9 +84,6 @@ $path_b_p = "admin/images/banner_principal/";
         <li class="c-bannerH__heroI__c__m__i">
           <div class="c-bannerH__heroI__c__m__i__cBckgImg shadow-mask">
             <img class="img-fluid" src="<?php echo $path_b_p . $banner_p[0]["link_banner_p"]; ?>" alt="banner_p_ttrq" width="100" height="100">
-            <section id="section10" class="demo">
-              <a href="#ScrollDown" data-scrollTop="h-ScrollDown"><span></span>Scroll</a>
-            </section>
           </div>
           <div class="c-bannerH__heroI__c__m__i__cont">
             <div class="c-bannerH__heroI__c__m__i__cont__cT">
@@ -108,6 +105,9 @@ $path_b_p = "admin/images/banner_principal/";
               </div>
             </div>
           </div>
+          <section id="section10" class="demo">
+            <a href="#ScrollDown" data-scrollTop="h-ScrollDown"><span></span>Scroll</a>
+          </section>
         </li>
       </ul>
     </div>
