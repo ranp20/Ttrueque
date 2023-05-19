@@ -8,10 +8,10 @@
 	}
 	*/
 }
-.cLoginAdm{
+.cLoggAdm{
 	min-height: 100vh;
 	height: 100%;
-	&__cont{
+	&__c{
 		display: flex;
     flex-flow: nowrap row;
     align-items: center;
@@ -44,7 +44,7 @@
 		    object-position: center;
 			}
 		}
-		&--fLogin{
+		&__fLogg{
 			display: flex;
 			flex-flow: column wrap;
 			align-items: center;
@@ -55,13 +55,13 @@
 			overflow-x: hidden;
 			overflow-y: auto;
 			@media (min-width: 960px){
-		    padding: 0 3.93rem;
+		    padding: 0 3.5rem;
     		max-width: 425px;
 			}
 			/* LOGOTIPO */
-			&--cLogo{
+			&__cLogo{
 				min-width: 160px;
-				max-width: 280px;
+				max-width: 215px;
 				width: auto;
 				margin-left: auto;
 				margin-right: auto;
@@ -75,25 +75,69 @@
 				}
 			}
 			// TITLE - LOGIN
-			&--cTitle{
+			&__cTitle{
 				margin-bottom: 1rem;
 				&--title{
-					font-size: 1.65rem;
+					font-size: 1.6rem;
 					font-weight: 600;
 					color: $theme-clr-titles;
 				}
 			}
 			// FORM - LOGIN
-			&--form{
+			&__frm{
 				width: 100%;
-				&--cControl{
+				&__cCtrls{
 					width: 100%;
 			    display: flex;
 			    align-items: center;
 			    justify-content: flex-start;
 					position: relative;
 					margin-bottom: 2rem;
-					&--cIcon{
+					&.bx-classic{
+						width: 100%;
+				    position: relative;
+				    display: flex;
+				    align-items: center;
+				    margin-bottom: 1rem;
+				    background-color: #fff;
+				    padding-left: .7rem;
+				    border-radius: .8rem;
+				    background-color: #dfe9f2;
+				    border: thin solid #8c9196;
+				    border-radius: 4px;
+				    .cLoggAdm__c__fLogg__frm__cCtrls__cIcon{
+				    	position: relative !important;
+				    	transform: none !important;
+				    	right: 0 !important;
+				    	top: 0 !important;
+				    	max-width: 24px;
+					    max-height: 24px;
+					    width: 24px;
+					    height: 24px;
+				    	img, svg{
+				    		width: 100%;
+						    height: 100%;
+						    object-fit: contain;
+						    object-position: center;
+						    fill: $theme-clr-titles;
+				    	}
+				    }
+				    input{
+							width: 100%;
+							line-height: 3rem;
+							border: none;
+							outline: none;
+							padding-top: 0;
+							padding-bottom: 0;
+							padding-left: .6rem;
+							padding-right: .65rem;
+							margin-left: .6rem;
+							border-radius: 0 .6rem .6rem 0;
+							border-left: thin solid rgba(153,153,153,.4901960784);
+				    }
+					}
+
+					&__cIcon{
 						cursor: pointer;
 						position: absolute;
 						right: .5rem;
@@ -239,10 +283,10 @@
 						color: $theme-clr-titles-header;
 						padding: 0.8rem .5rem;
 						border-radius: 5px;
-						margin-bottom: 1rem;
 						font-size: .95rem;
 						transition: ease-out .2s;  
 						line-height: 1.5;
+						// margin-bottom: 1rem;
 						&:hover{
 							background-color: darken($theme-clr-btns, 10%);
 						}

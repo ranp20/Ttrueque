@@ -76,8 +76,7 @@ if(isset($_SESSION["adm-logg_ttrueque"])){
                               </div>
                             </div>
                             <div class="form-group mt-4">
-                                <input type="submit" name="submit" id="submit" value="Guardar"
-                                    class="form-control btn btn-primary">
+                              <input type="submit" name="submit" id="submit" value="Guardar" class="form-control btn btn-primary">
                             </div>
                           </form>
                         </div>

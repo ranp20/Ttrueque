@@ -36,7 +36,7 @@
               </div>
               <div class="row">
                 <div class="col-md-8">
-                  <div class="card panel panel-default text-center">
+                  <div class="card panel panel-default">
                     <div class="card-header panel-heading" id="titulo-form-config">Datos del Perfil
                     </div>
                     <div class="card-body panel-body">
@@ -88,7 +88,7 @@
             <div class="col-md-8">
               <div class="row">
                 <div class="col-md-8">
-                  <div class="card panel panel-default text-center">
+                  <div class="card panel panel-default">
                     <div class="card-header panel-heading" id="titulo-form-config">Cambiar Contraseña</div>
                     <div class="card-body panel-body">
                       <form method="post" class="form-horizontal">
