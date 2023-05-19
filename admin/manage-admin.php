@@ -30,9 +30,6 @@
             <div class="col-md-8">
               <div id="content-title-manage-admin">
                 <h2 class="page-title">Administrar Perfil <i class="fa fa-user"></i></h2>
-                <div id="content-btn-back-dash">
-                  <a href="dashboard.php" id="button-back-dash-left-header">Volver a Dashboard<i class="fa fa-arrow-right" id="icon-btn-back-dash"></i></a>
-                </div>
               </div>
               <div class="row">
                 <div class="col-md-8">
@@ -74,7 +71,7 @@
                         <?php } ?>
                         <div class="form-group">
                           <div class="ms-auto col-sm-8 col-sm-offset-4" id="boton-guardado-perfil-1">
-                            <button class="btn btn-primary" id="btn-update-perfil">Guardar cambios</button>
+                            <button class="btn btn-primary py-2 px-3" id="btn-update-perfil">Guardar cambios</button>
                           </div>
                         </div>
                       </form>
@@ -112,7 +109,7 @@
                         </div>
                         <div class="form-group">
                           <div class="ms-auto col-sm-8 col-sm-offset-4" id="boton-guardado-perfil-2">
-                            <button class="btn btn-primary" id="btn-guardarclave" name="login">Guardar cambios</button>
+                            <button class="btn btn-primary py-2 px-3" id="btn-guardarclave" name="login">Guardar cambios</button>
                           </div>
                         </div>
                       </form>

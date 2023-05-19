@@ -33,15 +33,15 @@ $urlCli =  $actual_link . "/" ."Ttrueque/";
 <script type="text/javascript" src="../shop/ckeditor/ckeditor.js"></script>
 <!-- PRELOADER FILES -->
 <link rel="preload" href="<?= $url;?>assets/css/styles.min.css" as="style"/>
-<link rel="preload" href="<?= $url;?>assets/js/plugins/jquery/jquery-3.6.0.min.js" as="script"/>
+<link rel="preload" href="<?= $urlCli;?>node_modules/jquery/dist/jquery.min.js" as="script"/>
 <!-- JQUERY COMPRESSED -->
-<script type="text/javascript" src="<?= $url;?>assets/js/plugins/jquery/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="<?= $urlCli;?>node_modules/jquery/dist/jquery.min.js"></script>
 <!-- BOOTSTRAP UNCOMPRESSED -->
- <link rel="stylesheet" href="<?php echo $urlCli;?>node_modules/bootstrap/dist/css/bootstrap.min.css">
-<script type="text/javascript" src="<?php echo $urlCli;?>node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
-<script type="text/javascript" src="<?php echo $urlCli;?>node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+ <link rel="stylesheet" href="<?= $urlCli;?>node_modules/bootstrap/dist/css/bootstrap.min.css">
+<script type="text/javascript" src="<?= $urlCli;?>node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+<script type="text/javascript" src="<?= $urlCli;?>node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 <!-- SWEETALERTS2 -->
-<link rel="stylesheet" href="<?php echo $urlCli;?>node_modules/sweetalert2/dist/sweetalert2.min.css">
-<script type="text/javascript" src="<?php echo $urlCli;?>node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+<link rel="stylesheet" href="<?= $urlCli;?>node_modules/sweetalert2/dist/sweetalert2.min.css">
+<script type="text/javascript" src="<?= $urlCli;?>node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
 <!-- STYLESSHEET -->
 <link rel="stylesheet" href="<?= $url;?>assets/css/styles.min.css">
