@@ -6,6 +6,9 @@ $(() => {
 	mSideBarLBackdop_m.addEventListener("click", function(e){if(e.target === mSideBarLBackdop_m){mSideBarLBackdop_m.classList.remove("active");}});
 	// ------------ TOGGLE MENU - USUARIO
 	btn_sessuser.addEventListener("click", function(){c_sessuser_m.classList.toggle("show");});
+	// ------------ HABILITAR TOOLTIPS DE BOOTSTRAP 5
+	const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+	const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
 });
 // ------------ ITEM SELECCIONADO DEL MENÚ EN CADA PÁGINA - SIDEBARLEFT
 var url = window.location.pathname;
@@ -23,43 +26,33 @@ $(document).on("click", "li.cSideBarLeft--sidenav--c--cList--m--item.grp-items",
 	$(this).find('ul.cSideBarLeft--sidenav--c--cList--subm').slideToggle();
 });
 
-
-
-
-
-$(document).ready(function () {
- 	$(".ts-sidebar-menu li a").each(function () {
- 		if ($(this).next().length > 0) {
+$(document).ready(function(){
+ 	$(".ts-sidebar-menu li a").each(function(){
+ 		if($(this).next().length > 0){
  			$(this).addClass("parent");
  		};
  	})
-
  	var menux = $('.ts-sidebar-menu li a.parent');
-
  	$('<div class="more"><i class="fa fa-angle-down"></i></div>').insertBefore(menux);
-
- 	$('.more').click(function () {
+ 	$('.more').click(function(){
  		$(this).parent('li').toggleClass('open');
  	});
 
-	$('.parent').click(function (e) {
+	$('.parent').click(function(e){
 		e.preventDefault();
  		$(this).parent('li').toggleClass('open');
  	});
 
- 	$('.menu-btn').click(function () {
+ 	$('.menu-btn').click(function(){
  		$('nav.ts-sidebar').toggleClass('menu-open');
  	});
 
 	$('#zctb').DataTable();
-
+	/*
 	$("#input-43").fileinput({
-
 		showPreview: false,
-
 		allowedFileExtensions: ["zip", "rar", "gz", "tgz"],
-
 		elErrorContainer: "#errorBlock43"
-
 	});
+	*/
 });

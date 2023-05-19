@@ -15,8 +15,7 @@
   <div id="dash-contT">
     <?php require_once 'includes/adm_sidebar-left.php';?>
     <main id="main-dashCamel">
-      <?php require_once 'includes/adm_header-top.php';?>
-      
+      <?php require_once 'includes/adm_header-top.php';?>      
       <div class="content-wrapper">
         <div class="container">
           <div class="row" id="fila-contenedor-principal-dashboard">
@@ -26,10 +25,9 @@
               <div class="row">
                 <div class="col-md-12">
                   <div class="row">
-                  <!------ SETUP HEADER ------>
                     <div class="col-md-4">
                       <div class="panel panel-default">
-                        <div class="panel-body bk-info text-light">
+                        <div class="panel-body bg-info text-light">
                           <div class="stat-panel py-3 text-center">
                             <div class="stat-panel-number h1 ">
                             </div>
@@ -44,10 +42,9 @@
                         </a>
                       </div>
                     </div>
-                  <!------ SETUP BANNERS ------>
                     <div class="col-md-4">
                       <div class="panel panel-default">
-                        <div class="panel-body bk-success text-light">
+                        <div class="panel-body bg-success text-light">
                           <div class="stat-panel py-3 text-center">
                             <div class="stat-panel-number h1 ">
                             </div>
@@ -62,10 +59,9 @@
                         </a>
                       </div>
                     </div>
-                  <!------ SETUP TITLES AND SUBTITLES ------>
                     <div class="col-md-4">
                       <div class="panel panel-default">
-                        <div class="panel-body bk-warning text-light">
+                        <div class="panel-body bg-warning text-light">
                           <div class="stat-panel py-3 text-center">
                             <div class="stat-panel-number h1 ">
                             </div>
@@ -80,10 +76,9 @@
                         </a>
                       </div>
                     </div>
-                  <!------ SETUP BRANDS ------>
                     <div class="col-md-4">
                       <div class="panel panel-default">
-                        <div class="panel-body bk-danger text-light">
+                        <div class="panel-body bg-danger text-light">
                           <div class="stat-panel py-3 text-center">
                             <div class="stat-panel-number h1 ">
                             </div>
@@ -98,7 +93,6 @@
                         </a>
                       </div>
                     </div>
-                    <!------ SETUP FOOTER ------>
                     <div class="col-md-4">
                       <div class="panel panel-default">
                         <div class="panel-body text-light" style="background: #FFD700;">
@@ -116,8 +110,6 @@
                         </a>
                       </div>
                     </div>
-                    
-
                   </div>
                 </div>
               </div>
@@ -127,15 +119,8 @@
       </div>
     </main>
   </div>
-  <!-- Loading Scripts -->
-  <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/bootstrap-select.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
-  <script type="text/javascript" src="js/dataTables.bootstrap.min.js"></script>
-  <script type="text/javascript" src="js/Chart.min.js"></script>
-  <script type="text/javascript" src="js/fileinput.js"></script>
-  <script type="text/javascript" src="js/chartData.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

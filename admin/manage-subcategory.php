@@ -38,7 +38,6 @@ $sub = $a->get_subcategorias();
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-12">
-            <!-- TÍTULO DEL ITEM Y BOTON DE AGREGADO -->
             <div id="content-title-manage">
               <h2 class="page-title">Administrar Subcategorías <i class="fa fa-flag"></i></h2>
               <div id="content-btn-add">
@@ -79,24 +78,8 @@ $sub = $a->get_subcategorias();
       </div>
     </div>
   </div>
-  <!-- Loading Scripts -->
-  <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/bootstrap-select.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
-  <script type="text/javascript" src="js/dataTables.bootstrap.min.js"></script>
-  <script type="text/javascript" src="js/Chart.min.js"></script>
-  <script type="text/javascript" src="js/fileinput.js"></script>
-  <script type="text/javascript" src="js/chartData.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
-  <script type="text/javascript">  
-    $(document).ready(function () {
-      setTimeout(function() {
-        $('.succWrap').slideUp("slow");
-      }
-                 , 3000);
-    }
-                     );
-  </script>
 </body>
 </html>

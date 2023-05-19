@@ -20,42 +20,36 @@ if (!isset($_SESSION["adm-logg_ttrueque"])) {
     <?php require_once 'includes/adm_sidebar-left.php';?>
     <main id="main-dashCamel">
       <?php require_once 'includes/adm_header-top.php';?>
-
       <div class="content-wrapper">
         <div class="container-fluid">
           <div class="row fila-contenedor-add-items_all">
-            <div class="col-12 my-4 col-md-6 content-add-items_all">
-              <!-- TÍTULO DEL ITEM Y BOTON DE LISTADO DE ITEMS -->
-              <div id="content-title-add">
-                <h2 class="page-title">Agregar Categoria&nbsp;<i class="fa fa-plus"></i>
-                </h2>
-                <a href="manage-category.php" id="button-list-left-header"><i class="fa fa-list" id="icon-btn-list"></i>Listar Categorías</a>
+            <div class="d-flex flex-column my-4 col-md-6">
+              <div class="ms-auto mb-3" id="content-title-add">
+                <a href="manage-category.php" class="btn btn-success py-2 px-3">Volver</a>
               </div>
               <div class="row">
                 <div class="col-md-12">
-                  <div class="panel panel-default">
-                    <div class="panel-heading">
-                      <p class="h6">Campos del formulario</p>
+                  <div class="card panel panel-default">
+                    <div class="card-header panel-heading">
+                      <h3 class="mb-0">Agregar categoría</h3>
                     </div>
-                    <div class="panel-body">
+                    <div class="card-body panel-body">
                       <div class="row m-0">
                         <div class="col-md-12">
                           <form action="../php/process_admin_add_category.php" method="POST" enctype="multipart/form-data" id="form-add-product">
-                            <!-- SECCIÓN -  NOMBRE DE LA CATEGORÍA -->
-                            <div class="form-group">
+                            <div class="form-group mb-3">
                               <label for="name">Nombre</label>
                               <input type="text" maxlength="100" required name="name" id="name" class="form-control">
                             </div>
-                            <!-- SECCIÓN -  IMAGEN DE LA CATEGORÍA -->
-                            <div class="form-group">
+                            <div class="form-group mb-3">
                               <label for="customfile">Imagen de la Categoría</label>
                               <div class="custom-file">
-                                <input type="file" required name="image" class="custom-file-input" multiple id="imagenes" accept="image/*">
+                                <input type="file" required name="image" class="form-control custom-file-input" multiple id="imagenes" accept="image/*">
                                 <label class="custom-file-label" for="imagenes">Choose file</label>
                               </div>
                             </div>
-                            <div class="form-group mt-4">
-                              <input type="submit" name="submit" id="submit" value="Guardar" class="form-control btn-primary">
+                            <div class="form-group text-end ms-auto">
+                              <input type="submit" name="submit" id="submit" value="Guardar" class="form-control btn btn-primary">
                             </div>
                           </form>
                         </div>
@@ -68,7 +62,6 @@ if (!isset($_SESSION["adm-logg_ttrueque"])) {
           </div>
         </div>
       </div>
-
     </main>
   </div>
   <script type="text/javascript" src="js/jquery.min.js"></script>

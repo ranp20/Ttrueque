@@ -22,12 +22,10 @@ $data = $c->get_client_store();
     <?php require_once 'includes/adm_sidebar-left.php';?>
     <main id="main-dashCamel">
       <?php require_once 'includes/adm_header-top.php';?>
-
       <div class="content-wrapper">
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-12">
-              <!-- TÍTULO DEL ITEM Y BOTON DE AGREGADO -->
               <div id="content-title-list-user">
                 <h2 class="page-title">Usuarios con ventas mensuales<i class="fa fa-users"></i></h2>
                 <div id="content-btn-back-dash">
@@ -36,7 +34,6 @@ $data = $c->get_client_store();
               </div>
             </div>
             <div class="panel panel-default">
-              <div class="panel-heading">Lista de Usuarios</div>
               <div class="panel-body tbl-mng-all-pages">
                 <table id="zctb" class="display table table-striped table-bordered table-hover" cellspacing="0" width="100%" id="table_cliente">
                   <thead class="list_user_change_th">
@@ -60,17 +57,9 @@ $data = $c->get_client_store();
           </div>
         </div>
       </div>
-
     </main>
   </div>
-  <script type="text/javascript" src="js/jquery.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap-select.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
-  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
-  <script type="text/javascript" src="js/Chart.min.js"></script>
-  <script type="text/javascript" src="js/fileinput.js"></script>
-  <script type="text/javascript" src="js/chartData.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
   <script type="text/javascript" src="js/sales-report-admin.js"></script>
 </body>

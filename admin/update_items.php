@@ -43,10 +43,9 @@ if (isset($_GET['id'])) {
       <div class="container-fluid">
         <div class="row fila-contenedor-add-items_all">
           <div class="col-12 my-4 col-md-7 content-add-items_all">
-            <!-- TÍTULO DEL ITEM Y BOTON DE LISTADO DE ITEMS -->
             <div id="content-title-add">
               <h2 class="page-title">Actualizar Producto&nbsp;<i class="fa fa-pencil"></i></h2>
-              <a href="manage-items.php" id="button-list-left-header"><i class="fa fa-list" id="icon-btn-list"></i>Lista de Productos</a>
+              <a href="manage-items.php" class="btn btn-success py-2 px-3">Volver</a>
             </div>
             <div class="row">
               <div class="col-md-12">
@@ -55,10 +54,8 @@ if (isset($_GET['id'])) {
                   <div class="panel-body">
                     <div class="row m-0">
                       <div class="col-md-12">
-                        <!----------------------------->
                         <form action="../php/process_admin_update_items.php" method="POST" enctype="multipart/form-data" id="form-add-product">
                           <input type="hidden" name="id" value="<?php echo $data[0]['id']; ?>">
-                          <!--------------------->
                           <div class="cero-content-form">
                             <div class="form-group">
                               <label for="user">Nombre de Tienda/Vendedor</label>
@@ -72,7 +69,6 @@ if (isset($_GET['id'])) {
                               </select>
                             </div>
                           </div>
-                          <!--------------------->
                           <div class="primer-content-form">
                             <div class="form-group">
                               <label for="categoria">Categoria</label>
@@ -90,7 +86,6 @@ if (isset($_GET['id'])) {
                               <input type="number" required name="stock" id="stock" class="form-control" value="<?php echo $data[0]['stock']; ?>">
                             </div>
                           </div>
-                          <!--------------------->
                           <div class="segundo-content-form">
                             <div class="form-group">
                               <label for="marca">Marca</label>
@@ -101,7 +96,6 @@ if (isset($_GET['id'])) {
                               <input type="number" required name="precio" id="precio" class="form-control" value="<?php echo $data[0]['precio']; ?>">
                             </div>
                           </div>
-                          <!--------------------->
                           <div class="tercer-content-form">
                             <div class="form-group">
                               <div class="form-group" id="form-group_desc">
@@ -110,7 +104,6 @@ if (isset($_GET['id'])) {
                               </div>
                             </div>
                           </div>
-                          <!--------------------->
                           <div class="cuarto-content-form">
                             <div class="form-group">
                               <label for="pais">País</label>
@@ -123,7 +116,6 @@ if (isset($_GET['id'])) {
                               </select>
                             </div>
                           </div>
-                          <!--------------------->
                           <div class="quinto-content-form">
                             <div class="form-group">
                               <div class="form-group">
@@ -132,7 +124,6 @@ if (isset($_GET['id'])) {
                               </div>
                             </div>
                           </div>
-                          <!--------------------->
                           <div class="sexto-content-form">
                             <div class="form-group">
                               <label for="customfile">Imagen del Producto </label>
@@ -149,9 +140,8 @@ if (isset($_GET['id'])) {
                               </div>
                             </div>
                           </div>
-                          <!--------------------->
                           <div class="form-group mt-4">
-                            <input type="submit" name="submit" id="submit" value="Guardar" class="form-control btn-primary">
+                            <input type="submit" name="submit" id="submit" value="Guardar" class="form-control btn btn-primary">
                           </div>
                         </form>
                       </div>
@@ -165,16 +155,8 @@ if (isset($_GET['id'])) {
       </div>
     </div>
   </div>
-  <!-- Loading Scripts -->
-  <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/bootstrap-select.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
-  <script type="text/javascript" src="js/dataTables.bootstrap.min.js"></script>
-  <script type="text/javascript" src="js/Chart.min.js"></script>
-  <script type="text/javascript" src="js/fileinput.js"></script>
-  <script type="text/javascript" src="js/chartData.js"></script>
-  <script type="text/javascript" src="js/main.js"></script>
   <script type="text/javascript" src="js/customs.js"></script>
 </body>
 </html>

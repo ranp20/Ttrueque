@@ -14,8 +14,7 @@
   <div id="dash-contT">
     <?php require_once 'includes/adm_sidebar-left.php';?>
     <main id="main-dashCamel">
-      <?php require_once 'includes/adm_header-top.php';?>
-      
+      <?php require_once 'includes/adm_header-top.php';?>      
       <div class="cContainInfo">
         <div class="cContainInfo__c box">
           <div class="cContainInfo__c__cTitle">
@@ -81,7 +80,7 @@
                   <div class="row">
                     <div class="col-md-4">
                       <div class="panel panel-default">
-                        <div class="panel-body bk-danger text-light">
+                        <div class="panel-body bg-danger text-light">
                           <div class="stat-panel py-3 text-center">
                             <div class="stat-panel-number h1 ">
                             </div>
@@ -132,7 +131,7 @@
                     </div>
                     <div class="col-md-4">
                       <div class="panel panel-default">
-                        <div class="panel-body bk-info text-light">
+                        <div class="panel-body bg-info text-light">
                           <div class="stat-panel py-3 text-center">
                             <div class="stat-panel-number h1 ">
                             </div>
@@ -149,7 +148,7 @@
                     </div>
                     <div class="col-md-4">
                       <div class="panel panel-default">
-                        <div class="panel-body bk-primary text-light">
+                        <div class="panel-body bg-primary text-light">
                           <div class="stat-panel py-3 text-center">
                             <div class="stat-panel-number h1 "></div>
                             <div class="stat-panel-title text-uppercase">
@@ -190,6 +189,6 @@
        -->
     </main>
   </div>
-  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/dashboard.js"></script>
 </body>
 </html>

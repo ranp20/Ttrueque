@@ -47,7 +47,6 @@ $h_titles = $h->get_header_titles();
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-12">
-            <!-- TÍTULO DEL ITEM Y BOTON DE AGREGADO -->
             <div id="content-title-manage">
               <h2 class="page-title">Administrar Cabecera <i class="fa fa-arrows-h"></i></h2>
             </div>
@@ -64,9 +63,6 @@ $h_titles = $h->get_header_titles();
                     </tr>
                   </thead>
                   <tbody>
-                    <?php 
-                      
-                    ?>
                   </tbody>
                 </table>
               </div>
@@ -77,17 +73,8 @@ $h_titles = $h->get_header_titles();
     </div>
   </div>
   </div>
-  <!-- Loading Scripts -->
-  <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/bootstrap-select.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
-  <script type="text/javascript" src="js/dataTables.bootstrap.min.js"></script>
-  <script type="text/javascript" src="js/Chart.min.js"></script>
-  <script type="text/javascript" src="js/fileinput.js"></script>
-  <script type="text/javascript" src="js/chartData.js"></script>
-  <script type="text/javascript" src="js/main.js"></script>
-  
+  <script type="text/javascript" src="js/main.js"></script>  
 </body>
-
 </html>

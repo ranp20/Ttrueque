@@ -34,14 +34,11 @@ $data = $p->get_data_admin();
         <div class="row">
           <div class="col-md-12">
             <div id="content-title-manage">
-              <!-- BOTÓN DE AGREGAO DE ITEMS  -->
-              <h2 class="page-title">Administrar Productos <i class="fa fa-flag"></i>
-              </h2>
+              <h2 class="page-title">Administrar Productos <i class="fa fa-flag"></i></h2>
               <div id="content-btn-add">
                 <a href="add-items.php" id="button-add-left-header"><i class="fa fa-plus-circle" id="icon-btn-add"></i>Agregar Producto</a>
               </div>
             </div>
-            <!-- Zero Configuration Table -->
             <div class="panel panel-default">
               <div class="panel-heading">Lista de Productos
               </div>
@@ -107,16 +104,8 @@ $data = $p->get_data_admin();
       </div>
     </div>
   </div>
-  <!-- Loading Scripts -->
-  <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/bootstrap-select.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
-  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
-  <script type="text/javascript" src="js/Chart.min.js"></script>
-  <script type="text/javascript" src="js/fileinput.js"></script>
-  <script type="text/javascript" src="js/chartData.js"></script>
-  <script type="text/javascript" src="js/main.js"></script>
-  
+  <script type="text/javascript" src="js/main.js"></script>  
 </body>
 </html>

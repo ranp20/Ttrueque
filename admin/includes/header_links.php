@@ -37,15 +37,11 @@ $urlCli =  $actual_link . "/" ."Ttrueque/";
 <!-- JQUERY COMPRESSED -->
 <script type="text/javascript" src="<?= $url;?>assets/js/plugins/jquery/jquery-3.6.0.min.js"></script>
 <!-- BOOTSTRAP UNCOMPRESSED -->
-<link rel="stylesheet" href="<?php echo $url;?>assets/js/plugins/bootstrap/css/bootstrap.min.css">
-<script type="text/javascript" src="<?php echo $url;?>assets/js/plugins/bootstrap/js/bootstrap.min.js"></script>
+ <link rel="stylesheet" href="<?php echo $urlCli;?>node_modules/bootstrap/dist/css/bootstrap.min.css">
+<script type="text/javascript" src="<?php echo $urlCli;?>node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+<script type="text/javascript" src="<?php echo $urlCli;?>node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 <!-- SWEETALERTS2 -->
-<link rel="stylesheet" href="../node_modules/sweetalert2/dist/sweetalert2.min.css">
-<script type="text/javascript" src="../node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+<link rel="stylesheet" href="<?php echo $urlCli;?>node_modules/sweetalert2/dist/sweetalert2.min.css">
+<script type="text/javascript" src="<?php echo $urlCli;?>node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
 <!-- STYLESSHEET -->
 <link rel="stylesheet" href="<?= $url;?>assets/css/styles.min.css">
-<!-- CUSTOMS CSS -->
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/customs/customs.css">
-<!-- FONTAWESOME CDN -->
-<script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>

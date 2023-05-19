@@ -20,7 +20,6 @@ if (!isset($_SESSION["adm-logg_ttrueque"])) {
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-12">
-            <!-- TÍTULO DEL ITEM Y BOTON DE AGREGADO -->
             <div id="content-title-list-user">
               <h2 class="page-title">Ventas Mensuales Clientes&nbsp;&nbsp;<i class="fa fa-users"></i></h2>
               <input type="hidden" id="idcliente" value="<?php echo $_GET['cli']; ?>">
@@ -56,15 +55,8 @@ if (!isset($_SESSION["adm-logg_ttrueque"])) {
   </div>
   </div>
   </div>
-  <!-- Loading Scripts -->
-  <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/bootstrap-select.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
-  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
-  <script type="text/javascript" src="js/Chart.min.js"></script>
-  <script type="text/javascript" src="js/fileinput.js"></script>
-  <script type="text/javascript" src="js/chartData.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
   <script type="text/javascript" src="js/list_reports_monthly.js"></script>
 </body>

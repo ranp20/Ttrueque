@@ -1,67 +1,30 @@
-/****************************
-
-*   FOR RESPONSIVENESS      *
-
-****************************/
-
 ::selection {
-
   background: #4f5362;
-
-  /* WebKit/Blink Browsers */
-
   color: #fff;
-
 }
-
-::-moz-selection {
-
+::-moz-selection{
   background: #4f5362;
-
-  /* Gecko Browsers */
-
   color: #fff;
-
 }
-
 html {
-
   font-size: 14px;
-
 }
-
 @media only screen and (min-width: 480px) {
-
   html {
-
     font-size: 17px;
-
   }
-
 }
-
 @media only screen and (min-width: 768px) {
-
   html {
-
     font-size: 14px;
-
   }
-
 }
-
 @media only screen and (min-width: 1024px) {
-
   p {
-
     font-size: 1em;
-
     margin-bottom: 1.8em;
-
   }
-
 }
-
 /****************************
 
 *      BODY DEFAULTS        *
@@ -185,75 +148,75 @@ a:hover {
 
 ****************************/
 
-.bk-primary {
+.bg-primary {
 
   background: #325d88;
 
 }
 
-.bk-success {
+.bg-success {
 
   background: #93c54b;
 
 }
 
-.bk-warning {
+.bg-warning {
 
   background: #f47c3c;
 
 }
 
-.bk-danger {
+.bg-danger {
 
   background: #d9534f;
 
 }
 
-.bk-info {
+.bg-info {
 
   background: #29abe0;
 
 }
 
-.bk-white,
+.bg-white,
 
-.bk-light {
+.bg-light {
 
   background: #fff;
 
 }
 
-.bk-brand {
+.bg-brand {
 
   background: #37a6c4;
 
 }
 
-.bk-dark {
+.bg-dark {
 
   background: #222;
 
 }
 
-.bk-blue {
+.bg-blue {
 
   background: #0010ce;
 
 }
 
-.bk-alt {
+.bg-alt {
 
   background: #f7f7f7;
 
 }
 
-.bk-ghost {
+.bg-ghost {
 
   background: transparent;
 
 }
 
-.bk-img {
+.bg-img {
 
   position: relative;
 
@@ -269,7 +232,7 @@ a:hover {
 
 }
 
-.bk-fixed {
+.bg-fixed {
 
   background-attachment: fixed;
 
@@ -1076,16 +1039,6 @@ li {
 }
 
 /* component */
-
-.page-title {
-
-  padding-bottom: 15px;
-
-  margin-bottom: 20px;
-
-  border-bottom: 1px solid #f0f0f0;
-
-}
 
 .brand {
 
