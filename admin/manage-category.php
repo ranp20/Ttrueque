@@ -32,10 +32,9 @@ $cat = $c->get_categoria();
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-12">
-              <div id="content-title-manage">
-                <h2 class="page-title">Administrar Categorías <i class="fa fa-flag"></i>
-                </h2>
-                <div id="content-btn-add_strech">
+              <div class="d-flex mb-2" id="content-title-manage">
+                <h2 class="page-title">Administrar Categorías <i class="fa fa-flag"></i></h2>
+                <div class="d-flex" id="content-btn-add_strech">
                   <a href="add-category.php" id="button-add-left-header"><i class="fa fa-plus-circle" id="icon-btn-add"></i>Agregar Categoría</a>
                 </div>
               </div>
