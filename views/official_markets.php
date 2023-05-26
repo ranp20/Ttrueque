@@ -22,7 +22,7 @@
 											<a href='productos?store={$val['nombre_tienda']}' class='cMIndx__c__sec__cC__Sc--cMLstStores__m__i--link item-cont-str-off btn_get_to_trademarks' >
 												<span class='cMIndx__c__sec__cC__Sc--cMLstStores__m__i--link__cLogo cont-logo-offi-mrkt-b-ttrk'>
 													<span class='cMIndx__c__sec__cC__Sc--cMLstStores__m__i--link__cLogo--cBxImgShadow'>
-														<img alt='' aria-hidden='true' src='data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27138%27%20height=%27138%27/%3e' class='cMIndx__c__sec__cC__Sc--cMLstStores__m__i--link__cLogo--cBxImgShadow__img'>
+														<img alt='image_shadow' aria-hidden='true' src='data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27138%27%20height=%27138%27/%3e' class='cMIndx__c__sec__cC__Sc--cMLstStores__m__i--link__cLogo--cBxImgShadow__img' decoding='async'>
 													</span>
 													<img src='../Ttrueque/shop/images/store/default-store.png' alt='{$val['nombre_tienda']}' class='cMIndx__c__sec__cC__Sc--cMLstStores__m__i--link__cLogo--ImgTrue logo-off-mrkt-c-ttrk img-fluid' decoding='async'>
 												</span>
@@ -39,7 +39,7 @@
 												<a href='productos?store={$val['nombre_tienda']}' class='cMIndx__c__sec__cC__Sc--cMLstStores__m__i--link item-cont-str-off btn_get_to_trademarks' >
 													<span class='cMIndx__c__sec__cC__Sc--cMLstStores__m__i--link__cLogo cont-logo-offi-mrkt-b-ttrk'>
 														<span class='cMIndx__c__sec__cC__Sc--cMLstStores__m__i--link__cLogo--cBxImgShadow'>
-															<img alt='' aria-hidden='true' src='data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27138%27%20height=%27138%27/%3e' class='cMIndx__c__sec__cC__Sc--cMLstStores__m__i--link__cLogo--cBxImgShadow__img'>
+															<img alt='image_shadow' aria-hidden='true' src='data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27138%27%20height=%27138%27/%3e' class='cMIndx__c__sec__cC__Sc--cMLstStores__m__i--link__cLogo--cBxImgShadow__img' decoding='async'>
 														</span>
 														<img src='../Ttrueque/shop/images/store/default-store.png' alt='{$val['nombre_tienda']}' class='cMIndx__c__sec__cC__Sc--cMLstStores__m__i--link__cLogo--ImgTrue logo-off-mrkt-c-ttrk img-fluid' decoding='async'>
 													</span>
@@ -55,7 +55,7 @@
 												<a href='productos?store={$val['nombre_tienda']}' class='cMIndx__c__sec__cC__Sc--cMLstStores__m__i--link item-cont-str-off btn_get_to_trademarks' >
 													<span class='cMIndx__c__sec__cC__Sc--cMLstStores__m__i--link__cLogo cont-logo-offi-mrkt-b-ttrk'>
 														<span class='cMIndx__c__sec__cC__Sc--cMLstStores__m__i--link__cLogo--cBxImgShadow'>
-															<img alt='' aria-hidden='true' src='data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27138%27%20height=%27138%27/%3e' class='cMIndx__c__sec__cC__Sc--cMLstStores__m__i--link__cLogo--cBxImgShadow__img'>
+															<img alt='image_shadow' aria-hidden='true' src='data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27138%27%20height=%27138%27/%3e' class='cMIndx__c__sec__cC__Sc--cMLstStores__m__i--link__cLogo--cBxImgShadow__img' decoding='async'>
 														</span>
 														<img src='../Ttrueque/shop/images/store/{$val['logo']}' alt='{$val['nombre_tienda']}' class='cMIndx__c__sec__cC__Sc--cMLstStores__m__i--link__cLogo--ImgTrue logo-off-mrkt-c-ttrk img-fluid' decoding='async'>
 													</span>
