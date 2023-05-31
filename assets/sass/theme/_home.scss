@@ -446,6 +446,10 @@ $max-height-banner-desktop: 665px;
 									@media (min-width: 1024px){
 										font-size: 32px;
 									}
+									@media (min-width: 1200px){
+										font-size: 40px;
+										letter-spacing: 7px;
+									}
 								}
 								&__desc{
 									font-weight: 600;
@@ -460,6 +464,9 @@ $max-height-banner-desktop: 665px;
 									@media (min-width: 1150px){
 										font-size: 20px;
 										font-weight: 500;
+									}
+									b, strong{
+										color: lighten($theme-clr-btns-border, 20%);
 									}
 								}
 								&__link{
@@ -647,7 +654,7 @@ $max-height-banner-desktop: 665px;
   							font-size: .9rem;
 						    background-color: $theme-clr-btns;
 						    color: $theme-clr-btns-txt;
-						    font-weight: 600;
+						    font-weight: bold;
 						    padding: .75rem 3rem;
 						    transition: ease-in-out .2s;
   							display: table;
@@ -935,7 +942,6 @@ $max-height-banner-desktop: 665px;
 					    	margin-bottom: 1rem;
 					    	a{
 					    		font-family: $font-family-1;
-					    		font-size: 1rem;
 					    		font-weight: bold;
 					    		color: $theme-clr-btns-txt;
 					    		border-bottom: 1px solid #fff;
@@ -987,7 +993,6 @@ $max-height-banner-desktop: 665px;
 							  }
 							  p{
 							  	margin: 0;
-									font-size: 1.05rem;
 							  }
 							}
 							&__cBtns{
@@ -1004,7 +1009,6 @@ $max-height-banner-desktop: 665px;
 									gap: .5rem;
 								  justify-content: space-between;
 								  align-items: center;
-								  font-size: 1.1em;
 								  color: #fff;
 								  border-radius: 50px;
 								  position: relative;
@@ -1100,6 +1104,10 @@ $max-height-banner-desktop: 665px;
 	  							}
 	  							p{
 	  								margin: 0;
+	  								font-size: 14px;
+	  								a{
+	  									text-decoration: underline !important;
+	  								}
 	  							}
 	  						}
 	  					}

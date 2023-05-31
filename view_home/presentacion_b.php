@@ -95,12 +95,16 @@ $path_b_p = "admin/images/banner_principal/";
             <div class="c-bannerH__heroI__c__m__i__cont__cB">
               <div class="c-bannerH__heroI__c__m__i__cont__cB__cdesc">
                 <h2 class="c-bannerH__heroI__c__m__i__cont__cB__cdesc__title">VENDE</h2>
-                <p class="c-bannerH__heroI__c__m__i__cont__cB__cdesc__desc">Con Ttrueque tu ganancia CRECERÁ automáticamente. El monto de tu venta se registrará en tu cuenta con el 20% adicional.</p>
+                <!-- <p class="c-bannerH__heroI__c__m__i__cont__cB__cdesc__desc">Con Ttrueque tu ganancia CRECERÁ automáticamente. El monto de tu venta se registrará en tu cuenta con el 20% adicional.</p> -->
+                <!-- <p class="c-bannerH__heroI__c__m__i__cont__cB__cdesc__desc">Con Ttrueque tu ganancia crecerá automáticamente. El monto de tu venta se registrará con el 20% adicional.</p> -->
+                <p class="c-bannerH__heroI__c__m__i__cont__cB__cdesc__desc">Tu ganancia <strong>CRECERÁ</strong> automáticamente. El monto de tu venta se registrará con el 20% adicional.</p>
                 <a href="account" class="c-bannerH__heroI__c__m__i__cont__cB__cdesc__link" title="Regístrate sin costo">Regístrate sin costo</a>
               </div>
               <div class="c-bannerH__heroI__c__m__i__cont__cB__cdesc">
                 <h2 class="c-bannerH__heroI__c__m__i__cont__cB__cdesc__title">COMPRA</h2>
-                <p class="c-bannerH__heroI__c__m__i__cont__cB__cdesc__desc">Bikker, es la moneda digital que utiliza la plataforma del sistema Ttrueque. 1 Bikker equivale a 1 Dólar Americano. <i>¡Regístrate! Vende y compra en Bikkers</i></p>
+                <!-- <p class="c-bannerH__heroI__c__m__i__cont__cB__cdesc__desc">Bikker, es la moneda digital que utiliza la plataforma del sistema Ttrueque. 1 Bikker equivale a 1 Dólar Americano. <i>¡Regístrate! Vende y compra en Bikkers.</i></p> -->
+                <!-- <p class="c-bannerH__heroI__c__m__i__cont__cB__cdesc__desc">Bikker, es la moneda digital que utiliza la plataforma, donde 1 Bikker = 1 Dólar Americano. <i>¡Regístrate! Vende y compra en Bikkers.</i></p> -->
+                <p class="c-bannerH__heroI__c__m__i__cont__cB__cdesc__desc">Bikker, es la moneda digital de la plataforma, donde <strong>1 Bikker = 1 Dólar Americano.</strong> <i>¡Regístrate! Vende y compra en Bikkers.</i></p>
                 <a href="account" class="c-bannerH__heroI__c__m__i__cont__cB__cdesc__link" title="Regístrate sin costo">Regístrate sin costo</a>
               </div>
             </div>
