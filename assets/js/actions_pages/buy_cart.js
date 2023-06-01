@@ -1,25 +1,7 @@
 $(() => {
-  load(1);
+  listProductsIntoCart();
 });
-function load(page){
-  var tipoCateg = $("#tipo").val();
-  var parametros = {"namecategory": tipoCateg,"page":page};
-  $("#loader").fadeIn('slow');
-  $.ajax({
-    url:'./views/pag_ProdsByNameCategory.php',
-    method: 'POST',
-    data: parametros,
-    beforeSend: function(){
-      $("#loader").html("<img src='./img/Utilities/loader.gif'>");
-    },
-    success:function(data){
-      $("#filter_byNameCategory").html(data).fadeIn('slow');
-      $("#loader").html("");
-    }
-  });
-}
-
-function msg_alert(i) {
+function msg_alert(i){
   Swal.fire({
     position: "top-end",
     icon: "success",
@@ -30,11 +12,9 @@ function msg_alert(i) {
     toast: true,
   });
 }
-
-$(document).on("click", ".button_add_cart_name_cat", function (e) {
+$(document).on("click", ".button_add_cart_shop", function (e) {
   e.preventDefault();
   $("#cart-buy-list").html("");
-
   var data = {
     id_p: $(this).attr("attr_id"),
     cant_p: $(this).attr("attr_count"),
@@ -43,13 +23,8 @@ $(document).on("click", ".button_add_cart_name_cat", function (e) {
     id_client: $(this).attr("attr_idclient"),
   };
   // console.log(data);
-
-  $.post(
-    "./php/process_temp_cart.php",
-    data,
-    function (result) {
-      // console.log(result);
-
+  $.post( "./php/process_temp_cart.php", data, function (result) {
+      //console.log(result["res"]);
       if (result["res"] == "agregado") {
         var text = "Producto Agregado al Carrito";
         msg_alert(text);
@@ -72,28 +47,31 @@ $(document).on("click", ".button_add_cart_name_cat", function (e) {
     "json"
   );
 });
-
-function listProductsIntoCart() {
-  var client = $("#userid_cli").val();
-  //console.log(client);
+function listProductsIntoCart(){
+  let client = $("#userid_cli").val();
   $.ajax({
     url: "./php/class/list_temp_cart.php",
     method: "POST",
     dataType: "JSON",
-    contentType: 'application/x-www-form-urlencoded;charset=UTF-8',
     data: { client: client },
-  }).done(function (res) {
-    $("#count-product-cart").html(res.length);
-    $("#cart-buy-list").html("");
-    $.each(res, function (i, v) {
-      var path = "./shop/folder/" + v.image;
-
+  }).done((e) => {
+    $("#count-product-cart").html(e.length);
+    $("#cart-buy-list").html("");    
+    if(e == ""){
       $("#cart-buy-list").append(`
+      <div class='cont-msg-any-products-cart'>
+        <img src='./assets/img/iconos_home/index-sidebar-car-sad-face.svg' alt=''>
+        <h5>No hay productos en el carrito</h5>  
+      </div>`);
+    }else{
+      $.each(e, function (i, v){
+        let path = "./shop/folder/" + v.image;
+        $("#cart-buy-list").append(`
         <li>
           <div class="content-info-p-prods">
             <div>
               <div class="cont-img-p-prod">
-                <div    class='img-fluid' style="background-image: url(${path});"></div>
+                <div style="background-image: url(${path});"></div>
               </div>
             </div>
             <a href="javascript:void(0);">
@@ -101,10 +79,10 @@ function listProductsIntoCart() {
             </a>
           </div>
           <div class="content-price-s-prods">
-            <span>${v.sub_total}</span><span> Bikers</span>
+            <span>${v.sub_total}</span><span>Bikers</span>
           </div>
-        </li>
-      `);
-    });
+        </li>`);
+      });
+    }
   });
 }

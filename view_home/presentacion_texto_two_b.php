@@ -20,15 +20,15 @@ session_start();
 					<div class="c-sectMain__cMobDesk__cMob__cSteps">
 						<div class="c-sectMain__cMobDesk__cMob__cSteps__i">
 							<p><strong>1.- </strong> Regístrate gratuitamente en Ttrueque, en la Web www.ttrueque.com o en el aplicativo Ttrueque que puedes descargar de Play Store.</p>
-							<img  src="img/Utilities/img_txt2_1.jpg" alt="icon_descriptive_page-two-mobile" class="img-fluid" width="100" height="100">
+							<img src="<?= $url;?>assets/img/Utilities/img_txt2_1.jpg" alt="icon_descriptive_page-two-mobile" class="img-fluid" width="100" height="100">
 						</div>
 						<div class="c-sectMain__cMobDesk__cMob__cSteps__i">
 							<p><strong>2.- </strong> Coloca los productos en la sección TIENDAS de la plataforma para que los usuarios conozcan lo que ofreces. Dispondrás de una tienda gratuita.</p>
-							<img  src="img/Utilities/img_txt2_2.jpg" alt="icon_descriptive_page-two-mobile" class="img-fluid" width="100" height="100">
+							<img src="<?= $url;?>assets/img/Utilities/img_txt2_2.jpg" alt="icon_descriptive_page-two-mobile" class="img-fluid" width="100" height="100">
 						</div>
 						<div class="c-sectMain__cMobDesk__cMob__cSteps__i">
 							<p><strong>3.- </strong> Los usuarios adquirirán tus productos usando Bikkers, y al mismo tiempo en tu cuenta se registrará tu saldo acrededor en Bikkers.</p>
-							<img  src="img/Utilities/img_txt2_3.jpg" alt="icon_descriptive_page-two-mobile" class="img-fluid" width="100" height="100">
+							<img src="<?= $url;?>assets/img/Utilities/img_txt2_3.jpg" alt="icon_descriptive_page-two-mobile" class="img-fluid" width="100" height="100">
 						</div>
 					</div>
 				</div>
@@ -53,13 +53,13 @@ session_start();
 					<div class="c-sectMain__cMobDesk__cDesk__i">
 						<ul>
 							<li>
-								<img  src="img/Utilities/img_txt2_1.jpg" alt="icon_descriptive_page-two-desktop" class="img-fluid" width="100" height="100">
+								<img src="<?= $url;?>assets/img/Utilities/img_txt2_1.jpg" alt="icon_descriptive_page-two-desktop" class="img-fluid" width="100" height="100">
 							</li>
 							<li>
-								<img  src="img/Utilities/img_txt2_2.jpg" alt="icon_descriptive_page-two-desktop" class="img-fluid" width="100" height="100">
+								<img src="<?= $url;?>assets/img/Utilities/img_txt2_2.jpg" alt="icon_descriptive_page-two-desktop" class="img-fluid" width="100" height="100">
 							</li>
 							<li>
-								<img  src="img/Utilities/img_txt2_3.jpg" alt="icon_descriptive_page-two-desktop" class="img-fluid" width="100" height="100">
+								<img src="<?= $url;?>assets/img/Utilities/img_txt2_3.jpg" alt="icon_descriptive_page-two-desktop" class="img-fluid" width="100" height="100">
 							</li>
 						</ul>
 					</div>
@@ -75,6 +75,6 @@ session_start();
 		</div>
 	</div>
 	<div id="toTopgobtn"></div>
-	<script type="text/javascript" src="./js/actions_pages/listmenbership.js"></script>
+	<script type="text/javascript" src="<?= $url;?>assets/js/actions_pages/listmenbership.js"></script>
 </body>
 </html>

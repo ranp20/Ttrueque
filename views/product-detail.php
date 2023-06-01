@@ -35,12 +35,12 @@ if(!isset($_GET['id']) || !is_numeric($_GET['id']) || $_GET['id'] == ""){
   <div class="container-detalle-producto" id="detailprod_ttrq"></div>
   <?php require_once 'footer.php';?>
   <div id="toTopgobtn"></div>
-  <script type="text/javascript" src="./js/main.js"></script>
-  <script type="text/javascript" src="./js/actions_pages/buy_cart.js"></script>
-  <script type="text/javascript" src="./js/actions_pages/customs.js"></script>
-  <script type="text/javascript" src="./js/actions_pages/all_pages_index.js"></script>
-  <script type="text/javascript" src="./js/actions_pages/listProductsDetail.js"></script>
-  <script type="text/javascript" src="./js/actions_pages/zoomImage.js"></script>
-  <script type="text/javascript" src="js/actions_pages/language_currency.js"></script>
+  <script type="text/javascript" src="<?= $url;?>assets/js/main.js"></script>
+  <script type="text/javascript" src="<?= $url;?>assets/js/actions_pages/buy_cart.js"></script>
+  <script type="text/javascript" src="<?= $url;?>assets/js/actions_pages/customs.js"></script>
+  <script type="text/javascript" src="<?= $url;?>assets/js/actions_pages/all_pages_index.js"></script>
+  <script type="text/javascript" src="<?= $url;?>assets/js/actions_pages/listProductsDetail.js"></script>
+  <script type="text/javascript" src="<?= $url;?>assets/js/actions_pages/zoomImage.js"></script>
+  <script type="text/javascript" src="<?= $url;?>assets/js/actions_pages/language_currency.js"></script>
 </body>
 </html>

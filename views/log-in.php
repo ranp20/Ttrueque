@@ -44,7 +44,7 @@ $paises = $all->get_name_country();
     <section class="c-sectMain__cLogg">
       <div class="c-sectMain__cLogg__cLogo">
         <a href="./" class="c-sectMain__cLogg__cLogo--link">
-          <img src="img/logo/Login_Web-T-blue.svg" alt="logo_Ttrueque" class="img-fluid" width="100" height="100">
+          <img src="<?= $url;?>assets/img/logo/Login_Web-T-blue.svg" alt="logo_Ttrueque" class="img-fluid" width="100" height="100">
         </a>
       </div>
       <div id="alert"></div>
@@ -53,13 +53,13 @@ $paises = $all->get_name_country();
         <input type="hidden" name="estado" id="estado" value="<?php echo empty($estado) ? "" : $estado;?>">
         <div class="c-sectMain__cLogg__cFrm__cCtrls">
           <div class="c-sectMain__cLogg__cFrm__cCtrls__cIcon">
-            <img src="img/iconos_home/home-login-mail.svg" class="img-fluid" alt="email_svg" width="100" height="100">
+            <img src="<?= $url;?>assets/img/iconos_home/home-login-mail.svg" class="img-fluid" alt="email_svg" width="100" height="100">
           </div>
           <input type="email" class="c-sectMain__cLogg__cFrm__cCtrls__ipt" required maxlength="200" name="email" id="email" placeholder="Ingrese su correo electrónico">
         </div>
         <div class="c-sectMain__cLogg__cFrm__cCtrls">
           <div class="c-sectMain__cLogg__cFrm__cCtrls__cIcon">
-            <img src="img/iconos_home/home-login-lock.svg" class="img-fluid" alt="password_svg" width="100" height="100">
+            <img src="<?= $url;?>assets/img/iconos_home/home-login-lock.svg" class="img-fluid" alt="password_svg" width="100" height="100">
           </div>
           <input type="password" autocomplete="true" class="c-sectMain__cLogg__cFrm__cCtrls__ipt" required maxlength="40" name="pass" id="password_in" placeholder="Ingrese su contraseña">
           <div class="c-sectMain__cLogg__cFrm__cCtrls__cIconSecond" id="ic-passCtrlLogg">
@@ -82,7 +82,7 @@ $paises = $all->get_name_country();
     </section>
   </div>
   <div id="cont-AlertMssgTtrqUsr"></div>
-  <script async src="<?= $url;?>js/actions_pages/login.js"></script>
-  <script async src="<?= $url;?>js/actions_pages/account.js"></script>
+  <script async src="<?= $url;?>assets/js/actions_pages/login.js"></script>
+  <script async src="<?= $url;?>assets/js/actions_pages/account.js"></script>
 </body>
 </html>

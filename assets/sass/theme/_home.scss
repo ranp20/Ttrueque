@@ -382,7 +382,7 @@ $max-height-banner-desktop: 665px;
 				    	  span{
 				    	  	text-align: justify;
 				    	  	text-align-last: justify;
-				    	  	display: flex;
+				    	  	display: inline-block;
 									&:nth-child(2){
 										display: flex;
 										align-items: center;
@@ -402,6 +402,9 @@ $max-height-banner-desktop: 665px;
 											white-space: normal;
 											margin-left: .36rem;
 										}
+									}
+									b, strong{
+										color: lighten($theme-clr-btns-border, 20%);
 									}
 				    	 	}
 					    }
@@ -854,6 +857,11 @@ $max-height-banner-desktop: 665px;
 	    							border-bottom-right-radius: 10px;
 	    							border-bottom: thin solid rgba(0,0,0,.14);
     							}
+				    			&.show{
+				    				// border: thin solid $theme-clr-primary;
+				    				// border: thin solid $theme-clr-btns-border;
+				    				border: thin solid lighten($theme-clr-btns-border, 20%);
+				    			}
 				    			h1{
 				    				color: #555;
 				    				text-align: left;

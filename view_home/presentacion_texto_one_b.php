@@ -18,7 +18,7 @@ session_start();
 			<div class="c-sectMain__c__cCards">
 				<div class="c-sectMain__c__cCards__i">
 					<div class="c-sectMain__c__cCards__i__cIcon">
-						<img  src="img/banners/enterprise-team-glory.png" alt="icon_banner_page-one" class="img-fluid" width="100" height="100">
+						<img src="<?= $url;?>assets/img/banners/enterprise-team-glory.png" alt="icon_banner_page-one" class="img-fluid" width="100" height="100">
 					</div>
 					<div class="c-sectMain__c__cCards__i__cDesc">
 						<h3>Empresa</h3>
@@ -28,7 +28,7 @@ session_start();
 				</div>
 				<div class="c-sectMain__c__cCards__i">
 					<div class="c-sectMain__c__cCards__i__cIcon">
-						<img  src="img/banners/women-bussiness-happy.png" alt="icon_banner_page-one" class="img-fluid" width="100" height="100">
+						<img src="<?= $url;?>assets/img/banners/women-bussiness-happy.png" alt="icon_banner_page-one" class="img-fluid" width="100" height="100">
 					</div>
 					<div class="c-sectMain__c__cCards__i__cDesc">
 						<h3>Personal</h3>
@@ -46,7 +46,7 @@ session_start();
 					<div class="c-sectMain__c__cflx__i__cDesc">
 						<p>Tu ganancia se incrementa automáticamente. El monto de tu venta se registrará en tu cuenta con el 20% adicional.</p>
 						<div class="c-sectMain__c__cflx__i__cDesc__cIcon">
-							<img  src="img/Utilities/carrito_cdr_ttrq.jpg" alt="backgr_img_ttrq_01" class="img-fluid" width="100" height="100">
+							<img src="<?= $url;?>assets/img/Utilities/carrito_cdr_ttrq.jpg" alt="backgr_img_ttrq_01" class="img-fluid" width="100" height="100">
 						</div>
 					</div>
 				</div>
@@ -55,7 +55,7 @@ session_start();
 					<div class="c-sectMain__c__cflx__i__cDesc">
 						<p>Cuando compres en los establecimientos	fisicos podrás usar el aplicativo QR (en tu celular) o la targeta Ttrueque, y en las tiendas virtuales, tu cuenta Ttrueque en línea.</p>
 						<div class="c-sectMain__c__cflx__i__cDesc__cIcon">
-							<img  src="img/Utilities/boleto_cdr_ttrq.jpg" alt="backgr_img_ttrq_02" class="img-fluid" width="100" height="100">
+							<img src="<?= $url;?>assets/img/Utilities/boleto_cdr_ttrq.jpg" alt="backgr_img_ttrq_02" class="img-fluid" width="100" height="100">
 						</div>
 					</div>
 				</div>

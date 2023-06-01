@@ -1,8 +1,7 @@
-$(function () {
+$(() => {
   // add_to_store();
   list_store_idtienda();
 });
-
 $("input[name=tipo_cliente]").click(function () {
   var tipo = $(this).val();
   // console.log(tipo);
@@ -34,7 +33,7 @@ $("input[name=tipo_cliente]").click(function () {
     `);
   } else if (tipo == "pers_natural_negocio") {
     $("#tipos").html(`
-        <div class="perso_nat_neg"  >
+      <div class="perso_nat_neg">
         <div>
           <label>RUC</label>
           <input class="text_ruc" type="text" required  name="ruc" id="ruc" placeholder="Ruc*">
@@ -43,49 +42,40 @@ $("input[name=tipo_cliente]").click(function () {
           <label>NOMBRE DE LA EMPRESA/TIENDA</label>
           <input class="text_nomstore_prsnccn" type="text" id="name" name="name" placeholder="Nombre empresa/tienda" >
         </div>
-        </div>
-       
-  
-        
-        `);
-
+      </div>
+    `);
     $(".cnt-payments-method").html(`
-        <button class="btn-memb-store-register" id="btn-type1" >Registrar mi tienda</button>
-      `);
+      <button class="btn-memb-store-register" id="btn-type1" >Registrar mi tienda</button>
+    `);
   } else if (tipo == "empresa") {
     $("#tipos").html(`
-        <div class="empres">
-          <div>
-            <label>RAZÓN SOCIAL</label>
-            <input class="text_razon-socal" type="text" required name="razon_social" id="razon_social" placeholder="Razón Social*">
-          </div>
-          <div>         
-            <label>RUC</label>
-            <input class="text_ruc_enterprise" type="text" required  name="ruc" id="ruc" placeholder="Ruc*">                    
-          </div>
-          <div>
-            <label>NOMBRE DE CONTACTO</label>
-              <input class="text_nomb-contact" type="text" required  name="nombre_contacto" id="nombre_contacto" placeholder="Nombre de persona para Contacto*">
-          </div>
-          <div>
-            <label>NOMBRE DE LA EMPRESA/TIENDA</label>
-            <input class="text_nomstore_enterprise" type="text" id="name" name="name"  placeholder="Nombre empresa/tienda" >
-          </div>
-          </div>
-        
-         `);
+      <div class="empres">
+        <div>
+          <label>RAZÓN SOCIAL</label>
+          <input class="text_razon-socal" type="text" required name="razon_social" id="razon_social" placeholder="Razón Social*">
+        </div>
+        <div>         
+          <label>RUC</label>
+          <input class="text_ruc_enterprise" type="text" required  name="ruc" id="ruc" placeholder="Ruc*">                    
+        </div>
+        <div>
+          <label>NOMBRE DE CONTACTO</label>
+            <input class="text_nomb-contact" type="text" required  name="nombre_contacto" id="nombre_contacto" placeholder="Nombre de persona para Contacto*">
+        </div>
+        <div>
+          <label>NOMBRE DE LA EMPRESA/TIENDA</label>
+          <input class="text_nomstore_enterprise" type="text" id="name" name="name"  placeholder="Nombre empresa/tienda" >
+        </div>
+      </div>
+    `);
     $(".cnt-payments-method").html(`
-         <button class="btn-memb-store-register" id="btn-type2" >Registrar mi tienda</button>
-       `);
+     <button class="btn-memb-store-register" id="btn-type2" >Registrar mi tienda</button>
+    `);
   }
 });
-
-
-
 function convertMayus(cadena) {
   return cadena.charAt(0).toUpperCase() + cadena.slice(1);
 }
-
 // function characterReplace(nombre){
 //   return nombre.replace(/"%C3%AD"/g, "í").replace(/"%C3%A9"/g, "é");
 // }

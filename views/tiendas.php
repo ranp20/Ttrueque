@@ -43,7 +43,7 @@ if (!isset($_SESSION['user'])) {
       <section class='list-all-products-name-categoria' id="classlist_ProdsByNameCategories">  
         <div class='contain__cont--info--btnsiconsadap'>
           <a href='#ciconfilterprods' class='contain__cont--info--btnsiconsadap--icon'>
-            <img src='./img/iconos_index/svg_icon_filter.svg' alt=''>
+            <img src='<?= $url;?>assets/img/iconos_index/svg_icon_filter.svg' alt=''>
             <span>Filtrar</span>
           </a>
         </div>
@@ -60,7 +60,7 @@ if (!isset($_SESSION['user'])) {
         </div>
         <div class='contain__cont--products'>
           <div id='loader' class='contain__cont--products--loader'> 
-            <img src='./img/Utilities/loader.gif'>
+            <img src='<?= $url;?>assets/img/Utilities/loader.gif'>
           </div>
           <div class='filter_result' id="filter_byNameCategory"></div>
         </div>
@@ -70,11 +70,11 @@ if (!isset($_SESSION['user'])) {
   </div>
   <?php require_once "./footer.php";?>
   <div  id="toTopgobtn"></div>
-  <script type="text/javascript" src="js/main.js"></script>
-  <script type="text/javascript" src="js/actions_pages/buy_cart.js"></script>
-  <script type="text/javascript" src="js/actions_pages/remove.js"></script>
-  <script type="text/javascript" src="js/actions_pages/all_pages_index.js"></script>
-  <script type="text/javascript" src="js/actions_pages/listProds_ByNameCategory.js"></script>
-  <script type="text/javascript" src="js/actions_pages/language_currency.js"></script>
+  <script type="text/javascript" src="<?= $url;?>assets/js/main.js"></script>
+  <script type="text/javascript" src="<?= $url;?>assets/js/actions_pages/buy_cart.js"></script>
+  <script type="text/javascript" src="<?= $url;?>assets/js/actions_pages/remove.js"></script>
+  <script type="text/javascript" src="<?= $url;?>assets/js/actions_pages/all_pages_index.js"></script>
+  <script type="text/javascript" src="<?= $url;?>assets/js/actions_pages/listProds_ByNameCategory.js"></script>
+  <script type="text/javascript" src="<?= $url;?>assets/js/actions_pages/language_currency.js"></script>
 </body>
 </html>

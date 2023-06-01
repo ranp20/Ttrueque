@@ -1,21 +1,16 @@
 <?php
 session_start();
-
-if (!isset($_SESSION['user'])) {
-    header('location: ../login');
+if(!isset($_SESSION['user'])){
+  header('location: ../login');
 }
-
 require_once "../php/class/menbresia.php";
 $c = new Menbresia();
 $cat = $c->get_data();
 require_once '../php/class/client.php';
 $c = new Client();
 $d = $c->get_data_by_id($_SESSION['user']);
-
 $title = "Menbresías";
 include "./head/head.php";
-
-
 ?>
 <div class="container-membership-ttrk">
   <div class="container-ttlp-memb">
@@ -34,7 +29,7 @@ include "./head/head.php";
               </li>
               <li class='cont-cheaderMembership--c--m--item'>
                 <a href='../'>
-                  <img src='../img/logo/Logo_TTRQ_dark.png' alt='logo-ttrueque'>
+                  <img src='{$url}assets/img/logo/Logo_TTRQ_dark.png' alt='logo-ttrueque'>
                 </a>
               </li>
               <li class='cont-cheaderMembership--c--m--item'>
@@ -51,7 +46,6 @@ include "./head/head.php";
               </li>
               </ul>
               ";
-
               }else{
                 echo "
                 <ul class='contValid-cheaderMembership--c--m'>
@@ -62,7 +56,7 @@ include "./head/head.php";
                   </li>
                   <li class='contValid-cheaderMembership--c--m--item'>
                     <a href='../'>
-                      <img src='../img/logo/Logo_TTRQ_dark.png' alt='logo-ttrueque'>
+                      <img src='{$url}assets/img/logo/Logo_TTRQ_dark.png' alt='logo-ttrueque'>
                     </a>
                   </li>
                   </ul>
@@ -83,6 +77,6 @@ include "./head/head.php";
     </div>
   </div>
 </div>
-<script type="text/javascript" src="../shop/js/membresia.js"></script>
+<script type="text/javascript" src="<?= $url;?>shop/js/membresia.js"></script>
 </body>
 </html>

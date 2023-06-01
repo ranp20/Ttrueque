@@ -39,7 +39,7 @@
           <ul class="list-items-footer-opts">
             <li>
               <div class="cont-img-payment">
-                <img src="img/svg/credit-cards_paypal.svg" data-src="img/svg/credit-cards_paypal.svg" alt="credit_card_paypal" class="lazy">
+                <img src="<?= $url;?>assets/img/svg/credit-cards_paypal.svg" data-src="<?= $url;?>assets/img/svg/credit-cards_paypal.svg" alt="credit_card_paypal" class="lazy">
               </div>
             </li>
           </ul>
@@ -79,7 +79,7 @@
             <li>
               <a href="https://play.google.com/store/apps/details?id=app.ttruequeqr.com" target="_blank">
                 <div class="cont-img-our-apps">
-                  <img src="img/Utilities/ttrueque_negocios_sin_limites.png" alt="">
+                  <img src="<?= $url;?>assets/img/Utilities/ttrueque_negocios_sin_limites.png" alt="">
                 </div>
                 <span>Ttrueque - Negocio sin límites</span>
               </a>
@@ -87,7 +87,7 @@
             <li>
               <a href="https://play.google.com/store/apps/details?id=app.ttruequetienda.com" target="_blank">
                 <div class="cont-img-our-apps">
-                  <img src="img/Utilities/ttrueque_lector_qr.png" alt="">
+                  <img src="<?= $url;?>assets/img/Utilities/ttrueque_lector_qr.png" alt="">
                 </div>
                 <span>Ttrueque - Lector QR</span>
               </a>

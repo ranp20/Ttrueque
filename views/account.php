@@ -43,7 +43,7 @@ $rubros = $all->get_name_rubros();
 			<section class="c-sectMain__cAcco__cAcct">
 				<div class="c-sectMain__cAcco__cAcct--cLogo">
 					<a href="./" class="c-sectMain__cAcco__cAcct--cLogo--link">
-	          <img src="img/logo/Login_Web-T-blue.svg" alt="logo_Ttrueque" class="img-fluid" width="100" height="100">
+	          <img src="<?= $url;?>assets/img/logo/Login_Web-T-blue.svg" alt="logo_Ttrueque" class="img-fluid" width="100" height="100">
 	        </a>
 				</div>
 				<form class="c-sectMain__cAcco__cAcct__cFrm form_container" method="POST" action="php/process_account.php?register" id="form-register">
@@ -112,6 +112,6 @@ $rubros = $all->get_name_rubros();
 			</section>
 		</div>
 	</div>
-	<script type="text/javascript" src="./js/actions_pages/account.js"></script>
+	<script type="text/javascript" src="<?= $url;?>assets/js/actions_pages/account.js"></script>
 </body>
 </html>

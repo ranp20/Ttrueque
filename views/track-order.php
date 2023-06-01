@@ -49,12 +49,11 @@ if (!isset($_SESSION['user'])) {
 	</div>
 	<div  id="toTopgobtn"></div>
 	<!-- COMMON SCRIPTS -->
-	<script type="text/javascript" src="js/main.js"></script>
-	<script type="text/javascript" src="js/actions_pages/buy_cart.js"></script>
-	<script type="text/javascript" src="js/actions_pages/remove.js"></script>
-	 
-	<script type="text/javascript" src="js/actions_pages/all_pages_index.js"></script>
-	<script type="text/javascript" src="js/actions_pages/language_currency.js"></script>
-	<script type="text/javascript" src="js/actions_pages/track-order.js"></script>
+	<script type="text/javascript" src="<?= $url;?>assets/js/main.js"></script>
+	<script type="text/javascript" src="<?= $url;?>assets/js/actions_pages/buy_cart.js"></script>
+	<script type="text/javascript" src="<?= $url;?>assets/js/actions_pages/remove.js"></script>
+	<script type="text/javascript" src="<?= $url;?>assets/js/actions_pages/all_pages_index.js"></script>
+	<script type="text/javascript" src="<?= $url;?>assets/js/actions_pages/language_currency.js"></script>
+	<script type="text/javascript" src="<?= $url;?>assets/js/actions_pages/track-order.js"></script>
 </body>
 </html>

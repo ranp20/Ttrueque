@@ -25,14 +25,14 @@ if (!isset($_SESSION["user"])) {
   <?php require_once 'products_most-popular.php';	?>
   <?php require_once 'footer.php';?>
   <div  id="toTopgobtn"></div>
-  <script type="text/javascript" src="./js/main.js"></script>
+  <script type="text/javascript" src="<?= $url;?>assets/js/main.js"></script>
   <!---------CUSTOMS JAVASCRIPT--------->
-  <script type="text/javascript" src="./js/actions_pages/customs.js"></script>
-  <script type="text/javascript" src="./js/actions_pages/buy_cart.js"></script>
-  <script type="text/javascript" src="./js/actions_pages/all_pages_index.js"></script>
-  <script type="text/javascript" src="./js/actions_pages/listProds_Search_Category.js"></script>
-  <script type="text/javascript" src="./js/actions_pages/listProds_Store_Category.js"></script>
-  <script type="text/javascript" src="./js/actions_pages/listProds_ByNameStore.js"></script>
-  <script type="text/javascript" src="./js/actions_pages/language_currency.js"></script>
+  <script type="text/javascript" src="<?= $url;?>assets/js/actions_pages/customs.js"></script>
+  <script type="text/javascript" src="<?= $url;?>assets/js/actions_pages/buy_cart.js"></script>
+  <script type="text/javascript" src="<?= $url;?>assets/js/actions_pages/all_pages_index.js"></script>
+  <script type="text/javascript" src="<?= $url;?>assets/js/actions_pages/listProds_Search_Category.js"></script>
+  <script type="text/javascript" src="<?= $url;?>assets/js/actions_pages/listProds_Store_Category.js"></script>
+  <script type="text/javascript" src="<?= $url;?>assets/js/actions_pages/listProds_ByNameStore.js"></script>
+  <script type="text/javascript" src="<?= $url;?>assets/js/actions_pages/language_currency.js"></script>
 </body>
 </html>

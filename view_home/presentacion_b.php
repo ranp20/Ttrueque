@@ -7,7 +7,7 @@ $path_b_p = "admin/images/banner_principal/";
   <nav class="c-bannerH__nav navbar navbar-expand-lg navbar-dark justify-content-sm-start" id="cont-total-tabs">
     <div class="c-bannerH__nav__clinks box-wuot-pdd" id="c--navbarcontainerHome">
       <a class="c-bannerH__nav__clinks__cIconLogo navbar-brand order-1 order-lg-0 ml-lg-0 ml-2 mr-auto cont-logo-ttrq-nav-tabs" href="./" title="Logo de Ttrueque">
-        <img src="././img/logo/logotipo-T-white.svg" alt="Logo_Ttrueque" class="img-fluid" width="100" height="100">
+        <img src="<?= $url;?>assets/img/logo/logotipo-T-white.svg" alt="Logo_Ttrueque" class="img-fluid" width="100" height="100">
       </a>
       <button type="button" class="navbar-toggler align-self-start menu-nav-burger" title="Menú">
         <span class="navbar-toggler-icon"></span>
@@ -88,7 +88,8 @@ $path_b_p = "admin/images/banner_principal/";
           <div class="c-bannerH__heroI__c__m__i__cont">
             <div class="c-bannerH__heroI__c__m__i__cont__cT">
               <h2 class="c-bannerH__heroI__c__m__i__cont__cT__title">
-                <span>Ttrueque te facilita para comprar y vender en forma SEGURA, y sin usar ni arriesgar tu</span>
+                <!-- <span>Ttrueque te facilita para comprar y vender en forma SEGURA, y sin usar ni arriesgar tu</span> -->
+                <span>Ttrueque te facilita comprar y vender de forma <b>SEGURA</b>, sin usar ni arriesgar tu</span>
                 <span>DINERO CONVENCIONAL</span>
               </h2>
             </div>

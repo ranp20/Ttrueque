@@ -21,19 +21,19 @@
 <meta property="og:url" name="twitter.url" content="https://localhost/Ttrueque"/>
 <meta property="og:title" name="twitter.title" content="Ttrueque"/>
 <meta property="og:description" name="twitter.description" content="Ttrueque te facilita para comprar y vender en forma SEGURA, y sin usar ni arriesgar tu DINERO CONVENCIONAL."/>
-<!-- <meta property="og:image" name="twitter.image" content="./views/assets/img/logos/logotipo-camel.png"/>
-<link rel="icon" type="image/x-icon" href="./views/assets/img/favicon/favicon-camel.png"/>
-<link rel="apple-touch-icon" href="./views/assets/img/favicon/favicon-camel.png"/> -->
-<link rel="icon" href="./img/icon-pages/drawable-xxxhdpi-icon.png" type="image/ico">
+<meta property="og:image" name="twitter.image" content="./assets/img/icon-pages/drawable-xxxhdpi-icon.png"/>
+<link rel="icon" type="image/x-icon" href="./assets/img/icon-pages/drawable-xxxhdpi-icon.png"/>
+<link rel="apple-touch-icon" href="./assets/img/icon-pages/drawable-xxxhdpi-icon.png"/>
+<link rel="icon" href="./assets/img/icon-pages/drawable-xxxhdpi-icon.png" type="image/ico">
 <link rel="canonical" href="https://localhost/Ttrueque"/>
 <!-- PRELOADER FILES -->
 <link rel="preload" href="<?= $url;?>assets/css/styles.min.css" as="style"/>
-<link rel="preload" href="<?= $url;?>js/plugins/jquery/jquery-3.6.0.min.js" as="script"/>
+<link rel="preload" href="<?= $url;?>assets/js/plugins/jquery/jquery-3.6.0.min.js" as="script"/>
 <!-- JQUERY COMPRESSED -->
-<script type="text/javascript" src="<?= $url;?>js/plugins/jquery/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="<?= $url;?>assets/js/plugins/jquery/jquery-3.6.0.min.js"></script>
 <!-- BOOTSTRAP UNCOMPRESSED -->
-<link rel="stylesheet" href="<?= $url;?>js/plugins/bootstrap/css/bootstrap.min.css">
-<script type="text/javascript" src="<?= $url;?>js/plugins/bootstrap/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="<?= $url;?>assets/js/plugins/bootstrap/css/bootstrap.min.css">
+<script type="text/javascript" src="<?= $url;?>assets/js/plugins/bootstrap/js/bootstrap.min.js"></script>
 <!-- STYLESSHEET -->
 <link rel="stylesheet" href="<?= $url;?>assets/css/styles.min.css"/>
 <!-- YOUR CUSTOM CSS -->

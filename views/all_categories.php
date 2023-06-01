@@ -72,7 +72,7 @@ $all_stores = $stores->select_tienda();
         <ul class="items-categ-stores-ttrk" id="lista_categories">
           <?php 
             foreach ($all_categs as $value) {
-              $url = './admin/images/categoria/'.$value['imagen_categoria'];
+              $url_categs = './admin/images/categoria/'.$value['imagen_categoria'];
               $name_category = $value['nombre_categoria'];
               $url_name = str_replace(" ", "-", $name_category);
 
@@ -80,7 +80,7 @@ $all_stores = $stores->select_tienda();
               '<li class="item-categ-stores-into">
                 <a href="./tienda?tipos='.$url_name.'" class="item-cont-categ-stores"> 
                   <div class="cont-logo-categories-str-b-ttrk">
-                    <img class="img-fluid" src="'.$url.'" alt="'.$url_name.'" width="100" height="100">
+                    <img class="img-fluid" src="'.$url_categs.'" alt="'.$url_name.'" width="100" height="100">
                   </div>
                   <div class="cont-info-categ-stores-b-ttrk">
                     <div>
@@ -98,9 +98,9 @@ $all_stores = $stores->select_tienda();
   <?php require_once './footer.php';?>
   </div>
   <div  id="toTopgobtn"></div>
-  <script type="text/javascript" src="./js/main.js"></script>
-  <script type="text/javascript" src="js/actions_pages/buy_cart.js"></script>
-  <script type="text/javascript" src="./js/actions_pages/all_pages_index.js"></script>
-  <script type="text/javascript" src="js/actions_pages/language_currency.js"></script>
+  <script type="text/javascript" src="<?= $url;?>assets/js/main.js"></script>
+  <script type="text/javascript" src="<?= $url;?>assets/js/actions_pages/buy_cart.js"></script>
+  <script type="text/javascript" src="<?= $url;?>assets/js/actions_pages/all_pages_index.js"></script>
+  <script type="text/javascript" src="<?= $url;?>assets/js/actions_pages/language_currency.js"></script>
 </body>
 </html>

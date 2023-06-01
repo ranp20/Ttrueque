@@ -1,31 +1,22 @@
 <?php
 session_start();
 error_reporting(0);
-
-if (!isset($_SESSION['user'])) {
-    header('location: ../../../account');
+if(!isset($_SESSION['user'])){
+  header('location: ../../../account');
 }
-
 require_once '../php/class/client.php';
 $c = new Client();
 $d = $c->get_data_by_id($_SESSION['user']);
-
 $title = "Agregar tienda";
 include "./head/head.php";
-
 $tiendaactual = $d[0]['tienda'];
-
 require_once '../php/class/credentials.php';
 $cred_adm = new Credentials();
 $data_cred = $cred_adm->get_credentials();
-
 //Datos para solicitar las credenciales de accesso..
 $_ClientID = $data_cred[0]['key_public'];
 $_Secret = $data_cred[0]['key_secret'];
-
 echo "<input id='clientID_paypal' type='hidden' value='$_ClientID'>";
-
-
 ?>
 <style>
   /* Media query for mobile viewport */
@@ -43,6 +34,9 @@ echo "<input id='clientID_paypal' type='hidden' value='$_ClientID'>";
   }
 </style>
 <!--<input id='clientID_paypal' type='hidden' value='<?php //echo $_ClientID;?>'>-->
+<!-- INCLUIR SWEET ALERT 2 -->
+<link rel="stylesheet" href="<?=$url;?>node_modules/sweetalert2/dist/sweetalert2.min.css">
+<script type="text/javascript" src="<?=$url;?>node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
 <div class="contModalGuidettrk-step-two"></div>
 <div class="contModalGuidettrk-step-three"></div>
 <div class="msg-respMessage">
@@ -55,7 +49,7 @@ echo "<input id='clientID_paypal' type='hidden' value='$_ClientID'>";
   <div class="content-principal-add-store_ttrq">
     <div class="content-left-options-buttons">
       <input id="strvalidate_memb" type="hidden" value="<?php echo $tiendaactual; ?>">
-      <div style="background-image: url(../../../img/logo/Logo_TTRK.png);"></div>
+      <div style="background-image: url(<?=$url;?>assets/img/logo/Logo_TTRK.png);"></div>
     </div>
     <!--<input type="text" id="estadomemb">-->
     <div class="content-right-inputs">
@@ -100,27 +94,20 @@ echo "<input id='clientID_paypal' type='hidden' value='$_ClientID'>";
           <input type="hidden" class="sess_id_client" value="<?php echo session_id(); ?>">
           <h3>Registro de Datos</h3>
           <div id="tipos"></div>
-           
         </form>
         <div class="content-buton-paypal-payment">
-          <div class="cnt-payments-method">
-
-          </div>
+          <div class="cnt-payments-method"></div>
         </div>
       <?php } ?>
-
     </div>
   </div>
 </div>
 <!-- //SCRIPT FOR PAYPAL-->
 <script type="text/javascript" src="https://www.paypalobjects.com/api/checkout.js"></script>
-<script type="text/javascript" src="../../../shop/js/store.js"></script>
-<script type="text/javascript" src="../../../shop/js/membresia.js"></script>
-<script type="text/javascript" src="../../../shop/js/language_currency.js"></script>
-<!-- SWEEET ALERT 2-->
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-<script type="text/javascript" src="../../../shop/js/paypay.js"></script>
-<script type="text/javascript" src="../../../shop/js/customs.js"></script>
+<script type="text/javascript" src="<?=$url;?>shop/js/store.js"></script>
+<script type="text/javascript" src="<?=$url;?>shop/js/membresia.js"></script>
+<script type="text/javascript" src="<?=$url;?>shop/js/language_currency.js"></script>
+<script type="text/javascript" src="<?=$url;?>shop/js/paypay.js"></script>
+<script type="text/javascript" src="<?=$url;?>shop/js/customs.js"></script>
 </body>
-
 </html>

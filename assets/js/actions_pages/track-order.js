@@ -13,7 +13,7 @@ $(document).ready(function () {
       $(".cont-products-order-info-cli_ttrq").append(`
         <div class="content-msg-any-track-orders">
          <div>
-           <img src='./img/iconos_home/index-sidebar-car-sad-face.svg' alt=''>
+           <img src='./assets/img/iconos_home/index-sidebar-car-sad-face.svg' alt=''>
            <h1>Aún no hay productos para rastrear</h1>
          </div>
        </div>

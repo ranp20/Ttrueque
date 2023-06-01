@@ -15,7 +15,7 @@ $(document).ready(function () {
         <tr class="content-msg-cart-empty_ttrq">
          <td colspan="5">
            <div>
-             <img src='./img/iconos_home/index-sidebar-car-sad-face.svg' alt=''>
+             <img src='./assets/img/iconos_home/index-sidebar-car-sad-face.svg' alt=''>
              <h5>Upps!, No tienes productos en el carrito.</h5>
            </div>
          </td>
@@ -304,7 +304,7 @@ $(document).on("click", ".delete-store", function () {
       <tr class="content-msg-cart-empty_ttrq">
        <td colspan="5">
          <div>
-           <img src='./img/iconos_home/index-sidebar-car-sad-face.svg' alt=''>
+           <img src='./assets/img/iconos_home/index-sidebar-car-sad-face.svg' alt=''>
            <h5>Upps!, No tienes productos en el carrito.</h5>
          </div>
        </td>

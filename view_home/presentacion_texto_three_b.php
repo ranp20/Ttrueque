@@ -17,15 +17,15 @@ session_start();
 			<div class="c-sectMain__cgri__cSteps">
 				<div class="c-sectMain__cgri__cSteps__itm">
 					<p><strong>LECTOR QR</strong>: Para comprar o vender en los establecimientos físicos, el usuario dispondrá de un lector QR, el que podrá descargar de Play Store, aplicativo "Ttrueque - Lector QR".</p>
-					<img  src="img/Utilities/img_txt3_1.jpg" alt="icon_descriptive_page-three" class="img-fluid" width="100" height="100">
+					<img src="<?= $url;?>assets/img/Utilities/img_txt3_1.jpg" alt="icon_descriptive_page-three" class="img-fluid" width="100" height="100">
 				</div>
 				<div class="c-sectMain__cgri__cSteps__itm">
 					<p><strong>TARGETA TTRUEQUE</strong>: El usuario dispondrá de una targeta para comprar con facilidad en los negocios o tiendas físicas.</p>
-					<img  src="img/Utilities/img_txt3_2.jpg" alt="icon_descriptive_page-three" class="img-fluid" width="100" height="100">
+					<img src="<?= $url;?>assets/img/Utilities/img_txt3_2.jpg" alt="icon_descriptive_page-three" class="img-fluid" width="100" height="100">
 				</div>
 				<div class="c-sectMain__cgri__cSteps__itm">
 					<p><strong>EN LÍNEA</strong>: En Ttrueque sección Tiendas, el usuario podrá comprar y vender en línea; así como en el aplicativo "Ttrueque - Negocios sin Límites".</p>
-					<img  src="img/Utilities/img_txt3_3.jpg" alt="icon_descriptive_page-three" class="img-fluid" width="100" height="100">
+					<img src="<?= $url;?>assets/img/Utilities/img_txt3_3.jpg" alt="icon_descriptive_page-three" class="img-fluid" width="100" height="100">
 				</div>
 			</div>
 		</div>

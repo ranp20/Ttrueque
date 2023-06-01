@@ -159,12 +159,12 @@ if(!isset($_SESSION['user'])){
   </main>
   <?php require_once './footer.php';?>
   <div id="toTopgobtn"></div>
-  <script type="text/javascript" src="<?= $url;?>js/main.js"></script>
-  <script type="text/javascript" src="<?= $url;?>js/actions_pages/all_pages_index.js"></script>
-  <script type="text/javascript" src="<?= $url;?>js/actions_pages/index.js"></script>
-  <script type="text/javascript" src="<?= $url;?>js/actions_pages/buy_cart.js"></script>
-  <script type="text/javascript" src="<?= $url;?>js/actions_pages/remove.js"></script>
-  <script type="text/javascript" src="<?= $url;?>js/actions_pages/customs.js"></script>
-  <script type="text/javascript" src="<?= $url;?>js/actions_pages/language_currency.js"></script>
+  <script type="text/javascript" src="<?= $url;?>assets/js/main.js"></script>
+  <script type="text/javascript" src="<?= $url;?>assets/js/actions_pages/all_pages_index.js"></script>
+  <script type="text/javascript" src="<?= $url;?>assets/js/actions_pages/index.js"></script>
+  <script type="text/javascript" src="<?= $url;?>assets/js/actions_pages/buy_cart.js"></script>
+  <script type="text/javascript" src="<?= $url;?>assets/js/actions_pages/remove.js"></script>
+  <script type="text/javascript" src="<?= $url;?>assets/js/actions_pages/customs.js"></script>
+  <script type="text/javascript" src="<?= $url;?>assets/js/actions_pages/language_currency.js"></script>
 </body>
 </html>

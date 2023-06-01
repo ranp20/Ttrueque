@@ -192,9 +192,12 @@ li {
   justify-content: space-evenly;
 }
 .contmodal-guide__content--tablinks__link{
-  display: table;
-  width: 20px;
-  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 35px;
+  width: 35px;
+  height: 35px;
   cursor: pointer;
   position: relative;
 }
@@ -213,14 +216,19 @@ li {
 }
 .contmodal-guide__content--tablinks__link span{
   background-color: #ddd;
-  padding: 0.5rem .8rem;
-  width: 20px;
-  height: 20px;
+  padding: 0;
+  min-width: 35px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
   text-decoration: none;
   color: #fff;
   font-size: 1.2rem;
   box-shadow: 0 0 0 3px #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 .contmodal-guide__content--tablinks__link.active span{
   background-color: #FB7904;
@@ -1528,7 +1536,6 @@ li {
   line-height: 1.35;
   margin-bottom: 0.35rem;
   position: relative;
-  left: -1.7rem;
 }
 .content-memb-ttrk > main > .content-memb-targets > .card-memb-item > h4{
   margin: 0 0 0.313rem 0;
@@ -1707,7 +1714,7 @@ li {
   transform: scale(.95);
 }
 /* MEDIAQUERIES - TABLA DE MEMBRESÍAS */
-@media screen and(max-width: 1024px){
+@media (max-width: 1024px){
   .content-memb-ttrk > main > .content-memb-targets > .card-memb-item{
     width: 45%;
   }

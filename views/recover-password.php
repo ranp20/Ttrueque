@@ -18,7 +18,7 @@ if (isset($_SESSION["user"])){
 		<div class="cont-form-rec">
 			<div class="c-sectMain__cAcco__cAcct--cLogo">
 				<a href="./" class="c-sectMain__cAcco__cAcct--cLogo--link">
-          <img src="img/logo/Login_Web-T-blue.svg" alt="logo_Ttrueque" class="img-fluid" width="100" height="100">
+          <img src="<?= $url;?>assets/img/logo/Login_Web-T-blue.svg" alt="logo_Ttrueque" class="img-fluid" width="100" height="100">
         </a>
 			</div>
 			<form class="cont-form-rec--form" method="POST" id="recover-pass">
@@ -28,7 +28,7 @@ if (isset($_SESSION["user"])){
 				<p id="msgrecover-pass2"></p>
 				<div class="cont-form-rec--form--control">
 					<div class="cont-form-rec--form--control--conticon">
-            <img src="img/iconos_home/home-login-mail.svg" class="img-fluid" alt="email_svg" width="100" height="100">
+            <img src="<?= $url;?>assets/img/iconos_home/home-login-mail.svg" class="img-fluid" alt="email_svg" width="100" height="100">
           </div>
 					<input type="text" name="mail-recover" class="cont-form-rec--form--control--input" required maxlength="200" placeholder="Correo electrónico o número de celular">
 				</div>
@@ -42,6 +42,6 @@ if (isset($_SESSION["user"])){
 			</form>
 		</div>
 	</div>
-	<script type="text/javascript" src="./js/actions_pages/recover_pass.js"></script>
+	<script type="text/javascript" src="<?= $url;?>assets/js/actions_pages/recover_pass.js"></script>
 </body>
 </html>

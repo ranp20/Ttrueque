@@ -1,27 +1,24 @@
 $(() => {
-  changesFilterandTnfoProds();
   load(1);
 });
 function load(page){
-  var tipo = $("#tipo").val();
-  var idcliente = $("#userid_cli").val();
-  var idtienda_filter = $("#idtienda_current").val();
-  var namestore = $("#tienda-cli_prod").val();
-  var parametros = {"store": namestore,"page":page};
+  var tipoCateg = $("#tipo").val();
+  var parametros = {"namecategory": tipoCateg,"page":page};
   $("#loader").fadeIn('slow');
   $.ajax({
-    url:'./views/pag_ProdsByNameStore.php',
+    url:'./views/pag_ProdsByNameCategory.php',
     method: 'POST',
     data: parametros,
     beforeSend: function(){
-      $("#loader").html("<img src='./img/Utilities/loader.gif'>");
+      $("#loader").html("<img src='./assets/img/Utilities/loader.gif'>");
     },
     success:function(data){
-      $(".filter_result").html(data).fadeIn('slow');
+      $("#filter_byNameCategory").html(data).fadeIn('slow');
       $("#loader").html("");
     }
   });
 }
+
 function msg_alert(i) {
   Swal.fire({
     position: "top-end",
@@ -33,7 +30,8 @@ function msg_alert(i) {
     toast: true,
   });
 }
-$(document).on("click", ".btn_addcart_strproducts", function (e) {
+
+$(document).on("click", ".button_add_cart_name_cat", function (e) {
   e.preventDefault();
   $("#cart-buy-list").html("");
 
@@ -110,22 +108,3 @@ function listProductsIntoCart() {
     });
   });
 }
-// ------------ SELECCIONAR UN ELEMENTO Y ACTIVAR LO SELECCIONADO - FILTRO DE PRODUCTOS
-function changesFilterandTnfoProds(){
-  let parentLinkFilter = $(".contain__cont--info--btnsiconsadap");
-  let LinksFilter = parentLinkFilter.find("a");
-  let itemsFilter = $(".c-sidebarLeft__filtericons");
-  parentLinkFilter.on("click", "a", function(){
-    var t = $(this);
-    var ind = t.index();
-    t.add(itemsFilter.eq(ind)).addClass("active").siblings().removeClass("active");
-  });
-}
-let filterprodbtn = document.querySelector("#ciconfilterprods");
-let infostorebtn = document.querySelector("#ciconinfostoreprods");
-filterprodbtn.addEventListener("click", e => {
-  if(e.target === filterprodbtn) filterprodbtn.classList.remove("active");
-});
-infostorebtn.addEventListener("click", e => {
-  if(e.target === infostorebtn) infostorebtn.classList.remove("active");
-});

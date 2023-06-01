@@ -2906,8 +2906,8 @@
 /*      PAGE -  header_b           */
 /*****************************************/
 /* BACKGROUNDS NAV-BAR AND SIDEBARLEFT */
-.nav-index-ttrq{background: var(--primary-clr) !important;}
-.nav-index-ttrq-collapse{background: var(--primary-clr) !important;}
+#contain-index-nav-ttrk.nav-index-ttrq{background: var(--primary-clr) !important;}
+#contain-index-nav-ttrk.nav-index-ttrq-collapse{background: var(--primary-clr) !important;}
 /* MENÚ DE CATEGORÍAS */
 .list-all-categories-into-ttrq{  position: relative;  display: flex;  align-items: center;  justify-content: flex-start;  width: 100%;  height: 100%;}
 .header_b_second-div > .container > #principal-home1 > div:nth-child(2){  position: relative;}
@@ -3154,8 +3154,8 @@ li .language_icon_header_b-ttrq .icon-language_ttrq ul li button div {  backgrou
 .content-all-countries-naside > button.dropdown-item{transition: none;}
 .content-all-countries-naside > button.dropdown-item:hover{background-color: #99a0a8;}
 /* LOGO DE TTRUEQUE */
-.cont-logo-ttrq-nav{padding: 0;margin: 0 2rem 0 0 !important;}
-.cont-logo-ttrq-nav img{width: 115px;}
+#contain-index-nav-ttrk .cont-logo-ttrq-nav{padding: 0;margin: 0 2rem 0 0 !important;}
+#contain-index-nav-ttrk .cont-logo-ttrq-nav img{width: 115px;}
 /* PAISES */
 .content-all-countries-naside{min-width: 55px !important;left: 71px !important;top: 33px;}
 .content-all-countries-naside > button.dropdown-item{padding: 0.5rem .2rem;margin: 0 0 0 0;text-align: center;display: flex;align-items: center;justify-content: center;}
@@ -3211,7 +3211,7 @@ li .language_icon_header_b-ttrq .icon-language_ttrq ul li button div {  backgrou
 }
 /* NEW STYLES INTO NAVBAR */
 /* ICONO DE HOME PARA IR A LA VISTA PRINCIPAL EN TTRUEQUE */
-#icon-homevisiblenoun{
+#contain-index-nav-ttrk #icon-homevisiblenoun{
   display: none;
   width: 42px;
   height: 38px;
@@ -3221,19 +3221,19 @@ li .language_icon_header_b-ttrq .icon-language_ttrq ul li button div {  backgrou
   text-align: center;
   border-radius: 4px;
 }
-#icon-homevisiblenoun:hover,
-#icon-homevisiblenoun:active{
+#contain-index-nav-ttrk #icon-homevisiblenoun:hover,
+#contain-index-nav-ttrk #icon-homevisiblenoun:active{
   background-color: #fff;
 }
-#icon-homevisiblenoun:hover svg{
+#contain-index-nav-ttrk #icon-homevisiblenoun:hover svg{
   fill: var(--primary-clr);
 }
 @media (min-width:  1024px){
-  #icon-homevisiblenoun{
+  #contain-index-nav-ttrk #icon-homevisiblenoun{
     order: 0;
     display: inline-block;
   }
-  #icon-homevisiblenoun svg{
+  #contain-index-nav-ttrk #icon-homevisiblenoun svg{
     fill: #fff;
     position: relative;
     top: -2px;

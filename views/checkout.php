@@ -100,14 +100,14 @@ $country_byid = $c->get_countries_by_idcountry($cli_id[0]['pais']);
     </div>
   </main>
   <?php require_once 'footer.php';?>
-  <div  id="toTopgobtn"></div>
-  <script type="text/javascript" src="./js/main.js"></script>
-  <script type="text/javascript" src="./js/actions_pages/checkout-product.js"></script>
-  <script type="text/javascript" src="./js/actions_pages/language_currency.js"></script>
-  <script type="text/javascript" src="js/actions_pages/buy_cart.js"></script>
-  <script type="text/javascript" src="./js/actions_pages/view_cart.js"></script>
-  <script type="text/javascript" src="./js/actions_pages/remove.js"></script>
-  <script type="text/javascript" src="js/actions_pages/all_pages_index.js"></script>
-  <script type="text/javascript" src="js/actions_pages/listCategories_ByStore.js"></script>
+  <div id="toTopgobtn"></div>
+  <script type="text/javascript" src="<?= $url;?>assets/js/main.js"></script>
+  <script type="text/javascript" src="<?= $url;?>assets/js/actions_pages/checkout-product.js"></script>
+  <script type="text/javascript" src="<?= $url;?>assets/js/actions_pages/language_currency.js"></script>
+  <script type="text/javascript" src="<?= $url;?>assets/js/actions_pages/buy_cart.js"></script>
+  <script type="text/javascript" src="<?= $url;?>assets/js/actions_pages/view_cart.js"></script>
+  <script type="text/javascript" src="<?= $url;?>assets/js/actions_pages/remove.js"></script>
+  <script type="text/javascript" src="<?= $url;?>assets/js/actions_pages/all_pages_index.js"></script>
+  <script type="text/javascript" src="<?= $url;?>assets/js/actions_pages/listCategories_ByStore.js"></script>
 </body>
 </html>

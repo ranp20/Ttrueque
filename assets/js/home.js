@@ -94,11 +94,12 @@ $(() => {
   $(document).on("click", "*[data-toggle='collapse']", function(){
     let t = $(this);
     let tNext = $(this).next();
+    let tParent = $(this).parent();
     let tIcon = $(this).find(".arrow-icon");
     let ind = $(this).parent().index();
     let siblings = $(this).parent().siblings().find("*[data-toggle='collapse']");
     // FORMA #1
-    t.eq(ind).add(t).add(tNext).toggleClass("show").parent().siblings().add(siblings).add(siblings.next()).removeClass("show");
+    t.eq(ind).add(t).add(tNext).add(tParent).toggleClass("show").parent().siblings().add(siblings).add(siblings.next()).removeClass("show");
     t.parent().siblings().removeClass("selected");
     // FORMA #2
     // t.eq(ind).add(t).toggleClass("show").parent().siblings().add(siblings).add(siblings).removeClass("show");

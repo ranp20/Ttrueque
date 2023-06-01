@@ -36,7 +36,7 @@ if(!isset($tienda[1][0]["id_menbresia"])){
                 <a href="./orders_v.php" class="bcontent-btns-top--m--link">
                   <li class="bcontent-btns-top--m--item">
                     <div class="bcontent-btns-top--m--item--cImg">
-                      <img src="images/utilities/products_into_pedidos.jpeg" alt="" >
+                      <img src="<?=$url_shop;?>images/utilities/products_into_pedidos.jpeg" alt="" >
                     </div>
                     <div class="bcontent-btns-top--m--item--cDesc">
                       <h4 id="cont-orders-numbs" class="bcontent-btns-top--m--item--cDesc--conttotal">0</h4>
@@ -48,7 +48,7 @@ if(!isset($tienda[1][0]["id_menbresia"])){
                 <a href="./products_v.php" class="bcontent-btns-top--m--link">
                   <li class="bcontent-btns-top--m--item">
                     <div class="bcontent-btns-top--m--item--cImg">
-                      <img src="images/utilities/products_into_compras.jpeg" alt="" >
+                      <img src="<?=$url_shop;?>images/utilities/products_into_compras.jpeg" alt="" >
                     </div>
                     <div class="bcontent-btns-top--m--item--cDesc">
                       <h4 id="cont-salesreport-numbs" class="bcontent-btns-top--m--item--cDesc--conttotal">0</h4>
@@ -121,10 +121,10 @@ if(!isset($tienda[1][0]["id_menbresia"])){
       </main>
     </section>
   </div>
-  <script type="text/javascript" src="js/sidebar-left.js"></script>
-  <script type="text/javascript" src="js/customs.js"></script>
-  <script type="text/javascript" src="js/dashboard.js"></script>
-  <script type="text/javascript" src="js/ordenes_pedidos.js"></script>
-  <script type="text/javascript" src="js/informe_ventas.js"></script>
+  <script type="text/javascript" src="<?=$url_shop?>js/sidebar-left.js"></script>
+  <script type="text/javascript" src="<?=$url_shop?>js/customs.js"></script>
+  <script type="text/javascript" src="<?=$url_shop?>js/dashboard.js"></script>
+  <script type="text/javascript" src="<?=$url_shop?>js/ordenes_pedidos.js"></script>
+  <script type="text/javascript" src="<?=$url_shop?>js/informe_ventas.js"></script>
 </body>
 </html>

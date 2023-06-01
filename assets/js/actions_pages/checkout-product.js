@@ -10,6 +10,7 @@ function process_checkout(){
     method: "POST",
     dataType: "JSON",
   }).done((e) => {
+    // console.log(e);
     $.each(e, function(i, v) {
       //VALORES A INSERTAR...
       $("#name-store").html(v.name_store);
@@ -129,7 +130,7 @@ $(document).on("click", ".btn-checkout", function (e) {
                 <div class="content-msg-success-pay">
                   <div class="cont-confirm-img-check">
                     <div class="cont-img-msg-success-p">
-                      <img src="./img/gifs/animate_gif_ttrueque_confirm.gif" alt="confirm-checkout-check" width="100px">
+                      <img src="./assets/img/gifs/animate_gif_ttrueque_confirm.gif" alt="confirm-checkout-check" width="100px">
                     </div>
                     <p>Se realizó con éxito el pago</p>
                   </div>

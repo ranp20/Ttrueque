@@ -38,11 +38,11 @@
 					<div class='contain__cont--info'>
 						<div class='contain__cont--info--btnsiconsadap'>
 							<a href='#ciconfilterprods' class='contain__cont--info--btnsiconsadap--icon'>
-								<img src='./img/iconos_index/svg_icon_filter.svg' alt=''>
+								<img src='{$url}assets/img/iconos_index/svg_icon_filter.svg' alt=''>
 								<span>Filtrar</span>
 							</a>
 							<a href='#ciconinfostoreprods' class='contain__cont--info--btnsiconsadap--icon'>
-								<img src='./img/iconos_index/svg_icon_info.svg' alt=''>
+								<img src='{$url}assets/img/iconos_index/svg_icon_info.svg' alt=''>
 								<span>Info. Store</span>
 							</a>
 						</div>
@@ -65,19 +65,19 @@
 									<span class='contain__cont--info--strinfo--cPhoto--namestr'>{$storename}</span>
 								</div>
 								<div class='contain__cont--info--strinfo--section'>
-									<img class='contain__cont--info--strinfo--section--icon' src='./img/iconos_index/jpg_icon_home.jpg' alt=''>
+									<img class='contain__cont--info--strinfo--section--icon' src='{$url}assets/img/iconos_index/jpg_icon_home.jpg' alt=''>
 									<span class='contain__cont--info--strinfo--section--desc'>{$listinfoByName[0]['direccion_cliente']}</span>
 								</div>
 								<div class='contain__cont--info--strinfo--section'>
-									<img class='contain__cont--info--strinfo--section--icon' src='./img/iconos_index/jpg_icon_call.jpg' alt=''>
+									<img class='contain__cont--info--strinfo--section--icon' src='{$url}assets/img/iconos_index/jpg_icon_call.jpg' alt=''>
 									<span class='contain__cont--info--strinfo--section--desc'>{$listinfoByName[0]['telefono']}</span>
 								</div>
 								<div class='contain__cont--info--strinfo--section'>
-									<img class='contain__cont--info--strinfo--section--icon' src='./img/iconos_index/jpg_icon_phone.jpg' alt=''>
+									<img class='contain__cont--info--strinfo--section--icon' src='{$url}assets/img/iconos_index/jpg_icon_phone.jpg' alt=''>
 									<span class='contain__cont--info--strinfo--section--desc'>{$listinfoByName[0]['telefono']}</span>
 								</div>
 								<div class='contain__cont--info--strinfo--section'>
-									<img class='contain__cont--info--strinfo--section--icon' src='./img/iconos_index/jpg_icon_email.jpg' alt=''>
+									<img class='contain__cont--info--strinfo--section--icon' src='{$url}assets/img/iconos_index/jpg_icon_email.jpg' alt=''>
 									<span class='contain__cont--info--strinfo--section--desc'>{$listinfoByName[0]['email_cliente']}</span>								
 								</div>
 							</div>
@@ -85,7 +85,7 @@
 					</div>
 					<div class='contain__cont--products'>
 						<div id='loader' class='contain__cont--products--loader'> 
-							<img src='./img/Utilities/loader.gif'>
+							<img src='{$url}assets/img/Utilities/loader.gif'>
 						</div>
 						<div class='filter_result'></div>
 					</div>
