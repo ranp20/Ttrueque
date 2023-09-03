@@ -107,4 +107,33 @@ $(() => {
   });
   // ------------ BOTÓN DE RETORNO A LA PÁGINA ANTERIOR LUEGO DE INICIAR SESIÓN
   $(document).on("click", "#c-BtnsvalidUserexists a", function(e){e.preventDefault();window.history.back();});
+  // ------------ CAMBIAR ENTRE TEMAS - LIGHT/DARK
+	const $btn = document.querySelector("#darkmode-toggle");
+  const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");  
+	$(document).on("click","#darkmode-toggle",function(){
+		if(prefersDarkScheme.matches){
+			if($(this).is(':checked')){
+				if($('body').hasClass('dark-theme')){
+					$('body').removeClass('dark-theme');
+					$('body').addClass('light-theme');
+					var theme = $('body').hasClass("dark-theme") ? "dark" : "light";
+				}else{
+					$('body').removeClass('light-theme');
+					$('body').addClass('dark-theme');
+					var theme = $('body').hasClass("dark-theme") ? "dark" : "light";
+				}
+			}else{
+				if($('body').hasClass('dark-theme')){
+					$('body').removeClass('dark-theme');
+					$('body').addClass('light-theme');
+					var theme = $('body').hasClass("dark-theme") ? "dark" : "light";
+				}else{
+					$('body').removeClass('light-theme');
+					$('body').addClass('dark-theme');
+					var theme = $('body').hasClass("dark-theme") ? "dark" : "light";
+				}
+			}
+		}
+		document.cookie = "prjTtrueque-theme=" + theme;
+	});
 });

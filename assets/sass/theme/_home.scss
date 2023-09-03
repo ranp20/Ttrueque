@@ -34,7 +34,8 @@ $max-height-banner-desktop: 665px;
 	}
 	/* HOME - NAVIGATION */
 	&__nav{
-		background: $theme-clr-primary;
+		// background: $theme-clr-primary;
+		background: var(--bg-header-nav-main);
 		color: #fff;
 		position: fixed;
 		top: 0;
@@ -44,6 +45,7 @@ $max-height-banner-desktop: 665px;
     min-height: $min-height-header;
     max-height: $min-height-header;
     height: $min-height-header;
+		transition: all ease-in-out .4s;
 		@media (min-width: 480px){
 			padding: 0.8rem 1rem;
 		}
